@@ -1,0 +1,103 @@
+# ============================================================
+# FOMC Sentiment Pipeline — Default Configuration
+# ============================================================
+
+# --- Model ---
+model:
+  name: "mistralai/Mistral-7B-Instruct-v0.3"
+  max_seq_length: 256          # FOMC sentences are short; bump to 512 for paragraphs
+  trust_remote_code: false
+
+# --- Quantization (QLoRA) ---
+quantization:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"   # NF4 is optimal for normally-distributed weights
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true  # Double quantization saves ~0.4GB
+
+# --- LoRA ---
+lora:
+  r: 8                          # Rank — Optuna will search {4, 8, 16, 32}
+  lora_alpha: 16                # Scaling factor — typically 2*r
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "SEQ_CLS"          # Sequence classification
+  target_modules:               # All linear layers per Dettmers et al.
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+# --- Classification Labels ---
+labels:
+  # Branch 1: Forward Guidance
+  forward_guidance:
+    - "odyssean_hawkish"
+    - "odyssean_dovish"
+    - "delphic_hawkish"
+    - "delphic_dovish"
+    - "neutral"
+
+  # Branch 2: Economic Sentiment
+  economic_sentiment:
+    topics:
+      - "inflation"
+      - "labor"
+      - "gdp_output"
+      - "financial_conditions"
+    intensity:                  # Ordinal scale for asymmetric tail risk
+      - "strongly_negative"     # -2
+      - "negative"              # -1
+      - "neutral"               #  0
+      - "positive"              #  1
+      - "strongly_positive"     #  2
+
+# --- Training ---
+training:
+  num_epochs: 5
+  per_device_train_batch_size: 8   # Safe for 16GB VRAM with QLoRA
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 2   # Effective batch size = 16
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+  logging_steps: 10
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  load_best_model_at_end: true
+  metric_for_best_model: "f1_macro"
+  fp16: false
+  bf16: true                     # RTX 4070 Ti Super supports bf16
+
+# --- Optuna Hyperparameter Search ---
+optuna:
+  n_trials: 30
+  search_space:
+    lora_r: [4, 8, 16, 32]
+    lora_alpha_multiplier: [1, 2]  # alpha = r * multiplier
+    lora_dropout: [0.0, 0.05, 0.1]
+    learning_rate:
+      low: 1.0e-4
+      high: 5.0e-4
+      log: true
+    per_device_train_batch_size: [4, 8, 16]
+
+# --- Active Learning ---
+active_learning:
+  seed_size: 300                   # Initial hand-labelled set
+  query_size: 80                   # Sentences to label per cycle
+  max_cycles: 4
+  strategy: "entropy"              # Options: entropy, margin, least_confidence
+  holdout_crisis_episodes: true    # Separate validation for GFC/COVID sentences
+
+# --- Paths ---
+paths:
+  data_raw: "data/raw"
+  data_labels: "data/labels"
+  data_processed: "data/processed"
+  model_output: "models"
+  logs: "logs"

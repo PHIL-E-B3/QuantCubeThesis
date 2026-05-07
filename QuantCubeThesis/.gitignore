@@ -1,0 +1,48 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Models & checkpoints (too large for git)
+models/*
+!models/.gitkeep
+
+# Data (raw FOMC + processed datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Labels are version-controlled (small CSV/JSON)
+# data/labels/ is NOT ignored
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+logs/
+wandb/
+runs/
+*.log
+
+# Secrets
+.env
