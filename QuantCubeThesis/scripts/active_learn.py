@@ -46,26 +46,29 @@ def main():
     model_name = config["model"]["name"]
 
     learner = ActiveLearner(
-        all_sentences_path=os.path.join(config["paths"]["data_processed"], "fomc_sentences.csv"),
-        labels_path=os.path.join(config["paths"]["data_labels"], "labels.csv"),
+        all_sentences_path=os.path.join(config["paths"]["data_processed"], "fomc_sentences.json"),
+        labels_path=os.path.join(config["paths"]["data_labels"], "labels.json"),
         output_dir=os.path.join(config["paths"]["data_labels"], "active_learning"),
+        primary_label=primary,
         query_size=al_config["query_size"],
         strategy=al_config["strategy"],
         holdout_crisis=al_config["holdout_crisis_episodes"],
     )
 
+    primary = config.get("primary_label", "sen")
+    all_maps = create_label_maps(config)
+    label_map = all_maps[primary]
+    id2label = {v: k for k, v in label_map.items()}
+
     if args.select:
         # Load current model for uncertainty scoring
         adapter_path = args.adapter_path or os.path.join(
-            config["paths"]["model_output"], "forward_guidance", "final_adapter"
+            config["paths"]["model_output"], primary, "final_adapter"
         )
-
-        fg_map, _ = create_label_maps(config)
-        id2label = {v: k for k, v in fg_map.items()}
 
         lora_config = get_lora_config()  # defaults
         model, tokenizer = load_model_and_tokenizer(
-            model_name, len(fg_map), fg_map, id2label, lora_config,
+            model_name, len(label_map), label_map, id2label, lora_config,
         )
 
         # Load trained adapter weights
@@ -84,22 +87,20 @@ def main():
         candidates_path = os.path.join(
             config["paths"]["data_labels"],
             "active_learning",
-            f"candidates_cycle_{args.cycle:02d}.csv",
+            f"candidates_cycle_{args.cycle:02d}.json",
         )
         learner.integrate_new_labels(candidates_path)
 
     if args.retrain:
         print("\n=== Retraining on expanded label set ===")
-        fg_map, _ = create_label_maps(config)
-        id2label = {v: k for k, v in fg_map.items()}
-        df = load_labels(os.path.join(config["paths"]["data_labels"], "labels.csv"))
+        df = load_labels(os.path.join(config["paths"]["data_labels"], "labels.json"))
 
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
 
         dataset = build_classification_dataset(
-            df, tokenizer, "forward_guidance", fg_map,
+            df, tokenizer, primary, label_map,
             max_length=config["model"]["max_seq_length"],
         )
 

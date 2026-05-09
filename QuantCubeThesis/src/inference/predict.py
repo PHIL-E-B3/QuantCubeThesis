@@ -90,21 +90,18 @@ class FOMCPredictor:
 
     def _compute_hd_weights(self):
         """
-        Assign numeric hawk/dove weights to each label.
-        Positive = hawkish, Negative = dovish, 0 = neutral.
-        """
-        weight_map = {
-            "odyssean_hawkish": 1.0,
-            "delphic_hawkish": 0.6,
-            "neutral": 0.0,
-            "delphic_dovish": -0.6,
-            "odyssean_dovish": -1.0,
+        Assign numeric sentiment weights to each label for the continuous score.
+        Positive = hawkish/tightening, Negative = dovish/easing, 0 = neutral.
 
-            # For intensity labels
-            "strongly_positive": 1.0,
-            "positive": 0.5,
-            "negative": -0.5,
-            "strongly_negative": -1.0,
+        Update this map once you have finalised your label values in the config.
+        Any label not listed here defaults to 0.0 (neutral).
+        """
+        weight_map: Dict[str, float] = {
+            # --- Fill in once your 'sen' label values are defined ---
+            # Example (replace with your actual values):
+            # "hawkish": 1.0,
+            # "neutral": 0.0,
+            # "dovish": -1.0,
         }
         self.hd_weights = {}
         for idx, label in self.id2label.items():
@@ -173,7 +170,7 @@ class FOMCPredictor:
         """
         results = []
         for s in sentences:
-            dist = self.predict_sentence(s["text"], s.get("sentence_id", ""))
+            dist = self.predict_sentence(s["sentence"], s.get("id", ""))
             results.append(dist)
 
         # ── Aggregate to statement level ────────────────────────

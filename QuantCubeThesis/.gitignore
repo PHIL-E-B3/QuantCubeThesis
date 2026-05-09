@@ -22,6 +22,9 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
+# Unlabelled pool is too large for git (73MB+)
+data/all_unlabelled_sentences/master_unlabelled_pool.json
+
 # Labels are version-controlled (small CSV/JSON)
 # data/labels/ is NOT ignored
 

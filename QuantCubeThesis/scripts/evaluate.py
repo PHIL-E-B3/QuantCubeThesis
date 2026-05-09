@@ -25,7 +25,8 @@ def main():
     parser = argparse.ArgumentParser(description="Evaluate FOMC Sentiment Model")
     parser.add_argument("--config", type=str, default="configs/default.yaml")
     parser.add_argument("--adapter-path", type=str, required=True)
-    parser.add_argument("--task", type=str, default="forward_guidance")
+    parser.add_argument("--task", type=str, default="sen",
+                        choices=["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid"])
     parser.add_argument("--output-dir", type=str, default="models/evaluation")
     args = parser.parse_args()
 
@@ -33,27 +34,24 @@ def main():
         config = yaml.safe_load(f)
 
     model_name = config["model"]["name"]
-    fg_map, intensity_map = create_label_maps(config)
+    all_maps = create_label_maps(config)
 
-    if args.task == "forward_guidance":
-        label_map = fg_map
-        label_column = "forward_guidance"
-    else:
-        label_map = intensity_map
-        label_column = "econ_intensity"
+    if args.task not in all_maps:
+        raise ValueError(f"Task '{args.task}' has no values defined in config labels.")
 
+    label_map = all_maps[args.task]
     id2label = {v: k for k, v in label_map.items()}
     label_names = [id2label[i] for i in range(len(id2label))]
 
     # Load test data
-    labels_path = os.path.join(config["paths"]["data_labels"], "labels.csv")
+    labels_path = os.path.join(config["paths"]["data_labels"], "labels.json")
     df = load_labels(labels_path)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
     dataset = build_classification_dataset(
-        df, tokenizer, label_column, label_map,
+        df, tokenizer, args.task, label_map,
         max_length=config["model"]["max_seq_length"],
     )
 

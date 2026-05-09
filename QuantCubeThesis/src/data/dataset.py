@@ -17,39 +17,52 @@ from sklearn.model_selection import train_test_split
 
 def load_labels(labels_path: str) -> pd.DataFrame:
     """
-    Load hand-labelled data.
+    Load hand-labelled data from a JSON file.
 
-    Expected CSV columns:
-        sentence_id, text, forward_guidance, fg_uncertainty,
-        econ_topic, econ_intensity, [optional: notes]
-
-    forward_guidance:  odyssean_hawkish | odyssean_dovish |
-                       delphic_hawkish  | delphic_dovish  | neutral
-    fg_uncertainty:    low | medium | high
-    econ_topic:        inflation | labor | gdp_output |
-                       financial_conditions | none
-    econ_intensity:    strongly_negative | negative | neutral |
-                       positive | strongly_positive | none
+    Required fields per record: id, sentence
+    Label fields (abbreviated): top, ten, sen, dir, com, hor, con, dom, ris, wid
     """
-    df = pd.read_csv(labels_path)
+    import json
+    with open(labels_path, encoding="utf-8") as f:
+        records = json.load(f)
+    df = pd.DataFrame(records)
 
-    required_cols = ["sentence_id", "text", "forward_guidance"]
+    required_cols = ["id", "sentence"]
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
-        raise ValueError(f"Missing required columns: {missing}")
+        raise ValueError(f"Missing required fields: {missing}")
 
     return df
 
 
-def create_label_maps(config: dict) -> Tuple[Dict[str, int], Dict[str, int]]:
-    """Create label-to-id mappings from config."""
-    fg_labels = config["labels"]["forward_guidance"]
-    fg_map = {label: i for i, label in enumerate(fg_labels)}
+# Mapping from abbreviated field names to human-readable names
+LABEL_FIELDS = {
+    "top": "topic",
+    "ten": "tense",
+    "sen": "sentiment",
+    "dir": "direction",
+    "com": "commitment",
+    "hor": "horizon",
+    "con": "condition_referenced",
+    "dom": "dominant_topic",
+    "ris": "risk_balance",
+    "wid": "width",
+}
 
-    intensity_labels = config["labels"]["economic_sentiment"]["intensity"]
-    intensity_map = {label: i for i, label in enumerate(intensity_labels)}
 
-    return fg_map, intensity_map
+def create_label_maps(config: dict) -> Dict[str, Dict[str, int]]:
+    """
+    Build label-to-id mappings for all label dimensions from config.
+
+    Returns:
+        Dict mapping each abbreviated field name to its {label_str: int} map.
+        e.g. {"sen": {"hawkish": 0, "dovish": 1, ...}, "top": {...}, ...}
+    """
+    return {
+        field: {label: i for i, label in enumerate(values)}
+        for field, values in config["labels"].items()
+        if values  # skip fields with empty value lists
+    }
 
 
 def build_classification_dataset(
@@ -66,7 +79,7 @@ def build_classification_dataset(
     Build a HuggingFace DatasetDict from labelled DataFrame.
 
     Args:
-        df: DataFrame with 'text' and label_column columns.
+        df: DataFrame with 'sentence' and label_column columns.
         tokenizer: Pre-loaded tokenizer.
         label_column: Column name containing the labels.
         label_map: Mapping from label strings to integer IDs.
@@ -104,7 +117,7 @@ def build_classification_dataset(
     print(f"Split sizes — train: {len(train_df)}, val: {len(val_df)}, test: {len(test_df)}")
 
     def tokenize_split(split_df: pd.DataFrame) -> Dataset:
-        texts = split_df["text"].tolist()
+        texts = split_df["sentence"].tolist()
         labels = split_df["label"].tolist()
 
         encodings = tokenizer(
@@ -131,30 +144,44 @@ def build_classification_dataset(
 def build_multitask_dataset(
     df: pd.DataFrame,
     tokenizer: AutoTokenizer,
-    fg_map: Dict[str, int],
-    intensity_map: Dict[str, int],
+    label_maps: Dict[str, Dict[str, int]],
+    label_fields: Optional[List[str]] = None,
     max_length: int = 256,
 ) -> Dataset:
     """
     Build a dataset with multiple label columns for multi-task learning.
-    Each sample has both a forward_guidance label and an econ_intensity label.
-    Useful for joint training or for comparing single-task vs multi-task.
-    """
-    df = df.copy()
-    df["fg_label"] = df["forward_guidance"].map(fg_map).fillna(-1).astype(int)
-    df["intensity_label"] = df.get("econ_intensity", pd.Series()).map(
-        intensity_map
-    ).fillna(-1).astype(int)
+    Each sample gets an integer label for every requested field.
 
-    texts = df["text"].tolist()
+    Args:
+        df: Labelled DataFrame with 'sentence' and abbreviated label columns.
+        tokenizer: Pre-loaded tokenizer.
+        label_maps: Full maps dict from create_label_maps() —
+                    {field: {label_str: int}}.
+        label_fields: Which fields to include (defaults to all in label_maps).
+        max_length: Maximum token sequence length.
+    """
+    if label_fields is None:
+        label_fields = list(label_maps.keys())
+
+    df = df.copy()
+    for field in label_fields:
+        col = f"{field}_label"
+        if field in df.columns:
+            df[col] = df[field].map(label_maps[field]).fillna(-1).astype(int)
+        else:
+            df[col] = -1
+
+    texts = df["sentence"].tolist()
     encodings = tokenizer(
         texts, padding="max_length", truncation=True,
         max_length=max_length, return_tensors="pt",
     )
 
-    return Dataset.from_dict({
+    out = {
         "input_ids": encodings["input_ids"],
         "attention_mask": encodings["attention_mask"],
-        "fg_label": df["fg_label"].tolist(),
-        "intensity_label": df["intensity_label"].tolist(),
-    })
+    }
+    for field in label_fields:
+        out[f"{field}_label"] = df[f"{field}_label"].tolist()
+
+    return Dataset.from_dict(out)

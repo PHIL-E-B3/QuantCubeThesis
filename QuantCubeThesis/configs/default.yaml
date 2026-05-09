@@ -32,28 +32,22 @@ lora:
     - "down_proj"
 
 # --- Classification Labels ---
+# Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
-  # Branch 1: Forward Guidance
-  forward_guidance:
-    - "odyssean_hawkish"
-    - "odyssean_dovish"
-    - "delphic_hawkish"
-    - "delphic_dovish"
-    - "neutral"
+  top: []   # topic — fill in valid values
+  ten: []   # tense — fill in valid values
+  sen: []   # sentiment — fill in valid values
+  dir: []   # direction — fill in valid values
+  com: []   # commitment — fill in valid values
+  hor: []   # horizon — fill in valid values
+  con: []   # condition_referenced — fill in valid values
+  dom: []   # dominant_topic — fill in valid values
+  ris: []   # risk_balance — fill in valid values
+  wid: []   # width — fill in valid values
 
-  # Branch 2: Economic Sentiment
-  economic_sentiment:
-    topics:
-      - "inflation"
-      - "labor"
-      - "gdp_output"
-      - "financial_conditions"
-    intensity:                  # Ordinal scale for asymmetric tail risk
-      - "strongly_negative"     # -2
-      - "negative"              # -1
-      - "neutral"               #  0
-      - "positive"              #  1
-      - "strongly_positive"     #  2
+# Which label field to use as the primary classification target
+# (used by active_learn.py for uncertainty sampling)
+primary_label: "sen"
 
 # --- Training ---
 training:
@@ -99,5 +93,7 @@ paths:
   data_raw: "data/raw"
   data_labels: "data/labels"
   data_processed: "data/processed"
+  unlabelled_pool: "data/all_unlabelled_sentences/master_unlabelled_pool.json"
+  seed_sentences: "data/initial_training_seed_sentences"
   model_output: "models"
   logs: "logs"

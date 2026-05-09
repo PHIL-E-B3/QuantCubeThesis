@@ -31,9 +31,9 @@ def main():
     parser = argparse.ArgumentParser(description="FOMC Sentiment QLoRA Training")
     parser.add_argument("--config", type=str, default="configs/default.yaml",
                         help="Path to config YAML")
-    parser.add_argument("--task", type=str, default="forward_guidance",
-                        choices=["forward_guidance", "econ_intensity"],
-                        help="Which classification task to train")
+    parser.add_argument("--task", type=str, default="sen",
+                        choices=["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid"],
+                        help="Which label field to train on (abbreviated field name)")
     parser.add_argument("--optuna", action="store_true",
                         help="Run Optuna hyperparameter search instead of single train")
     parser.add_argument("--baseline", action="store_true",
@@ -47,7 +47,7 @@ def main():
         config = yaml.safe_load(f)
 
     # Resolve paths
-    labels_path = args.labels or os.path.join(config["paths"]["data_labels"], "labels.csv")
+    labels_path = args.labels or os.path.join(config["paths"]["data_labels"], "labels.json")
     model_name = config["model"]["name"]
     max_length = config["model"]["max_seq_length"]
 
@@ -60,15 +60,16 @@ def main():
 
     # Load labels and create mappings
     df = load_labels(labels_path)
-    fg_map, intensity_map = create_label_maps(config)
+    all_maps = create_label_maps(config)
 
-    if args.task == "forward_guidance":
-        label_map = fg_map
-        label_column = "forward_guidance"
-    else:
-        label_map = intensity_map
-        label_column = "econ_intensity"
+    if args.task not in all_maps:
+        raise ValueError(
+            f"Task '{args.task}' has no valid values defined in config labels. "
+            f"Fill in configs/default.yaml labels.{args.task} first."
+        )
 
+    label_map = all_maps[args.task]
+    label_column = args.task
     id2label = {v: k for k, v in label_map.items()}
     num_labels = len(label_map)
 

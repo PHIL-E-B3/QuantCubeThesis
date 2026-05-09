@@ -33,23 +33,27 @@ class ActiveLearner:
         all_sentences_path: str,
         labels_path: str,
         output_dir: str,
+        primary_label: str = "sen",
         query_size: int = 80,
         strategy: str = "entropy",
         holdout_crisis: bool = True,
     ):
         """
         Args:
-            all_sentences_path: CSV with all parsed FOMC sentences.
-            labels_path: CSV with current hand-labelled data.
+            all_sentences_path: JSON with all parsed FOMC sentences.
+            labels_path: JSON with current hand-labelled data.
             output_dir: Where to save candidates and logs.
+            primary_label: Abbreviated label field used to check annotation completeness.
             query_size: How many sentences to select per cycle.
             strategy: Uncertainty measure — 'entropy', 'margin', or 'least_confidence'.
             holdout_crisis: Whether to flag GFC/COVID sentences separately.
         """
-        self.all_sentences = pd.read_csv(all_sentences_path)
+        with open(all_sentences_path, encoding="utf-8") as f:
+            self.all_sentences = pd.DataFrame(json.load(f))
         self.labels_path = labels_path
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        self.primary_label = primary_label
         self.query_size = query_size
         self.strategy = strategy
         self.holdout_crisis = holdout_crisis
@@ -60,14 +64,15 @@ class ActiveLearner:
     def _load_labels(self):
         """Load current labels and compute labelled/unlabelled split."""
         if os.path.exists(self.labels_path):
-            self.labelled = pd.read_csv(self.labels_path)
-            labelled_ids = set(self.labelled["sentence_id"])
+            with open(self.labels_path, encoding="utf-8") as f:
+                self.labelled = pd.DataFrame(json.load(f))
+            labelled_ids = set(self.labelled["id"])
         else:
             self.labelled = pd.DataFrame()
             labelled_ids = set()
 
         self.unlabelled = self.all_sentences[
-            ~self.all_sentences["sentence_id"].isin(labelled_ids)
+            ~self.all_sentences["id"].isin(labelled_ids)
         ].copy()
 
         print(f"Labelled: {len(self.labelled)} | Unlabelled: {len(self.unlabelled)}")
@@ -139,7 +144,7 @@ class ActiveLearner:
             print("No unlabelled sentences remaining!")
             return pd.DataFrame()
 
-        texts = self.unlabelled["text"].tolist()
+        texts = self.unlabelled["sentence"].tolist()
         scores = self.compute_uncertainty(model, tokenizer, texts, max_length)
 
         self.unlabelled["uncertainty_score"] = scores
@@ -166,30 +171,30 @@ class ActiveLearner:
         cycle: int,
     ) -> str:
         """
-        Export candidates to CSV for human annotation.
+        Export candidates to JSON for human annotation.
 
-        The CSV has columns for the annotator to fill in:
+        Each record includes the sentence metadata plus empty label fields
+        for the annotator to fill in:
         - forward_guidance
         - fg_uncertainty
         - econ_topic
         - econ_intensity
         - notes (optional)
         """
-        export_df = candidates[[
-            "sentence_id", "text", "statement_date", "chair_era",
-            "regime_hint", "uncertainty_score",
-        ]].copy()
+        keep_cols = [c for c in ["id", "sentence", "date", "doc_type", "source",
+                                  "regime_hint", "uncertainty_score"] if c in candidates.columns]
+        export_df = candidates[keep_cols].copy()
 
-        # Add empty columns for annotator
-        export_df["forward_guidance"] = ""
-        export_df["fg_uncertainty"] = ""
-        export_df["econ_topic"] = ""
-        export_df["econ_intensity"] = ""
-        export_df["notes"] = ""
+        # Add empty label fields for annotator
+        for field in ["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid", "notes"]:
+            if field not in export_df.columns:
+                export_df[field] = ""
 
-        filename = f"candidates_cycle_{cycle:02d}.csv"
+        records = export_df.to_dict(orient="records")
+        filename = f"candidates_cycle_{cycle:02d}.json"
         filepath = self.output_dir / filename
-        export_df.to_csv(filepath, index=False)
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
 
         # Log this cycle
         self.cycle_log.append({
@@ -202,7 +207,7 @@ class ActiveLearner:
         })
 
         log_path = self.output_dir / "active_learning_log.json"
-        with open(log_path, "w") as f:
+        with open(log_path, "w", encoding="utf-8") as f:
             json.dump(self.cycle_log, f, indent=2)
 
         print(f"\nCycle {cycle}: exported {len(candidates)} candidates to {filepath}")
@@ -214,12 +219,13 @@ class ActiveLearner:
     def integrate_new_labels(self, new_labels_path: str):
         """
         After human annotation, integrate new labels into the labelled set.
-        Call this with the path to the filled-in candidates CSV.
+        Call this with the path to the filled-in candidates JSON.
         """
-        new = pd.read_csv(new_labels_path)
+        with open(new_labels_path, encoding="utf-8") as f:
+            new = pd.DataFrame(json.load(f))
 
-        # Filter to only rows that were actually labelled
-        labelled_mask = new["forward_guidance"].notna() & (new["forward_guidance"] != "")
+        # Filter to only rows that were actually labelled (primary label field filled in)
+        labelled_mask = new[self.primary_label].notna() & (new[self.primary_label] != "")
         new_labelled = new[labelled_mask]
 
         if len(new_labelled) == 0:
@@ -232,7 +238,9 @@ class ActiveLearner:
         else:
             self.labelled = new_labelled.copy()
 
-        self.labelled.to_csv(self.labels_path, index=False)
+        records = self.labelled.to_dict(orient="records")
+        with open(self.labels_path, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
         self._load_labels()  # Refresh unlabelled set
 
         print(f"Integrated {len(new_labelled)} new labels. Total: {len(self.labelled)}")
