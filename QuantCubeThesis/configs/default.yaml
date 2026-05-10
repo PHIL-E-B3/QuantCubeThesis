@@ -2,18 +2,18 @@
 # FOMC Sentiment Pipeline — Default Configuration
 # ============================================================
 
-# --- Model --- 
+# --- Model ---
 model:
-  name: "mistralai/Mistral-7B-Instruct-v0.3"
-  max_seq_length: 256          # FOMC sentences are short; bump to 512 for paragraphs
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct"  # Llama 3.1
+  max_seq_length: 256          # Keep this exactly as we calculated!
   trust_remote_code: false
 
 # --- Quantization (QLoRA) ---
 quantization:
   load_in_4bit: true
-  bnb_4bit_quant_type: "nf4"   # NF4 is optimal for normally-distributed weights
+  bnb_4bit_quant_type: "nf4"   
   bnb_4bit_compute_dtype: "bfloat16"
-  bnb_4bit_use_double_quant: true  # Double quantization saves ~0.4GB
+  bnb_4bit_use_double_quant: true
 
 # --- LoRA ---
 lora:
