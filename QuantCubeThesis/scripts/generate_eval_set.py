@@ -44,7 +44,7 @@ import ijson
 ROOT      = Path(__file__).parent.parent
 POOL_PATH = ROOT / "data" / "all_unlabelled_sentences" / "master_unlabelled_pool.json"
 OUT_PATH  = ROOT / "data" / "eval_500_pseudolabelled.json"
-N_SAMPLE  = 500
+N_PER_DOC = 100   # samples per doc type  →  5 × 100 = 500 total
 SEED      = 42
 
 sys.path.insert(0, str(ROOT))
@@ -481,26 +481,30 @@ def stratified_sample(records: list, n: int, seed: int = SEED) -> list:
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    # ── Pass 1: compute fast strata keys ──────────────────────────────────────
+    # ── Pass 1: compute fast strata keys, grouped by doc_type ─────────────────
     print("Pass 1: streaming pool to compute strata keys ...")
-    strata_records = []
+    by_doc: dict[str, list] = defaultdict(list)
     with open(POOL_PATH, "rb") as f:
         for rec in ijson.items(f, "item"):
-            strata_records.append({
+            by_doc[rec.get("doc_type", "unknown")].append({
                 "id":     rec["id"],
                 "strata": fast_strata_key(rec.get("sentence", "")),
             })
-    print(f"  Total records in pool: {len(strata_records):,}")
 
-    strata_counts = defaultdict(int)
-    for r in strata_records:
-        strata_counts[r["strata"]] += 1
-    print(f"  Distinct strata cells: {len(strata_counts)}")
+    total_pool = sum(len(v) for v in by_doc.values())
+    print(f"  Total records in pool: {total_pool:,}")
+    for dt, recs in sorted(by_doc.items()):
+        print(f"    {dt:<35} {len(recs):>7,}")
 
-    # ── Stratified sampling ────────────────────────────────────────────────────
-    print(f"\nStratified sampling {N_SAMPLE} records ...")
-    selected_ids = set(stratified_sample(strata_records, N_SAMPLE))
-    print(f"  Selected {len(selected_ids)} unique IDs")
+    # ── Stratified sampling: 100 per doc type ─────────────────────────────────
+    print(f"\nStratified sampling {N_PER_DOC} records per doc type ...")
+    selected_ids: set[str] = set()
+    for dt, recs in sorted(by_doc.items()):
+        n = min(N_PER_DOC, len(recs))
+        chosen = stratified_sample(recs, n)
+        selected_ids.update(chosen)
+        print(f"  {dt:<35} → {len(chosen)} selected (pool={len(recs):,})")
+    print(f"  Total selected: {len(selected_ids)}")
 
     # ── Pass 2: collect + pseudo-label selected records ────────────────────────
     print("\nPass 2: collecting selected records and applying pseudo-labels ...")
@@ -535,13 +539,15 @@ if __name__ == "__main__":
 
     # ── Summary stats ──────────────────────────────────────────────────────────
     from collections import Counter
+    doc_dist = Counter(r["doc_type"] for r in eval_records)
+    print(f"\n── Records per doc type ────────────────────────────────────────────")
+    for dt, n in sorted(doc_dist.items()):
+        print(f"  {dt:<35} {n}")
+
     print("\n── Distribution of pseudo-labels ──────────────────────────────────")
     for field in ["sen", "dir", "ten", "com", "hor", "ris", "wid", "dom"]:
         counts = Counter(r[field] for r in eval_records)
         print(f"  {field:4s}: {dict(sorted(counts.items()))}")
-
-    doc_dist = Counter(r["doc_type"] for r in eval_records)
-    print(f"  doc_type: {dict(sorted(doc_dist.items()))}")
 
     # ── Save ───────────────────────────────────────────────────────────────────
     with open(OUT_PATH, "w", encoding="utf-8") as f:
