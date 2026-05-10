@@ -2,6 +2,7 @@ import os
 import re
 import json
 import uuid
+import ijson
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
@@ -375,11 +376,22 @@ def parse_flat_transcript(text):
     "YLAN MUI."). We slice on those tags, then classify each block as either
     part of the prepared remarks or one side of a Q&A exchange.
 
+    Rules:
+      - Everything spoken by the Chair before the first journalist appears is
+        prepared remarks, regardless of how many Chair blocks there are.
+      - Q&A begins at the first non-Chair speaker (named journalist OR the
+        anonymous "QUESTION" tag used in some transcripts).
+      - Once Q&A has started, Chair blocks with a pending journalist question
+        become Q&A answers; Chair blocks without one (consecutive Chair turns)
+        are kept as prepared remarks rather than being discarded.
+
     Returns:
-        prepared_text (str): The opening statement by the Chair.
-        qa_pairs (list[dict]): Each element has "question" (reporter text)
-                               and "answer" (Chair's response).
+        prepared_text (str): The Chair's opening statement.
+        qa_pairs (list[dict]): Each element has "question" and "answer".
     """
+    # Normalise the anonymous single-word tag so the 2-4 word regex can match it
+    text = re.sub(r'\bQUESTION\.\s+', 'JOURNALIST QUESTION. ', text)
+
     # Matches 2-4 words where the first is ALL-CAPS; handles names like "McGRANE"
     speaker_pattern = re.compile(r'\b([A-Z]{2,}(?:\s+[A-Z][a-zA-Z\-\']*){1,3})\.\s+')
     parts = speaker_pattern.split(text)
@@ -389,28 +401,35 @@ def parse_flat_transcript(text):
     prepared_remarks = []
     qa_pairs = []
     last_question_text = None
+    qa_started = False  # flips True at the first non-Chair speaker
 
     # parts[0] is any text before the first speaker tag
     intro = parts[0].strip()
     if intro:
         prepared_remarks.append(intro)
 
-    # Step through (speaker, content) pairs
     for i in range(1, len(parts), 2):
         speaker = parts[i].strip().upper()
         content = parts[i + 1].strip() if i + 1 < len(parts) else ""
 
         is_chair = any(official in speaker for official in FED_OFFICIALS)
 
-        if is_chair:
-            if last_question_text:
+        if not is_chair:
+            # First journalist (or QUESTION tag) — Q&A section starts here
+            qa_started = True
+            last_question_text = content
+        else:
+            if not qa_started:
+                # Still delivering prepared remarks
+                prepared_remarks.append(content)
+            elif last_question_text:
+                # Answering a journalist question
                 qa_pairs.append({"question": last_question_text, "answer": content})
                 last_question_text = None
             else:
+                # Consecutive Chair block in Q&A with no pending question
+                # (e.g. Chair adds unrequested follow-up) — keep as prepared
                 prepared_remarks.append(content)
-        else:
-            # Reporter turn — store as the next question
-            last_question_text = content
 
     return "\n\n".join(prepared_remarks), qa_pairs
 
@@ -553,7 +572,7 @@ def initialize_data_pipeline(all_raw_docs: list, preserved_unlabelled: list = No
 
     unlabelled_filename = UNLABELLED_DIR / "master_unlabelled_pool.json"
     with open(unlabelled_filename, 'w', encoding='utf-8') as f:
-        json.dump(combined_unlabelled, f, indent=2, ensure_ascii=False)
+        json.dump(combined_unlabelled, f, ensure_ascii=False)
 
     print(f"  -> Pool total: {len(combined_unlabelled)} sentences")
     print(f"     ({len(preserved_unlabelled)} preserved minutes + {len(new_unlabelled)} new)")
@@ -570,9 +589,11 @@ if __name__ == "__main__":
     preserved_unlabelled = []
     existing_pool_path = UNLABELLED_DIR / "master_unlabelled_pool.json"
     if existing_pool_path.exists():
-        with open(existing_pool_path, encoding="utf-8") as f:
-            existing_pool = json.load(f)
-        preserved_unlabelled = [r for r in existing_pool if r.get("doc_type") == "minutes"]
+        # Stream with ijson so we never load the full pool into memory
+        with open(existing_pool_path, 'rb') as f:
+            for record in ijson.items(f, 'item'):
+                if record.get('doc_type') == 'minutes':
+                    preserved_unlabelled.append(record)
         print(f"  Preserved {len(preserved_unlabelled)} minutes records from existing pool.")
     else:
         print("  No existing pool found — minutes unlabelled records will be empty.")
