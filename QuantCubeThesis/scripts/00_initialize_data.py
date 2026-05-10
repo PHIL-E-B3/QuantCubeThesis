@@ -381,7 +381,7 @@ def parse_flat_transcript(text):
                                and "answer" (Chair's response).
     """
     # Matches 2-4 words where the first is ALL-CAPS; handles names like "McGRANE"
-    speaker_pattern = re.compile(r'\b([A-Z]{2,}(?:\s+[A-Z][a-zA-Z.\-\']*){1,3})\.\s+')
+    speaker_pattern = re.compile(r'\b([A-Z]{2,}(?:\s+[A-Z][a-zA-Z\-\']*){1,3})\.\s+')
     parts = speaker_pattern.split(text)
 
     FED_OFFICIALS = {"POWELL", "BERNANKE", "YELLEN", "WARSH", "CHAIR", "CHAIRMAN"}
