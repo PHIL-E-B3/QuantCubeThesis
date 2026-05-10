@@ -57,7 +57,7 @@ def split_seed_files():
             output_path = DOWNLOADS_DIR / output_filename
             
             with open(output_path, 'w', encoding='utf-8') as f_out:
-                json.dump(chunk, f_out, indent=2)
+                json.dump(chunk, f_out, indent=2, ensure_ascii=False)
                 
         total_batches = math.ceil(total_records / CHUNK_SIZE)
         print(f"  ✅ Created {total_batches} files.\n")

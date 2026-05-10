@@ -2,7 +2,7 @@
 # FOMC Sentiment Pipeline — Default Configuration
 # ============================================================
 
-# --- Model ---
+# --- Model --- 
 model:
   name: "mistralai/Mistral-7B-Instruct-v0.3"
   max_seq_length: 256          # FOMC sentences are short; bump to 512 for paragraphs
@@ -19,7 +19,7 @@ quantization:
 lora:
   r: 8                          # Rank — Optuna will search {4, 8, 16, 32}
   lora_alpha: 16                # Scaling factor — typically 2*r
-  lora_dropout: 0.05
+  lora_dropout: 0.1
   bias: "none"
   task_type: "SEQ_CLS"          # Sequence classification
   target_modules:               # All linear layers per Dettmers et al.
@@ -34,17 +34,16 @@ lora:
 # --- Classification Labels ---
 # Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
-  top: []   # topic — fill in valid values
-  ten: []   # tense — fill in valid values
-  sen: []   # sentiment — fill in valid values
-  dir: []   # direction — fill in valid values
-  com: []   # commitment — fill in valid values
-  hor: []   # horizon — fill in valid values
-  con: []   # condition_referenced — fill in valid values
-  dom: []   # dominant_topic — fill in valid values
-  ris: []   # risk_balance — fill in valid values
-  wid: []   # width — fill in valid values
-
+  top: ["inflation", "employment", "economic_activity", "macro","financial_conditions", "monetary_policy", "no_topic", "boilerplate"] 
+  ten: ["backward", "present", "forward", "hypothetical", "none"] 
+  sen: ["-2", "-1", "0", "1", "2"] 
+  dir: ["very hawkish", "hawkish", "neutral", "dovish", "very dovish"] 
+  com: ["none", "conditional", "unconditional"] 
+  hor: ["na","short-term", "long-term"] 
+  con: ["inflation", "employment", "economic_activity", "macro","financial_conditions"] 
+  dom: ["inflation", "employment", "economic_activity", "macro","financial_conditions"] 
+  ris: ["na","skewed_downside", "symmetric", "skewed_upside"] 
+  wid: ["none", "contested", "elevated"]
 # Which label field to use as the primary classification target
 # (used by active_learn.py for uncertainty sampling)
 primary_label: "sen"
@@ -69,16 +68,23 @@ training:
 
 # --- Optuna Hyperparameter Search ---
 optuna:
-  n_trials: 30
+  n_trials: 50
+  sampler: TPE               # default, but explicit is good
+  pruner: 
+    type: MedianPruner       # kills bad trials early — critical on your GPU
+    n_startup_trials: 10     # random exploration before pruning kicks in
+    n_warmup_steps: 50       # steps before a trial can be pruned
+
   search_space:
-    lora_r: [4, 8, 16, 32]
-    lora_alpha_multiplier: [1, 2]  # alpha = r * multiplier
-    lora_dropout: [0.0, 0.05, 0.1]
+    lora_r: [2, 4, 8]
+    lora_alpha_multiplier: [1, 2]       # alpha = r * multiplier
+    lora_dropout: [0.05, 0.1, 0.2]     # dropped 0.0 — literature supports regularization
     learning_rate:
       low: 1.0e-4
       high: 5.0e-4
       log: true
-    per_device_train_batch_size: [4, 8, 16]
+    per_device_train_batch_size: [4, 8] # dropped 16 — OOM risk on 16GB with Mistral 7B
+    weight_decay: [0.01, 0.05, 0.1]    # AdamW weight decay — second regularization axis
 
 # --- Active Learning ---
 active_learning:

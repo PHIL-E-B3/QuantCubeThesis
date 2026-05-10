@@ -29,8 +29,16 @@ MAX_CONTEXT_CHARS = 1000
 CLAUDE_MODEL = "claude-opus-4-7"
 
 DEPENDENCY_STARTS = (
-    "however", "therefore", "thus",
-    "consequently", "as a result", "for example"
+    # Formal connectives (all doc types)
+    "however", "therefore", "thus", "consequently", "as a result", "for example",
+    # Epistemic + demonstrative pronoun (all doc types)
+    "i think they", "i think those", "i think these", "i think that",
+    "we think they", "we think those", "we think these", "we think that",
+)
+
+PC_DEPENDENCY_STARTS = DEPENDENCY_STARTS + (
+    # Informal connectives applied only to press conference text
+    "so ", "but ", "and ", "then ", "and then", "and so",
 )
 
 def setup_directories():
@@ -42,7 +50,12 @@ def setup_directories():
 # ── TEXT PROCESSING ──────────────────────────────────────────────────────────
 
 def clean_text(text):
-    # Fix common encoding bugs found in FOMC text
+    # Normalize Unicode curly quotes/dashes to plain ASCII
+    text = text.replace('’', "'").replace('‘', "'")
+    text = text.replace('“', '"').replace('”', '"')
+    text = text.replace('—', ' -- ').replace('–', '-')
+
+    # Fix mojibake encoding bugs found in FOMC text (UTF-8 read as Latin-1)
     text = text.replace('â€™', "'").replace('â€', "-")
 
     text = re.sub(
@@ -230,9 +243,10 @@ def is_boilerplate(sentence):
 
 # ── CHUNKING ENGINE ──────────────────────────────────────────────────────────
 
-def build_annotatable_records(text):
+def build_annotatable_records(text, is_conversational=False):
     records = []
     paragraphs = [p.strip() for p in text.split('\n\n') if p.strip()]
+    triggers = PC_DEPENDENCY_STARTS if is_conversational else DEPENDENCY_STARTS
 
     for para in paragraphs:
         all_sents_in_para = sent_tokenize(para)
@@ -245,7 +259,7 @@ def build_annotatable_records(text):
         for i in range(1, len(valid_sents)):
             sent = valid_sents[i]
             s_lower = sent.lower()
-            is_dependent = any(s_lower.startswith(trigger) for trigger in DEPENDENCY_STARTS)
+            is_dependent = any(s_lower.startswith(trigger) for trigger in triggers)
 
             if not is_dependent:
                 pattern = r'\b(?:this|that|these|those|such)\s+(outcome|goal|objective|development|progress|condition|measure|action|policy|purchase|assessment|view|stance|trend|event|effect|forecast|projection|risk|imbalance|strain)s?\b'
@@ -456,7 +470,8 @@ def process_docs(docs):
     all_records = []
     for doc in docs:
         clean = clean_text(doc["text"])
-        records = build_annotatable_records(clean)
+        is_pc = doc["doc_type"].startswith("press_conference")
+        records = build_annotatable_records(clean, is_conversational=is_pc)
         for r in records:
             all_records.append({
                 "sentence":         r["annotatable"],
