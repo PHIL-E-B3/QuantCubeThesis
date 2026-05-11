@@ -1,0 +1,286 @@
+[
+  {
+    "id": "8b59e121-ce5b-43a1-9cc6-61c46c76c8c6",
+    "sentence": "Then, later in the year, we intend to convene a modeling symposium to bring a broader array of voices into the discussion.",
+    "source": "Developing Tools for Dynamic Capital Supervision",
+    "doc_type": "speech",
+    "date": "2012-04-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7d0d0932-8cff-4859-8f15-a999eaa82a81",
+    "sentence": "But this confidence was misplaced.",
+    "source": "Some Reflections on the Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2012-04-13",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "8974be63-35e6-4655-a36f-7e908a6dd179",
+    "sentence": "The council, whose membership is drawn from smaller banks, credit unions, and savings associations in each of the 12 Federal Reserve Districts, meets with the Board in Washington twice a year to discuss supervisory and regulatory issues that affect their institutions.",
+    "source": "Banks and Bank Lending: The State of Play",
+    "doc_type": "speech",
+    "date": "2012-05-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0173c762-40cd-47f0-80f9-1b40909a2cc1",
+    "sentence": "Indeed, two years after passage of Dodd-Frank, there is not really an officially embraced consensus theory of how financial stability is undermined.",
+    "source": "Financial Stability Regulation",
+    "doc_type": "speech",
+    "date": "2012-10-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "118b3824-4f1d-4e19-a222-96032aad3688",
+    "sentence": "Their various analyses suggest the possibility of destabilization even in a financial world with no dominant firms, but many medium-sized entities.",
+    "source": "Financial Stability Regulation",
+    "doc_type": "speech",
+    "date": "2012-10-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "d7ef7f0c-2404-4ed8-a456-8cd0072b917c",
+    "sentence": "As I have said before, however, while monetary policy can help support the economic recovery, it is by no means a panacea for our economic ills.",
+    "source": "The Economic Recovery and Economic Policy",
+    "doc_type": "speech",
+    "date": "2012-11-20",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c874e68e-c638-45a8-bd63-25319a91f48c",
+    "sentence": "More-complex network structures are likely to be more opaque than less complex ones. For example, as the number of intermediaries standing between borrowers and lenders grows, it becomes increasingly difficult to understand how one member of the network fits into the overall system.",
+    "source": "Interconnectedness and Systemic Risk:  Lessons from the Financial Crisis and Policy Implications",
+    "doc_type": "speech",
+    "date": "2013-01-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "33e0f1cb-a15f-4385-9345-5814e78b4220",
+    "sentence": "Committing to keep the federal funds rate lower for longer helps bring down longer-term interest rates immediately and thereby helps compensate for the inability of policymakers to lower short-term rates as much as simple rules would call for.",
+    "source": "Challenges Confronting Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-03-02",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "very dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c30ec98a-05ec-42fd-8247-69eb0e8b7ac2",
+    "sentence": "While a great deal of attention has focused on unconventional policy actions, especially asset purchases, these policies appear to affect financial conditions and the real economy in much the same way as conventional interest rate policy.",
+    "source": "Advanced Economy Monetary Policy and Emerging Market Economies",
+    "doc_type": "speech",
+    "date": "2013-11-04",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "7c90ec6f-5d2e-4c8c-8071-6eeed8938548",
+    "sentence": "In the absence of government intervention, AIG's failure would have exposed its counterparties to significant losses at a time of widespread financial stress.",
+    "source": "OTC Market Infrastructure Reform:  Opportunities and Challenges",
+    "doc_type": "speech",
+    "date": "2013-11-21",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a0e5959c-9dc3-4c63-88fa-1c074066a316",
+    "sentence": "The Basel III risk-based capital rules require banking organizations to hold relatively little capital against SFT assets, which are assumed to pose little microprudential risk.",
+    "source": "Shadow Banking and Systemic Risk Regulation",
+    "doc_type": "speech",
+    "date": "2013-11-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2a533477-5cc8-4dc3-8908-0624ec1ca52d",
+    "sentence": "In a similar way, the Federal Reserve Bank of Boston has been the catalyst for the Working Cities Challenge, inspired by its own research on cities that managed to diversify away from a declining, manufacturing-based economy.",
+    "source": "What the Federal Reserve Is Doing to Promote a Stronger Job Market",
+    "doc_type": "speech",
+    "date": "2014-03-31",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a7402029-87e6-454a-b3b0-007e4bd5ad92",
+    "sentence": "My view is that forward guidance has generally been effective in providing support for the economy at a time when the federal funds rate has been pinned at its effective lower bound.",
+    "source": "A Conversation on Central Banking Issues",
+    "doc_type": "speech",
+    "date": "2014-06-06",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7f11cf89-2a1d-4b0b-bc79-57b1d7d4ee83",
+    "sentence": "Several years ago, a group of economists from across the System formed an informal working group to share ongoing research related to community banking.",
+    "source": "Regulation and Supervision of Community Banks",
+    "doc_type": "speech",
+    "date": "2015-05-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a66956fd-24ea-4e7d-87b9-4e4c4289a047",
+    "sentence": "The Recovery from the Great Recession\r\n This month marks six years since the end of the Great Recession--our nation's most severe economic downturn since the 1930s.",
+    "source": "Recent Developments and the Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-07-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

@@ -1,0 +1,297 @@
+[
+  {
+    "id": "37c42dfc-d281-4e80-97ed-99588fb36cbe",
+    "sentence": "We'll also be looking to see progress on inflation and, you know, the labor market remaining strong but, but ideally, without seeing the kind of large increase in unemployment that happens sometimes.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_qa",
+    "date": "20231213",
+    "context_question": "Michael McKee from Bloomberg Television and Radio. Mr. Chairman, you were, by your own admission, behind the curve in starting to raise rates to fight inflation, and you said earlier, again, “the full effects of our tightening (cycle) have not yet been felt.” How will you decide when to cut rates, and how will you ensure you’re not behind the curve there?",
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "153de660-2c90-4d14-9b52-7b4679165749",
+    "sentence": "The one that would affect -- the one that comes to mind, though, is just the question of where the neutral rate of interest is. And so, for example, if it's risen, and I'm not saying that it has, but if it were to have risen, that would mean that, that interest rates would need to be a little bit higher to convey the same level of restriction.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_qa",
+    "date": "20231213",
+    "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we’re in now kind of post-pandemic? Do you think that there’s been significant structural shifts, and is that going to change how you look at a rate cut path?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "18e30457-8ffb-4ab7-9b00-a2fff4a632d0",
+    "sentence": "The labor force participation rate has moved up, on balance, over the past year, particularly for individuals aged 25 to 54 years, and immigration has returned to pre-pandemic levels.",
+    "source": "FOMCpresconf20240131.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240131",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "6539a956-3f02-49f2-bf3b-a09b7d6f9fad",
+    "sentence": "Growth has been strong.",
+    "source": "FOMCpresconf20240131.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240131",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage– price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning’s ECI report for the fourth quarter shows private-sector payroll growth running at a sub–4 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you’ve judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2cd6c3e5-31fe-4b62-b36d-bbb7afa57c2d",
+    "sentence": "We remain committed to bringing inflation back down to our 2 percent goal and to keeping our longer-term inflation expectations well anchored.",
+    "source": "FOMCpresconf20240320.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240320",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "very dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5901c66b-f941-4df8-8d94-0ae24bae35a2",
+    "sentence": "Improving supply conditions have supported resilient demand and the strong performance of the U.S. economy over the past year.",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240918",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dc658fdb-64d8-4e99-969d-bf1279d50510",
+    "sentence": "The inflation data received so far this year have been higher than expected.",
+    "source": "FOMCpresconf20240501.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240501",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4b980aac-8ebe-450c-9ccf-3be1607a37b5",
+    "sentence": "Landlords don't tend to charge as much of an increase to a rollover tenant, for whatever reason. And what that does is it builds up a sort of an unrealized portion of increases when there have been big increases. And what happens is, you know -- it's complicated, but the story is it just takes some time for that to get in.",
+    "source": "FOMCpresconf20240501.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240501",
+    "context_question": "Courtenay Brown from Axios. Thanks for taking our questions, Chair Powell. I wanted to follow up on something you mentioned earlier on housing inflation. There’s kind of been this long-awaited disinflation in shelter that still hasn’t arrived. So I guess two questions, how do you explain the substantial lags between some of the private- sector data we’re seeing and the government data, and how confident are you that rents will be helpful on the inflation front in the coming months?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "590c993f-730d-462a-b950-c3e5e5886c95",
+    "sentence": "The inflation data received earlier this year were higher than expected, though more recent monthly readings have eased somewhat.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240612",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "32d0da05-4274-42cd-b3c4-41a0592fc803",
+    "sentence": "If the economy evolves as expected, the median participant projects that the appropriate level of the federal funds rate will be 5.1 percent at the end of this year, 4.1 percent at the end of 2025, and 3.1 percent at the end of 2026. But these projections are not a Committee plan or any kind of a decision.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240612",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "1c7fa7e6-d0ab-4322-b2c6-d9094d872c73",
+    "sentence": "Restoring price stability is essential to achieving maximum employment and stable prices over the long run. Our success in delivering on these goals matters to all Americans.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240612",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "43ead5b0-238a-459c-b42a-af908265f31a",
+    "sentence": "So, I mean, we're left with ambiguous results, and we have to deal with that uncertainty around data.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240612",
+    "context_question": "As a quick follow-up—the surveys that make up the jobs report are, are showing different tales. There’s been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "79a89b5a-764f-46b5-b6b3-619780410103",
+    "sentence": "But, honestly, it doesn't really get you where you need to be to think about what appropriate policy is in the near term. But I, I -- back to your original question, people have been gradually writing it up because I just think people are coming to the view that rates aren't -- are less likely to go down to their, their pre-pandemic levels, which were, you know, very low by recent history measures.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240612",
+    "context_question": "Jeanna Smialek, New York Times. Thanks for taking our questions. In the Summary of Economic Projections, the long-run interest rate forecast moved up a bit. I wonder if we should read that as a sign that you think that policy is not sort of as restrictive as we’ve previously expected. You know, how should we interpret what that means about how the Committee views its current policy setting?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "4c7accce-7348-4508-8796-8882322b1631",
+    "sentence": "If the economy remains solid and inflation persists, we can maintain the current target range for the federal funds rate as long as appropriate.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240731",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "58f5842d-6848-457b-b783-8fc05ffa29bc",
+    "sentence": "So, again, I've been through some of the data already, but what we think we're seeing is, is a normalizing labor market, and we're watching carefully to see if it -- if it turns out to be more.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Hi. Victoria Guida with Politico. On the labor market, I was wondering, how worried are you all about unemployment rising to the point where it triggers the Sahm rule, and would that potentially affect how quickly you cut rates?",
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "fbe76dd9-4618-48f1-a379-b128114bc7f6",
+    "sentence": "In light of the current shortfall of inflation from 2 percent, the Committee will carefully monitor actual and expected progress toward its inflation goal.",
+    "source": "statement_20170201.txt",
+    "doc_type": "statement",
+    "date": "2017-02-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61e8c2fd-0d1b-42a7-b03d-f659aeee5adc",
+    "sentence": "The stance of monetary policy remains accommodative, thereby supporting further improvement in labor market conditions and a return to 2 percent inflation.",
+    "source": "statement_20161102.txt",
+    "doc_type": "statement",
+    "date": "2016-11-02",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c2700cdc-21e1-4bf5-9627-171cef0797ec",
+    "sentence": "Household spending has been increasing at a moderate rate, and the housing sector has improved further; however, business fixed investment and net exports have been soft.",
+    "source": "statement_20160316.txt",
+    "doc_type": "statement",
+    "date": "2016-03-16",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "2bddc976-34e0-498e-af32-8ea02d46bb64",
+    "sentence": "The Committee currently expects that, with gradual adjustments in the stance of monetary policy, economic activity will expand at a moderate pace and labor market indicators will continue to strengthen.",
+    "source": "statement_20160316.txt",
+    "doc_type": "statement",
+    "date": "2016-03-16",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "beb1ca72-4123-4163-813b-b9b97028de5e",
+    "sentence": "The Committee continues to closely monitor inflation indicators and global economic and financial developments.",
+    "source": "statement_20170503.txt",
+    "doc_type": "statement",
+    "date": "2017-05-03",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e23b38d7-09a2-4cd0-a6dd-a6d42def9315",
+    "sentence": "Near-term risks to the economic outlook have diminished.",
+    "source": "statement_20160727.txt",
+    "doc_type": "statement",
+    "date": "2016-07-27",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bc56ccef-1956-4420-917d-4a63307f8778",
+    "sentence": "The Committee judges that the case for an increase in the federal funds rate has strengthened but decided, for the time being, to wait for further evidence of continued progress toward its objectives.",
+    "source": "statement_20160921.txt",
+    "doc_type": "statement",
+    "date": "2016-09-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "55c70ab1-ddf5-4a1f-98ce-099c6a851596",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1/2 to 3/4 percent.",
+    "source": "statement_20161214.txt",
+    "doc_type": "statement",
+    "date": "2016-12-14",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b54b44c5-7316-4f56-b75b-54ef73880788",
+    "sentence": "The stance of monetary policy remains accommodative, thereby supporting some further strengthening in labor market conditions and a return to 2 percent inflation.",
+    "source": "statement_20170201.txt",
+    "doc_type": "statement",
+    "date": "2017-02-01",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7f21dd57-e0cd-4a10-9255-ffd69e2e34b6",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 3/4 to 1 percent.",
+    "source": "statement_20170315.txt",
+    "doc_type": "statement",
+    "date": "2017-03-15",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6702236b-48d1-4d1d-a1b8-697f970f2f1b",
+    "sentence": "The Committee will carefully monitor actual and expected inflation developments relative to its symmetric inflation goal.",
+    "source": "statement_20180502.txt",
+    "doc_type": "statement",
+    "date": "2018-05-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "78b22a43-1d45-4743-92f9-83dabdff0b44",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1 to 1-1/4 percent.",
+    "source": "statement_20170614.txt",
+    "doc_type": "statement",
+    "date": "2017-06-14",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "32e762f9-1a6a-4918-8c3d-d16495656f43",
+    "sentence": "The Committee currently expects to begin implementing a balance sheet normalization program this year, provided that the economy evolves broadly as anticipated.",
+    "source": "statement_20170614.txt",
+    "doc_type": "statement",
+    "date": "2017-06-14",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8a32d574-7e7e-46a0-b2d0-023c9b3ee9fc",
+    "sentence": "This program, which would gradually reduce the Federal Reserve's securities holdings by decreasing reinvestment of principal payments from those securities, is described in the accompanying addendum to the Committee's Policy Normalization Principles and Plans.",
+    "source": "statement_20170614.txt",
+    "doc_type": "statement",
+    "date": "2017-06-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b2f3e303-9ea8-4aeb-964a-7da33b911b2b",
+    "sentence": "The Committee expects that economic conditions will evolve in a manner that will warrant further gradual increases in the federal funds rate; the federal funds rate is likely to remain, for some time, below levels that are expected to prevail in the longer run.",
+    "source": "statement_20180502.txt",
+    "doc_type": "statement",
+    "date": "2018-05-02",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

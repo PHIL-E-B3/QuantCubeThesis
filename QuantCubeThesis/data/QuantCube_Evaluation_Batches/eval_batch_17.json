@@ -1,0 +1,285 @@
+[
+  {
+    "id": "5b8829bb-85cd-4235-843d-5a628fcb2017",
+    "sentence": "The central tendency of the unemployment rate projections is slightly lower than in the June projections and now stands at 5.9 to 6.0 percent at the end of this year.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3ee34ad2-3339-4d19-8d10-6e0fb7e64ad1",
+    "sentence": "The Committee's sizable holdings of longer-term securities should help maintain accommodative financial conditions and promote further progress toward our objectives of maximum employment and inflation of 2 percent.",
+    "source": "FOMCpresconf20141217.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "na",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1611cec2-5475-44c7-8272-5eefb5a41341",
+    "sentence": "The FOMC's intention has always been to return to a more traditional approach, and throughout this period, the Committee has been preparing for the normalization process.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61fc1f59-0c5a-40c5-b25b-da07eb50b9e8",
+    "sentence": "Their economic forecasts are of the conditions that they think are the most likely ones.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140917",
+    "context_question": "Jon Hilsenrath from the Wall Street Journal. Chair Yellen, I want to come back to the interest rate projections that the Fed put out today. The public, I think, would be enlightened by knowing a bit more about where you stand in relation to these projections. And with that in mind, and in the name of transparency, I wonder if you could describe to us whether you’re at the low end of those projections, within the central tendency, or at the high end. I also want to ask you about a San Francisco Fed paper that came out recently, which suggested that market expectations have been running below the Fed’s own projections. So I wanted to ask you if you see that as well, and whether it’s at all troubling that market expectations might not be aligned with the central—with what the Fed put out today.",
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "78b1ce30-e0e2-40e6-a58d-270c646a276f",
+    "sentence": "There are a range of views on the appropriate timing of liftoff within the year, in part reflecting differences in participants' expectations for how the economy will evolve.",
+    "source": "FOMCpresconf20141217.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "fb55d640-0d7f-4dc5-8ada-1ced9caa1615",
+    "sentence": "As we begin the process of normalizing policy, every meeting is live. And if we were to decide at a meeting to begin to normalize policy, I expect we would hold a press conference call.",
+    "source": "FOMCpresconf20141217.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20141217",
+    "context_question": "Marty Crutsinger with the Associated Press. Given the— what’s happening now with the transition with the Fed, there seems to be a pattern developing that the market expects big news to come when you have a press conference and no news to come when you don’t have one. But is that a good expectation? And is there any thought to starting to have a press conference at every meeting?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fe6783f3-2b8d-4d1c-9f80-a40ff9086cb9",
+    "sentence": "Of course, that's a reason why, for a number of years, we engaged in active asset purchase programs. So there is a situation there of asymmetric risks, and it does point in the direction of waiting longer to raise rates. But I would say that this is an influence that we -- and a set of considerations -- that we have long been aware of and have been taking into account, so that it's not something that just comes into play now.",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150318",
+    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks—notably Japan, Sweden also—suggests that tightening early when you’re at the zero lower bound can be a risky process—the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that’s influencing the debate in the FOMC at the moment.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f8edd031-1268-41c0-86fb-6384b8cc5445",
+    "sentence": "So, the -- you're talking about within banking organizations?",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150318",
+    "context_question": "If I could follow up on his question. I think when you get asked about financial crimes and the public hears you talk about compliance, you get a sense that there’s not enough enforcement involved in these actions, and that it’s merely a case of kind of trying to achieve settlements after the fact. Is there a sense in the regulatory community that financial crimes need to be punished sort of more forcefully in order for them to be—for there to be an actual deterrent against unethical behavior?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ad8275f6-fd8e-4aed-bad8-f40ec148f7e7",
+    "sentence": "We have long had the capacity to call a press conference after a meeting that we would hold by teleconference -- by conference call -- and that's a capacity that was used on a number of occasions by my predecessor during the financial crisis.",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150318",
+    "context_question": "Peter Cook of Bloomberg Television. Madame Chair, one clarification, if I could, logistically, and then a question about Congress, a follow-up. First of all, you’ve been asked this before, I just want to see if we can clarify. When you decide to start raising interest rates, could that decision happen at a meeting in which you—it’s not followed by a press conference? And, on my congressional question, I would like to get your reaction to your—the treatment you received up on Capitol Hill the other day. It didn’t look like a very pleasant experience, certainly in front of the House, at least at moments. I wondered if you have concerns about that. Has the relationship between the Fed and Congress deteriorated to a point that it causes you concern? What, if anything, can you do about it as well?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "82970a81-06ed-4b1d-aff7-7ee31adb0c52",
+    "sentence": "Participants provided a number of explanations for the federal funds rate running below its normal longer-run level at that time.",
+    "source": "FOMCpresconf20150617.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4d637e60-79ae-42d0-ac7a-fce3059cccf7",
+    "sentence": "Now, I should emphasize that Dodd-Frank changed our 13(3) authority and said that the Federal Reserve may not in a future crisis intervene to attempt to address the issues of a particular company.",
+    "source": "FOMCpresconf20150617.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150617",
+    "context_question": "Peter Barnes, Fox Business. Madam Chair, I wanted to shift over to the decision in the AIG case this past Monday. And in it, the judge in the case said in his opinion, quote, “There is nothing in the Federal Reserve Act or any other federal statute that would permit a Federal Reserve Bank to take over a private corporation and run its business as if the government were the owner, yet that is precisely what the Federal Reserve Bank of New York did,” and the judge went on to cite the replacement of AIG’s chief executive officer and taking control of AIG’s business operations. I wanted to ask you, did the Fed break the law in assisting AIG back in the crisis? And if this decision is upheld on appeal, how does that affect the Fed’s toolbox? How does it affect its ability to help firms in trouble in a future financial crisis? Would it make that kind of assistance illegal, or would you have to get Congress to change the law and make a fix? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dfc1b5cd-2948-4b81-940d-ef4e59cd6ed9",
+    "sentence": "It remains the case that the Committee will determine the timing of the initial increase based on its assessment of the implications of incoming information for the economic outlook.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fff064e5-fac5-4d28-8e25-9d14d5648024",
+    "sentence": "Developments since our July meeting -- including the drop in equity prices, the further appreciation of the dollar, and a widening in risk spreads -- have tightened overall financial conditions to some extent. These developments may restrain U.S. economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2600dfa3-e599-4450-b524-15a88ea2f9d9",
+    "sentence": "Instead, the decision will depend on a wide range of economic and financial indicators and our assessment of their cumulative implications for actual and expected progress toward our objectives.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "39f1a1c3-935b-4733-8f37-6584aa989749",
+    "sentence": "So, yes, if we defer, this is not a very large matter that we're talking about from a stimulus point of view. But it is, to some extent, true that if we delay raising the rate, it probably -- maybe delays the timing at which that process will begin. But there's no fixed -- we've not given some fixed amount of time at so many months after we start. And we're Page 22 of 23 continuing to discuss what the appropriate timing would be of that policy and haven't made any further decisions on that just yet.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150917",
+    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed’s policy of maintaining a large balance sheet—by not starting to shrink that balance sheet by curtailing reinvestments and rollovers—that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it’s—until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

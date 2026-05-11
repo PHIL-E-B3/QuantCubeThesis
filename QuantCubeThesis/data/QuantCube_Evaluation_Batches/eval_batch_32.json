@@ -1,0 +1,295 @@
+[
+  {
+    "id": "5c6cc9d1-ba69-47b8-89b5-f4640b552ecd",
+    "sentence": "It is important to understand the relative importance of these different drivers, as they have different implications for the overall health of the economy and for policies to support middle-income families.",
+    "source": "Is the Middle Class within Reach for Middle-Income Families?",
+    "doc_type": "speech",
+    "date": "2019-05-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "64ac5ae9-24ee-4d6d-916e-409a1e60adab",
+    "sentence": "However, that dynamic also increases the cost, in terms of economic output, of reversing unwelcome increases in longer-run inflation expectations. Thus, it is all the more important that longer-run inflation expectations remain anchored at levels consistent with our 2 percent inflation objective.",
+    "source": "The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
+    "doc_type": "speech",
+    "date": "2019-05-13",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "83914e20-e8bd-41d2-8cce-a0ac745b95bd",
+    "sentence": "Leverage at broker-dealers is far below levels before the crisis and remains low relative to the norms of the past several decades.",
+    "source": "Business Debt and Our Dynamic Financial System",
+    "doc_type": "speech",
+    "date": "2019-05-20",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "21583324-9b97-4d2c-b2ad-9567b8444709",
+    "sentence": "Ultimately, a bank that promptly corrects its material safety and soundness weaknesses will be better able to serve its customers and intermediate credit through a range of scenarios, including under stress.",
+    "source": "Spontaneity and Order: Transparency, Accountability, and Fairness in Bank Supervision",
+    "doc_type": "speech",
+    "date": "2020-01-17",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fa157bde-dccb-4088-af4d-9d200f165ef9",
+    "sentence": "Finally, as another reality check, I, of course, always consult the latest estimate of r* produced by the Laubach and Williams (2003) unobservable components state-space model, which, I should point out, includes no information on asset prices other than the short-term nominal interest rate itself.",
+    "source": "Financial Markets and Monetary Policy: Is There a Hall of Mirrors Problem?",
+    "doc_type": "speech",
+    "date": "2020-02-21",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6b2309f4-4d00-4f5d-a6d2-46a81df63fdc",
+    "sentence": "The Committee will be closely watching for a further recovery of inflation and signs that inflation expectations remain well anchored as we set monetary policy.",
+    "source": "Optimism in the Time of COVID",
+    "doc_type": "speech",
+    "date": "2020-09-23",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "075510d0-8c25-43f3-9022-bc56ff922361",
+    "sentence": "How will we know if the new FAIT strategy is working?",
+    "source": "Achieving a Broad-Based and Inclusive Recovery",
+    "doc_type": "speech",
+    "date": "2020-10-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d0eb8cd8-e596-425f-982d-a0798142c573",
+    "sentence": "It is true that there are structural vulnerabilities in the nonbank financial sector, particularly money funds and hedge funds, and these are being scrutinized by U.S. and international authorities, including the Financial Stability Board under my chairmanship. But I believe these risks are manageable, and I come down on the side of the research that concludes these and other concerns are best addressed by targeted financial regulation and supervision rather than the blunt tool of monetary policy.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2021-05-26",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "macro",
+      "financial_conditions"
+    ],
+    "ris": "skewed_downside",
+    "wid": "contested"
+  },
+  {
+    "id": "011d78fc-31a5-4b51-a4ce-342d93ef0909",
+    "sentence": "Payment stablecoins tend to choose a sovereign currency as their anchor, typically the U.S. dollar.",
+    "source": "Reflections on Stablecoins and Payments Innovations",
+    "doc_type": "speech",
+    "date": "2021-11-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "46de6562-2759-4799-a165-5939c32dca4a",
+    "sentence": "In fact, in a perfect world, there would be one payment system and one payment instrument that everyone uses.",
+    "source": "Reflections on Stablecoins and Payments Innovations",
+    "doc_type": "speech",
+    "date": "2021-11-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8a9cd3f4-89f2-460f-8964-b105f134797e",
+    "sentence": "This brings me back to my outlook for the economy in 2022, and the implications for monetary policy.",
+    "source": "A Hopeless and Imperative Endeavor: Lessons from the Pandemic for Economic Forecasters",
+    "doc_type": "speech",
+    "date": "2021-12-17",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c055fc2a-bace-41dc-8e5a-17b71df23539",
+    "sentence": "In contrast, prices for fertilizer and many crop inputs continue to rise.",
+    "source": "Fighting Inflation in Challenging Times",
+    "doc_type": "speech",
+    "date": "2022-08-06",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c0754001-4cdf-4bae-a9f9-4817a2e6fe0a",
+    "sentence": "But I do see tentative signs of some cooling in the labor market, which is vital to keep rising labor costs from putting upward pressure on inflation.",
+    "source": "The Economic Outlook and a Word of Caution on Inflation",
+    "doc_type": "speech",
+    "date": "2022-11-16",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "very hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f7ada28f-c83a-4508-8f6e-b38e679dde2f",
+    "sentence": "In nine months, we have raised the target range for the federal funds rate from near zero to 3-3/4 to 4 percent, a historically rapid pace of increases.",
+    "source": "The Economic Outlook and a Word of Caution on Inflation",
+    "doc_type": "speech",
+    "date": "2022-11-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7ed4fa23-6599-4c4e-9cfa-13c381949eff",
+    "sentence": "I need to be confident that inflation is declining in a sustained manner towards our 2 percent target, so I will need to see continued moderation in inflation before my outlook changes.",
+    "source": "The Inflation Rate for Necessities: A Look at Food, Energy and Shelter Inflation",
+    "doc_type": "speech",
+    "date": "2023-02-08",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

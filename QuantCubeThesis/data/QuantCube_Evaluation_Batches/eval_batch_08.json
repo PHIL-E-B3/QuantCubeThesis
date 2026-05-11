@@ -1,0 +1,301 @@
+[
+  {
+    "id": "7cb98ee7-3d81-49f9-9e76-07b6292219ed",
+    "sentence": "The Committee will continue to assess the effects of financial and other developments on economic prospects and will act as needed to foster price stability and sustainable economic growth.",
+    "source": "statement_20071211.txt",
+    "doc_type": "statement",
+    "date": "2007-12-11",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "36bda73f-105b-4313-a27b-637cc5b9071e",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 25-basis-point decrease in the discount rate to 5 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of New York, Richmond, Atlanta, Chicago, St. Louis, and San Francisco.",
+    "source": "statement_20071031.txt",
+    "doc_type": "statement",
+    "date": "2007-10-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "995fddd0-966b-4ea0-9eaf-879c5f7fbeed",
+    "sentence": "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully.",
+    "source": "statement_20071211.txt",
+    "doc_type": "statement",
+    "date": "2007-12-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8b495b2c-7fad-4358-b3da-b9f21ed14787",
+    "sentence": "As is the case with the current securities lending program, securities will be made available through an auction process.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "80606fdb-0629-49d2-a3d9-f7555686a891",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: Bank of Canada Bank of England European Central Bank Swiss National Bank (61 KB PDF) Statements by Other Central Banks Bank of Japan Sveriges Riksbank Term Securities Lending Facility Terms and conditions Frequently asked questions Since the coordinated actions taken in December 2007, the G-10 central banks have continued to work together closely and to consult regularly on liquidity pressures in funding markets.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4c7b0dbf-f9e6-487c-a46c-4ae04d1623d8",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: Bank of Canada Bank of England European Central Bank Swiss National Bank (61 KB PDF) Statements by Other Central Banks Bank of Japan Sveriges Riksbank Term Securities Lending Facility Terms and conditions Frequently asked questions Federal Reserve Actions The Federal Reserve announced today an expansion of its securities lending program.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "652f8a2b-7016-40d4-8df8-ed74229ca3fe",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: Bank of Canada Bank of England European Central Bank Swiss National Bank (61 KB PDF) Statements by Other Central Banks Bank of Japan Sveriges Riksbank Term Securities Lending Facility Terms and conditions Frequently asked questions In addition, the Federal Open Market Committee has authorized increases in its existing temporary reciprocal currency arrangements (swap lines) with the European Central Bank (ECB) and the Swiss National Bank (SNB).",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "856738d6-37a8-4e5b-8288-d2f083df0a28",
+    "sentence": "Still, uncertainty about the inflation outlook has increased.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "0b5223fa-92c9-47d8-a854-2aaa8f8ca17e",
+    "sentence": "However, downside risks to growth remain.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "cd96b673-cdc4-4ab3-a428-3880ba0bd1dd",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 75-basis-point decrease in the discount rate to 2-1/2 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, and San Francisco.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e6f89337-8e59-466a-8b20-70888ee78ba1",
+    "sentence": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "6ab24aaa-64eb-40d8-a215-59f6ff50eb1f",
+    "sentence": "The Federal Reserve will employ all available tools to promote the resumption of sustainable economic growth and to preserve price stability.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5700c906-4462-4d28-bd50-7d3edd9c7452",
+    "sentence": "In light of increasing economic slack here and abroad, the Committee expects that inflation will remain subdued.",
+    "source": "statement_20090429.txt",
+    "doc_type": "statement",
+    "date": "2009-04-29",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "33e7d1d5-9050-4d4b-845d-ecfeac78c1ee",
+    "sentence": "The Committee will continue to evaluate its purchases of securities in light of the evolving economic outlook and conditions in financial markets.",
+    "source": "statement_20100127.txt",
+    "doc_type": "statement",
+    "date": "2010-01-27",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "65157851-f5ae-4640-8816-732687f75eda",
+    "sentence": "The only remaining such program, the Term Asset-Backed Securities Loan Facility, is scheduled to close on June 30 for loans backed by new-issue commercial mortgage-backed securities; it closed on March 31 for loans backed by all other types of collateral.",
+    "source": "statement_20100428.txt",
+    "doc_type": "statement",
+    "date": "2010-04-28",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

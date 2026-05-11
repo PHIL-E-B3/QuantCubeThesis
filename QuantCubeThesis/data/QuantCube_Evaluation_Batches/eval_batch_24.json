@@ -1,0 +1,289 @@
+[
+  {
+    "id": "c2518c60-192c-43e4-b103-e92bcf697ed7",
+    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by ¾ percentage point, resulting in a 1½ percentage point increase in the target range so far this year.",
+    "source": "FOMCpresconf20220615.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20220615",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "near_term",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a221e70c-67ec-4a33-9bb2-2c02b1e39e7e",
+    "sentence": "People are talking about it a lot -- consumer confidence is very low.",
+    "source": "FOMCpresconf20220615.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220615",
+    "context_question": "Thanks, Chair Powell. Edward Lawrence with Fox Business. I wanted to ask you—you talked about CPI going to 8.6 percent, that retail sales surprised the market by falling and then revisions to the previous months were down. Are you hearing from contacts about consumers slowing spending or changing their habits?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c94e00ca-6b83-484e-898f-927419fd8fbf",
+    "sentence": "We will continue to make our decisions meeting by meeting and communicating -- and communicate our thinking as clearly as possible.",
+    "source": "FOMCpresconf20220727.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20220727",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e937b2f4-6821-4720-aa03-dd734a0c2546",
+    "sentence": "Those developments, if sustained, could help ease the pressures on inflation. So let me just say, how much these factors will turn out to really matter in this sequence of events -- it remains to be seen.",
+    "source": "FOMCpresconf20220921.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220921",
+    "context_question": "Hi, Chair Powell. Rachel Siegel from the Washington Post. Thank you for taking our questions. The projections show the unemployment rate rising to 4.4 percent next year, and, historically, that kind of rise in the unemployment rate would typically bring a recession with it. Should we interpret that to mean no soft landing, and is that kind of rise necessary to get inflation down?",
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "90f5dfc8-92eb-4360-a9e8-9c63f6fa9ff9",
+    "sentence": "Restoring price stability is essential to set the stage for achieving maximum employment and stable prices in the longer run.",
+    "source": "FOMCpresconf20221102.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3283945-af5d-434e-be2f-131791b8e314",
+    "sentence": "In this case, if you're in a situation where the markets are pricing in significant declines in inflation, that's going to affect the forward curve.",
+    "source": "FOMCpresconf20221102.json",
+    "doc_type": "press_conference_qa",
+    "date": "20221102",
+    "context_question": "Michael McKee from Bloomberg Television and Radio. Earlier this year, you touted the three-month bill yield out to 18 months as the yield curve with 100 percent explanatory power. And you said, quote, “If it’s inverted, that means the Fed’s going to cut, which means the economy is weak.” That curve is only 2 basis points away from inversion now, so I’m wondering why you are so confident that you have not overtightened, particularly given that rates work with a lag.",
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "52039263-c6d8-4b8b-87e8-d22e94c1d9a4",
+    "sentence": "We can see that. And we see it, really, in goods prices so far.",
+    "source": "FOMCpresconf20230201.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230201",
+    "context_question": "Hi, Howard Schneider with Reuters, and thanks as usual. So I just wanted to connect a couple of dots here. The statement made a number of changes that seem to be saying things are getting better. You’re saying inflation has eased That’s new. You’ve taken out references to the war in Ukraine that’s causing price increases. You’ve taken out references to the pandemic. You’ve eliminated all the reasons that you said prices were being driven higher, yet that’s not mapping to any change in how you describe policy. We still have ongoing increases to come. So I’m wondering, why is that the case? And does it have more to do with uncertainty around the outlook or more to do with you not wanting to give a very overeager market a reason to get ahead of itself and overreact?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3ff75c0f-ef6d-4d2f-986e-0692b068c7f8",
+    "sentence": "So the Committee obviously did not see this as the time to pause.",
+    "source": "FOMCpresconf20230201.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230201",
+    "context_question": "Jeanna Smialek from the New York Times. Thanks for taking our questions. I wonder, was there any discussion today of the possibility of pausing rate increases and then restarting them? Lorie Logan from the Federal Reserve Bank of Dallas seemed to suggest that would be a possibility in a recent speech. And I wonder if that view is broadly shared on the Committee.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6df2f212-18c0-4d01-88d4-b4b8fe346c38",
+    "sentence": "As I mentioned, you know, obviously our policy is data dependent.",
+    "source": "FOMCpresconf20230201.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230201",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, the SEP has the PCE inflation rate in 2023 at 3.1 percent. Meanwhile, the three-month annualized PCE is 2.1 percent, and you’ve achieved this without going to your 5.1 percent funds rate, which is what you have penciled in for this year. And you’ve also achieved it without the 1 percentage point increase in the unemployment rate, which you have penciled in for this year. I’m wondering if you’ve considered the idea of whether or not your understanding of the inflation dynamic may be wrong, and it’s possible to achieve these things without raising rates that high and also without the surge in unemployment. And, specifically, I wonder if you might comment on the speech given by Vice Chair Lael Brainard, who said, “To the extent that inputs other than wages may be responsible in part for important price increases for some nonhousing services, an unwinding of these factors.” In other words, it may not be wages. The idea that it may not require unemployment rising to get this sector of inflation under control. Thanks.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d6fe3fdd-2a98-4d6f-974b-17792f98c9ce",
+    "sentence": "The balance sheet expansion is really temporary lending to banks to meet those special liquidity demands created by the recent tensions; it's not intended to directly alter the stance of monetary policy.",
+    "source": "FOMCpresconf20230322.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230322",
+    "context_question": "Hi, Chair Powell—thanks for taking the question. Kyle Campbell with American Banker. I have a couple questions about the balance sheet. First of all, I’m curious at what point the financial supports that the Fed is extending through the discount window and through its enhanced lending facility might be at odds with the objective of reducing the balance sheet. And I’m also curious what your thoughts are on the—not just the availability of reserves but the distribution of them throughout the banking system and at what point you might be concerned about it being scarce for certain banks.",
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d38cb22d-f9a1-44c1-a437-f3994629eb20",
+    "sentence": "I just think we're -- I think we -- look, I think we've moved a long way fairly quickly. And I think we can afford to look at the data and, and make a careful assessment.",
+    "source": "FOMCpresconf20230503.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230503",
+    "context_question": "I’m curious, too, how to interpret that and, and the changes to the statement. Is the bar higher now to raise rates at the next meeting, or would a strong jobs report or inflation print be enough to push the Fed to tighten again?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7cc1168c-5c6f-455a-960f-47d035287bd1",
+    "sentence": "Although growth in consumer spending has picked up this year, activity in the housing sector remains weak, largely reflecting higher mortgage rates.",
+    "source": "FOMCpresconf20230614.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bae8aca9-07f4-41dc-94d3-ed99252dd752",
+    "sentence": "In our Summary of Economic Projections, the median projection has real GDP growth at 1.0 percent this year and 1.1 percent next year, well below the median estimate of the longer-run normal growth rate.",
+    "source": "FOMCpresconf20230614.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2cb59b9f-21be-4c85-971b-0955d20d60a4",
+    "sentence": "A lot of the buyers are, are, you know, first-time buyers coming in, buying at, you know, with these, you know, with these relatively elevated mortgage rates. But I think this will take some time to work through.",
+    "source": "FOMCpresconf20230726.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230726",
+    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You’ve talked in the past about getting the housing market back into better balance—excuse me—and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you’re talking about tightening industry lending standards? Are we getting closer to balance or farther away? What’s your sense?",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "affbb993-f81b-424c-a58c-9a997d3bfcf4",
+    "sentence": "In light of the uncertainties and risks, and how far we have come, the Committee is proceeding carefully.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20231213",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

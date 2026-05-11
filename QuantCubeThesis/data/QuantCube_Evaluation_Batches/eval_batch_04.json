@@ -1,0 +1,289 @@
+[
+  {
+    "id": "6bf0b423-a3dd-4cb0-ab3b-37c25349fa21",
+    "sentence": "As anticipated, growth in household spending appeared to have been stronger in the second quarter after its first-quarter weakness.",
+    "source": "minutes_20170726.html",
+    "doc_type": "minutes",
+    "date": "20170726",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f6ee9f2-7bc9-441a-8555-fc4ae63ea572",
+    "sentence": "Recent readings on survey-based measures of longer-run inflation expectations--including those from the Michigan survey, the Blue Chip Economic Indicators, and the Desk's Survey of Primary Dealers and Survey of Market Participants--were little changed on balance.",
+    "source": "minutes_20190320.html",
+    "doc_type": "minutes",
+    "date": "20190320",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "5d5a09a1-c472-4d4c-a18e-7cc4025633d2",
+    "sentence": "Consumer sentiment in early December, as measured by the University of Michigan Surveys of Consumers, remained at a high level.",
+    "source": "minutes_20171213.html",
+    "doc_type": "minutes",
+    "date": "20171213",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c93274aa-0103-47fb-b86d-56a76ffad17d",
+    "sentence": "Broader indicators of manufacturing production, such as the new orders indexes from national and regional manufacturing surveys, pointed to further solid increases in factory output in the near term.",
+    "source": "minutes_20180131.html",
+    "doc_type": "minutes",
+    "date": "20180131",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "na",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b44c8352-dcbb-4c4c-9aa2-66bdb50544dd",
+    "sentence": "Broad equity price indexes decreased over the intermeeting period.",
+    "source": "minutes_20180321.html",
+    "doc_type": "minutes",
+    "date": "20180321",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e4ab3d80-d1bf-467e-963c-61f30f9da51e",
+    "sentence": "This could be accomplished by implementing a 20 basis point increase in the IOER rate at a time when the Committee raised the target range for the federal funds rate by 25 basis points.",
+    "source": "minutes_20180502.html",
+    "doc_type": "minutes",
+    "date": "20180502",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "547f47cf-6db2-4061-8253-9afe96f7b208",
+    "sentence": "Financing conditions in the residential mortgage market remained accommodative for most borrowers in March and April.",
+    "source": "minutes_20180502.html",
+    "doc_type": "minutes",
+    "date": "20180502",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2ebfdace-a2b6-407a-9e05-8136dd630e5e",
+    "sentence": "Job gains had been strong, on average, in recent months, and the unemployment rate had stayed low.",
+    "source": "minutes_20180926.html",
+    "doc_type": "minutes",
+    "date": "20180926",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c82b672f-fc8d-41ff-a79a-86802a46edba",
+    "sentence": "Total U.S. consumer prices, as measured by the PCE price index, increased 2.0 percent over the 12 months ending in September.",
+    "source": "minutes_20181108.html",
+    "doc_type": "minutes",
+    "date": "20181108",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a2a174ef-228e-46cd-ac6f-76612ca65cf0",
+    "sentence": "On balance, foreign equity prices moved up moderately and sovereign credit spreads in EMEs narrowed. Moreover, inflows to dedicated emerging market funds resumed after two quarters of outflows.",
+    "source": "minutes_20190130.html",
+    "doc_type": "minutes",
+    "date": "20190130",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c368e917-9c88-47c0-89aa-55560af809f2",
+    "sentence": "Growth in real private expenditures for business equipment and intellectual property looked to be slowing in the first quarter.",
+    "source": "minutes_20190320.html",
+    "doc_type": "minutes",
+    "date": "20190320",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f07cbcbe-45d9-4b57-908b-16a08daba745",
+    "sentence": "Such misinterpretations could complicate the Committee's communications regarding its view of appropriate monetary policy, particularly in circumstances when the future course of policy is unusually uncertain.",
+    "source": "minutes_20190320.html",
+    "doc_type": "minutes",
+    "date": "20190320",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "130701ac-2603-4ce8-8820-4db12e941713",
+    "sentence": "Some participants offered remarks on general features of some of the monetary policy strategies that they would be discussing and on the relationship between those strategies and the current framework.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b5635323-7613-4e5e-a2f1-e84c5b359389",
+    "sentence": "Notably, the British pound depreciated significantly against the U.S. dollar, reportedly as developments led investors to raise the probability they attached to a no-deal Brexit.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "227740ed-5415-48e5-8cd4-fdf028495a43",
+    "sentence": "In this context, a couple of participants noted that uncertainty about the neutral rate made it especially challenging to determine any appropriate changes to the current framework.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

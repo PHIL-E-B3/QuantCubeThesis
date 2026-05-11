@@ -1,0 +1,309 @@
+[
+  {
+    "id": "6649d12f-a688-4ae9-bdb8-67fe61343ba4",
+    "sentence": "The economic outlook has strengthened in recent months.",
+    "source": "statement_20180321.txt",
+    "doc_type": "statement",
+    "date": "2018-03-21",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ee696e74-48b7-4756-903d-c7687e92524f",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1-1/2 to 1-3/4 percent.",
+    "source": "statement_20180502.txt",
+    "doc_type": "statement",
+    "date": "2018-05-02",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cc5529f5-7e1e-47e8-93d7-0bd22edf5a55",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2â1/2 percent.",
+    "source": "statement_20181219.txt",
+    "doc_type": "statement",
+    "date": "2018-12-19",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ae74921f-7475-48d0-a8c1-a1dda65316ff",
+    "sentence": "In addition, the Open Market Desk has recently expanded its overnight and term repurchase agreement operations.",
+    "source": "statement_20200315.txt",
+    "doc_type": "statement",
+    "date": "2020-03-15",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "312668bd-6725-412c-8875-4da29391205f",
+    "sentence": "More information can be found on the Federal Reserve Board's \nwebsite\n.",
+    "source": "statement_20200315.txt",
+    "doc_type": "statement",
+    "date": "2020-03-15",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1fb26ac6-8907-49d8-b294-ce6c3a68d52b",
+    "sentence": "The Committee expects to maintain this target range until it is confident that the economy has weathered recent events and is on track to achieve its maximum employment and price stability goals.",
+    "source": "statement_20200729.txt",
+    "doc_type": "statement",
+    "date": "2020-07-29",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "10c7fda8-1e83-4eb4-989c-049cea98e32a",
+    "sentence": "To support the flow of credit to households and businesses, the Federal Reserve will continue to purchase Treasury securities and agency residential and commercial mortgage-backed securities in the amounts needed to support smooth market functioning, thereby fostering effective transmission of monetary policy to broader financial conditions.",
+    "source": "statement_20200429.txt",
+    "doc_type": "statement",
+    "date": "2020-04-29",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "98826f2d-9f1d-41ca-acbf-46b22b689c69",
+    "sentence": "The Committee will closely monitor developments and is prepared to adjust its plans as appropriate.",
+    "source": "statement_20200729.txt",
+    "doc_type": "statement",
+    "date": "2020-07-29",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6ec22534-48b6-42a0-bdf4-beaf9a308c07",
+    "sentence": "The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f5f7b36d-4332-424b-b27c-4a3e5a13740c",
+    "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "384ec748-d6d6-48fc-b3cf-1dca3bd6dbf3",
+    "sentence": "These asset purchases help foster smooth market functioning and accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+    "source": "statement_20210922.txt",
+    "doc_type": "statement",
+    "date": "2021-09-22",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "source": "statement_20210428.txt",
+    "doc_type": "statement",
+    "date": "2021-04-28",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
+    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals. Since then, the economy has made progress toward these goals.",
+    "source": "statement_20210922.txt",
+    "doc_type": "statement",
+    "date": "2021-09-22",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
+    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgageâbacked securities by at least $10 billion per month.",
+    "source": "statement_20220126.txt",
+    "doc_type": "statement",
+    "date": "2022-01-26",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "63bc5b65-63ca-4947-911a-cfa737ab203c",
+    "sentence": "The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

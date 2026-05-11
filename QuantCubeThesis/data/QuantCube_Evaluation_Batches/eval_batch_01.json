@@ -1,0 +1,310 @@
+[
+  {
+    "id": "727e3bfa-263b-4a52-8f25-fb1cbacb1549",
+    "sentence": "After declining in October, nominal orders and shipments of nondefense capital goods excluding aircraft rose in November, and the level of new orders remained above the level of shipments, indicating that the backlog of unfilled orders was still rising.",
+    "source": "minutes_20110126.html",
+    "doc_type": "minutes",
+    "date": "20110126",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "33822f1c-e485-4b75-b755-1ca6e4fa92cb",
+    "sentence": "Changes to the conditioning assumptions underlying the staff projection were mostly small and offsetting: Crude oil prices had risen sharply and federal fiscal policy seemed likely to be marginally more restrictive than the staff had judged in January, but these negative factors were counterbalanced by higher household net worth and a slightly lower foreign exchange value of the dollar. As a result, as in the January forecast, real GDP was expected to rise at a moderate pace over 2011 and 2012, supported by accommodative monetary policy, increasing credit availability, and greater household and business confidence.",
+    "source": "minutes_20110315.html",
+    "doc_type": "minutes",
+    "date": "20110315",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c9952fb0-89df-4119-a2a4-f4e549bcd885",
+    "sentence": "But broader indicators of near-term manufacturing activity, such as the diffusion indexes of new orders from the national and regional manufacturing surveys, softened to levels consistent with only small gains in production in the coming months.",
+    "source": "minutes_20110809.html",
+    "doc_type": "minutes",
+    "date": "20110809",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f49a4bee-9e0a-4447-8a3b-c901f35696bb",
+    "sentence": "The staff gave a presentation on several tools that could be used, within the Committee's current policy framework, to provide additional monetary policy accommodation to support the economic recovery.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a8e1841c-8ea1-4a61-854e-9b5d0cdab788",
+    "sentence": "In contrast, survey measures of business conditions and sentiment remained at muted levels in August and September.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "2a630aca-a4e0-4cb8-afd6-41c1c1d7835c",
+    "sentence": "Mr. Plosser felt that a maturity extension program would do little to improve near-term growth or employment, in light of the ongoing structural adjustments and fiscal challenges both in the United States and abroad. Moreover, in his view, with inflation continuing to run above earlier forecasts, such a program could risk adding unwanted inflationary pressures and complicate the eventual exit from the period of extraordinarily accommodative monetary policy.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "caa099de-1bb3-40de-8231-a1a5c251bb02",
+    "sentence": "Credit default swap (CDS) spreads and equity prices of large U.S. banking organizations were again volatile over the period.",
+    "source": "minutes_20111102.html",
+    "doc_type": "minutes",
+    "date": "20111102",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "32e5eb61-3ae3-402d-8d6a-864a34db2b0b",
+    "sentence": "Measures of labor compensation generally indicated that nominal wage gains continued to be subdued.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9414cb78-c760-419e-8ed7-99e03c2d2e50",
+    "sentence": "While recent employment data had been encouraging, a number of members perceived a nonnegligible risk that improvements in employment could diminish as the year progressed, as had occurred in 2010 and 2011, and saw this risk as reinforcing the case for leaving the forward guidance unchanged at this meeting.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c4ea2948-a9ea-43c5-a340-a835e3bcabc6",
+    "sentence": "The strains in global financial markets, though generally less pronounced than last fall, continued to pose a significant risk to the outlook, and the possibility of a sharp fiscal tightening in the United States was also considered a sizable risk.",
+    "source": "minutes_20120425.html",
+    "doc_type": "minutes",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "24ccd45a-a22f-46c5-8f54-0d72452194c9",
+    "sentence": "The possibilities that U.S. fiscal policy would be more contractionary than anticipated and that uncertainty about fiscal policy could lead to a deferral of hiring and investment were other downside risks.",
+    "source": "minutes_20120425.html",
+    "doc_type": "minutes",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "2806f048-132b-4323-9a35-692e6a49e0aa",
+    "sentence": "In secured funding markets, Treasury general collateral repurchase agreement rates rose slightly on balance.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "609142f4-c1d5-49ee-9138-c6eff8c64c18",
+    "sentence": "It was noted that such guidance could have significant effects on financial conditions and the economy.",
+    "source": "minutes_20121024.html",
+    "doc_type": "minutes",
+    "date": "20121024",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1e2699ed-4863-4a01-a755-0303a2760931",
+    "sentence": "The relatively large share of workers employed part time for economic reasons trended up a bit, on net, while the share of long-duration unemployment in total unemployment was essentially flat and remained elevated.",
+    "source": "minutes_20121212.html",
+    "doc_type": "minutes",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "very dovish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "b71b4a8c-2062-474a-a4ba-3a223c032ebd",
+    "sentence": "The Federal Open Market Committee authorizes the Federal Reserve Bank of New York to undertake transactions of the type described in paragraphs 1, 2, and 5, and foreign exchange and investment transactions that it may be otherwise authorized to undertake from time to time for the purpose of testing operational readiness.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

@@ -1,0 +1,281 @@
+[
+  {
+    "id": "da8b19e5-4981-455d-a0c7-c78f809ab60c",
+    "sentence": "You know, we're a nonpolitical agency.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Just a quick follow-up—do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6beacfaa-e456-4d41-9ac7-a7269d1a7094",
+    "sentence": "But, realistically, we know it by its works. So that leaves us in a place where we'll be -- where we expect, in the base case, to be continuing to remove restriction, and we'll be looking at the way the economy reacts to that. And that'll be guiding us in our thinking about the question that we're asking at every meeting, which is, is our policy stance the appropriate one?",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240918",
+    "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed—Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you’d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "a6c36bbe-81ff-4932-b30b-039cbce162e2",
+    "sentence": "We're looking at all of those things, and we're asking ourselves, what's the right -- what's the policy stance we need to move to?",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240918",
+    "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I’m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you’re starting to act now and that’s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick’s question, do you see today’s 50 basis point move as partially a response to the fact that you didn’t cut in July and that sort of gets you to the same place?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "071d9433-ee9a-4f06-a105-a1e9eca32771",
+    "sentence": "If you -- you can think of it as similar to what we do with asset purchase -- with asset runoff with QT. So we reach a point where we slow the pace, much like an airplane reaching the airport slows down. And so, you know, it -- we're thinking about it that way, but it's, it's something that we're just beginning to think about.",
+    "source": "FOMCpresconf20241107.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241107",
+    "context_question": "Great. And just to follow up, could you—what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "7ee3c9c2-e394-45ac-955f-a11d8ad04c40",
+    "sentence": "If the economy remains strong and inflation does not continue to move sustainably toward 2 percent, we can dial back policy restraint more slowly.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20241218",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a57fbc3e-b44d-4811-b484-7968d24ca8a4",
+    "sentence": "You ask about 2025.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241218",
+    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it’s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b945b7d7-5352-41f8-9b8f-6fac7608a474",
+    "sentence": "So I do think that the 2018, the September 2018 Tealbook alternative simulations are a good place to start.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241218",
+    "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of “looking through” any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7cf5182f-5f3b-4459-895e-f782134fac87",
+    "sentence": "Investment in equipment and intangibles appears to have slowed in the fourth quarter but was strong for the year overall.",
+    "source": "FOMCpresconf20250129.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250129",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "fd33486c-379c-4b23-8568-a8a7e1aa376a",
+    "sentence": "But, nonetheless, the last couple of readings have suggested, you know, more positive readings. So I, I think we're -- I think policy's well, well positioned.",
+    "source": "FOMCpresconf20250129.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250129",
+    "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another ¼ point?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "4ea7c676-0693-4aa2-8a5b-39b83e10dc20",
+    "sentence": "While these individual forecasts are always subject to uncertainty, as I noted, uncertainty today is unusually elevated. And, of course, these projections are not a Committee plan or a decision.",
+    "source": "FOMCpresconf20250319.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250319",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "02e36a1e-f94c-4d80-8557-a2ab3e18127f",
+    "sentence": "At today's meeting, we also decided to slow the pace of decline in our balance sheet.",
+    "source": "FOMCpresconf20250319.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250319",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "353fffec-da52-4dcf-9fed-2ccd2bf479ed",
+    "sentence": "And, again, we're speculating here.",
+    "source": "FOMCpresconf20250507.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250507",
+    "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would—you could tolerate.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c3e28559-e1cb-4581-8933-debbe5abbdea",
+    "sentence": "It's also possible that the inflationary effects could instead be more persistent. Avoiding that outcome will depend on the size of the tariff effects, on how long it takes for them to pass through fully into prices, and, ultimately, on keeping longer-term inflation expectations well anchored.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ce75a80a-725e-43d0-9cfe-c8b10f633769",
+    "sentence": "My follow-up to that -- I think consumers -- right?",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250618",
+    "context_question": "You’re famously known as the guy that makes decision based on data instead of speculation. You’ve said today in—the inflation data is in a good place—we don’t know how tariffs are going to impact prices going forward—that’s uncertain. But I’ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today—and you didn’t cut today?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ff62c534-7834-4986-b5df-614b3fcb3470",
+    "sentence": "Every forecaster you can name who, you know -- who is a professional, you know, forecaster with, with adequate resources and forecasts for a living is forecasting, you know, a pretty significant -- everyone that I know is forecasting a meaningful increase in inflation in coming months from tariffs because someone has to pay for the tariffs. And it will be someone in that chain that I mentioned: Between the manufacturer, the exporter, the importer, the retailer -- ultimately, somebody putting it into a, a good of some kind or just the consumer buying it -- and, you know, all through that, that chain, people will be trying not to be the ones who, who pick up the cost.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250618",
+    "context_question": "Thank you, Chair Powell. So you’re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

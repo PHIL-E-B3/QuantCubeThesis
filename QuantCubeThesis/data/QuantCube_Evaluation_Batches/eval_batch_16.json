@@ -1,0 +1,310 @@
+[
+  {
+    "id": "45fe211a-4c36-4a5d-92a4-3cd7419bff4c",
+    "sentence": "Before turning to today's policy decision, let me say a few words about the Federal Reserve's strategy for normalizing policy in the long run.",
+    "source": "FOMCpresconf20130619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130619",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4d85986f-20cc-44b9-9d83-d54341bb2e64",
+    "sentence": "I emphasize that, given the outlook and the Committee's policy guidance, these matters are unlikely to be relevant to actual policy for quite a while.",
+    "source": "FOMCpresconf20130619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130619",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bf42e137-1c92-498b-8c88-4acaf8b3eb16",
+    "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to ¼ percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e476b094-c97a-467a-9caf-c593329f28c3",
+    "sentence": "The median projected funds rate for the end of 2015 is 1 percent. And notably, although the central tendencies of the projections for both inflation and the unemployment rate in 2016 are close to the longer-run normal values for those variables, the median projection for the federal funds rate at the end of 2016 is 2 percent, well below the longer-run normal value for the federal funds rate of 4 percent or so projected by most participants.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "47629bc5-e01e-47cf-a9bd-ecc991c0b506",
+    "sentence": "However, even after asset purchases are wound down -- which we will do in a manner that is both deliberate and dependent on the incoming economic data -- the Federal Reserve's rates guidance and its ongoing holdings of securities will ensure that monetary policy remains highly accommodative, consistent with an aggressive pursuit of our mandated objectives of maximum employment and price stability.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "aa6c5b80-fee1-468a-8682-891d84fe09e3",
+    "sentence": "What's the relationship between the pullback and fiscal policy?",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20130918",
+    "context_question": "Ylan Mui, Washington Post. You mentioned that tighter fiscal conditions are a concern for the Committee as you guys think about whether or not it’s appropriate to reduce asset purchases. What do you all expect to be able to do in the future, when you actually do begin to pull back in your asset purchases, to manage expectations and manage the market reactions such that we don’t see another increase in rates?",
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ad8c5819-b39c-43e4-99d7-6982bf746d56",
+    "sentence": "Unemployment has fallen faster than we anticipated.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20130918",
+    "context_question": "Mr. Chairman, Josh Zumbrun from Bloomberg News. You indicated that you can see the Fed lowering the pace of purchases once the economy starts to grow faster, in line with what the Fed’s projected. For about the past four years, the Fed has been projecting that growth would quicken to about 3 percent, and it never has. So, at what point are you decide—going to decide that other costs and benefits are the reason that you’re making the decision? Are we getting close to that having to be a deciding factor even if you don’t get the growth forecast, the way you haven’t the past four years? And does the complication of this— this is kind of a second question, but I’m going to do it anyway—does the complication of this mean that you need a press conference to make a tapering decision?",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "026bf7dc-c28b-4668-85f9-74307daae90a",
+    "sentence": "At the same time, the recovery clearly remains far from complete, with unemployment still elevated and with both underemployment and long-term unemployment still major concerns.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20131218",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "very dovish",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "07ed511d-f41c-48fb-9274-378c0864411e",
+    "sentence": "The Committee recognizes that inflation persistently below its objective could pose risks to economic performance and is monitoring inflation developments carefully for evidence that inflation will move back toward its objective over time.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20131218",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5d98d27f-aec7-4a63-9ec0-fbb2c87b3f1e",
+    "sentence": "I gave you some reasons why I think that will happen. But we take that very seriously, and if inflation does not show signs of returning to target, we will take appropriate action.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of—given all you’ve said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer—wait for more data?",
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "e420e518-ae02-4cdc-bb32-19b5fa66b58c",
+    "sentence": "So, fiscal policy has been tight, contractionary, so there have been a lot of headwinds.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Mr. Chairman, thank you. Wyatt Andrews at CBS. Given the billions of dollars that the Fed has put into the economy over the years, do you see a leading reason why the economy has not created more jobs?",
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "3844bb0e-0799-444d-b675-205b33d7ce01",
+    "sentence": "While the Committee continues to monitor developments in global financial markets carefully, financial conditions remain broadly consistent with the FOMC's objectives.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "4fa1081d-c247-4fd8-9078-2919cabcd50f",
+    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6½ percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "da55841c-e01e-4b75-9374-db79924aa818",
+    "sentence": "This guidance is consistent with the paths for appropriate policy as reported in the participants' projections, which show the federal funds rate for most participants remaining well below longer-run normal values at the end of 2016.",
+    "source": "FOMCpresconf20140618.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a0fc5806-2c3f-4077-ac5d-3c38a3924626",
+    "sentence": "As I mentioned, monetary policy operates with lags, so, the policies we have in place, we think, will gradually -- only gradually -- move inflation back to 2 percent. But if the Committee had real concerns that inflation were going to remain persistently below 2 percent, I feel confident that the Committee would act to prevent that.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140319",
+    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6½ percent numerical target in the forward guidance? Was there any concern expressed that there’s been criticism on forward guidance, that it’s confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

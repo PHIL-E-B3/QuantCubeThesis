@@ -1,0 +1,295 @@
+[
+  {
+    "id": "476e0465-9315-437d-b5f7-f8ebf737f15f",
+    "sentence": "Meeting participants generally indicated that they viewed the economic data received during the intermeeting period as somewhat more positive than had been expected, but that fiscal policy appeared to have become more restrictive, leaving the outlook for the economy little changed on balance since the January meeting.",
+    "source": "minutes_20130320.html",
+    "doc_type": "minutes",
+    "date": "20130320",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "9e81ce60-b450-4731-90bd-53822324f2fd",
+    "sentence": "While the Committee's accommodative policy continued to provide support to financial conditions, events abroad also influenced U.S. markets over the intermeeting period.",
+    "source": "minutes_20130501.html",
+    "doc_type": "minutes",
+    "date": "20130501",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "b1c54eec-64a8-4a53-afec-b8cdbd6f9f9d",
+    "sentence": "Accordingly, Ms. George preferred to signal a near-term tapering of asset purchases, which would begin to move policy toward a more appropriate stance.",
+    "source": "minutes_20130501.html",
+    "doc_type": "minutes",
+    "date": "20130501",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cd1b53a3-c94d-41c0-adf8-8e4b0bec5c01",
+    "sentence": "Subsequent Federal Reserve communications, which emphasized that decisions about the two policy tools were distinct and underscored that a highly accommodative stance of monetary policy would remain appropriate for a considerable period after purchases are completed, were seen as having helped clarify the Committee's policy strategy.",
+    "source": "minutes_20130731.html",
+    "doc_type": "minutes",
+    "date": "20130731",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "441a186f-84c6-4ce8-9481-63ee26e70f11",
+    "sentence": "In response, some EME authorities took actions to support their currencies, including tightening monetary policy, modifying capital controls, and purchasing their currencies in foreign exchange markets.",
+    "source": "minutes_20130918.html",
+    "doc_type": "minutes",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "21c71ec4-ee85-4314-bde6-cb1ee637a1d0",
+    "sentence": "Federal spending data in January and February pointed toward real federal government purchases being roughly flat in the first quarter, as the general downtrend in purchases seemed likely to be about offset by a reversal of the effects of the partial government shutdown during the fourth quarter.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "778303ec-b0b7-475e-918e-e3b690b75ab5",
+    "sentence": "In contrast, yields at the long end of the curve declined, continuing a downward trend evident over much of this year.",
+    "source": "minutes_20140430.html",
+    "doc_type": "minutes",
+    "date": "20140430",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "639e490e-e406-41de-aa81-350ab438845d",
+    "sentence": "Industrial production increased, on balance, in April and May, as manufacturing output and production in the mining sector expanded and more than offset a further decline in the output of utilities from the elevated levels recorded during the unusually cold winter months. As a result, the rate of industrial capacity utilization rose in recent months.",
+    "source": "minutes_20140618.html",
+    "doc_type": "minutes",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "7f2767da-6462-426d-96b6-a488be1aa71c",
+    "sentence": "In support of their assessments, several reported results from various statistical models of inflation and inflation expectations.",
+    "source": "minutes_20140730.html",
+    "doc_type": "minutes",
+    "date": "20140730",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "27754d8b-0ce1-4087-9207-1f5e42302281",
+    "sentence": "Finally, if the decline in oil prices and the rise in the foreign exchange value of the dollar did not continue, then their influence on the growth rate of investment and the change in net exports would likely recede.",
+    "source": "minutes_20150429.html",
+    "doc_type": "minutes",
+    "date": "20150429",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0819096f-4f84-4ad8-b78c-5b0a398da5d2",
+    "sentence": "Starts and building permits of both new single-family homes and multifamily units increased, on balance, in April and May.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "34cd534f-b300-4ad7-8bdb-4911da0cac68",
+    "sentence": "The foreign exchange value of the dollar increased a bit, on balance, during the intermeeting period against the currencies of major U.S. trading partners.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "74cf809d-2df7-45d3-82e6-0611e0d46903",
+    "sentence": "On balance, labor market indicators suggested that underutilization of labor resources had diminished since early this year.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "48578b54-585a-4f5f-b34a-6bdccdcd03b7",
+    "sentence": "The pace of job gains had been solid and the unemployment rate had declined, with a range of labor market indicators suggesting that underutilization of labor resources had continued to diminish.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "64a53f3b-b848-405a-baba-b59c80b14945",
+    "sentence": "Sales of new homes rose in October, while existing home sales decreased.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

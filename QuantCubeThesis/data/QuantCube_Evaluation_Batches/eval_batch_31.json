@@ -1,0 +1,291 @@
+[
+  {
+    "id": "90a4ef69-f575-4b2b-9043-1151ae9595dd",
+    "sentence": "Projections from the Survey of Professional Forecasters also suggest that 10-year-ahead inflation expectations edged lower this quarter, although they have remained at or very near 2 percent since the end of 2012.",
+    "source": "Normalizing Monetary Policy When the Neutral Interest Rate Is Low",
+    "doc_type": "speech",
+    "date": "2015-12-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "3bbedd64-9280-4530-bcbd-a8618cfb61cd",
+    "sentence": "Because the value of the neutral federal funds rate is not directly measureable and must be estimated based on our imperfect understanding of the economy and the available data, I would stress that considerable uncertainty attends our estimates of its current level and even more to its likely path going forward.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-12-02",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "4d0b7d97-c237-4392-bc27-bd5f6a8f824b",
+    "sentence": "Perhaps investment is being held down as firms respond to the flat trajectories for manufacturing and exports, reflecting subdued foreign demand and the appreciation of the dollar since mid-2014.",
+    "source": "The U.S. Economy and Monetary Policy ",
+    "doc_type": "speech",
+    "date": "2016-10-09",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "very dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c475e63d-6802-4b9b-a74f-ea980f1597ef",
+    "sentence": "Taking into account the potentially varied effects of the rising prevalence of gig work on household welfare, public policy should strive to maximize the benefits of the greater flexibility and lower entry barriers provided by advances in technology, while addressing the risks that currently accompany many forms of gig employment.",
+    "source": "The \"Gig\" Economy: Implications of the Growth of Contingent Work",
+    "doc_type": "speech",
+    "date": "2016-11-17",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "730f894e-9a00-42b9-b672-5be6a0e4b6bd",
+    "sentence": "The prime-age employment-to-population ratio remains depressed relative to pre-crisis levels; the share of employees working part time who would prefer full-time work remains elevated; and some measures of wage growth, such as the employment cost index, have increased relatively little in recent years.",
+    "source": "Transitions in the Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-03-01",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3f62035c-0050-4a17-9ce8-6f301b8beb4f",
+    "sentence": "By contrast, in the 1970s young women more commonly expected that they would spend a substantial portion of their lives in the labor force, and they prepared for it, increasing their educational attainment and taking courses and college majors that better equipped them for careers as opposed to just jobs.",
+    "source": "So We All Can Succeed: 125 Years of Women's Participation in the Economy",
+    "doc_type": "speech",
+    "date": "2017-05-05",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "eda56263-10e5-4cb5-9fed-e45b3f2e430d",
+    "sentence": "However, the euro-area increase also reflects increased surpluses in Germany and the Netherlands, countries that were already in considerable surplus during the pre-crisis period.",
+    "source": "The Low Level of Global Real Interest Rates",
+    "doc_type": "speech",
+    "date": "2017-07-31",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "df2a1576-9740-4738-b6ed-444c89db7d07",
+    "sentence": "The information we gather helps us better understand factors affecting consumers and households, including low- and moderate-income and historically underserved populations.",
+    "source": "The Roles of Consumer Protection and Small Business Access to Credit in Financial Inclusion",
+    "doc_type": "speech",
+    "date": "2018-03-26",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "afe06790-4fdd-4e26-ad41-1606046fa3b2",
+    "sentence": "First is the risk that inflation expectations might lose their anchor.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "52a50cb9-2636-4c8b-8582-7b16e13adade",
+    "sentence": "Fostering a safe, efficient, and widely accessible payment infrastructure has been a crucial aspect of the Fed's mission from its founding in 1913.",
+    "source": "Supporting Fast Payments for All",
+    "doc_type": "speech",
+    "date": "2018-10-03",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6a776c6f-096c-48fd-878b-d8e81816fa61",
+    "sentence": "Growth in total loans outstanding was strong for both urban and rural community banks between 1997 and 2008 (figure 5).",
+    "source": "Trends in Urban and Rural Community Banks",
+    "doc_type": "speech",
+    "date": "2018-10-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4535f790-7bf5-4f8b-a5bb-8af1bfebb7ae",
+    "sentence": "This situation is certainly not optimal for anyone, but it presents a particular challenge to the elderly, those without a car, and busy small business owners who do not have time to travel 25 miles each way to make change and deposit checks.",
+    "source": "Trends in Urban and Rural Community Banks",
+    "doc_type": "speech",
+    "date": "2018-10-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "4676ac00-8aed-4f22-8a9d-bd97ef900cd8",
+    "sentence": "First, we should update the area in which the agencies assess a bank's CRA activities while retaining the core focus on place.",
+    "source": "Community Investment in Denver",
+    "doc_type": "speech",
+    "date": "2018-10-15",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "d5f56ce1-ddc2-451b-9d2e-78701cf90562",
+    "sentence": "One public measure of whether we are doing this review process well will be whether we recommend any improvements or revisions on the basis of it.",
+    "source": "Ideas of Order: Charting a Course for the Financial Stability Board",
+    "doc_type": "speech",
+    "date": "2019-02-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3df95c29-fab0-4ed9-ba5a-eeb649e6302b",
+    "sentence": "I have one more reason for better communication, but first I will give you an idea of what I have in mind for that consultation.",
+    "source": "Fostering Closer Supervisory Communication",
+    "doc_type": "speech",
+    "date": "2019-04-02",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  }
+]
