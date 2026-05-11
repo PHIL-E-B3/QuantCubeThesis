@@ -30,8 +30,9 @@ MAX_CONTEXT_CHARS = 1000
 CLAUDE_MODEL = "claude-opus-4-7"
 
 DEPENDENCY_STARTS = (
-    # Formal connectives (all doc types)
-    "however", "therefore", "thus", "consequently", "as a result", "for example",
+    # Formal connectives (all doc types) — "however" removed: it is contrastive
+    # and should not silently merge opposing clauses
+    "therefore", "thus", "consequently", "as a result", "for example",
     # Epistemic + demonstrative pronoun (all doc types)
     "i think they", "i think those", "i think these", "i think that",
     "we think they", "we think those", "we think these", "we think that",
