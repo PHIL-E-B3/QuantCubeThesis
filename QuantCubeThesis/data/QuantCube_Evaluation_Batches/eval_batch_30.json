@@ -6,16 +6,14 @@
     "doc_type": "speech",
     "date": "2012-04-10",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7d0d0932-8cff-4859-8f15-a999eaa82a81",
@@ -24,16 +22,14 @@
     "doc_type": "speech",
     "date": "2012-04-13",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8974be63-35e6-4655-a36f-7e908a6dd179",
@@ -42,16 +38,14 @@
     "doc_type": "speech",
     "date": "2012-05-10",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "0173c762-40cd-47f0-80f9-1b40909a2cc1",
@@ -60,18 +54,14 @@
     "doc_type": "speech",
     "date": "2012-10-10",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "118b3824-4f1d-4e19-a222-96032aad3688",
@@ -80,16 +70,14 @@
     "doc_type": "speech",
     "date": "2012-10-10",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d7ef7f0c-2404-4ed8-a456-8cd0072b917c",
@@ -98,19 +86,14 @@
     "doc_type": "speech",
     "date": "2012-11-20",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c874e68e-c638-45a8-bd63-25319a91f48c",
@@ -119,16 +102,14 @@
     "doc_type": "speech",
     "date": "2013-01-04",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "33e0f1cb-a15f-4385-9345-5814e78b4220",
@@ -137,16 +118,14 @@
     "doc_type": "speech",
     "date": "2013-03-02",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c30ec98a-05ec-42fd-8247-69eb0e8b7ac2",
@@ -155,18 +134,14 @@
     "doc_type": "speech",
     "date": "2013-11-04",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7c90ec6f-5d2e-4c8c-8071-6eeed8938548",
@@ -175,18 +150,14 @@
     "doc_type": "speech",
     "date": "2013-11-21",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a0e5959c-9dc3-4c63-88fa-1c074066a316",
@@ -195,16 +166,14 @@
     "doc_type": "speech",
     "date": "2013-11-22",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2a533477-5cc8-4dc3-8908-0624ec1ca52d",
@@ -213,18 +182,14 @@
     "doc_type": "speech",
     "date": "2014-03-31",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a7402029-87e6-454a-b3b0-007e4bd5ad92",
@@ -233,17 +198,14 @@
     "doc_type": "speech",
     "date": "2014-06-06",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7f11cf89-2a1d-4b0b-bc79-57b1d7d4ee83",
@@ -252,16 +214,14 @@
     "doc_type": "speech",
     "date": "2015-05-14",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a66956fd-24ea-4e7d-87b9-4e4c4289a047",
@@ -270,17 +230,13 @@
     "doc_type": "speech",
     "date": "2015-07-10",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

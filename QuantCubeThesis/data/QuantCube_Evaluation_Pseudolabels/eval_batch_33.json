@@ -1,0 +1,283 @@
+[
+  {
+    "id": "cd682ae9-885b-43ce-89b4-8e30a5317e75",
+    "sentence": "For small banks, these compliance problems can be amplified by a number of factors.",
+    "source": "The Innovation Imperative: Modernizing Traditional Banking",
+    "doc_type": "speech",
+    "date": "2023-03-14",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "156f839c-846e-4a38-b493-a7cd18ecb40f",
+    "sentence": "In addition, the FOMC judged that the prevailing level of reserve supply at that time may have been a bit too low to be consistent with operating in an ample-reserves regime.",
+    "source": "Implementation and Transmission of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2023-03-27",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b25f2553-0f41-4fa6-9c8a-8d99a74983d5",
+    "sentence": "Education brought me into contact with a story and a mind that shaped my entire life: Dr. Sadie Tanner Mossell Alexander.",
+    "source": "Commencement Address",
+    "doc_type": "speech",
+    "date": "2023-05-15",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f589c07c-c73f-42a7-ac61-25bde8ae6e06",
+    "sentence": "Today, we have about 90 in-person participants in attendance, representing 30 agencies and foreign central banks.",
+    "source": "Welcoming Remarks",
+    "doc_type": "speech",
+    "date": "2023-11-13",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9ad1a999-52b3-4c89-a3b7-818fedd134b7",
+    "sentence": "There were two primary reasons for this change.",
+    "source": "Communicating about Monetary Policy",
+    "doc_type": "speech",
+    "date": "2024-05-13",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "54af67b3-fd73-438d-8c84-8f187748f6a4",
+    "sentence": "While this could solve some succession planning concerns, it is not clear how these acquisitions will ultimately impact the banking system going forward.",
+    "source": "Brief Remarks on the Economy, Monetary Policy, and Bank Regulation",
+    "doc_type": "speech",
+    "date": "2024-06-27",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "62caee9b-02c8-4434-ac10-cd029e86749d",
+    "sentence": "The Value of Experience\r\nBuilding this framework for the future starts with personnel, the people making decisions over the long term.",
+    "source": "Building a Community Banking Framework for the Future",
+    "doc_type": "speech",
+    "date": "2024-10-02",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b6662a36-dc37-48a2-a76c-2c8185ec75be",
+    "sentence": "Rent growth and other measures of housing inflation remain elevated but stepped down in the November report.",
+    "source": "An Assessment of the Economy and Financial Stability",
+    "doc_type": "speech",
+    "date": "2025-01-06",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "e3ca873d-cead-4333-9d54-e92b0c7d6395",
+    "sentence": "Sometimes fraudsters target vulnerable populations, like the elderly, who are particularly susceptible to certain forms of fraud.",
+    "source": "Bank Regulation in 2025 and Beyond",
+    "doc_type": "speech",
+    "date": "2025-02-05",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7d80d32a-6363-4741-a676-89fb4999addd",
+    "sentence": "At the end of the day, the data should be guiding our policy actionânot speculation about what could happen.",
+    "source": "Disinflation Progress Uneven but Still on Track Rates Cuts on Track as Well",
+    "doc_type": "speech",
+    "date": "2025-02-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ae749f50-8f0a-4181-bb9a-df3e2ef608f5",
+    "sentence": "Conclusion\r\nGraduatesâSpartansâyou are entering the wider world, one filled with pressing needs, and countless opportunities.",
+    "source": "Four Guides for the Journey Ahead",
+    "doc_type": "speech",
+    "date": "2025-05-03",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2f161d84-81fc-45be-a82b-9b2ed885145e",
+    "sentence": "Meanwhile, the unemployment rate is 4.1 percent, near the Committee's longer-run estimate, and headline inflation is close to our target at just slightly above 2 percent if we put aside tariff effects that I believe will be temporary.",
+    "source": "The Case for Cutting Now",
+    "doc_type": "speech",
+    "date": "2025-07-17",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "85d399c8-d51b-4e54-acff-ee3025b83b73",
+    "sentence": "All of this is to demonstrate that the evolution of the payment system has long been a story of technological advancement.",
+    "source": "Technological Advancements in Payments",
+    "doc_type": "speech",
+    "date": "2025-08-20",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61d6c55c-5ad0-45eb-a81a-37190bfeced3",
+    "sentence": "But this example underscores how full disclosure of the Fed's stress models and scenarios would enable banks to optimize stress test results by, among other things, adjusting their balance sheets based on their knowledge of where the models underprice risk, in order to reduce their capital requirements without materially reducing risks.",
+    "source": "Preserving the Dynamism and Credibility of Stress Testing ",
+    "doc_type": "speech",
+    "date": "2025-09-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "54cd3ce6-a657-463b-be03-31be299d76d7",
+    "sentence": "For most non-G-SIBs subject to the SCB requirement, the current 2.5 percent buffer floor likely remains an appropriate level.",
+    "source": "Preserving the Dynamism and Credibility of Stress Testing ",
+    "doc_type": "speech",
+    "date": "2025-09-25",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

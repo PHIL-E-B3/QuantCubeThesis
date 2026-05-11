@@ -1,0 +1,300 @@
+[
+  {
+    "id": "997650ad-2baf-42af-9f0c-0383cfc48ec7",
+    "sentence": "These judgments about future policy underlie the participants' projections of growth, unemployment, and inflation that I just described. Rather -- excuse me -- Importantly, these policy assessments should not be viewed as unconditional pledges. Rather, just as with our economic projections, these policy projections reflect the information available at the time of the forecast and are subject to future revision in light of evolving economic and financial conditions.",
+    "source": "FOMCpresconf20120125.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120125",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d6d1ca1f-c7f6-4aca-a7e9-92c98b19aeb2",
+    "sentence": "Labor market conditions have improved in recent months, with the unemployment rate having fallen nearly a percentage point since August.",
+    "source": "FOMCpresconf20120425.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e0e9bbfd-5d49-4544-8bf3-00e93ec96306",
+    "sentence": "Well, I think the -- I would draw two distinctions between the U.S. and Japan, or the Japanese experience.",
+    "source": "FOMCpresconf20120425.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120425",
+    "context_question": "Yes, policy response is the only reason make a difference U.S. and Japan or are there any other factor make a difference of U.S. and Japan situation?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0feadcb8-5c6c-45cd-93f1-5596d47298b0",
+    "sentence": "On declaring victory, I think it's a little premature to declare victory. I think that keeping interest rates low is still appropriate for our economy.",
+    "source": "FOMCpresconf20120425.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120425",
+    "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It’s at the lowest level since the early ’80s. Can you talk about why people are dropping out of the job market, whether it’s a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds—your colleague Sheila Bair wrote this week that her—about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f170dd3c-f6ee-4c23-a800-85e58746bf7e",
+    "sentence": "So, your particular suggestion is on the table, as are other ways to try to make this more useful.",
+    "source": "FOMCpresconf20120425.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120425",
+    "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections—in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the—watching your actions get a better sense of exactly what you’re thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you’ve been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6dd8833d-7412-4dbe-8c9a-ce0dddb074c2",
+    "sentence": "Auto loans are cheap and broadly available.",
+    "source": "FOMCpresconf20120620.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120620",
+    "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed’s accommodative actions over the past few years has been that it’s helped those with the least propensity to spend—the wealthy, large businesses and corporations—while the Fed’s impact on those with the most propensity to spend—the cash- strapped and middle-income households—has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c21765f7-bb78-49ab-ab9e-509e123560f1",
+    "sentence": "Well, they are two terrific people with great experience.",
+    "source": "FOMCpresconf20120620.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120620",
+    "context_question": "You have two new Fed Governors aboard. Did that change the tenor of the discussion at all this week? And did Jeremy Stein and Jay Powell push you in any particular policy direction?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e2737c34-c8d5-42de-bccf-24f22ae7a2f4",
+    "sentence": "With inflation anticipated to run at or below our 2 percent objective, the Committee has become convinced that further policy accommodation is warranted to strengthen the recovery and support the gains we have begun to see in housing and other sectors.",
+    "source": "FOMCpresconf20120913.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120913",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "43e69851-9d16-4cff-90cd-49c943b8d2eb",
+    "sentence": "The economy continues to face economic headwinds, including the situation in Europe; tight credit for some borrowers; and fiscal contraction at the federal, state, and local levels.",
+    "source": "FOMCpresconf20120913.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120913",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "very dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "804b7659-68ec-4ea4-855f-d83da7feff50",
+    "sentence": "In assessing the extent of progress, the Committee will be evaluating a range of labor market indicators, including the unemployment rate, payroll employment, hours worked, and labor force participation, among others.",
+    "source": "FOMCpresconf20121212.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
+    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6½ percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
+    "source": "FOMCpresconf20121212.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "conditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "89a22aba-40af-438d-8768-00b5bc2873c8",
+    "sentence": "I wouldn't say it was an important motivation for adding transparency.",
+    "source": "FOMCpresconf20121212.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20121212",
+    "context_question": "Okay, sir, I had a follow-up, too. I’m not going to ask you whether we’re in a bond bubble. But obviously, the new guidance that you’ve given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping—was that a consideration in adding this transparency?",
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "82cbcba5-318e-45ef-9a14-f84d03ac2fcf",
+    "sentence": "As always, each participant's projections are conditioned on his or her own view of appropriate monetary policy.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "44ab3b7b-bfa9-4996-8edb-8844f978623b",
+    "sentence": "As for today, our policy decision had two main elements.",
+    "source": "FOMCpresconf20130320.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130320",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "594cb9cb-efd8-4ba9-b9f1-3d4fe57a0d39",
+    "sentence": "The Committee believes that the recent softness partly reflects transitory factors, and with longer-term inflation expectations remaining stable, the Committee expects inflation to move back towards this 2 percent longer-term objective over time. We will, however, be closely monitoring these developments as well.",
+    "source": "FOMCpresconf20130619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130619",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

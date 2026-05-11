@@ -6,19 +6,14 @@
     "doc_type": "minutes",
     "date": "20130320",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "9e81ce60-b450-4731-90bd-53822324f2fd",
@@ -27,16 +22,14 @@
     "doc_type": "minutes",
     "date": "20130501",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b1c54eec-64a8-4a53-afec-b8cdbd6f9f9d",
@@ -45,16 +38,14 @@
     "doc_type": "minutes",
     "date": "20130501",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "cd1b53a3-c94d-41c0-adf8-8e4b0bec5c01",
@@ -63,16 +54,14 @@
     "doc_type": "minutes",
     "date": "20130731",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "441a186f-84c6-4ce8-9481-63ee26e70f11",
@@ -81,19 +70,14 @@
     "doc_type": "minutes",
     "date": "20130918",
     "context_question": null,
-    "top": [
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "21c71ec4-ee85-4314-bde6-cb1ee637a1d0",
@@ -102,18 +86,14 @@
     "doc_type": "minutes",
     "date": "20140319",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "778303ec-b0b7-475e-918e-e3b690b75ab5",
@@ -122,16 +102,14 @@
     "doc_type": "minutes",
     "date": "20140430",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "near_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "639e490e-e406-41de-aa81-350ab438845d",
@@ -140,18 +118,14 @@
     "doc_type": "minutes",
     "date": "20140618",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7f2767da-6462-426d-96b6-a488be1aa71c",
@@ -160,19 +134,14 @@
     "doc_type": "minutes",
     "date": "20140730",
     "context_question": null,
-    "top": [
-      "inflation",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "27754d8b-0ce1-4087-9207-1f5e42302281",
@@ -181,20 +150,14 @@
     "doc_type": "minutes",
     "date": "20150429",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "0819096f-4f84-4ad8-b78c-5b0a398da5d2",
@@ -203,16 +166,14 @@
     "doc_type": "minutes",
     "date": "20150617",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "34cd534f-b300-4ad7-8bdb-4911da0cac68",
@@ -221,18 +182,14 @@
     "doc_type": "minutes",
     "date": "20150617",
     "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "74cf809d-2df7-45d3-82e6-0611e0d46903",
@@ -241,18 +198,14 @@
     "doc_type": "minutes",
     "date": "20150729",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "48578b54-585a-4f5f-b34a-6bdccdcd03b7",
@@ -261,18 +214,14 @@
     "doc_type": "minutes",
     "date": "20150729",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "64a53f3b-b848-405a-baba-b59c80b14945",
@@ -281,15 +230,13 @@
     "doc_type": "minutes",
     "date": "20151216",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "very hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   }
 ]

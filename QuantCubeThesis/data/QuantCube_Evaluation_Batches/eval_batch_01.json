@@ -6,16 +6,14 @@
     "doc_type": "minutes",
     "date": "20110126",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "33822f1c-e485-4b75-b755-1ca6e4fa92cb",
@@ -24,22 +22,14 @@
     "doc_type": "minutes",
     "date": "20110315",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions",
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c9952fb0-89df-4119-a2a4-f4e549bcd885",
@@ -48,18 +38,14 @@
     "doc_type": "minutes",
     "date": "20110809",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f49a4bee-9e0a-4447-8a3b-c901f35696bb",
@@ -68,19 +54,14 @@
     "doc_type": "minutes",
     "date": "20110921",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a8e1841c-8ea1-4a61-854e-9b5d0cdab788",
@@ -89,16 +70,14 @@
     "doc_type": "minutes",
     "date": "20110921",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2a630aca-a4e0-4cb8-afd6-41c1c1d7835c",
@@ -107,24 +86,14 @@
     "doc_type": "minutes",
     "date": "20110921",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment",
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "caa099de-1bb3-40de-8231-a1a5c251bb02",
@@ -133,16 +102,14 @@
     "doc_type": "minutes",
     "date": "20111102",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "32e5eb61-3ae3-402d-8d6a-864a34db2b0b",
@@ -151,16 +118,14 @@
     "doc_type": "minutes",
     "date": "20120313",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "9414cb78-c760-419e-8ed7-99e03c2d2e50",
@@ -169,19 +134,14 @@
     "doc_type": "minutes",
     "date": "20120313",
     "context_question": null,
-    "top": [
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c4ea2948-a9ea-43c5-a340-a835e3bcabc6",
@@ -190,19 +150,14 @@
     "doc_type": "minutes",
     "date": "20120425",
     "context_question": null,
-    "top": [
-      "financial_conditions",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "24ccd45a-a22f-46c5-8f54-0d72452194c9",
@@ -211,21 +166,14 @@
     "doc_type": "minutes",
     "date": "20120425",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2806f048-132b-4323-9a35-692e6a49e0aa",
@@ -234,16 +182,14 @@
     "doc_type": "minutes",
     "date": "20120801",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "609142f4-c1d5-49ee-9138-c6eff8c64c18",
@@ -252,17 +198,14 @@
     "doc_type": "minutes",
     "date": "20121024",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1e2699ed-4863-4a01-a755-0303a2760931",
@@ -271,19 +214,14 @@
     "doc_type": "minutes",
     "date": "20121212",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "very dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b71b4a8c-2062-474a-a4ba-3a223c032ebd",
@@ -292,19 +230,13 @@
     "doc_type": "minutes",
     "date": "20140129",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro",
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

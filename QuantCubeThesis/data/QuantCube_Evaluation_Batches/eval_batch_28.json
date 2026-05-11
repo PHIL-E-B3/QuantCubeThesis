@@ -6,18 +6,14 @@
     "doc_type": "speech",
     "date": "2007-09-24",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "91f26486-5e91-41f3-980a-d58cd91cff6f",
@@ -26,20 +22,14 @@
     "doc_type": "speech",
     "date": "2007-10-12",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7b1f514e-abed-4969-af40-5bc4b6c41b84",
@@ -48,21 +38,14 @@
     "doc_type": "speech",
     "date": "2008-02-25",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f145cbb7-ecc8-4095-95a9-b4ba066edeba",
@@ -71,16 +54,14 @@
     "doc_type": "speech",
     "date": "2008-03-07",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "0b4e4610-6976-47ef-99a7-15d718cf89f6",
@@ -89,16 +70,14 @@
     "doc_type": "speech",
     "date": "2008-03-11",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "92550d6a-eb1e-421a-b670-491a9a741317",
@@ -107,16 +86,14 @@
     "doc_type": "speech",
     "date": "2008-04-04",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a34f1805-c4e7-4261-811b-1487a8aa3222",
@@ -125,19 +102,14 @@
     "doc_type": "speech",
     "date": "2008-07-28",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8bbbe3ca-7b8d-46f5-b7d8-d71586b7e01f",
@@ -146,18 +118,14 @@
     "doc_type": "speech",
     "date": "2008-10-07",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a3caf3b6-340e-49e8-b3a9-f18fb18cb012",
@@ -166,21 +134,14 @@
     "doc_type": "speech",
     "date": "2008-10-31",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "macro",
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "42e9e7eb-82d1-4dea-966c-81f2b0adfd64",
@@ -189,16 +150,14 @@
     "doc_type": "speech",
     "date": "2008-11-06",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "580f5c3c-64f3-4da1-bb83-0e6c3e73f593",
@@ -207,19 +166,14 @@
     "doc_type": "speech",
     "date": "2008-11-19",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
@@ -228,18 +182,14 @@
     "doc_type": "speech",
     "date": "2009-01-13",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f4b60903-abbb-4777-b503-9efa7a85cfe7",
@@ -248,16 +198,14 @@
     "doc_type": "speech",
     "date": "2009-02-16",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1cd4b0e1-f524-416e-b4bf-ac094412d585",
@@ -266,16 +214,14 @@
     "doc_type": "speech",
     "date": "2009-03-10",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "55115ef5-75da-44d7-99f1-7832486cea91",
@@ -284,15 +230,13 @@
     "doc_type": "speech",
     "date": "2009-04-06",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   }
 ]

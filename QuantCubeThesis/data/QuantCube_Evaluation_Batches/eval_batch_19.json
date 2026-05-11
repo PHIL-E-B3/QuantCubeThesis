@@ -6,16 +6,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170614",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a8ea5b09-0083-471c-b20c-86d3ea9d37ed",
@@ -24,18 +22,14 @@
     "doc_type": "press_conference_qa",
     "date": "20170614",
     "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members’. It’s an unobservable thing. At best, it’s an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we’ve learned that the post-recession economy is vastly different than it was before the recession. So I’m wondering, something you’ve talked about is to focus more on the change in inflation—actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "9fa7bbed-1c59-4485-a099-1bc008b9d933",
@@ -44,20 +38,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170920",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5a25b637-74f5-4fda-9b5a-df0fd91a977d",
@@ -66,20 +54,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170920",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "35a86d34-c088-4846-9245-e36bdc73db92",
@@ -88,22 +70,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170920",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d13471df-989d-4a1f-a9a5-bc8eaca37676",
@@ -112,17 +86,14 @@
     "doc_type": "press_conference_qa",
     "date": "20170920",
     "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be “an active tool for monetary policy in normal times,” you don’t plan to make adjustments to the balance sheet. I’m wondering if we could explore if there’s any sensitivity to the plan you just announced if there’s a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the—it suggested the only reason you’d change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there’s some unexpected development in markets, or, for example, given that we don’t know what the plans are on the fiscal side for the deficit in terms of tax cuts—there could be a sudden spike in the deficit—will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you’ve just announced and apparent unwillingness to adjust it?",
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "conditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "29c6d318-7b07-4ac9-9f21-593cb320ea11",
@@ -131,18 +102,14 @@
     "doc_type": "press_conference_qa",
     "date": "20170920",
     "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around ½ percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you’ve said you expect the inflation softness this year to prove “transitory.” Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
-    "top": [
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5f3f6e96-da4b-4331-9eb8-9b49fc53df65",
@@ -151,18 +118,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20171213",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "39bef325-c26a-4213-be8a-f6afd3cca366",
@@ -171,21 +134,14 @@
     "doc_type": "press_conference_qa",
     "date": "20171213",
     "context_question": "I’m Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already—with unemployment so low—that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "9f27f51a-8c2a-474a-9ea2-ff1ce460e1ae",
@@ -194,16 +150,14 @@
     "doc_type": "press_conference_qa",
     "date": "20171213",
     "context_question": "Do you mean me, or—as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking—there have been some reservations among some Democratic senators recently during Governor Powell’s confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopting. Do you have any similar reservations about the new leadership’s ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the—sort of, the advances that have come from post-crisis regulation?",
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5d41fa01-97ee-40ce-871b-97761b6e1187",
@@ -212,16 +166,14 @@
     "doc_type": "press_conference_qa",
     "date": "20180321",
     "context_question": "And press conferences?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "47d9bffd-c8e1-4463-b420-06cf70741832",
@@ -230,19 +182,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20180613",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c300d036-66d7-4426-a2a0-7b82895fb56b",
@@ -251,16 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20180613",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "df882004-5ff7-4e2c-8f8d-405a709a9cca",
@@ -269,16 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20180613",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "092dcc61-649c-4b9d-a57f-621ab4d926fc",
@@ -287,15 +230,13 @@
     "doc_type": "press_conference_qa",
     "date": "20180613",
     "context_question": "Thank you. You said at the beginning of your press conference that you plan to be more plainspoken. And so, okay, I wanted to know what you would say to workers who are worried that, you know, these paths of rate hikes that you’ve laid out will kind of undercut the wage growth they are just starting to see. Thank you.",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   }
 ]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "9db1971a-0cb6-4e62-97f9-b1a9b434b5ca",
+    "sentence": "A few indicated that the uncertainty about the effectiveness of these policies was smaller than the uncertainty surrounding the effectiveness of a makeup strategy.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "06f06eb5-d5ad-4d8d-9227-e98c0453c1f2",
+    "sentence": "Market participants remained attentive to a range of global risk factors that could affect the policy rate path, including trade tensions between the United States and China, developments in Europe, political tensions in Hong Kong, uncertainties related to Brexit, and escalating geopolitical tension in the Middle East following attacks on Saudi oil facilities.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "c1c4b309-05cb-4a77-9645-8cb6ce40c8fa",
+    "sentence": "Imports of oil and consumer goods fell in June, while imports of capital goods dropped significantly in July.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c71e1cdb-b8b0-4753-b7f5-de93ed62ac49",
+    "sentence": "Several participants suggested that such a discussion could benefit from also considering the merits of introducing a standing repurchase agreement facility as part of the framework for implementing monetary policy.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fc4cb6cc-7e96-4645-a911-b006a7ad15a7",
+    "sentence": "Output was forecast to expand at a rate a little above the staff's estimate of its potential rate of growth in 2019 through 2021 and then to slow to a pace slightly below potential output growth in 2022.",
+    "source": "minutes_20191211.html",
+    "doc_type": "minutes",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c7346ec3-ca84-449c-a104-7e0c8d3543ba",
+    "sentence": "Although household spending had been rising at a moderate pace, business fixed investment and exports remained weak.",
+    "source": "minutes_20200129.html",
+    "doc_type": "minutes",
+    "date": "20200129",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "8dba0a70-65eb-442e-b192-d0269437d28e",
+    "sentence": "Institutional prime money market funds (MMFs) experienced heavy redemptions and reportedly faced difficulties selling assets amid impaired secondary-market liquidity.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "18347087-2b2a-4311-9bab-4951995587f1",
+    "sentence": "These scenarios differed in the assumed length of the pandemic and the consequent economic disruptions.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61a44308-c824-43f1-ad33-fe781c1dd790",
+    "sentence": "In light of the significant uncertainty and downside risks associated with the pandemic, including how much the economy would weaken and how long it would take to recover, the staff judged that a more pessimistic projection was no less plausible than the baseline forecast.",
+    "source": "minutes_20200610.html",
+    "doc_type": "minutes",
+    "date": "20200610",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "e5418507-7ab1-476e-8db9-fc28796c584f",
+    "sentence": "Participants universally recognized his great leadership and intellectual contributions to the work of the Committee as well as his warm and generous spirit.",
+    "source": "minutes_20200916.html",
+    "doc_type": "minutes",
+    "date": "20200916",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "27d7015c-880b-45a0-8335-c325b9439bdb",
+    "sentence": "The dollar appreciated modestly against most AFE currencies except the Japanese yen and the British pound.",
+    "source": "minutes_20201105.html",
+    "doc_type": "minutes",
+    "date": "20201105",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
+    "sentence": "Business contacts in a couple of Districts—particularly those in the manufacturing, health-care, and technology sectors—reported having trouble hiring workers for reasons likely related to virus cases or workers' need to provide childcare.",
+    "source": "minutes_20201105.html",
+    "doc_type": "minutes",
+    "date": "20201105",
+    "context_question": null,
+    "top": [
+      "employment",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
+    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that—with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs—their situations could deteriorate significantly if additional relief and support did not materialize.",
+    "source": "minutes_20201216.html",
+    "doc_type": "minutes",
+    "date": "20201216",
+    "context_question": null,
+    "top": [
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "conditional",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "28bb63c8-5d15-4e69-b18d-7303ff6679a3",
+    "sentence": "Nominal nonresidential construction spending rose somewhat in January, but investment in nonresidential structures outside of the drilling and mining sector looked to remain weak in the current quarter after declining further in the fourth quarter, reflecting continued hesitation by businesses to commit to building projects with lengthy times to completion and uncertain future returns.",
+    "source": "minutes_20210317.html",
+    "doc_type": "minutes",
+    "date": "20210317",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "a5262021-b578-4563-add9-ff730707ac58",
+    "sentence": "A couple of participants reported improved conditions in the agricultural sector, with farmers' income supported by higher crop prices and federal aid payments.",
+    "source": "minutes_20210428.html",
+    "doc_type": "minutes",
+    "date": "20210428",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "994d3460-01cc-420f-9139-67020b214c5e",
+    "sentence": "While correspondent banking has been the backbone of global payments for decades, this model faces several challenges, including high transaction costs, slower processing times, and a global decline in correspondent banking relationships.",
+    "source": "The Next Frontier of Payments Innovation",
+    "doc_type": "speech",
+    "date": "2025-09-29",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "42a4f63e-4497-4923-bf54-78222b5d0aae",
+    "sentence": "This reading of the data leads me, at this moment, to support a cut in the FOMC's policy rate at our next meeting on December 9 and 10 as a matter of risk management.",
+    "source": "The Case for Continuing Rate Cuts",
+    "doc_type": "speech",
+    "date": "2025-11-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "124cb04d-f8b3-46ff-8950-e6300cb098ad",
+    "sentence": "Of course, much has changed over the past quarter-century, so history can only be a useful reference and not a predictor of future outcomes.",
+    "source": "AI, the Economy, and Financial Stability",
+    "doc_type": "speech",
+    "date": "2025-11-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "113b7c32-a50a-40c4-ac03-9af59c7a502d",
+    "sentence": "Less restrictive regulations, lower business taxes, and a more favorable business environment will continue to boost supplyâlargely due to higher productivityâand more than offset any negative effects on economic activity and inflation from other policies.",
+    "source": "Outlook for the Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-01-30",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ae265411-6fcf-4588-bc0a-cf36b750b996",
+    "sentence": "I expect that the supply-side policies that I just mentioned, along with strength in AI-related investment, will continue to boost productivity gains and help ensure that inflation remains on a downward path.",
+    "source": "Outlook for the Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-01-30",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

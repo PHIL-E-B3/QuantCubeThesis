@@ -6,16 +6,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250730",
     "context_question": "Thank you, Mr. Chairman. Edward Lawrence from Fox Business. How concerned are you, with, with the data that we’re showing—coming in showing no significant upward trend in inflation over the past six months, that the wait-and-see approach for inflation is actually giving companies cover to raise prices?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "53c61e48-ffd4-4adc-b8c5-fe80ee5c8033",
@@ -24,18 +22,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250730",
     "context_question": "Thank you, Mr. Chairman, for taking the question. Jeff Cox from CNBC.com. A metric that you like to cite a lot is the final sales to private domestic purchasers. That was down to a 1.2 percent gain in the second quarter from 1.9 percent in Q1, suggesting that there’s some softening in underlying demand. Just wondering if you look at that and you combine that with some of the housing numbers that—with the weakness that you acknowledge at the top of your remarks—that the housing market is, in fact, weak. And the inflation numbers from GDP today came down 2.1 percent for headline, 2.5 percent for core. I’m wondering how much more movement you would need to see from these data points before you would be comfortable with cutting in, say, September.",
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "018a2f93-c99e-49fd-95b3-1a54f961ed5f",
@@ -44,16 +38,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20251210",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "45bec592-9e53-4020-bf15-7e46e1d4bb83",
@@ -62,18 +54,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250917",
     "context_question": "If I could follow up: Every year since 2015, the SEP has forecast that you would hit your target two years later. And this year, this SEP says you’re going to hit your target two years later. Two percent does not seem to be in sight. Does that suggest that the 2 percent target is not really achievable? And does this present any credibility problems for you in telling people that that’s what you’re going to do, if you can never reach it?",
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5ac338ff-31c7-41c7-b7ab-f3f787b2b417",
@@ -82,16 +70,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250917",
     "context_question": "Thanks, Mr. Chairman. Edward Lawrence from Fox Business. So we saw the preliminary benchmark revisions, down 911,000. The revisions for June were the first negative revisions we’ve seen since December of 2020. You know, how can the Fed base important decisions on rate and what to do with the interest—with the interest rates on data that seems to be, as you’ve called it in the past, noisy?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2f5c304d-55eb-42b0-8714-7198c5d785b2",
@@ -100,16 +86,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250917",
     "context_question": "Thank you, Chair Powell. Jennifer Schonberger with Yahoo Finance. If you’re cutting rates, why continue to reduce the size of your balance sheet [rather] than pause the unwinding?",
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
@@ -118,16 +102,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20251210",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "46191e9c-e15c-4c3e-ac01-676316ba5baa",
@@ -136,17 +118,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20251210",
     "context_question": null,
-    "top": [
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b2685068-25d3-4df6-a2e6-ecd9790998e4",
@@ -155,16 +134,14 @@
     "doc_type": "press_conference_qa",
     "date": "20251210",
     "context_question": "Thanks, Mr. Chairman. Edward Lawrence, with Fox Business. I wanted to ask you, the inflation expectations has come down in your SEP report. Do you see the tariff price increases as passing through in the next three months? Is it a six-month process that we’re looking for that to end? And then, because of that, is jobs the threat to the economy?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "34bc44bc-22d4-45c0-ab8b-eb88b37202e7",
@@ -173,16 +150,14 @@
     "doc_type": "press_conference_qa",
     "date": "20251210",
     "context_question": "Why is there such a division of views between the presidents and the Board members?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "beba39d5-dae9-45b1-a68f-5dc64d10fff4",
@@ -191,16 +166,14 @@
     "doc_type": "speech",
     "date": "2007-02-26",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d9698d0c-8e3d-4839-9619-92ddfa34c217",
@@ -209,16 +182,14 @@
     "doc_type": "speech",
     "date": "2007-07-10",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "670e524b-d6e2-4dd6-976e-ea84ae7b5b00",
@@ -227,16 +198,14 @@
     "doc_type": "speech",
     "date": "2007-08-31",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4d5cefa4-566f-4e8c-b3b6-8c8d2f61af68",
@@ -245,16 +214,14 @@
     "doc_type": "speech",
     "date": "2007-09-06",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a02dbfd6-390b-40c4-b86d-b079b62b6a28",
@@ -263,19 +230,13 @@
     "doc_type": "speech",
     "date": "2007-09-11",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "skewed_upside",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

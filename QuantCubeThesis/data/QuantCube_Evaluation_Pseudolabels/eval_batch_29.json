@@ -1,0 +1,292 @@
+[
+  {
+    "id": "0c15158f-beba-44d5-94dd-157879657a48",
+    "sentence": "Where once the vast majority of mortgages were 30-year, fixed-rate products, by the height of the housing boom in 2007, adjustable-rate products proliferated--such products as the 2/28 (a loan with a low introductory rate for the first two years) or the option ARM (a loan on which the consumer could choose to pay a full payment, an interest-only payment, or even a payment that did not fully cover even the interest, with the difference being added to the loan's principal balance).",
+    "source": "The Systemic Importance of Consumer Protection",
+    "doc_type": "speech",
+    "date": "2009-06-10",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ab3ba334-e4d5-4fa7-ad35-4e8866166a7f",
+    "sentence": "We believe that these regularly updated reports have been useful to local leaders, who face the difficult task of allocating scarce resources to achieve the greatest possible neighborhood stabilization.",
+    "source": "The Community Affairs Function at the Federal Reserve",
+    "doc_type": "speech",
+    "date": "2009-08-25",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "52f46def-5cb9-422e-a280-dbdc105f6d9d",
+    "sentence": "The Agenda for Reform\r\n The need for a thorough overhaul of the financial regulatory system is thus borne out not only by our frighteningly close brush with financial collapse in the fall of 2008, but also by the degree to which too-big-to-fail perceptions and capital-market sources of systemic risk had been permitted--if not encouraged--by regulatory developments in the preceding decades.",
+    "source": "Financial Regulation: Past and Future",
+    "doc_type": "speech",
+    "date": "2009-11-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "3c5cecfa-f1e0-4bb0-963b-e839df48f786",
+    "sentence": "Credit Card Protections\nCredit card regulations issued by the Federal Reserve in December 2008 and the provisions of the Credit Card Accountability, Responsibility and Disclosure Act (CARD Act) enacted by Congress last May combined to create the most comprehensive and sweeping regulatory reforms of credit cards in the history of the product.",
+    "source": "Moving Beyond the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2010-06-08",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5ba5248d-55c0-408a-a771-f59542c83778",
+    "sentence": "We take this issue very seriously.",
+    "source": "Restoring the Flow of Credit to Small Businesses",
+    "doc_type": "speech",
+    "date": "2010-07-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "de5692a9-e546-4963-95c7-9f1fd1290de1",
+    "sentence": "Although output growth should be stronger next year, resource slack and unemployment seem likely to decline only slowly.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2010-08-27",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "c4f7efa1-c133-4fd4-808b-bbfe25a21a5c",
+    "sentence": "Larger government deficits increase our reliance on foreign lenders, all else being equal, implying that the share of U.S. national income devoted to paying interest to foreign investors will increase over time.",
+    "source": "Fiscal Sustainability and Fiscal Rules",
+    "doc_type": "speech",
+    "date": "2010-10-04",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bb342d49-8205-4527-8b4f-99ef47cf97c6",
+    "sentence": "The exchange rate adjustment is incomplete, in part, because the authorities in some emerging market economies have intervened in foreign exchange markets to prevent or slow the appreciation of their currencies.",
+    "source": "Rebalancing the Global Recovery",
+    "doc_type": "speech",
+    "date": "2010-11-19",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2d68b2a0-3189-46a2-ada1-dd665cde3b1c",
+    "sentence": "Some of the rate increase likely reflects a rise in charge-offs, which increases card issuers' costs of providing credit.",
+    "source": "Developments in the Landscape for Consumer Credit and Payments",
+    "doc_type": "speech",
+    "date": "2010-12-02",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e3a672a1-efc6-438c-b441-0ad5b26c47d3",
+    "sentence": "In the context of such an analytical framework, the effect of an asset purchase program also depends on investors' perceptions of the future path of short-term interest rates as well as their perceptions of the timing and pace of the central bank's eventual unwinding of its asset purchases. Thus, central bank communication may play a key role in influencing the financial market response to such a program.",
+    "source": "The Federal Reserve's Asset Purchase Program",
+    "doc_type": "speech",
+    "date": "2011-01-08",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0aa740f4-78ec-4e04-904c-9e76419db7c6",
+    "sentence": "As I mentioned earlier, the macroprudential approach to financial regulation is gaining increasing adherence internationally.",
+    "source": "Implementing a Macroprudential Approach to Supervision and Regulation",
+    "doc_type": "speech",
+    "date": "2011-05-05",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cf52e503-5415-42ca-bd7d-1e9313cdf034",
+    "sentence": "In particular, some properties are too damaged, or otherwise too low-value, to be sold as owner-occupied units or profitably converted to rental properties.",
+    "source": "Rebalancing the Housing Market",
+    "doc_type": "speech",
+    "date": "2011-09-01",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "589f7802-9429-41ed-8a3a-a86401ca0dfc",
+    "sentence": "Monetary Policy\r\n Although the FOMC expects a moderate recovery to continue and indeed to strengthen over time, the Committee has responded to recent developments--as I have already noted--by marking down its outlook for economic growth over coming quarters.",
+    "source": "The U.S. Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-09-08",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "62e0a79d-ea6e-4ace-a19f-b9a5e5e76e34",
+    "sentence": "In addition, recent research found that households that are \"liquid-asset poor\" are two to three times more likely than those with liquid assets to experience \"material hardship\" after a job loss, health emergency, death in the family, or other adverse event.",
+    "source": "The Federal Reserve System and Individual Financial Planning",
+    "doc_type": "speech",
+    "date": "2011-10-22",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "be74e8a7-09db-49b0-9557-d3a3fa137867",
+    "sentence": "Notwithstanding these welcome recent signs, the job market remains quite weak relative to historical norms, as I've already noted.",
+    "source": "Recent Developments in the Labor Market",
+    "doc_type": "speech",
+    "date": "2012-03-26",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

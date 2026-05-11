@@ -6,18 +6,14 @@
     "doc_type": "speech",
     "date": "2025-09-29",
     "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "42a4f63e-4497-4923-bf54-78222b5d0aae",
@@ -26,16 +22,14 @@
     "doc_type": "speech",
     "date": "2025-11-17",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "124cb04d-f8b3-46ff-8950-e6300cb098ad",
@@ -44,16 +38,14 @@
     "doc_type": "speech",
     "date": "2025-11-21",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "113b7c32-a50a-40c4-ac03-9af59c7a502d",
@@ -62,20 +54,14 @@
     "doc_type": "speech",
     "date": "2026-01-30",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ae265411-6fcf-4588-bc0a-cf36b750b996",
@@ -84,18 +70,13 @@
     "doc_type": "speech",
     "date": "2026-01-30",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

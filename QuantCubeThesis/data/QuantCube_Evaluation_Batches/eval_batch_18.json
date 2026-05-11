@@ -6,20 +6,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20151216",
     "context_question": null,
-    "top": [
-      "inflation",
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "288a3d0e-4465-4bbd-bba5-4b58ddc989f9",
@@ -28,16 +22,14 @@
     "doc_type": "press_conference_qa",
     "date": "20151216",
     "context_question": "Marty Crutsinger with the Associated Press. I guess the word is “finally.” The—we have asked you for so long, “Why were you delaying? Why were you delaying?” So, I’ll ask, given developments around the world that still—there is still weakness, and the inflation is still nowhere near your target. What made you say “Do it now”? Some have said it was because you feared a lack of credibility if you didn’t move. Did that play a role in your decision?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "df7681d7-0f5c-41e9-98b5-a3ec0b2300eb",
@@ -46,18 +38,14 @@
     "doc_type": "press_conference_qa",
     "date": "20151216",
     "context_question": "Just to follow up, do you need to see it rise? Not necessarily get to the 2 percent goal, but in order to move again, do you want to see inflation measures actually moving higher?",
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f55e8ed5-13df-4c10-9324-7a4be4eec012",
@@ -66,16 +54,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20160316",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "467ab8cc-3ebb-46ff-b8c4-88afab2b15fa",
@@ -84,16 +70,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20160615",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "45f09474-d16b-41d9-874b-4d8568adbf7c",
@@ -102,19 +86,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20160615",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "20d814cd-47f8-489e-ae83-d168b9850098",
@@ -123,16 +102,14 @@
     "doc_type": "press_conference_qa",
     "date": "20160615",
     "context_question": "Hi, I’m Jason Lange with Reuters. The median participant forecast for the fed funds rate for 2017 and 2018 came down quite dramatically, but this stands in contrast with the 2016 meeting forecast. As you mentioned, there were a number—actually, six— participants who saw only one rate hike this year. Can you comment on what it would take for two rate increases to be a—the likely or appropriate policy path? And about this disconnect between the median view and the view of the, say, the voting members of the Committee? If there is one, I should add. Thank you.",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e23b4344-e260-4a56-b211-6b1fa72f28c8",
@@ -141,20 +118,14 @@
     "doc_type": "press_conference_qa",
     "date": "20160615",
     "context_question": "In your speech in Philadelphia, you called the slowdown in job growth last month “concerning,” and you mentioned today that you want to verify that the underlying momentum in the economy and in the labor market is still continuing. What do you need to see to convince you that the labor market is still moving toward full employment, and for how long would you need to see it?",
-    "top": [
-      "employment",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "18b1f4f3-26b1-49f0-bfa3-fe33290d31f1",
@@ -163,20 +134,14 @@
     "doc_type": "press_conference_qa",
     "date": "20160615",
     "context_question": "Jeanna Smialek, Bloomberg. You mentioned in your remarks at the beginning that we are getting a slightly different signal when you look at inflation versus when you look at inflation expectations. Could you detail a little bit which you look at and sort of weight more? Are you more concerned with the inflation expectations or focusing more on the slight pickup in actual inflation?",
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d46039e7-f61d-4913-b654-168ece152d17",
@@ -185,18 +150,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20160921",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "125f92ce-daf7-4898-ada1-f4fe64ce1e3f",
@@ -205,16 +166,14 @@
     "doc_type": "press_conference_qa",
     "date": "20160921",
     "context_question": "Steve Liesman, CNBC. Madam Chair, critics of the Federal Reserve have said that you look for any excuse not to hike, that the goalposts constantly move. And it looks, indeed, like there are new goalposts now when you say looking for “further evidence” and—and you suggest that it’s evidence that labor—labor market slack is “being taken up.” Could you explain what “for the time being” means, in terms of a time frame, and what that further evidence you would look for in order to hike interest rates? And also, this notion that the goalposts seem to move, and that you’ve indeed introduced a new goalpost with this statement. Thank you.",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7db3f24a-2fec-4c53-af4c-8ab6d654e9e2",
@@ -223,16 +182,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170315",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "0230a205-8321-4f28-bebe-87c3ff8e9a54",
@@ -241,16 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170315",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "698e377a-fb02-460e-8b58-980973d3a0dd",
@@ -259,16 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20170315",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f918898e-5a7f-4c63-acc3-ccc234363369",
@@ -277,17 +230,13 @@
     "doc_type": "press_conference_prepared",
     "date": "20170614",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

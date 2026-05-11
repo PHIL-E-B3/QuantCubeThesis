@@ -6,16 +6,14 @@
     "doc_type": "minutes",
     "date": "20190918",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "06f06eb5-d5ad-4d8d-9227-e98c0453c1f2",
@@ -24,19 +22,14 @@
     "doc_type": "minutes",
     "date": "20190918",
     "context_question": null,
-    "top": [
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c1c4b309-05cb-4a77-9645-8cb6ce40c8fa",
@@ -45,16 +38,14 @@
     "doc_type": "minutes",
     "date": "20190918",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c71e1cdb-b8b0-4753-b7f5-de93ed62ac49",
@@ -63,16 +54,14 @@
     "doc_type": "minutes",
     "date": "20190918",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "fc4cb6cc-7e96-4645-a911-b006a7ad15a7",
@@ -81,18 +70,14 @@
     "doc_type": "minutes",
     "date": "20191211",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c7346ec3-ca84-449c-a104-7e0c8d3543ba",
@@ -101,18 +86,14 @@
     "doc_type": "minutes",
     "date": "20200129",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8dba0a70-65eb-442e-b192-d0269437d28e",
@@ -121,16 +102,14 @@
     "doc_type": "minutes",
     "date": "20200429",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "18347087-2b2a-4311-9bab-4951995587f1",
@@ -139,16 +118,14 @@
     "doc_type": "minutes",
     "date": "20200429",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "61a44308-c824-43f1-ad33-fe781c1dd790",
@@ -157,16 +134,14 @@
     "doc_type": "minutes",
     "date": "20200610",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e5418507-7ab1-476e-8db9-fc28796c584f",
@@ -175,16 +150,14 @@
     "doc_type": "minutes",
     "date": "20200916",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "27d7015c-880b-45a0-8335-c325b9439bdb",
@@ -193,16 +166,14 @@
     "doc_type": "minutes",
     "date": "20201105",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
@@ -211,19 +182,14 @@
     "doc_type": "minutes",
     "date": "20201105",
     "context_question": null,
-    "top": [
-      "employment",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
@@ -232,19 +198,14 @@
     "doc_type": "minutes",
     "date": "20201216",
     "context_question": null,
-    "top": [
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "conditional",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "28bb63c8-5d15-4e69-b18d-7303ff6679a3",
@@ -253,18 +214,14 @@
     "doc_type": "minutes",
     "date": "20210317",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a5262021-b578-4563-add9-ff730707ac58",
@@ -273,15 +230,13 @@
     "doc_type": "minutes",
     "date": "20210428",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   }
 ]

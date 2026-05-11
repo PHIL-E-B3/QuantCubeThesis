@@ -6,16 +6,14 @@
     "doc_type": "statement",
     "date": "2018-03-21",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ee696e74-48b7-4756-903d-c7687e92524f",
@@ -24,21 +22,14 @@
     "doc_type": "statement",
     "date": "2018-05-02",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "cc5529f5-7e1e-47e8-93d7-0bd22edf5a55",
@@ -47,21 +38,14 @@
     "doc_type": "statement",
     "date": "2018-12-19",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ae74921f-7475-48d0-a8c1-a1dda65316ff",
@@ -70,16 +54,14 @@
     "doc_type": "statement",
     "date": "2020-03-15",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "312668bd-6725-412c-8875-4da29391205f",
@@ -88,16 +70,14 @@
     "doc_type": "statement",
     "date": "2020-03-15",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1fb26ac6-8907-49d8-b294-ce6c3a68d52b",
@@ -106,21 +86,14 @@
     "doc_type": "statement",
     "date": "2020-07-29",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "10c7fda8-1e83-4eb4-989c-049cea98e32a",
@@ -129,17 +102,14 @@
     "doc_type": "statement",
     "date": "2020-04-29",
     "context_question": null,
-    "top": [
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "98826f2d-9f1d-41ca-acbf-46b22b689c69",
@@ -148,16 +118,14 @@
     "doc_type": "statement",
     "date": "2020-07-29",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6ec22534-48b6-42a0-bdf4-beaf9a308c07",
@@ -166,20 +134,14 @@
     "doc_type": "statement",
     "date": "2025-12-10",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f5f7b36d-4332-424b-b27c-4a3e5a13740c",
@@ -188,17 +150,14 @@
     "doc_type": "statement",
     "date": "2025-12-10",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "384ec748-d6d6-48fc-b3cf-1dca3bd6dbf3",
@@ -207,17 +166,14 @@
     "doc_type": "statement",
     "date": "2021-09-22",
     "context_question": null,
-    "top": [
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
@@ -226,19 +182,14 @@
     "doc_type": "statement",
     "date": "2021-04-28",
     "context_question": null,
-    "top": [
-      "inflation",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
@@ -247,22 +198,14 @@
     "doc_type": "statement",
     "date": "2021-09-22",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity",
-      "financial_conditions"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
@@ -271,16 +214,14 @@
     "doc_type": "statement",
     "date": "2022-01-26",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "63bc5b65-63ca-4947-911a-cfa737ab203c",
@@ -289,21 +230,13 @@
     "doc_type": "statement",
     "date": "2025-12-10",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

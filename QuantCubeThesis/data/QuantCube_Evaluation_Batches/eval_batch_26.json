@@ -6,16 +6,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240731",
     "context_question": "Just a quick follow-up—do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6beacfaa-e456-4d41-9ac7-a7269d1a7094",
@@ -24,17 +22,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240918",
     "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed—Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you’d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a6c36bbe-81ff-4932-b30b-039cbce162e2",
@@ -43,16 +38,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240918",
     "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I’m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you’re starting to act now and that’s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick’s question, do you see today’s 50 basis point move as partially a response to the fact that you didn’t cut in July and that sort of gets you to the same place?",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "071d9433-ee9a-4f06-a105-a1e9eca32771",
@@ -61,16 +54,14 @@
     "doc_type": "press_conference_qa",
     "date": "20241107",
     "context_question": "Great. And just to follow up, could you—what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "conditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7ee3c9c2-e394-45ac-955f-a11d8ad04c40",
@@ -79,19 +70,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20241218",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a57fbc3e-b44d-4811-b484-7968d24ca8a4",
@@ -100,16 +86,14 @@
     "doc_type": "press_conference_qa",
     "date": "20241218",
     "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it’s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b945b7d7-5352-41f8-9b8f-6fac7608a474",
@@ -118,16 +102,14 @@
     "doc_type": "press_conference_qa",
     "date": "20241218",
     "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of “looking through” any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7cf5182f-5f3b-4459-895e-f782134fac87",
@@ -136,16 +118,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20250129",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "fd33486c-379c-4b23-8568-a8a7e1aa376a",
@@ -154,16 +134,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250129",
     "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another ¼ point?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4ea7c676-0693-4aa2-8a5b-39b83e10dc20",
@@ -172,16 +150,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20250319",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "02e36a1e-f94c-4d80-8557-a2ab3e18127f",
@@ -190,16 +166,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20250319",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "353fffec-da52-4dcf-9fed-2ccd2bf479ed",
@@ -208,16 +182,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250507",
     "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would—you could tolerate.",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c3e28559-e1cb-4581-8933-debbe5abbdea",
@@ -226,18 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20250618",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ce75a80a-725e-43d0-9cfe-c8b10f633769",
@@ -246,16 +214,14 @@
     "doc_type": "press_conference_qa",
     "date": "20250618",
     "context_question": "You’re famously known as the guy that makes decision based on data instead of speculation. You’ve said today in—the inflation data is in a good place—we don’t know how tariffs are going to impact prices going forward—that’s uncertain. But I’ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today—and you didn’t cut today?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ff62c534-7834-4986-b5df-614b3fcb3470",
@@ -264,18 +230,13 @@
     "doc_type": "press_conference_qa",
     "date": "20250618",
     "context_question": "Thank you, Chair Powell. So you’re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

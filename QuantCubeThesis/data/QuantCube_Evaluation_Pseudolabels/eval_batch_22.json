@@ -1,0 +1,288 @@
+[
+  {
+    "id": "61c3ba80-fb2a-4539-8377-57b79a6b0e3f",
+    "sentence": "Following the moderation in the pace of the recovery that began toward the end of last year, indicators of economic activity and employment have turned up recently, although the sectors of the economy most adversely affected by the resurgence of the virus and by greater social distancing remain weak.",
+    "source": "FOMCpresconf20210317.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210317",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "a48f7bf4-00a0-4a74-adfc-c094521dc5ac",
+    "sentence": "I would note that a transitory rise in inflation above 2 percent, as seems likely to occur this year, would not meet this standard.",
+    "source": "FOMCpresconf20210317.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210317",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "89ae09be-92b8-437a-9424-89dc87ac73f0",
+    "sentence": "Short term -- I mentioned funding risk as the -- as the last one. So we saw, again, in this crisis, breakdowns in parts of the short-term funding markets -- came under a tremendous amount of stress. And they've been quiet since the spring.",
+    "source": "FOMCpresconf20210317.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210317",
+    "context_question": "Thank you for taking my question. I just wanted to get your—an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to—propose to the overall economy.",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4e86d39e-cafc-490f-90b3-cdb8975ef99c",
+    "sentence": "The economy is a long way from our goals, and it is likely to take some time for substantial further progress to be achieved.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210428",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f9b6cd19-44b5-4338-b227-6e22cf64638f",
+    "sentence": "It may take some months, though.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210428",
+    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you—do you see things, such as in the Beige Book—you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won’t have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c662e4ad-3ba9-478e-a6a8-3b0e63cb84f0",
+    "sentence": "You know, frankly, yes.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210428",
+    "context_question": "Hi, Chair Powell. I—I’m wondering, are you planning to visit the homeless encampment that’s near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b0566e54-7d63-42b6-bc57-878967662564",
+    "sentence": "I don't want to visit it at a time of a lot of media attention, because I don't want that to be part of the story. But I will -- I will go visit when, when it's no longer a, a news story. And I -- you know, I -- I've met with homeless people many times, a number of times, anyway, let's say. And I, I think it's always good to talk to people and hear what's going on in their lives.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210428",
+    "context_question": "Hi, Chair Powell. I—I’m wondering, are you planning to visit the homeless encampment that’s near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "14f97be3-7203-4d59-a25b-18b11febb57d",
+    "sentence": "However, the pace of vaccinations has slowed, and new strains of the virus remain a risk.",
+    "source": "FOMCpresconf20210616.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "9008e77a-f8a9-4f50-92e8-86fcb3745d80",
+    "sentence": "Very low readings from early in the pandemic as well as the pass-through of past increases in oil prices to consumer energy prices also contribute to the increase, although these base effects and energy effects are receding.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "298ae3d3-6879-4492-9085-0990c7ba46db",
+    "sentence": "Indicators of long-term inflation expectations appear broadly consistent with our longer- run inflation goal of 2 percent.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2b3d10e7-7ea6-4cfd-93d8-d2c876420dc1",
+    "sentence": "I'd say we have some ground to cover on, on the labor market side.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "Thank you very much. Mr. Chairman, I wonder if you might be able to put some, I don’t know, numbers or maybe more detail around this concept of “substantial further progress.” What counts as the progress numerically, if you will, or, or, or citing data, if you could, that you cited in the statement today? And if you could be more specific about what substantial further progress would look like and if that would then lead you to an announcement of an actual reduction in the purchases of your assets. Thank you.",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0921dbe9-7411-4812-9204-2aceb547ea6d",
+    "sentence": "That many job openings would typically suggest a tight labor market.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "So thank you, Mr. Chairman. Thank you, Mr. Chairman, for taking the question. Now, so you’re talking about jobs. You just said we’re on a path to a very strong job market. You know, we have 9.5 million people unemployed as of the last labor market survey and 9.2 million job openings. So what’s the—what’s the disconnect? Is it a skills gap? Is it the extended unemployment benefits? Is it the fact that people just aren’t willing to relocate? What is the disconnect there?",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f86de678-d7b7-4ac9-9581-2176ec8f7e9a",
+    "sentence": "What we're seeing is a handful of things that are really -- that really account for the, the overshoot of inflation.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "Hi. Thank you for taking my question. Chair Powell, I guess I wanted to ask about the last—when you were before Congress earlier this month, you mentioned, I think, something along the lines of, it won’t take too long before we see if you’re right about inflation and its temporary aspect. You also mentioned learning a lot more in the next six months about the economy. Can you tell us a little more of what you mean by that? When do you think you’ll get a clean reading on inflation that is free of most of the distortions that we’re seeing now?",
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e45a46ce-68f9-48bb-8f91-857870810268",
+    "sentence": "These factors should diminish with progress on containing the virus, leading to more rapid gains in employment.",
+    "source": "FOMCpresconf20210922.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "hawkish",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "715e8095-f3be-4cdb-aca8-35a8f3e8f495",
+    "sentence": "The path of the economy continues to depend on the course of the virus, and risks to the economic outlook remain.",
+    "source": "FOMCpresconf20210922.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

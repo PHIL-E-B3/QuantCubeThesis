@@ -6,20 +6,14 @@
     "doc_type": "press_conference_qa",
     "date": "20231213",
     "context_question": "Michael McKee from Bloomberg Television and Radio. Mr. Chairman, you were, by your own admission, behind the curve in starting to raise rates to fight inflation, and you said earlier, again, “the full effects of our tightening (cycle) have not yet been felt.” How will you decide when to cut rates, and how will you ensure you’re not behind the curve there?",
-    "top": [
-      "inflation",
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "153de660-2c90-4d14-9b52-7b4679165749",
@@ -28,16 +22,14 @@
     "doc_type": "press_conference_qa",
     "date": "20231213",
     "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we’re in now kind of post-pandemic? Do you think that there’s been significant structural shifts, and is that going to change how you look at a rate cut path?",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "conditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "18e30457-8ffb-4ab7-9b00-a2fff4a632d0",
@@ -46,18 +38,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240131",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6539a956-3f02-49f2-bf3b-a09b7d6f9fad",
@@ -66,18 +54,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240131",
     "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage– price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning’s ECI report for the fourth quarter shows private-sector payroll growth running at a sub–4 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you’ve judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2cd6c3e5-31fe-4b62-b36d-bbb7afa57c2d",
@@ -86,18 +70,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240320",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5901c66b-f941-4df8-8d94-0ae24bae35a2",
@@ -106,16 +86,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240918",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "dc658fdb-64d8-4e99-969d-bf1279d50510",
@@ -124,18 +102,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240501",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4b980aac-8ebe-450c-9ccf-3be1607a37b5",
@@ -144,16 +118,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240501",
     "context_question": "Courtenay Brown from Axios. Thanks for taking our questions, Chair Powell. I wanted to follow up on something you mentioned earlier on housing inflation. There’s kind of been this long-awaited disinflation in shelter that still hasn’t arrived. So I guess two questions, how do you explain the substantial lags between some of the private- sector data we’re seeing and the government data, and how confident are you that rents will be helpful on the inflation front in the coming months?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "590c993f-730d-462a-b950-c3e5e5886c95",
@@ -162,18 +134,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240612",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "32d0da05-4274-42cd-b3c4-41a0592fc803",
@@ -182,17 +150,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240612",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "conditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1c7fa7e6-d0ab-4322-b2c6-d9094d872c73",
@@ -201,20 +166,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240612",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "43ead5b0-238a-459c-b42a-af908265f31a",
@@ -223,16 +182,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240612",
     "context_question": "As a quick follow-up—the surveys that make up the jobs report are, are showing different tales. There’s been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "79a89b5a-764f-46b5-b6b3-619780410103",
@@ -241,16 +198,14 @@
     "doc_type": "press_conference_qa",
     "date": "20240612",
     "context_question": "Jeanna Smialek, New York Times. Thanks for taking our questions. In the Summary of Economic Projections, the long-run interest rate forecast moved up a bit. I wonder if we should read that as a sign that you think that policy is not sort of as restrictive as we’ve previously expected. You know, how should we interpret what that means about how the Committee views its current policy setting?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4c7accce-7348-4508-8796-8882322b1631",
@@ -259,20 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20240731",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "conditional",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "58f5842d-6848-457b-b783-8fc05ffa29bc",
@@ -281,17 +230,13 @@
     "doc_type": "press_conference_qa",
     "date": "20240731",
     "context_question": "Hi. Victoria Guida with Politico. On the labor market, I was wondering, how worried are you all about unemployment rising to the point where it triggers the Sahm rule, and would that potentially affect how quickly you cut rates?",
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

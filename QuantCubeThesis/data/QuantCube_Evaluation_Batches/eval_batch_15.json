@@ -6,23 +6,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20120125",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d6d1ca1f-c7f6-4aca-a7e9-92c98b19aeb2",
@@ -31,18 +22,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20120425",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e0e9bbfd-5d49-4544-8bf3-00e93ec96306",
@@ -51,16 +38,14 @@
     "doc_type": "press_conference_qa",
     "date": "20120425",
     "context_question": "Yes, policy response is the only reason make a difference U.S. and Japan or are there any other factor make a difference of U.S. and Japan situation?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "0feadcb8-5c6c-45cd-93f1-5596d47298b0",
@@ -69,17 +54,14 @@
     "doc_type": "press_conference_qa",
     "date": "20120425",
     "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It’s at the lowest level since the early ’80s. Can you talk about why people are dropping out of the job market, whether it’s a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds—your colleague Sheila Bair wrote this week that her—about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f170dd3c-f6ee-4c23-a800-85e58746bf7e",
@@ -88,16 +70,14 @@
     "doc_type": "press_conference_qa",
     "date": "20120425",
     "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections—in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the—watching your actions get a better sense of exactly what you’re thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you’ve been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6dd8833d-7412-4dbe-8c9a-ce0dddb074c2",
@@ -106,16 +86,14 @@
     "doc_type": "press_conference_qa",
     "date": "20120620",
     "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed’s accommodative actions over the past few years has been that it’s helped those with the least propensity to spend—the wealthy, large businesses and corporations—while the Fed’s impact on those with the most propensity to spend—the cash- strapped and middle-income households—has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c21765f7-bb78-49ab-ab9e-509e123560f1",
@@ -124,16 +102,14 @@
     "doc_type": "press_conference_qa",
     "date": "20120620",
     "context_question": "You have two new Fed Governors aboard. Did that change the tenor of the discussion at all this week? And did Jeremy Stein and Jay Powell push you in any particular policy direction?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e2737c34-c8d5-42de-bccf-24f22ae7a2f4",
@@ -142,21 +118,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20120913",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "43e69851-9d16-4cff-90cd-49c943b8d2eb",
@@ -165,20 +134,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20120913",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions",
-      "macro"
-    ],
-    "sen": "very dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "skewed_downside",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "804b7659-68ec-4ea4-855f-d83da7feff50",
@@ -187,18 +150,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20121212",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
@@ -207,21 +166,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20121212",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "conditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "89a22aba-40af-438d-8768-00b5bc2873c8",
@@ -230,16 +182,14 @@
     "doc_type": "press_conference_qa",
     "date": "20121212",
     "context_question": "Okay, sir, I had a follow-up, too. I’m not going to ask you whether we’re in a bond bubble. But obviously, the new guidance that you’ve given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping—was that a consideration in adding this transparency?",
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "82cbcba5-318e-45ef-9a14-f84d03ac2fcf",
@@ -248,16 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20151216",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "44ab3b7b-bfa9-4996-8edb-8844f978623b",
@@ -266,16 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20130320",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "594cb9cb-efd8-4ba9-b9f1-3d4fe57a0d39",
@@ -284,17 +230,13 @@
     "doc_type": "press_conference_prepared",
     "date": "20130619",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

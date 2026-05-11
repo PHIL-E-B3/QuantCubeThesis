@@ -1,0 +1,295 @@
+[
+  {
+    "id": "401dbf5b-e489-4db5-9186-aa121a3054f1",
+    "sentence": "The median respondent to the Desk's surveys of primary dealers and market participants continued to expect the pace of Federal Reserve asset purchases to begin to decline in the first quarter of 2022, although most respondents also saw a reasonable chance that this decline could occur one quarter earlier or later.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bbbf00cd-1673-44ef-a651-6f676034694b",
+    "sentence": "Housing demand remained strong, but indicators of housing-sector activity, including housing starts and home sales, were generally little changed in October.",
+    "source": "minutes_20211215.html",
+    "doc_type": "minutes",
+    "date": "20211215",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f74e1049-4ea1-4bd5-b985-a4d3374c5116",
+    "sentence": "Several participants commented that the gains, on balance, over recent months had been broad based, with notable improvements for lower-wage workers as well as African Americans and Hispanics.",
+    "source": "minutes_20220126.html",
+    "doc_type": "minutes",
+    "date": "20220126",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f1d18123-c8e4-4317-8879-4995c6fd7e5f",
+    "sentence": "Spreads of municipal bonds also widened significantly across credit categories.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
+    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affected economic activity and inflation, and economic and financial developments. Members agreed to add language to this effect in the postmeeting statement in order to convey explicitly the range of factors that they would consider in determining future monetary policy actions. In addition, members agreed that they would continue reducing the Federal Reserve's holdings of Treasury securities, agency debt, and agency MBS, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b4a0b4da-f0c6-4dfd-9392-67495a212c40",
+    "sentence": "The rising rate environment has prompted inflows into prime retail MMFs, while AUM at prime institutional funds, which have proved more sensitive to turmoil in the past, have grown much less.",
+    "source": "minutes_20230201.html",
+    "doc_type": "minutes",
+    "date": "20230201",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "580d801c-6c80-4340-9aa9-b94d7150ea7c",
+    "sentence": "Real GDP growth seemed to be expanding at a modest pace in the first quarter.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c2e9a8b3-770e-4fa0-b8b2-b6257e2a4d5a",
+    "sentence": "The market-implied policy rate path shifted down sizably, with the federal funds rate expected to peak in May before decreasing afterward.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "739e118d-aaaa-4531-899c-b02bdadc15b0",
+    "sentence": "Spreads for lower-rated nonfinancial CP, which spiked following Silicon Valley Bank's closure, narrowed significantly.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d1ad2f71-da71-4cac-b4a7-d03dc5ac7601",
+    "sentence": "They expected that this process would continue and would help lead to a decline in housing services inflation over this year.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "76fabbce-9f6d-477a-b143-be79667e710f",
+    "sentence": "The market-implied peak for the federal funds rate rose in response to data pointing to a robust economy but retraced part of that move after the June consumer price index (CPI) release was interpreted by market participants as softer than anticipated.",
+    "source": "minutes_20230726.html",
+    "doc_type": "minutes",
+    "date": "20230726",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "88691efe-4887-4b8e-be89-ee1f686b5277",
+    "sentence": "Participants commented on the significant tightening in financial conditions in recent months, driven by higher longer-term yields, with many noting that it was uncertain whether this tightening of financial conditions would persist and to what extent it reflected expectations for tighter policy or other factors.",
+    "source": "minutes_20231101.html",
+    "doc_type": "minutes",
+    "date": "20231101",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "57c21386-6041-4313-906f-9c3e8a594533",
+    "sentence": "Several participants observed that the ongoing rebalancing of labor supply and demand would help reduce core services inflation.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "aa935bcd-27f0-464f-8dab-cd2b0c441474",
+    "sentence": "Consistent with the decline in the implied policy path, short- and intermediate-term Treasury yields also declined notably.",
+    "source": "minutes_20240131.html",
+    "doc_type": "minutes",
+    "date": "20240131",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "489cc8b0-d4d9-4cc0-8dbf-743d2d494a3a",
+    "sentence": "Accordingly, they expected that supply and demand in product and labor markets would continue to move into better balance.",
+    "source": "minutes_20240131.html",
+    "doc_type": "minutes",
+    "date": "20240131",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

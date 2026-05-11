@@ -1,0 +1,287 @@
+[
+  {
+    "id": "b3245786-c47a-4275-89be-1c64609ca052",
+    "sentence": "Really nothing more to it than that.",
+    "source": "FOMCpresconf20190731.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190731",
+    "context_question": "Chairman Powell, Donna Borak with CNN. The President has repeatedly called for this rate hike and for the Fed to end the runoff of its balance sheet. What do you say to those that say that the Fed gave into what the President wanted today? And could you also elaborate a little bit further on why the Fed decided to speed up its balance sheet runoff two months earlier today?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9d77b396-d3e8-4d59-9b2e-2b5f73666e85",
+    "sentence": "They take it seriously. I think they do see it as we do, as something that has to go deep.",
+    "source": "FOMCpresconf20190731.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190731",
+    "context_question": "I mean, I just—I’d like to clarify, like, are you pleased with the responsiveness you’re getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8712b646-2373-4b3e-9eee-65de5d5f8d6f",
+    "sentence": "It's been -- it's been great.",
+    "source": "FOMCpresconf20190731.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190731",
+    "context_question": "Hi, Jean Yung with MNI. Can you give us an update on the ongoing reassessment of the inflation framework? And have the discussions so far this year had any bearing on today’s decision?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cdcac905-e70c-4fd7-9018-2748b72ea90a",
+    "sentence": "As seen from FOMC participants' most recent projections, the median expectation for real GDP growth remains near 2 percent this year and next before edging down toward its estimated longer-run value.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "df5a0d8d-1c8a-4b13-8358-3132e8ce5667",
+    "sentence": "Overall, as we say in our postmeeting statement, we continue to see sustained expansion of economic activity, strong labor market conditions, and inflation near our symmetric 2 percent 1 Chair Powell intended to say that the median projection is 1.9 percent next year.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190918",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "49c4e4b4-bb8f-4e43-b2a9-bc83b7edfb60",
+    "sentence": "In any case, they've been quite volatile. So we do see those risks as actually more heightened now.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190918",
+    "context_question": "If I could just follow up, you’ve also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy—in this case, further cuts. Wouldn’t that suggest that you should be inclined to—if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "8045914d-6770-4e6e-82ba-2de47170c3fa",
+    "sentence": "That's where I am, and that's where I think the bulk of the Committee is.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190918",
+    "context_question": "This is to your own view, because the data is, to some extent, lagged, especially when you have these risks on the horizon, and the markets obviously think that these risks could materialize more than what you and your colleagues are projecting in the dot plot today. So, I wonder, where are your own views about the tension between risk management, which implies some degree of data independence, and this idea of being data dependent?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f59e7f29-fcaa-422a-88e1-82600977160e",
+    "sentence": "Now, that doesn't stop us, from time to time, from saying that we think it's important that the U.S. fiscal picture return to a sustainable footing, and, you know, right now it's not.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190918",
+    "context_question": "Hi, Chairman Powell. Brian Cheung with Yahoo Finance. Thanks for taking my question. As we saw with falling yields, at least up until the beginning of this month, there’s been a lot of demand for U.S. Treasuries, and even that was partly maybe to blame for the liquidity crunch in repo markets that we saw this week. I mean, does the Fed have concerns over the impacts of a global glut for U.S. debt? Is that a conversation that you also have with Treasury Secretary Mnuchin—about what the proper way to maybe address some of the challenges down the road with that type of, kind of, heavy interest globally?",
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "519ff68c-a962-492a-be87-ca577a622ec7",
+    "sentence": "I can't point to one data point or one thing that would change our minds.",
+    "source": "FOMCpresconf20191030.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191030",
+    "context_question": "Mr.—Steve Liesman, CNBC. Mr. Chairman, I’m—not to make light of it, but I’m a little bit—I wonder if you could help me out with the appropriate understanding of the word “appropriate” here. So the statement says that the Committee is going “to monitor the implications of incoming information for the outlook as it assesses the appropriate path of the target range.” That tells me you could go either way. You came in, and you used the word “appropriate,” that the current rate is “likely to remain appropriate,” which means you’re on hold. So how do I walk away from this, and what should we walk away from this believing what “appropriate” means? Are you on hold and need to be proved wrong that you should remain on hold, or is it, really, you could go either way here? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61e43334-7cc3-4330-ac23-ed2bfddedaf5",
+    "sentence": "At the same time, we have to think about the whole economy, and -- but, yes, those gains are very positive.",
+    "source": "FOMCpresconf20191030.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191030",
+    "context_question": "So if you were to describe the shifts that you’ve made so far, it wasn’t just about trade uncertainty. It was about, specifically, these kinds of high-pressure labor gains that you’ve talked about.",
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "cc0ed83a-e324-4b69-8a5f-36b65d7ba3eb",
+    "sentence": "The unemployment rate has been near half-century lows for well more than a year, and the pace of job gains remains solid.",
+    "source": "FOMCpresconf20191211.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "25e65361-bdde-4c65-87fd-c8f835297b64",
+    "sentence": "Over the 12 months through October, total PCE inflation was 1.3 percent, and core inflation -- which excludes volatile food and energy prices and is a better indicator of future inflation -- was 1.6 percent.",
+    "source": "FOMCpresconf20191211.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "fb3058b1-1289-44ea-8792-d79ba13b3d45",
+    "sentence": "Well, I think you can -- you know, it's -- I think you can see that what's been moving -- one way to look at it is, what's been moving financial markets?",
+    "source": "FOMCpresconf20191211.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191211",
+    "context_question": "Is one uncertainty bigger than the other? Is—do you see—not commenting on the deals themselves, is one uncertainty—",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a311109e-c501-4b76-a145-058e09e8ab5b",
+    "sentence": "So, in terms of -- you know, I -- again, I don't want to get into hypothetical outcomes, though, if that's all right.",
+    "source": "FOMCpresconf20191211.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191211",
+    "context_question": "Chair Powell, Donna Borak with CNN. To follow up on Edward’s trade question, could you talk about what you would imagine the economic effect would be if negotiations with China were to fall apart and how the Fed might be able to support the economy in that event?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b9422294-89d8-410d-9d63-fb195245b876",
+    "sentence": "Now, they may slow down, and, and it's, it's an interesting question, the extent to which, for example, globalization may slow down or even reverse.",
+    "source": "FOMCpresconf20210127.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210127",
+    "context_question": "Hi, Chair Powell. I just wanted to go back to fiscal stimulus for a second. You know, we just had a $900 billion package, and now Congress is talking about doing more. Do you expect more aid directly to consumers to be inflationary? And, specifically, how worried should lawmakers be about, you know, causing concerning levels of inflation?",
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

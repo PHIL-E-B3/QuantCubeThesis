@@ -1,0 +1,296 @@
+[
+  {
+    "id": "65ba2fca-4676-40d5-9e9b-dae4b592563b",
+    "sentence": "In support of its goals, the Committee decided to maintain the target range for the federal funds rate at 5-1/4 to 5-1/2 percent.",
+    "source": "statement_20240731.txt",
+    "doc_type": "statement",
+    "date": "2024-07-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6489ae26-d4cc-4ba1-a8e4-0abd6d7742c1",
+    "sentence": "Beginning in June, the Committee will slow the pace of decline of its securities holdings by reducing the monthly redemption cap on Treasury securities from $60 billion to $25 billion.",
+    "source": "statement_20240501.txt",
+    "doc_type": "statement",
+    "date": "2024-05-01",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d7dc1150-4b22-4965-afc2-444761ffea87",
+    "sentence": "In light of the progress on inflation and the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+    "source": "statement_20240918.txt",
+    "doc_type": "statement",
+    "date": "2024-09-18",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "92174a5f-715f-4a2a-911e-2ae090ae99eb",
+    "sentence": "Uncertainty about the economic outlook remains elevated.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "very dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "6cdd59f2-c4aa-41f9-84b0-fab2e53a550b",
+    "sentence": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases of shorter-term Treasury securities as needed to maintain an ample supply of reserves on an ongoing basis.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dd82c942-ff34-4ddb-8642-7753e0543846",
+    "sentence": "As indicated in today's policy statement, the Committee sees the economic recovery as proceeding at a moderate pace.",
+    "source": "FOMCpresconf20110427.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "02364788-870d-4c4e-9791-01c3bc6a29e8",
+    "sentence": "On the inflation front, commodity prices have risen significantly recently, reflecting geopolitical developments and robust global demand, among other factors.",
+    "source": "FOMCpresconf20110427.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "very hawkish",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4f53a014-5316-493e-a367-451239f259be",
+    "sentence": "In particular, consumers' purchasing power has been damped by higher food and energy prices; and the aftermath of the tragic earthquake and tsunami in Japan has been associated with disruptions in global supply chains, especially in the auto sector.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110622",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ca0c1c8c-d125-42fb-af30-99a41da4b3be",
+    "sentence": "However, some moderation in gasoline prices is now in prospect, and the effects of the Japanese disaster on manufacturing output are likely to dissipate in coming months. Consequently, as shown in the first figure, entitled \"Change in Real GDP,\" the Committee expects that the pace of economic recovery will pick up over coming quarters.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110622",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "2a7e15c8-22b3-4fc6-ac52-a993adb415bc",
+    "sentence": "It will be a Committee decision.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20110622",
+    "context_question": "Mr. Chairman, could you describe to what extent the situation in Greece and Europe was discussed at the meeting and what policy conclusions were reached? And also could you tell us whether or not, in response to the recent slowdown, there was a discussion about further easing?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f747a718-a91c-4d11-a70d-ab2449e6d371",
+    "sentence": "We may help increase confidence in the part of households and businesses. And so I think it's very desirable that we take strong action to lower our budget deficits over the longer term.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20110622",
+    "context_question": "Luca DiLeo, Dow Jones. Would budget cuts, which may begin at the end of this year, help or hinder the economy? This goes back to the other question: What’s fiscal policy like in the 2012 growth forecast?",
+    "top": [
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "acfaf979-6cca-449b-a44a-1b4173a7eef8",
+    "sentence": "The sooner we can act, the better. But the most efficient and effective way to address our fiscal problems -- and, again, I think this is extremely important -- is to take a longer-run perspective, not to focus the cuts heavily on the near term. But by taking a long-run perspective and making a credible plan for reducing future deficits, we'll lower interest rates, or at least prevent them from rising, and we will increase confidence. And that could be very constructive. But if it's entirely focused on the near term, I don't think that's the optimal way to proceed.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20110622",
+    "context_question": "Darren Gersh with Nightly Business Report on PBS. If I could follow up on what he just said, there seems to be a growing view in the country that the deficit is the problem with jobs, and that immediate cuts in the deficit would grow the economy and immediately create jobs. Many economists disagree with that. Do you want to go a little further and maybe talk about that issue, and whether you agree with that view that seems to be taking root?",
+    "top": [
+      "economic_activity",
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "afa65f1e-4168-49fa-9209-7f06ff8c415e",
+    "sentence": "The Committee regularly reviews the size and composition of our securities holdings, and we are prepared to adjust those holdings as appropriate.",
+    "source": "FOMCpresconf20111102.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20111102",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ef47c574-f293-4c90-ad6e-e74016206922",
+    "sentence": "Specifically, the central tendency of participants' growth projections picks up gradually from 2.5 to 2.9 percent in 2012 to 3.0 to 3.9 percent by 2014.",
+    "source": "FOMCpresconf20111102.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20111102",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5a109a81-def9-47ea-9d18-d48e611ff3f3",
+    "sentence": "Survey measures and financial market indicators imply that longer-term inflation expectations have remained stable.",
+    "source": "FOMCpresconf20120125.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120125",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

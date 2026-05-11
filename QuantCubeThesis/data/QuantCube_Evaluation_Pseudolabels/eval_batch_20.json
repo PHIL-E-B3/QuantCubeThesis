@@ -1,0 +1,295 @@
+[
+  {
+    "id": "32db6abd-5e0d-4f40-a095-79d91b20ff67",
+    "sentence": "That's what we do.",
+    "source": "FOMCpresconf20251029.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251029",
+    "context_question": "Well, are you—you must be well aware by lowering interest rates you’re contributing to additional asset price increases. And I wonder how you balance the idea that lowering rates would help the labor market with the reality that it seems more likely to be stimulating increased investment in AI, which is the rationale for thousands of job cuts that have been announced in the last few weeks.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8d509390-8118-41c9-908b-b4c04dd75cd6",
+    "sentence": "In terms of what, you know, what we would do -- you know, I think we're always going to be adjusting monetary policy to -- in light of conditions on the ground. So if the economy is weakening, then it's very possible we'd be -- we'd be cutting rates and, you know, vice versa. And so I can't rule that out.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180926",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I’m wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I’d like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn’t show that, but I’m curious how you soft-land without doing that.",
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c94c0933-37c2-49f5-bf21-aece0b15d3b8",
+    "sentence": "We think it's principally a function just of a number of things, but particularly high Treasury supply, and -- which is showing up in repo rates and then showing up in fed funds as well. So we don't see it as a -- as a big problem.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180926",
+    "context_question": "Hi. Jean Yung with Market News International. Can you give us an update on the technical adjustment in implementing monetary policy that the Fed made earlier this year when it decoupled the interest on excess reserves rate from the upper bound of the target range? And have you been happy with that adjustment? And do you see the need to make another such adjustment in the near future?",
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "e52c6e92-1e99-4b46-95ba-fcac30f81e4b",
+    "sentence": "If you go back a few years, you'll see that we look at many, many indicators of wages and compensation. But there are four principal ones. And they were all kind of clustered around 2 -- if you go back five years ago -- 2 percent increase per year.",
+    "source": "FOMCpresconf20181219.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20181219",
+    "context_question": "Don Lee with the L.A. Times. You mentioned broad-based wage gains this year, and I’m wondering if you see further acceleration in wage growth and just how much slack there is in the labor market.",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "9ab2c8f0-0bf5-44df-a08e-2b5039e8aa0d",
+    "sentence": "We continue to expect that the American economy will grow at a solid pace in 2019, although likely slower than the very strong pace of 2018.",
+    "source": "FOMCpresconf20190130.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190130",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "292bd4e8-0b27-4aea-8052-4d8e0154c9c0",
+    "sentence": "Moreover, based on surveys and market intelligence, current estimates of reserve demand are considerably higher than estimates of a year or so ago.",
+    "source": "FOMCpresconf20190130.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190130",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "55f8b5c1-fd43-4721-959d-0b7d72dd7fa2",
+    "sentence": "We had an extensive discussion of the baseline and also of the risks to the baseline, and the risks are, of course, the fact that financial conditions have tightened, that global growth has slowed, as well as some, let's say, government-related risks like Brexit and trade discussions, and also the effects and ultimate disposition of the shutdown. So we looked at -- we look at those, and the way we think of it is that policy -- we will use our policy, and we have, to offset risks to the baseline. So we view the baseline as still solid, and part of that is the way we adjusted our baseline to address those risks. So that's the way we're thinking about that now.",
+    "source": "FOMCpresconf20190130.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190130",
+    "context_question": "Heather Long from the Washington Post. Last week, the IMF said risks are clearly skewed to the downside for the U.S. and global economy. Can you clarify— does the FOMC see risks as skewed to the downside, particularly after you removed the statement about risks being balanced?",
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ff6fdc7f-70a7-4842-8ce1-112f26cf1262",
+    "sentence": "Now, I'm describing views of the most likely outcomes, but historical experience reminds us that growth and inflation this year could be stronger or weaker than what we now project.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190320",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "56830444-3bbc-4a29-ad58-3be8405e4451",
+    "sentence": "Job gains rebounded in March after a weak reading in February and averaged 180,000 per month in the first quarter, well above the pace needed to absorb new entrants to the labor force.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "na",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8991f308-45f8-48ca-9305-e89c53657c24",
+    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations. While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "de4dc246-4b80-4eb0-9460-0f879beb1978",
+    "sentence": "I want to say it was April 1, but it may have been April 2.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190501",
+    "context_question": "Victoria Guida with Politico. I wanted to ask—early last month, I believe it was April 2, the Fedwire® system went down. And I was just wondering if you could talk about what happened there, how long it lasted, whether you know what happened, whether you’re still looking into it, and whether it’s something that could happen again.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "e62f059d-cb5c-4c3b-b5fd-87892d5d6edc",
+    "sentence": "The latest data from China and Europe were encouraging, and there were reports of progress in trade negotiations with China.",
+    "source": "FOMCpresconf20190619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190619",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6860a635-7ad8-463c-967c-206e67f43769",
+    "sentence": "Growth indicators from around the world have disappointed, on net, raising concerns about the strength of the global economy.",
+    "source": "FOMCpresconf20190619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190619",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3cd8448-0e80-466b-803e-cb848ad3a781",
+    "sentence": "You know, we don't -- we react to anything in principle that could undermine our achievement of our dual-mandate goals -- maximum employment, stable prices -- is worthy of our attention and can call forth a policy response. And that's just how we look at it.",
+    "source": "FOMCpresconf20190619.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190619",
+    "context_question": "But given your description of the crosscurrents, do you think Fed policy can solve those problems?",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ec378a8f-b841-43f0-b2e7-8994237bbb28",
+    "sentence": "We also decided to conclude the runoff of our securities portfolio in August rather than in September, as previously planned. And I'll discuss the thinking behind today's interest rate reduction and then turn to the path forward.",
+    "source": "FOMCpresconf20190731.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

@@ -6,18 +6,14 @@
     "doc_type": "statement",
     "date": "2017-02-01",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "61e8c2fd-0d1b-42a7-b03d-f659aeee5adc",
@@ -26,21 +22,14 @@
     "doc_type": "statement",
     "date": "2016-11-02",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "c2700cdc-21e1-4bf5-9627-171cef0797ec",
@@ -49,18 +38,14 @@
     "doc_type": "statement",
     "date": "2016-03-16",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2bddc976-34e0-498e-af32-8ea02d46bb64",
@@ -69,21 +54,14 @@
     "doc_type": "statement",
     "date": "2016-03-16",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "employment",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "beb1ca72-4123-4163-813b-b9b97028de5e",
@@ -92,21 +70,14 @@
     "doc_type": "statement",
     "date": "2017-05-03",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e23b38d7-09a2-4cd0-a6dd-a6d42def9315",
@@ -115,16 +86,14 @@
     "doc_type": "statement",
     "date": "2016-07-27",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "bc56ccef-1956-4420-917d-4a63307f8778",
@@ -133,16 +102,14 @@
     "doc_type": "statement",
     "date": "2016-09-21",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "55c70ab1-ddf5-4a1f-98ce-099c6a851596",
@@ -151,21 +118,14 @@
     "doc_type": "statement",
     "date": "2016-12-14",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b54b44c5-7316-4f56-b75b-54ef73880788",
@@ -174,21 +134,14 @@
     "doc_type": "statement",
     "date": "2017-02-01",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7f21dd57-e0cd-4a10-9255-ffd69e2e34b6",
@@ -197,21 +150,14 @@
     "doc_type": "statement",
     "date": "2017-03-15",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6702236b-48d1-4d1d-a1b8-697f970f2f1b",
@@ -220,18 +166,14 @@
     "doc_type": "statement",
     "date": "2018-05-02",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "symmetric",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "78b22a43-1d45-4743-92f9-83dabdff0b44",
@@ -240,21 +182,14 @@
     "doc_type": "statement",
     "date": "2017-06-14",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "32e762f9-1a6a-4918-8c3d-d16495656f43",
@@ -263,17 +198,14 @@
     "doc_type": "statement",
     "date": "2017-06-14",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "conditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8a32d574-7e7e-46a0-b2d0-023c9b3ee9fc",
@@ -282,16 +214,14 @@
     "doc_type": "statement",
     "date": "2017-06-14",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b2f3e303-9ea8-4aeb-964a-7da33b911b2b",
@@ -300,18 +230,13 @@
     "doc_type": "statement",
     "date": "2018-05-02",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

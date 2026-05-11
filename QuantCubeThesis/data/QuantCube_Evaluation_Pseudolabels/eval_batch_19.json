@@ -1,0 +1,301 @@
+[
+  {
+    "id": "5b4f9309-85fa-4770-8ac2-890dc3253ace",
+    "sentence": "These caps will gradually rise over the course of a year to maximums of $30 billion per month for Treasuries and $20 billion per month for agency securities and will remain in place through the normalization process.",
+    "source": "FOMCpresconf20170614.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20170614",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a8ea5b09-0083-471c-b20c-86d3ea9d37ed",
+    "sentence": "So, while the unemployment rate is below that, it's not that much -- it's not that much below it.",
+    "source": "FOMCpresconf20170614.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170614",
+    "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members’. It’s an unobservable thing. At best, it’s an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we’ve learned that the post-recession economy is vastly different than it was before the recession. So I’m wondering, something you’ve talked about is to focus more on the change in inflation—actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "9fa7bbed-1c59-4485-a099-1bc008b9d933",
+    "sentence": "However, we believe this year's shortfall in inflation primarily reflects developments that are largely unrelated to broader economic conditions. For example, one-off reductions earlier this year in certain categories of prices, such as wireless telephone services, are currently holding down inflation, but these effects should be transitory. Such developments are not uncommon and, as long as inflation expectations remain reasonably well anchored, are not of great concern from a policy perspective because their effects fade away.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20170920",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "5a25b637-74f5-4fda-9b5a-df0fd91a977d",
+    "sentence": "Compared with the projections made in June, real GDP growth is a touch stronger this year, and inflation -- particularly core inflation -- is slightly softer this year and next.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20170920",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "35a86d34-c088-4846-9245-e36bdc73db92",
+    "sentence": "Returning to monetary policy, although the Committee decided at this meeting to maintain its target for the federal funds rate, we continue to expect that the ongoing strength of the economy will warrant gradual increases in that rate to sustain a healthy labor market and stabilize inflation around our 2 percent longer-run objective.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20170920",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "very hawkish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "d13471df-989d-4a1f-a9a5-bc8eaca37676",
+    "sentence": "So, if there are small changes in the outlook that require a recalibration of monetary policy, we will change our anticipated path and setting of the federal funds rate, but not, for example, change the caps on reinvestment or stop -- continue reinvestment for a few months and then change it. We think that provides greater clarity to market participants about how policy will be conducted and will be, will be less confusing and more effective in terms of conducting policy.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170920",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be “an active tool for monetary policy in normal times,” you don’t plan to make adjustments to the balance sheet. I’m wondering if we could explore if there’s any sensitivity to the plan you just announced if there’s a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the—it suggested the only reason you’d change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there’s some unexpected development in markets, or, for example, given that we don’t know what the plans are on the fiscal side for the deficit in terms of tax cuts—there could be a sudden spike in the deficit—will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you’ve just announced and apparent unwillingness to adjust it?",
+    "top": [
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "conditional",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "29c6d318-7b07-4ac9-9f21-593cb320ea11",
+    "sentence": "I've mentioned a few idiosyncratic things, but, frankly, the low inflation is more broad based than just idiosyncratic things.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170920",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around ½ percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you’ve said you expect the inflation softness this year to prove “transitory.” Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "5f3f6e96-da4b-4331-9eb8-9b49fc53df65",
+    "sentence": "You may have noticed that we altered the statement language about the labor market outlook.",
+    "source": "FOMCpresconf20171213.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20171213",
+    "context_question": null,
+    "top": [
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "39bef325-c26a-4213-be8a-f6afd3cca366",
+    "sentence": "All of that factors into the projections you see. But I think, bottom line, when you look at assessments of the funds rate path, participants continue to see gradual increases in the target range for the federal funds rate as being appropriate to sustain a strong labor market and bring inflation back to 2 percent.",
+    "source": "FOMCpresconf20171213.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20171213",
+    "context_question": "I’m Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already—with unemployment so low—that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "9f27f51a-8c2a-474a-9ea2-ff1ce460e1ae",
+    "sentence": "So I would say that all of my colleagues on the Board have expressed a strong commitment to keep in place the core reforms that have produced a stronger financial system. And I'm considering there stronger capital, particularly for the most systemic institutions -- higher-quality capital, stronger liquidity requirements, a rigorous stress-testing program, and resolution planning that will make it more possible to resolve a firm that encounters significant distress. So I have heard broad-based commitment to those things, and I think they are the core of the reforms we have put in place.",
+    "source": "FOMCpresconf20171213.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20171213",
+    "context_question": "Do you mean me, or—as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking—there have been some reservations among some Democratic senators recently during Governor Powell’s confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopting. Do you have any similar reservations about the new leadership’s ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the—sort of, the advances that have come from post-crisis regulation?",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5d41fa01-97ee-40ce-871b-97761b6e1187",
+    "sentence": "Ah, press conferences. So that's something that I'm going to be carefully considering.",
+    "source": "FOMCpresconf20180321.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180321",
+    "context_question": "And press conferences?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "47d9bffd-c8e1-4463-b420-06cf70741832",
+    "sentence": "As you can see in our Summary of Economic Projections, the median of Committee participants' projections for the unemployment rate stands at 3.6 percent in the fourth quarter of this year and runs at 3.5 percent over the next two years, a percentage point below the median estimate of its longer-run normal rate.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180613",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c300d036-66d7-4426-a2a0-7b82895fb56b",
+    "sentence": "Although the median federal funds rate edged up this year and next, most participants did not revise their projections.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180613",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "df882004-5ff7-4e2c-8f8d-405a709a9cca",
+    "sentence": "As we have said, changing the target range for the federal funds rate is our primary means of adjusting the stance of monetary policy.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180613",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "092dcc61-649c-4b9d-a57f-621ab4d926fc",
+    "sentence": "We had a lot of encouragement to go much faster and I'm really glad we didn't.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180613",
+    "context_question": "Thank you. You said at the beginning of your press conference that you plan to be more plainspoken. And so, okay, I wanted to know what you would say to workers who are worried that, you know, these paths of rate hikes that you’ve laid out will kind of undercut the wage growth they are just starting to see. Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "backward",
+    "hor": "na",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  }
+]

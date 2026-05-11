@@ -6,16 +6,14 @@
     "doc_type": "statement",
     "date": "2024-07-31",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6489ae26-d4cc-4ba1-a8e4-0abd6d7742c1",
@@ -24,16 +22,14 @@
     "doc_type": "statement",
     "date": "2024-05-01",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d7dc1150-4b22-4965-afc2-444761ffea87",
@@ -42,19 +38,14 @@
     "doc_type": "statement",
     "date": "2024-09-18",
     "context_question": null,
-    "top": [
-      "inflation",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "92174a5f-715f-4a2a-911e-2ae090ae99eb",
@@ -63,16 +54,14 @@
     "doc_type": "statement",
     "date": "2025-12-10",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6cdd59f2-c4aa-41f9-84b0-fab2e53a550b",
@@ -81,16 +70,14 @@
     "doc_type": "statement",
     "date": "2025-12-10",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "dd82c942-ff34-4ddb-8642-7753e0543846",
@@ -99,18 +86,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20110427",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "02364788-870d-4c4e-9791-01c3bc6a29e8",
@@ -119,21 +102,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20110427",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "very hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4f53a014-5316-493e-a367-451239f259be",
@@ -142,18 +118,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20110622",
     "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ca0c1c8c-d125-42fb-af30-99a41da4b3be",
@@ -162,18 +134,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20110622",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2a7e15c8-22b3-4fc6-ac52-a993adb415bc",
@@ -182,16 +150,14 @@
     "doc_type": "press_conference_qa",
     "date": "20110622",
     "context_question": "Mr. Chairman, could you describe to what extent the situation in Greece and Europe was discussed at the meeting and what policy conclusions were reached? And also could you tell us whether or not, in response to the recent slowdown, there was a discussion about further easing?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f747a718-a91c-4d11-a70d-ab2449e6d371",
@@ -200,16 +166,14 @@
     "doc_type": "press_conference_qa",
     "date": "20110622",
     "context_question": "Luca DiLeo, Dow Jones. Would budget cuts, which may begin at the end of this year, help or hinder the economy? This goes back to the other question: What’s fiscal policy like in the 2012 growth forecast?",
-    "top": [
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "acfaf979-6cca-449b-a44a-1b4173a7eef8",
@@ -218,20 +182,14 @@
     "doc_type": "press_conference_qa",
     "date": "20110622",
     "context_question": "Darren Gersh with Nightly Business Report on PBS. If I could follow up on what he just said, there seems to be a growing view in the country that the deficit is the problem with jobs, and that immediate cuts in the deficit would grow the economy and immediately create jobs. Many economists disagree with that. Do you want to go a little further and maybe talk about that issue, and whether you agree with that view that seems to be taking root?",
-    "top": [
-      "economic_activity",
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "conditional",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "afa65f1e-4168-49fa-9209-7f06ff8c415e",
@@ -240,16 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20111102",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ef47c574-f293-4c90-ad6e-e74016206922",
@@ -258,18 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20111102",
     "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5a109a81-def9-47ea-9d18-d48e611ff3f3",
@@ -278,19 +230,13 @@
     "doc_type": "press_conference_prepared",
     "date": "20120125",
     "context_question": null,
-    "top": [
-      "inflation",
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

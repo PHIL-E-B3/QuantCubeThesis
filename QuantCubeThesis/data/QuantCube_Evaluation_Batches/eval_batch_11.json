@@ -6,21 +6,14 @@
     "doc_type": "statement",
     "date": "2013-12-18",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "conditional",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "748bb834-9fc2-49bd-bfd4-7c8acb37151e",
@@ -29,19 +22,14 @@
     "doc_type": "statement",
     "date": "2014-09-17",
     "context_question": null,
-    "top": [
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "very hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5d48472a-c225-4865-a8b0-de4588d1e6eb",
@@ -50,23 +38,14 @@
     "doc_type": "statement",
     "date": "2015-10-28",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
-    "con": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d14d6f17-dd2e-4591-903f-1d9547ee2190",
@@ -75,22 +54,14 @@
     "doc_type": "statement",
     "date": "2014-07-30",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1576c4e1-514e-46e2-a45b-5cd9f466b213",
@@ -99,16 +70,14 @@
     "doc_type": "statement",
     "date": "2014-07-30",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8b6eb135-b862-46eb-9c74-95fc53a058fc",
@@ -117,18 +86,14 @@
     "doc_type": "statement",
     "date": "2014-10-29",
     "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6b61d185-d245-4894-8dfd-9974210a0a15",
@@ -137,19 +102,14 @@
     "doc_type": "statement",
     "date": "2014-10-29",
     "context_question": null,
-    "top": [
-      "employment",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "db4958c8-f49c-45b8-9592-25092937c991",
@@ -158,18 +118,14 @@
     "doc_type": "statement",
     "date": "2015-10-28",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "cd46f7c9-eabd-4a37-acfa-0fc19cb36e9f",
@@ -178,20 +134,14 @@
     "doc_type": "statement",
     "date": "2014-12-17",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7ebfa0ae-ff29-44dd-aa37-4c845e030cd8",
@@ -200,19 +150,14 @@
     "doc_type": "statement",
     "date": "2014-12-17",
     "context_question": null,
-    "top": [
-      "inflation",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "conditional",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "59711e2f-0d43-4d1f-b597-875645ee9c96",
@@ -221,18 +166,14 @@
     "doc_type": "statement",
     "date": "2015-01-28",
     "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b9c733a1-1a14-44cd-8565-3897216d9698",
@@ -241,16 +182,14 @@
     "doc_type": "statement",
     "date": "2015-03-18",
     "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "present",
-    "hor": "na",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "80fa267c-628e-49ae-880e-f69fee4a4e84",
@@ -259,21 +198,14 @@
     "doc_type": "statement",
     "date": "2015-04-29",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a3279745-b7ea-4ecf-a20c-40708fb98b0f",
@@ -282,22 +214,14 @@
     "doc_type": "statement",
     "date": "2015-09-17",
     "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "macro"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d2ddfd73-fae6-43fe-a639-6331a9a1e315",
@@ -306,20 +230,13 @@
     "doc_type": "statement",
     "date": "2015-10-28",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]

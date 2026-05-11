@@ -1,0 +1,325 @@
+[
+  {
+    "id": "9918f09e-1a15-4808-8bab-013ce16c86a2",
+    "sentence": "The Committee now anticipates, based on its assessment of these factors, that it likely will be appropriate to maintain the current target range for the federal funds rate well past the time that the unemployment rate declines below 6-1/2 percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.",
+    "source": "statement_20131218.txt",
+    "doc_type": "statement",
+    "date": "2013-12-18",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "748bb834-9fc2-49bd-bfd4-7c8acb37151e",
+    "sentence": "The Committee currently judges that there is sufficient underlying strength in the broader economy to support ongoing improvement in labor market conditions.",
+    "source": "statement_20140917.txt",
+    "doc_type": "statement",
+    "date": "2014-09-17",
+    "context_question": null,
+    "top": [
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "very hawkish",
+    "ten": "present",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5d48472a-c225-4865-a8b0-de4588d1e6eb",
+    "sentence": "The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+    "source": "statement_20151028.txt",
+    "doc_type": "statement",
+    "date": "2015-10-28",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d14d6f17-dd2e-4591-903f-1d9547ee2190",
+    "sentence": "The Committee sees the risks to the outlook for economic activity and the labor market as nearly balanced and judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat.",
+    "source": "statement_20140730.txt",
+    "doc_type": "statement",
+    "date": "2014-07-30",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1576c4e1-514e-46e2-a45b-5cd9f466b213",
+    "sentence": "Beginning in August, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $10 billion per month rather than $15 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $15 billion per month rather than $20 billion per month.",
+    "source": "statement_20140730.txt",
+    "doc_type": "statement",
+    "date": "2014-07-30",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8b6eb135-b862-46eb-9c74-95fc53a058fc",
+    "sentence": "Although inflation in the near term will likely be held down by lower energy prices and other factors, the Committee judges that the likelihood of inflation running persistently below 2 percent has diminished somewhat since early this year.",
+    "source": "statement_20141029.txt",
+    "doc_type": "statement",
+    "date": "2014-10-29",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "6b61d185-d245-4894-8dfd-9974210a0a15",
+    "sentence": "The Committee judges that there has been a substantial improvement in the outlook for the labor market since the inception of its current asset purchase program.",
+    "source": "statement_20141029.txt",
+    "doc_type": "statement",
+    "date": "2014-10-29",
+    "context_question": null,
+    "top": [
+      "employment",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "db4958c8-f49c-45b8-9592-25092937c991",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "source": "statement_20151028.txt",
+    "doc_type": "statement",
+    "date": "2015-10-28",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cd46f7c9-eabd-4a37-acfa-0fc19cb36e9f",
+    "sentence": "In determining how long to maintain this target range, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation. This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial developments.",
+    "source": "statement_20141217.txt",
+    "doc_type": "statement",
+    "date": "2014-12-17",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment"
+    ],
+    "sen": "neutral",
+    "ten": "forward",
+    "hor": "na",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "7ebfa0ae-ff29-44dd-aa37-4c845e030cd8",
+    "sentence": "The Committee sees this guidance as consistent with its previous statement that it likely will be appropriate to maintain the 0 to 1/4 percent target range for the federal funds rate for a considerable time following the end of its asset purchase program in October, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal, and provided that longer-term inflation expectations remain well anchored.",
+    "source": "statement_20141217.txt",
+    "doc_type": "statement",
+    "date": "2014-12-17",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "59711e2f-0d43-4d1f-b597-875645ee9c96",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committeeâs holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "source": "statement_20150128.txt",
+    "doc_type": "statement",
+    "date": "2015-01-28",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b9c733a1-1a14-44cd-8565-3897216d9698",
+    "sentence": "This change in the forward guidance does not indicate that the Committee has decided on the timing of the initial increase in the target range.",
+    "source": "statement_20150318.txt",
+    "doc_type": "statement",
+    "date": "2015-03-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "present",
+    "hor": "na",
+    "com": "unconditional",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "80fa267c-628e-49ae-880e-f69fee4a4e84",
+    "sentence": "Inflation is anticipated to remain near its recent low level in the near term, but the Committee expects inflation to rise gradually toward 2 percent over the medium term as the labor market improves further and the transitory effects of declines in energy and import prices dissipate.",
+    "source": "statement_20150429.txt",
+    "doc_type": "statement",
+    "date": "2015-04-29",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "a3279745-b7ea-4ecf-a20c-40708fb98b0f",
+    "sentence": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+    "source": "statement_20150917.txt",
+    "doc_type": "statement",
+    "date": "2015-09-17",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": "very dovish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d2ddfd73-fae6-43fe-a639-6331a9a1e315",
+    "sentence": "Inflation is anticipated to remain near its recent low level in the near term but the Committee expects inflation to rise gradually toward 2 percent over the medium term as the labor market improves further and the transitory effects of declines in energy and import prices dissipate.",
+    "source": "statement_20151028.txt",
+    "doc_type": "statement",
+    "date": "2015-10-28",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "employment",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "employment"
+    ],
+    "ris": "na",
+    "wid": "contested"
+  }
+]

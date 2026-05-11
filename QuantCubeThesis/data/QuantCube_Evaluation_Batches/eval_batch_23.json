@@ -6,17 +6,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20210922",
     "context_question": null,
-    "top": [
-      "financial_conditions",
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5e444d4b-8f49-473f-b271-c1442f26f104",
@@ -25,19 +22,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20210922",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "unconditional",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "6e400d9b-4e23-4943-80d4-25dc40f0e541",
@@ -46,16 +38,14 @@
     "doc_type": "press_conference_qa",
     "date": "20211103",
     "context_question": "Hi. I wanted to ask about the supplementary leverage ratio. Is the Fed still planning on taking comment on ways to permanently address that, and how concerned are you, ultimately, about banks’ willingness to intermediate in the Treasury markets without a permanent fix?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d33010ce-47f2-4d99-bed6-8f6dad86dff5",
@@ -64,19 +54,14 @@
     "doc_type": "press_conference_qa",
     "date": "20211103",
     "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We’ve seen what’s been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you’ve been accused of “fighting the last war”—that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
-    "top": [
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "83442c77-d8ab-4057-b794-6469e75071f4",
@@ -85,20 +70,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20211215",
     "context_question": null,
-    "top": [
-      "inflation",
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8d2a58b9-ccb1-4fd6-8e9e-9b98a42912a7",
@@ -107,17 +86,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20211215",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1b783a12-92a2-40c2-a676-09a5c7852f54",
@@ -126,16 +102,14 @@
     "doc_type": "press_conference_qa",
     "date": "20211215",
     "context_question": "Thanks, as usual. So I guess I gotta ask about the elephant in the room, which is the Omicron variant. You know, this seems to already be pushing one of your colleagues, the Bank of England, off its course. Things have evolved very fast there. Hasn’t quite hit the shores of the U.S. in full force yet. But people seem to expect it to. So I’m wondering, in your feelings about this, are you convinced that this is going to be perhaps a more infectious, but less serious, variant of the virus? Or are you simply confident that the U.S. economy can continue its divorce from the pandemic?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1b9a87e6-4598-4c8c-9ee6-2f97e1502fc6",
@@ -144,18 +118,14 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, over the last six months, the Fed has shifted its policy stance quite a bit. Six months ago, you were still buying assets. Most officials weren’t projecting any interest rate increases this year. And yet, despite the shift over the last six months, real rates are as negative today as they were then. So how concerned are you that further inflation surprises will offset the effects of recent policy firming by leading real rates to stay at levels that do not actually provide much restraint to the economy? Thanks.",
-    "top": [
-      "employment"
-    ],
-    "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "ae2938ee-69ce-4055-808a-929847f2952c",
@@ -164,16 +134,14 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "My first question is, how much do you expect inflation to come down as a direct result of the Fed’s actions?",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
     "con": [],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "96ed7f93-ac53-4f74-9039-d70efe882565",
@@ -182,18 +150,14 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "Hi. Thank you. Well, let me follow up a bit on that. I mean, there are a lot of economists skeptical that you can reduce inflation as much as you’ve penciled in without raising the unemployment rate. And I’m wondering, just what are the mechanisms you see in reducing demand? I mean, outside housing and autos, how do higher fed [funds] rates reduce consumer demand unless it’s through higher unemployment? Thank you.",
-    "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f8bd6902-1e09-4dff-ac10-8940701faf47",
@@ -202,21 +166,14 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "Mr. Chairman, since September of 2020, you’ve been operating on a monetary policy framework that let the economy run hot to bring unemployment down. That seems to be over. But I’m wondering how you would describe your reaction function now. What is it that the Fed is trying to do other than bring inflation down? In other words, is it, we’re going to keep raising rates until it comes down to an acceptable level?",
-    "top": [
-      "inflation",
-      "employment",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1c1757f5-45f1-4b5d-a261-3057ad5d22f7",
@@ -225,20 +182,14 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "Hi, Chair Powell. Hopefully no tech issues here on this front. Wanted to ask just kind of the broad question about how you are communicating what the Fed’s doing here today to the average American who might not be reading the dot plots or understanding what the SEP is. How is the 25 basis point hike today and then the signaling on future Fed policy going to address the inflation that they’re feeling at the stores on a daily basis?",
-    "top": [
-      "inflation",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "very dovish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "unconditional",
-    "con": [
-      "inflation"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1881907c-8479-4d03-84f8-8a22a350ee83",
@@ -247,18 +198,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20220504",
     "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "elevated"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "04fadace-7b0e-48be-a3ff-95b271b96dc8",
@@ -267,19 +214,14 @@
     "doc_type": "press_conference_prepared",
     "date": "20220615",
     "context_question": null,
-    "top": [
-      "economic_activity",
-      "financial_conditions"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity"
-    ],
-    "ris": "na",
-    "wid": "none"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "99122de6-aab0-49fc-9183-d4bd3fc33e27",
@@ -288,17 +230,13 @@
     "doc_type": "press_conference_prepared",
     "date": "20220615",
     "context_question": null,
-    "top": [
-      "employment"
-    ],
-    "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "employment"
-    ],
-    "ris": "na",
-    "wid": "contested"
+    "top": [],
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": [],
+    "ris": "",
+    "wid": ""
   }
 ]
