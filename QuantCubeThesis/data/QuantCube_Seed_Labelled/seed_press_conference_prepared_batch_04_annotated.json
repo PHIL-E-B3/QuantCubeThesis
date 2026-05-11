@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ac940767-3bd9-42ba-8f7d-7bd076ae76c5",
+    "sentence": "The core price index, which excludes the prices of energy and food and tends to be a better indicator of future inflation, rose 2 percent over the same period.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180926",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "40770022-9513-466c-99fc-5210a107b05c",
+    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.",
+    "source": "FOMCpresconf20230920.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230920",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e1058cbc-88cb-4f3f-adae-ee49ffdcfd65",
+    "sentence": "We continue to monitor the recent increases in gasoline prices, which appear to be due mostly to passing factors such as refinery shutdowns for maintenance.",
+    "source": "FOMCpresconf20130320.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130320",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5a3994b1-587c-4535-8067-fe513a9d5b82",
+    "sentence": "At some point -- as I've said in the last two press conferences -- it will become appropriate to slow the pace of increases as we approach the level of interest rates that will be sufficiently restrictive to bring inflation down to our 2 percent goal.",
+    "source": "FOMCpresconf20221102.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7c003fef-bed0-4f4e-84c1-025f5ebaee40",
+    "sentence": "Let me emphasize again that today's modification of the forward guidance should not be read as indicating that the Committee has decided on the timing of the initial increase in the target range for the federal funds rate.",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150318",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

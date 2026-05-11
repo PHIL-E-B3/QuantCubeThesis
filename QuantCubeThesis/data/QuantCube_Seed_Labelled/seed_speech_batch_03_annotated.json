@@ -1,0 +1,260 @@
+[
+  {
+    "id": "8b49176f-41e6-45bd-9080-03c443c77c73",
+    "sentence": "Of course, an alternative strategy--one consistent with classical principles of international adjustment--is to refrain from intervening in foreign exchange markets, thereby allowing the currency to rise and helping insulate the financial system from external pressures.",
+    "source": "U.S. Monetary Policy and International Implications",
+    "doc_type": "speech",
+    "date": "2012-10-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7f2ab437-57fc-4995-b426-6b490731fec8",
+    "sentence": "It will be important to provide the requisite accommodation to achieve maximum employment and average inflation of 2 percent over time, following persistent underperformance.",
+    "source": "Bringing the Statement on Longer-Run Goals and Monetary Policy Strategy into Alignment with Longer-Run Changes in the Economy",
+    "doc_type": "speech",
+    "date": "2020-09-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6f173fe0-95d1-4ada-95e9-f3d568c1e12a",
+    "sentence": "I expect that the persistence of economic slack, accompanied by stable longer-term inflation expectations, will keep inflation subdued for some time.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2009-10-13",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "683dc8e4-00e7-42d2-b485-4c9c8a2a7186",
+    "sentence": "To explore the Phillips curve relationship in these two periods more closely, we need to bring in the concept of the natural rate of unemployment.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9a304277-a97c-45be-9cdb-c9f86c312d81",
+    "sentence": "My sense is that market participants and other members of the public focus instead mainly on the timing of the next policy change or on how many policy moves will occur in a given year.",
+    "source": "A View from the Fed",
+    "doc_type": "speech",
+    "date": "2016-11-30",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6863abb2-48ac-460b-aaf4-9b982c5eefac",
+    "sentence": "One standard approach starts with the notion that many wages and prices adjust only gradually to changes in costs and demand.",
+    "source": "The Changing Dynamics of Inflation",
+    "doc_type": "speech",
+    "date": "2007-03-12",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4f70ef66-8031-4bb6-8d1a-6c8986700057",
+    "sentence": "In retrospect, it is clear that the statutory framework of financial regulation in place before the crisis contained serious gaps.",
+    "source": "Some Reflections on the Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2012-04-13",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3d9398f6-22e2-46e6-b587-9d9fd9140b07",
+    "sentence": "In fact, banks were established to perform this central ledger function.",
+    "source": "Digital Currencies, Stablecoins, and the Evolving Payments Landscape",
+    "doc_type": "speech",
+    "date": "2019-10-16",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "af676246-4e25-4a11-9751-d926b299a29a",
+    "sentence": "Second, the decline in residential investment should begin to abate later this year as the overhang of unsold homes is worked off, reducing what has been a significant drag on economic growth over the past two years.",
+    "source": "The U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2008-02-26",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0fec2ee6-c638-4882-b9e7-632df73401a8",
+    "sentence": "When questions arose about the quality of the assets on which the shadow banking system was based--notably, those tied to poorly underwritten subprime mortgages--a classic adverse feedback loop ensued.",
+    "source": "Regulatory Reform since the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2012-05-02",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "066c81db-86d5-46f1-a17a-b577a13eb21f",
+    "sentence": "Equally critical to a successful review is a truly open mindset with which to evaluate the relevant data.",
+    "source": "Ideas of Order: Charting a Course for the Financial Stability Board",
+    "doc_type": "speech",
+    "date": "2019-02-10",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f6481b1-89b8-4a7a-90d7-8a7f9ebe296b",
+    "sentence": "That is, legal, compliance, and operational considerations are critical to the discussion of the promise and challenges of interlinking.",
+    "source": "Interlinking Fast Payment Systems",
+    "doc_type": "speech",
+    "date": "2024-08-28",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d641bf57-bb02-4760-820c-de7ce86da716",
+    "sentence": "More recently, we can see that the 3-month change in the PCE price index for food has slowed considerably, which is a good sign.",
+    "source": "The Inflation Rate for Necessities: A Look at Food, Energy and Shelter Inflation",
+    "doc_type": "speech",
+    "date": "2023-02-08",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3d586279-3c2e-47be-92a3-6d907a2f1be7",
+    "sentence": "And while they found that tight labor markets have since taken over as the main drivers of inflation, there are signs that such tightness is easing.",
+    "source": "Common Inflation and Monetary Policy Challenges across Countries",
+    "doc_type": "speech",
+    "date": "2024-07-10",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "id": "22d309eb-2c02-4972-89c6-094988ca491d",
+    "sentence": "Members also agreed to several adjustments in the description of the outlook for the economy and monetary policy.",
+    "source": "minutes_20190130.html",
+    "doc_type": "minutes",
+    "date": "20190130",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7beb2bda-d740-4e8d-aa4c-91d38878c47a",
+    "sentence": "Consistent with the general improvement in financial market sentiment, most foreign currencies appreciated against the dollar as flight-to-safety flows reversed.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "aa0ef0ef-2904-46f4-8575-4a22fccf2170",
+    "sentence": "Demand for housing appeared to have remained very strong, but incoming data suggested that materials shortages and a lack of developed lots for construction were restraining residential building activity.",
+    "source": "minutes_20210922.html",
+    "doc_type": "minutes",
+    "date": "20210922",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bc78bc62-8683-4cfe-924d-a74d077a2b27",
+    "sentence": "As of May, total payroll employment had retraced two-thirds of the job losses seen at the onset of the pandemic, although employment in the leisure and hospitality sector and in the education sector (including both public and private education) had bounced back by less.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dda07a6b-672e-40c0-acca-eeed906d1aa1",
+    "sentence": "Various participants mentioned a willingness to tighten policy further should risks to inflation materialize in a way that such an action became appropriate.",
+    "source": "minutes_20240501.html",
+    "doc_type": "minutes",
+    "date": "20240501",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "na",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
+    "sentence": "Participants generally continued to see recent fiscal policy changes as supportive of economic growth over the next few years, and a few indicated that fiscal policy posed an upside risk.",
+    "source": "minutes_20180613.html",
+    "doc_type": "minutes",
+    "date": "20180613",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "3fc8fde4-7a8d-47ca-ba46-d5f2f7d18a36",
+    "sentence": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation. These risks included the imbalance of aggregate demand and supply persisting longer than expected, as well as risks emanating from global oil markets, the potential for upside shocks to food prices, the effects of a strong housing market on shelter inflation, and the potential for more limited declines in goods prices.",
+    "source": "minutes_20230920.html",
+    "doc_type": "minutes",
+    "date": "20230920",
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "0c0774f0-57a7-4ff9-a7ff-7acc2683cf25",
+    "sentence": "Purchasing and selling obligations of, or fully guaranteed as to principal and interest by, a foreign government or agency thereof (\"Permitted Foreign Securities\") through outright purchases and sales;",
+    "source": "minutes_20220126.html",
+    "doc_type": "minutes",
+    "date": "20220126",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "871c7212-4465-4f29-a99e-1a320e573879",
+    "sentence": "Some participants saw the possibility that an extended period during which labor markets remained relatively tight could continue to shrink remaining margins of underutilization, including the still-high level of prime-age workers outside the labor force and elevated levels of involuntary part-time employment and long-duration unemployment.",
+    "source": "minutes_20161214.html",
+    "doc_type": "minutes",
+    "date": "20161214",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bff5b557-c197-4677-a0db-555746a6dfb4",
+    "sentence": "Credit remained available for most consumers, despite some signs of recent tightening.",
+    "source": "minutes_20240501.html",
+    "doc_type": "minutes",
+    "date": "20240501",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "935f6ced-f770-4d9b-8156-5409fd94f5ab",
+    "sentence": "Real state and local government purchases appeared to be rising in the second quarter, with increases in both payrolls and nominal construction spending in recent months.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "def71ebb-a245-468e-89ef-d418b7676b08",
+    "sentence": "The average delinquency rate for loans in CMBS pools ticked down in March but remained at elevated levels.",
+    "source": "minutes_20240501.html",
+    "doc_type": "minutes",
+    "date": "20240501",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8bec776a-7e78-41b6-b5f6-4074534bdaae",
+    "sentence": "Export declines were concentrated in capital goods, particularly aircraft.",
+    "source": "minutes_20150128.html",
+    "doc_type": "minutes",
+    "date": "20150128",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cf576505-37bd-43f4-9816-4dee25493969",
+    "sentence": "Staff Review of the Financial SituationOver the intermeeting period, some softer-than-expected data releases appeared to lessen the perception among investors that policy may need to tighten further in order to bring inflation down to 2 percent over time.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0d5c4725-e091-4ca1-9f22-86143106a093",
+    "sentence": "The longer-run projections represent each participant's assessment of the rate to which each variable would be expected to converge, over time, under appropriate monetary policy and in the absence of further shocks to the economy.",
+    "source": "minutes_20150318.html",
+    "doc_type": "minutes",
+    "date": "20150318",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

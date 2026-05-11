@@ -1,0 +1,247 @@
+[
+  {
+    "id": "79545e80-300f-4846-96ab-b3be9370719c",
+    "sentence": "Indicators of near-term labor market conditions were consistent with projections of moderate increases in employment in the coming months: Measures of job openings generally moved up, but the rate of gross private-sector hiring and indicators of firms' hiring plans were subdued, on balance, and initial claims for unemployment insurance trended up a little over the intermeeting period.",
+    "source": "minutes_20130501.html",
+    "doc_type": "minutes",
+    "date": "20130501",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "25f81c0b-c279-4ff6-9c24-40d9b95755e3",
+    "sentence": "Inflation had increased in recent quarters but was still below the Committee's 2 percent longer-run objective.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cb670cb1-b80a-4975-a340-d76de2b4fbab",
+    "sentence": "One-month-ahead option-implied volatility on the S&P 500 index--the VIX--was little changed, on net, at levels close to historical lows.",
+    "source": "minutes_20171213.html",
+    "doc_type": "minutes",
+    "date": "20171213",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f0bbba84-8e62-4811-a131-e0b6a03463a4",
+    "sentence": "A few of these participants also suggested that a near-term change to reinvestment policy could be misinterpreted as signifying that the Committee had shifted toward a less gradual approach to overall policy normalization.",
+    "source": "minutes_20170614.html",
+    "doc_type": "minutes",
+    "date": "20170614",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2b68aabc-9a78-47ce-9307-c3b1deea62d1",
+    "sentence": "On net, inflation compensation moved up at both the 5-year and the 5-to-10-year horizons, and both measures returned to levels seen in early 2017 before the string of generally weaker-than-expected inflation readings.",
+    "source": "minutes_20180131.html",
+    "doc_type": "minutes",
+    "date": "20180131",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "aac58f47-da15-42ef-9845-a43227a8edd8",
+    "sentence": "In light of the considerable progress to date toward the Committee's maximum-employment objective and the implications of that progress for the outlook for inflation, members agreed to remove from the forward guidance in the postmeeting statement the indication that the Committee judges that it can be patient in beginning to normalize the stance of monetary policy and to indicate instead that the Committee anticipates that it will be appropriate to raise the target range for the federal funds rate when it has seen further improvement in the labor market and is reasonably confident that inflation will move back to its 2 percent objective over the medium term.",
+    "source": "minutes_20150318.html",
+    "doc_type": "minutes",
+    "date": "20150318",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "na",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "664eb323-f6e8-47ac-a359-937dc4521e6a",
+    "sentence": "Nevertheless, participants judged that uncertainty about their forecast of real GDP growth remained high. Moreover, a number of participants noted that structural factors such as technological progress and higher productivity growth, possibly reflecting increasing use of AI, could boost economic growth without generating price pressures and could also damp job creation.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "top": [
+      "macro"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "f2231246-4e76-4558-96de-7df7dce69d0c",
+    "sentence": "Incoming information pointed to stable, low inflation that was running a little below the Committee's longer-run goal of 2 percent.",
+    "source": "minutes_20121212.html",
+    "doc_type": "minutes",
+    "date": "20121212",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "85eff21e-c7b2-4203-80e1-7f97fb86015e",
+    "sentence": "Subsequent communications from FOMC participants were interpreted as suggesting that the FOMC would be patient in assessing the implications of recent economic and financial developments.",
+    "source": "minutes_20190130.html",
+    "doc_type": "minutes",
+    "date": "20190130",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7b5d5ced-d38f-426c-ab95-5ac529fe2b16",
+    "sentence": "No decisions regarding the Committee's approach were made at the meeting.",
+    "source": "minutes_20211215.html",
+    "doc_type": "minutes",
+    "date": "20211215",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a1b1d6f7-2ff0-4167-b091-73c981594c0d",
+    "sentence": "On the one hand, the participation rate for prime-age males remained significantly below its level before the financial crisis, suggesting that it could rise further over time. In addition, there was some uncertainty around estimates of the longer-run trend rate of labor force participation and it could be higher than previously thought, reflecting, for example, a shift toward later retirement.",
+    "source": "minutes_20161102.html",
+    "doc_type": "minutes",
+    "date": "20161102",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8576dc14-48a6-4e55-9d5a-a318905743ae",
+    "sentence": "Financing conditions remained moderately restrictive, as borrowing costs remained elevated despite declining over the intermeeting period.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "32143de7-3f7d-4794-adef-be9f96c21cde",
+    "sentence": "But some others believed that labor market slack in addition to that measured by the unemployment rate remained and that further progress was possible before labor market conditions were fully consistent with the Committee's objective of maximum employment.",
+    "source": "minutes_20150917.html",
+    "doc_type": "minutes",
+    "date": "20150917",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "97de0fc6-c75b-4877-a59b-7ae558d41fd9",
+    "sentence": "A couple of participants cited risks associated with high levels of corporate borrowing.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  }
+]

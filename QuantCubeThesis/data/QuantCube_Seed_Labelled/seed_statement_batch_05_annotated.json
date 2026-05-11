@@ -1,0 +1,294 @@
+[
+  {
+    "id": "2f929be1-4936-4a56-a0fb-78342c86b590",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 50-basis-point decrease in the discount rate to 3-1/2 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Cleveland, Atlanta, Chicago, St. Louis, Kansas City, and San Francisco.",
+    "source": "statement_20080130.txt",
+    "doc_type": "statement",
+    "date": "2008-01-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "88b0d8e5-2755-47e6-a390-efb418d59f17",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction, and it anticipates doing so until normalization of the level of the federal funds rate is well under way. This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "source": "statement_20170503.txt",
+    "doc_type": "statement",
+    "date": "2017-05-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9b095c10-f9d2-48f6-aaff-600dfd11fd1b",
+    "sentence": "Consistent with its statutory mandate, the Committee seeks to foster maximum employment and price stability.",
+    "source": "statement_20160316.txt",
+    "doc_type": "statement",
+    "date": "2016-03-16",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "44a1b845-8d4d-4add-b2f4-a2c9085eb8c7",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 50-basis-point decrease in the discount rate to 1-3/4 percent. In taking this action, the Board approved the request submitted by the Board of Directors of the Federal Reserve Bank of Boston.",
+    "source": "statement_20081008.txt",
+    "doc_type": "statement",
+    "date": "2008-10-08",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "15a27d55-5dd1-4a94-908d-5058427dbc9e",
+    "sentence": "The Committee also anticipates that inflation over the medium term likely will run at or below its 2 percent objective.",
+    "source": "statement_20130619.txt",
+    "doc_type": "statement",
+    "date": "2013-06-19",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "17853951-cde6-475d-970b-d6479bc8f68a",
+    "sentence": "The Committee will maintain the monthly redemption cap on agency debt and agency mortgage-backed securities at $35 billion.",
+    "source": "statement_20250319.txt",
+    "doc_type": "statement",
+    "date": "2025-03-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "37b23488-9880-47a7-8766-8f2920fc3bbe",
+    "sentence": "The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "source": "statement_20250917.txt",
+    "doc_type": "statement",
+    "date": "2025-09-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b48f230a-904b-47e4-9ebc-049b66a1f01e",
+    "sentence": "In light of the cumulative progress toward maximum employment and the improvement in the outlook for labor market conditions since the inception of the current asset purchase program, the Committee decided to make a further measured reduction in the pace of its asset purchases.",
+    "source": "statement_20140917.txt",
+    "doc_type": "statement",
+    "date": "2014-09-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "edbd8ca4-574c-4be6-ae37-cf5216134544",
+    "sentence": "Inflation is expected to rise to 2 percent over the medium term as the transitory effects of declines in energy and import prices dissipate and the labor market strengthens further.",
+    "source": "statement_20151216.txt",
+    "doc_type": "statement",
+    "date": "2015-12-16",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e309f233-2c3a-41ab-beea-4b3e7cc9b261",
+    "sentence": "In addition, the Federal Reserve will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals.",
+    "source": "statement_20201216.txt",
+    "doc_type": "statement",
+    "date": "2020-12-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "very_dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "19bcdac9-7017-437a-9d81-dd8589523ba4",
+    "sentence": "Under this new Term Securities Lending Facility (TSLF), the Federal Reserve will lend up to $200 billion of Treasury securities to primary dealers secured for a term of 28 days (rather than overnight, as in the existing program) by a pledge of other securities, including federal agency debt, federal agency residential-mortgage-backed securities (MBS), and non-agency AAA/Aaa-rated private-label residential MBS.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "95b2c863-67d2-4e1f-b678-50316da1e114",
+    "sentence": "The effects of the coronavirus will weigh on economic activity in the near term and pose risks to the economic outlook. In light of these developments, the Committee decided to lower the target range for the federal funds rate to 0 to 1/4 percent.",
+    "source": "statement_20200315.txt",
+    "doc_type": "statement",
+    "date": "2020-03-15",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "macro"
+    ],
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "c64b0d6a-bfb2-4dd8-bf28-7fcaa71000be",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. Taken together, these actions should maintain downward pressure on longer-term interest rates, support mortgage markets, and help to make broader financial conditions more accommodative.",
+    "source": "statement_20130731.txt",
+    "doc_type": "statement",
+    "date": "2013-07-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "long_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6e7bf89f-b766-4257-94d0-24d7aaea13a7",
+    "sentence": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring global economic and financial developments.",
+    "source": "statement_20151028.txt",
+    "doc_type": "statement",
+    "date": "2015-10-28",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "symmetric",
+    "wid": "none",
+    "_flag": "AMBIGUOUS on wid: 'but is monitoring global economic and financial developments' introduces a cautionary hedge. Per the instructions this is not a genuine opposing economic force (it is a monitoring posture), so wid=none. However the juxtaposition of 'nearly balanced' with an active monitoring caveat could be read as a mild contested signal. Retained wid=none."
+  },
+  {
+    "id": "8ebeef46-9b81-4714-980a-49e5402f3354",
+    "sentence": "The Committee expects inflation to moderate in coming quarters, reflecting a projected leveling-out of energy and other commodity prices and an easing of pressures on resource utilization.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

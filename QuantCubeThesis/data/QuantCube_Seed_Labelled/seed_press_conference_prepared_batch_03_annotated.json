@@ -1,0 +1,268 @@
+[
+  {
+    "id": "89036616-ef3a-46c9-b318-f15f91e1fd76",
+    "sentence": "The median projection in the SEP for total PCE inflation is 2.4 percent this year and 2.5 percent next year, somewhat higher than projected in September.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20241218",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c0536cb1-e309-44c8-ae72-a102451653b6",
+    "sentence": "One indication that the neutral funds rate is unusually low is that U.S. economic growth has been only moderate in recent years despite the very low level of the federal funds rate and the Federal Reserve's very large holdings of longer- term securities. Had the neutral rate been running closer to its longer-run level, these policy actions would have been expected to foster a much more rapid economic expansion.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dd4044b2-eab7-4407-807b-3d882edbcbb2",
+    "sentence": "In the near term, risks to inflation are tilted to the upside and risks to employment to the downside -- a challenging situation.",
+    "source": "FOMCpresconf20251210.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "unemployment"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "0f5c6236-78b2-4134-978a-86e32614d62a",
+    "sentence": "We will need to see more good data to bolster our confidence that inflation is moving sustainably toward 2 percent.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240612",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "886b0965-6819-46da-ace4-6241bb85d5e5",
+    "sentence": "We know that reducing policy restraint too quickly could hinder progress on inflation.",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240918",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "785751b6-a87c-4cb8-b819-531cf2e3a752",
+    "sentence": "The unemployment rate, at 4.2 percent, remains low and has stayed in a narrow range for the past year.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1d9b4b68-8801-4865-8a17-1a076a358a0d",
+    "sentence": "Inflation has continued to run below the Committee's 2 percent objective, and the recent sizable declines in oil prices will likely hold down overall inflation in the near term. But as the effects of these oil price declines and other transitory factors dissipate and as resource utilization continues to rise, the Committee expects inflation to move gradually back toward its objective. In making this forecast, the Committee is mindful of the recent declines in market-based measures of inflation compensation.",
+    "source": "FOMCpresconf20141217.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "3ea6190a-4b20-4b31-a379-a91c5542f88e",
+    "sentence": "FOMC participants, along with many other forecasters, had long predicted some moderation of growth in 2019.",
+    "source": "FOMCpresconf20181219.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20181219",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "17dd65ca-24a1-4ff4-8842-4e25da147691",
+    "sentence": "The Committee will continue its policy of reinvesting proceeds from maturing Treasury securities and principal payments from holdings of agency debt and MBS.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "long_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "659277b3-afde-4346-b499-27fe270adeb6",
+    "sentence": "With many FOMC participants now projecting that the 6½ percent unemployment threshold will be reached by the end of 2014, the Committee decided to provide additional information about how it expects its policies to evolve after the threshold is crossed.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20131218",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8408d282-11b6-49dc-84ef-19ac332338f9",
+    "sentence": "The economic dislocation has upended many lives and created great uncertainty about the future.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210428",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "741e9aa7-58e4-4194-9863-6ee14b35a114",
+    "sentence": "Once we begin to remove policy accommodation, we continue to expect that -- as we say in our statement -- \"even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.\"",
+    "source": "FOMCpresconf20150617.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b1435590-5fb1-4450-8010-8cd414eeeda7",
+    "sentence": "I would like to emphasize once more the point that our policy is in no way predetermined and will depend on the incoming data and the evolution of the outlook as well as on the cumulative progress toward our objectives.",
+    "source": "FOMCpresconf20130619.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130619",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "002616e3-83ec-4c4f-9305-c0f661c9c777",
+    "sentence": "In August, however, job gains slowed markedly, with the slowdown concentrated in sectors most sensitive to the pandemic, including leisure and hospitality.",
+    "source": "FOMCpresconf20210922.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

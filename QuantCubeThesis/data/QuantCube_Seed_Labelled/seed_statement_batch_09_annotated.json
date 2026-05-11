@@ -1,0 +1,293 @@
+[
+  {
+    "id": "66fa3775-88fc-4eb1-99a3-e0405fe736e1",
+    "sentence": "President Fisher believed that the continued strengthening of the real economy, improved outlook for labor utilization and for general price stability, and continued signs of financial market excess, will likely warrant an earlier reduction in monetary accommodation than is suggested by the Committee's stated forward guidance.",
+    "source": "statement_20140917.txt",
+    "doc_type": "statement",
+    "date": "2014-09-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "economic_activity",
+      "unemployment",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c3082c32-0946-42a3-92b9-b11497bf3633",
+    "sentence": "In light of the declines in the prices of energy and other commodities in recent months and the prospects for considerable economic slack, the Committee expects that inflation pressures will remain subdued in coming quarters.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c5d35bc4-2c4c-4475-95e5-e546bef980f5",
+    "sentence": "Taking into account the extent of federal fiscal retrenchment since the inception of its current asset purchase program, the Committee continues to see the improvement in economic activity and labor market conditions over that period as consistent with growing underlying strength in the broader economy.",
+    "source": "statement_20140129.txt",
+    "doc_type": "statement",
+    "date": "2014-01-29",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "19bea2eb-649c-4e6a-ae5b-44d2a5b2ddb2",
+    "sentence": "Moreover, there are significant downside risks to the economic outlook, including strains in global financial markets.",
+    "source": "statement_20111102.txt",
+    "doc_type": "statement",
+    "date": "2011-11-02",
+    "context_question": null,
+    "top": [
+      "macro",
+      "financial_conditions"
+    ],
+    "ten": "forward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "cf1b310f-7731-4061-83af-a0df01175ed2",
+    "sentence": "The focus of the Committee's policy is to support the functioning of financial markets and stimulate the economy through open market operations and other measures that are likely to keep the size of the Federal Reserve's balance sheet at a high level.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f796093e-b8bb-48a8-a4e3-645833d18549",
+    "sentence": "Bank lending has continued to contract in recent months.",
+    "source": "statement_20100623.txt",
+    "doc_type": "statement",
+    "date": "2010-06-23",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f52a45d0-f7e5-484a-bf42-39539492ca81",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 3/4 to 1 percent.",
+    "source": "statement_20170503.txt",
+    "doc_type": "statement",
+    "date": "2017-05-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "72f391bf-6015-41d8-a050-0bd43841c493",
+    "sentence": "In light of the cumulative progress toward maximum employment and the improvement in the outlook for labor market conditions, the Committee decided to modestly reduce the pace of its asset purchases.",
+    "source": "statement_20131218.txt",
+    "doc_type": "statement",
+    "date": "2013-12-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "997a032e-47cf-4d24-95a1-2cddfd9d24f0",
+    "sentence": "The Federal Reserve will consult with primary dealers on technical design features of the TSLF.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d790d3a5-8a0d-4e8f-a203-48297d1a5c3c",
+    "sentence": "To support a stronger economic recovery and to help ensure that inflation, over time, is at levels consistent with the dual mandate, the Committee decided today to continue its program to extend the average maturity of its holdings of securities as announced in September.",
+    "source": "statement_20111213.txt",
+    "doc_type": "statement",
+    "date": "2011-12-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "economic_activity",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "77912829-fd20-4b78-99b7-2798ab93bfa1",
+    "sentence": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate.",
+    "source": "statement_20111213.txt",
+    "doc_type": "statement",
+    "date": "2011-12-13",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c697053e-afb3-4621-89b0-4208977a9e72",
+    "sentence": "The TSLF is intended to promote liquidity in the financing markets for Treasury and other collateral and thus to foster the functioning of financial markets more generally.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "df621765-7c08-4f33-a012-bb047b80f271",
+    "sentence": "However, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully.",
+    "source": "statement_20070918.txt",
+    "doc_type": "statement",
+    "date": "2007-09-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "3fce9480-b516-497a-a945-4e09a4820e3a",
+    "sentence": "The Committee is strongly committed to returning inflation to its 2 percent objective.",
+    "source": "statement_20240731.txt",
+    "doc_type": "statement",
+    "date": "2024-07-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1772c6d9-4d29-4d09-ad7b-7d3ad8a159f5",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: European Central Bank Bank of Japan (57 KB PDF) Swiss National Bank (60 KB PDF) U.S. Dollar Liquidity Swaps FAQs (51 KB PDF)",
+    "source": "statement_20100509.txt",
+    "doc_type": "statement",
+    "date": "2010-05-09",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

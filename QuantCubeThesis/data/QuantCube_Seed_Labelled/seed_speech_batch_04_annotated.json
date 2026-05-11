@@ -1,0 +1,274 @@
+[
+  {
+    "id": "f4869cb0-8297-4511-b122-779a8f455ba3",
+    "sentence": "At a basic level, the quantum of regulatory and supervisory resources is a policy decision—as regulatory and supervisory demands grow, so too can the staffs and budgets of the federal banking agencies.",
+    "source": "Tailoring, Fidelity to the Rule of Law, and Unintended Consequences",
+    "doc_type": "speech",
+    "date": "2024-03-05",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a8ec556e-6942-4ea9-a087-c9cede1dc7e2",
+    "sentence": "The better known of these tools is the purchase of large amounts of longer-term government securities, which is commonly referred to as quantitative easing.",
+    "source": "A Painfully Slow Recovery for America's Workers: Causes, Implications, and the Federal Reserve's Response",
+    "doc_type": "speech",
+    "date": "2013-02-11",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bfb7e936-4096-44ae-838b-3229f18eaa7a",
+    "sentence": "ConclusionIn closing, I will again note that in the fall of last year, the United States, indeed the world, confronted a financial crisis of a magnitude unseen for generations.",
+    "source": "Frequently Asked Questions",
+    "doc_type": "speech",
+    "date": "2009-12-07",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ef86d129-63ee-4fd6-9dc6-d20d8e1bb73b",
+    "sentence": "Nonetheless, available data suggest that while new credit is available for households with higher credit scores and income levels, those households with lower credit scores and income levels are finding it relatively more difficult to obtain credit.",
+    "source": "How Healthy are U.S. Households’ Balance Sheets?",
+    "doc_type": "speech",
+    "date": "2025-02-19",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bf226524-b36f-4d8b-9520-8ea649a60a87",
+    "sentence": "Actual growth may turn out to be weaker or stronger, and the choices we make as a society will have something to say about that.",
+    "source": "Recent Economic Developments and Longer-Run Challenges",
+    "doc_type": "speech",
+    "date": "2016-11-29",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "320ec814-139b-47d6-9777-b1ba86eba90e",
+    "sentence": "This was clearly an out-of-consensus view that raised more than a few eyebrows.",
+    "source": "The Case for Continuing Rate Cuts",
+    "doc_type": "speech",
+    "date": "2025-11-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4444e2af-2814-43e4-830f-46ac84e22487",
+    "sentence": "Economists at central banks and in academia will need to devote much effort to overcoming these deficiencies in coming years.",
+    "source": "Productivity and Innovation in Financial Services ",
+    "doc_type": "speech",
+    "date": "2008-11-12",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "007658d8-5e6a-47c8-aae3-2919d782dba1",
+    "sentence": "The risks from misperceiving the stars also now play a prominent role in the FOMC's deliberations. A paper by Federal Reserve Board staff is a recent example of a range of research that helps FOMC participants visualize and manage these risks.",
+    "source": "Monetary Policy in a Changing Economy",
+    "doc_type": "speech",
+    "date": "2018-08-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "050e36a6-47ab-40da-a4e9-3d5f12cc8e8d",
+    "sentence": "Under this logic, senders need to be properly incentivized to speed up cross-border payments.",
+    "source": "Interlinking Fast Payment Systems",
+    "doc_type": "speech",
+    "date": "2024-08-28",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fbe317b0-9c71-47ec-b1fd-adf0d837b925",
+    "sentence": "Of the 35 recessions since 1858, only 8 spanned months in the single digits from peak to trough.",
+    "source": "The U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2023-03-31",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d145ea9e-eb38-4a72-b2e2-093401c3aa37",
+    "sentence": "But global financial markets also seem to have played a role; as Chairman Bernanke has pointed out, savings from abroad, especially Asia, appear to have held down intermediate and longer-term U.S. interest rates from 2004 to 2006 even as monetary policy was tightened.",
+    "source": "Implications of Globalization for the Conduct of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2008-03-07",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dfd9d084-1e27-4800-b9cc-4d109a2dc4f9",
+    "sentence": "Through the Department of the Treasury, many of the affected institutions have requested and received technical assistance from the Department of Homeland Security, which has been helpful in mitigating the attacks.",
+    "source": "Reflections on Reputation and its Consequences",
+    "doc_type": "speech",
+    "date": "2013-02-28",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "12dd0d0e-cb6f-41ba-9df8-f162d9cade21",
+    "sentence": "A firm that is told that it needs to improve its capital position will, given the interests of its shareholders, strongly prefer to do so by reducing assets rather than by engaging in a dilutive share issue, even though the latter is more desirable from the perspective of aggregate credit provision.",
+    "source": "Lean, Clean, and In-Between",
+    "doc_type": "speech",
+    "date": "2013-10-18",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "dad10a54-ac5f-45f9-a78d-4c6604ab6771",
+    "sentence": "In fact, the latest estimate for productivity would not have looked out of place in the high-tech boom: it grew 2.7 percent over the year ending in the second quarter.",
+    "source": "Artificial Intelligence, Big Data, and the Path Ahead for Productivity",
+    "doc_type": "speech",
+    "date": "2024-10-01",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d9f1c2f1-2b80-49aa-a13a-e896088a5994",
+    "sentence": "But it is currently not subject to any specific process constraint promoting publicity or universality.",
+    "source": "Spontaneity and Order:  Transparency, Accountability, and Fairness in Bank Supervision",
+    "doc_type": "speech",
+    "date": "2020-02-11",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

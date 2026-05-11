@@ -1,0 +1,278 @@
+[
+  {
+    "id": "2be61d5b-0754-4864-b24d-f06647a2dbe0",
+    "sentence": "In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 3-1/2 to 3—3/4 percent.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "401595a8-70fe-47fc-9e59-2f3dec5ec5cd",
+    "sentence": "Moreover, to help improve conditions in private credit markets, the Committee decided to purchase up to $300 billion of longer-term Treasury securities over the next six months.",
+    "source": "statement_20090318.txt",
+    "doc_type": "statement",
+    "date": "2009-03-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "16aba2d9-d18d-48b1-9e4c-bb971e8245b1",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 1-3/4 to 2 percent.",
+    "source": "statement_20180613.txt",
+    "doc_type": "statement",
+    "date": "2018-06-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "da35d49c-2fdb-4201-96ab-ecf7c687a732",
+    "sentence": "The Committee also will maintain its existing policy of reinvesting principal payments from its securities holdings.",
+    "source": "statement_20110809.txt",
+    "doc_type": "statement",
+    "date": "2011-08-09",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "long_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8266c8ca-d957-4c97-8215-ae5eae3201f0",
+    "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities.",
+    "source": "statement_20240731.txt",
+    "doc_type": "statement",
+    "date": "2024-07-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b946f08d-6fc9-426e-bd38-b09acc98b0ff",
+    "sentence": "The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. In support of these goals, the Committee decided to raise the target range for the federal funds rate to 4-3/4 to 5 percent.",
+    "source": "statement_20230322.txt",
+    "doc_type": "statement",
+    "date": "2023-03-22",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2e17636e-2390-472d-bb7d-fd44f0ca3004",
+    "sentence": "Although the economic outlook has improved modestly since the March meeting, partly reflecting some easing of financial market conditions, economic activity is likely to remain weak for a time. Nonetheless, the Committee continues to anticipate that policy actions to stabilize financial markets and institutions, fiscal and monetary stimulus, and market forces will contribute to a gradual resumption of sustainable economic growth in a context of price stability.",
+    "source": "statement_20090429.txt",
+    "doc_type": "statement",
+    "date": "2009-04-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ca2ca8ca-b389-4353-8203-48338da7f57e",
+    "sentence": "In addition, over coming months the Federal Reserve will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and help foster accommodative financial conditions, thereby supporting the flow of credit to households and businesses.",
+    "source": "statement_20201105.txt",
+    "doc_type": "statement",
+    "date": "2020-11-05",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8eae13e4-b5ef-4de3-b33b-7e2e9c53d79e",
+    "sentence": "With the unemployment rate nearing 6-1/2 percent, the Committee has updated its forward guidance.",
+    "source": "statement_20140319.txt",
+    "doc_type": "statement",
+    "date": "2014-03-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "35e8946c-7ca5-402d-b32d-44d32cb74314",
+    "sentence": "The change in the Committee's guidance does not indicate any change in the Committee's policy intentions as set forth in its recent statements.",
+    "source": "statement_20140319.txt",
+    "doc_type": "statement",
+    "date": "2014-03-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c0020cc2-7fda-4fe0-afef-66346c5ee7fb",
+    "sentence": "The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment rose in recent months.",
+    "source": "statement_20251210.txt",
+    "doc_type": "statement",
+    "date": "2025-12-10",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "83c24106-1d8a-452d-9bd2-aa8ea336f461",
+    "sentence": "With substantial resource slack continuing to restrain cost pressures and longer-term inflation expectations stable, inflation is likely to be subdued for some time.",
+    "source": "statement_20100623.txt",
+    "doc_type": "statement",
+    "date": "2010-06-23",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6cc71f13-39f1-4b2f-96d4-25af4d0f5451",
+    "sentence": "The Committee is attentive to the risks to both sides of its dual mandate and judges that the risks of higher unemployment and higher inflation have risen.",
+    "source": "statement_20250507.txt",
+    "doc_type": "statement",
+    "date": "2025-05-07",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "elevated"
+  },
+  {
+    "id": "a7717454-121b-40c6-92bb-da1bceb804ec",
+    "sentence": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
+    "source": "statement_20140618.txt",
+    "doc_type": "statement",
+    "date": "2014-06-18",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "symmetric",
+    "wid": "none"
+  }
+]

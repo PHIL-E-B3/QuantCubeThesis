@@ -34,15 +34,13 @@ lora:
 # --- Classification Labels ---
 # Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
-  top: ["inflation", "employment", "economic_activity", "macro","financial_conditions", "monetary_policy", "no_topic", "boilerplate"] 
-  ten: ["backward", "present", "forward", "hypothetical", "none"] 
-  sen: ["-2", "-1", "0", "1", "2"] 
-  dir: ["very hawkish", "hawkish", "neutral", "dovish", "very dovish"] 
-  com: ["none", "conditional", "unconditional"] 
-  hor: ["na","short-term", "long-term"] 
-  con: ["inflation", "employment", "economic_activity", "macro","financial_conditions"] 
-  dom: ["inflation", "employment", "economic_activity", "macro","financial_conditions"] 
-  ris: ["na","skewed_downside", "symmetric", "skewed_upside"] 
+  top: ["inflation", "employment", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
+  sen: ["very hawkish", "hawkish", "neutral", "dovish", "very dovish"]
+  ten: ["backward", "present", "forward", "na"]
+  hor: ["na", "near_term", "long_term"]
+  com: ["none", "conditional", "unconditional"]
+  con: ["inflation", "employment", "economic_activity", "macro", "financial_conditions"]
+  ris: ["na", "skewed_downside", "symmetric", "skewed_upside"]
   wid: ["none", "contested", "elevated"]
 # Which label field to use as the primary classification target
 # (used by active_learn.py for uncertainty sampling)

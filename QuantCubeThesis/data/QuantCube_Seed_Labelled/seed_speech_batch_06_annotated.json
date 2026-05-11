@@ -1,0 +1,272 @@
+[
+  {
+    "id": "e87f748b-1b31-4b5e-8de3-fe51c2c6e80f",
+    "sentence": "Stablecoin issuers suggest that one can redeem a stablecoin from the issuer for one U.S. dollar, although redemption rights are not always well defined.",
+    "source": "Reflections on Stablecoins and Payments Innovations",
+    "doc_type": "speech",
+    "date": "2021-11-17",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "57729d20-9e8b-4e66-86fe-b61495fbea4e",
+    "sentence": "Elevated goods inflation has contributed significantly to a stalling in the disinflationary process.",
+    "source": "Brief Remarks on the Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-03-26",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4a08bb2a-9e19-40dd-9a4d-6e62192d1399",
+    "sentence": "I also know that the U.S. economy has proven itself over the years to be flexible and resilient as well as innovative and productive, qualities which enable it to rebound from serious economic shocks.",
+    "source": "Economic Outlook",
+    "doc_type": "speech",
+    "date": "2008-10-15",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ef2d65de-401c-4ac7-9161-f904215d7d17",
+    "sentence": "And ultimately, as you know, it is easier to fix a problem during the good times.",
+    "source": "Community Bankers and Supervisors: Seeking Balance",
+    "doc_type": "speech",
+    "date": "2011-04-07",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "69690fbd-44c4-44c4-aea1-ce6f18240a74",
+    "sentence": "However, such a reduced-form description of the Committee's behavior does not answer the question of why this kind of inertia might be optimal.",
+    "source": "Challenges for Monetary Policy Communication",
+    "doc_type": "speech",
+    "date": "2014-05-06",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "24a7dd5e-f6b3-4852-bc46-0becdfe110d5",
+    "sentence": "In this process, we of course especially welcome the views of those of you on the front lines of insurance supervision.",
+    "source": "Insurance Companies and the Role of the Federal Reserve",
+    "doc_type": "speech",
+    "date": "2016-05-20",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "693894da-3bcf-47e8-81b1-6b448978628d",
+    "sentence": "Macroprudential policies focus on risks to the financial system as a whole. Such risks may be crosscutting, affecting a number of firms and markets, or they may be concentrated in a few key areas.",
+    "source": "Financial Reform to Address Systemic Risk",
+    "doc_type": "speech",
+    "date": "2009-03-10",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4d30baf4-661c-4c62-806a-f66dc6e7928b",
+    "sentence": "Our net income will soon turn positive again, as it typically has been throughout our history.",
+    "source": "Understanding the Fed’s Balance Sheet",
+    "doc_type": "speech",
+    "date": "2025-10-14",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "29961b03-e79d-41cc-9dad-bd1955257b19",
+    "sentence": "Capital surcharges\nIn his May speech, Governor Tarullo alluded to the possibility of liquidity-linked capital surcharges that would effectively augment the existing regime of risk-based capital requirements.",
+    "source": "The Fire-Sales Problem and Securities Financing Transactions",
+    "doc_type": "speech",
+    "date": "2013-11-07",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6f52ae0a-cb08-4f36-ac1f-b2d9f0d76c0a",
+    "sentence": "Financial Regulation and Corporate Governance\r\n In the wake of the financial crisis, the public interest in regulation of banks and other financial firms is, I think it fair to say, both self-evident and substantial.",
+    "source": "Corporate Governance and Prudential Regulation",
+    "doc_type": "speech",
+    "date": "2014-06-09",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ccb3b107-c440-4a93-b7d2-988ef493ee9f",
+    "sentence": "This reform thread is sourced in the Dodd-Frank requirement for stress testing at large banks, but more generally in the Federal Reserve's establishment of a formal annual capital planning requirement for these firms.",
+    "source": "The Evolution of Capital Regulation",
+    "doc_type": "speech",
+    "date": "2011-11-09",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "478ecebe-4abb-4637-bac2-d6d1c69e0abf",
+    "sentence": "If anything, some measures of longer-term inflation expectations in the United States have edged lower in recent years.",
+    "source": "Monetary Policy at a Time of Uncertainty and Tight Labor Markets",
+    "doc_type": "speech",
+    "date": "2018-06-20",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a5397414-cba1-4d6b-8c6a-50c0695d51f5",
+    "sentence": "This price-based approach creates some incentive for all three banks to shrink, but lets them balance this incentive against the scale benefits that they realize by staying big.",
+    "source": "Regulating Large Financial Institutions",
+    "doc_type": "speech",
+    "date": "2013-04-17",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "01e55e8f-e2e4-4ea0-885e-c0678fc27dc5",
+    "sentence": "Financial development involves innovations or liberalization of financial markets that improve the flow of information.",
+    "source": "On \"Leveraged Losses: Lessons from the Mortgage Meltdown\"",
+    "doc_type": "speech",
+    "date": "2008-02-29",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9998a43a-1fc0-42e7-9382-1f087932201c",
+    "sentence": "Dual Mandate--Full Employment\r\n The employment side of the dual mandate is a different story.",
+    "source": "Thoughts on Unconventional Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-06-27",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

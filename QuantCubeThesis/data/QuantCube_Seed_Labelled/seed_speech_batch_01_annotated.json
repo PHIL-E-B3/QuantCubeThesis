@@ -1,0 +1,278 @@
+[
+  {
+    "id": "69b30b95-648a-4f7a-8181-75b0ed634dae",
+    "sentence": "Previously, I have spoken about two primary reasons for the increase in transparency.",
+    "source": "Reading between the Lines? Textual Analysis of Central Bank Communications",
+    "doc_type": "speech",
+    "date": "2025-02-21",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "14a5d6c8-5e4a-4ba6-9fda-197016c6694a",
+    "sentence": "The insights we obtained from small business owners, lenders, and others in this series of meetings have given us a more nuanced understanding of the problem and will help us identify areas where we might be able to do more.",
+    "source": "Restoring the Flow of Credit to Small Businesses",
+    "doc_type": "speech",
+    "date": "2010-07-12",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5caf64c7-775b-43ad-bb4a-e374650a0dd0",
+    "sentence": "As many have noted, there is a link between funding liquidity and market liquidity, and for Treasury markets the links to funding in the repo market are especially close.",
+    "source": "Structure and Liquidity in Treasury Markets",
+    "doc_type": "speech",
+    "date": "2015-08-03",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dc0ffde0-7afc-4350-bc58-a01122e8082c",
+    "sentence": "Through the Fed's Partnership for Progress (PFP) program, we provide technical assistance on regulatory matters, conduct research, host convenings, and provide examiner training to support and promote the stability of MDIs and WDIs.",
+    "source": "Building a More Inclusive Financial System through Collaboration and Action",
+    "doc_type": "speech",
+    "date": "2023-12-05",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "110ba493-427d-43b0-bec3-99a2cb604e90",
+    "sentence": "With inflation below target, relatively slow growth, and some slack remaining in the economy, the Committee has been patient about raising rates.",
+    "source": "Recent Economic Developments and Longer-Run Challenges",
+    "doc_type": "speech",
+    "date": "2016-11-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "inflation",
+      "economic_activity",
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fdd81eff-f80d-4b2a-a18a-5e5dc270690b",
+    "sentence": "I'm honored to be here with you celebrating its legacy of bringing jobs and opportunity to lower-income communities—a lasting impact that benefits all Americans.",
+    "source": " Supporting Investment in Communities: The First 25 Years of the New Markets Tax Credit ",
+    "doc_type": "speech",
+    "date": "2025-10-23",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7091ff3b-de3f-46c3-a69a-a7ff828d6ecc",
+    "sentence": "My mother helped to start a Delta Sigma Theta chapter at Georgia College and State University.",
+    "source": "A New Class of Trailblazers",
+    "doc_type": "speech",
+    "date": "2024-06-07",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "54f4d015-8cbc-46fd-aa39-01c561007ad2",
+    "sentence": "The best and most comprehensive solution is to find ways to a stronger economy.",
+    "source": "Five Questions about the Federal Reserve and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2012-10-01",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b733ba3b-abe7-4c77-b6fc-0a1a7be2fa66",
+    "sentence": "To deliver on the promise of a payment system for the future, the Federal Reserve has made a substantial commitment to the FedNow platform, which has benefited from the innovative technologies and approaches proven by global technology companies that are vital for today's always on digital economy.",
+    "source": "Progress on Fast Payments for All: An Update on FedNow",
+    "doc_type": "speech",
+    "date": "2022-08-29",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f111622a-7384-4fb0-9a01-0db316c9eb6d",
+    "sentence": "However, although structural shifts are no doubt important in the longer term, my reading of the research is that, at most, a modest portion of the recent sharp increase in long-term unemployment is due to persistent structural factors.",
+    "source": "Recent Developments in the Labor Market",
+    "doc_type": "speech",
+    "date": "2012-03-26",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "92fbd002-65f0-4c8c-9d83-cf8b7a4115f3",
+    "sentence": "The crisis revealed that banks, especially the largest and most complex, faced much more liquidity risk than had previously been thought.",
+    "source": "Monetary Policy: Normalization and the Road Ahead",
+    "doc_type": "speech",
+    "date": "2019-03-08",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fc570923-76ee-44e6-a67c-35a1ad030a9f",
+    "sentence": "An example is the bilateral currency swap arrangement between the Federal Reserve and the Bank of Mexico that was set up during the global financial crisis.",
+    "source": "Celebrating 20 Years of the Bank of Mexico's Independence",
+    "doc_type": "speech",
+    "date": "2013-10-14",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b884cf6c-2452-4ab9-9095-3ed3c666e3ff",
+    "sentence": "Speaking for myself, I believe we can afford to be patient about assessing how to adjust our policy stance to achieve and sustain our dual-mandate objectives.",
+    "source": "Monetary Policy Outlook for 2019",
+    "doc_type": "speech",
+    "date": "2019-01-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fb5d73be-c0ff-4eea-bade-bc8c6fb27fe4",
+    "sentence": "Initially the euro-area crisis was the biggest headwind coming from the rest of the world.",
+    "source": "The Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-05-22",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e2ec53d0-8074-4fbd-85f3-57feb40ffc37",
+    "sentence": "While this is the first time the Fed has opened itself up in this way, many central banks around the world have conducted similar reviews, and our approach builds on their experiences.",
+    "source": "Monetary Policy: Normalization and the Road Ahead",
+    "doc_type": "speech",
+    "date": "2019-03-08",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

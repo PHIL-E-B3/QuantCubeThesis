@@ -1,0 +1,298 @@
+[
+  {
+    "id": "9368bfde-bf7b-49bf-9bc3-ad9792b60e6e",
+    "sentence": "The Committee expects inflation to moderate in coming quarters, but it will be necessary to continue to monitor inflation developments carefully.",
+    "source": "statement_20080130.txt",
+    "doc_type": "statement",
+    "date": "2008-01-30",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fbe438bb-4fab-42d3-87cd-5829227c85e2",
+    "sentence": "The Federal Reserve will be implementing the Term Asset-Backed Securities Loan Facility to facilitate the extension of credit to households and small businesses.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "edf8a9c3-6c0c-4931-8ca4-e4199f354271",
+    "sentence": "To support a stronger economic recovery and to help ensure that inflation, over time, is at the rate most consistent with its dual mandate, the Committee agreed today to increase policy accommodation by purchasing additional agency mortgage-backed securities at a pace of $40 billion per month.",
+    "source": "statement_20120913.txt",
+    "doc_type": "statement",
+    "date": "2012-09-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "economic_activity",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "42af920e-7317-421f-9dad-d768c231718d",
+    "sentence": "President Plosser objected to the guidance indicating that it likely will be appropriate to maintain the current target range for the federal funds rate for \"a considerable time after the asset purchase program ends,\" because such language is time dependent and does not reflect the considerable economic progress that has been made toward the Committee's goals.",
+    "source": "statement_20140917.txt",
+    "doc_type": "statement",
+    "date": "2014-09-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9ec375e9-4b3d-4a75-96d3-d9a9b434e254",
+    "sentence": "These arrangements will now provide dollars in amounts of up to $30 billion and $6 billion to the ECB and the SNB, respectively, representing increases of $10 billion and $2 billion.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b43a0bf1-5580-4b4e-b838-43075de91c86",
+    "sentence": "These facilities include the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility, the Commercial Paper Funding Facility, the Primary Dealer Credit Facility, and the Term Securities Lending Facility.",
+    "source": "statement_20091216.txt",
+    "doc_type": "statement",
+    "date": "2009-12-16",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "94cc35f3-8c47-443d-aa08-b8edc800559d",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to maintain the target range for the federal funds rate at 1/2 to 3/4 percent.",
+    "source": "statement_20170201.txt",
+    "doc_type": "statement",
+    "date": "2017-02-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "75fbd371-7002-43da-812e-abba27eba06e",
+    "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy.",
+    "source": "statement_20200729.txt",
+    "doc_type": "statement",
+    "date": "2020-07-29",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ea32b905-9402-4acb-b3bc-089d0b1a436a",
+    "sentence": "To support continued progress toward maximum employment and price stability, the Committee expects that a highly accommodative stance of monetary policy will remain appropriate for a considerable time after the economic recovery strengthens.",
+    "source": "statement_20121024.txt",
+    "doc_type": "statement",
+    "date": "2012-10-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "very_dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "economic_activity",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c7bf2c23-1065-416d-b2de-f145eb059b4f",
+    "sentence": "The stance of monetary policy remains accommodative after this increase, thereby supporting further improvement in labor market conditions and a return to 2 percent inflation.",
+    "source": "statement_20151216.txt",
+    "doc_type": "statement",
+    "date": "2015-12-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e930a35-32b5-4788-b6cd-eb4cb74f23bc",
+    "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+    "source": "statement_20100810.txt",
+    "doc_type": "statement",
+    "date": "2010-08-10",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f3199a82-6bea-40fa-80e8-1fa9dc0f0cf5",
+    "sentence": "Beginning in May, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $20 billion per month rather than $25 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $25 billion per month rather than $30 billion per month.",
+    "source": "statement_20140430.txt",
+    "doc_type": "statement",
+    "date": "2014-04-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "23ffe80c-2134-4399-9e77-05ffdf487722",
+    "sentence": "Accordingly, the Committee decided to continue purchasing additional agency mortgage-backed securities at a pace of $40 billion per month and longer-term Treasury securities at a pace of $45 billion per month.",
+    "source": "statement_20131030.txt",
+    "doc_type": "statement",
+    "date": "2013-10-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "284332e2-738c-4bd4-8849-e95ffcf28a4f",
+    "sentence": "In light of the substantial further progress the economy has made toward the Committee's goals since last December, the Committee decided to begin reducing the monthly pace of its net asset purchases by $10 billion for Treasury securities and $5 billion for agency mortgage-backed securities.",
+    "source": "statement_20211103.txt",
+    "doc_type": "statement",
+    "date": "2021-11-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "750d7dd6-8269-4a34-ba2b-156c60f4698a",
+    "sentence": "The Committee expects to begin implementing its balance sheet normalization program relatively soon, provided that the economy evolves broadly as anticipated; this program is described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+    "source": "statement_20170726.txt",
+    "doc_type": "statement",
+    "date": "2017-07-26",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

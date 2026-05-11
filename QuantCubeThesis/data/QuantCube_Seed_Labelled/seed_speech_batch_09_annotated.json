@@ -1,0 +1,276 @@
+[
+  {
+    "id": "246113f6-ddcc-45c9-99bd-48b097d76979",
+    "sentence": "It has been an honor and a privilege.",
+    "source": "Economic Outlook",
+    "doc_type": "speech",
+    "date": "2025-05-12",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "96284226-1c30-4d8d-81cc-4496c29ab071",
+    "sentence": "When the economy has been hit with unusually persistent shocks, the Taylor rule, for this reason, provides a problematic benchmark.",
+    "source": "The Economic Outlook and the Conduct of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-01-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "macro",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "201a9d37-c1e8-4181-80fc-8cce61eaf2d8",
+    "sentence": "What does all of this mean for the outlook for monetary policy?",
+    "source": "The Economic Outlook and Prospects for Small Business",
+    "doc_type": "speech",
+    "date": "2021-03-22",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4ccb5e46-f129-42dc-813d-040ddce171cc",
+    "sentence": "Long-term unemployment is particularly costly to those directly affected, of course.",
+    "source": "Recent Developments in the Labor Market",
+    "doc_type": "speech",
+    "date": "2012-03-26",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d9990757-f514-4d72-843f-3b2a4ea06510",
+    "sentence": "The most recent data show that inflation was 2.5 percent for the 12 months ending in February, as measured by the personal consumption expenditures (PCE) price index, shown in blue.",
+    "source": "The Economic Outlook and Path of Policy",
+    "doc_type": "speech",
+    "date": "2025-04-03",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "50993396-bca2-4f2b-93c7-7d3619c549e5",
+    "sentence": "I look forward to your participation and feedback today and to new partnerships going forward as we continue to identify ways to streamline the process of repurposing REO and to address the community development needs of neighborhoods that have been harmed by foreclosures.",
+    "source": "Stabilizing Neighborhoods:  Lessons Learned from the Field",
+    "doc_type": "speech",
+    "date": "2010-09-01",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fdf669c8-d7b1-41ed-8f08-acbcf9416126",
+    "sentence": "I am talking about encouraging banks to pay attention to the banking experiences of their customers and finding process improvements or service elements that may lead to something seemingly mundane but valuable nonetheless.",
+    "source": "Reflections on Reputation and its Consequences",
+    "doc_type": "speech",
+    "date": "2013-02-28",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "91a272c9-3992-4bdc-831d-154264647149",
+    "sentence": "Indeed, as these institutions developed, the roles of clearinghouses and clearinghouse associations--the groups of firms that used and supported individual clearinghouses--went well beyond purely operational functions: In the years prior to the establishment of the Federal Reserve, to increase public confidence in banks, clearinghouse associations at times took on quasi-governmental supervisory functions--for example, by examining the financial condition of members rumored to be experiencing difficulties--and even served at times as lender of last resort to individual clearinghouse members.",
+    "source": "Clearinghouses, Financial Stability, and Financial Reform",
+    "doc_type": "speech",
+    "date": "2011-04-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9c4a6326-6a49-4ef0-991f-73d8136daa61",
+    "sentence": "Recently, we have seen a high-profile example of problems with the culture at the Federal Deposit Insurance Corporation (FDIC).",
+    "source": "Update on the Economic Outlook, and Perspective on Bank Culture, M&A, and Liquidity",
+    "doc_type": "speech",
+    "date": "2024-08-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fc117ab3-d5c7-4866-9917-d34702c2e7a6",
+    "sentence": "While these studies allow for differences in the weighting of price indexes across different income groups, they rely on the same elementary price indexes for subcategories of goods and services. As a result, they may miss additional sources of variation in the inflation rates experienced by households at different income levels.",
+    "source": "Variation in the Inflation Experiences of Households",
+    "doc_type": "speech",
+    "date": "2022-04-05",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "128c1a86-4c9b-4b3e-8af7-def6f8f52667",
+    "sentence": "But, again, the yield curve, like the interest rate futures strip, reflects not only expectations of the path of short-term interest rates, but also liquidity and term premium factors Thus, to extract signal about policy from noise in the yield curve, a term structure model is required.",
+    "source": "Models, Markets, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2019-05-03",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "69c6f26a-5f63-4b6b-b159-5324ef0cf3c4",
+    "sentence": "While this average processing timeline improved slightly for community bank M&A applications in the first half of 2023, the most recent semiannual report on banking applications acknowledges that there were fewer M&A applications by community banks in the first half of 2023 as compared with the first half of 2022.13 Applications of any size can raise novel issues or concerns, but this should raise concerns with policymakers.",
+    "source": "The Role of Research, Data, and Analysis in Banking Reforms",
+    "doc_type": "speech",
+    "date": "2023-10-04",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6474a65f-66ae-4f44-a8dc-e521cf276a29",
+    "sentence": "Hence, we should remain at center stage as long as is necessary, but no longer.",
+    "source": "Financial Market Turmoil and the Federal Reserve: The Plot Thickens",
+    "doc_type": "speech",
+    "date": "2008-04-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "916ee7e9-00cd-4913-be0d-06abec2fdf18",
+    "sentence": "Although the vulnerabilities associated with short-term wholesale funding and excessive leverage can be seen as structural weaknesses of the global financial system, they can also be viewed as a consequence of poor risk management by financial institutions and investors, which I would count as another major vulnerability of the system before the crisis.",
+    "source": "Some Reflections on the Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2012-04-13",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "skewed_downside"
+  },
+  {
+    "id": "c6d48736-f335-474c-9216-17548d06f236",
+    "sentence": "The FOMC has a number of tools at its disposal for raising interest rates.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-01-07",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

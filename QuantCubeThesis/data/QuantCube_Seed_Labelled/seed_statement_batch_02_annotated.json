@@ -1,0 +1,278 @@
+[
+  {
+    "id": "e98f543b-cd3e-4070-852c-75073d771583",
+    "sentence": "In determining the pace of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments.",
+    "source": "statement_20221214.txt",
+    "doc_type": "statement",
+    "date": "2022-12-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "na",
+    "con": [
+      "economic_activity",
+      "inflation",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bbef2ea6-a995-462e-9d61-839072dd0513",
+    "sentence": "The Committee will continue to carefully monitor the size and composition of the Federal Reserve's balance sheet in light of evolving financial and economic developments.",
+    "source": "statement_20090318.txt",
+    "doc_type": "statement",
+    "date": "2009-03-18",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d46df228-2610-44ec-9bfe-3473b4aa01fa",
+    "sentence": "In addition, the Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage-backed securities, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+    "source": "statement_20221214.txt",
+    "doc_type": "statement",
+    "date": "2022-12-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7363360d-f828-458a-8995-15e2ccd7602b",
+    "sentence": "As previously announced, to provide support to mortgage lending and housing markets and to improve overall conditions in private credit markets, the Federal Reserve will purchase a total of up to $1.25 trillion of agency mortgage-backed securities and up to $200 billion of agency debt by the end of the year.",
+    "source": "statement_20090429.txt",
+    "doc_type": "statement",
+    "date": "2009-04-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8bbaa20f-2f8d-4074-bd77-1503e09dc45d",
+    "sentence": "To support a stronger economic recovery and to help ensure that inflation, over time, is at the rate most consistent with its dual mandate, the Committee expects to maintain a highly accommodative stance for monetary policy.",
+    "source": "statement_20120801.txt",
+    "doc_type": "statement",
+    "date": "2012-08-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "very_dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "economic_activity",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0ef0520c-97f2-4941-900d-7cc3bca0c470",
+    "sentence": "The Committee will continue to assess the effects of these and other developments on economic prospects and will act as needed to foster price stability and sustainable economic growth.",
+    "source": "statement_20070918.txt",
+    "doc_type": "statement",
+    "date": "2007-09-18",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5744f4f7-8492-4f42-a91f-f9c4e2cf61a2",
+    "sentence": "In light of improved functioning of financial markets, the Federal Reserve will be closing the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility, the Commercial Paper Funding Facility, the Primary Dealer Credit Facility, and the Term Securities Lending Facility on February 1, as previously announced.",
+    "source": "statement_20100127.txt",
+    "doc_type": "statement",
+    "date": "2010-01-27",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9c4f9841-c967-49d4-a4da-09654ae28262",
+    "sentence": "The anticipated expiration dates for the Term Asset-Backed Securities Loan Facility remain set at June 30 for loans backed by new-issue commercial mortgage-backed securities and March 31 for loans backed by all other types of collateral.",
+    "source": "statement_20100127.txt",
+    "doc_type": "statement",
+    "date": "2010-01-27",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e57355d4-36ca-4922-99c2-ba61697897a4",
+    "sentence": "In addition, given economic and financial conditions, Mr. Hoenig did not believe that keeping constant the size of the Federal Reserve's holdings of longer-term securities at their current level was required to support a return to the Committee's policy objectives.",
+    "source": "statement_20100810.txt",
+    "doc_type": "statement",
+    "date": "2010-08-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dfde094d-8de4-4290-ab33-224f2ffc339f",
+    "sentence": "Against this backdrop, the Committee decided to maintain the target range for the federal funds rate at 1/4 to 1/2 percent.",
+    "source": "statement_20161102.txt",
+    "doc_type": "statement",
+    "date": "2016-11-02",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b3eb6941-7cb4-4fc1-961f-5a5f77612bf4",
+    "sentence": "To provide greater support to mortgage lending and housing markets, the Committee decided today to increase the size of the Federal Reserve’s balance sheet further by purchasing up to an additional $750 billion of agency mortgage-backed securities, bringing its total purchases of these securities to up to $1.25 trillion this year, and to increase its purchases of agency debt this year by up to $100 billion to a total of up to $200 billion.",
+    "source": "statement_20090318.txt",
+    "doc_type": "statement",
+    "date": "2009-03-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e749898-dfc7-4bb2-9604-365b3d5442ac",
+    "sentence": "The Federal Reserve is monitoring the size and composition of its balance sheet and will make adjustments to its credit and liquidity programs as warranted.",
+    "source": "statement_20091104.txt",
+    "doc_type": "statement",
+    "date": "2009-11-04",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1ce271a5-179b-49f0-9fdd-d527f5dc8c40",
+    "sentence": "In judging when to moderate the pace of asset purchases, the Committee will, at its coming meetings, assess whether incoming information continues to support the Committee's expectation of ongoing improvement in labor market conditions and inflation moving back toward its longer-run objective.",
+    "source": "statement_20131030.txt",
+    "doc_type": "statement",
+    "date": "2013-10-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "669d0a03-e522-4dcb-90ab-6eebaef53ca6",
+    "sentence": "Growth in consumer spending has slowed and labor markets have softened.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

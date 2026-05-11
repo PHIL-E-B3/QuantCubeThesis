@@ -515,8 +515,8 @@ def format_for_claude(records: list) -> list:
             "date":             str(r.get("date", "unknown")),
             "context_question": r.get("context_question"),  # None for non-QA docs
             # Annotation fields (empty until labelled)
-            "top": "", "ten": "", "sen": "", "dir": "",
-            "com": "", "hor": "", "con": "", "dom": "",
+            "top": "", "sen": "", "ten": "",
+            "hor": "", "com": "", "con": "",
             "ris": "", "wid": ""
         })
     return claude_ready

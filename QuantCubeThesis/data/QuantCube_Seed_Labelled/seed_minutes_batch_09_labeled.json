@@ -1,0 +1,265 @@
+[
+  {
+    "id": "8672a296-9590-489e-b24b-9de75b215041",
+    "sentence": "Participants remarked that demand and supply in the labor market had continued to come into better balance.",
+    "source": "minutes_20240612.html",
+    "doc_type": "minutes",
+    "date": "20240612",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ef480ce5-7b29-4e09-9fc4-56822afbf946",
+    "sentence": "A few participants raised the possibility that recent declines in inflation might suggest that the economic recovery was not as strong as some thought.",
+    "source": "minutes_20131218.html",
+    "doc_type": "minutes",
+    "date": "20131218",
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "cad58fb0-1b90-4e16-84d9-a95617c3b120",
+    "sentence": "But a few participants noted that the risk remained that inflationary pressures could rise as the expansion continued, especially if monetary policy remained highly accommodative for too long.",
+    "source": "minutes_20130320.html",
+    "doc_type": "minutes",
+    "date": "20130320",
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "31bfa589-cd91-4b42-b732-59a76aa2f0d0",
+    "sentence": "Most participants also believed that, as part of the process of clarifying the Committee's future policy intentions, it would be appropriate at this time for the Committee to provide additional guidance in its postmeeting statement regarding the likely behavior of the federal funds rate after its first increase. For example, the statement could indicate that the Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e7bfe06e-b3ae-4dca-84c7-1e4cf898612f",
+    "sentence": "Inflation abroad continued to ease.",
+    "source": "minutes_20250129.html",
+    "doc_type": "minutes",
+    "date": "20250129",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f474d0a3-b4bf-4538-bbd7-5931f428008b",
+    "sentence": "Measures of inflation expectations from the Open Market Desk's Survey of Primary Dealers and Survey of Market Participants moved higher at shorter horizons and were little changed at longer horizons.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "48e53b6f-8f8d-43e4-b0da-2fa0d68d8858",
+    "sentence": "Some participants also discussed the risk that a possible divergence in interest rates in the United States and abroad might lead to further appreciation of the dollar, extending the downward pressure on commodity prices and the weakness in net exports.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "632a5254-5826-4bb6-a561-088ddf932d30",
+    "sentence": "Short-term funding markets were adversely affected for a time by concerns about potential delays in raising the federal debt limit.",
+    "source": "minutes_20131030.html",
+    "doc_type": "minutes",
+    "date": "20131030",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7990dfc8-4f88-4821-a351-5f4a21cd3b57",
+    "sentence": "Participants noted that tariff effects were becoming more apparent in the data, as indicated by recent increases in goods price inflation, while services price inflation had continued to slow.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "d5cede3b-7f5b-4142-baf5-03a59c439dcb",
+    "sentence": "Participants acknowledged that the causes of movements in short- and longer-run inflation expectations, including the role of monetary policy, were imperfectly understood.",
+    "source": "minutes_20180131.html",
+    "doc_type": "minutes",
+    "date": "20180131",
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "cdf8dfba-169e-48f6-85f4-068d9d64e257",
+    "sentence": "Total take-up of overnight and term reverse repurchase agreements at the end of the third quarter was also elevated.",
+    "source": "minutes_20151028.html",
+    "doc_type": "minutes",
+    "date": "20151028",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "42cea52d-f7c6-458d-9db9-260298cabebc",
+    "sentence": "The staff continued to judge that uncertainty around the baseline projection was considerable and still viewed the risks as being influenced importantly by the potential macroeconomic implications of banking-sector developments, which could end up being more, or less, negative than assumed in the baseline.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "top": [
+      "macro"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "symmetric",
+    "wid": "elevated"
+  },
+  {
+    "id": "e5a63625-8806-47aa-9ee5-7f1416af2434",
+    "sentence": "In the nonbank sector, leverage at hedge funds remained high, partly on account of the prevalence of the Treasury cash-futures basis trade.",
+    "source": "minutes_20241107.html",
+    "doc_type": "minutes",
+    "date": "20241107",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d133c79d-5c35-4bac-be2c-ac567b66c19f",
+    "sentence": "For the second quarter overall, net exports exerted a moderate drag on the change in U.S. real GDP, compared with a more substantial negative contribution in the first quarter.",
+    "source": "minutes_20140730.html",
+    "doc_type": "minutes",
+    "date": "20140730",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1f2eecd6-021c-4de2-855e-c1cb783675ad",
+    "sentence": "Participants concurred that the economic outlook warranted moving to a restrictive stance of policy, and they recognized the possibility that an even more restrictive stance could be appropriate if elevated inflation pressures were to persist.",
+    "source": "minutes_20220615.html",
+    "doc_type": "minutes",
+    "date": "20220615",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "na",
+    "con": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

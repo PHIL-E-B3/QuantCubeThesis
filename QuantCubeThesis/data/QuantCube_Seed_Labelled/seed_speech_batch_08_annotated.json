@@ -1,0 +1,277 @@
+[
+  {
+    "id": "a0c4d49d-5014-4c52-b600-96623bf764d5",
+    "sentence": "While I expect inflation to eventually settle near our 2 percent target because of our policy actions, we have to make sure what we saw in yesterday's inflation report feeds through broadly across goods and services and that we do not revert back to what has been persistently high core inflation.",
+    "source": "Big Shocks Travel Fast: Why Policy Lags May Be Shorter Than You Think",
+    "doc_type": "speech",
+    "date": "2023-07-13",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "2a48fafb-76ee-47ae-94a6-2c32caacc2c4",
+    "sentence": "Turning to those aged 25 to 54, the participation picture is more troubling.",
+    "source": "Recent Economic Developments and Longer-Term Challenges",
+    "doc_type": "speech",
+    "date": "2019-02-28",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c9f81a10-bde3-4a9b-9048-92df6c65e097",
+    "sentence": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent.",
+    "source": "Fighting Inflation in Challenging Times",
+    "doc_type": "speech",
+    "date": "2022-08-06",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "very hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8252af44-6b56-46dd-9d7d-93f41defc9b2",
+    "sentence": "Although a significant portion of household wealth is held through homeownership for the U.S. overall, buying a home on trust land can be a complicated transaction.",
+    "source": "Modernizing and Strengthening CRA Regulations: A Conversation with the National Congress of American Indians",
+    "doc_type": "speech",
+    "date": "2020-11-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f4647d16-45ef-48d0-b5d5-370fac2a272d",
+    "sentence": "In addition, although loan balances at the smallest banks--those with total assets of $1 billion or less--in the aggregate fell only modestly during 2009, loans outstanding for all other banks dropped more sharply.",
+    "source": "Restoring Credit to Communities",
+    "doc_type": "speech",
+    "date": "2010-03-31",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e103ffb1-ca18-44a8-a811-06e49d566d59",
+    "sentence": "Finally, and perhaps most comprehensively, it is worth observing that the financial crisis has undermined the wealth of many Americans.",
+    "source": "Monetary Policy and Job Creation",
+    "doc_type": "speech",
+    "date": "2011-09-26",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "249a1e3b-2a3b-4836-8146-549d24193169",
+    "sentence": "ConclusionIn response to developments in financial markets, the Federal Reserve has adjusted the stance of monetary policy and the parameters of how we supply liquidity to banks and the financial markets.",
+    "source": "Financial Markets and Central Banking",
+    "doc_type": "speech",
+    "date": "2007-11-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c9a7a543-fd62-4f00-8717-a6d3e19679ae",
+    "sentence": "I would prefer to proceed cautiously in bringing the policy rate down to better assess how far we are from the end point, while recognizing that we have not yet achieved our inflation goal and closely watching the evolution of the labor market.",
+    "source": "Approaching Policymaking Pragmatically",
+    "doc_type": "speech",
+    "date": "2024-11-20",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e343304b-c644-4da7-beda-4ac4502c3d38",
+    "sentence": "These factors generally reduce the negative impact of prepayment penalties, so for these loans, we added a restriction limiting the length of the prepayment penalty period to no more than two years.",
+    "source": "Federal Reserve's Initiatives to Support Minority-Owned Institutions and Expand Consumer Protection",
+    "doc_type": "speech",
+    "date": "2008-07-17",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e9a87b7d-7663-4b45-9a6a-6340de666906",
+    "sentence": "At times like these, cooperation between the fiscal and monetary authorities strengthens financial stability.",
+    "source": "TreasuryâFederal Reserve Cooperation and the Importance of Central Bank Independence",
+    "doc_type": "speech",
+    "date": "2021-03-29",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9f60380a-c3ee-4e7c-96f1-c892ccf00e81",
+    "sentence": "In this case, aggregate EME debt-at-risk rises from about 30 percent of GDP to around the level seen prior to the Asian financial crisis.",
+    "source": "Prospects for Emerging Market Economies in a Normalizing Global Economy",
+    "doc_type": "speech",
+    "date": "2017-10-12",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "forward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "29edb4c7-b43b-4cb9-bb1d-f4bfa44e32e1",
+    "sentence": "While Germany had appeared to be weighed down primarily by transitory factors late last year, some of the weakness in industrial production now appears likely to be more persistent, in part reflecting spillovers from China.",
+    "source": "Navigating Cautiously",
+    "doc_type": "speech",
+    "date": "2019-03-07",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5ef4aaa7-502b-4b90-909f-4ab802f5f530",
+    "sentence": "One of the lessons of the financial crisis was that the potential adverse effects of a rapid unwinding of financial imbalances, regardless of the causes, are significantly increased if market participants employ significant leverage.",
+    "source": "Assessing Potential Financial Imbalances in an Era of Accommodative Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-06-01",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "337a412f-d70f-4d82-9daf-cdbc3f521ea7",
+    "sentence": "In fact, there is a risk that disinflationary pressures could intensify if the recovery faltered.",
+    "source": "The Outlook for the U.S. Economy and Economic Policy",
+    "doc_type": "speech",
+    "date": "2011-10-21",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "ab533718-c1d7-4ab5-a913-d79d3be4aa3f",
+    "sentence": "They challenged whether the overall economy could be characterized as at \"full employment\" while unemployment remained in the double digits in their communities.",
+    "source": "How Should We Think about Full Employment in the Federal Reserve's Dual Mandate?",
+    "doc_type": "speech",
+    "date": "2021-02-24",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

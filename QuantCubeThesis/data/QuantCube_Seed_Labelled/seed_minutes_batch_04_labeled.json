@@ -1,0 +1,251 @@
+[
+  {
+    "id": "d567655f-c00a-4703-9b89-79cf885e35a6",
+    "sentence": "Participants remarked that a moderation in labor market conditions would likely involve a decline in the number of job openings as well as a moderate increase in unemployment from the current very low rate.",
+    "source": "minutes_20220727.html",
+    "doc_type": "minutes",
+    "date": "20220727",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "29cffc9b-7ad0-4024-b714-8234f87da093",
+    "sentence": "Several participants favored including such additional information in the policy statement to be released following the current meeting; several others indicated that providing such information would be most useful when the time came for the Committee to begin reducing the pace of its securities purchases, reasoning that earlier inclusion might trigger an unintended tightening of financial conditions.",
+    "source": "minutes_20130731.html",
+    "doc_type": "minutes",
+    "date": "20130731",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f9792926-eb33-4c27-9391-298b5d33ce2a",
+    "sentence": "The staff presentations considered two key channels by which monetary policy influences inflation--the response of inflation to changes in resource utilization and the role of inflation expectations, or trend inflation, in the price-setting process.",
+    "source": "minutes_20180131.html",
+    "doc_type": "minutes",
+    "date": "20180131",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9b67448d-48a6-4b43-baf2-add2340e2c69",
+    "sentence": "Finally, the staff presentation noted that the Committee would need to decide if and when to use the tools that it has developed to temporarily reduce reserve balances--reverse repurchase agreements and term deposits--in order to tighten the correspondence between any changes in the interest rate the Federal Reserve pays on excess reserves and the changes in the federal funds rate.",
+    "source": "minutes_20110427.html",
+    "doc_type": "minutes",
+    "date": "20110427",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ac29f30f-3cde-4a4f-9ce1-2fab8ef76d4c",
+    "sentence": "Participants stressed the major downside risk that the spread of the virus might intensify in those areas of the country currently less affected, thereby sidelining many more U.S. workers and further damping purchases by consumers.",
+    "source": "minutes_20200315.html",
+    "doc_type": "minutes",
+    "date": "20200315",
+    "top": [
+      "economic_activity",
+      "unemployment"
+    ],
+    "ten": "forward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "e745c821-9416-4cdb-a733-8000505ef106",
+    "sentence": "Committee Policy ActionIn their discussion of monetary policy for the period ahead, members agreed that no changes to the Committee's asset purchase program or to its target range for the federal funds rate were warranted at this meeting.",
+    "source": "minutes_20110126.html",
+    "doc_type": "minutes",
+    "date": "20110126",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6212dcc0-d18f-4cb9-a2c3-0ef916d06ec8",
+    "sentence": "The Committee also decided to maintain its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction, and it anticipated doing so until normalization of the level of the federal funds rate is well under way. Members noted that this policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a4c87043-656d-4a3c-9e71-885f75f58217",
+    "sentence": "Shipments and orders of nondefense capital goods had been on a steady uptrend over the first eight months of 2017.",
+    "source": "minutes_20170920.html",
+    "doc_type": "minutes",
+    "date": "20170920",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "06e58728-0593-406b-87fd-18bffaf0e809",
+    "sentence": "In the credit card market, lending standards at commercial banks tightened further according to the July SLOOS.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "db085dea-1fa8-46c6-b9ff-a056144fe8de",
+    "sentence": "Bank lending for residential mortgages was solid in the fourth quarter, and the issuance of mortgage-backed securities was robust.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5f892951-5fff-4b87-a2e2-cd9a107bb5ef",
+    "sentence": "Spreads of yields on Italian and Spanish government debt over those on German bunds narrowed over the intermeeting period, with spreads on shorter-term debt falling particularly noticeably.",
+    "source": "minutes_20120125.html",
+    "doc_type": "minutes",
+    "date": "20120125",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bc3bc48d-c4f5-4070-88d4-7fc7c2639e3a",
+    "sentence": "Various participants noted the importance of the Committee clearly communicating its assessment of progress toward its longer-run goals well in advance of the time when it could be judged substantial enough to warrant a change in the pace of purchases.",
+    "source": "minutes_20210127.html",
+    "doc_type": "minutes",
+    "date": "20210127",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "79d31887-1376-4d8b-b03e-e289642470f5",
+    "sentence": "Use of the overnight reverse repo (ON RRP) facility declined slightly over the intermeeting period.",
+    "source": "minutes_20240731.html",
+    "doc_type": "minutes",
+    "date": "20240731",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "69a5efc8-5917-496d-8639-453362d241cb",
+    "sentence": "Services inflation, however, remained high in some of those economies.",
+    "source": "minutes_20241218.html",
+    "doc_type": "minutes",
+    "date": "20241218",
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

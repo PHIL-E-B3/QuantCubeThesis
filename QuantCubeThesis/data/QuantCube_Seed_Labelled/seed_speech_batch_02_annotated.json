@@ -1,0 +1,277 @@
+[
+  {
+    "id": "f89b8204-cca4-40f0-a61a-32df55d5e373",
+    "sentence": "Most of the data I have presented thus far are carefully collected, analyzed, and released by federal government agencies, like the Bureau of Economic Analysis which collects data on GDP.",
+    "source": "The Economic Outlook and Path of Policy",
+    "doc_type": "speech",
+    "date": "2025-04-03",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "69fa1904-c8c6-4fa7-ab0e-64fe8a177f6e",
+    "sentence": "The top three issues in the spring 2011 data release were employment opportunities, access to housing, and home foreclosures.",
+    "source": "Fostering Innovation in Community Development Finance",
+    "doc_type": "speech",
+    "date": "2011-05-10",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "77502457-1d50-4be6-b812-eadb3eec3e0a",
+    "sentence": "Our rules are not an academic exercise.",
+    "source": "The Eye of Providence: Thoughts on the Evolution of Bank Supervision",
+    "doc_type": "speech",
+    "date": "2020-12-11",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "de323ec9-10fd-4ddd-a5f4-28cbe9b06007",
+    "sentence": "This dependence has long been implicit in traditional Phillips-curve analysis, but expectations--now in explicit form--are also a central feature of the increasingly popular New Keynesian Phillips curves, in which current-period inflation is a function of expectations of next period’s inflation and resource utilization. Therefore, a natural first place to look for explanations of changing inflation dynamics is a possible change in the expectations-formation process.",
+    "source": "Inflation Dynamics",
+    "doc_type": "speech",
+    "date": "2007-03-23",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3659adc-46d5-4984-8aa4-f86bfd13ae98",
+    "sentence": "In our new framework, we acknowledge that policy decisions going forward will be based on the FOMC's estimates of \"shortfalls [emphasis added] of employment from its maximum level\"—not \"deviations.",
+    "source": "U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2021-05-12",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "ab5326c5-a2b6-4674-a297-aaa47bccaada",
+    "sentence": "But judgment and experience count.",
+    "source": "Expertise and Macroeconomic Policy, Comments on \"Insiders versus Outsiders in Monetary Policy-Making,\" by Timothy Besley, Neil Meads, and Paolo Surico",
+    "doc_type": "speech",
+    "date": "2008-01-04",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b2a2cbe4-8861-4f43-9a72-1a442431a3a5",
+    "sentence": "But better consumer protections and disclosures, as well as greater supervisory scrutiny of the processes that originators follow and the incentives they face, are also needed.",
+    "source": "Addressing Weaknesses in the Global Financial Markets: The Report of the President's Working Group on Financial Markets",
+    "doc_type": "speech",
+    "date": "2008-04-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "05164abb-04b1-45a6-8e86-daefe00d4302",
+    "sentence": "The Basel Committee has recently agreed to accelerate its review of the LCR so as to be able to make changes well before that date and, thereby, give firms and markets ample time to prepare and, as necessary, adjust.",
+    "source": "The International Agenda for Financial Regulation",
+    "doc_type": "speech",
+    "date": "2011-11-04",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d40a5502-eb06-42d9-9f94-47ab63bd2e41",
+    "sentence": "Another is to provide asset guarantees, under which the government would agree to absorb, presumably in exchange for warrants or some other form of compensation, part of the prospective losses on specified portfolios of troubled assets held by banks.",
+    "source": "The Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2009-01-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "018080c3-d0c8-4e92-be2f-591c5045e0ef",
+    "sentence": "It is also reassuring that longer-term inflation expectations appear stable.",
+    "source": "Frequently Asked Questions",
+    "doc_type": "speech",
+    "date": "2009-12-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "21204727-e560-4bca-8b1d-50081180c698",
+    "sentence": "Heating, air conditioning, cooking, and sanitation in my childhood were not all that different from today.",
+    "source": "Economic Prospects for the Long Run",
+    "doc_type": "speech",
+    "date": "2013-05-18",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c345ddac-e92a-4b2a-ba43-425523bbbc77",
+    "sentence": "A report on the Fed Listens series is available on the Board's web site.",
+    "source": "The Federal Reserve’s New Monetary Policy Framework: A Robust Evolution",
+    "doc_type": "speech",
+    "date": "2020-08-31",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5ec3148a-07f9-4324-8da2-64aeea30192b",
+    "sentence": "The first concerns the triparty repurchase agreement (repo) market, which is a principal source of overnight financing for the largest securities dealers.",
+    "source": "Financial Institutions, Financial Markets, and Financial Stability",
+    "doc_type": "speech",
+    "date": "2015-02-18",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "17c825b3-833d-49ef-a3ff-b0a58ff6dff4",
+    "sentence": "In this regard, I note the importance of the creation of the SSM within the European Central Bank as the supervisor for all larger banks in the euro zone.",
+    "source": "Shared Responsibility for the Regulation of International Banks",
+    "doc_type": "speech",
+    "date": "2015-11-05",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "66f36de1-4169-48e7-972d-84427dbfae9f",
+    "sentence": "In the March 2021 SEP, no Committee member expected inflation to be over 3 percent for 2021. As I argued in a speech last December, this view was consistent with private-sector economic forecasts.",
+    "source": "Reflections on Monetary Policy in 2021",
+    "doc_type": "speech",
+    "date": "2022-05-06",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

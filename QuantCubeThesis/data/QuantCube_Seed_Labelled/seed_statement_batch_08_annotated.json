@@ -1,0 +1,252 @@
+[
+  {
+    "id": "3356bf8c-bff0-4f23-9408-f50022169197",
+    "sentence": "The Committee also anticipates that inflation over the medium term likely would run at or below its 2 percent objective.",
+    "source": "statement_20121024.txt",
+    "doc_type": "statement",
+    "date": "2012-10-24",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c691bdb1-1b9f-4a36-a68b-1b59df83f39e",
+    "sentence": "The arrangements with the Bank of England, the ECB, and the Swiss National Bank will provide these central banks with the capacity to conduct tenders of U.S. dollars in their local markets at fixed rates for full allotment, similar to arrangements that had been in place previously.",
+    "source": "statement_20100509.txt",
+    "doc_type": "statement",
+    "date": "2010-05-09",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9dd272d5-c0eb-439f-a53e-60bbad0000b0",
+    "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate.",
+    "source": "statement_20200129.txt",
+    "doc_type": "statement",
+    "date": "2020-01-29",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "43d66a97-aed6-42b8-a698-b87743e3305a",
+    "sentence": "In current circumstances, depository institutions may experience unusual funding needs because of dislocations in money and credit markets.",
+    "source": "statement_20070810.txt",
+    "doc_type": "statement",
+    "date": "2007-08-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "201d9b61-364d-4424-803e-8e3a8ba7110b",
+    "sentence": "The Committee is maintaining its existing policies of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction.",
+    "source": "statement_20120425.txt",
+    "doc_type": "statement",
+    "date": "2012-04-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "unconditional",
+    "hor": "long_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f16fa905-2b4f-4320-a6ca-e7fc148c3e2f",
+    "sentence": "The Committee decided to continue to reduce the monthly pace of its net asset purchases, bringing them to an end in early March.",
+    "source": "statement_20220126.txt",
+    "doc_type": "statement",
+    "date": "2022-01-26",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "befd46f1-b97e-480b-8223-cc34aa2db9e4",
+    "sentence": "Progress on vaccinations will likely continue to reduce the effects of the public health crisis on the economy, but risks to the economic outlook remain.",
+    "source": "statement_20210922.txt",
+    "doc_type": "statement",
+    "date": "2021-09-22",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "5859e5a3-4c69-4475-9264-da6e07f13136",
+    "sentence": "Given the economic outlook, and recognizing the time it takes for policy actions to affect future economic outcomes, the Committee decided to raise the target range for the federal funds rate to 1/4 to 1/2 percent.",
+    "source": "statement_20151216.txt",
+    "doc_type": "statement",
+    "date": "2015-12-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "macro"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f9be4eae-2fb6-4bf7-9e2f-074202320fb6",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 25-basis-point decrease in the discount rate to 4-3/4 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of New York, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, and St. Louis.",
+    "source": "statement_20071211.txt",
+    "doc_type": "statement",
+    "date": "2007-12-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7fea3193-c6c9-441d-bc9b-84998712e8a0",
+    "sentence": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+    "source": "statement_20230322.txt",
+    "doc_type": "statement",
+    "date": "2023-03-22",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "06f58fde-9ca7-4ae3-921d-282a3529319c",
+    "sentence": "Mr. Hoenig believed the risks of additional securities purchases outweighed the benefits.",
+    "source": "statement_20101103.txt",
+    "doc_type": "statement",
+    "date": "2010-11-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0b25bc6b-effc-4ec3-b554-4f3f8fad5b24",
+    "sentence": "In October, the Committee will initiate the balance sheet normalization program described in the June 2017 Addendum to the Committee's Policy Normalization Principles and Plans.",
+    "source": "statement_20170920.txt",
+    "doc_type": "statement",
+    "date": "2017-09-20",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7e8b2524-334d-486d-b139-7225f294124a",
+    "sentence": "The Federal Reserve is providing liquidity to facilitate the orderly functioning of financial markets.",
+    "source": "statement_20070810.txt",
+    "doc_type": "statement",
+    "date": "2007-08-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  }
+]

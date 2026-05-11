@@ -1,0 +1,278 @@
+[
+  {
+    "id": "9cbb368a-ff7a-42b5-947d-71cdb5dea996",
+    "sentence": "The recent crisis is no exception, and figure 1 shows such an effect for the U.S., U.K., euro-area and Canadian economies since 2008.",
+    "source": "Remarks on Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-04-08",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ced045f1-1a7b-49e8-9fba-42fc9aab6e89",
+    "sentence": "I would especially like to thank the community bankers who work tirelessly to support their customers, businesses, and local economies.",
+    "source": "Community Banking: Looking Toward the Future",
+    "doc_type": "speech",
+    "date": "2025-10-09",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6447855e-71ef-41b9-8d2e-fd4e5a6db010",
+    "sentence": "Perhaps inflation is just sending a signal of people's trust in the Fed's ability to meet its inflation objective.",
+    "source": "Don’t Chase the Needles: An Optimistic Assessment of the Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2018-10-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a21b9959-448b-4fd5-b7a1-582c704b3d62",
+    "sentence": "Today, just nine months later, the unemployment rate is 7.6 percent--a larger decline than most FOMC participants expected in September.",
+    "source": "Thoughts on Unconventional Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-06-27",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3972a577-179b-422d-8884-bd8fca33cda3",
+    "sentence": "As we all know, a singular feature of the U.S. expansion since the COVID-19 recession has been the red-hot housing market.",
+    "source": "The Red Hot Housing Market: the Role of Policy and Implications for Housing Affordability",
+    "doc_type": "speech",
+    "date": "2022-03-24",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "47767d45-ebcb-4b3b-8a07-4a1414376a71",
+    "sentence": "The Federal Reserve Bank of Minneapolis's Center for Indian Country Development, a research institute dedicated to tribal economic development, estimates that the employment-to-population ratio for AI/AN households is 2.5 percentage points lower than the national average in August 2021, down from June 2020, when the gap was over 4 percentage points.",
+    "source": "Financial Inclusion and Economic Challenges in the Shadow of the Pandemic: A Conversation with Tribal Leaders",
+    "doc_type": "speech",
+    "date": "2021-10-13",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0952787d-b7c4-401f-8244-91a8540be6de",
+    "sentence": "They assume that the target leverage of banks and others decreases, as it has in previous lending cycles, but they also net out reduced lending from one leveraged entity to another.",
+    "source": "On \"Leveraged Losses: Lessons from the Mortgage Meltdown\"",
+    "doc_type": "speech",
+    "date": "2008-02-29",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c63ee653-aeaa-4c8f-853a-2164bbffc6ad",
+    "sentence": "Given the lack of familiarity with front-end yield curve targets in the United States, such an approach would likely come into focus only after additional analysis and discussion.",
+    "source": "Navigating Monetary Policy through the Fog of COVID",
+    "doc_type": "speech",
+    "date": "2020-07-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cb79c820-6314-4ec1-9a89-d63a5e3c0582",
+    "sentence": "To those ends, we have lowered interest rates to near zero in order to bring down borrowing costs.",
+    "source": "COVID-19 and the Economy",
+    "doc_type": "speech",
+    "date": "2020-04-09",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "very_dovish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3eb5b3ea-f708-4208-a13c-66b2a9448945",
+    "sentence": "As a part of this approach, I have also prioritized efforts to improve the consistency, transparency, and reasonableness of regulation and supervision.",
+    "source": "My Perspective on Bank Regulation and Supervision",
+    "doc_type": "speech",
+    "date": "2021-02-16",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2d33d826-4c18-4cc9-acb7-047a3818b427",
+    "sentence": "Making that judgment represents an important, but difficult task for policymakers.",
+    "source": "The Federal Funds Rate in Extraordinary Times",
+    "doc_type": "speech",
+    "date": "2008-05-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5cd51bfb-01ab-47d5-b8bd-f1ad4a8aa260",
+    "sentence": "In short, where the financial regulatory framework can provide for parity of treatment, it should do so.",
+    "source": "Challenges to the Community Banking Model",
+    "doc_type": "speech",
+    "date": "2024-10-11",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cff7e457-dbb8-4cb2-9288-bd72a09ce431",
+    "sentence": "As all that happens, the policy easing the Federal Reserve has put in place over recent months will begin to show through more in reductions in the cost of capital and the greater availability of credit.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2008-05-20",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e8f81f07-7236-4483-af5a-572e9ff43e52",
+    "sentence": "Using the same estimates for TFP as I used earlier, this suggests 0.2 to 0.6 percentage point of downward pressure on the output gap over the next couple of years.",
+    "source": "Nonmonetary Forces and Appropriate Monetary Policy",
+    "doc_type": "speech",
+    "date": "2025-09-22",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7b6a5868-ce61-4c6b-8a68-17261d22465f",
+    "sentence": "Some observers expressed concern at the time that these policies would stoke inflation, and, indeed, inflation reached high levels earlier this year, mostly as the result of a surge in the prices of oil and other commodities.",
+    "source": "Federal Reserve Policies in the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2008-12-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

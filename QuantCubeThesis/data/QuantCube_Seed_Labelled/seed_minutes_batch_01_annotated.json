@@ -1,0 +1,242 @@
+[
+  {
+    "id": "e0b2c08e-5adb-4c7c-a775-cd69163ab02c",
+    "sentence": "Some other participants emphasized that recent high inflation readings had largely been driven by price increases in a handful of categories.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7d0d1a4b-de56-43db-9bfb-c3cb1c98dab0",
+    "sentence": "In its medium-term and longer-run projections, the staff slightly lowered its assumptions for potential GDP growth and real equilibrium interest rates.",
+    "source": "minutes_20150318.html",
+    "doc_type": "minutes",
+    "date": "20150318",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "0b4fd2a2-9b9c-4ba2-a3f3-86bb3e0317c0",
+    "sentence": "The recent 12-month measures of inflation were being boosted significantly by the base effects of the drop in prices from the spring of 2020 rolling out of the calculation. In addition, the surge in demand as the economy reopened further, combined with production bottlenecks and supply constraints, contributed to the large recent monthly price increases.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f1e991ee-8693-4c03-976b-1e7fdea2ace0",
+    "sentence": "Following the banking-sector developments, equity prices for large U.S. banks underperformed the broad market; equity prices for U.S. regional banks generally underperformed by relatively more.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3fad962b-edbb-43a7-b297-bf98c23fb4f3",
+    "sentence": "The private-sector job openings rate—as measured by the Job Openings and Labor Turnover Survey—moved down markedly during February and March but remained high.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "db55a7d2-6ee0-49de-a6bf-1e82f15e83f6",
+    "sentence": "Some participants noted that a steep yield curve is a typical feature of an economy in recovery, and that much of the steepening appeared to have occurred in response to stronger-than-expected economic data.",
+    "source": "minutes_20110126.html",
+    "doc_type": "minutes",
+    "date": "20110126",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "63548039-6a71-402b-9bc7-372151139a1c",
+    "sentence": "Benchmark sovereign yields fell sharply, with German yields reaching record lows.",
+    "source": "minutes_20141029.html",
+    "doc_type": "minutes",
+    "date": "20141029",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e2db30f8-67e4-476a-832b-bc3e57ecc874",
+    "sentence": "In particular, it was difficult to anticipate the forces that might push the economy into a recession, and thus preserving some flexibility in responding to an economic downturn could be appropriate. Moreover, although making multiyear commitments regarding asset purchases or the future path of the federal funds rate could enhance the effectiveness of these policies, such commitments could unduly constrain the choices of the Committee in the future.",
+    "source": "minutes_20180801.html",
+    "doc_type": "minutes",
+    "date": "20180801",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "57c70610-8962-4291-a7a9-f0c51a6ada9d",
+    "sentence": "Interest rates on newly originated bank loans to businesses and households increased over the second quarter, interest rates on credit card offers increased in July, and interest rates on auto loans increased in July and August.",
+    "source": "minutes_20230920.html",
+    "doc_type": "minutes",
+    "date": "20230920",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "73b43bf2-aab6-42f0-93c4-28881df037a4",
+    "sentence": "Following the discussion, the Committee voted to approve minor wording changes to the statement and to update the statement's reference to participants' estimates of the longer-run normal unemployment rate.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4c79a6e9-6a29-4dae-8d14-aed2fcf25211",
+    "sentence": "Participants generally saw the distribution of risks to the outlook for economic activity as somewhat more favorable than at the previous meeting, al­though a number of downside risks remained prominent.",
+    "source": "minutes_20200129.html",
+    "doc_type": "minutes",
+    "date": "20200129",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "3d40eb78-37d7-4ffb-9384-03d0945952b2",
+    "sentence": "The behavior of the components of core loans in recent months was broadly consistent with the results of the Senior Loan Officer Opinion Survey on Bank Lending Practices conducted in January.",
+    "source": "minutes_20110126.html",
+    "doc_type": "minutes",
+    "date": "20110126",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "65fd28fc-5e50-450c-9b44-a09273b57ff6",
+    "sentence": "While the most recent estimate of nonfarm payroll employment showed a smaller monthly gain than earlier in the year, it followed six months in which increases had averaged more than 200,000.",
+    "source": "minutes_20140917.html",
+    "doc_type": "minutes",
+    "date": "20140917",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

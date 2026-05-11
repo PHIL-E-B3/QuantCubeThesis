@@ -1,0 +1,246 @@
+[
+  {
+    "id": "28de397a-d0c0-4364-874d-29bdbd4f6a6d",
+    "sentence": "The manager turned next to a discussion of money markets and Federal Reserve operations.",
+    "source": "minutes_20210922.html",
+    "doc_type": "minutes",
+    "date": "20210922",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c2f5e8b5-9187-4bfd-9a48-b31f5f0c38f2",
+    "sentence": "Total industrial production plunged in April, as many factories slowed or suspended operation in response to the coronavirus pandemic.",
+    "source": "minutes_20200610.html",
+    "doc_type": "minutes",
+    "date": "20200610",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3430d60d-9dce-4157-a9be-996191a3258f",
+    "sentence": "The March data, together with revised estimates for earlier months, indicated that real exports grew briskly in the first quarter and at a faster pace than in the second half of 2016.",
+    "source": "minutes_20170614.html",
+    "doc_type": "minutes",
+    "date": "20170614",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e9c65ba5-1dc6-49ae-97db-9e06e2c2c299",
+    "sentence": "Interest rates for credit card offers inched up in February, while those on new auto loans were little changed over the intermeeting period on net.",
+    "source": "minutes_20250507.html",
+    "doc_type": "minutes",
+    "date": "20250507",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "240ed0f5-7db3-4049-858b-3930c8f5f9fb",
+    "sentence": "Most participants remarked that they saw benefits in reducing the pace of net purchases of Treasury securities and agency MBS proportionally in order to end both sets of purchases at the same time. These participants observed that such an approach would be consistent with the Committee's understanding that purchases of Treasury securities and agency MBS had similar effects on broader financial conditions and played similar roles in the transmission of monetary policy, or that these purchases were not intended as credit allocation.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4875a79b-6b12-41a7-9da3-9cb0a75fa751",
+    "sentence": "Market-based measures of inflation compensation remained low.",
+    "source": "minutes_20191030.html",
+    "doc_type": "minutes",
+    "date": "20191030",
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "48e2f30c-1fd5-4bf1-b847-87c5f8274d0a",
+    "sentence": "Market expectations for the path of the federal funds rate were little changed over the intermeeting period.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f1bbbb2-2a70-401f-863c-7ff893add8b8",
+    "sentence": "The manager indicated that some repos might be needed at least through April, when tax payments will sharply reduce reserve levels.",
+    "source": "minutes_20191211.html",
+    "doc_type": "minutes",
+    "date": "20191211",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "conditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "933f0750-e5a5-41ff-a1c5-efe10292cc78",
+    "sentence": "One member preferred a reduction in the target range of 50 basis points in the federal funds rate at this meeting.",
+    "source": "minutes_20190918.html",
+    "doc_type": "minutes",
+    "date": "20190918",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3c7b5b78-d1e8-41a9-ad05-03b0dffbc452",
+    "sentence": "They also agreed that household spending had been increasing at a moderate rate, and that the housing sector had improved further; however, business fixed investment and net exports had been soft.",
+    "source": "minutes_20160316.html",
+    "doc_type": "minutes",
+    "date": "20160316",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "ebb0cffb-4769-4129-afa9-917574d06b08",
+    "sentence": "Yield spreads on EME sovereign bonds edged down.",
+    "source": "minutes_20170920.html",
+    "doc_type": "minutes",
+    "date": "20170920",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8b3ffb6c-a718-4710-aa9f-b4a8c60a9bdf",
+    "sentence": "Demand improved as social-distancing restrictions were lifted in the United Kingdom and the euro area following the rollout of vaccines.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6fe47d24-89e6-4fb6-a489-c665a14ff108",
+    "sentence": "Supply chain disruptions associated with the earthquake in Japan continued to hinder production at motor vehicle manufacturers and the firms that supply them.",
+    "source": "minutes_20110809.html",
+    "doc_type": "minutes",
+    "date": "20110809",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bc8c9960-f935-4fc5-9f73-33aa949433ba",
+    "sentence": "Some participants highlighted the fact that price increases had become more widespread.",
+    "source": "minutes_20211103.html",
+    "doc_type": "minutes",
+    "date": "20211103",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

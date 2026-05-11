@@ -1,0 +1,268 @@
+[
+  {
+    "id": "819cb6ce-fe55-4fed-94f4-91aae15bfb75",
+    "sentence": "After assessing the outlook for economic activity, the labor market, and inflation and weighing the uncertainties associated with the outlook, members agreed to raise the target range for the federal funds rate to 1/4 to 1/2 percent at this meeting.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "economic_activity",
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "60d719ea-682d-4a94-b6eb-6cf350bdabd5",
+    "sentence": "The increases in nonfarm payroll employment in July and August remained well above the pace likely to be sustainable in the longer run.",
+    "source": "minutes_20170920.html",
+    "doc_type": "minutes",
+    "date": "20170920",
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d11c5007-f2ae-4da6-9e4d-a0d0d5e04220",
+    "sentence": "Household credit quality stayed broadly solid but continued to worsen for some types of credit owed by borrowers with low credit scores.",
+    "source": "minutes_20220921.html",
+    "doc_type": "minutes",
+    "date": "20220921",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "53a383ca-1647-4fc5-a345-cc7de6d77367",
+    "sentence": "Since then, the size of the Federal Reserve's balance sheet had declined substantially. In addition, money market conditions had tightened recently, which suggested that reserve balances may be moving closer to ample. In light of these developments, participants discussed whether to stop balance sheet runoff soon and what the maturity composition of the SOMA Treasury portfolio (SOMA portfolio) should be in the longer run.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a3e5d176-d40d-40a3-a72c-197f260822d4",
+    "sentence": "Regarding downside risks to economic activity, participants noted the possibility that the cumulative and rapid tightening of monetary policy would eventually affect economic activity more than expected, and that the additional effects of the tightening of bank credit conditions could prove more substantial than anticipated.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "325d99cd-2812-4586-80c9-2db65f8d8d49",
+    "sentence": "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+    "source": "minutes_20140917.html",
+    "doc_type": "minutes",
+    "date": "20140917",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "unemployment",
+      "inflation"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9183e423-f0da-4be0-9a07-a145075731a3",
+    "sentence": "In the commercial real estate (CRE) sector, financing conditions remained generally accommodative despite a modest deceleration in bank loan growth.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "615cb343-26a3-4268-a620-ea3d044548ae",
+    "sentence": "From his work on r*, to the balance sheet, to leading the steering committee for our monetary policy review, Thomas Laubach's intellectual fingerprints are all over the Committee's decisions that will define this era of the Federal Reserve.",
+    "source": "minutes_20200916.html",
+    "doc_type": "minutes",
+    "date": "20200916",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "na",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7fe99c7d-f8eb-49da-ac65-0648ea9e9b8d",
+    "sentence": "Vulnerabilities stemming from funding risk were characterized as moderate.",
+    "source": "minutes_20200129.html",
+    "doc_type": "minutes",
+    "date": "20200129",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "present",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "591bb384-6c55-48ab-908d-cdd9b18b80a6",
+    "sentence": "These decreases reflected notable step-downs in both energy and core inflation amid slowing aggregate demand and declines in oil prices.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b4f34c1e-63af-4a5f-a5b2-b721403e91da",
+    "sentence": "Consumer sentiment in the Thomson Reuters/University of Michigan Surveys of Consumers rose somewhat in February, but it declined in early March and remained relatively downbeat.",
+    "source": "minutes_20130320.html",
+    "doc_type": "minutes",
+    "date": "20130320",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "df72fd72-3997-4751-a78c-f0df8101d388",
+    "sentence": "Some also expressed interest in studying, over the longer term, approaches in which the Committee would target a mixture of secured and unsecured rates.",
+    "source": "minutes_20181108.html",
+    "doc_type": "minutes",
+    "date": "20181108",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "long_term",
+    "con": [
+      "none"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "66e214ff-413e-4d19-a084-2029c767f363",
+    "sentence": "A straight read of federal funds futures rates suggested that market participants were placing higher odds on significant policy easing in 2024 than they did just before the December FOMC meeting.",
+    "source": "minutes_20240131.html",
+    "doc_type": "minutes",
+    "date": "20240131",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "neutral",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e06a065d-a306-433b-b50e-3c49ea3b546e",
+    "sentence": "Higher rates had reportedly made repos a more attractive alternative investment for major lenders in the federal funds market, thus reducing the availability of funding in that market and putting some upward pressure on the federal funds rate.",
+    "source": "minutes_20180502.html",
+    "doc_type": "minutes",
+    "date": "20180502",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "backward",
+    "sen": "dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "da49a836-5e3b-4af3-9073-3f1b2faba34a",
+    "sentence": "These restrictions weakened retail sales and contributed to labor shortages and transportation congestion, disrupting global supply chains.",
+    "source": "minutes_20210922.html",
+    "doc_type": "minutes",
+    "date": "20210922",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "backward",
+    "sen": "very dovish",
+    "com": "none",
+    "hor": "na",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  }
+]

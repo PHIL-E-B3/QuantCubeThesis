@@ -107,7 +107,8 @@ def pseudolabel_topic(sentence: str) -> list:
     return hits if hits else ["no_topic"]
 
 
-def pseudolabel_dominant(sentence: str) -> str:
+def _dominant_topic(sentence: str) -> str:
+    """Internal helper for stratification — not an output label."""
     s = sentence.lower()
     counts = {
         domain: sum(1 for kw in kws if kw in s)
@@ -151,11 +152,11 @@ _PRS = re.compile(
 
 
 def pseudolabel_tense(sentence: str) -> str:
-    if _HYP.search(sentence): return "hypothetical"
+    if _HYP.search(sentence): return "forward"   # hypothetical is forward-looking
     if _FWD.search(sentence): return "forward"
     if _BWD.search(sentence): return "backward"
     if _PRS.search(sentence): return "present"
-    return "none"
+    return "na"                                   # boilerplate / indeterminate
 
 
 # ── DIRECTION (hawkish / dovish) ──────────────────────────────────────────────
@@ -193,33 +194,36 @@ _DOVE_MILD = re.compile(
     re.I,
 )
 
-_DIR_LABELS = ["very dovish", "dovish", "neutral", "hawkish", "very hawkish"]
-
-
-def pseudolabel_direction(sentence: str) -> str:
-    score = score_monetary_policy(sentence)  # Gardner A9: {-1, 0, +1}
-    if _HAWK_STRONG.search(sentence): score += 2
-    elif _HAWK_MILD.search(sentence): score += 1
-    if _DOVE_STRONG.search(sentence): score -= 2
-    elif _DOVE_MILD.search(sentence): score -= 1
-    score = max(-2, min(2, score))
-    return _DIR_LABELS[score + 2]
-
-
-# ── SENTIMENT (-2..+2) ────────────────────────────────────────────────────────
-# Derived from Gardner total normalised score. Thresholds tuned for sentences
-# (normaliser ≈ sqrt(20) ≈ 4.5 for a typical ~20-word sentence).
-
-_SEN_THRESHOLDS = [(-0.35, "-2"), (-0.10, "-1"), (0.10, "0"), (0.35, "1")]
+_SEN_LABELS = ["very dovish", "dovish", "neutral", "hawkish", "very hawkish"]
 
 
 def pseudolabel_sentiment(sentence: str) -> str:
-    result = gardner_nlp(sentence)
-    score  = result["gardner_total"]
-    for threshold, label in _SEN_THRESHOLDS:
-        if score <= threshold:
-            return label
-    return "2"
+    """
+    Unified hawkish/dovish sentiment for ALL topics.
+    Combines Gardner A9 monetary-policy score with the extended hawkish/dovish
+    lexicon — this works for MP sentences — and falls back to the Gardner total
+    economic sentiment score for non-MP sentences.
+    """
+    # A9 + extended lexicon (strong signal for MP sentences)
+    mp_score = score_monetary_policy(sentence)
+    if _HAWK_STRONG.search(sentence): mp_score += 2
+    elif _HAWK_MILD.search(sentence):  mp_score += 1
+    if _DOVE_STRONG.search(sentence):  mp_score -= 2
+    elif _DOVE_MILD.search(sentence):  mp_score -= 1
+
+    # Gardner economic total (signal for non-MP sentences)
+    gardner_score = gardner_nlp(sentence)["gardner_total"]
+    gardner_bin = (
+        -2 if gardner_score <= -0.35 else
+        -1 if gardner_score <= -0.10 else
+         0 if gardner_score <=  0.10 else
+         1 if gardner_score <=  0.35 else 2
+    )
+
+    # Use whichever gives a stronger non-zero signal; default to gardner_bin
+    score = mp_score if abs(mp_score) >= abs(gardner_bin) else gardner_bin
+    score = max(-2, min(2, score))
+    return _SEN_LABELS[score + 2]
 
 
 # ── COMMITMENT ────────────────────────────────────────────────────────────────
@@ -241,7 +245,10 @@ _CONDITIONAL = re.compile(
 )
 
 
-def pseudolabel_commitment(sentence: str) -> str:
+def pseudolabel_commitment(sentence: str, topics: list | None = None) -> str:
+    """Commitment only meaningful for monetary_policy sentences; always 'none' otherwise."""
+    if topics is not None and "monetary_policy" not in topics:
+        return "none"
     has_uncond = bool(_UNCONDITIONAL.search(sentence))
     has_cond   = bool(_CONDITIONAL.search(sentence))
     if has_uncond and not has_cond: return "unconditional"
@@ -272,13 +279,12 @@ _LONG_TERM = re.compile(
 def pseudolabel_horizon(sentence: str) -> str:
     has_short = bool(_SHORT_TERM.search(sentence))
     has_long  = bool(_LONG_TERM.search(sentence))
-    if has_short and not has_long: return "short-term"
-    if has_long  and not has_short: return "long-term"
+    if has_short and not has_long: return "near_term"
+    if has_long  and not has_short: return "long_term"
     if has_short and has_long:
-        # Both present — whichever appears first is dominant
         m_s = _SHORT_TERM.search(sentence)
         m_l = _LONG_TERM.search(sentence)
-        return "short-term" if m_s.start() < m_l.start() else "long-term"
+        return "near_term" if m_s.start() < m_l.start() else "long_term"
     return "na"
 
 
@@ -387,14 +393,13 @@ def pseudolabel_width(sentence: str) -> str:
 # ── FULL PSEUDO-LABELLER ──────────────────────────────────────────────────────
 
 def pseudolabel_all(sentence: str) -> dict:
+    top = pseudolabel_topic(sentence)
     return {
-        "top": pseudolabel_topic(sentence),
-        "dom": pseudolabel_dominant(sentence),
+        "top": top,
         "sen": pseudolabel_sentiment(sentence),
-        "dir": pseudolabel_direction(sentence),
         "ten": pseudolabel_tense(sentence),
-        "com": pseudolabel_commitment(sentence),
         "hor": pseudolabel_horizon(sentence),
+        "com": pseudolabel_commitment(sentence, topics=top),
         "con": pseudolabel_condition(sentence),
         "ris": pseudolabel_risk(sentence),
         "wid": pseudolabel_width(sentence),
@@ -418,7 +423,7 @@ _FAST_NEG = re.compile(
 
 
 def fast_strata_key(sentence: str) -> str:
-    dom = pseudolabel_dominant(sentence)  # already fast (string 'in' checks)
+    dom = _dominant_topic(sentence)  # internal helper, not an output label
     s   = sentence.lower()
     pos = len(_FAST_POS.findall(s))
     neg = len(_FAST_NEG.findall(s))
@@ -524,12 +529,10 @@ if __name__ == "__main__":
                 "context_question": rec.get("context_question"),
                 # Pseudo-labels (to be corrected during manual annotation)
                 "top": labels["top"],
-                "dom": labels["dom"],
-                "ten": labels["ten"],
                 "sen": labels["sen"],
-                "dir": labels["dir"],
-                "com": labels["com"],
+                "ten": labels["ten"],
                 "hor": labels["hor"],
+                "com": labels["com"],
                 "con": labels["con"],
                 "ris": labels["ris"],
                 "wid": labels["wid"],
@@ -545,7 +548,7 @@ if __name__ == "__main__":
         print(f"  {dt:<35} {n}")
 
     print("\n── Distribution of pseudo-labels ──────────────────────────────────")
-    for field in ["sen", "dir", "ten", "com", "hor", "ris", "wid", "dom"]:
+    for field in ["sen", "ten", "hor", "com", "ris", "wid"]:
         counts = Counter(r[field] for r in eval_records)
         print(f"  {field:4s}: {dict(sorted(counts.items()))}")
 
