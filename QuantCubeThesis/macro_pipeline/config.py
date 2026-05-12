@@ -30,7 +30,7 @@ SPF_DISP_D3_FILE   = INPUTS_DIR / 'Dispersion_3.xlsx'
 CACHE_DIR = ROOT / 'data' / 'cache'
 
 # ── Pipeline outputs ──────────────────────────────────────────────────────────
-FOMC_CALENDAR_CSV = ROOT / 'fomc_calendar.csv'
+FOMC_CALENDAR_CSV = ROOT / 'data' / 'macro_inputs' / 'fomc_calendar.csv'
 MASTER_MACRO_CSV  = ROOT / 'data' / 'macro_inputs' / 'Master_Macro.csv'
 MASTER_SEP_CSV    = ROOT / 'data' / 'macro_inputs' / 'Master_Macro_with_SEP.csv'
 
