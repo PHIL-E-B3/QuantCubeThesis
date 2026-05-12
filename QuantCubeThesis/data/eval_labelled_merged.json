@@ -1034,7 +1034,7 @@
     ],
     "sen": -1,
     "ten": "backward",
-    "hor": "near_term",
+    "hor": "none",
     "com": "none",
     "con": "na",
     "ris": "na",
@@ -1938,7 +1938,7 @@
     ],
     "sen": -2,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
@@ -1976,7 +1976,7 @@
     ],
     "sen": -1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
@@ -2122,7 +2122,7 @@
     ],
     "sen": -2,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
@@ -3248,7 +3248,7 @@
     ],
     "sen": 1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "unemployment",
@@ -3290,7 +3290,7 @@
     ],
     "sen": 1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "unemployment",
@@ -3329,7 +3329,7 @@
     ],
     "sen": 1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "unemployment",
@@ -3740,7 +3740,7 @@
     ],
     "sen": -2,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "inflation"
@@ -4299,7 +4299,7 @@
     ],
     "sen": 0,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
@@ -5657,7 +5657,7 @@
     ],
     "sen": -1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
@@ -6508,7 +6508,7 @@
     ],
     "sen": 1,
     "ten": "present",
-    "hor": "near_term",
+    "hor": "none",
     "com": "unconditional",
     "con": [
       "none"
