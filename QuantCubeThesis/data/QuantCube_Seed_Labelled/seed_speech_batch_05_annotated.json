@@ -46,7 +46,7 @@
       "inflation"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -64,7 +64,7 @@
       "unemployment"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -82,7 +82,7 @@
       "economic_activity"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -100,7 +100,7 @@
       "unemployment"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -118,7 +118,7 @@
       "financial_conditions"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -136,7 +136,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -156,7 +156,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "very_dovish",
+    "sen": -2,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -194,7 +194,7 @@
       "no_topic"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -230,7 +230,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "conditional",
     "hor": "near_term",
     "con": [
@@ -250,7 +250,7 @@
       "economic_activity"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -268,7 +268,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",

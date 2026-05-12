@@ -10,7 +10,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -30,7 +30,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -50,7 +50,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -71,7 +71,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "unconditional",
     "hor": "long_term",
     "con": [
@@ -91,7 +91,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -111,7 +111,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -132,7 +132,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "conditional",
     "hor": "long_term",
     "con": [
@@ -153,7 +153,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -173,7 +173,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -193,7 +193,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -213,7 +213,7 @@
       "unemployment"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -231,7 +231,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -250,7 +250,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -268,7 +268,7 @@
       "macro"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",

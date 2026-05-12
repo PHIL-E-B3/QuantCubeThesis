@@ -10,7 +10,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "conditional",
     "hor": "long_term",
     "con": [
@@ -48,7 +48,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": [
@@ -86,7 +86,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -142,7 +142,7 @@
       "no_topic"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -160,7 +160,7 @@
       "financial_conditions"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -196,7 +196,7 @@
       "no_topic"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -214,7 +214,7 @@
       "inflation"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -268,7 +268,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [

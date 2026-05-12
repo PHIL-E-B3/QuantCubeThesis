@@ -9,7 +9,7 @@
       "unemployment"
     ],
     "ten": "backward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -26,7 +26,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -43,7 +43,7 @@
       "financial_conditions"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -60,7 +60,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": [
@@ -79,7 +79,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -96,7 +96,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "na",
     "con": [
@@ -116,7 +116,7 @@
       "macro"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -133,7 +133,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -150,7 +150,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": [
@@ -169,7 +169,7 @@
       "boilerplate"
     ],
     "ten": "na",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -186,7 +186,7 @@
       "unemployment"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -203,7 +203,7 @@
       "financial_conditions"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -220,7 +220,7 @@
       "unemployment"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -237,7 +237,7 @@
       "financial_conditions"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",

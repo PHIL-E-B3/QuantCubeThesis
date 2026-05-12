@@ -9,7 +9,7 @@
       "unemployment"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -27,7 +27,7 @@
       "economic_activity"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -44,7 +44,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -61,7 +61,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "conditional",
     "hor": "long_term",
     "con": [
@@ -81,7 +81,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -98,7 +98,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -116,7 +116,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -133,7 +133,7 @@
       "financial_conditions"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -150,7 +150,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -167,7 +167,7 @@
       "inflation"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -184,7 +184,7 @@
       "financial_conditions"
     ],
     "ten": "backward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -201,7 +201,7 @@
       "macro"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -218,7 +218,7 @@
       "financial_conditions"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -235,7 +235,7 @@
       "economic_activity"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -252,7 +252,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "na",
     "con": [

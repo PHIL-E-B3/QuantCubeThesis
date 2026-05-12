@@ -140,7 +140,7 @@ Apply `sen` to the policy action or signal itself:
 
 | Label | When to use |
 |-------|-------------|
-| `short_term` | Explicit near-term horizon: "at this meeting", "in coming months", "over the near term", imminent actions already announced |
+| `near_term` | Explicit near-term horizon: "at this meeting", "in coming months", "over the near term", imminent actions already announced |
 | `long_term` | Extended horizon: "for some time", "considerable time", "longer run", "over the medium term", "until normalization is well under way", projections extending multiple years out |
 | `none` | `ten != "forward"`, or no horizon signal present |
 
@@ -369,7 +369,7 @@ All "if/should/were to/in the event that" structures:
   "ten": "present",
   "sen": 1,
   "com": "unconditional",
-  "hor": "short_term",
+  "hor": "near_term",
   "con": ["none"],
   "ris": "na",
   "wid": "none"
@@ -389,7 +389,7 @@ All "if/should/were to/in the event that" structures:
   "ten": "forward",
   "sen": 1,
   "com": "conditional",
-  "hor": "short_term",
+  "hor": "near_term",
   "con": ["inflation", "unemployment"],
   "ris": "skewed_upside",
   "wid": "none"
@@ -509,7 +509,7 @@ All "if/should/were to/in the event that" structures:
   "ten": "present",
   "sen": -1,
   "com": "none",
-  "hor": "short_term",
+  "hor": "near_term",
   "con": ["none"],
   "ris": "na",
   "wid": "none"
@@ -560,7 +560,7 @@ sen:  -2 | -1 | 0 | 1 | 2 | "na"
 com:  unconditional | conditional | none
       non-monetary-policy → always "none"
 
-hor:  short_term | long_term | none
+hor:  near_term | long_term | none
       applies to ALL topics but only when ten = "forward"
 
 con:  ["inflation"] | ["unemployment"] | ["economic_activity"] | ["macro"]

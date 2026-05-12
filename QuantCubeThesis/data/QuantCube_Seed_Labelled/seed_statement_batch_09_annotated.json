@@ -10,7 +10,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": [
@@ -32,7 +32,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -51,7 +51,7 @@
       "unemployment"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -70,7 +70,7 @@
       "financial_conditions"
     ],
     "ten": "forward",
-    "sen": "very dovish",
+    "sen": -2,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -88,7 +88,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "conditional",
     "hor": "long_term",
     "con": [
@@ -109,7 +109,7 @@
       "financial_conditions"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -127,7 +127,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -148,7 +148,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -186,7 +186,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -225,7 +225,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -245,7 +245,7 @@
       "inflation"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -263,7 +263,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "long_term",
     "con": [

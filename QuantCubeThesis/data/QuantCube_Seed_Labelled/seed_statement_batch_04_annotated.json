@@ -10,7 +10,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "very_dovish",
+    "sen": -2,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -31,7 +31,7 @@
       "no_topic"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -51,7 +51,7 @@
       "inflation"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -70,7 +70,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -91,7 +91,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -132,7 +132,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -153,7 +153,7 @@
       "macro"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -172,7 +172,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -195,7 +195,7 @@
       "economic_activity"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -215,7 +215,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -237,7 +237,7 @@
       "macro"
     ],
     "ten": "forward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
@@ -296,7 +296,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "na",
     "con": [

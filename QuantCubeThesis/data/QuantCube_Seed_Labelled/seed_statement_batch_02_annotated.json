@@ -10,7 +10,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "na",
     "con": [
@@ -50,7 +50,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -70,7 +70,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "very_dovish",
+    "sen": -2,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -90,7 +90,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "very_dovish",
+    "sen": -2,
     "com": "conditional",
     "hor": "long_term",
     "con": [
@@ -129,7 +129,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -167,7 +167,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "neutral",
+    "sen": 0,
     "com": "none",
     "hor": "na",
     "con": [
@@ -188,7 +188,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "neutral",
+    "sen": 0,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -208,7 +208,7 @@
       "monetary_policy"
     ],
     "ten": "present",
-    "sen": "very_dovish",
+    "sen": -2,
     "com": "unconditional",
     "hor": "near_term",
     "con": [
@@ -246,7 +246,7 @@
       "monetary_policy"
     ],
     "ten": "forward",
-    "sen": "hawkish",
+    "sen": 1,
     "com": "conditional",
     "hor": "near_term",
     "con": [
@@ -268,7 +268,7 @@
       "unemployment"
     ],
     "ten": "backward",
-    "sen": "dovish",
+    "sen": -1,
     "com": "none",
     "hor": "na",
     "con": "na",
