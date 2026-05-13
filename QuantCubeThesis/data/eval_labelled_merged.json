@@ -1460,7 +1460,7 @@
   },
   {
     "id": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affected economic activity and inflation, and economic and financial developments. Members agreed to add language to this effect in the postmeeting statement in order to convey explicitly the range of factors that they would consider in determining future monetary policy actions. In addition, members agreed that they would continue reducing the Federal Reserve's holdings of Treasury securities, agency debt, and agency MBS, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affected economic activity and inflation, and economic and financial developments.",
     "source": "minutes_20221102.html",
     "doc_type": "minutes",
     "date": "20221102",
@@ -1478,7 +1478,8 @@
       "financial_conditions"
     ],
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "b4a0b4da-f0c6-4dfd-9392-67495a212c40",
@@ -3611,7 +3612,7 @@
   },
   {
     "id": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
-    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent.",
     "source": "statement_20210428.txt",
     "doc_type": "statement",
     "date": "2021-04-28",
@@ -3627,11 +3628,12 @@
       "inflation"
     ],
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals. Since then, the economy has made progress toward these goals.",
+    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals.",
     "source": "statement_20210922.txt",
     "doc_type": "statement",
     "date": "2021-09-22",
@@ -3648,7 +3650,8 @@
       "inflation"
     ],
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
@@ -5557,7 +5560,7 @@
   },
   {
     "id": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations. While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
+    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20190501",
@@ -5571,7 +5574,8 @@
     "com": "none",
     "con": "na",
     "ris": "skewed_downside",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "de4dc246-4b80-4eb0-9460-0f879beb1978",
@@ -7821,7 +7825,7 @@
   },
   {
     "id": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks. Bank reserves, together with currency, make up the narrowest definition of money, the monetary base; as you would expect, this measure of money has risen significantly as the Fed's balance sheet has expanded.",
+    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks.",
     "source": "The Crisis and the Policy Response",
     "doc_type": "speech",
     "date": "2009-01-13",
@@ -7837,7 +7841,8 @@
       "none"
     ],
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "f4b60903-abbb-4777-b503-9efa7a85cfe7",

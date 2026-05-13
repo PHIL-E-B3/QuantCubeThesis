@@ -177,7 +177,7 @@
   },
   {
     "id": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks. Bank reserves, together with currency, make up the narrowest definition of money, the monetary base; as you would expect, this measure of money has risen significantly as the Fed's balance sheet has expanded.",
+    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks.",
     "source": "The Crisis and the Policy Response",
     "doc_type": "speech",
     "date": "2009-01-13",
@@ -189,7 +189,8 @@
     "com": "",
     "con": [],
     "ris": "",
-    "wid": ""
+    "wid": "",
+    "was_merged": true
   },
   {
     "id": "f4b60903-abbb-4777-b503-9efa7a85cfe7",

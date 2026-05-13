@@ -174,7 +174,7 @@
   },
   {
     "id": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations. While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
+    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20190501",
@@ -191,7 +191,8 @@
       "macro"
     ],
     "ris": "na",
-    "wid": "elevated"
+    "wid": "elevated",
+    "was_merged": true
   },
   {
     "id": "de4dc246-4b80-4eb0-9460-0f879beb1978",

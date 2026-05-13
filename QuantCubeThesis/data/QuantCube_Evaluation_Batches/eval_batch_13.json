@@ -177,7 +177,7 @@
   },
   {
     "id": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
-    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent. The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longerâterm inflation expectations remain well anchored at 2 percent.",
     "source": "statement_20210428.txt",
     "doc_type": "statement",
     "date": "2021-04-28",
@@ -189,11 +189,12 @@
     "com": "",
     "con": [],
     "ris": "",
-    "wid": ""
+    "wid": "",
+    "was_merged": true
   },
   {
     "id": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals. Since then, the economy has made progress toward these goals.",
+    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgageâbacked securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals.",
     "source": "statement_20210922.txt",
     "doc_type": "statement",
     "date": "2021-09-22",
@@ -205,7 +206,8 @@
     "com": "",
     "con": [],
     "ris": "",
-    "wid": ""
+    "wid": "",
+    "was_merged": true
   },
   {
     "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
