@@ -7,15 +7,15 @@
     "date": "20250618",
     "context_question": null,
     "top": [
-      "economic_activity"
+      "no_topic"
     ],
-    "sen": -2,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "forward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "124a66c8-ebb9-4a8b-b981-cf40fd0e7a85",
@@ -24,15 +24,21 @@
     "doc_type": "speech",
     "date": "2024-10-08",
     "context_question": null,
-    "top": [ "financial_conditions"
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "financial_conditions"
     ],
-    "sen": 0,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "none",
     "hor": "none",
     "com": "none",
-    "con": [],
-    "ris": "na",
-    "wid": "none"
+    "con": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "cc8bed34-75dc-44ec-a077-52b27e609219",
@@ -44,7 +50,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": 2,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -60,18 +66,22 @@
     "date": "2021-06-01",
     "context_question": null,
     "top": [
+      "monetary_policy",
       "inflation",
-      "unemployment"
+      "unemployment",
+      "economic_activity"
     ],
-    "sen": 0,
+    "sen": 2,
     "ten": "present",
     "hor": "none",
     "com": "conditional",
     "con": [
-
+      "inflation",
+      "unemployment",
+      "economic_activity"
     ],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "28469d40-78ad-4c38-8604-b3f57ee969c1",
@@ -80,17 +90,19 @@
     "doc_type": "minutes",
     "date": "20200429",
     "context_question": null,
-    "top": [      "unemployment"
+    "top": [
+      "monetary_policy",
+      "unemployment"
     ],
-    "sen": -2,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": [
-  
+      "unemployment"
     ],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b497bb29-6675-4360-af7d-0bf8032d89de",
@@ -100,17 +112,34 @@
     "date": "20200315",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "inflation"
     ],
-    "sen": -2,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
-
+  {
+    "id": "005222db-8374-4e20-8031-bac0baa17e5a",
+    "sentence": "Should markedly higher doses of monetary medicine (read: lower rates) be proffered to compensate fully for the reduced efficacy of the transmission channels?",
+    "source": "The Federal Funds Rate in Extraordinary Times",
+    "doc_type": "speech",
+    "date": "2008-05-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "4f37d367-b296-4510-b478-c868c339efd6",
     "sentence": "But supply chains were slower to recover, leading to a global surge in inflation.",
@@ -119,15 +148,16 @@
     "date": "2024-03-25",
     "context_question": null,
     "top": [
-      "inflation"
+      "inflation",
+      "macro"
     ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "134f3daf-cfec-491c-a1e0-926a20e350c4",
@@ -139,13 +169,13 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": 2,
     "ten": "forward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "34bd19ec-85d3-492c-b74b-2afc008acb10",
@@ -155,15 +185,15 @@
     "date": "2025-02-07",
     "context_question": null,
     "top": [
-      "economic_activity"
+      "no_topic"
     ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "a5c29a59-30c3-4300-9527-de4da6c88bf9",
@@ -176,13 +206,13 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 1,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "forward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "contested"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
@@ -195,12 +225,12 @@
       "inflation"
     ],
     "sen": 2,
-    "ten": "forward",
-    "hor": "near_term",
+    "ten": "none",
+    "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "306dcbd8-9911-4e46-a33e-72263e4b5531",
@@ -217,8 +247,8 @@
     "hor": "near_term",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "elevated"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f24cb9d7-431e-4300-85cc-01c736818855",
@@ -246,15 +276,15 @@
     "date": "2022-03-21",
     "context_question": null,
     "top": [
-      "inflation"
+      "economic_activity"
     ],
     "sen": 2,
-    "ten": "backward",
+    "ten": "none",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "37b1bc10-7cdb-4dc3-99f3-9bf9453990d1",
@@ -267,13 +297,50 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": 1,
-    "ten": "forward",
-    "hor": "near_term",
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "bb19ff1d-5c8e-46b1-b1a4-ba18880bf7c4",
+    "sentence": "Although this number is down some from the highs seen in 2008, it is about 60 percent higher than the average level over the 20 years before the 2008 surge.",
+    "source": "Housing Market Developments and Their Effects on Low- and Moderate-Income Neighborhoods",
+    "doc_type": "speech",
+    "date": "2011-06-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "27dc1dc9-f7d7-49ea-9439-b03ad2cb37ee",
+    "sentence": "Nonrevolving consumer credit continued to expand briskly in June, largely due to robust growth in student loans originated by the federal government, while revolving credit remained subdued.",
+    "source": "minutes_20120913.html",
+    "doc_type": "minutes",
+    "date": "20120913",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4210205b-6793-4ce4-b3ff-c77b7f4757dd",
@@ -283,15 +350,22 @@
     "date": "20220126",
     "context_question": "I was asking if you’re protecting the employment side of the mandate, whether there’s some sort of circuit breaker there.",
     "top": [
-        "unemployment",
-      "economic_activity"    ],
+      "monetary_policy",
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
     "sen": 2,
     "ten": "forward",
-    "hor": "long_term",
+    "hor": "none",
     "com": "none",
-    "con": [    ],
-    "ris": "na",
-    "wid": "none"
+    "con": [
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "d4119224-4ef9-48de-89e8-7dce8f3d9faf",
@@ -301,14 +375,16 @@
     "date": "2026-02-23",
     "context_question": null,
     "top": [
-      "unemployment"    ],
+      "unemployment",
+      "financial_conditions"
+    ],
     "sen": 2,
-    "ten": "present",
+    "ten": "forward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "1088463d-80df-4953-a640-00571ff4195f",
@@ -318,17 +394,20 @@
     "date": "2016-06-06",
     "context_question": null,
     "top": [
-      "unemployment"
+      "monetary_policy",
+      "unemployment",
+      "economic_activity"
     ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": [
-   
+      "unemployment",
+      "economic_activity"
     ],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "04c9d67a-69bc-425a-ba38-0b8107db34e8",
@@ -345,8 +424,8 @@
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "f8960471-716b-4cf9-9f4d-64030a7fd1a0",
@@ -364,8 +443,8 @@
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "3f4914f5-ec4a-47d8-bd8e-4af98c112335",
@@ -377,13 +456,13 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "4aa563a5-c2c1-48dd-a7df-b4c6a4541736",
@@ -393,15 +472,15 @@
     "date": "2015-12-03",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "no_topic"
     ],
-    "sen": 0,
-    "ten": "present",
+    "sen": 2,
+    "ten": "none",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "5461052b-8f6d-464a-bf40-386a9cdbda63",
@@ -418,8 +497,8 @@
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "75d8c861-da08-4305-8280-b353b7b3e786",
@@ -431,13 +510,13 @@
     "top": [
       "macro"
     ],
-    "sen": -2,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "58fc6995-8247-4d48-b9d5-48534f38776d",
@@ -447,17 +526,18 @@
     "date": "2020-06-16",
     "context_question": null,
     "top": [
+      "monetary_policy",
       "unemployment"
     ],
-    "sen": -1,
+    "sen": 2,
     "ten": "forward",
     "hor": "near_term",
     "com": "none",
     "con": [
       "unemployment"
     ],
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "70082a3f-e94f-415c-a666-d2c18cb77f63",
@@ -469,13 +549,13 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "b9e16494-0209-4ccd-98a7-66359ffddaf6",
@@ -803,8 +883,8 @@
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "skewed_upside",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "06d03dfe-ecfa-4baa-8a61-ec316abe28fb",
@@ -814,15 +894,15 @@
     "date": "20220615",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "no_topic"
     ],
-    "sen": -1,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "7d12ef97-3055-4285-9b49-072970cf6389",
@@ -992,7 +1072,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": 2,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1085,15 +1165,17 @@
     "date": "2020-05-21",
     "context_question": null,
     "top": [
-      "monetary_policy"
+      "economic_activity",
+      "financial_conditions",
+      "macro"
     ],
-    "sen": -2,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": "financial_conditions",
-    "ris": "na",
-    "wid": "none"
+    "con": "na",
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "99a0cbf8-7022-4177-9cdf-f596df7b694c",
@@ -1133,7 +1215,42 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "f26e635a-1a87-4a8a-a1e5-da3ac1377c4b",
+    "sentence": "Spillovers to EME asset markets were significantly stronger.",
+    "source": "The Federal Reserve and the Global Economy",
+    "doc_type": "speech",
+    "date": "2015-05-26",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "77bbc94c-04f6-4c16-a88c-b6df1acf3ee0",
+    "sentence": "Those funds responded to the surge in redemptions by attempting to reduce their holdings of commercial paper and large certificates of deposit issued by banks.",
+    "source": "Current Economic and Financial Conditions",
+    "doc_type": "speech",
+    "date": "2008-10-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "3c384174-ae7c-4a81-9dc2-22ae4491a5b2",
     "sentence": "Moreover, new business formation surged and has remained strong.",
@@ -1255,13 +1372,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "11f9f874-39d7-4f13-9e8c-69392e987e2c",
@@ -1281,7 +1398,31 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "c2595fa2-bc4a-4f91-b29a-a37a126c037f",
+    "sentence": "Recognizing the economy's ability to sustain a robust job market without causing an unwanted increase in inflation, the statement says that our policy decisions will be informed by our \"assessments of the shortfalls of employment from its maximum level\" rather than by \"deviations from its maximum level.",
+    "source": "Getting Back to a Strong Labor Market",
+    "doc_type": "speech",
+    "date": "2021-02-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "unemployment",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "04e6c771-96bb-475d-a05c-6433db7f4dd4",
     "sentence": "If expectations move significantly above our 2 percent goal, it would make it more difficult to change people's perceptions about the duration of high inflation and potentially more difficult to get inflation under control.",
@@ -1308,9 +1449,11 @@
     "date": "20251210",
     "context_question": null,
     "top": [
+      "monetary_policy",
       "unemployment",
+      "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 2,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1318,8 +1461,8 @@
       "unemployment",
       "financial_conditions"
     ],
-    "ris": "skewed_upside",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "e3ebe69e-4a54-4a1b-ad07-91e5e7606e73",
@@ -1421,15 +1564,15 @@
     "date": "2021-03-01",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "no_topic"
     ],
-    "sen": -1,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "none",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "8cf737b5-29bd-4ff3-b83f-515d6fb55ced",
@@ -1650,8 +1793,8 @@
       "unemployment",
       "economic_activity"
     ],
-    "sen": 1,
-    "ten": "backward",
+    "sen": 2,
+    "ten": "forward",
     "hor": "none",
     "com": "none",
     "con": [
@@ -1832,7 +1975,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -1888,7 +2031,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": -2,
     "ten": "forward",
     "hor": "near_term",
     "com": "none",
@@ -2208,7 +2351,7 @@
       "unemployment",
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -2275,7 +2418,26 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "be295cb8-99be-4816-a500-678a05fb9032",
+    "sentence": "In its Statement Regarding Monetary Policy Implementation and Balance Sheet Normalization, the Committee noted that it is prepared to adjust the size and composition of the balance sheet to achieve its macroeconomic objectives in a scenario in which the federal funds rate is constrained by the effective lower bound.",
+    "source": "minutes_20190501.html",
+    "doc_type": "minutes",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "unconditional",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "be688ebb-3fba-4e1f-a1e4-9fc66f1ddd98",
     "sentence": "Central bankers have been working closely together throughout this period of financial turmoil.",
@@ -2509,7 +2671,26 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "add9affe-a144-4213-8fbd-bc64525e4c86",
+    "sentence": "But this simple comparison exaggerates the limitations on policy created by the zero lower bound.",
+    "source": "The Federal Reserve's Monetary Policy Toolkit: Past, Present, and Future",
+    "doc_type": "speech",
+    "date": "2016-08-26",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "6fb3788e-08f1-4255-a7af-2cb4527d4a17",
     "sentence": "But I also know that we at the Federal Reserve are doing our best to avoid adding to regulatory burden wherever possible as we respond to the worst excesses of the financial crisis and make the U.S. financial system more resilient.",
@@ -2538,7 +2719,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": -2,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -2628,7 +2809,27 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "671ece05-8bbf-41e8-85e0-456e08a3ed27",
+    "sentence": "An inflation objective of about 2 percent implies that monetary policy is rarely constrained by the zero lower bound and thereby minimizes the adverse consequences for macroeconomic stability.",
+    "source": "Comfort Zones, Shmumfort Zones",
+    "doc_type": "speech",
+    "date": "2008-03-27",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "01ee1fc3-6ca0-4e97-840d-994c8ec9ec86",
     "sentence": "Third, a capital regime that takes the possibility of severe stress seriously is important to calm markets and restart the normal process of intermediation should a crisis materialize.",
@@ -2747,15 +2948,16 @@
     "date": "2023-05-31",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "financial_conditions",
+      "macro"
     ],
-    "sen": 1,
+    "sen": -2,
     "ten": "none",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "03066efa-f42c-4df3-a3db-97f66ba6314f",
@@ -2862,13 +3064,13 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
-    "ris": "na",
-    "wid": "none"
+    "ris": "",
+    "wid": ""
   },
   {
     "id": "3302ad9b-7c9a-4d15-a9d2-e4311b2bb7e7",
@@ -2925,7 +3127,26 @@
     "ris": "",
     "wid": ""
   },
-  
+  {
+    "id": "118ac3d4-19c1-4727-9aac-eb14ff71042e",
+    "sentence": "Those questions are natural after more than six years during which the federal funds rate has been held at its effective lower bound.",
+    "source": "Monetary Policy Lessons and the Way Ahead",
+    "doc_type": "speech",
+    "date": "2015-03-23",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "48129865-9fef-4add-95f1-6991dcf42f7f",
     "sentence": "During the recent financial turmoil, the ability of the Fed to obtain information directly from key institutions and from supervisory reviews has been invaluable for understanding financial developments and their implications for the economy.",
@@ -2964,7 +3185,27 @@
     "ris": "",
     "wid": ""
   },
-
+  {
+    "id": "14ac6495-617e-4277-a507-47049099fc72",
+    "sentence": "Against this backdrop, market participants generally expected the target range for the federal funds rate to remain at the effective lower bound for the next couple of years.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
   {
     "id": "5daf7fe1-f0d8-4a5c-b78b-49be8ad8aa4d",
     "sentence": "The fact that we had a severe recession but not another depression is a tribute to the aggressive response of those who were in a position to act at that time.",
@@ -2977,6 +3218,24 @@
     ],
     "sen": -2,
     "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "a2bccda3-cc91-4e1f-a9ad-06d5c48de2b9",
+    "sentence": "Assuming there has not been a material reduction in the frequency and severity of negative shocks since the pre-crisis period, the implication is that the probability of being constrained by the zero lower bound is greater than prior to the crisis.",
+    "source": "Normalizing Monetary Policy When the Neutral Interest Rate Is Low",
+    "doc_type": "speech",
+    "date": "2015-12-01",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "present",
     "hor": "none",
     "com": "none",
     "con": "na",
@@ -3234,6 +3493,27 @@
     "hor": "none",
     "com": "none",
     "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "11996490-c1a2-457f-9207-97a68f4bca15",
+    "sentence": "So, by requiring substantial further progress toward maximum employment to even begin the process of tightening policy, one might argue that it locked the Committee into holding the policy rate at the zero lower bound longer than was optimal.",
+    "source": "Lessons Learned on Normalizing Monetary Policy",
+    "doc_type": "speech",
+    "date": "2022-06-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "unconditional",
+    "con": [
+      "unemployment"
+    ],
     "ris": "",
     "wid": ""
   },
