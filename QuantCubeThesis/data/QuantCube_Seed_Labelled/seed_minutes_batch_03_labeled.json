@@ -11,7 +11,7 @@
     "ten": "backward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -28,7 +28,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "none"
     ],
@@ -47,7 +47,7 @@
     "ten": "present",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "symmetric",
     "wid": "none"
@@ -64,7 +64,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -81,7 +81,7 @@
     "ten": "backward",
     "sen": 2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -98,7 +98,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "conditional",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "none"
     ],
@@ -117,7 +117,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "contested"
@@ -134,7 +134,7 @@
     "ten": "forward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "symmetric",
     "wid": "none"
@@ -151,7 +151,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -169,7 +169,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -186,7 +186,7 @@
     "ten": "backward",
     "sen": 2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -203,7 +203,7 @@
     "ten": "backward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -220,7 +220,7 @@
     "ten": "present",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -237,7 +237,7 @@
     "ten": "backward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -254,7 +254,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "conditional",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "economic_activity",
       "inflation"

@@ -8,10 +8,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -28,7 +28,7 @@
     "ten": "backward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -45,7 +45,7 @@
     "ten": "backward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -62,7 +62,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -79,7 +79,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "financial_conditions"
     ],
@@ -98,7 +98,7 @@
     "ten": "present",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -115,7 +115,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -170,7 +170,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "contested"
@@ -187,7 +187,7 @@
     "ten": "backward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -204,7 +204,7 @@
     "ten": "backward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -221,7 +221,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -238,7 +238,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"

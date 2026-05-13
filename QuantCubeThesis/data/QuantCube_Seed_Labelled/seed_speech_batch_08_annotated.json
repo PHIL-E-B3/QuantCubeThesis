@@ -12,7 +12,7 @@
     "ten": "forward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_upside",
     "wid": "none"
@@ -30,7 +30,7 @@
     "ten": "present",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -48,7 +48,7 @@
     "ten": "backward",
     "sen": 2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -66,7 +66,7 @@
     "ten": "present",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -84,7 +84,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -102,7 +102,7 @@
     "ten": "backward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -120,7 +120,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "financial_conditions"
     ],
@@ -161,7 +161,7 @@
     "ten": "backward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -179,7 +179,7 @@
     "ten": "present",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -197,7 +197,7 @@
     "ten": "forward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_downside",
     "wid": "none"
@@ -215,7 +215,7 @@
     "ten": "forward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -233,7 +233,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_downside",
     "wid": "none"
@@ -251,7 +251,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_downside",
     "wid": "none"
@@ -269,7 +269,7 @@
     "ten": "backward",
     "sen": -2,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"

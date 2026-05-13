@@ -33,7 +33,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none",
@@ -53,7 +53,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none",
@@ -112,10 +112,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none",
@@ -134,7 +134,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "none"
     ],
@@ -155,7 +155,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "symmetric",
     "wid": "none",
@@ -197,7 +197,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "symmetric",
     "wid": "contested",
@@ -239,7 +239,7 @@
     "ten": "forward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_downside",
     "wid": "elevated",
@@ -256,10 +256,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none",
@@ -276,10 +276,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none",
@@ -298,7 +298,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "conditional",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "inflation",
       "economic_activity"

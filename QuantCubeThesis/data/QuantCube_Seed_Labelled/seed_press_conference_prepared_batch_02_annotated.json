@@ -12,7 +12,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -48,10 +48,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -89,7 +89,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "skewed_downside",
     "wid": "none"
@@ -128,7 +128,7 @@
     "ten": "present",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -143,10 +143,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -164,7 +164,7 @@
     "ten": "backward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -202,7 +202,7 @@
     "ten": "forward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": [
       "none"
     ],
@@ -242,7 +242,7 @@
     "ten": "backward",
     "sen": -1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"

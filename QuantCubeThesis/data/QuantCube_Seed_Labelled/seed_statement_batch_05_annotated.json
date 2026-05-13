@@ -49,10 +49,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "na",
+    "ten": "none",
     "sen": "",
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -90,7 +90,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -168,7 +168,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
@@ -267,7 +267,7 @@
     "ten": "forward",
     "sen": 0,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "symmetric",
     "wid": "none",
@@ -286,7 +286,7 @@
     "ten": "forward",
     "sen": 1,
     "com": "none",
-    "hor": "na",
+    "hor": "none",
     "con": "na",
     "ris": "na",
     "wid": "none"
