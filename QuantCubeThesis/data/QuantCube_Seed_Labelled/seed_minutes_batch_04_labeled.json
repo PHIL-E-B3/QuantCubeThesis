@@ -8,11 +8,10 @@
     "top": [
       "unemployment"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -23,15 +22,13 @@
     "doc_type": "minutes",
     "date": "20130731",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "none",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -44,11 +41,10 @@
     "top": [
       "no_topic"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -61,13 +57,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -81,11 +74,10 @@
       "economic_activity",
       "unemployment"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_upside",
     "wid": "none"
   },
@@ -98,13 +90,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -115,15 +104,13 @@
     "doc_type": "minutes",
     "date": "20170201",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -136,11 +123,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -153,11 +139,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -170,11 +155,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -187,11 +171,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -204,13 +187,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -223,11 +203,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -240,11 +219,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

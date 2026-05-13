@@ -7,15 +7,13 @@
     "date": "2012-10-14",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 0,
-    "com": "none",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -27,16 +25,14 @@
     "date": "2020-09-01",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -50,11 +46,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -68,11 +63,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -86,11 +80,10 @@
     "top": [
       "no_topic"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -104,11 +97,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -122,11 +114,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -140,11 +131,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -158,11 +148,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -176,11 +165,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -194,11 +182,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -212,11 +199,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -230,11 +216,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -249,11 +234,10 @@
       "unemployment",
       "inflation"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

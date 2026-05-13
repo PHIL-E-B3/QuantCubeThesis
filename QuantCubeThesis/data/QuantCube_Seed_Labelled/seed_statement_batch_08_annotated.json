@@ -9,11 +9,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -25,15 +24,13 @@
     "date": "2010-05-09",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -47,11 +44,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -65,11 +61,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -83,13 +78,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "unconditional",
-    "hor": "long_term",
-    "con": [
-      "none"
-    ],
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -103,13 +95,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -123,11 +112,10 @@
     "top": [
       "macro"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -139,15 +127,13 @@
     "date": "2015-12-16",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": 1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "macro"
     ],
+    "ten": "descriptive",
+    "sen": 1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -161,13 +147,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -181,11 +164,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -199,13 +181,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -219,13 +198,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -237,15 +213,13 @@
     "date": "2007-08-10",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "descriptive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

@@ -8,11 +8,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -25,11 +24,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -42,11 +40,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -59,11 +56,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -76,13 +72,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -95,11 +88,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -112,11 +104,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -127,17 +118,15 @@
     "doc_type": "minutes",
     "date": "20250618",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "economic_activity",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -151,11 +140,10 @@
       "inflation",
       "economic_activity"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -168,11 +156,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -185,11 +172,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -202,13 +188,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -221,11 +204,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -238,11 +220,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -253,15 +234,13 @@
     "doc_type": "minutes",
     "date": "20161102",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "economic_activity"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

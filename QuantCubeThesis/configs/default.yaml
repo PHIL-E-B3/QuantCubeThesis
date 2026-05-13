@@ -36,10 +36,9 @@ lora:
 labels:
   top: ["inflation", "unemployment", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
   sen: [-2, -1, 0, 1, 2, "na"]   # numeric; "na" only for boilerplate
-  ten: ["backward", "present", "forward", "none"]   # "none" for boilerplate/no_topic
-  hor: ["none", "near_term", "long_term"]   # "none" when ten != "forward"
+  ten: ["descriptive", "interpretive"]   # descriptive = backward/present; interpretive = forward
+  hor: [true, false]                     # true = long_term horizon present; false otherwise
   com: ["none", "conditional", "unconditional"]
-  con: ["inflation", "unemployment", "economic_activity", "macro", "financial_conditions", "none"]
   ris: ["na", "skewed_downside", "symmetric", "skewed_upside"]
   wid: ["none", "contested", "elevated"]
 # Which label field to use as the primary classification target

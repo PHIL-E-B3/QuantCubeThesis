@@ -10,10 +10,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -29,10 +28,9 @@
       "monetary_policy"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -47,10 +45,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -65,10 +62,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "conditional",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -84,12 +80,9 @@
       "economic_activity"
     ],
     "sen": "very hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -104,10 +97,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -122,10 +114,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -140,10 +131,9 @@
       "economic_activity"
     ],
     "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -158,10 +148,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -176,10 +165,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "elevated"
   },
@@ -194,10 +182,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -212,10 +199,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -230,12 +216,9 @@
       "inflation"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "long_term",
+    "ten": "interpretive",
+    "hor": true,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -250,10 +233,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -269,12 +251,9 @@
       "economic_activity"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "none"
   }

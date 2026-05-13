@@ -9,11 +9,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_upside",
     "wid": "none"
   },
@@ -27,11 +26,10 @@
     "top": [
       "unemployment"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -45,11 +43,10 @@
     "top": [
       "unemployment"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -63,11 +60,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -81,11 +77,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -99,11 +94,10 @@
     "top": [
       "macro"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -115,15 +109,13 @@
     "date": "2007-11-28",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "backward",
-    "sen": 0,
-    "com": "none",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "descriptive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -135,16 +127,14 @@
     "date": "2024-11-20",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "conditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "inflation",
       "unemployment"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "conditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -158,11 +148,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -176,11 +165,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -194,11 +182,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -212,11 +199,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -230,11 +216,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -248,11 +233,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -266,11 +250,10 @@
     "top": [
       "unemployment"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

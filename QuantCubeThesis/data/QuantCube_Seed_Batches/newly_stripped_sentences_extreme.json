@@ -6,12 +6,13 @@
     "doc_type": "minutes",
     "date": "20230614",
     "context_question": null,
-    "top": "unemployment",
+    "top": [
+      "unemployment"
+    ],
     "sen": "1",
-    "ten": "forward",
-    "hor": "near_term",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": "none",
     "ris": "na",
     "wid": "none",
     "split_from": "0ef5a286-ab71-48d3-8db0-95b7d317ef47"
@@ -29,10 +30,9 @@
       "economic_activity"
     ],
     "sen": "-1",
-    "ten": "forward",
-    "hor": "near_term",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": "none",
     "ris": "na",
     "wid": "elevated",
     "split_from": "0ef5a286-ab71-48d3-8db0-95b7d317ef47"
@@ -44,14 +44,15 @@
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "con": "",
-    "ris": "",
-    "wid": "",
+    "top": [
+      "inflation"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
     "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
   },
   {
@@ -61,14 +62,15 @@
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "con": "",
-    "ris": "",
-    "wid": "",
+    "top": [
+      "inflation"
+    ],
+    "sen": "-2",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
     "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
   }
 ]

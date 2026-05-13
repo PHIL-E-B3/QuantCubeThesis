@@ -9,11 +9,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -27,11 +26,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -45,11 +43,10 @@
     "top": [
       "macro"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -63,11 +60,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -81,11 +77,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -99,11 +94,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -117,11 +111,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -135,11 +128,10 @@
     "top": [
       "no_topic"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -153,11 +145,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -171,11 +162,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -189,11 +179,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -207,11 +196,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -225,11 +213,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -243,11 +230,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -261,11 +247,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

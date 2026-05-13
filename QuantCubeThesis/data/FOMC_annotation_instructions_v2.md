@@ -12,12 +12,11 @@ Return the complete JSON file with all fields populated. Never leave a field emp
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `top` | array of strings | Topic(s) present in the sentence |
-| `ten` | string | Tense / temporal orientation |
+| `top` | array of strings | Topic(s) present in the sentence — includes conditions when topic is monetary_policy |
 | `sen` | integer or "na" | Hawkish/dovish incentive score (-2 to 2, or "na") |
+| `ten` | string | Temporal orientation: `"descriptive"` or `"interpretive"` |
+| `hor` | boolean | Long-term horizon present: `true` or `false` |
 | `com` | string | Commitment level (monetary policy only, else "none") |
-| `hor` | string | Horizon — applies to ALL topics when `ten = "forward"`, else "none" |
-| `con` | array of strings or "na" | Conditions referenced (monetary policy only) |
 | `ris` | string | Risk balance |
 | `wid` | string | Distribution width |
 
@@ -25,7 +24,7 @@ Return the complete JSON file with all fields populated. Never leave a field emp
 
 ## FIELD 1: `top` — Topic (multi-select array)
 
-Select all topics explicitly present in the sentence. A sentence can have multiple topics (e.g., `["inflation", "unemployment"]`). When `top = ["monetary_policy"]`, do NOT also add other topics — the condition referenced field (`con`) handles that.
+Select all topics explicitly present in the sentence. A sentence can have multiple topics (e.g., `["inflation", "unemployment"]`). When the sentence is about monetary policy AND references specific economic conditions as justification, include both `"monetary_policy"` and the referenced topic(s) (e.g., `["monetary_policy", "inflation", "unemployment"]`). The separate `con` field has been removed — all topic information lives here.
 
 | Label | When to use |
 |-------|-------------|
@@ -42,24 +41,24 @@ Select all topics explicitly present in the sentence. A sentence can have multip
 - Use `macro` only when truly no single variable dominates. If a multi-variable sentence has a clear dominant conclusion (e.g., "risks to real activity"), label that variable instead.
 - `boilerplate` examples: vote announcements, legal/regulatory language, section headers, memorial tributes, formulaic monitoring pledges ("The Committee will continue to monitor..."), and generic dual-mandate reaffirmations ("The Federal Reserve is committed to both sides of its mandate") that carry no specific directional signal. Test: does removing this sentence lose any policy-relevant information? If no, it is boilerplate.
 - `no_topic` is for generic sentences that may still carry risk or uncertainty (`ris` and `wid` still apply). `boilerplate` is for purely procedural/administrative sentences (default `ris = "na"`, `wid = "none"`).
-- **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `boilerplate` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `monetary_policy` with `com = "conditional"` and `con = ["macro"]`.
+- **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `boilerplate` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `["monetary_policy", "macro"]` with `com = "conditional"`.
 
 ---
 
-## FIELD 2: `ten` — Tense
+## FIELD 2: `ten` — Temporal Orientation (binary)
 
-Captures the temporal orientation of the sentence's primary informational content — not just grammatical tense.
+Captures whether the sentence's primary content is **descriptive** (reporting what is or was) or **interpretive** (signalling what will be, what should be, or what risks lie ahead). The distinction maps onto the informational role of the sentence: descriptive sentences convey data; interpretive sentences carry forward guidance.
 
 | Label | When to use |
 |-------|-------------|
-| `backward` | Describes observed past data or events.|
-| `present` | Purely descriptive of current state with no implication about future direction |
-| `forward` | Forward-signaling regardless of grammatical tense. Includes present-tense sentences where current observations imply a future trajectory. Includes all explicit conditional/hypothetical structures ("if/should/were to") — label these as `forward` and capture the conditionality in `ris`. Any sentence containing "outlook", "prospects", "trajectory", or equivalent projection language defaults to forward. All `macro` sentences default to forward unless purely backward data description. |
-| `none` | Procedural or `boilerplate`/`no_topic` sentences |
+| `"descriptive"` | Backward-looking (past data, historical events) OR present-state descriptions with no forward implication. Includes boilerplate and procedural sentences. |
+| `"interpretive"` | Forward-signalling regardless of grammatical tense. Includes projections, outlooks, conditional/hypothetical structures ("if/should/were to"), and present-tense sentences where current observations clearly imply a future trajectory. Any sentence containing "outlook", "prospects", "trajectory", or equivalent projection language. |
 
-**Critical tense rules:**
-- `hypothetical` is removed. All conditional/hypothetical structures ("if inflation were to persist", "should conditions warrant") → `ten = "forward"` + populate `ris` to capture the conditionality.
-- When a sentence reports staff projections for the current or recently elapsed year (e.g., a December 2022 meeting projecting 2022 figures), label `backward`. Use `forward` only for projections extending meaningfully beyond the meeting date.
+**Key rules:**
+- All conditional/hypothetical structures → `"interpretive"` (capture the conditionality in `ris`).
+- Staff projections for the current or recently elapsed year → `"descriptive"`. Use `"interpretive"` only for projections extending meaningfully beyond the meeting date.
+- `macro` sentences default to `"interpretive"` unless purely backward data description.
+- Boilerplate and procedural sentences → `"descriptive"`.
 
 ---
 
@@ -134,35 +133,20 @@ Apply `sen` to the policy action or signal itself:
 
 ---
 
-## FIELD 5: `hor` — Horizon
+## FIELD 5: `hor` — Long-term Horizon (boolean)
 
-**Now applies to ALL topics**, but only when `ten = "forward"`. Defaults to `"none"` in all other cases.
+`true` if the sentence contains explicit **long-term** horizon language. `false` otherwise (including near-term references and sentences with no horizon signal).
 
-| Label | When to use |
-|-------|-------------|
-| `near_term` | Explicit near-term horizon: "at this meeting", "in coming months", "over the near term", imminent actions already announced |
-| `long_term` | Extended horizon: "for some time", "considerable time", "longer run", "over the medium term", "until normalization is well under way", projections extending multiple years out |
-| `none` | `ten != "forward"`, or no horizon signal present |
-
----
-
-## FIELD 6: `con` — Condition Referenced
-
-Applies **only** when `top = ["monetary_policy"]`. Lists the economic topics explicitly referenced as justification or conditions for the policy action. Multi-select array.
+Only meaningful when `ten = "interpretive"`; default `false` for descriptive sentences.
 
 | Value | When to use |
 |-------|-------------|
-| `["inflation"]` | Policy conditioned on inflation outcomes |
-| `["unemployment"]` | Policy conditioned on labor market outcomes |
-| `["economic_activity"]` | Policy conditioned on specific growth/output measures |
-| `["macro"]` | Policy conditioned on aggregate economic conditions without naming a specific variable |
-| `["financial_conditions"]` | Policy conditioned on financial market/credit conditions |
-| `["none"]` | No specific condition named |
-| `"na"` | `top != ["monetary_policy"]` |
+| `true` | "for some time", "considerable time", "longer run", "over the medium term", "over time", "until normalization is well under way", projections extending multiple years out, "structural", "secular", "longer-run goal/objective" |
+| `false` | No horizon signal, near-term language ("coming months", "this year", "at this meeting"), or `ten = "descriptive"` |
 
 ---
 
-## FIELD 7: `ris` — Risk Balance
+## FIELD 6: `ris` — Risk Balance
 
 Captures directional tail asymmetry. Applies to all topics including `no_topic`.
 
@@ -205,22 +189,21 @@ Captures whether the sentence signals the distribution of outcomes is wider than
 ## Special Rules Summary
 
 ### When `top = ["boilerplate"]`:
-- `ten = "none"`, `sen = "na"`, `com = "none"`, `hor = "none"`, `con = "na"`, `ris = "na"`, `wid = "none"`
+- `ten = "descriptive"`, `sen = "na"`, `com = "none"`, `hor = false`, `ris = "na"`, `wid = "none"`
 
-### When `top = ["monetary_policy"]`:
-- Fill `sen`, `com`, `hor`, `con`
+### When `top` includes `"monetary_policy"`:
+- Fill `sen`, `com`, `hor`; include any referenced economic topics in `top` directly
 - `ris` and `wid` still apply
 - `com` = `"none"` for deliberative discussion; `"conditional"` or `"unconditional"` for actual commitments
 
 ### When `top = ["no_topic"]`:
 - `sen = 0` (or non-zero if evaluative content present)
 - `ris` and `wid` still apply
-- `com = "none"`, `hor = "none"`, `con = "na"`
+- `com = "none"`, `hor = false`
 
 ### Non-monetary-policy topics:
 - `com = "none"` (always — economic assessments are not commitments)
-- `con = "na"` (always)
-- `hor` applies if `ten = "forward"`
+- `hor = true` only if long-term horizon language is present and `ten = "interpretive"`
 
 ---
 
@@ -544,9 +527,11 @@ All "if/should/were to/in the event that" structures:
 ```
 top:  [inflation | unemployment | economic_activity | macro | financial_conditions
         | monetary_policy | boilerplate | no_topic]
+      For monetary_policy sentences, add any referenced economic topics directly here.
 
-ten:  backward | present | forward | none
-      (hypothetical removed — use forward + ris)
+ten:  "descriptive" | "interpretive"
+      descriptive  = backward-looking OR present-state (no forward implication)
+      interpretive = forward-signalling, projections, conditionals, outlooks
 
 sen:  -2 | -1 | 0 | 1 | 2 | "na"
       na only for boilerplate
@@ -560,12 +545,10 @@ sen:  -2 | -1 | 0 | 1 | 2 | "na"
 com:  unconditional | conditional | none
       non-monetary-policy → always "none"
 
-hor:  near_term | long_term | none
-      applies to ALL topics but only when ten = "forward"
-
-con:  ["inflation"] | ["unemployment"] | ["economic_activity"] | ["macro"]
-        | ["financial_conditions"] | ["none"] | "na"
-      "na" for all non-monetary-policy topics
+hor:  true | false
+      true  = long-term horizon language present ("longer run", "over time",
+              "considerable time", "medium term", multi-year projections)
+      false = no horizon signal, near-term language, or ten = "descriptive"
 
 ris:  skewed_downside | skewed_upside | symmetric | na
 
@@ -579,5 +562,5 @@ CONTESTED: sen = 0 from two genuinely opposing forces — applies to same-topic 
   Paralysis/tension (forces cancel) → sen = 0, wid = "contested"
 ELEVATED requires: explicit epistemic uncertainty trigger words
 NEGATIONS: label the economic state described, not the grammatical surface
-DATA DEPENDENCE: boilerplate if generic; monetary_policy + conditional if names specific action + variables
+DATA DEPENDENCE: boilerplate if generic; top=["monetary_policy","macro"] + conditional if specific
 ```

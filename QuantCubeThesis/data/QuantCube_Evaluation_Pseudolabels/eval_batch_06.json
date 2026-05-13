@@ -10,10 +10,9 @@
       "monetary_policy"
     ],
     "sen": "dovish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -28,10 +27,9 @@
       "economic_activity"
     ],
     "sen": "very hawkish",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -46,12 +44,9 @@
       "employment"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "employment"
-    ],
     "ris": "na",
     "wid": "contested"
   },
@@ -66,37 +61,11 @@
       "financial_conditions"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
-  },
-  {
-    "id": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affected economic activity and inflation, and economic and financial developments.",
-    "source": "minutes_20221102.html",
-    "doc_type": "minutes",
-    "date": "20221102",
-    "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity",
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "none",
-    "was_merged": true
   },
   {
     "id": "b4a0b4da-f0c6-4dfd-9392-67495a212c40",
@@ -109,10 +78,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -127,12 +95,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "economic_activity"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -147,10 +112,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -165,12 +129,9 @@
       "financial_conditions"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -186,12 +147,9 @@
       "economic_activity"
     ],
     "sen": "dovish",
-    "ten": "forward",
-    "hor": "near_term",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -208,12 +166,9 @@
       "monetary_policy"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "contested"
   },
@@ -228,10 +183,9 @@
       "financial_conditions"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
+    "ten": "interpretive",
+    "hor": true,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "elevated"
   },
@@ -247,12 +201,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -267,10 +218,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -286,10 +236,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   }

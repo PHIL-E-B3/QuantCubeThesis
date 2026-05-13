@@ -6,17 +6,15 @@
     "doc_type": "minutes",
     "date": "20151216",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": 1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "economic_activity",
       "unemployment",
       "inflation"
     ],
+    "ten": "descriptive",
+    "sen": 1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -29,11 +27,10 @@
     "top": [
       "unemployment"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -46,33 +43,12 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "contested"
-  },
-  {
-    "id": "53a383ca-1647-4fc5-a345-cc7de6d77367",
-    "sentence": "Since then, the size of the Federal Reserve's balance sheet had declined substantially.",
-    "source": "minutes_20251029.html",
-    "doc_type": "minutes",
-    "date": "20251029",
-    "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
-    "ris": "na",
-    "wid": "none",
-    "was_merged": true
   },
   {
     "id": "a3e5d176-d40d-40a3-a72c-197f260822d4",
@@ -83,11 +59,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -98,16 +73,14 @@
     "doc_type": "minutes",
     "date": "20140917",
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -120,11 +93,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -137,11 +109,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -154,11 +125,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -171,11 +141,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -188,11 +157,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -205,13 +173,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "long_term",
-    "con": [
-      "none"
-    ],
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -224,11 +189,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -241,11 +205,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -258,11 +221,10 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

@@ -10,12 +10,9 @@
       "employment"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "employment"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -32,12 +29,9 @@
       "macro"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "macro"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -54,13 +48,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "inflation",
-      "economic_activity"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -75,10 +65,9 @@
       "financial_conditions"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -93,10 +82,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -111,10 +99,9 @@
       "financial_conditions"
     ],
     "sen": "hawkish",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -130,12 +117,9 @@
       "financial_conditions"
     ],
     "sen": "dovish",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
     "ris": "na",
     "wid": "elevated"
   },
@@ -150,12 +134,9 @@
       "economic_activity"
     ],
     "sen": "very dovish",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "economic_activity"
-    ],
     "ris": "na",
     "wid": "elevated"
   },
@@ -169,16 +150,13 @@
     "top": [
       "economic_activity",
       "financial_conditions",
-      "monetary_policy"
+      "monetary_policy",
+      "macro"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "unconditional",
-    "con": [
-      "macro",
-      "financial_conditions"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -193,10 +171,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -208,39 +185,15 @@
     "date": "2008-11-19",
     "context_question": null,
     "top": [
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "forward",
-    "hor": "long_term",
-    "com": "none",
-    "con": [
       "economic_activity",
       "macro"
     ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
     "ris": "na",
     "wid": "none"
-  },
-  {
-    "id": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks.",
-    "source": "The Crisis and the Policy Response",
-    "doc_type": "speech",
-    "date": "2009-01-13",
-    "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "financial_conditions"
-    ],
-    "ris": "na",
-    "wid": "none",
-    "was_merged": true
   },
   {
     "id": "f4b60903-abbb-4777-b503-9efa7a85cfe7",
@@ -253,10 +206,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -271,10 +223,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -289,10 +240,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   }

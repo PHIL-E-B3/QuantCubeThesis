@@ -9,13 +9,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -2,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -29,13 +26,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "conditional",
-    "hor": "long_term",
-    "con": [
-      "none"
-    ],
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -49,11 +43,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -67,13 +60,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -2,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -87,11 +77,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -105,13 +94,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -125,13 +111,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -143,15 +126,13 @@
     "date": "2014-09-17",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": 1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "unemployment"
     ],
+    "ten": "descriptive",
+    "sen": 1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -165,11 +146,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -181,16 +161,14 @@
     "date": "2020-12-16",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -2,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": -2,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -202,15 +180,13 @@
     "date": "2008-03-11",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -222,15 +198,13 @@
     "date": "2020-03-15",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": -2,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "macro"
     ],
+    "ten": "descriptive",
+    "sen": -2,
+    "com": "unconditional",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -242,15 +216,13 @@
     "date": "2013-07-31",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -264,11 +236,10 @@
     "top": [
       "macro"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "symmetric",
     "wid": "none",
     "_flag": "AMBIGUOUS on wid: 'but is monitoring global economic and financial developments' introduces a cautionary hedge. Per the instructions this is not a genuine opposing economic force (it is a monitoring posture), so wid=none. However the juxtaposition of 'nearly balanced' with an active monitoring caveat could be read as a mild contested signal. Retained wid=none."
@@ -283,11 +254,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

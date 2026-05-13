@@ -7,17 +7,15 @@
     "date": "2014-09-17",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "none",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "economic_activity",
       "unemployment",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -31,11 +29,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -50,11 +47,10 @@
       "economic_activity",
       "unemployment"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": 1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -69,11 +65,10 @@
       "macro",
       "financial_conditions"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -2,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -85,16 +80,14 @@
     "date": "2009-01-28",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions",
       "economic_activity"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -108,11 +101,10 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -124,16 +116,14 @@
     "date": "2017-05-03",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": 0,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "inflation"
     ],
+    "ten": "descriptive",
+    "sen": 0,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -145,15 +135,13 @@
     "date": "2013-12-18",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": 1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "unemployment"
     ],
+    "ten": "descriptive",
+    "sen": 1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -167,11 +155,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -183,16 +170,14 @@
     "date": "2011-12-13",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "economic_activity",
       "inflation"
     ],
+    "ten": "descriptive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -206,11 +191,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -222,15 +206,13 @@
     "date": "2008-03-11",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": -1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "financial_conditions"
     ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -244,11 +226,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_upside",
     "wid": "none"
   },
@@ -260,15 +241,13 @@
     "date": "2024-07-31",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "conditional",
-    "hor": "long_term",
-    "con": [
+      "monetary_policy",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "conditional",
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -282,11 +261,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   }

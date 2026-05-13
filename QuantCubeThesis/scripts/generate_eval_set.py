@@ -394,13 +394,14 @@ def pseudolabel_width(sentence: str) -> str:
 
 def pseudolabel_all(sentence: str) -> dict:
     top = pseudolabel_topic(sentence)
+    raw_hor = pseudolabel_horizon(sentence)
+    raw_ten = pseudolabel_tense(sentence)
     return {
         "top": top,
         "sen": pseudolabel_sentiment(sentence),
-        "ten": pseudolabel_tense(sentence),
-        "hor": pseudolabel_horizon(sentence),
+        "ten": "interpretive" if raw_ten == "forward" else "descriptive",
+        "hor": raw_hor == "long_term",   # boolean: True if long_term
         "com": pseudolabel_commitment(sentence, topics=top),
-        "con": pseudolabel_condition(sentence),
         "ris": pseudolabel_risk(sentence),
         "wid": pseudolabel_width(sentence),
     }
@@ -533,7 +534,6 @@ if __name__ == "__main__":
                 "ten": labels["ten"],
                 "hor": labels["hor"],
                 "com": labels["com"],
-                "con": labels["con"],
                 "ris": labels["ris"],
                 "wid": labels["wid"],
             })
@@ -548,7 +548,7 @@ if __name__ == "__main__":
         print(f"  {dt:<35} {n}")
 
     print("\n── Distribution of pseudo-labels ──────────────────────────────────")
-    for field in ["sen", "ten", "hor", "com", "ris", "wid"]:
+    for field in ["sen", "ten", "hor", "com", "ris", "wid"]:  # con removed
         counts = Counter(r[field] for r in eval_records)
         print(f"  {field:4s}: {dict(sorted(counts.items()))}")
 

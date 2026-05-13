@@ -12,16 +12,8 @@
         "gemini": -2
       },
       "ten": {
-        "claude": "forward",
-        "gemini": "present"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions"
-        ]
+        "claude": "interpretive",
+        "gemini": "descriptive"
       },
       "wid": {
         "claude": "elevated",
@@ -33,30 +25,28 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "none",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "elevated"
     },
     "gemini_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "present",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "03066efa-f42c-4df3-a3db-97f66ba6314f",
@@ -80,8 +70,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -89,10 +79,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -102,14 +91,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "0357baa6-8c85-4c2c-9538-583916f21307",
@@ -129,10 +120,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -141,14 +131,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "04c9d67a-69bc-425a-ba38-0b8107db34e8",
@@ -173,10 +165,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -186,14 +177,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "0b80c564-be21-4ddf-b147-0bbe6a965e43",
@@ -222,10 +215,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -235,14 +227,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "0bf44c75-2ed0-4302-a962-401baa50efcd",
@@ -262,10 +256,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -274,14 +267,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "0e63de5b-a02b-46f3-97f0-86e1cd9fc5b1",
@@ -305,8 +300,8 @@
         ]
       },
       "hor": {
-        "claude": "short_term",
-        "gemini": "long_term"
+        "claude": false,
+        "gemini": true
       },
       "ris": {
         "claude": "skewed_downside",
@@ -318,10 +313,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -331,14 +325,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "0ef5a286-ab71-48d3-8db0-95b7d317ef47",
@@ -362,8 +358,8 @@
         ]
       },
       "ten": {
-        "claude": "present",
-        "gemini": "forward"
+        "claude": "descriptive",
+        "gemini": "interpretive"
       }
     },
     "claude_full": {
@@ -373,10 +369,9 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -388,14 +383,16 @@
         "financial_conditions",
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "none",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "11996490-c1a2-457f-9207-97a68f4bca15",
@@ -417,32 +414,31 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "unemployment"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "elevated"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "unemployment"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "134f3daf-cfec-491c-a1e0-926a20e350c4",
@@ -459,12 +455,6 @@
         "gemini": [
           "no_topic"
         ]
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": "na"
       }
     },
     "claude_full": {
@@ -472,12 +462,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -486,14 +473,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "13ec9857-0c95-484b-aaaf-a450394f07c6",
@@ -508,8 +497,8 @@
         "gemini": 2
       },
       "hor": {
-        "claude": "none",
-        "gemini": "short_term"
+        "claude": false,
+        "gemini": false
       },
       "wid": {
         "claude": "none",
@@ -521,10 +510,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "none",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "none"
     },
@@ -533,14 +521,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "elevated"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "1472ec3d-d61c-477c-8b16-7edf5bdd8b11",
@@ -558,32 +548,31 @@
     "claude_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "14ac6495-617e-4277-a507-47049099fc72",
@@ -598,20 +587,12 @@
         "gemini": -1
       },
       "ten": {
-        "claude": "forward",
-        "gemini": "backward"
+        "claude": "interpretive",
+        "gemini": "descriptive"
       },
       "hor": {
-        "claude": "short_term",
-        "gemini": "none"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions"
-        ]
+        "claude": false,
+        "gemini": false
       }
     },
     "claude_full": {
@@ -619,30 +600,28 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "15b9b485-9928-402c-8311-054b598eb273",
@@ -666,10 +645,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -678,14 +656,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "17a43881-7ad1-4d7e-bffe-d61067e02aca",
@@ -705,10 +685,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "none"
     },
@@ -717,14 +696,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "194c2f5f-6fc4-4a9b-926f-91eec199e0cb",
@@ -741,47 +722,37 @@
       "com": {
         "claude": "unconditional",
         "gemini": "conditional"
-      },
-      "con": {
-        "claude": [
-          "economic_activity"
-        ],
-        "gemini": [
-          "economic_activity",
-          "financial_conditions"
-        ]
       }
     },
     "claude_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "economic_activity"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "conditional",
-      "con": [
+        "monetary_policy",
         "economic_activity",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "conditional",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "1f476406-9b7a-4356-a459-74b74fdc418f",
@@ -790,47 +761,35 @@
     "doc_type": "speech",
     "date": "2014-10-11",
     "sen_type": null,
-    "discrepancies": {
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions",
-          "macro"
-        ]
-      }
-    },
+    "discrepancies": {},
     "claude_full": {
       "sen": -1,
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions",
         "macro"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "219a3a5d-9fd7-4130-bac6-a6ecb23202ac",
@@ -845,24 +804,16 @@
         "gemini": 1
       },
       "ten": {
-        "claude": "forward",
-        "gemini": "backward"
+        "claude": "interpretive",
+        "gemini": "descriptive"
       },
       "hor": {
-        "claude": "short_term",
-        "gemini": "none"
+        "claude": false,
+        "gemini": false
       },
       "com": {
         "claude": "unconditional",
         "gemini": "none"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions"
-        ]
       }
     },
     "claude_full": {
@@ -870,30 +821,28 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "unconditional",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": 1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "27dc1dc9-f7d7-49ea-9439-b03ad2cb37ee",
@@ -922,10 +871,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -935,14 +883,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "2aa732f4-689d-4eb6-ad8f-918aae04d762",
@@ -960,12 +910,6 @@
           "monetary_policy"
         ]
       },
-      "con": {
-        "claude": "na",
-        "gemini": [
-          "inflation"
-        ]
-      },
       "wid": {
         "claude": "elevated",
         "gemini": "none"
@@ -976,28 +920,28 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "elevated"
     },
     "gemini_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "inflation"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "2df51e6a-331d-4c63-a2e7-79bddf759b2c",
@@ -1021,10 +965,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -1033,14 +976,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "2eb08966-73b9-475c-9101-e40f5d8d1c54",
@@ -1063,8 +1008,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -1072,10 +1017,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1084,14 +1028,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "306dcbd8-9911-4e46-a33e-72263e4b5531",
@@ -1115,10 +1061,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "elevated"
     },
@@ -1127,14 +1072,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "3302ad9b-7c9a-4d15-a9d2-e4311b2bb7e7",
@@ -1157,8 +1104,8 @@
         ]
       },
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -1166,10 +1113,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1178,14 +1124,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "34d4910c-3c2e-417b-abe9-1f7e3d80c513",
@@ -1209,10 +1157,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1221,14 +1168,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "35924dc9-23df-4e9e-8e19-5d7e0f7952d1",
@@ -1237,47 +1186,36 @@
     "doc_type": "speech",
     "date": "2015-05-26",
     "sen_type": null,
-    "discrepancies": {
-      "con": {
-        "claude": [
-          "financial_conditions"
-        ],
-        "gemini": [
-          "financial_conditions",
-          "macro"
-        ]
-      }
-    },
+    "discrepancies": {},
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions",
         "macro"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "367fc9bc-aed9-435b-b497-e6b7441cb0b3",
@@ -1297,10 +1235,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1309,14 +1246,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "37139fa5-15d0-40a2-bc73-1acfa9cbce91",
@@ -1345,10 +1284,9 @@
       "top": [
         "unemployment"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -1358,14 +1296,16 @@
         "unemployment",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "3c384174-ae7c-4a81-9dc2-22ae4491a5b2",
@@ -1376,8 +1316,8 @@
     "sen_type": null,
     "discrepancies": {
       "ten": {
-        "claude": "backward",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -1385,10 +1325,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1397,14 +1336,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "3f389e70-ab88-4ec1-9e65-f7bd93c1a186",
@@ -1429,10 +1370,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1442,14 +1382,16 @@
         "economic_activity",
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "3fbdceb8-f678-44ca-9b42-728650e3cf47",
@@ -1483,10 +1425,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1497,14 +1438,16 @@
         "economic_activity",
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "4210205b-6793-4ce4-b3ff-c77b7f4757dd",
@@ -1521,13 +1464,6 @@
         "gemini": [
           "monetary_policy"
         ]
-      },
-      "con": {
-        "claude": "na",
-        "gemini": [
-          "economic_activity",
-          "unemployment"
-        ]
       }
     },
     "claude_full": {
@@ -1535,29 +1471,29 @@
       "top": [
         "unemployment"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "short_term",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "economic_activity",
         "unemployment"
       ],
+      "ten": "interpretive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "423fbe5f-bf62-4e04-b6a5-0b2b0915ca66",
@@ -1581,10 +1517,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -1593,14 +1528,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "44b641db-67db-4126-a40c-d1906a16fe1c",
@@ -1620,10 +1557,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "none"
     },
@@ -1632,14 +1568,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "48129865-9fef-4add-95f1-6991dcf42f7f",
@@ -1662,8 +1600,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -1671,10 +1609,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1683,14 +1620,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "48672de2-143f-4de7-9bbc-0359eaf0a8c4",
@@ -1701,8 +1640,8 @@
     "sen_type": null,
     "discrepancies": {
       "hor": {
-        "claude": "none",
-        "gemini": "long_term"
+        "claude": false,
+        "gemini": true
       },
       "ris": {
         "claude": "skewed_downside",
@@ -1712,32 +1651,31 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "inflation"
       ],
+      "ten": "interpretive",
+      "hor": false,
+      "com": "none",
       "ris": "skewed_downside",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "long_term",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "inflation"
       ],
+      "ten": "interpretive",
+      "hor": true,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "4aa563a5-c2c1-48dd-a7df-b4c6a4541736",
@@ -1757,10 +1695,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1769,14 +1706,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "4c349a2a-d545-4257-88ab-c8863072c391",
@@ -1801,10 +1740,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1814,14 +1752,16 @@
         "financial_conditions",
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "4d76de88-edc4-4c67-8e4f-0da0f12e2a0f",
@@ -1843,12 +1783,6 @@
           "no_topic"
         ]
       },
-      "con": {
-        "claude": [
-          "macro"
-        ],
-        "gemini": "na"
-      },
       "ris": {
         "claude": "skewed_downside",
         "gemini": "na"
@@ -1857,14 +1791,12 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "long_term",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "macro"
       ],
+      "ten": "interpretive",
+      "hor": true,
+      "com": "none",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -1873,14 +1805,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "4d95f0d8-58f5-4a8d-a508-beaa01cb1c43",
@@ -1900,10 +1834,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "none"
     },
@@ -1912,14 +1845,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "50998ca8-f3f5-41fe-a5eb-bdd690b55141",
@@ -1943,8 +1878,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -1952,10 +1887,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -1965,14 +1899,16 @@
         "inflation",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "51b905ff-6ff6-4abe-8782-13ac14e02f89",
@@ -1997,10 +1933,9 @@
       "top": [
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2010,14 +1945,16 @@
         "unemployment",
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5498a342-b860-406f-bf14-6260b7f6f092",
@@ -2041,10 +1978,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_upside",
       "wid": "contested"
     },
@@ -2053,14 +1989,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5583b5bf-9b96-4326-b39e-fd0975a4fe93",
@@ -2080,10 +2018,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -2092,14 +2029,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "58fc6995-8247-4d48-b9d5-48534f38776d",
@@ -2119,10 +2058,9 @@
       "top": [
         "unemployment"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -2131,14 +2069,16 @@
       "top": [
         "unemployment"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5a1dd78a-ab15-483a-b48d-27ef09281cc4",
@@ -2158,10 +2098,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2170,14 +2109,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5a8cb7b8-bf22-42d6-9a1f-eb2095fe929a",
@@ -2206,10 +2147,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2219,14 +2159,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5da3475b-7e65-401f-a191-5262183f93b6",
@@ -2246,14 +2188,8 @@
         ]
       },
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": "na"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -2261,12 +2197,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -2276,14 +2209,16 @@
         "inflation",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "5f449b8a-90fb-4385-a8c9-f02542de2ced",
@@ -2307,10 +2242,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -2319,14 +2253,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "614b22f0-8048-4fa2-8efe-bd01949ea003",
@@ -2350,10 +2286,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2362,14 +2297,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "6c79bf5e-8680-485e-9d4a-06b1872e4ca0",
@@ -2382,27 +2319,17 @@
       "sen": {
         "claude": -1,
         "gemini": 0
-      },
-      "con": {
-        "claude": [
-          "macro"
-        ],
-        "gemini": [
-          "none"
-        ]
       }
     },
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "long_term",
-      "com": "conditional",
-      "con": [
+        "monetary_policy",
         "macro"
       ],
+      "ten": "interpretive",
+      "hor": true,
+      "com": "conditional",
       "ris": "na",
       "wid": "none"
     },
@@ -2411,16 +2338,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "conditional",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "6d5bf995-f7a0-4684-b128-5735dc39ab2f",
@@ -2440,10 +2367,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2452,14 +2378,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "6d931de1-4154-45dd-bca7-98692ff2a02e",
@@ -2488,10 +2416,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -2501,14 +2428,16 @@
         "financial_conditions",
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "6fb3788e-08f1-4255-a7af-2cb4527d4a17",
@@ -2531,8 +2460,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -2540,10 +2469,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2552,14 +2480,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "75d8c861-da08-4305-8280-b353b7b3e786",
@@ -2587,10 +2517,9 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2599,14 +2528,16 @@
       "top": [
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "79b3f3f8-7dce-4f64-900d-d1c718f334cd",
@@ -2631,10 +2562,9 @@
       "top": [
         "unemployment"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2644,14 +2574,16 @@
         "unemployment",
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "7b143146-27bf-477f-a534-bdf8770bf1d7",
@@ -2680,10 +2612,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2693,14 +2624,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "7cc4b88a-78ca-4534-bedd-a5737a54a51c",
@@ -2709,47 +2642,35 @@
     "doc_type": "speech",
     "date": "2019-01-10",
     "sen_type": null,
-    "discrepancies": {
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "unemployment",
-          "inflation"
-        ]
-      }
-    },
+    "discrepancies": {},
     "claude_full": {
       "sen": -1,
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "unemployment",
         "inflation"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "7e9fee4e-aedd-4fab-96aa-e00969ca9906",
@@ -2764,8 +2685,8 @@
         "gemini": 2
       },
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -2773,10 +2694,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2785,14 +2705,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "80ae8eef-68a9-4b3a-bf13-a96c265822bd",
@@ -2820,10 +2742,9 @@
       "top": [
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -2832,14 +2753,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "8a4f3188-a4a3-466e-a7d2-d6af5503d966",
@@ -2863,10 +2786,9 @@
       "top": [
         "no_topic"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2875,14 +2797,16 @@
       "top": [
         "unemployment"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "8bbbe7be-f52c-4f96-b8de-40da3e20c624",
@@ -2906,10 +2830,9 @@
       "top": [
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -2918,14 +2841,16 @@
       "top": [
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "8be0b3c5-6618-4f60-b216-bb703695fd36",
@@ -2950,10 +2875,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -2963,14 +2887,16 @@
         "financial_conditions",
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "8f0b4661-97e9-46ff-a31c-4704e8d4d01c",
@@ -2994,12 +2920,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "unconditional",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -3008,16 +2931,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "9592b7d8-e924-4b69-adbd-6d1229e2a298",
@@ -3042,10 +2965,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3055,14 +2977,16 @@
         "inflation",
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "97f741cd-5d14-4729-bccc-f95294b44f65",
@@ -3083,25 +3007,17 @@
         "gemini": [
           "inflation"
         ]
-      },
-      "con": {
-        "claude": [
-          "inflation"
-        ],
-        "gemini": "na"
       }
     },
     "claude_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "inflation"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
@@ -3110,14 +3026,16 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "98631859-9646-4633-9b8a-a4b5f83e5943",
@@ -3145,10 +3063,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -3157,14 +3074,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "99f019b2-b0e9-4ba7-9f08-7db39bced8e8",
@@ -3193,10 +3112,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3206,14 +3124,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459",
@@ -3242,10 +3162,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3255,14 +3174,16 @@
         "inflation",
         "economic_activity"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "9fe394cc-1b8f-472a-ab13-820487a719e3",
@@ -3273,41 +3194,40 @@
     "sen_type": null,
     "discrepancies": {
       "hor": {
-        "claude": "short_term",
-        "gemini": "long_term"
+        "claude": false,
+        "gemini": true
       }
     },
     "claude_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "short_term",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "inflation",
         "unemployment"
       ],
+      "ten": "interpretive",
+      "hor": false,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "long_term",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "inflation",
         "unemployment"
       ],
+      "ten": "interpretive",
+      "hor": true,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "a94dea80-5730-4410-acc4-c27890ad4f2f",
@@ -3337,10 +3257,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3351,14 +3270,16 @@
         "financial_conditions",
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "ab450931-af8b-48bc-9147-3400bd2fd0c0",
@@ -3373,17 +3294,8 @@
         "gemini": 0
       },
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions",
-          "macro"
-        ]
+        "claude": "descriptive",
+        "gemini": "descriptive"
       },
       "wid": {
         "claude": "elevated",
@@ -3395,31 +3307,29 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "elevated"
     },
     "gemini_full": {
       "sen": 0,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions",
         "macro"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "add9affe-a144-4213-8fbd-bc64525e4c86",
@@ -3439,12 +3349,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -3453,16 +3360,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "ae86937e-0cb4-4e00-9dc3-010bb667e312",
@@ -3494,10 +3401,9 @@
       "top": [
         "macro"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -3506,14 +3412,16 @@
       "top": [
         "economic_activity"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "b497bb29-6675-4360-af7d-0bf8032d89de",
@@ -3533,10 +3441,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -3545,14 +3452,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "b754d905-d642-48a8-85e3-fa0d73fa88c7",
@@ -3584,10 +3493,9 @@
         "unemployment",
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3598,14 +3506,16 @@
         "unemployment",
         "economic_activity"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "be295cb8-99be-4816-a500-678a05fb9032",
@@ -3616,33 +3526,23 @@
     "sen_type": null,
     "discrepancies": {
       "hor": {
-        "claude": "none",
-        "gemini": "long_term"
+        "claude": false,
+        "gemini": true
       },
       "com": {
         "claude": "conditional",
         "gemini": "unconditional"
-      },
-      "con": {
-        "claude": [
-          "macro"
-        ],
-        "gemini": [
-          "none"
-        ]
       }
     },
     "claude_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "none",
-      "com": "conditional",
-      "con": [
+        "monetary_policy",
         "macro"
       ],
+      "ten": "interpretive",
+      "hor": false,
+      "com": "conditional",
       "ris": "na",
       "wid": "none"
     },
@@ -3651,16 +3551,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "forward",
-      "hor": "long_term",
+      "ten": "interpretive",
+      "hor": true,
       "com": "unconditional",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "c0095e28-9fcd-41e4-a87c-8df873a208f4",
@@ -3680,10 +3580,9 @@
       "top": [
         "unemployment"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "none"
     },
@@ -3692,14 +3591,16 @@
       "top": [
         "unemployment"
       ],
-      "ten": "forward",
-      "hor": "short_term",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "c0ecf8d8-305c-4501-8283-7318803b0a11",
@@ -3720,10 +3621,9 @@
         "inflation",
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "contested"
     },
@@ -3733,14 +3633,16 @@
         "inflation",
         "economic_activity"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "c28189a6-058a-412f-8019-e2f31dc3ed6e",
@@ -3753,14 +3655,6 @@
       "com": {
         "claude": "none",
         "gemini": "conditional"
-      },
-      "con": {
-        "claude": [
-          "none"
-        ],
-        "gemini": [
-          "financial_conditions"
-        ]
       }
     },
     "claude_full": {
@@ -3768,30 +3662,28 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": 2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "conditional",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "conditional",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "cecc9179-34b3-417e-892c-503c6e817513",
@@ -3811,12 +3703,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -3825,16 +3714,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d1f2bf23-cc33-4f13-9c9c-9f2841ee770b",
@@ -3854,8 +3743,8 @@
         ]
       },
       "ten": {
-        "claude": "backward",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -3863,10 +3752,9 @@
       "top": [
         "inflation"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3876,14 +3764,16 @@
         "inflation",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d664a366-1e2a-4890-9eec-5e8a46acb777",
@@ -3894,8 +3784,8 @@
     "sen_type": null,
     "discrepancies": {
       "ten": {
-        "claude": "backward",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       },
       "com": {
         "claude": "unconditional",
@@ -3905,32 +3795,31 @@
     "claude_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "backward",
-      "hor": "none",
-      "com": "unconditional",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "unconditional",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -2,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "present",
-      "hor": "none",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "financial_conditions"
       ],
+      "ten": "descriptive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d678a2c2-e21f-4736-80c1-994f2c44d3bd",
@@ -3950,10 +3839,9 @@
       "top": [
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -3962,14 +3850,16 @@
       "top": [
         "macro"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d7e523fc-b28a-4c11-90cf-707602f6e97e",
@@ -3989,10 +3879,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4001,14 +3890,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d8f74677-5fae-4c1b-bd77-d1d768acae57",
@@ -4032,12 +3923,9 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "unconditional",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
@@ -4046,16 +3934,16 @@
       "top": [
         "monetary_policy"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": [
-        "none"
-      ],
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "d90bd4aa-dfc2-4056-bbb1-1fae4708275d",
@@ -4079,10 +3967,9 @@
       "top": [
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4091,14 +3978,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "de24c664-bb71-4cf5-b8e3-ccec2b9084a2",
@@ -4109,8 +3998,8 @@
     "sen_type": null,
     "discrepancies": {
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4120,10 +4009,9 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4134,14 +4022,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "e1de9da9-6dd0-4e9e-bded-8b6241535864",
@@ -4164,8 +4054,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4173,10 +4063,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4185,14 +4074,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "e37a4409-86f4-415d-bb17-45a861151e4c",
@@ -4216,8 +4107,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4225,10 +4116,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4238,14 +4128,16 @@
         "unemployment",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "ee6e6792-afd5-479d-a6ee-b215f1c52e9c",
@@ -4265,10 +4157,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4277,14 +4168,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "ef7810e3-d09b-4b0a-b349-a6126cee4a20",
@@ -4295,8 +4188,8 @@
     "sen_type": null,
     "discrepancies": {
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4304,10 +4197,9 @@
       "top": [
         "no_topic"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4316,14 +4208,16 @@
       "top": [
         "no_topic"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "f0b506aa-0dda-48b8-b4c3-3f2e3c2f7aec",
@@ -4357,10 +4251,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "skewed_downside",
       "wid": "elevated"
     },
@@ -4371,14 +4264,16 @@
         "financial_conditions",
         "macro"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "f24cb9d7-431e-4300-85cc-01c736818855",
@@ -4398,10 +4293,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4410,14 +4304,16 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "f348a5b1-a194-4010-92eb-2a99462b614b",
@@ -4437,15 +4333,8 @@
         ]
       },
       "hor": {
-        "claude": "none",
-        "gemini": "short_term"
-      },
-      "con": {
-        "claude": "na",
-        "gemini": [
-          "inflation",
-          "unemployment"
-        ]
+        "claude": false,
+        "gemini": false
       }
     },
     "claude_full": {
@@ -4454,29 +4343,29 @@
         "unemployment",
         "inflation"
       ],
-      "ten": "forward",
-      "hor": "none",
+      "ten": "interpretive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
     "gemini_full": {
       "sen": -1,
       "top": [
-        "monetary_policy"
-      ],
-      "ten": "forward",
-      "hor": "short_term",
-      "com": "none",
-      "con": [
+        "monetary_policy",
         "inflation",
         "unemployment"
       ],
+      "ten": "interpretive",
+      "hor": false,
+      "com": "none",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "f34b774f-3425-49d7-b581-61ba7aced618",
@@ -4491,8 +4380,8 @@
         "gemini": -1
       },
       "ten": {
-        "claude": "present",
-        "gemini": "backward"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4501,10 +4390,9 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4514,14 +4402,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "faeec457-63b2-4082-8310-e2a47f7f0cad",
@@ -4546,10 +4436,9 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4559,14 +4448,16 @@
         "economic_activity",
         "financial_conditions"
       ],
-      "ten": "backward",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   },
   {
     "id": "fe49cb45-2e2f-4485-8b56-7efb86a28675",
@@ -4589,8 +4480,8 @@
         ]
       },
       "ten": {
-        "claude": "none",
-        "gemini": "present"
+        "claude": "descriptive",
+        "gemini": "descriptive"
       }
     },
     "claude_full": {
@@ -4598,10 +4489,9 @@
       "top": [
         "boilerplate"
       ],
-      "ten": "none",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
@@ -4610,13 +4500,15 @@
       "top": [
         "financial_conditions"
       ],
-      "ten": "present",
-      "hor": "none",
+      "ten": "descriptive",
+      "hor": false,
       "com": "none",
-      "con": "na",
       "ris": "na",
       "wid": "none"
     },
-    "resolution": ""
+    "resolution": "",
+    "top": [],
+    "ten": "descriptive",
+    "hor": false
   }
 ]

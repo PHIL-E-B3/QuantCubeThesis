@@ -7,15 +7,13 @@
     "date": "2020-07-29",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "present",
-    "sen": -2,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "macro"
     ],
+    "ten": "descriptive",
+    "sen": -2,
+    "com": "unconditional",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none",
     "_note": "Two-sentence item. S1 is economic context; S2 is the operative policy decision. ten=present: 'decided to maintain' communicates a decision made at this meeting. dir=very_dovish: maintaining rates at the ZLB (0-1/4%) during a severe economic shock is maximally accommodative. com=unconditional ('decided'). hor=near_term (this meeting's action). con=[macro]: the three channels cited (economic activity, employment, inflation) are invoked collectively as a macro-level justification rather than as distinct named conditions. ris=skewed_downside: 'poses considerable risks to the economic outlook' is explicit downside risk framing. wid=none: 'considerable risks' is a risk-magnitude phrase, not an epistemic/uncertainty-elevation statement."
@@ -30,11 +28,10 @@
     "top": [
       "no_topic"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "This sentence refers to the Bank of Japan, not the FOMC, and conveys no specific economic content about U.S. conditions, variables, or policy. top=no_topic. ten=forward ('will be considering... soon'). sen=0 — no evaluative stance on any economic variable. ris=na — no risk framing. wid=none.",
@@ -50,11 +47,10 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
+    "ten": "descriptive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Backward-looking data description: inflation has moved up and remains elevated. Rising/elevated inflation = negative sentiment. 'Somewhat elevated' and 'moved up' are moderate intensifiers — not 'surged' or 'well above' — so sen=-1, not -2. 'Remains somewhat elevated' is a level benchmark reference, not a second opposing force, so wid=none (not contested). ris=na — no explicit risk framing, purely descriptive."
@@ -69,13 +65,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Asset purchase commitment = dovish. 'Will buy' = unconditional. 'By autumn' = near_term horizon. No explicit condition named in this sentence."
@@ -90,13 +83,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": -1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Announcement of liquidity-providing operations (TAF expansion, repo transactions) = balance sheet expansion = dovish. 'Actions announced today' + 'will cumulate' = unconditional, near-term commitment. No condition explicitly named. ten=present because the sentence describes the current announcement ('today'), though the operations themselves are near-term forward.",
@@ -112,11 +102,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Section header / document title. Purely administrative. top=boilerplate per the instructions ('section headers'). All other fields set to defaults."
@@ -131,13 +120,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Pure data-dependence / deliberative forward guidance with no directional commitment. 'Will carefully assess incoming data, the evolving outlook, and the balance of risks' = classic neutral watchful-waiting language. No specific action committed to. dir=neutral, com=none. con=[none] because no specific economic condition is named as a trigger — 'incoming data' and 'balance of risks' are generic. ris=na — 'balance of risks' here is a reference to the Committee's monitoring framework, not an assertion about the current risk distribution. wid=none (data-dependence language alone does not trigger elevated)."
@@ -152,11 +138,10 @@
     "top": [
       "macro"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": 0,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "symmetric",
     "wid": "none",
     "_note": "Risk assessment covering both economic activity and the labor market with no single dominant variable = macro. 'Risks... as balanced' is an explicit symmetry statement = ris=symmetric. ten=forward (outlook). sen=0 (balanced risks, no net tilt). wid=none ('balanced' signals confidence, not elevated uncertainty)."
@@ -169,41 +154,17 @@
     "date": "2018-09-26",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "unconditional",
-    "hor": "near_term",
-    "con": [
+      "monetary_policy",
       "unemployment",
       "inflation"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "unconditional",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Identical structure to batch 03 id 16aba2d9 (June 2018 hike). Rate hike = hawkish. 'Decided to raise' = unconditional, near-term. Both labor market and inflation explicitly named as conditions; neither dominant."
-  },
-  {
-    "id": "bdbbb465-c1e6-4333-961b-73caa4d21c44",
-    "sentence": "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully.",
-    "source": "statement_20071031.txt",
-    "doc_type": "statement",
-    "date": "2007-10-31",
-    "context_question": null,
-    "top": [
-      "inflation",
-      "economic_activity"
-    ],
-    "ten": "forward",
-    "sen": 0,
-    "com": "none",
-    "hor": "none",
-    "con": "na",
-    "ris": "symmetric",
-    "wid": "contested",
-    "_note": "Two-sentence item. S1 flags residual inflation risks (upside risk to inflation = negative inflation signal). S2 explicitly asserts that upside inflation risks roughly balance downside growth risks = a cross-variable symmetric risk statement. top=[inflation, economic_activity] because both are named as the two sides of the balance. ris=symmetric because S2 explicitly states the risks 'roughly balance'. sen=0 because the two opposing risk signals cancel: upside inflation risk (negative for inflation) vs. downside growth risk (negative for activity) — two genuinely opposing forces netting to zero. wid=contested: the sentence contains two opposing economic forces (inflation upside vs. growth downside) that are explicitly balanced against each other — the canonical contested pattern.",
-    "_flag": "AMBIGUOUS on sen: Both named risks are negative outcomes (more inflation is bad; less growth is bad), but they pull policy in opposite directions (inflation risk = hawkish pressure; growth risk = dovish pressure). The symmetric balance framing means neither dominates, so sen=0 is the correct call. Also ambiguous on top: this is not monetary_policy because no policy action is stated — it is a risk assessment following an action ('after this action'). Labeled inflation + economic_activity.",
-    "was_merged": true
   },
   {
     "id": "2ef095e0-dfba-4d63-bffe-23727ec007ca",
@@ -215,13 +176,10 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "unconditional",
-    "hor": "near_term",
-    "con": [
-      "none"
-    ],
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Asset purchase program announcement = dovish (QE, accommodative balance sheet expansion). 'Will increase... beginning later this month' = unconditional, near-term. No explicit condition named in this sentence.",
@@ -237,11 +195,10 @@
     "top": [
       "macro"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": -1,
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "elevated",
     "_note": "Multi-variable sentence: financial conditions deterioration + uncertainty over economic growth and inflation outlook. No single variable dominates the conclusion — the sentence is about the aggregate outlook = macro. ten=forward ('outlook'). sen=-1: financial market deterioration is a negative signal; the net is mildly negative (no extreme intensifier). ris=skewed_downside: 'deterioration in financial market conditions' raises a specific downside concern. wid=elevated: 'increased the uncertainty surrounding the outlook' is an explicit uncertainty-elevation statement — 'increased... uncertainty' meets the trigger.",
@@ -257,11 +214,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Sentence fragment — clearly a partial extraction artifact with no standalone meaning. Cannot be annotated as a coherent sentence. Labeled boilerplate as the closest applicable category for content-free/non-parseable text.",
@@ -277,11 +233,10 @@
     "top": [
       "boilerplate"
     ],
-    "ten": "none",
+    "ten": "descriptive",
     "sen": "",
     "com": "none",
-    "hor": "none",
-    "con": "na",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Standard formulaic readiness phrase appearing routinely across FOMC statements. 'Will act as needed to best foster maximum employment and price stability' carries no real commitment content, no directional information, and no specific economic signal. top=boilerplate."
@@ -294,16 +249,14 @@
     "date": "2007-01-31",
     "context_question": null,
     "top": [
-      "monetary_policy"
-    ],
-    "ten": "forward",
-    "sen": 1,
-    "com": "conditional",
-    "hor": "none",
-    "con": [
+      "monetary_policy",
       "inflation",
       "economic_activity"
     ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "conditional",
+    "hor": false,
     "ris": "na",
     "wid": "none",
     "_note": "Forward guidance on potential further tightening ('additional firming'). The directional lean is hawkish — the sentence is explicitly about possible further rate increases, not cuts or holds. com=conditional: 'may be needed' and 'will depend on the evolution of the outlook' = data-dependent. hor=na (com=conditional, no specific horizon given). con=[inflation, economic_activity]: both explicitly named as the conditions ('inflation and economic growth'). dom=na — neither is stated as primary. ris=na — no explicit risk framing in this sentence (risks are referenced as context via 'these risks', but the sentence itself does not assert a directional skew). wid=none."

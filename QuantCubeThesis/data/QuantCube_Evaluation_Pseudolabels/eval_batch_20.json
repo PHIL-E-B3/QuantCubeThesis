@@ -10,10 +10,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -29,10 +28,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "conditional",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -48,10 +46,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -66,10 +63,9 @@
       "employment"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -84,10 +80,9 @@
       "economic_activity"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -102,10 +97,9 @@
       "economic_activity"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   },
@@ -118,16 +112,13 @@
     "context_question": "Heather Long from the Washington Post. Last week, the IMF said risks are clearly skewed to the downside for the U.S. and global economy. Can you clarify— does the FOMC see risks as skewed to the downside, particularly after you removed the statement about risks being balanced?",
     "top": [
       "financial_conditions",
-      "macro"
+      "macro",
+      "economic_activity"
     ],
     "sen": "hawkish",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -139,16 +130,13 @@
     "date": "20190320",
     "context_question": null,
     "top": [
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "near_term",
-    "com": "none",
-    "con": [
       "inflation",
       "economic_activity"
     ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
     "ris": "na",
     "wid": "contested"
   },
@@ -163,36 +151,11 @@
       "employment"
     ],
     "sen": "neutral",
-    "ten": "na",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "employment"
-    ],
     "ris": "na",
     "wid": "none"
-  },
-  {
-    "id": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations.",
-    "source": "FOMCpresconf20190501.pdf",
-    "doc_type": "press_conference_prepared",
-    "date": "20190501",
-    "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
-    "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
-    "ris": "na",
-    "wid": "elevated",
-    "was_merged": true
   },
   {
     "id": "de4dc246-4b80-4eb0-9460-0f879beb1978",
@@ -205,10 +168,9 @@
       "no_topic"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "contested"
   },
@@ -224,12 +186,9 @@
       "macro"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "macro"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -245,13 +204,9 @@
       "macro"
     ],
     "sen": "neutral",
-    "ten": "present",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "economic_activity",
-      "macro"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -266,12 +221,9 @@
       "employment"
     ],
     "sen": "neutral",
-    "ten": "forward",
-    "hor": "na",
+    "ten": "interpretive",
+    "hor": false,
     "com": "none",
-    "con": [
-      "employment"
-    ],
     "ris": "na",
     "wid": "none"
   },
@@ -286,10 +238,9 @@
       "monetary_policy"
     ],
     "sen": "neutral",
-    "ten": "backward",
-    "hor": "na",
+    "ten": "descriptive",
+    "hor": false,
     "com": "none",
-    "con": [],
     "ris": "na",
     "wid": "none"
   }
