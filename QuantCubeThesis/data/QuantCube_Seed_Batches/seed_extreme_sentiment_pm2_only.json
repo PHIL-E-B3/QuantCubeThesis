@@ -1,0 +1,3259 @@
+[
+  {
+    "id": "6b714702-2fbd-4301-a929-aa4ef0a62433",
+    "sentence": "After surging in the first quarter ahead of expected tariff hikes, U.S. imports—especially of consumer goods—declined sharply in April.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "124a66c8-ebb9-4a8b-b981-cf40fd0e7a85",
+    "sentence": "The surge in demand for cash, combined with the inelastic supply of money in the short term, caused financial conditions to tighten seasonally.",
+    "source": "A History of the Fed's Discount Window: 1913â2000",
+    "doc_type": "speech",
+    "date": "2024-10-08",
+    "context_question": null,
+    "top": [ "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "cc8bed34-75dc-44ec-a077-52b27e609219",
+    "sentence": "Participants' contacts also reported continued widespread input cost pressures, which, amid generally robust demand, they reported having largely been able to pass on to their customers.",
+    "source": "minutes_20220126.html",
+    "doc_type": "minutes",
+    "date": "20220126",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "39bc09a2-d7aa-4544-8475-bf5788a63626",
+    "sentence": "Policy\r\nAlthough continued vigilance is warranted, the inflation and employment data thus far appear to reflect a temporary misalignment of supply and demand that should fade over time as the demand surge normalizes, reopening is completed, and supply adapts to the post-pandemic new normal.",
+    "source": "Remaining Steady as the Economy Reopens",
+    "doc_type": "speech",
+    "date": "2021-06-01",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "unemployment"
+    ],
+    "sen": 0,
+    "ten": "present",
+    "hor": "none",
+    "com": "conditional",
+    "con": [
+
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "28469d40-78ad-4c38-8604-b3f57ee969c1",
+    "sentence": "Job losses surged in March, even though the drop in total nonfarm payroll employment reflected only those changes that had occurred through the mid-month reference period of the establishment survey. In addition, the unemployment rate jumped to 4.4 percent in March, and the labor force participation rate decreased notably.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [      "unemployment"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+  
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b497bb29-6675-4360-af7d-0bf8032d89de",
+    "sentence": "Stock price indexes were extremely volatile, and the one-month option-implied volatility on the S&P 500 index soared, sometimes reaching levels not seen since the fall of 2008.",
+    "source": "minutes_20200315.html",
+    "doc_type": "minutes",
+    "date": "20200315",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+
+  {
+    "id": "4f37d367-b296-4510-b478-c868c339efd6",
+    "sentence": "But supply chains were slower to recover, leading to a global surge in inflation.",
+    "source": "The Dual Mandate and the Balance of Risks",
+    "doc_type": "speech",
+    "date": "2024-03-25",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "134f3daf-cfec-491c-a1e0-926a20e350c4",
+    "sentence": "Al­though reserves are projected to be above $1.5 trillion before April, a surge in the Treasury General Account balance during the April tax season is expected to briefly reduce reserve levels and, in the absence of repo operations, bring reserves down temporarily to around $1.5 trillion.",
+    "source": "minutes_20200129.html",
+    "doc_type": "minutes",
+    "date": "20200129",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "34bd19ec-85d3-492c-b74b-2afc008acb10",
+    "sentence": "A couple of aspects of this surge in business entry in the U.S. are noteworthy.",
+    "source": "  Entrepreneurship and Aggregate Productivity",
+    "doc_type": "speech",
+    "date": "2025-02-07",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a5c29a59-30c3-4300-9527-de4da6c88bf9",
+    "sentence": "This may have been the situation in the United States in the late 1990s, when productivity growth surged and inflation declined.",
+    "source": "Globalization, Macroeconomic Performance, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2007-09-27",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
+    "sentence": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
+    "source": "Developing Communities through Public-private Partnerships",
+    "doc_type": "speech",
+    "date": "2026-03-24",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "306dcbd8-9911-4e46-a33e-72263e4b5531",
+    "sentence": "While the early spend-out from fiscal support in the first quarter of this year was exceptionally strong, whether that strength will be maintained depends in part on the distribution of the remaining additional savings.",
+    "source": "Remaining Steady as the Economy Reopens",
+    "doc_type": "speech",
+    "date": "2021-06-01",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "f24cb9d7-431e-4300-85cc-01c736818855",
+    "sentence": "As everyone knows, the trigger was losses associated with soaring delinquencies on U.S. subprime mortgages that were originated from 2005 through early 2007, a period during which underwriting standards for such mortgages weakened dramatically.",
+    "source": "Money Markets and Financial Stability",
+    "doc_type": "speech",
+    "date": "2008-05-29",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3f389e70-ab88-4ec1-9e65-f7bd93c1a186",
+    "sentence": "The combination of the surge in goods demand with supply chain bottlenecks led to sharply rising goods prices (figure 4).",
+    "source": "Restoring Price Stability",
+    "doc_type": "speech",
+    "date": "2022-03-21",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "37b1bc10-7cdb-4dc3-99f3-9bf9453990d1",
+    "sentence": "While loan demand appears to be healthy, there are no reports from banks or other financial firms that loan demand is surging.",
+    "source": "The Effects of Tariffs on the Three Iâs: Inflation, Inflation Persistence, and Inflation Expectations",
+    "doc_type": "speech",
+    "date": "2025-06-01",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 1,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4210205b-6793-4ce4-b3ff-c77b7f4757dd",
+    "sentence": "Most forecasts [of actual growth] are significantly above that for 2022, and that's even with, with policy becoming substantially less accommodative. So the labor market's going to be strong for some time.",
+    "source": "FOMCpresconf20220126.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220126",
+    "context_question": "I was asking if you’re protecting the employment side of the mandate, whether there’s some sort of circuit breaker there.",
+    "top": [
+        "unemployment",
+      "economic_activity"    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d4119224-4ef9-48de-89e8-7dce8f3d9faf",
+    "sentence": "In particular, the January employment report came in substantially stronger than I and most forecasters and market participants expected.",
+    "source": "Labor Market Data: Signal or Noise?",
+    "doc_type": "speech",
+    "date": "2026-02-23",
+    "context_question": null,
+    "top": [
+      "unemployment"    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1088463d-80df-4953-a640-00571ff4195f",
+    "sentence": "In addition, the Bureau of Labor Statistics' measure of the job openings rate was at a record high in March, and the quits rate--the share of employees voluntarily leaving their jobs--has moved up and in March stood close to its pre-recession levels.",
+    "source": "Current Conditions and the Outlook for the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2016-06-06",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+   
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "04c9d67a-69bc-425a-ba38-0b8107db34e8",
+    "sentence": "In anticipation of future productivity gains, we already see soaring AI-related business investment in data centers and chips, despite interest rates broadly being elevated relative to levels over the past 20 years.",
+    "source": "Opening Remarks for the âAI and Productivity across the Economyâ Panel",
+    "doc_type": "speech",
+    "date": "2026-02-24",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f8960471-716b-4cf9-9f4d-64030a7fd1a0",
+    "sentence": "Inflation is running well above target, and growth is well above potential.",
+    "source": "FOMCpresconf20211215.json",
+    "doc_type": "press_conference_qa",
+    "date": "20211215",
+    "context_question": "Thank you, Michelle. Chair Powell, I’m curious exactly how much distance you think there should be between the end of the taper and the first interest rate increase. Back in 2014, the guidance was—that was given was for the fed funds rate to remain at the target level for a considerable time after the end of the asset purchase program. Is that an approach you support now? Or does the current economic situation warrant something a bit different? Thank you.",
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3f4914f5-ec4a-47d8-bd8e-4af98c112335",
+    "sentence": "Freed from the constraints of the Glass-Steagall Act by incremental regulatory changes that were expanded and codified in the Gramm-Leach-Bliley Act of 1999, the very largest banking organizations have significantly increased their capital markets businesses, including arranging and underwriting securitizations, securities custody, prime brokerage, and both over-the-counter and exchange-traded derivatives.",
+    "source": "The Changing Business of Banking: Implications for Financial Stability and Lessons from Recent Market Turmoil",
+    "doc_type": "speech",
+    "date": "2008-04-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4aa563a5-c2c1-48dd-a7df-b4c6a4541736",
+    "sentence": "Perhaps most important, house prices, while substantially above their recent lows, do not appear broadly elevated relative to rents or disposable income, in contrast to conditions a decade ago.",
+    "source": "Financial Stability and Shadow Banks: What We Don't Know Could Hurt Us",
+    "doc_type": "speech",
+    "date": "2015-12-03",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5461052b-8f6d-464a-bf40-386a9cdbda63",
+    "sentence": "The backdrop for these developments has been an economy that has continued to grow at a solid pace, supported by resilient consumer spending, substantial productivity growth over the past several years, and exceptionally strong business investment in artificial intelligence (AI) and data centers.",
+    "source": "Brief Remarks on the Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-03-26",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "75d8c861-da08-4305-8280-b353b7b3e786",
+    "sentence": "The U.S. international trade deficit widened at the end of last year to a record high and surpassed that high at the beginning of this year.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "58fc6995-8247-4d48-b9d5-48534f38776d",
+    "sentence": "The unemployment rate, which reached a 50-year low of 3.5 percent as recently as February of this year, surged to 14.7 percent in April, an 80-year high. In May, there was a notable rebound in employment and decline in unemployment, and these developments are certainly welcome.",
+    "source": "U.S. Economic Outlook and Monetary Policy (via prerecorded video)",
+    "doc_type": "speech",
+    "date": "2020-06-16",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "sen": -1,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "70082a3f-e94f-415c-a666-d2c18cb77f63",
+    "sentence": "Inventory investment moved lower after surging in the fourth quarter of 2021, and total real government purchases declined further, led by a drop in defense purchases.",
+    "source": "minutes_20220504.html",
+    "doc_type": "minutes",
+    "date": "20220504",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b9e16494-0209-4ccd-98a7-66359ffddaf6",
+    "sentence": "Small business owners in Brushton say that this growth in credit card usage has significantly increased the cost of doing business.",
+    "source": "Trends in Urban and Rural Community Banks",
+    "doc_type": "speech",
+    "date": "2018-10-04",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "79b3f3f8-7dce-4f64-900d-d1c718f334cd",
+    "sentence": "Over the course of the past two years, a variety of negative shocks have affected the U.S. economy, but employment has resumed robust growth after each temporary slowdown: This recovery has been and continues to be powerful in terms of one of our two main targets--employment--and it is my view that the labor market is close to full employment.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2016-11-04",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4d95f0d8-58f5-4a8d-a508-beaa01cb1c43",
+    "sentence": "The Outlook for Consumer Prices\nTurning now to the outlook for U.S. consumer prices, I anticipate that the recent surge in commodity prices will cause headline inflation to remain elevated over the next few months.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ec00fcf1-ce31-4ac2-872b-fb31ea7c334f",
+    "sentence": "The surge in manufacturing production was led by appreciable gains in the output of motor vehicles and related parts following extended automaker shutdowns from mid-March through April.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "9592b7d8-e924-4b69-adbd-6d1229e2a298",
+    "sentence": "Even with these gains, wages have not kept pace with inflation, which has made it much more difficult for many workers to make ends meet in the face of soaring housing, energy, and food costs.",
+    "source": "The Outlook for Inflation and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2022-06-23",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "c984fdba-3a5f-4c91-a8a4-3ff14a3973aa",
+    "sentence": "But pent-up demand, stimulative policies, pandemic changes in work and leisure practices, and the additional savings associated with constrained services spending all contributed to a historic surge in consumer spending on goods.",
+    "source": "Review and Outlook",
+    "doc_type": "speech",
+    "date": "2024-08-23",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0ef5a286-ab71-48d3-8db0-95b7d317ef47",
+    "sentence": "The labor market remained very tight, with robust job gains in recent months and the unemployment rate still low, but there were some signs that supply and demand in the labor market were coming into better balance. The economy was facing headwinds from tighter credit conditions, including higher interest rates, for households and businesses, which would likely weigh on economic activity, hiring, and inflation, al­though the extent of these effect remained uncertain.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation",
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "c0095e28-9fcd-41e4-a87c-8df873a208f4",
+    "sentence": "The unemployment rate, which was at a 50âyear low of 3.5 percent as recently as February, surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May.",
+    "source": "U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2020-05-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "b5bdcc0d-dd55-4649-8627-8dadf87492a2",
+    "sentence": "The third-quarter slowdown appeared to reflect a combination of factors, including the waning effect of previous fiscal stimulus measures, the surge in COVID-19 cases over the summer, and a plunge in motor vehicle purchases as extremely low dealer inventories constrained sales.",
+    "source": "minutes_20211103.html",
+    "doc_type": "minutes",
+    "date": "20211103",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3817f123-e8bb-4a3f-8863-9fdbe6d48839",
+    "sentence": "The U.S. experienced a surge in new business formation since the start of the pandemic.",
+    "source": "An Assessment of the Economy and Financial Stability",
+    "doc_type": "speech",
+    "date": "2025-01-06",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "7b143146-27bf-477f-a534-bdf8770bf1d7",
+    "sentence": "Auto lending also has reportedly been solid, reflecting strong fundamentals in auto markets--such as robust demand for used cars and relatively low delinquency rates on existing auto loans.",
+    "source": "Banks and Bank Lending: The State of Play",
+    "doc_type": "speech",
+    "date": "2012-05-10",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "7cc4b88a-78ca-4534-bedd-a5737a54a51c",
+    "sentence": "Over the past seven years, FOMC participants have continually revised down their estimates of long-run u* and r* as the unemployment rate fell and historically low policy rates did not trigger a surge in inflation and inflation expectations above target.",
+    "source": "Monetary Policy Outlook for 2019",
+    "doc_type": "speech",
+    "date": "2019-01-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "51b905ff-6ff6-4abe-8782-13ac14e02f89",
+    "sentence": "These additional data are likely to be particularly valuable when the economy is undergoing major structural changes--for example, the productivity slowdown starting around the early 1970s, the surge and subsequent slowdown in population growth from the baby-boom generation's entry and (now) exit from the labor force, the remarkable upsurge in labor participation of females in the 1970s and 1980s, and the pickup in productivity growth starting in the second half of the 1990s.",
+    "source": "Estimating Potential Output",
+    "doc_type": "speech",
+    "date": "2007-05-24",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "17a43881-7ad1-4d7e-bffe-d61067e02aca",
+    "sentence": "The 12-month change in total and core PCE prices was well above 2 percent in May, and available data suggested that PCE price inflation would remain high in June.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "687021d1-97a4-4eab-bef4-959868e1cd23",
+    "sentence": "Rather, their task is to determine the risks imposed on the system as a whole if common exposures significantly increase the correlation of returns across institutions.",
+    "source": "Reducing Systemic Risk",
+    "doc_type": "speech",
+    "date": "2008-08-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ec9c0e76-04a4-4f54-b79d-caa45ecdc7df",
+    "sentence": "We are, of course, mindful of the statements by some of the 19 participating bank holding companies that certain loss rates produced by the Federal Reserve's model for the 2012 stress test significantly exceeded their own estimates.",
+    "source": "Developing Tools for Dynamic Capital Supervision",
+    "doc_type": "speech",
+    "date": "2012-04-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "13ec9857-0c95-484b-aaaf-a450394f07c6",
+    "sentence": "The risks to my forecast are if shelter inflation picks up again, or if core goods inflation remains well above 2 percent.",
+    "source": "The Inflation Outlook",
+    "doc_type": "speech",
+    "date": "2025-12-15",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "06d03dfe-ecfa-4baa-8a61-ec316abe28fb",
+    "sentence": "One-month option-implied volatility on the S&P 500 index—the VIX—increased moderately, on balance, remaining elevated relative to its historical distribution and significantly above average pre-pandemic levels.",
+    "source": "minutes_20220615.html",
+    "doc_type": "minutes",
+    "date": "20220615",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7d12ef97-3055-4285-9b49-072970cf6389",
+    "sentence": "Another factor counted against measured GDP growth in the first quarter was a surge in imports, likely an anticipatory effect caused by the prospect of the new tariffs, which probably won't continue.",
+    "source": "A Tale of Two Outlooks",
+    "doc_type": "speech",
+    "date": "2025-04-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "501f8241-e968-4549-a815-adceeb0ebd57",
+    "sentence": "All the suspected drivers of this surge in inflation appeared to be temporary: the one-time stimulus from fiscal policy, supply chain shocks that previous experience indicated would ease soon, and a surge in demand for goods.",
+    "source": "Reflections on Monetary Policy in 2021",
+    "doc_type": "speech",
+    "date": "2022-05-06",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "f33920d6-9955-42a6-acb5-5a106f1e9085",
+    "sentence": "Of the many explanations for this phenomenon that have been offered, one possibility that we have to keep in mind is that inflation has remained stable precisely because of the public's confidence that the Fed will maintain a framework that keeps the economy from overheating and inflation from rising significantly above the 2 percent benchmark.",
+    "source": "Frameworks for the Countercyclical Capital Buffer ",
+    "doc_type": "speech",
+    "date": "2019-03-29",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "c0ecf8d8-305c-4501-8283-7318803b0a11",
+    "sentence": "And, but, nonetheless, in the base case, there's a pretty broad expectation of strong growth. But inflation is far above our target.",
+    "source": "FOMCpresconf20220316.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220316",
+    "context_question": "Mr. Chairman, since September of 2020, you’ve been operating on a monetary policy framework that let the economy run hot to bring unemployment down. That seems to be over. But I’m wondering how you would describe your reaction function now. What is it that the Fed is trying to do other than bring inflation down? In other words, is it, we’re going to keep raising rates until it comes down to an acceptable level?",
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "333db914-8ee1-44b7-a4d5-b86195191b05",
+    "sentence": "The low rates helped the government finance the war, but after the war ended, inflation soared.",
+    "source": "Brief Remarks",
+    "doc_type": "speech",
+    "date": "2019-10-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "e1de9da9-6dd0-4e9e-bded-8b6241535864",
+    "sentence": "I would urge caution, particularly for countries like the United States with highly developed banking systems and ongoing robust demand for physical cash.",
+    "source": "Thoughts on Prudent Innovation in the Payment System",
+    "doc_type": "speech",
+    "date": "2017-11-30",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5fd9fc6e-00c6-46d4-b4da-a8c6e87bdf6d",
+    "sentence": "The basic point from these simulations is that monetary policy that responds to headline inflation rather than to core inflation in response to an oil price shock pushes unemployment markedly higher than monetary policy that responds to core inflation. In addition, because this policy has larger swings in the federal funds rate that must be reversed, it leads to more pronounced swings in unemployment.",
+    "source": "Does Stabilizing Inflation Contribute to Stabilizing Economic Activity?",
+    "doc_type": "speech",
+    "date": "2008-02-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459",
+    "sentence": "The current configuration of quotes on futures contracts--which can serve as a reasonable benchmark in gauging the outlook for commodity prices--suggests that these prices will roughly stabilize near current levels or even decline in some cases. If that outcome materializes, the prices of gasoline and heating oil are likely to flatten out fairly soon, and retail food prices are likely to continue rising briskly for only a few more months. Consequently, the direct effects of the surge in commodity prices on headline consumer inflation should diminish sharply over coming months.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5498a342-b860-406f-bf14-6260b7f6f092",
+    "sentence": "The staff expected the 12‑month change in PCE prices to move down gradually over the second part of 2021, reflecting an anticipated moderation in monthly inflation rates and the waning of base effects; even so, PCE price inflation was projected to be running well above 2 percent at the end of the year.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "8f0b4661-97e9-46ff-a31c-4704e8d4d01c",
+    "sentence": "So we did judge that a 75 basis point increase was the right magnitude in light of the data and in the context of the ongoing increases in the policy rate that we've been making.",
+    "source": "FOMCpresconf20220727.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220727",
+    "context_question": "Hi, Chair Powell. Thanks for taking our questions. Rachel Siegel from the Washington Post. I’m wondering if you can walk us through your thinking around the decision not to go for a full percentage point increase. We saw a ramp-up after the May CPI report came in hotter than usual and then, obviously, the June figure did, too. Was there any discussion of a stronger hike at this meeting? Yes. Thank you.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4a83003c-ead4-4518-8878-84380c4c68d2",
+    "sentence": "Unusually strong consumer goods spending last year softened in the first quarter of this year, largely accounting for the step-down in PDFP growth.",
+    "source": "Remarks on the Economic Outlook and Financial Inclusion",
+    "doc_type": "speech",
+    "date": "2024-08-20",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "8a4f3188-a4a3-466e-a7d2-d6af5503d966",
+    "sentence": "In the first half of the 20th century, the American automotive industry was born here and the labor force in Detroit surged, along with the local economy.",
+    "source": "Economic Outlook and the Labor Market",
+    "doc_type": "speech",
+    "date": "2026-04-07",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "2aa732f4-689d-4eb6-ad8f-918aae04d762",
+    "sentence": "Six months ago, I would not have thought that we would be where we are today, with inflation so far from our target, after significantly tightening policy with a series of large rate increases and by shrinking the balance sheet.",
+    "source": "The Economic Outlook: Time to Let the Data Do the Talking",
+    "doc_type": "speech",
+    "date": "2022-09-09",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "1472ec3d-d61c-477c-8b16-7edf5bdd8b11",
+    "sentence": "I believeâand most outside observers agreeâthat this easing of financial conditions is, at least in part, a direct consequence of the actions the Federal Reserve took at our March 15 meeting, the subsequent announcements over the following days of the creation of nine new credit facilities to support the flow of credit to households and companies, the robust expansion of our existing foreign exchange swap arrangements with major foreign central banks, and the establishment of a new FIMA (Foreign and International Monetary Authorities) Repo Facility with potential eligibility for a broad range of countries.",
+    "source": "U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2020-05-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "financial_conditions",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "99a0cbf8-7022-4177-9cdf-f596df7b694c",
+    "sentence": "In addition, the indirect effects of the commodity price surge could be amplified substantially if longer-run inflation expectations started drifting upward or if nominal wages began rising sharply as workers pressed employers to offset realized or prospective declines in their purchasing power.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3fbdceb8-f678-44ca-9b42-728650e3cf47",
+    "sentence": "Inflation has been elevated for some time and prices of commodities are surging. I find these trends particularly vexing at a time when global demand growth, most likely, has slowed.",
+    "source": "The Federal Funds Rate in Extraordinary Times",
+    "doc_type": "speech",
+    "date": "2008-05-21",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "3c384174-ae7c-4a81-9dc2-22ae4491a5b2",
+    "sentence": "Moreover, new business formation surged and has remained strong.",
+    "source": "What Will Artificial Intelligence Mean for the Labor Market and the Economy?",
+    "doc_type": "speech",
+    "date": "2026-02-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "480475aa-dd79-40cf-8ab5-326f62846a7e",
+    "sentence": "New risk-based capital rules have substantially increased the amount of capital that dealers are required to hold against assets in the trading book.",
+    "source": "Shadow Banking and Systemic Risk Regulation",
+    "doc_type": "speech",
+    "date": "2013-11-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d4c2dacd-f5dd-4ea5-a277-d3335c0d6a52",
+    "sentence": "Transitory inflationary pressures are possible if there is a surge of demand that outstrips supply in certain sectors when the economy opens up fully.",
+    "source": "U.S. Economic Outlook and Monetary Policy: An Update",
+    "doc_type": "speech",
+    "date": "2021-03-02",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "44b641db-67db-4126-a40c-d1906a16fe1c",
+    "sentence": "Over time, I anticipate that the recent surge in commodity prices will also affect the prices of a broader range of consumer goods and services that use these commodities as inputs.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "c528562a-307d-46c2-91d2-747ce6f61c2b",
+    "sentence": "Recent 12-month change measures of inflation, using either PCE prices or the consumer price index (CPI), had been boosted by base effects as the extremely low inflation readings from the spring of 2020 rolled out of the calculation. In addition, a surge in demand as the economy reopened further, combined with production bottlenecks and supply constraints, had pushed up recent monthly price increases.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "2d367c63-53ac-43bf-8d15-7f2981670350",
+    "sentence": "Recently, headline inflation has been pushed higher by sizable increases in food and energy prices; crude oil prices have surged, and food prices have risen significantly, reflecting strong global demand in general as well as hefty demand in particular for corn for use in ethanol production.",
+    "source": "Outlook and Risks for the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2008-03-04",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity",
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d39db3a4-386e-40eb-8a84-0dadaacf625b",
+    "sentence": "However, following the June meeting and press conference, market yields moved sharply higher. For example, between the FOMC meetings of June and September, the 10-year Treasury yield rose about 3/4 percentage point and rates on MBS increased by a similar amount.",
+    "source": "Communication and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-11-19",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "11f9f874-39d7-4f13-9e8c-69392e987e2c",
+    "sentence": "At the same time, the capital proposal would substantially increase regulatory capital buffer and minimum requirements for the covered firms.",
+    "source": "New Yearâs Resolutions for Bank Regulatory Policymakers",
+    "doc_type": "speech",
+    "date": "2024-01-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "04e6c771-96bb-475d-a05c-6433db7f4dd4",
+    "sentence": "If expectations move significantly above our 2 percent goal, it would make it more difficult to change people's perceptions about the duration of high inflation and potentially more difficult to get inflation under control.",
+    "source": "The Outlook for Inflation and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2022-06-23",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "b733aa1b-ed62-410f-9ab6-72eba5798577",
+    "sentence": "Several participants viewed the rise in the unemployment rates for groups historically more sensitive to cyclical changes in economic activity, the possibility that layoffs could push the unemployment rate sharply higher in a low-hiring environment, or the concentration of job gains in a few less cyclically sensitive sectors as potentially signaling greater fragility in the labor market.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "unemployment",
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "unemployment",
+      "financial_conditions"
+    ],
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "e3ebe69e-4a54-4a1b-ad07-91e5e7606e73",
+    "sentence": "Longer-Run Inflation Expectations\r\n In this regard, surveys and financial market data indicate that longer-run inflation expectations remain reasonably well anchored even though near-term inflation expectations have jumped in the wake of the surge in commodity prices. For example, the Thomson Reuters/ University of Michigan Survey of Consumers indicates that median inflation expectations for the coming year moved up about 1-1/4 percentage points in March, whereas the median expectation for inflation over the next 5 to 10 years increased only 1/4 percentage point.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "49fc683c-6d8d-4d72-ba93-4b8fc473cae3",
+    "sentence": "After the pandemic, new business creation surged and has continued to exceed the pre-pandemic pace since that time.",
+    "source": "Supporting Small Businesses",
+    "doc_type": "speech",
+    "date": "2026-03-31",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0fa096f3-58f5-40e4-ab7e-4087bebc70c0",
+    "sentence": "Reflecting market value fluctuations of all assets through the income statement would significantly increase the volatility of reported bank earnings, likely leading to changes in risk-management practices.",
+    "source": "Regulatory Perspectives on the Changing Accounting Landscape",
+    "doc_type": "speech",
+    "date": "2009-09-14",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "e5c149b7-7736-445d-b436-c2ddbda31ac1",
+    "sentence": "I do not think this explanation accounts for much of the surge in commodity prices, in part because I believe that the bulk of the rapid economic growth in EMEs mainly reflects fundamental improvements in productive capacity, as those countries become integrated into the global economy, rather than loose monetary policies.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "macro"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4fe1db65-a748-4813-8f4f-f49c08b1e1d6",
+    "sentence": "While inflation has been well above target for the past six months, affecting consumers and businesses alike, it previously spent roughly a quarter century below 2 percent.",
+    "source": "Navigating Delta Headwinds on the Path to a Full Recovery",
+    "doc_type": "speech",
+    "date": "2021-09-27",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5fa86c82-6249-4e90-b4c4-4fe69f5d0e22",
+    "sentence": "Measures of trading costs widened as daily trading volumes for both on- and off-the-run securities surged.",
+    "source": "Some Preliminary Financial Stability Lessons from the COVID-19 Shock ",
+    "doc_type": "speech",
+    "date": "2021-03-01",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8cf737b5-29bd-4ff3-b83f-515d6fb55ced",
+    "sentence": "Many predicted that the surge in new business creation would disappear as effects of the pandemic have faded, but this has not really happened.",
+    "source": "  Entrepreneurship and Aggregate Productivity",
+    "doc_type": "speech",
+    "date": "2025-02-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "8d1cd6e0-1226-4c68-9b6f-f3aca6c49fa3",
+    "sentence": "The labor force participation rate for prime-age women reached historic highs over the past year and reached yet another historic record high in August.",
+    "source": "How We Got Here:  A Perspective on Inflation and the Labor Market",
+    "doc_type": "speech",
+    "date": "2024-09-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "15b9b485-9928-402c-8311-054b598eb273",
+    "sentence": "Some participants discussed the heightened volatility seen across a range of asset markets over the first half of April, noting that markets had continued to function and were able to accommodate a surge in trading volumes despite lower measures of liquidity.",
+    "source": "minutes_20250507.html",
+    "doc_type": "minutes",
+    "date": "20250507",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ed7c7b26-c9ee-46c7-accc-f069d380eeab",
+    "sentence": "In addition, the surge in housing and stock prices substantially raised the wealth levels of many in this age group, and this factor may have reduced some households' reliance on labor income.",
+    "source": "The Dual Mandate and the Balance of Risks",
+    "doc_type": "speech",
+    "date": "2024-03-25",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3d9588b7-8937-4375-9ad5-7f0dddf6799f",
+    "sentence": "Core goods prices fell the past two months, but on a 12-month basis, core goods inflation remains well above its pre-pandemic level.",
+    "source": "Inflation:  Progress and the Path Ahead",
+    "doc_type": "speech",
+    "date": "2023-08-25",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ae86937e-0cb4-4e00-9dc3-010bb667e312",
+    "sentence": "Some participants commented that the recent surge in virus cases in Europe and the reimposition of restrictions there could lead to a slowdown in economic activity in the euro area and have negative spillover effects on the U.S. recovery.",
+    "source": "minutes_20201105.html",
+    "doc_type": "minutes",
+    "date": "20201105",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "c28189a6-058a-412f-8019-e2f31dc3ed6e",
+    "sentence": "The market-implied path of the federal funds rate shifted sharply higher after market participants interpreted Federal Reserve communications—particularly those provided at the Jackson Hole symposium—along with incoming data, as indicating a more restrictive path of policy than previously expected.",
+    "source": "minutes_20220921.html",
+    "doc_type": "minutes",
+    "date": "20220921",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "conditional",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "7e9fee4e-aedd-4fab-96aa-e00969ca9906",
+    "sentence": "This is well above 2 percent. But it's also not the kind of inflation we were looking for.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "Hi. Thanks for taking my question. Chair Powell, I was going to go back to inflation a little bit. I’m just kind of surprised by your tone. It, it seems like you’re just sort of warning that, if inflation gets too high, you know, the Fed will act. Isn’t it true that, I mean, a little inflation is good for the economy and, and that we—if somehow maybe we can get the economy out of this sort of place where we’re always going to be close to the zero lower bound, isn’t there a good story to tell, and you’re sort of panicking people?",
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4aca7a70-849a-49e8-9802-dddf746ced5f",
+    "sentence": "But, on the contrary, with the exception of motor vehicles, we haven't seen a broad surge in the consumer spending, which overall is growing more slowly than it did in the second half of 2024.",
+    "source": "The Effects of Tariffs on the Three Iâs: Inflation, Inflation Persistence, and Inflation Expectations",
+    "doc_type": "speech",
+    "date": "2025-06-01",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "87be817f-eb9e-45fa-8241-a9bea502fc0d",
+    "sentence": "There is no longer a shortage of labor and, at least so far, no indication that tariffs are causing big disruptions in supply chains, as the recent surge in imports that I mentioned should attest.",
+    "source": "The Effects of Tariffs on the Three Iâs: Inflation, Inflation Persistence, and Inflation Expectations",
+    "doc_type": "speech",
+    "date": "2025-06-01",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "34d4910c-3c2e-417b-abe9-1f7e3d80c513",
+    "sentence": "Participants attributed the upside surprise to more widespread supply constraints in product and labor markets than they had anticipated and to a larger-than-expected surge in consumer demand as the economy reopened.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "b754d905-d642-48a8-85e3-fa0d73fa88c7",
+    "sentence": "In the past several years of the previous expansion, declines in the unemployment rate occurred in tandem with a notable and, to me, welcome increase in real wages that was accompanied by an increase in labor's share of national income, but not a surge in price inflation to a pace inconsistent with our price-stability mandate and well-anchored inflation expectations.",
+    "source": "The Federal Reserve's New Framework and Outcome-Based Forward Guidance",
+    "doc_type": "speech",
+    "date": "2021-04-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation",
+      "unemployment",
+      "economic_activity"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "635684eb-97dd-4ded-bf33-fac10751e03f",
+    "sentence": "Implementing this approach would significantly increase the required level of commitment and active engagement of the private-sector instant payment service operator from the outset.",
+    "source": "The Future of Retail Payments in the United States",
+    "doc_type": "speech",
+    "date": "2020-08-06",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d8f74677-5fae-4c1b-bd77-d1d768acae57",
+    "sentence": "Those decisions were to increase the target range for the federal funds rate in 75 basis point increments, and the federal funds rate now stands at 3 to 3-1/4 percent.",
+    "source": "Forward Guidance as a Monetary Policy Tool: Considerations for the Current Economic Environment",
+    "doc_type": "speech",
+    "date": "2022-10-12",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "9fe394cc-1b8f-472a-ab13-820487a719e3",
+    "sentence": "Several participants commented that monetary policy actions and communications had helped keep longer-term inflation expectations well anchored—a situation that would help facilitate the return of inflation to the Committee's longer-run goal of 2 percent. Nevertheless, with realized inflation well above that goal and the labor market still very tight, participants agreed that ongoing increases in the target range for the federal funds rate would be appropriate and would help keep longer-term inflation expectations well anchored.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "unconditional",
+    "con": [
+      "inflation",
+      "unemployment",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5f449b8a-90fb-4385-a8c9-f02542de2ced",
+    "sentence": "Oil prices fell over most of the summer but then more recently have surged.",
+    "source": "Thoughts on the Economy and Policy Rules at the Federal Open Market Committee",
+    "doc_type": "speech",
+    "date": "2024-10-14",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "2252810e-da55-40bc-997d-66cb7b2bd1f3",
+    "sentence": "Also, with the service sector shut down, demand surged for goods as spending on travel and other services halted and the negative labor supply shock led to a shortage of workers in goods production, delivery, and sales.",
+    "source": "The Effects of Tariffs on the Three Iâs: Inflation, Inflation Persistence, and Inflation Expectations",
+    "doc_type": "speech",
+    "date": "2025-06-01",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "f614941c-2f35-4b80-a97f-daac707a8ce0",
+    "sentence": "Members of the \"baby boom\" generation associated with the surge in births in the 20 years after World War II began to reach retirement age around the year 2008.",
+    "source": "One Transitory Shock After Another",
+    "doc_type": "speech",
+    "date": "2026-04-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "cb5d5a4a-9232-49c5-9cb2-0cd981435d5c",
+    "sentence": "She showed there some so-called optimal policy rules that come from trying to get the best possible outcomes from our quantitative econometric models, and what you see, if you look at that, is that the best possible outcomes, assuming perfect certainty, assuming perfect foresight -- very unrealistic assumptions -- still involve inflation staying quite close to 2 percent. So there is no presumption even in our econometric models that you need inflation well above target in order to make progress on unemployment.",
+    "source": "FOMCpresconf20120425.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120425",
+    "context_question": "Mr. Chairman, you’ve made the inflation target sound a little bit more like an inflation ceiling, and you suggested that a breaching of that ceiling or target would hurt the Fed’s credibility. Can you explain a little bit more about why you think going 50 basis points or a full percentage point above the 2 percent target would hurt the Fed’s credibility, and what that would do on the unemployment side if you were to do that?",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment"
+    ],
+    "sen": 2,
+    "ten": "present",
+    "hor": "none",
+    "com": "conditional",
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "faeec457-63b2-4082-8310-e2a47f7f0cad",
+    "sentence": "The ratio of bank loans to gross domestic product surged, and investment spending became the main driver of economic activity.",
+    "source": "How Should We Respond to Asset Price Bubbles? ",
+    "doc_type": "speech",
+    "date": "2008-05-15",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "dcb194eb-a67c-498a-ac42-3b18bf28b810",
+    "sentence": "Bond issuance by financial firms was strong in January and February, likely reflecting in part the refinancing of maturing debt that had been issued during the financial crisis under the Federal Deposit Insurance Corporation's Temporary Liquidity Guarantee Program.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "cecc9179-34b3-417e-892c-503c6e817513",
+    "sentence": "This effect highlights the fact that engaging in QE involves a tradeoff for the Federal Reserveâtrying to support the economy in serious economic downturns at the zero lower bound while creating a maturity mismatch between our assets and liabilities that brings interest rate risk onto our balance sheet.",
+    "source": "Demystifying the Federal Reserve's Balance Sheet",
+    "doc_type": "speech",
+    "date": "2025-07-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3e00554a-fd38-489e-808e-667ecf5e3da8",
+    "sentence": "These were all areas that were found wanting in the financial crisis, and it is essential that boards get these fundamentals right.",
+    "source": "The Role of Boards at Large Financial Firms",
+    "doc_type": "speech",
+    "date": "2017-08-30",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "219a3a5d-9fd7-4130-bac6-a6ecb23202ac",
+    "sentence": "Second, earlier this month, we raised the target range for the federal funds rate above the effective lower bound and signaled that more policy tightening is likely appropriate in coming months. As a result of these communications, mortgage rates began to increase in late 2021.",
+    "source": "The Red Hot Housing Market: the Role of Policy and Implications for Housing Affordability",
+    "doc_type": "speech",
+    "date": "2022-03-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3d0c61f3-ae15-4bf2-8e19-64fa6cf1ee84",
+    "sentence": "But the deterioration from early 2007 until early September 2008ââalready the worst financial disruption in the United States in many decadesââwas a slow trickle compared with the tidal wave that nearly wiped out the financial sector that September and led to a plunge in economic activity in the following months­.",
+    "source": "Financial Stability a Decade after the Onset of the Crisis",
+    "doc_type": "speech",
+    "date": "2017-08-25",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0b80c564-be21-4ddf-b147-0bbe6a965e43",
+    "sentence": "Yet the financial crisis and ensuing recession have revealed deficiencies in risk management in institutions of both types.",
+    "source": "Large Banks and Small Banks in an Era of Systemic Risk Regulation",
+    "doc_type": "speech",
+    "date": "2009-06-15",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5583b5bf-9b96-4326-b39e-fd0975a4fe93",
+    "sentence": "The rise in delinquencies in the subprime market has led to the collapse of some large subprime lenders and inflicted substantial losses on holders of subprime residential mortgage-backed securities (RMBS) and of some collateralized debt obligations (CDOs). As a result, underwriting standards have been tightened, and fewer households are qualifying for subprime loans.",
+    "source": "Outlook and Risks for the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2007-09-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "54a8ca2b-248b-4882-9f6f-d9abe42de810",
+    "sentence": "As my Federal Reserve colleagues and I have noted in the past, the pace of the economic recovery has been restrained by lingering effects of the financial crisis.",
+    "source": "Prospects for a Stronger Recovery",
+    "doc_type": "speech",
+    "date": "2013-05-16",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "b121d62c-5d3c-4e58-bbbf-ec3f140a5ddd",
+    "sentence": "During the second quarter of 2020, the unemployment rate jumped to a high of 14.8 percent and gross domestic product plunged at a 28 percent annual pace.",
+    "source": "The Intersection of Monetary Policy, Market Functioning, and Liquidity Risk Management",
+    "doc_type": "speech",
+    "date": "2024-02-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "48672de2-143f-4de7-9bbc-0359eaf0a8c4",
+    "sentence": "With a very low average inflation rate, monetary policy is also more likely to encounter circumstances in which short-term interest rates are constrained by the so-called zero lower bound on nominal interest rates.",
+    "source": "Comfort Zones, Shmumfort Zones",
+    "doc_type": "speech",
+    "date": "2008-03-27",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "inflation"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5a1dd78a-ab15-483a-b48d-27ef09281cc4",
+    "sentence": "In the financial panic of 1907, which involved depositor runs on banks and trust companies in New York and elsewhere, check clearinghouses struggled to obtain the liquidity needed to complete daily settlements.",
+    "source": "Clearinghouses, Financial Stability, and Financial Reform",
+    "doc_type": "speech",
+    "date": "2011-04-04",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0bf44c75-2ed0-4302-a962-401baa50efcd",
+    "sentence": "Highly inventive and courageous improvisation amid scenes of great drama helped avoid another Great Depression, but failed to prevent the most severe recession in 75 years.",
+    "source": "The Federal Reserve's Framework for Monitoring Financial Stability",
+    "doc_type": "speech",
+    "date": "2018-11-28",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "367fc9bc-aed9-435b-b497-e6b7441cb0b3",
+    "sentence": "People will -- there'll always be flaws in these things. But in real time, it was a remarkable achievement. And we responded. And what we were able to do was, you know, stave off a collapse of the financial system at the beginning and make time for what really needed to happen, which was the income replacement and then the recovery that Congress enabled with the",
+    "source": "FOMCpresconf20220126.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220126",
+    "context_question": "Thank you for taking my question. I want to ask you, with the benefit of hindsight, and I realize, I mean, that is what it is. But do you feel that, you know, monetary policy and fiscal policy maybe did too much to react to the crisis and that part of the inflation problem that we’re having right now is because the government response, you know, collectively was more than what the economy ended up needing?",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "614b22f0-8048-4fa2-8efe-bd01949ea003",
+    "sentence": "In addition, throughout much of the recovery, state and local government budgets have been highly contractionary, reflecting their adjustment to sharply declining tax revenues.",
+    "source": "The Federal Reserve:  Looking Back, Looking Forward",
+    "doc_type": "speech",
+    "date": "2014-01-03",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "97f741cd-5d14-4729-bccc-f95294b44f65",
+    "sentence": "Moreover, the macroeconomic priority in the 1980s in the United States, the United Kingdom, and other major countries was to do \"whatever it takes\" to break the back of inflation and to restore the credibility squandered by central banks that had been unable or unwilling to provide a nominal anchor after the collapse of the Bretton Woods system.",
+    "source": "Models, Markets, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2019-05-03",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "218840ba-65ce-4284-84b9-c2d361c0d30b",
+    "sentence": "Given that the 2007â2008 financial crisis was driven more by disruptions in the SFT markets than by disruptions in the over-the-counter derivative markets, comparable attention to SFT markets is surely needed.",
+    "source": "Shadow Banking and Systemic Risk Regulation",
+    "doc_type": "speech",
+    "date": "2013-11-22",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "6c79bf5e-8680-485e-9d4a-06b1872e4ca0",
+    "sentence": "Participants noted that, for any given degree of policy tightening, more-gradual sales that commenced later in the normalization process would allow for an earlier increase of the federal funds rate target from its effective lower bound than would be the case if asset sales commenced earlier and at a more rapid pace. As a result, the Committee would later have the option of easing policy with an interest rate cut if economic conditions then warranted.",
+    "source": "minutes_20110427.html",
+    "doc_type": "minutes",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "conditional",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "cc276579-1a06-4b80-872a-7966ddd770fb",
+    "sentence": "New domestic oil drilling has plunged over the past few months, and we have also seen a slowdown in activity in sectors that supply oil production companies, including steel and certain types of machinery.",
+    "source": "The Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-05-22",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "879db4cb-93cb-415d-8259-39ba39f8a319",
+    "sentence": "The FOMC has employed such forward guidance since 2003 but has relied more heavily on it since December 2008, when the target for the federal funds rate was reduced to its effective lower bound.",
+    "source": "Challenges Confronting Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-03-02",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "conditional",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "2df51e6a-331d-4c63-a2e7-79bddf759b2c",
+    "sentence": "Members viewed the information received over the intermeeting period as indicating that economic growth had picked up recently, following a sharp slowdown during the winter due in part to unusually severe weather conditions.",
+    "source": "minutes_20140430.html",
+    "doc_type": "minutes",
+    "date": "20140430",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "37139fa5-15d0-40a2-bc73-1acfa9cbce91",
+    "sentence": "Participants pointed to recent available indicators, including survey-based measures of job availability, as being consistent with layoffs and hiring having remained low as well as a labor market that had gradually softened through September and October but had not sharply deteriorated.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "a94dea80-5730-4410-acc4-c27890ad4f2f",
+    "sentence": "In the case of the recent global financial crisis and recession, I would apportion responsibility to inadequacies in both the monetary and financial systems.",
+    "source": "Improving the International Monetary and Financial System",
+    "doc_type": "speech",
+    "date": "2011-03-04",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3715f833-701d-4742-a32f-394366b5dd51",
+    "sentence": "In this highly unusual situation, and with the normal response of monetary policy interest rates constrained by the zero lower bound, we consider it especially important that we convey as clearly as possible our policy intentions to market participants as they formulate their own expectations for the future path of interest rates.",
+    "source": "Monetary Policy in the Crisis: Past, Present, and Future",
+    "doc_type": "speech",
+    "date": "2010-01-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "80ae8eef-68a9-4b3a-bf13-a96c265822bd",
+    "sentence": "Many industrial countries were affected by the financial crisis from the beginning, but the latest economic data point to a more noticeable weakening of conditions.",
+    "source": "Federal Reserve Policies in the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2008-12-01",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "be688ebb-3fba-4e1f-a1e4-9fc66f1ddd98",
+    "sentence": "Central bankers have been working closely together throughout this period of financial turmoil.",
+    "source": "Policy Coordination Among Central Banks ",
+    "doc_type": "speech",
+    "date": "2008-12-14",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ef7810e3-d09b-4b0a-b349-a6126cee4a20",
+    "sentence": "The arc from the collapse of the Berlin Wall to the response to the COVID-19 pandemic is this: Ideas and actions can change the course of communities and countries.",
+    "source": "Commencement Remarks",
+    "doc_type": "speech",
+    "date": "2022-05-25",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "1f476406-9b7a-4356-a459-74b74fdc418f",
+    "sentence": "Effects of Monetary Accommodation since the Global Financial Crisis\r\nDuring the period of extensive monetary accommodation after the 2007-08 global financial crisis, there has been heightened concern about the international spillovers of monetary policies--and of ours, in particular.",
+    "source": "The Federal Reserve and the Global Economy",
+    "doc_type": "speech",
+    "date": "2014-10-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions",
+      "macro"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d7e523fc-b28a-4c11-90cf-707602f6e97e",
+    "sentence": "Critical financial markets were near collapse.",
+    "source": "Baccalaureate Remarks",
+    "doc_type": "speech",
+    "date": "2025-05-25",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ab450931-af8b-48bc-9147-3400bd2fd0c0",
+    "sentence": "Several participants remarked that declines in the neutral rate of interest and in term premiums over the past decade and prevailing low levels of longer-term yields would likely act as constraints on the effectiveness of asset purchases in the current environment and noted that these constraints were not as acute when the Committee implemented such programs in the wake of the Global Financial Crisis.",
+    "source": "minutes_20200610.html",
+    "doc_type": "minutes",
+    "date": "20200610",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "financial_conditions",
+      "macro"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "8bbbe7be-f52c-4f96-b8de-40da3e20c624",
+    "sentence": "Foreign economic activity plunged in the second quarter as a result of the COVID-19 pandemic and the associated restrictive measures to contain it. With some of these measures having been rolled back in recent months, economic indicators pointed to a large, but partial, rebound in most foreign economies in the third quarter.",
+    "source": "minutes_20200916.html",
+    "doc_type": "minutes",
+    "date": "20200916",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "98631859-9646-4633-9b8a-a4b5f83e5943",
+    "sentence": "Strong pre-GFC net inflows to major emerging markets (the black line)--hovering in the neighborhood of 3 to 4 percent of EME gross domestic product (GDP)--were interrupted by a collapse during the crisis, but inflows quickly recovered and stayed strong through 2010.",
+    "source": "Prospects for Emerging Market Economies in a Normalizing Global Economy",
+    "doc_type": "speech",
+    "date": "2017-10-12",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "3ae5875f-4bdb-4ab5-84f6-87a61a970c2c",
+    "sentence": "The stance of monetary policy at any given time, in turn, is driven largely by the economic outlook, the risks surrounding that outlook, and at times other factors, such as whether the zero lower bound on nominal interest rates is binding.",
+    "source": "Long-Term Interest Rates",
+    "doc_type": "speech",
+    "date": "2013-03-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "none"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5a8cb7b8-bf22-42d6-9a1f-eb2095fe929a",
+    "sentence": "More recently, of course, the Federal Reserve took controversial but necessary measures to arrest what was arguably the worst financial crisis in American history, helping to avert what likely would have been a much more severe economic downturn than the Great Recession we did experience.",
+    "source": "Concluding Remarks",
+    "doc_type": "speech",
+    "date": "2013-12-16",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "ee6e6792-afd5-479d-a6ee-b215f1c52e9c",
+    "sentence": "But it is also worth remembering that financial imbalances played a key role in each of the past three U.S. downturns--the risky investments and maturity mismatches associated with the savings and loan crisis and junk bond collapse; the tech boom and bust; and, most dramatically, the subprime crisis.",
+    "source": "Assessing Financial Stability over the Cycle",
+    "doc_type": "speech",
+    "date": "2018-12-07",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0e63de5b-a02b-46f3-97f0-86e1cd9fc5b1",
+    "sentence": "These included, in particular, the residual effects of the financial crisis, which are likely to continue to constrain spending and credit availability for some time.",
+    "source": "FOMCpresconf20150617.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "208b957d-3229-4351-b546-b46c2c2c4291",
+    "sentence": "Maintaining our sizable holdings of longer-term securities should help maintain accommodative financial conditions and should reduce the risk that the federal funds rate might return to the effective lower bound in the event of future adverse shocks.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "conditional",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "6fb3788e-08f1-4255-a7af-2cb4527d4a17",
+    "sentence": "But I also know that we at the Federal Reserve are doing our best to avoid adding to regulatory burden wherever possible as we respond to the worst excesses of the financial crisis and make the U.S. financial system more resilient.",
+    "source": "The Future of Community Banking",
+    "doc_type": "speech",
+    "date": "2013-02-05",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d90bd4aa-dfc2-4056-bbb1-1fae4708275d",
+    "sentence": "I think this is -- you don't see any reason to think that this economy is either overheating or sharply weakening.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "And have the chances of a hard landing increased?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "40dccb9b-3ea4-40e6-a899-d2193a8771b8",
+    "sentence": "In the final quarter of last year and the first quarter of this year, private employment registered the largest two-quarter percent decline since the mid-1970s, and real GDP saw the most dramatic decline in a half-century.",
+    "source": "Defining Deviancy",
+    "doc_type": "speech",
+    "date": "2009-06-16",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "194c2f5f-6fc4-4a9b-926f-91eec199e0cb",
+    "sentence": "Large-Scale Asset Purchases and Related Communication\r\n Because of the severity of the recession and the disruptions in financial markets, and because short-term interest rates were near the zero lower bound, it became clear early on that more monetary accommodation would be needed than could be provided through the management of short-term rates alone, even with guidance that those rates would be kept low well into the future.",
+    "source": "Communication and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-11-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "conditional",
+    "con": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "e37a4409-86f4-415d-bb17-45a861151e4c",
+    "sentence": "Supervisory stress tests are structured exercises conducted by supervisors to evaluate how a bank's capital and earnings would perform under adverse macroeconomic scenariosâsuch as a sharp rise in unemployment, a collapse in asset prices, or a severe market disruption.",
+    "source": "The Case for Strong, Effective Banking Supervision",
+    "doc_type": "speech",
+    "date": "2025-11-18",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "1bf3ea70-cec3-43a8-8616-7a37c6a17889",
+    "sentence": "Increasing liquidity by having a central bank lower the federal funds rate can reduce the risk of a more severe financial crisis, but is imperfectly suited to compensate for declines in liquidity arising from retrenchment in the financial sector for long periods.",
+    "source": "The Federal Funds Rate in Extraordinary Times",
+    "doc_type": "speech",
+    "date": "2008-05-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "01ee1fc3-6ca0-4e97-840d-994c8ec9ec86",
+    "sentence": "Third, a capital regime that takes the possibility of severe stress seriously is important to calm markets and restart the normal process of intermediation should a crisis materialize.",
+    "source": "Housing and Financial Stability",
+    "doc_type": "speech",
+    "date": "2017-06-20",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "e1a47c0b-c84a-4fbf-84e1-08835cba1ed9",
+    "sentence": "In between those two meetings were some of the darkest hours of the financial crisis.",
+    "source": "Unusual and Exigent: My First Year at the Fed",
+    "doc_type": "speech",
+    "date": "2010-02-18",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "b2dfce11-7f0b-49ba-b7db-c94bba734863",
+    "sentence": "For that reason, the Federal Reserve established bilateral currency swap agreements with 14 foreign central banks during the financial crisis.",
+    "source": "The Effects of the Great Recession on Central Bank Doctrine and Practice",
+    "doc_type": "speech",
+    "date": "2011-10-18",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "50998ca8-f3f5-41fe-a5eb-bdd690b55141",
+    "sentence": "From my perspective, the standard framework for thinking about inflation dynamics used by central bank economists and others prior to the financial crisis remains conceptually useful today.",
+    "source": "Macroeconomic Research After the Crisis",
+    "doc_type": "speech",
+    "date": "2016-10-14",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "2eb08966-73b9-475c-9101-e40f5d8d1c54",
+    "sentence": "I'll briefly discuss three historical episodes that tested the financial infrastructure: the financial panic of 1907, the 1987 stock market crash, and the recent crisis.",
+    "source": "Clearinghouses, Financial Stability, and Financial Reform",
+    "doc_type": "speech",
+    "date": "2011-04-04",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "6d5bf995-f7a0-4684-b128-5735dc39ab2f",
+    "sentence": "Nonetheless, a number of securities lenders seemed to believe otherwise, and in many cases their expectations were fulfilled as custodian banks agreed during the financial crisis to bear at least some of the losses from cash collateral reinvestment programs.",
+    "source": "Shadow Banking After the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2012-06-12",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "8be0b3c5-6618-4f60-b216-bb703695fd36",
+    "sentence": "The resilience of the financial system to current salient risks can be appreciated by contrasting it to the 2008 Global Financial Crisis.",
+    "source": "Financial Stability and the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2023-05-31",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 1,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "03066efa-f42c-4df3-a3db-97f66ba6314f",
+    "sentence": "Without plumbing the depths of each type of tool, I'll say a few words about each as it relates to the curbing of excess credit growth that fuels asset bubbles and to mitigating the effects of a bubble's collapse.",
+    "source": "Beyond Capital: The Case for a Harmonized Response to Asset Bubbles",
+    "doc_type": "speech",
+    "date": "2013-07-17",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "f34b774f-3425-49d7-b581-61ba7aced618",
+    "sentence": "Well, I think the short answer is that we have lived through a devastating financial crisis that has taken an exceptional toll on the economy in many different ways, from housing to leaving a huge number of homeowners with mortgages living in homes with mortgages that are underwater, has had a highly negative effect on their credit ratings and their ability to access credit, has left businesses with very cautious attitudes that we see in business investment spending that is very restrained.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140319",
+    "context_question": "Madam Chair, Wyatt Andrews from CBS. For tens of millions of Americans, the recovery is an awful long time coming. May we know your thoughts on why the recovery is so slow, and why the economy is not creating more jobs?",
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "f0b506aa-0dda-48b8-b4c3-3f2e3c2f7aec",
+    "sentence": "A second risk that we should consider is whether in our efforts to deal with the financial crisis, we are inadvertently re-creating many of the structures and behaviors that contributed to the crisis. For example, the government is providing increased leverage even as markets are calling for deleveraging; some of the government programs make use of credit ratings from the same agencies that so evidently fell short in their assessments of structured financial instruments; some of these programs employ financial structures similar to the off-balance-sheet entities that proved unstable in the crisis; we are trying to keep interest rates very low to support asset prices and spending after an episode in which low long-term rates probably contributed to unsustainable housing prices; and, finally, we are supporting economic activity by further increasing government deficits at a time when the longer-term fiscal outlook is already troubling.",
+    "source": "Policies to Bring Us Out of the Financial Crisis and Recession",
+    "doc_type": "speech",
+    "date": "2009-04-03",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "e3c3f551-4232-4b31-ada7-3fd74b0c5113",
+    "sentence": "The heightened financial turmoil that we have experienced of late may well lengthen the period of weak economic performance and further increase the risks to growth.",
+    "source": "Current Economic and Financial Conditions",
+    "doc_type": "speech",
+    "date": "2008-10-07",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4d76de88-edc4-4c67-8e4f-0da0f12e2a0f",
+    "sentence": "Some participants thought it would be helpful for the Committee to evaluate how its tools could be utilized in different economic scenarios, such as when longer-term interest rates were significantly below current levels, and discuss which actions would best address the challenges posed by each scenario.",
+    "source": "minutes_20191030.html",
+    "doc_type": "minutes",
+    "date": "20191030",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "long_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d678a2c2-e21f-4736-80c1-994f2c44d3bd",
+    "sentence": "And when last we gathered here, there were strong indications that the sharp contraction of the global economy of late 2008 and early 2009 had ended.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2010-08-27",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 1,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3302ad9b-7c9a-4d15-a9d2-e4311b2bb7e7",
+    "sentence": "The Recovery from the Financial Crisis\r\n Despite monetary stimulus, the recovery from the financial crisis has been even more sluggish than we had expected.",
+    "source": "Monetary Policy Lessons and the Way Ahead",
+    "doc_type": "speech",
+    "date": "2015-03-23",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "abab88a6-c5c4-44c8-bb2a-e58cd7c70ba1",
+    "sentence": "The incorporation of salient risks helps to use stress tests to \"lean against the wind,\" not just build a buffer for future losses. For example, the 2011 and 2012 scenarios incorporated possible severe stress in Europe.",
+    "source": "Stress Testing after Five Years",
+    "doc_type": "speech",
+    "date": "2014-06-25",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "1e23cc97-6e12-4c65-a3ee-cb52e397f1fb",
+    "sentence": "While housing may well have been the trigger for the onset of the broader financial turmoil, I have long believed it is not the fundamental cause.",
+    "source": "The Promise and Peril of the New Financial Architecture",
+    "doc_type": "speech",
+    "date": "2008-11-06",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  
+  {
+    "id": "48129865-9fef-4add-95f1-6991dcf42f7f",
+    "sentence": "During the recent financial turmoil, the ability of the Fed to obtain information directly from key institutions and from supervisory reviews has been invaluable for understanding financial developments and their implications for the economy.",
+    "source": "Financial Regulation and Financial Stability",
+    "doc_type": "speech",
+    "date": "2008-07-08",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "de24c664-bb71-4cf5-b8e3-ccec2b9084a2",
+    "sentence": "One participant posited that the sharp decline in net worth and reduced credit availability in recent years not only weighed on aggregate demand, but also reduced aggregate supply by hampering new business formation and product innovation; another participant cited evidence that structural unemployment was elevated as a result of mismatches between the skills demanded by employers and those of the long-duration unemployed.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "context_question": null,
+    "top": [
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+
+  {
+    "id": "5daf7fe1-f0d8-4a5c-b78b-49be8ad8aa4d",
+    "sentence": "The fact that we had a severe recession but not another depression is a tribute to the aggressive response of those who were in a position to act at that time.",
+    "source": "Brief Remarks",
+    "doc_type": "speech",
+    "date": "2017-04-20",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "62702262-55b9-4b60-af2e-31784400e486",
+    "sentence": "Issuance of covered bonds in Europe has not been unaffected by the financial turmoil, and at times the interest rate spreads relative to government debt have risen.",
+    "source": "The Future of Mortgage Finance in the United States ",
+    "doc_type": "speech",
+    "date": "2008-10-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "6d931de1-4154-45dd-bca7-98692ff2a02e",
+    "sentence": "Corporate bond spreads over comparable-maturity Treasury yields widened significantly, and spreads on speculative-grade energy bonds widened especially sharply amid plunging oil prices.",
+    "source": "minutes_20200315.html",
+    "doc_type": "minutes",
+    "date": "20200315",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -2,
+    "ten": "none",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "f348a5b1-a194-4010-92eb-2a99462b614b",
+    "sentence": "Because labor compensation was still increasing at a subdued rate and inflation remained well below 2 percent, some participants judged that a moderate further decline in unemployment would be unlikely to lead to a buildup of unduly strong inflation pressures.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "unemployment"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "423fbe5f-bf62-4e04-b6a5-0b2b0915ca66",
+    "sentence": "After the shutdowns and other measures taken in response to the COVID-19 outbreak last spring caused the swiftest and deepest recession in U.S. history, the economy has made a powerful recovery.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2021-05-26",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "5da3475b-7e65-401f-a191-5262183f93b6",
+    "sentence": "It is notable that while the theoretical economic arguments for raising inflation targets are well understood, no major central bank has raised its target in response to the recent financial crisis.",
+    "source": "The Federal Reserve's Policy Actions during the Financial Crisis and Lessons for the Future",
+    "doc_type": "speech",
+    "date": "2010-05-13",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "99f019b2-b0e9-4ba7-9f08-7db39bced8e8",
+    "sentence": "The financial crisis and the ensuing Great Recession reminded us of a lesson that we learned both in the 19th century and during the Depression but had forgotten to some extent, which is that severe financial instability can do grave damage to the broader economy.",
+    "source": "A Century of U.S. Central Banking: Goals, Frameworks, Accountability",
+    "doc_type": "speech",
+    "date": "2013-07-10",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4c349a2a-d545-4257-88ab-c8863072c391",
+    "sentence": "Economic activity was weakening even before the intensification of the financial crisis this fall.",
+    "source": "Federal Reserve Policies in the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2008-12-01",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "fe49cb45-2e2f-4485-8b56-7efb86a28675",
+    "sentence": "ConclusionThe financial crisis has certainly highlighted the need for a safe and stable financial system.",
+    "source": "Regulatory Perspectives on the Changing Accounting Landscape",
+    "doc_type": "speech",
+    "date": "2009-09-14",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0ec9d45a-f287-45d8-9878-7fa01d39f9a1",
+    "sentence": "The decomposition attributes much of the decline in the yield since 2010 to a sharp fall in the term premium, but the expected short-term real rate component also moved down significantly.",
+    "source": "Long-Term Interest Rates",
+    "doc_type": "speech",
+    "date": "2013-03-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d664a366-1e2a-4890-9eec-5e8a46acb777",
+    "sentence": "First, we have eased monetary policy substantially and proactively to address the sharp deterioration in financial conditions and to forestall some of the potential adverse effects on the broader economy.",
+    "source": "Remarks on the economic outlook",
+    "doc_type": "speech",
+    "date": "2008-06-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "feb0eb41-a551-4e43-9518-bae012e14a0c",
+    "sentence": "Well, I think there's very strong evidence that's accumulated that this rate has been falling not just in the United States, but in many advanced nations, and the decline probably predates the financial crisis.",
+    "source": "FOMCpresconf20170315.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170315",
+    "context_question": "Ana Swanson, the Washington Post. You said that the neutral level of the federal funds rate is quite low. How close do you judge it to be to the inflation rate? And what do you anticipate will be the force pushing up the neutral interest rate over the next few years? Could fiscal policy be among those?",
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": [
+      "financial_conditions"
+    ],
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "d1f2bf23-cc33-4f13-9c9c-9f2841ee770b",
+    "sentence": "Comparing the three-year period ending in the second quarter of this year with the three-year period ended just before the financial crisis, 10-year-ahead inflation compensation based on TIPS (Treasury Inflation-Protected Securities) yields is 3/4 percentage point lower.",
+    "source": "Understanding the Disconnect between Employment and Inflation with a Low Neutral Rate",
+    "doc_type": "speech",
+    "date": "2017-09-05",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "forward",
+    "hor": "near_term",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "0357baa6-8c85-4c2c-9538-583916f21307",
+    "sentence": "The severe financial panic of 1907 stands out as an example of market failure due to these two prominent frictions.",
+    "source": "A History of the Fed's Discount Window: 1913â2000",
+    "doc_type": "speech",
+    "date": "2024-10-08",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "present",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "35924dc9-23df-4e9e-8e19-5d7e0f7952d1",
+    "sentence": "Because the dollar is the primary international currency, we have, in the past, had to take action--particularly in times of global economic crisis--to maintain order in international capital markets, such as the central bank liquidity swap lines extended during the global financial crisis.",
+    "source": "The Federal Reserve and the Global Economy",
+    "doc_type": "speech",
+    "date": "2015-05-26",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "backward",
+    "hor": "none",
+    "com": "none",
+    "con": "na",
+    "ris": "",
+    "wid": ""
+  }
+]
