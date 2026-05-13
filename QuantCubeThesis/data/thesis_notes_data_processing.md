@@ -114,7 +114,7 @@ For press conference documents (both prepared and Q&A), the following informal c
 ### 5.3 Constraints
 
 - **Maximum chunk length:** 1,000 characters. If adding a dependent sentence would exceed this, the chunk is flushed and the dependent sentence begins a new chunk (potentially losing the dependency context — an acceptable trade-off).
-- **Two-sentence cap (non-PC documents):** For minutes, speeches, and statements, a chunk is capped at two sentences. Even if the third sentence would satisfy a dependency condition, it begins a new chunk. This prevents runaway chains in formal prose where multiple consecutive clauses happen to start with dependent language. Press conferences are exempt from this cap, as conversational speech naturally chains multiple short clauses.
+- **Three-sentence cap (non-PC documents):** For minutes, speeches, and statements, a chunk is capped at three sentences. Even if the fourth sentence would satisfy a dependency condition, it begins a new chunk. This prevents runaway chains in formal prose while still allowing legitimate two-step dependency chains (e.g., a sentence starting with "If that outcome..." followed by "Consequently..." — two dependent sentences that together form a coherent unit). Press conferences are exempt from this cap, as conversational speech naturally chains multiple short clauses. The character limit (1,000 chars) acts as a hard backstop independent of sentence count.
 
 ### 5.4 Design rationale
 
