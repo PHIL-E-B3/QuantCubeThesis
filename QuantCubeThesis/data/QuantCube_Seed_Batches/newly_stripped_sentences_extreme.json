@@ -1,6 +1,23 @@
 [
   {
-    "id": "7e2e8837-d768-48e0-ac68-530b39e9fd99",
+    "id": "a39e09a0-76fe-4f1a-8b5d-322e6be1f658",
+    "sentence": "The labor market remained very tight, with robust job gains in recent months and the unemployment rate still low, but there were some signs that supply and demand in the labor market were coming into better balance.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": "",
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": "",
+    "ris": "",
+    "wid": "",
+    "split_from": "0ef5a286-ab71-48d3-8db0-95b7d317ef47"
+  },
+  {
+    "id": "4b2e670b-cc1c-4076-90e5-58817d2b3d29",
     "sentence": "The economy was facing headwinds from tighter credit conditions, including higher interest rates, for households and businesses, which would likely weigh on economic activity, hiring, and inflation, although the extent of these effects remained uncertain.",
     "source": "minutes_20230614.html",
     "doc_type": "minutes",
@@ -17,7 +34,24 @@
     "split_from": "0ef5a286-ab71-48d3-8db0-95b7d317ef47"
   },
   {
-    "id": "20772fef-38e9-44f3-9679-ebad933431a6",
+    "id": "3c0314f0-af26-46e0-8000-c4c80e2d704f",
+    "sentence": "The current configuration of quotes on futures contracts--which can serve as a reasonable benchmark in gauging the outlook for commodity prices--suggests that these prices will roughly stabilize near current levels or even decline in some cases.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": "",
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": "",
+    "ris": "",
+    "wid": "",
+    "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
+  },
+  {
+    "id": "ddb55d75-361a-4ad2-b209-a6a4d0ef389c",
     "sentence": "If that outcome materializes, the prices of gasoline and heating oil are likely to flatten out fairly soon, and retail food prices are likely to continue rising briskly for only a few more months.",
     "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
     "doc_type": "speech",
@@ -34,7 +68,7 @@
     "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
   },
   {
-    "id": "55fa9f2a-0d01-49d7-b003-9a98dccb40f0",
+    "id": "39523104-38ca-4e64-ac36-23e094a22064",
     "sentence": "Consequently, the direct effects of the surge in commodity prices on headline consumer inflation should diminish sharply over coming months.",
     "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
     "doc_type": "speech",
