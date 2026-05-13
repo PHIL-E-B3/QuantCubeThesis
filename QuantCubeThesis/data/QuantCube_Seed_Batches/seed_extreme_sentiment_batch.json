@@ -83,7 +83,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -121,7 +121,7 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -142,7 +142,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -181,7 +181,7 @@
       "unemployment",
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "conditional",
@@ -333,7 +333,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -352,8 +352,8 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 2,
-    "ten": "forward",
+    "sen": 0,
+    "ten": "backward",
     "hor": "none",
     "com": "none",
     "con": "na",
@@ -443,7 +443,7 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -461,7 +461,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -602,7 +602,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -714,7 +714,7 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -1006,7 +1006,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -1024,7 +1024,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -1098,7 +1098,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1137,7 +1137,7 @@
       "economic_activity",
       "macro"
     ],
-    "sen": 2,
+    "sen": -1,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1159,7 +1159,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": -1,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1196,7 +1196,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -1234,7 +1234,7 @@
       "inflation",
       "unemployment"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -1312,7 +1312,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -1445,7 +1445,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -1518,7 +1518,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -1536,7 +1536,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -1668,7 +1668,7 @@
       "unemployment",
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "forward",
     "hor": "none",
     "com": "unconditional",
@@ -1768,7 +1768,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1787,7 +1787,7 @@
       "economic_activity",
       "macro"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -1841,7 +1841,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1899,7 +1899,7 @@
       "unemployment",
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -1917,7 +1917,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -2090,7 +2090,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -2211,7 +2211,7 @@
       "unemployment",
       "economic_activity"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -2229,7 +2229,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -2249,7 +2249,7 @@
       "inflation",
       "unemployment"
     ],
-    "sen": 2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "conditional",
@@ -2364,7 +2364,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -2494,7 +2494,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -3153,7 +3153,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -3426,7 +3426,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "forward",
     "hor": "long_term",
     "com": "conditional",
@@ -3719,7 +3719,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -3739,7 +3739,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -3757,7 +3757,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -3776,7 +3776,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -4057,7 +4057,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "none",
     "hor": "none",
     "com": "none",
@@ -4076,7 +4076,7 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
@@ -4094,7 +4094,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -4191,7 +4191,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
@@ -4229,7 +4229,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
