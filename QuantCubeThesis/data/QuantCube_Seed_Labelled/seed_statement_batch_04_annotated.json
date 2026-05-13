@@ -185,7 +185,7 @@
   },
   {
     "id": "bdbbb465-c1e6-4333-961b-73caa4d21c44",
-    "sentence": "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully. The Committee judges that, after this action, the upside risks to inflation roughly balance the downside risks to growth.",
+    "sentence": "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully.",
     "source": "statement_20071031.txt",
     "doc_type": "statement",
     "date": "2007-10-31",
@@ -202,7 +202,8 @@
     "ris": "symmetric",
     "wid": "contested",
     "_note": "Two-sentence item. S1 flags residual inflation risks (upside risk to inflation = negative inflation signal). S2 explicitly asserts that upside inflation risks roughly balance downside growth risks = a cross-variable symmetric risk statement. top=[inflation, economic_activity] because both are named as the two sides of the balance. ris=symmetric because S2 explicitly states the risks 'roughly balance'. sen=0 because the two opposing risk signals cancel: upside inflation risk (negative for inflation) vs. downside growth risk (negative for activity) — two genuinely opposing forces netting to zero. wid=contested: the sentence contains two opposing economic forces (inflation upside vs. growth downside) that are explicitly balanced against each other — the canonical contested pattern.",
-    "_flag": "AMBIGUOUS on sen: Both named risks are negative outcomes (more inflation is bad; less growth is bad), but they pull policy in opposite directions (inflation risk = hawkish pressure; growth risk = dovish pressure). The symmetric balance framing means neither dominates, so sen=0 is the correct call. Also ambiguous on top: this is not monetary_policy because no policy action is stated — it is a risk assessment following an action ('after this action'). Labeled inflation + economic_activity."
+    "_flag": "AMBIGUOUS on sen: Both named risks are negative outcomes (more inflation is bad; less growth is bad), but they pull policy in opposite directions (inflation risk = hawkish pressure; growth risk = dovish pressure). The symmetric balance framing means neither dominates, so sen=0 is the correct call. Also ambiguous on top: this is not monetary_policy because no policy action is stated — it is a risk assessment following an action ('after this action'). Labeled inflation + economic_activity.",
+    "was_merged": true
   },
   {
     "id": "2ef095e0-dfba-4d63-bffe-23727ec007ca",

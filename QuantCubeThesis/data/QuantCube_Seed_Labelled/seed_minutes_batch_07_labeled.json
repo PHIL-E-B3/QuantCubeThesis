@@ -56,7 +56,7 @@
   },
   {
     "id": "53a383ca-1647-4fc5-a345-cc7de6d77367",
-    "sentence": "Since then, the size of the Federal Reserve's balance sheet had declined substantially. In addition, money market conditions had tightened recently, which suggested that reserve balances may be moving closer to ample. In light of these developments, participants discussed whether to stop balance sheet runoff soon and what the maturity composition of the SOMA Treasury portfolio (SOMA portfolio) should be in the longer run.",
+    "sentence": "Since then, the size of the Federal Reserve's balance sheet had declined substantially.",
     "source": "minutes_20251029.html",
     "doc_type": "minutes",
     "date": "20251029",
@@ -71,7 +71,8 @@
       "none"
     ],
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "a3e5d176-d40d-40a3-a72c-197f260822d4",

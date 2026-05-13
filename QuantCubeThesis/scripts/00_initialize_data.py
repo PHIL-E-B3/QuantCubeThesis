@@ -33,9 +33,20 @@ DEPENDENCY_STARTS = (
     # Formal connectives (all doc types) — "however" removed: it is contrastive
     # and should not silently merge opposing clauses
     "therefore", "thus", "consequently", "as a result", "for example",
+    # Bare demonstrative sentence-starter (cross-sentence reference)
+    "that ",
     # Epistemic + demonstrative pronoun (all doc types)
     "i think they", "i think those", "i think these", "i think that",
     "we think they", "we think those", "we think these", "we think that",
+)
+
+# Subordinating conjunctions: if a demonstrative noun pattern appears AFTER
+# one of these in the candidate sentence, it refers backward within that
+# sentence rather than to the preceding sentence — do NOT merge.
+_CONJ_BEFORE_DEMO = re.compile(
+    r'\b(although|though|even though|while|whilst|whereas|because|since|'
+    r'as\b|when\b|if\b|unless|until|before|after|despite|in spite of)\b',
+    re.IGNORECASE,
 )
 
 PC_DEPENDENCY_STARTS = DEPENDENCY_STARTS + (
@@ -269,8 +280,17 @@ def build_annotatable_records(text, is_conversational=False):
                     noun = match.group(1)
                     first_occurrence = s_lower.find(noun)
                     if not (first_occurrence != -1 and first_occurrence < match.start()):
-                        is_dependent = True
-                        break
+                        # Reject if the demonstrative appears after a subordinating
+                        # conjunction — it refers within the sentence, not to the
+                        # preceding sentence (e.g. "although the extent of these effects")
+                        text_before = s_lower[:match.start()]
+                        if not _CONJ_BEFORE_DEMO.search(text_before):
+                            is_dependent = True
+                            break
+
+            # Non-conversational doc types: hard cap at 2 sentences per chunk
+            if is_dependent and not is_conversational and len(current_chunk_sentences) >= 2:
+                is_dependent = False
 
             projected_len = sum(len(s) for s in current_chunk_sentences) + len(current_chunk_sentences) + len(sent)
             if is_dependent and projected_len <= MAX_CONTEXT_CHARS:

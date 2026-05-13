@@ -6,7 +6,9 @@
     "doc_type": "minutes",
     "date": "20200429",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -22,7 +24,9 @@
     "doc_type": "minutes",
     "date": "20200315",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -38,14 +42,18 @@
     "doc_type": "speech",
     "date": "2008-05-21",
     "context_question": null,
-    "top": ["monetary_policy"],
-    "sen": -1,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 0,
     "ten": "forward",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
-    "wid": "elevated"
+    "wid": "none"
   },
   {
     "id": "4f37d367-b296-4510-b478-c868c339efd6",
@@ -54,7 +62,9 @@
     "doc_type": "speech",
     "date": "2024-03-25",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -70,12 +80,16 @@
     "doc_type": "minutes",
     "date": "20200129",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "forward",
     "hor": "short_term",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -86,7 +100,9 @@
     "doc_type": "speech",
     "date": "2026-03-24",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -102,7 +118,9 @@
     "doc_type": "speech",
     "date": "2021-06-01",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 0,
     "ten": "forward",
     "hor": "short_term",
@@ -118,7 +136,9 @@
     "doc_type": "speech",
     "date": "2008-05-29",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -134,7 +154,9 @@
     "doc_type": "speech",
     "date": "2022-03-21",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -150,7 +172,9 @@
     "doc_type": "minutes",
     "date": "20120913",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 1,
     "ten": "backward",
     "hor": "none",
@@ -166,7 +190,9 @@
     "doc_type": "press_conference_qa",
     "date": "20220126",
     "context_question": "I was asking if you're protecting the employment side of the mandate, whether there's some sort of circuit breaker there.",
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
@@ -182,7 +208,9 @@
     "doc_type": "speech",
     "date": "2026-02-23",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -198,7 +226,9 @@
     "doc_type": "speech",
     "date": "2016-06-06",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -214,7 +244,9 @@
     "doc_type": "speech",
     "date": "2026-02-24",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -230,7 +262,10 @@
     "doc_type": "press_conference_qa",
     "date": "20211215",
     "context_question": "Thank you, Michelle. Chair Powell, I'm curious exactly how much distance you think there should be between the end of the taper and the first interest rate increase. Back in 2014, the guidance was—that was given was for the fed funds rate to remain at the target level for a considerable time after the end of the asset purchase program. Is that an approach you support now? Or does the current economic situation warrant something a bit different? Thank you.",
-    "top": ["inflation", "economic_activity"],
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -246,7 +281,9 @@
     "doc_type": "speech",
     "date": "2015-12-03",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 1,
     "ten": "present",
     "hor": "none",
@@ -262,7 +299,9 @@
     "doc_type": "speech",
     "date": "2026-03-26",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -278,7 +317,9 @@
     "doc_type": "minutes",
     "date": "20220316",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -294,7 +335,9 @@
     "doc_type": "speech",
     "date": "2020-06-16",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -310,7 +353,9 @@
     "doc_type": "minutes",
     "date": "20220504",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -326,7 +371,9 @@
     "doc_type": "speech",
     "date": "2016-11-04",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -342,7 +389,9 @@
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
@@ -358,7 +407,9 @@
     "doc_type": "minutes",
     "date": "20200729",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -374,7 +425,9 @@
     "doc_type": "speech",
     "date": "2022-06-23",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -390,7 +443,9 @@
     "doc_type": "speech",
     "date": "2024-08-23",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -401,19 +456,24 @@
   },
   {
     "id": "0ef5a286-ab71-48d3-8db0-95b7d317ef47",
-    "sentence": "The labor market remained very tight, with robust job gains in recent months and the unemployment rate still low, but there were some signs that supply and demand in the labor market were coming into better balance. The economy was facing headwinds from tighter credit conditions, including higher interest rates, for households and businesses, which would likely weigh on economic activity, hiring, and inflation, although the extent of these effects remained uncertain.",
+    "sentence": "The labor market remained very tight, with robust job gains in recent months and the unemployment rate still low, but there were some signs that supply and demand in the labor market were coming into better balance.",
     "source": "minutes_20230614.html",
     "doc_type": "minutes",
     "date": "20230614",
     "context_question": null,
-    "top": ["unemployment", "economic_activity", "financial_conditions"],
+    "top": [
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
     "con": "na",
     "ris": "na",
-    "wid": "contested"
+    "wid": "contested",
+    "was_merged": true
   },
   {
     "id": "c0095e28-9fcd-41e4-a87c-8df873a208f4",
@@ -422,7 +482,9 @@
     "doc_type": "speech",
     "date": "2020-05-21",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": -2,
     "ten": "forward",
     "hor": "short_term",
@@ -438,7 +500,9 @@
     "doc_type": "minutes",
     "date": "20211103",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -454,7 +518,9 @@
     "doc_type": "speech",
     "date": "2025-01-06",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -470,7 +536,9 @@
     "doc_type": "speech",
     "date": "2012-05-10",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 1,
     "ten": "present",
     "hor": "none",
@@ -486,12 +554,16 @@
     "doc_type": "speech",
     "date": "2019-01-10",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -502,7 +574,9 @@
     "doc_type": "speech",
     "date": "2007-05-24",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
@@ -518,7 +592,9 @@
     "doc_type": "minutes",
     "date": "20210728",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
@@ -534,7 +610,9 @@
     "doc_type": "speech",
     "date": "2025-12-15",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 1,
     "ten": "forward",
     "hor": "none",
@@ -550,7 +628,9 @@
     "doc_type": "minutes",
     "date": "20220615",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -566,7 +646,10 @@
     "doc_type": "press_conference_qa",
     "date": "20220316",
     "context_question": "Mr. Chairman, since September of 2020, you've been operating on a monetary policy framework that let the economy run hot to bring unemployment down. That seems to be over. But I'm wondering how you would describe your reaction function now. What is it that the Fed is trying to do other than bring inflation down? In other words, is it, we're going to keep raising rates until it comes down to an acceptable level?",
-    "top": ["inflation", "economic_activity"],
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -582,7 +665,9 @@
     "doc_type": "speech",
     "date": "2017-11-30",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -593,19 +678,22 @@
   },
   {
     "id": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459",
-    "sentence": "The current configuration of quotes on futures contracts--which can serve as a reasonable benchmark in gauging the outlook for commodity prices--suggests that these prices will roughly stabilize near current levels or even decline in some cases. If that outcome materializes, the prices of gasoline and heating oil are likely to flatten out fairly soon, and retail food prices are likely to continue rising briskly for only a few more months. Consequently, the direct effects of the surge in commodity prices on headline consumer inflation should diminish sharply over coming months.",
+    "sentence": "The current configuration of quotes on futures contracts--which can serve as a reasonable benchmark in gauging the outlook for commodity prices--suggests that these prices will roughly stabilize near current levels or even decline in some cases.",
     "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "short_term",
     "com": "none",
     "con": "na",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   },
   {
     "id": "5498a342-b860-406f-bf14-6260b7f6f092",
@@ -614,7 +702,9 @@
     "doc_type": "minutes",
     "date": "20210728",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
@@ -630,12 +720,16 @@
     "doc_type": "press_conference_qa",
     "date": "20220727",
     "context_question": "Hi, Chair Powell. Thanks for taking our questions. Rachel Siegel from the Washington Post. I'm wondering if you can walk us through your thinking around the decision not to go for a full percentage point increase. We saw a ramp-up after the May CPI report came in hotter than usual and then, obviously, the June figure did, too. Was there any discussion of a stronger hike at this meeting? Yes. Thank you.",
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "unconditional",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -646,7 +740,9 @@
     "doc_type": "speech",
     "date": "2026-04-07",
     "context_question": null,
-    "top": ["no_topic"],
+    "top": [
+      "no_topic"
+    ],
     "sen": 0,
     "ten": "backward",
     "hor": "none",
@@ -662,7 +758,9 @@
     "doc_type": "speech",
     "date": "2022-09-09",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -678,12 +776,16 @@
     "doc_type": "speech",
     "date": "2020-05-21",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "unconditional",
-    "con": ["financial_conditions"],
+    "con": [
+      "financial_conditions"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -694,7 +796,9 @@
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "long_term",
@@ -710,7 +814,9 @@
     "doc_type": "speech",
     "date": "2008-05-21",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "present",
     "hor": "none",
@@ -726,7 +832,9 @@
     "doc_type": "speech",
     "date": "2008-10-07",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -742,7 +850,9 @@
     "doc_type": "speech",
     "date": "2026-02-17",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -758,7 +868,9 @@
     "doc_type": "speech",
     "date": "2011-04-11",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "long_term",
@@ -774,7 +886,9 @@
     "doc_type": "minutes",
     "date": "20250507",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -790,7 +904,9 @@
     "doc_type": "minutes",
     "date": "20201105",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "short_term",
@@ -806,12 +922,16 @@
     "doc_type": "minutes",
     "date": "20220921",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -822,7 +942,9 @@
     "doc_type": "press_conference_qa",
     "date": "20210728",
     "context_question": "Hi. Thanks for taking my question. Chair Powell, I was going to go back to inflation a little bit. I'm just kind of surprised by your tone. It, it seems like you're just sort of warning that, if inflation gets too high, you know, the Fed will act. Isn't it true that, I mean, a little inflation is good for the economy and, and that we—if somehow maybe we can get the economy out of this sort of place where we're always going to be close to the zero lower bound, isn't there a good story to tell, and you're sort of panicking people?",
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 1,
     "ten": "present",
     "hor": "none",
@@ -838,7 +960,9 @@
     "doc_type": "speech",
     "date": "2025-06-01",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
@@ -854,7 +978,9 @@
     "doc_type": "speech",
     "date": "2025-06-01",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
@@ -870,7 +996,9 @@
     "doc_type": "minutes",
     "date": "20210616",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -886,7 +1014,10 @@
     "doc_type": "speech",
     "date": "2021-04-14",
     "context_question": null,
-    "top": ["unemployment", "inflation"],
+    "top": [
+      "unemployment",
+      "inflation"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -902,12 +1033,16 @@
     "doc_type": "speech",
     "date": "2022-10-12",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "unconditional",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -918,12 +1053,17 @@
     "doc_type": "minutes",
     "date": "20221102",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
     "com": "unconditional",
-    "con": ["inflation", "unemployment"],
+    "con": [
+      "inflation",
+      "unemployment"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -934,7 +1074,9 @@
     "doc_type": "speech",
     "date": "2024-10-14",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": 1,
     "ten": "backward",
     "hor": "none",
@@ -950,7 +1092,9 @@
     "doc_type": "speech",
     "date": "2008-05-15",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
@@ -966,7 +1110,9 @@
     "doc_type": "minutes",
     "date": "20120313",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 1,
     "ten": "backward",
     "hor": "none",
@@ -982,12 +1128,16 @@
     "doc_type": "speech",
     "date": "2025-07-10",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -998,12 +1148,16 @@
     "doc_type": "speech",
     "date": "2022-03-24",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "forward",
     "hor": "short_term",
     "com": "unconditional",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1014,7 +1168,9 @@
     "doc_type": "speech",
     "date": "2017-08-25",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1030,9 +1186,11 @@
     "doc_type": "speech",
     "date": "2009-06-15",
     "context_question": null,
-    "top": ["financial_conditions"],
-    "sen": -2,
-    "ten": "backward",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "present",
     "hor": "none",
     "com": "none",
     "con": "na",
@@ -1046,7 +1204,9 @@
     "doc_type": "speech",
     "date": "2007-09-10",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "present",
     "hor": "none",
@@ -1062,7 +1222,10 @@
     "doc_type": "speech",
     "date": "2024-02-14",
     "context_question": null,
-    "top": ["unemployment", "economic_activity"],
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1078,12 +1241,16 @@
     "doc_type": "speech",
     "date": "2008-03-27",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "none",
     "com": "none",
-    "con": ["inflation"],
+    "con": [
+      "inflation"
+    ],
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -1094,7 +1261,9 @@
     "doc_type": "speech",
     "date": "2011-04-04",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1110,7 +1279,9 @@
     "doc_type": "speech",
     "date": "2018-11-28",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1126,7 +1297,9 @@
     "doc_type": "press_conference_qa",
     "date": "20220126",
     "context_question": "Thank you for taking my question. I want to ask you, with the benefit of hindsight, and I realize, I mean, that is what it is. But do you feel that, you know, monetary policy and fiscal policy maybe did too much to react to the crisis and that part of the inflation problem that we're having right now is because the government response, you know, collectively was more than what the economy ended up needing?",
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 0,
     "ten": "backward",
     "hor": "none",
@@ -1142,7 +1315,9 @@
     "doc_type": "speech",
     "date": "2014-01-03",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1158,12 +1333,16 @@
     "doc_type": "speech",
     "date": "2019-05-03",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 2,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["inflation"],
+    "con": [
+      "inflation"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1174,7 +1353,9 @@
     "doc_type": "speech",
     "date": "2013-11-22",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1190,12 +1371,16 @@
     "doc_type": "minutes",
     "date": "20110427",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "long_term",
     "com": "conditional",
-    "con": ["macro"],
+    "con": [
+      "macro"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1206,7 +1391,9 @@
     "doc_type": "speech",
     "date": "2015-05-22",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1222,12 +1409,16 @@
     "doc_type": "speech",
     "date": "2013-03-02",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1238,7 +1429,9 @@
     "doc_type": "minutes",
     "date": "20140430",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 0,
     "ten": "backward",
     "hor": "none",
@@ -1254,7 +1447,9 @@
     "doc_type": "minutes",
     "date": "20251029",
     "context_question": null,
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1270,7 +1465,9 @@
     "doc_type": "speech",
     "date": "2011-03-04",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1286,12 +1483,16 @@
     "doc_type": "speech",
     "date": "2010-01-03",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1302,7 +1503,9 @@
     "doc_type": "speech",
     "date": "2008-12-01",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": -2,
     "ten": "present",
     "hor": "none",
@@ -1318,12 +1521,16 @@
     "doc_type": "minutes",
     "date": "20190501",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "none",
     "com": "conditional",
-    "con": ["macro"],
+    "con": [
+      "macro"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1334,7 +1541,9 @@
     "doc_type": "speech",
     "date": "2022-05-25",
     "context_question": null,
-    "top": ["no_topic"],
+    "top": [
+      "no_topic"
+    ],
     "sen": 0,
     "ten": "none",
     "hor": "none",
@@ -1350,12 +1559,16 @@
     "doc_type": "speech",
     "date": "2014-10-11",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1366,7 +1579,9 @@
     "doc_type": "speech",
     "date": "2025-05-25",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1382,12 +1597,16 @@
     "doc_type": "minutes",
     "date": "20200610",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "elevated"
   },
@@ -1398,7 +1617,9 @@
     "doc_type": "minutes",
     "date": "20200916",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1414,7 +1635,9 @@
     "doc_type": "speech",
     "date": "2017-10-12",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 0,
     "ten": "backward",
     "hor": "none",
@@ -1430,12 +1653,16 @@
     "doc_type": "speech",
     "date": "2013-03-01",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1446,7 +1673,9 @@
     "doc_type": "speech",
     "date": "2013-12-16",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1462,7 +1691,9 @@
     "doc_type": "speech",
     "date": "2018-12-07",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1478,13 +1709,16 @@
     "doc_type": "press_conference_prepared",
     "date": "20150617",
     "context_question": null,
-    "top": ["economic_activity"],
-    "sen": -2,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": -1,
     "ten": "forward",
-    "hor": "short_term",
+    "hor": "long_term",
     "com": "none",
     "con": "na",
-    "ris": "skewed_downside",
+    "ris": "na",
     "wid": "none"
   },
   {
@@ -1494,12 +1728,16 @@
     "doc_type": "speech",
     "date": "2016-08-26",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1510,7 +1748,9 @@
     "doc_type": "speech",
     "date": "2013-02-05",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1526,7 +1766,9 @@
     "doc_type": "press_conference_qa",
     "date": "20240731",
     "context_question": "And have the chances of a hard landing increased?",
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
@@ -1542,7 +1784,10 @@
     "doc_type": "speech",
     "date": "2009-06-16",
     "context_question": null,
-    "top": ["unemployment", "economic_activity"],
+    "top": [
+      "unemployment",
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1558,12 +1803,16 @@
     "doc_type": "speech",
     "date": "2013-11-19",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "unconditional",
-    "con": ["economic_activity"],
+    "con": [
+      "economic_activity"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1574,7 +1823,9 @@
     "doc_type": "speech",
     "date": "2025-11-18",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1590,12 +1841,16 @@
     "doc_type": "speech",
     "date": "2008-05-21",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["financial_conditions"],
+    "con": [
+      "financial_conditions"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1606,7 +1861,9 @@
     "doc_type": "speech",
     "date": "2016-10-14",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1622,7 +1879,9 @@
     "doc_type": "speech",
     "date": "2011-04-04",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1638,7 +1897,9 @@
     "doc_type": "speech",
     "date": "2012-06-12",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1654,7 +1915,9 @@
     "doc_type": "speech",
     "date": "2023-05-31",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": 1,
     "ten": "present",
     "hor": "none",
@@ -1670,9 +1933,11 @@
     "doc_type": "speech",
     "date": "2013-07-17",
     "context_question": null,
-    "top": ["boilerplate"],
-    "sen": "na",
-    "ten": "none",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "0",
+    "ten": "present",
     "hor": "none",
     "com": "none",
     "con": "na",
@@ -1686,7 +1951,10 @@
     "doc_type": "press_conference_qa",
     "date": "20140319",
     "context_question": "Madam Chair, Wyatt Andrews from CBS. For tens of millions of Americans, the recovery is an awful long time coming. May we know your thoughts on why the recovery is so slow, and why the economy is not creating more jobs?",
-    "top": ["economic_activity", "financial_conditions"],
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "present",
     "hor": "none",
@@ -1702,7 +1970,9 @@
     "doc_type": "speech",
     "date": "2009-04-03",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
@@ -1718,7 +1988,10 @@
     "doc_type": "speech",
     "date": "2008-10-07",
     "context_question": null,
-    "top": ["economic_activity", "financial_conditions"],
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "forward",
     "hor": "short_term",
@@ -1734,12 +2007,16 @@
     "doc_type": "minutes",
     "date": "20191030",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "long_term",
     "com": "none",
-    "con": ["macro"],
+    "con": [
+      "macro"
+    ],
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -1750,7 +2027,9 @@
     "doc_type": "speech",
     "date": "2010-08-27",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1766,7 +2045,9 @@
     "doc_type": "speech",
     "date": "2015-03-23",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "present",
     "hor": "none",
@@ -1782,7 +2063,9 @@
     "doc_type": "speech",
     "date": "2008-07-08",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1798,7 +2081,11 @@
     "doc_type": "minutes",
     "date": "20120801",
     "context_question": null,
-    "top": ["unemployment", "economic_activity", "financial_conditions"],
+    "top": [
+      "unemployment",
+      "economic_activity",
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "present",
     "hor": "none",
@@ -1814,12 +2101,16 @@
     "doc_type": "minutes",
     "date": "20200429",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -2,
     "ten": "forward",
     "hor": "short_term",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1830,7 +2121,9 @@
     "doc_type": "speech",
     "date": "2017-04-20",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1846,7 +2139,9 @@
     "doc_type": "minutes",
     "date": "20200315",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1862,7 +2157,10 @@
     "doc_type": "minutes",
     "date": "20151216",
     "context_question": null,
-    "top": ["unemployment", "inflation"],
+    "top": [
+      "unemployment",
+      "inflation"
+    ],
     "sen": -1,
     "ten": "forward",
     "hor": "none",
@@ -1878,7 +2176,9 @@
     "doc_type": "speech",
     "date": "2021-05-26",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
@@ -1894,12 +2194,16 @@
     "doc_type": "speech",
     "date": "2010-05-13",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1910,7 +2214,9 @@
     "doc_type": "speech",
     "date": "2013-07-10",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1926,7 +2232,9 @@
     "doc_type": "speech",
     "date": "2008-12-01",
     "context_question": null,
-    "top": ["economic_activity"],
+    "top": [
+      "economic_activity"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
@@ -1942,7 +2250,9 @@
     "doc_type": "speech",
     "date": "2009-09-14",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "none",
     "hor": "none",
@@ -1958,7 +2268,9 @@
     "doc_type": "speech",
     "date": "2013-03-01",
     "context_question": null,
-    "top": ["financial_conditions"],
+    "top": [
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -1974,12 +2286,16 @@
     "doc_type": "speech",
     "date": "2008-06-03",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -2,
     "ten": "backward",
     "hor": "none",
     "com": "unconditional",
-    "con": ["financial_conditions"],
+    "con": [
+      "financial_conditions"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -1990,12 +2306,16 @@
     "doc_type": "press_conference_qa",
     "date": "20170315",
     "context_question": "Ana Swanson, the Washington Post. You said that the neutral level of the federal funds rate is quite low. How close do you judge it to be to the inflation rate? And what do you anticipate will be the force pushing up the neutral interest rate over the next few years? Could fiscal policy be among those?",
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "present",
     "hor": "none",
     "com": "none",
-    "con": ["none"],
+    "con": [
+      "none"
+    ],
     "ris": "na",
     "wid": "none"
   },
@@ -2006,7 +2326,9 @@
     "doc_type": "speech",
     "date": "2017-09-05",
     "context_question": null,
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
@@ -2022,8 +2344,10 @@
     "doc_type": "speech",
     "date": "2024-10-08",
     "context_question": null,
-    "top": ["financial_conditions"],
-    "sen": -2,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
     "ten": "backward",
     "hor": "none",
     "com": "none",
@@ -2038,12 +2362,16 @@
     "doc_type": "speech",
     "date": "2022-06-18",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["unemployment"],
+    "con": [
+      "unemployment"
+    ],
     "ris": "na",
     "wid": "elevated"
   },
@@ -2054,12 +2382,16 @@
     "doc_type": "speech",
     "date": "2015-05-26",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "backward",
     "hor": "none",
     "com": "none",
-    "con": ["financial_conditions"],
+    "con": [
+      "financial_conditions"
+    ],
     "ris": "na",
     "wid": "none"
   }

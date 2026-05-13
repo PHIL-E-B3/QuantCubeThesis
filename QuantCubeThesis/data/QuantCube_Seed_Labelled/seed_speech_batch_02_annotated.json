@@ -258,7 +258,7 @@
   },
   {
     "id": "66f36de1-4169-48e7-972d-84427dbfae9f",
-    "sentence": "In the March 2021 SEP, no Committee member expected inflation to be over 3 percent for 2021. As I argued in a speech last December, this view was consistent with private-sector economic forecasts.",
+    "sentence": "In the March 2021 SEP, no Committee member expected inflation to be over 3 percent for 2021.",
     "source": "Reflections on Monetary Policy in 2021",
     "doc_type": "speech",
     "date": "2022-05-06",
@@ -272,6 +272,7 @@
     "hor": "none",
     "con": "na",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "was_merged": true
   }
 ]

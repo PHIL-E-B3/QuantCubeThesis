@@ -1,0 +1,53 @@
+[
+  {
+    "id": "7e2e8837-d768-48e0-ac68-530b39e9fd99",
+    "sentence": "The economy was facing headwinds from tighter credit conditions, including higher interest rates, for households and businesses, which would likely weigh on economic activity, hiring, and inflation, although the extent of these effects remained uncertain.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": "",
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": "",
+    "ris": "",
+    "wid": "",
+    "split_from": "0ef5a286-ab71-48d3-8db0-95b7d317ef47"
+  },
+  {
+    "id": "20772fef-38e9-44f3-9679-ebad933431a6",
+    "sentence": "If that outcome materializes, the prices of gasoline and heating oil are likely to flatten out fairly soon, and retail food prices are likely to continue rising briskly for only a few more months.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": "",
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": "",
+    "ris": "",
+    "wid": "",
+    "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
+  },
+  {
+    "id": "55fa9f2a-0d01-49d7-b003-9a98dccb40f0",
+    "sentence": "Consequently, the direct effects of the surge in commodity prices on headline consumer inflation should diminish sharply over coming months.",
+    "source": "Commodity Prices, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-04-11",
+    "context_question": null,
+    "top": "",
+    "sen": "",
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "con": "",
+    "ris": "",
+    "wid": "",
+    "split_from": "9bb24c20-6bf1-4304-b9e3-cab9a1de5459"
+  }
+]
