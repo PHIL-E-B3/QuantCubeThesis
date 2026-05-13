@@ -288,8 +288,9 @@ def build_annotatable_records(text, is_conversational=False):
                             is_dependent = True
                             break
 
-            # Non-conversational doc types: hard cap at 2 sentences per chunk
-            if is_dependent and not is_conversational and len(current_chunk_sentences) >= 2:
+            # Non-conversational doc types: hard cap at 3 sentences per chunk
+            # (character limit is the primary backstop; this prevents runaway chains)
+            if is_dependent and not is_conversational and len(current_chunk_sentences) >= 3:
                 is_dependent = False
 
             projected_len = sum(len(s) for s in current_chunk_sentences) + len(current_chunk_sentences) + len(sent)

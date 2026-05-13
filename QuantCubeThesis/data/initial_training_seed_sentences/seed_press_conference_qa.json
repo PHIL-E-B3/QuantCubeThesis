@@ -1,6 +1,6 @@
 [
   {
-    "id": "08808609-193d-4bf9-a8c8-4026d325ccc9",
+    "id": "e1a50f02-6fd5-4b7f-a373-e9ee7192206d",
     "sentence": "review all the labor market indicators, including unemployment, including participation, and other measures of labor market activity, and try to make a sense -- try to get a sense of whether or not the labor market is improving in a sustainable way.",
     "source": "FOMCpresconf20120620.pdf",
     "doc_type": "press_conference_qa",
@@ -16,7 +16,7 @@
     "wid": ""
   },
   {
-    "id": "1887f915-205b-4942-ad47-198aa103a211",
+    "id": "945451fc-5470-42a5-809d-626bea25f3b9",
     "sentence": "If you look around the world, the United States, of all major economies, has been closest to it but still hasn't quite been able to achieve it. And I would also point out that this year, which has been a good year for the economy, inflation -- core inflation is actually running at 1.6 percent, whereas it ran close to 2 percent most of last year. So it's -- it's a real challenge, and -- but I think we're using our tools as best we can to meet that challenge.",
     "source": "FOMCpresconf20191211.pdf",
     "doc_type": "press_conference_qa",
@@ -32,7 +32,7 @@
     "wid": ""
   },
   {
-    "id": "0d51fa9b-ed40-4800-ad08-cdf3b4a4d4e5",
+    "id": "9b9d3d21-1e56-4960-8d57-06fad4da3b2a",
     "sentence": "So we, we have a number of -- I would say the [ON] RRP [facility] doesn't look like it's, it's pulling money out of -- out of the banking system.",
     "source": "FOMCpresconf20230614.json",
     "doc_type": "press_conference_qa",
@@ -48,7 +48,7 @@
     "wid": ""
   },
   {
-    "id": "4064fb26-23c6-4537-883d-1cce97192aff",
+    "id": "9214a314-c3d7-464d-adca-dc602c9f61d2",
     "sentence": "I think there's a -- there's a global business cycle happening with manufacturing and investment, and that's -- that's been, you know, definitely a bigger factor than, certainly, we expected late last year.",
     "source": "FOMCpresconf20190731.pdf",
     "doc_type": "press_conference_qa",
@@ -64,7 +64,7 @@
     "wid": ""
   },
   {
-    "id": "b1095220-66e5-47eb-8133-63ada872ed36",
+    "id": "5033dbea-037d-4cc4-afdc-bb9b9e7b329b",
     "sentence": "And, you know, these are very uncertain.",
     "source": "FOMCpresconf20220504.json",
     "doc_type": "press_conference_qa",
@@ -80,7 +80,7 @@
     "wid": ""
   },
   {
-    "id": "f5c0ea97-b07a-4115-8995-def0a15e0f25",
+    "id": "1797c28d-3f85-445a-b11f-8f24f51ec80f",
     "sentence": "You know, we're going to be seeing -- I think we've learned a lot on trade in this cycle.",
     "source": "FOMCpresconf20190731.pdf",
     "doc_type": "press_conference_qa",
@@ -96,7 +96,7 @@
     "wid": ""
   },
   {
-    "id": "ae6e98d8-7473-4e7a-a70f-7bde6d4b9f5e",
+    "id": "5cedcc9b-6e4f-4b1b-b101-e96861c3bd54",
     "sentence": "Let's see, I think you also then asked me about the yield curve, and -- I mean, there is much discussion about yield curve inversions and whether or not a flattening yield curve could signal a recession.",
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
@@ -112,7 +112,7 @@
     "wid": ""
   },
   {
-    "id": "d867df8b-cc2d-4d5c-8bb6-61cbc8ef8ea3",
+    "id": "0b8b1e22-a2e0-4708-b77f-f2e05e5f9af0",
     "sentence": "And, of course, we welcome that.",
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
@@ -128,7 +128,7 @@
     "wid": ""
   },
   {
-    "id": "174344f6-9bbe-496b-aaba-c823e4d94779",
+    "id": "9b037521-c6c6-403d-ac26-9feae69ba6c6",
     "sentence": "I would advise that -- and we have been trying to do this -- that it's important to look for ways to relieve regulatory burden on community banks and smaller institutions, to tailor regulation so that it's appropriate for the systemic risk profile of the particular institutions.",
     "source": "FOMCpresconf20161214.pdf",
     "doc_type": "press_conference_qa",
@@ -144,7 +144,7 @@
     "wid": ""
   },
   {
-    "id": "afc552ab-4ace-426a-84c7-fd7196dce81b",
+    "id": "85e596d1-82a4-42e1-aedb-a0f47f6afa88",
     "sentence": "We're not -- market participants have a very different job.",
     "source": "FOMCpresconf20230201.json",
     "doc_type": "press_conference_qa",
@@ -160,7 +160,7 @@
     "wid": ""
   },
   {
-    "id": "a766e07b-baf5-4667-a047-053a76aa71bb",
+    "id": "fe510417-20e4-4f1c-8dd1-44d024f40e0a",
     "sentence": "I think low -- inflation that's too low is a problem.",
     "source": "FOMCpresconf20130619.pdf",
     "doc_type": "press_conference_qa",
@@ -176,7 +176,7 @@
     "wid": ""
   },
   {
-    "id": "fb1403a7-9c6c-4d13-bd37-04fe3ec5bf70",
+    "id": "0deeb87d-0d6e-46c5-9b1d-00c338b51ae7",
     "sentence": "First, as I've said, asset purchases are not on a preset course, they are conditional on the data.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -192,7 +192,7 @@
     "wid": ""
   },
   {
-    "id": "767ad46e-a164-4fb2-a8e0-8d85f3a7f2cb",
+    "id": "057994e7-8c65-4f74-b7bd-ff0df5d6f0fb",
     "sentence": "This is the first time in many years that we've seen this.",
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
@@ -208,7 +208,7 @@
     "wid": ""
   },
   {
-    "id": "d84d4ea4-40d8-4c14-8632-9528e69ecb32",
+    "id": "a8553f75-48fc-4eea-8446-6f5564321142",
     "sentence": "There are a lot of kids who were shacking up with their families and probably would like to be going out and acquiring places of their own, whether it's an apartment or a home.",
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_qa",
@@ -224,7 +224,7 @@
     "wid": ""
   },
   {
-    "id": "6459121e-72b2-4cfb-9b4a-e7121ea988a9",
+    "id": "c18cf25e-cec6-4384-b537-6ec5544ed8d6",
     "sentence": "Well, that's a difficult problem.",
     "source": "FOMCpresconf20120620.pdf",
     "doc_type": "press_conference_qa",
@@ -240,7 +240,7 @@
     "wid": ""
   },
   {
-    "id": "dd5fb9ad-6bc0-48d7-82e7-16ea8f2c69a3",
+    "id": "6d0414a6-c227-4ecd-a855-78de277e0694",
     "sentence": "We want people to have [gains in] real wages. But we want wages to be going up at a level that's consistent with, with 2 percent inflation over time.",
     "source": "FOMCpresconf20230726.json",
     "doc_type": "press_conference_qa",
@@ -256,7 +256,7 @@
     "wid": ""
   },
   {
-    "id": "e979bf1d-8812-49b3-aca4-116639c2d96f",
+    "id": "0153b268-f516-4432-af68-2b2bd4022f4e",
     "sentence": "Productivity has been disappointing.",
     "source": "FOMCpresconf20131218.pdf",
     "doc_type": "press_conference_qa",
@@ -272,7 +272,7 @@
     "wid": ""
   },
   {
-    "id": "ce95b441-fbd8-47e5-b139-1eebe693df08",
+    "id": "f4b8d0cd-d833-4880-a3cc-cc8def704527",
     "sentence": "We haven't had so many during the pandemic era, and it just may be that we, we felt more united because we felt under a lot of pressure to get things right, but before the pandemic, we had plenty of dissents. And dissents happen.",
     "source": "fomcpresconf20240731.json",
     "doc_type": "press_conference_qa",
@@ -288,7 +288,7 @@
     "wid": ""
   },
   {
-    "id": "ac13db87-8424-439f-b582-28084387fb39",
+    "id": "c31623a3-9483-4bcd-9182-c2abc985bd67",
     "sentence": "I'd say it has a shorter duration than the last time. And the economy's much stronger, and inflation is much higher. So -- and I think that leads you to -- and I said, I've said this -- being willing to move sooner than we did the last time and also perhaps faster. But beyond that, it's really -- it's really not appropriate for me to speculate exactly what that would be.",
     "source": "FOMCpresconf20220126.json",
     "doc_type": "press_conference_qa",
@@ -304,7 +304,7 @@
     "wid": ""
   },
   {
-    "id": "dba8c68b-51fc-4b2a-be1e-139fbd10bcc8",
+    "id": "2fdd1a57-bd6b-4318-8778-001f3701f47d",
     "sentence": "Forecasters have a lot to be humble about.",
     "source": "FOMCpresconf20210616.json",
     "doc_type": "press_conference_qa",
@@ -320,7 +320,7 @@
     "wid": ""
   },
   {
-    "id": "3cd1c3ad-2a2b-467e-891e-19c46f811206",
+    "id": "6b008410-1a7a-4631-bfc7-9b773349d00d",
     "sentence": "I mean, there was some thought at the beginning that we should -- some people recommended that we just talk to, you know, econ Ph.D.'s about this, but, no, that's not what we chose to do, and we're glad this is the choice we made.",
     "source": "FOMCpresconf20190619.pdf",
     "doc_type": "press_conference_qa",
@@ -336,7 +336,7 @@
     "wid": ""
   },
   {
-    "id": "794a405c-ca06-4e51-a787-76b8f2258b0c",
+    "id": "183580a5-4a5e-4285-910e-59b67b7eda52",
     "sentence": "I -- but I will say we're making progress.",
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
@@ -352,7 +352,7 @@
     "wid": ""
   },
   {
-    "id": "ed94f857-3df3-44af-8c6d-d7db8d26c396",
+    "id": "a2fe861a-6be1-4521-9384-774223191e70",
     "sentence": "Yes, I think I'm hearing you correctly. So I would say a couple things.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
@@ -368,7 +368,7 @@
     "wid": ""
   },
   {
-    "id": "3f521e66-2d58-45f9-9453-7566475e8154",
+    "id": "33eafef9-a21a-498a-9794-e16da52b7cf1",
     "sentence": "If we, you know -- if we're -- if we want to communicate something about something that's going to happen in a future meeting, I think we know how to do that in speeches, in press conferences, and such.",
     "source": "FOMCpresconf20181219.pdf",
     "doc_type": "press_conference_qa",
@@ -384,7 +384,7 @@
     "wid": ""
   },
   {
-    "id": "0fcd41d7-32ed-440e-b3c5-c67d21d172d7",
+    "id": "66d1b439-a36f-4f41-921e-c3dd21b63d33",
     "sentence": "And, you know, as, as data improve, as the outlook improves very significantly since the December meeting, you would expect forecasts to move up.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
@@ -400,7 +400,7 @@
     "wid": ""
   },
   {
-    "id": "b3543201-cf14-49d2-b759-b634604507af",
+    "id": "787bd970-57b7-4430-ba1d-2b199939998d",
     "sentence": "I mean, the real issue with housing is that we have had, and are on track to continue to have, not enough housing. And so it's going to be challenging.",
     "source": "FOMCpresconf20240918.json",
     "doc_type": "press_conference_qa",
@@ -416,7 +416,7 @@
     "wid": ""
   },
   {
-    "id": "19b4b522-de93-415d-ab74-19df02e70904",
+    "id": "ffe710fe-5917-4e0a-bdf1-5faef245a900",
     "sentence": "We absolutely do.",
     "source": "FOMCpresconf20221214.json",
     "doc_type": "press_conference_qa",
@@ -432,7 +432,7 @@
     "wid": ""
   },
   {
-    "id": "51a08003-a37d-4157-bfcb-5ca965360d38",
+    "id": "8ef0712a-c955-42a9-b617-4e7ac23d2c3a",
     "sentence": "review will be doing under Vice Chair Barr's leadership. So that's, I think that's where -- that's what you think about.",
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
@@ -448,7 +448,7 @@
     "wid": ""
   },
   {
-    "id": "b73b76ec-2635-4996-a04e-10781e4656d4",
+    "id": "6293e459-e77c-4ec2-840c-a171648e320d",
     "sentence": "As you also are I'm sure aware, Marty, we talk to literally thousands of businesspeople and market people and people in the nonprofit sector and the educational sector just to get a better sense of the economy.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_qa",
@@ -464,7 +464,7 @@
     "wid": ""
   },
   {
-    "id": "686da66d-20c3-4163-8d7a-c5768a404c14",
+    "id": "7d15a999-2f49-403b-ad5e-4d5a2ebf706d",
     "sentence": "participants of the FOMC, including voting and nonvoting members who are asked to describe their own assessment of optimal policy -- the large majority of them estimate that the appropriate target for the federal funds rate at the end of 2016 will be around 2 percent, even though at that time the economy should be close to full employment, according to our best projections.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -480,7 +480,7 @@
     "wid": ""
   },
   {
-    "id": "4d5619cf-eec3-4157-8446-c6a0cda4eddc",
+    "id": "586bc31d-eccb-4a5c-bdf4-681f1120525a",
     "sentence": "This is not moderately above 2 percent.",
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
@@ -496,7 +496,7 @@
     "wid": ""
   },
   {
-    "id": "e24811db-ac88-49c4-8b36-4628f4e5a618",
+    "id": "5e87e5eb-a693-449e-9e7d-dd5764510309",
     "sentence": "We have to acknowledge that there are always wide uncertainty bands around the level of, for example, the natural rate of unemployment. But also, what is the neutral rate of interest?",
     "source": "FOMCpresconf20180613.pdf",
     "doc_type": "press_conference_qa",
@@ -512,7 +512,7 @@
     "wid": ""
   },
   {
-    "id": "b1e4f4c1-66e0-47b1-a79f-87dbf9e756b3",
+    "id": "192b90a6-919a-42e3-8534-b2dbd7d6fb7b",
     "sentence": "So, we continue to think about options.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -528,7 +528,7 @@
     "wid": ""
   },
   {
-    "id": "c016e18b-3a71-4f73-adec-71f8ac422cd7",
+    "id": "159c66c0-bdea-4efc-9063-434cec13f3c7",
     "sentence": "So 13(3) seemed like the right -- we have a little more flexibility under section 13(3).",
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
@@ -544,7 +544,7 @@
     "wid": ""
   },
   {
-    "id": "23116442-c497-45a4-aa3c-cb3499c1d5b2",
+    "id": "e34a6055-8789-45a1-a0c4-67423d5c4231",
     "sentence": "Don't expect to need to do it again, but we don't know.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_qa",
@@ -560,7 +560,7 @@
     "wid": ""
   },
   {
-    "id": "44f38a2f-675b-4b29-a67c-4c94ba1c187e",
+    "id": "01ce8e37-f0f3-4c70-b118-84ebe28245ee",
     "sentence": "I guess the question is, does it make sense to actively seek a higher inflation rate in order to achieve a slightly increased reduction -- a slightly increased pace of reduction in the unemployment rate?",
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_qa",
@@ -576,7 +576,7 @@
     "wid": ""
   },
   {
-    "id": "8926f82b-8c35-430b-8c09-f9b9f635b229",
+    "id": "bb774173-d894-435c-a1d3-eef47bcca431",
     "sentence": "I think we've made a lot of progress.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -592,7 +592,7 @@
     "wid": ""
   },
   {
-    "id": "89431cdd-ae57-4a07-a4cf-95f21a37a19e",
+    "id": "6b8e750e-3832-4d88-a5dc-eb435915caba",
     "sentence": "We expect the unemployment rate to fall slightly -- or, at least, participants project that it will fall slightly below that level.",
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_qa",
@@ -608,7 +608,7 @@
     "wid": ""
   },
   {
-    "id": "3e6b559f-8021-4af1-b086-1f05354fa4d8",
+    "id": "7ade8d3e-cf68-4512-bd3d-6d48b86fd771",
     "sentence": "I mean, lots of central banks were raising rates three months earlier, and it didn't matter.",
     "source": "FOMCpresconf20220727.json",
     "doc_type": "press_conference_qa",
@@ -624,7 +624,7 @@
     "wid": ""
   },
   {
-    "id": "d2d41f1f-d9f9-4f75-892b-8c62004c2a73",
+    "id": "e359fc6f-2083-4f08-bc89-9efb419a2cf4",
     "sentence": "It has been a challenge to achieve that.",
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
@@ -640,7 +640,7 @@
     "wid": ""
   },
   {
-    "id": "4d713be1-e0bd-454e-ad5d-ab5794f04a88",
+    "id": "787f130d-4cc8-4fca-9d3f-34a948fca539",
     "sentence": "We're committed to robustly implementing that guidance. And that's what this -- that's what this says.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
@@ -656,7 +656,7 @@
     "wid": ""
   },
   {
-    "id": "c7f3e936-286e-41e4-9323-ee5268497603",
+    "id": "59ee8b80-5c97-47e9-bff8-fffcb379d91d",
     "sentence": "There's higher g-fees. So there's a number of things happening in the economy which will tend, all else equal, to raise that spread between mortgage rates and MBS yields, so that's unfortunate.",
     "source": "FOMCpresconf20121212.pdf",
     "doc_type": "press_conference_qa",
@@ -672,7 +672,7 @@
     "wid": ""
   },
   {
-    "id": "d4dc167e-e41e-48bc-b735-8fb2a64dad00",
+    "id": "008ed79c-62f9-4c53-b143-48124763854d",
     "sentence": "We're not going to -- we didn't overreact, I think, to inflation being under 2 percent.",
     "source": "FOMCpresconf20180613.pdf",
     "doc_type": "press_conference_qa",
@@ -688,7 +688,7 @@
     "wid": ""
   },
   {
-    "id": "1a2488f9-11f7-4782-a706-1ee228759df4",
+    "id": "80899709-a891-4d6a-97c1-a0b764f9bfce",
     "sentence": "So we've been given a really important job to do on behalf of the American people by Congress, and we've been given the tools to do it, and my colleagues and I are focused exclusively on carrying out that mission.",
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
@@ -704,7 +704,7 @@
     "wid": ""
   },
   {
-    "id": "a59a9e22-5a95-4cde-a908-03bba08c240f",
+    "id": "111836e6-11a4-40a4-851a-137aac334d34",
     "sentence": "There is the issue of setting a precedent that might reduce confidence in banks in subsequent periods. But again, that being said, it's a very tough issue. And I -- and finding the resources to solve Cyprus's problem, you know, there's probably no easy way to do it. And we're going to keep monitoring that. But I don't envy them that particular challenge.",
     "source": "FOMCpresconf20130320.pdf",
     "doc_type": "press_conference_qa",
@@ -720,7 +720,7 @@
     "wid": ""
   },
   {
-    "id": "858d1149-7d24-40e2-ba10-ead2df796fa3",
+    "id": "7ae02adb-2761-41cf-a9f8-acd5a784a0ad",
     "sentence": "If they linger, then there could be more and more uncertainty, and you worry over time that that could have an effect on business confidence. So far, the actual amount of tariffs that have been applied both here and in China is not enough to have material effects on GDP either here or in China. So the concern is more a longer -- for me -- a longer, drawn-out set of negotiations back and forth, which could result in sapping business confidence.",
     "source": "FOMCpresconf20190130.pdf",
     "doc_type": "press_conference_qa",
@@ -736,7 +736,7 @@
     "wid": ""
   },
   {
-    "id": "24483615-ecad-4cc0-9d39-a08380434ad4",
+    "id": "edb02ca4-884b-4b43-8a95-3a2d505d0e24",
     "sentence": "I don't say that.",
     "source": "FOMCpresconf20221214.json",
     "doc_type": "press_conference_qa",
@@ -752,7 +752,7 @@
     "wid": ""
   },
   {
-    "id": "faf24f25-56c0-4aa6-a01c-35f0a9d548a3",
+    "id": "40163f55-59ac-4b4b-8a89-df1b0b669cfc",
     "sentence": "If they were to move up over time, that would probably serve to increase my confidence. But there are a wide range of things that we will be looking at, including further improvement in the labor market. So there's no simple answer.",
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
@@ -768,7 +768,7 @@
     "wid": ""
   },
   {
-    "id": "c2dae53b-4f2f-4ebc-9950-16ef0364ff33",
+    "id": "7c005ebd-4a7d-4315-b77c-f95891362236",
     "sentence": "It's only a problem insofar as it makes it more difficult for us to achieve our goals.",
     "source": "FOMCpresconf20231213.json",
     "doc_type": "press_conference_qa",
@@ -784,7 +784,7 @@
     "wid": ""
   },
   {
-    "id": "8a348918-4732-44dc-aadd-fb4b0aa86e35",
+    "id": "dcf55deb-6aee-420b-b11f-f77784778c3f",
     "sentence": "We -- unemployment was 10 percent at the height of the crisis.",
     "source": "FOMCpresconf20180613.pdf",
     "doc_type": "press_conference_qa",
@@ -800,7 +800,7 @@
     "wid": ""
   },
   {
-    "id": "a2691a95-80d7-4bad-9f33-96215f201c8f",
+    "id": "8a1e936b-878c-4d50-9432-bb85e5837802",
     "sentence": "There are a number of related issues that -- you mentioned one, Greg, but, you know, and -- which you need to start to think about, and we'll do that. But I want to get, we want to get through this taper decision, and then turn to those issues, rather than start, you know, thinking about them now and having the minutes discuss them and get people thinking that we are, you know, focused on those issues, because we're really not.",
     "source": "FOMCpresconf20210922.json",
     "doc_type": "press_conference_qa",
@@ -816,7 +816,7 @@
     "wid": ""
   },
   {
-    "id": "6e1b373c-65a1-461b-a706-b0d7ca9fc430",
+    "id": "c98a941a-eb80-47a5-9680-20178aa5791c",
     "sentence": "We have a subcommittee of our supervision committee with two experienced -- one community banker, one community bank supervisor on it from our Board who are particularly interested in making sure that the rules are not excessively onerous, and we will be looking at the comments and trying to make sure that we take into account the needs of community banks when we put out the final rule.",
     "source": "FOMCpresconf20120913.pdf",
     "doc_type": "press_conference_qa",
@@ -832,7 +832,7 @@
     "wid": ""
   },
   {
-    "id": "5921fbf1-bf44-4d1d-b399-dbb707736e8c",
+    "id": "f0f1c849-c0e1-4cee-8808-ee3fdd4f1fc1",
     "sentence": "Things like that are really demand.",
     "source": "FOMCpresconf20240320.json",
     "doc_type": "press_conference_qa",
@@ -848,7 +848,7 @@
     "wid": ""
   },
   {
-    "id": "b46b1a9a-3499-4d27-8df2-9d5559341595",
+    "id": "89cc365a-5df0-4fc2-998e-0e7f3715b300",
     "sentence": "Well, it depends on whether you -- so recessions tend to be nonlinear, and so they're very hard to model.",
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
@@ -864,7 +864,7 @@
     "wid": ""
   },
   {
-    "id": "e3b48187-d688-4038-b52b-6cfa1d97cd19",
+    "id": "bf230060-c9e1-49c4-925b-2f642b10accc",
     "sentence": "That's what we think.",
     "source": "FOMCpresconf20240320.json",
     "doc_type": "press_conference_qa",
@@ -880,7 +880,7 @@
     "wid": ""
   },
   {
-    "id": "e0ae3b13-20f0-47ff-a104-159654e23ddc",
+    "id": "401c2970-2b6d-4c1e-8db5-7fd725ca7781",
     "sentence": "They're much -- much of the origination process has moved outside the banking system, and it's something we monitor.",
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
@@ -896,7 +896,7 @@
     "wid": ""
   },
   {
-    "id": "277a4948-e5ca-46f6-8b02-a8c4aa5f5bc5",
+    "id": "e8f0c8fa-5cef-47ac-95d8-fd4143f5247b",
     "sentence": "We'll be looking very carefully to see how that's happening. And I think you see -- you learn -- every cycle you learn about these things. So we will see whether growth is picking up, whether it's bottoming out.",
     "source": "FOMCpresconf20190731.pdf",
     "doc_type": "press_conference_qa",
@@ -912,7 +912,7 @@
     "wid": ""
   },
   {
-    "id": "fe8fdfdb-bb14-4a2e-8287-bd90be3889ac",
+    "id": "265bb70d-97d2-4162-a1b0-864c966214ef",
     "sentence": "Job creation is, is a little below the, the level that would keep it there but, nonetheless, close. And so that's what our policy's trying to achieve.",
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
@@ -928,7 +928,7 @@
     "wid": ""
   },
   {
-    "id": "b74008e1-be79-4ac6-bc51-0893836611ce",
+    "id": "439ebda6-8724-430c-98f2-0aa8e27e4d72",
     "sentence": "So you ask me about my own expectation, and I'd say -- I don't want to -- I speak on behalf of the Committee and try to explain Committee decisions, and we don't identify who's who in terms of our projections of the funds rate, and I don't want to change that and have the focus be on my personal views on the path.",
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_qa",
@@ -944,7 +944,7 @@
     "wid": ""
   },
   {
-    "id": "83e166b5-49d9-4822-b345-eacbe15b24aa",
+    "id": "d7c6d172-6291-41dc-9ff3-c0e718cd1eb2",
     "sentence": "That's, that's the issue. And we don't really see it yet, so, so people are making estimates, you know, people are publishing estimates, but it's very kind of rule-of-thumb guesswork almost at this point. But we think it's, it's potentially quite real and that argues for, you know, being alert as we go forward.",
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
@@ -960,7 +960,7 @@
     "wid": ""
   },
   {
-    "id": "09550a8d-452b-4efb-90ff-591491ac8ca4",
+    "id": "070453c4-158c-4b1b-9ea7-9a1ec0ecc498",
     "sentence": "It's a reasonable assumption that, over time, goods inflation will flatten out -- probably approximate zero. That would mean the services sectors would have to contribute more.",
     "source": "FOMCpresconf20240131.json",
     "doc_type": "press_conference_qa",
@@ -976,7 +976,7 @@
     "wid": ""
   },
   {
-    "id": "55b7b92b-94aa-43dd-8fac-3991faf91d2c",
+    "id": "0b6fce87-556e-44b4-9310-fec1ef0250e7",
     "sentence": "So I think, broadly, a lot of economists think that the -- that the natural rate of unemployment will have moved up to some significant extent above where we think it was before. And the reason is there's -- it's the usual matching issue, where matching has become less effective, and that kind of thing when you have the kind of turbulent downturn and the big switches in demand from services to goods and all that. So it could be higher. And my own instinct is that the natural rate of unemployment is higher.",
     "source": "FOMCpresconf20220727.json",
     "doc_type": "press_conference_qa",
@@ -992,7 +992,7 @@
     "wid": ""
   },
   {
-    "id": "84029151-be04-4eb1-bfad-f6e213e0bf01",
+    "id": "85c5c7b8-6873-4cbe-bb53-b69aceb691b1",
     "sentence": "It really depends on the specifics.",
     "source": "FOMCpresconf20161214.pdf",
     "doc_type": "press_conference_qa",
@@ -1008,7 +1008,7 @@
     "wid": ""
   },
   {
-    "id": "b156f262-a052-4988-870f-f3ff9c956707",
+    "id": "19bf1902-93b9-435c-9f1b-26ac44be8b67",
     "sentence": "Let me explain \"extent and timing.\" So the, the sense of that wording is to make clear that if the economy does evolve about as anticipated, we're at a point at which it would be appropriate to slow the pace of rate cuts. So \"extent,\" that just relates to how, how much further we can reduce our policy rate consistent with getting to a neutral stance.",
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
@@ -1024,7 +1024,7 @@
     "wid": ""
   },
   {
-    "id": "7844a71f-4814-46f1-a839-c73be8fe2b17",
+    "id": "845d66f6-a19a-48bb-b7fc-12c58151fac5",
     "sentence": "You hear us talk all the time about participation; about employment to population, which is the combination of the two; about different measures of, of unemployment. So it's wages, it's, it's the job flows, it's, you know, all of those things.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
@@ -1040,7 +1040,7 @@
     "wid": ""
   },
   {
-    "id": "4e2aec53-9e35-4464-9ca7-1e17ce5b74c8",
+    "id": "dd03b122-78d0-4ab3-9c04-ead6eabd015b",
     "sentence": "It's very unfortunate. And that's why we're -- we're really committed to bringing down inflation -- one of the reasons.",
     "source": "FOMCpresconf20220727.json",
     "doc_type": "press_conference_qa",
@@ -1056,7 +1056,7 @@
     "wid": ""
   },
   {
-    "id": "bc852a60-2743-4419-83a5-f85d97410ebc",
+    "id": "c067d293-adaf-4594-9ecd-cce8e800a4b4",
     "sentence": "Well, I would just mention a couple.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_qa",
@@ -1072,7 +1072,7 @@
     "wid": ""
   },
   {
-    "id": "216005e5-6338-423e-b206-29e2b474593b",
+    "id": "875bf21a-301f-4c1a-aca6-53e81a0a9761",
     "sentence": "I think it will be many years before central banks have completely worked out exactly how best to deal with financial instability questions.",
     "source": "FOMCpresconf20131218.pdf",
     "doc_type": "press_conference_qa",
@@ -1088,7 +1088,7 @@
     "wid": ""
   },
   {
-    "id": "9d9a5778-d7e0-4ffd-953f-600afbbefb6d",
+    "id": "67dd2448-982a-4e29-942d-4945e3c84915",
     "sentence": "It's not easy to, to be -- to do that with confidence. So I would just say it that way.",
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
@@ -1104,7 +1104,7 @@
     "wid": ""
   },
   {
-    "id": "29a9ee51-9ab9-4bbc-aa39-c6d827a72f5b",
+    "id": "8644feb7-5492-4663-a1e4-7ed0483608a4",
     "sentence": "The risk is -- as we pointed out in our statement, the risks -- the risks of higher unemployment and higher inflation have risen, but they haven't materialized yet.",
     "source": "FOMCpresconf20250507.json",
     "doc_type": "press_conference_qa",
@@ -1120,7 +1120,7 @@
     "wid": ""
   },
   {
-    "id": "406cab94-399c-4113-b8ea-35e48cb2a884",
+    "id": "91c9820a-1b0e-49d0-ae11-c12790ae47ad",
     "sentence": "I think we know how to deal with bad loans and things like that.",
     "source": "FOMCpresconf20211215.json",
     "doc_type": "press_conference_qa",
@@ -1136,7 +1136,7 @@
     "wid": ""
   },
   {
-    "id": "83796eb8-3bde-486a-a40a-e62134aa3f1b",
+    "id": "e3ba82e7-8bab-4ac6-aa90-13398f54df59",
     "sentence": "As I mentioned, persistent changes in broader financial conditions can have implications for the path of monetary policy.",
     "source": "FOMCpresconf20231101.json",
     "doc_type": "press_conference_qa",
@@ -1152,7 +1152,7 @@
     "wid": ""
   },
   {
-    "id": "546a5ae4-ca5b-4306-956d-9aa843989e06",
+    "id": "c0b8436c-352b-44df-8907-d1bc866613a5",
     "sentence": "However, the layoff rate is also very low. So you've got a low -- a low-firing, low-hiring environment. And the concern is that if you start to see layoffs, the people who are laid off won't -- there won't be a lot of hiring going on. So that could very quickly flow into higher unemployment.",
     "source": "FOMCpresconf20250917.json",
     "doc_type": "press_conference_qa",
@@ -1168,7 +1168,7 @@
     "wid": ""
   },
   {
-    "id": "6302cde5-d6b2-451e-9baa-3f8f587e9187",
+    "id": "fee9f3ab-c4e3-4971-89a2-84d01934d9cf",
     "sentence": "We now think significantly longer than we thought at the beginning, and so confident that it will come but not so confident in the timing of it.",
     "source": "FOMCpresconf20240501.json",
     "doc_type": "press_conference_qa",
@@ -1184,7 +1184,7 @@
     "wid": ""
   },
   {
-    "id": "2d23db79-c39d-4df1-916e-1435084f53f7",
+    "id": "199c631b-0b7d-4e32-a4ba-70656e558d42",
     "sentence": "If it does, we'll take a first step at some point -- possibly later this year -- and then continue so long as the data are consistent with that continued progress. And so that basic structure is still in place. But what I want to emphasize is really two things.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -1200,7 +1200,7 @@
     "wid": ""
   },
   {
-    "id": "7a9a80e4-a235-45ac-b65b-f4939925b324",
+    "id": "17d9bee9-5954-49de-bea6-771680ad3742",
     "sentence": "The dot is either one thing or it's another. So I just would say that, if you pay too close attention to the dots, then you may lose sight of the larger picture.",
     "source": "FOMCpresconf20190619.pdf",
     "doc_type": "press_conference_qa",
@@ -1216,7 +1216,7 @@
     "wid": ""
   },
   {
-    "id": "db61ad3e-12b5-40a2-8432-380bc3888cd4",
+    "id": "231382a3-dd50-424b-9904-68cf9cb818cf",
     "sentence": "We write down our best estimates at this time of what is a longer-run normal level of the federal funds rate, and those are numbers about which there is great uncertainty.",
     "source": "FOMCpresconf20160615.pdf",
     "doc_type": "press_conference_qa",
@@ -1232,7 +1232,7 @@
     "wid": ""
   },
   {
-    "id": "b3726ac2-f118-4cb4-92d6-210dc345a77e",
+    "id": "a6051b8d-f4a7-4b05-a9d6-020cf28cd766",
     "sentence": "It's not a mystery.",
     "source": "FOMCpresconf20250917.json",
     "doc_type": "press_conference_qa",
@@ -1248,7 +1248,7 @@
     "wid": ""
   },
   {
-    "id": "626934d3-421d-4851-8c60-efecc168e3ea",
+    "id": "39257c54-9676-4f77-9d6b-aaa2ad722fd2",
     "sentence": "That's important in determining the impact on the overall outlook, but, certainly, we are taking account of movements in asset prices in evaluating the appropriate stance of policy.",
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
@@ -1264,7 +1264,7 @@
     "wid": ""
   },
   {
-    "id": "b25504ae-1860-47d6-8bd8-3a9f4887b9ef",
+    "id": "e5e5f6a7-494f-474e-a8cd-64767d4ab26d",
     "sentence": "And, of course, we recognize that the housing market is sensitive to mortgage rates.",
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_qa",
@@ -1280,7 +1280,7 @@
     "wid": ""
   },
   {
-    "id": "4ea07247-059d-48a2-ba26-df23857bc02f",
+    "id": "3b5ba467-b93e-45f6-92f8-0f9c24fde984",
     "sentence": "As I said earlier, you know, we, we don't have any certainty about the timing or the extent of these effects from reopening. And therefore we don't -- we don't think that -- we think it's unlikely that they would materially affect the underlying inflation dynamics that the economy has had for a quarter of a century.",
     "source": "FOMCpresconf20210616.json",
     "doc_type": "press_conference_qa",
@@ -1296,7 +1296,7 @@
     "wid": ""
   },
   {
-    "id": "3b6f9bcd-cd48-4718-ab0d-aba0d9197551",
+    "id": "555f0292-1d5f-4736-899c-8dadc5359169",
     "sentence": "Well I, I'd say you, you see expectations moving up a little bit, at the short end -- but not at the longer run, which [is] where it really matters. And those could be related to -- could be related to what you mentioned, some of the new policies.",
     "source": "FOMCpresconf20250129.json",
     "doc_type": "press_conference_qa",
@@ -1312,7 +1312,7 @@
     "wid": ""
   },
   {
-    "id": "afc03a83-8499-4323-9055-388921800de9",
+    "id": "335cb715-fd27-44d6-9c62-af418cafa93f",
     "sentence": "So, trade -- you sound like you're an avid reader of the Beige Book, and that's great -- the trade, as you will know, then -- trade has been a big feature in the Beige Book for some time now.",
     "source": "FOMCpresconf20190130.pdf",
     "doc_type": "press_conference_qa",
@@ -1328,7 +1328,7 @@
     "wid": ""
   },
   {
-    "id": "48b6a09b-1712-40f6-951a-e5935b10a05e",
+    "id": "70b8b83d-30cf-43b1-88b1-7f678a1149bb",
     "sentence": "We're, we're very focused on that, as I -- as I mentioned.",
     "source": "FOMCpresconf20231213.json",
     "doc_type": "press_conference_qa",
@@ -1344,7 +1344,7 @@
     "wid": ""
   },
   {
-    "id": "429c716e-47a5-479d-8dff-fc0dce69d1a8",
+    "id": "89e7b99b-8ba2-443e-99e2-88b046e11e44",
     "sentence": "What happens in a downturn, though, is they move up at twice the speed of white unemployment. So we monitor those things.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
@@ -1360,7 +1360,7 @@
     "wid": ""
   },
   {
-    "id": "75fbea66-ca39-46f6-ae35-f3ab5ba2d567",
+    "id": "fe0c80ae-1d2b-4494-81a8-511581302504",
     "sentence": "Unemployment has declined again, and the household survey is now at a 50-year low -- has been, you know, very close to 50-year lows for 18 months now. So it's very positive.",
     "source": "FOMCpresconf20191030.pdf",
     "doc_type": "press_conference_qa",
@@ -1376,7 +1376,7 @@
     "wid": ""
   },
   {
-    "id": "b34485f8-88e3-4e24-86b9-9305d49d6bc4",
+    "id": "3cc16128-ada2-4420-afb4-396cbab6c8f8",
     "sentence": "A higher neutral rate would mean that interest rates would run higher by that amount.",
     "source": "FOMCpresconf20210616.json",
     "doc_type": "press_conference_qa",
@@ -1392,7 +1392,7 @@
     "wid": ""
   },
   {
-    "id": "8cd65a8d-e9c7-4a3f-9446-08ea8b608749",
+    "id": "db815830-53c0-4216-81b7-662e976d0e0b",
     "sentence": "We're sort of just at the beginning of, of that discussion.",
     "source": "FOMCpresconf20231213.json",
     "doc_type": "press_conference_qa",
@@ -1408,7 +1408,7 @@
     "wid": ""
   },
   {
-    "id": "4a26191f-63da-41d1-a4fb-507409670c13",
+    "id": "39e4ed0d-1785-4f94-85f2-831ffbeb6426",
     "sentence": "We're trying to achieve 2 percent inflation consistent with a strong labor market.",
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_qa",
@@ -1424,7 +1424,7 @@
     "wid": ""
   },
   {
-    "id": "fea004db-3266-4403-a2f1-b302283e617f",
+    "id": "2efa934b-c5e3-4209-9d76-3e99c0c7aef5",
     "sentence": "The post-pandemic labor market, and the economy in general, will be different. And the maximum level of employment that's consistent with price stability evolves over time within a -- within a business cycle and over a longer period, in part reflecting [the] evolution of the factors that affect labor supply, including those related to the pandemic. So I would say: Look, we're, we're at 4.2 percent now and it's been -- the unemployment rate has been dropping very quickly. So we're already in the vicinity of 4 percent.",
     "source": "FOMCpresconf20211215.json",
     "doc_type": "press_conference_qa",
@@ -1440,7 +1440,7 @@
     "wid": ""
   },
   {
-    "id": "8272531f-2cd8-4fbf-8853-78c164fc33c3",
+    "id": "3a3deb92-4faa-41e7-b5fb-85f202bc7750",
     "sentence": "You see some discrimination among different institutions according to the bond market -- interest rates that they get charged, and so on. So there is some evidence of market discrimination. That being said, I certainly never meant to say to Senator Warren -- and I share her concern about too-big-to-fail, I think it's a major issue -- I never meant to imply that the problem was solved and gone.",
     "source": "FOMCpresconf20130320.pdf",
     "doc_type": "press_conference_qa",
@@ -1456,7 +1456,7 @@
     "wid": ""
   },
   {
-    "id": "17fd22ff-3cef-4849-ae0b-ea08bd0e08ce",
+    "id": "72e5de0c-1889-4e0b-9dc2-4e3f260d6fdf",
     "sentence": "I think the other factor which was at play was an unwinding of excessively risky and levered positions in the markets, and insufficiencies of liquidity in some cases meant that those unwindings led to larger reactions in prices and rates than might otherwise have occurred.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -1472,7 +1472,7 @@
     "wid": ""
   },
   {
-    "id": "f8167d19-85df-4b58-b182-c762f1b667c3",
+    "id": "a60b701d-4a39-4ebf-af4c-7288e0ed7732",
     "sentence": "Was it a mistake?",
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
@@ -1488,7 +1488,7 @@
     "wid": ""
   },
   {
-    "id": "021b3963-d291-4caf-a1dc-6127d1452727",
+    "id": "06a7dea2-e6ed-4dac-85ea-8e99ebb655d7",
     "sentence": "And, you know, that can only help.",
     "source": "FOMCpresconf20210616.json",
     "doc_type": "press_conference_qa",
@@ -1504,7 +1504,7 @@
     "wid": ""
   },
   {
-    "id": "278e78bb-8fd6-4783-a7df-15b2aa74539d",
+    "id": "245dd7c8-140f-42dd-b050-185545b0174d",
     "sentence": "They, it'll be a baseline, and then they'll show six or seven alternative scenarios, including really good ones and, and not-so-good ones. And what those do is they spark, you know, the, the policymakers to sort of think and understand about the, you know, the, the uncertainties that surround this.",
     "source": "FOMCpresconf20250129.json",
     "doc_type": "press_conference_qa",
@@ -1520,7 +1520,7 @@
     "wid": ""
   },
   {
-    "id": "fdf46acd-af18-44e9-be63-8444e5c81dd2",
+    "id": "371cab21-1a0d-4237-bd08-bf5d567f8b33",
     "sentence": "Our policy actions have to be determined by our best assessment of what's needed for the economy.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
@@ -1536,7 +1536,7 @@
     "wid": ""
   },
   {
-    "id": "e3f6639a-11dd-4fba-9b41-f371b65e7d68",
+    "id": "e22f72e0-bd0d-4aa1-9f36-837f7da400cd",
     "sentence": "We're going to be carefully looking at economic data.",
     "source": "FOMCpresconf20190918.pdf",
     "doc_type": "press_conference_qa",
@@ -1552,7 +1552,7 @@
     "wid": ""
   },
   {
-    "id": "3c23dc90-4d07-4f41-a20f-e150223e6798",
+    "id": "2a959eb3-0db7-486d-8350-aaeec86c1745",
     "sentence": "So, no -- we really do think that we're having an effect broadly across the economy.",
     "source": "FOMCpresconf20240131.json",
     "doc_type": "press_conference_qa",
@@ -1568,7 +1568,7 @@
     "wid": ""
   },
   {
-    "id": "4d5e59c6-cbd6-405c-95bd-65f1fdecb0b9",
+    "id": "9633c472-01ff-4456-b9e2-0d352a0220ff",
     "sentence": "Price stability is half of our mandate. And if we were to see inflation moving up to levels persistently that were -- that were above, significantly, materially above our goal and particularly if inflation expectations were to move up, we would use our tools to guide inflation back down to 2 percent. So we won't have an extended period of, of high inflation. We think that, that some of it will, will fall away naturally as the process of reopening the economy moves through. And it could take some time.",
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
@@ -1584,7 +1584,7 @@
     "wid": ""
   },
   {
-    "id": "43020756-dd22-4812-a086-046396c883dd",
+    "id": "8a8eafc8-87b9-4981-997c-dba5bde390ab",
     "sentence": "Looking further out, let's say if you look toward the end of 2016 when most participants are projecting that the employment situation -- that the unemployment rate will be close to their notions of mandate-consistent or longer-run normal levels.",
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_qa",

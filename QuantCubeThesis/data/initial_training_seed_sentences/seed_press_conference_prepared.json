@@ -1,6 +1,6 @@
 [
   {
-    "id": "e4e46249-2065-4426-bd26-67af64143a91",
+    "id": "3d2af2de-45cb-4590-9918-46cae03d8a18",
     "sentence": "Nonetheless, the process of getting inflation back down to 2 percent has a long way to go.",
     "source": "FOMCpresconf20230726.json",
     "doc_type": "press_conference_prepared",
@@ -16,7 +16,7 @@
     "wid": ""
   },
   {
-    "id": "b98489d4-5a09-4456-82e6-c5636a8698d9",
+    "id": "019e63af-be60-41b7-b4ea-1db17374c0c2",
     "sentence": "They're not very high -- let's be honest.",
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_prepared",
@@ -32,7 +32,7 @@
     "wid": ""
   },
   {
-    "id": "82ba55be-b8fb-4a59-abcf-483264d5c191",
+    "id": "30229925-620a-44da-806a-1ac5f1750273",
     "sentence": "The overall economy is growing at a moderate rate.",
     "source": "FOMCpresconf20191030.pdf",
     "doc_type": "press_conference_prepared",
@@ -48,7 +48,7 @@
     "wid": ""
   },
   {
-    "id": "51085eae-45ea-49c9-b207-d3326812b22a",
+    "id": "015478e5-4d82-435d-af89-c9553b9ea6dc",
     "sentence": "Today's decision is in line with that view and does not represent a reassessment of the economic outlook or of the appropriate course for monetary policy.",
     "source": "FOMCpresconf20170315.pdf",
     "doc_type": "press_conference_prepared",
@@ -64,7 +64,7 @@
     "wid": ""
   },
   {
-    "id": "1eb1674a-b849-4790-95b0-6ccd48bcf162",
+    "id": "7e0f709a-c1a0-4abf-9dee-51aebc458026",
     "sentence": "This expectation is consistent with the view that the neutral nominal federal funds rate -- defined as the value of the federal funds rate that would be neither expansionary nor contractionary if the economy was operating near potential -- is currently low by historical standards and is likely to rise only gradually over time.",
     "source": "FOMCpresconf20160316.pdf",
     "doc_type": "press_conference_prepared",
@@ -80,7 +80,7 @@
     "wid": ""
   },
   {
-    "id": "6b51c699-ef7f-442d-a464-cc414beb7765",
+    "id": "17e46cbf-9cbb-4b26-b9f8-e4924233d6be",
     "sentence": "Our long-stated plan has been to stop balance sheet runoff when reserves are somewhat above the level we judge consistent with ample reserve conditions.",
     "source": "FOMCpresconf20251029.json",
     "doc_type": "press_conference_prepared",
@@ -96,7 +96,7 @@
     "wid": ""
   },
   {
-    "id": "a4aaa484-215e-4d0f-b400-f01cd120654c",
+    "id": "0ad20051-6e41-406a-b63a-583675f2ec8e",
     "sentence": "In light of these uncertainties, the Committee decided to await more evidence that the recovery's progress will be sustained before adjusting the pace of asset purchases.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_prepared",
@@ -112,7 +112,7 @@
     "wid": ""
   },
   {
-    "id": "8a88ff9a-9c8c-4cc3-b7ce-d29cd7905b77",
+    "id": "1d9ca360-f7bb-47cc-b733-43b026488152",
     "sentence": "Turning to our balance sheet, our securities holdings have declined by nearly $1.5 trillion since the Committee began reducing our portfolio.",
     "source": "FOMCpresconf20240320.json",
     "doc_type": "press_conference_prepared",
@@ -128,7 +128,7 @@
     "wid": ""
   },
   {
-    "id": "2ddda3bb-a4d3-4703-8821-b3ac9ff20abd",
+    "id": "0ad8c149-6cc0-44b3-9b4b-c4cea14ab98a",
     "sentence": "The Committee's confidence in the inflation outlook rests importantly on its judgment that longer-run inflation expectations remain well anchored.",
     "source": "FOMCpresconf20151216.pdf",
     "doc_type": "press_conference_prepared",
@@ -144,7 +144,7 @@
     "wid": ""
   },
   {
-    "id": "fc480dce-1a6b-46eb-baa5-eec83da2541a",
+    "id": "90f95d5e-3935-4740-976d-6c8ac427422f",
     "sentence": "My colleagues and I are acutely aware that high inflation imposes significant hardship, as it erodes purchasing power, especially for those least able to meet the higher costs of essentials like food, housing, and transportation.",
     "source": "fomcpresconf20240731.json",
     "doc_type": "press_conference_prepared",
@@ -160,7 +160,7 @@
     "wid": ""
   },
   {
-    "id": "940d419b-8563-46ea-aa30-152c73c77a00",
+    "id": "5733b0d4-4104-43cc-9726-8b9e64772759",
     "sentence": "Demand for labor is very strong, and employment rose 850,000 in June, with the leisure and hospitality sector continuing to post notable gains.",
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_prepared",
@@ -176,7 +176,7 @@
     "wid": ""
   },
   {
-    "id": "7df0c5cd-e315-426c-94f7-a72d4b2f1cd9",
+    "id": "917a54b4-a0e2-423f-80a0-f5d78910a97c",
     "sentence": "So, although progress clearly has been achieved, room for further improvement remains.",
     "source": "FOMCpresconf20150617.pdf",
     "doc_type": "press_conference_prepared",
@@ -192,7 +192,7 @@
     "wid": ""
   },
   {
-    "id": "b2560e9b-63e8-4a84-85b6-459d7b194918",
+    "id": "05fa1c36-fe62-4700-a62d-cee199ae5370",
     "sentence": "Our ability to achieve maximum employment in the years ahead depends importantly on having longer-term inflation expectations well anchored at 2 percent.",
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_prepared",
@@ -208,7 +208,7 @@
     "wid": ""
   },
   {
-    "id": "6d623a86-aee5-4bc9-9823-89b5b5d19707",
+    "id": "89e955bb-10f8-4251-bd97-db18b5a35eaf",
     "sentence": "Continued job gains and increases in real disposable income have supported household spending.",
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_prepared",
@@ -224,7 +224,7 @@
     "wid": ""
   },
   {
-    "id": "a2c9533a-e9ab-4462-8c83-e49f5e21c35d",
+    "id": "e1a58031-07bc-4e04-9c44-1056376b7e11",
     "sentence": "As indicated in its statement, the Committee decided today to maintain the policies that were initiated at previous meetings.",
     "source": "FOMCpresconf20111102.pdf",
     "doc_type": "press_conference_prepared",
@@ -240,7 +240,7 @@
     "wid": ""
   },
   {
-    "id": "8289edfe-22de-4b2e-a2da-bfd04619d811",
+    "id": "04eb55a9-890b-4391-b19f-e6db0c092115",
     "sentence": "The median projection for growth of inflation-adjusted gross domestic product, or real GDP, is 2½ percent this year and next and moderates to 2 percent by 2020, a bit above its estimated longer-run rate.",
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_prepared",
@@ -256,7 +256,7 @@
     "wid": ""
   },
   {
-    "id": "d71960dd-5b53-49a2-92a0-08720fc54bbb",
+    "id": "5bed6c37-b50e-43aa-bf63-d59cc849187d",
     "sentence": "At the end of this year, the median unemployment rate projection stands at 5 percent, down 0.3 percent from June and close to the median estimate of the longer-run normal unemployment rate.",
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_prepared",
@@ -272,7 +272,7 @@
     "wid": ""
   },
   {
-    "id": "6338d524-1fa8-4755-956c-4bcf9a5bf7f5",
+    "id": "1b8aa36f-ed64-4a77-959b-a00900b7df71",
     "sentence": "The recently enacted Coronavirus Response and Relief Act [Consolidated Appropriations Act, 2021] will provide additional support.",
     "source": "FOMCpresconf20210127.json",
     "doc_type": "press_conference_prepared",
@@ -288,7 +288,7 @@
     "wid": ""
   },
   {
-    "id": "b8cbd758-1246-46eb-814c-1bd55e6e08de",
+    "id": "ee419581-d68b-4c87-a520-304a28a1316f",
     "sentence": "We are committed to using our full range of tools to support the economy and to help assure that the recovery from this difficult period will be as robust as possible.",
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_prepared",
@@ -304,7 +304,7 @@
     "wid": ""
   },
   {
-    "id": "d9ebe823-911f-45c6-8348-b99e224de84b",
+    "id": "f9559bbf-f252-4420-b68f-f67c59aaf97b",
     "sentence": "The statement begins by noting the Committee's firm commitment to fulfill our statutory mandate of promoting maximum employment, stable prices, and moderate long-term interest rates.",
     "source": "FOMCpresconf20120125.pdf",
     "doc_type": "press_conference_prepared",
@@ -320,7 +320,7 @@
     "wid": ""
   },
   {
-    "id": "699bc7bf-8911-4490-a965-ff09cedb0f8c",
+    "id": "c6450db7-a42d-4746-bf34-661fa5a173cf",
     "sentence": "For 2023 as a whole, GDP expanded at 3.1 percent, bolstered by strong consumer demand as well as improving supply conditions.",
     "source": "FOMCpresconf20240131.json",
     "doc_type": "press_conference_prepared",
@@ -336,7 +336,7 @@
     "wid": ""
   },
   {
-    "id": "9f6108e2-15db-4342-9fed-3d628688d9c0",
+    "id": "813aeb8f-0130-48d4-8b9c-c420df4d3bb4",
     "sentence": "In our Summary of Economic Projections, the median participant projects GDP to rise 1.7 percent this year, somewhat lower than projected in December, and to rise a bit below 2 percent over the next two years.",
     "source": "FOMCpresconf20250319.json",
     "doc_type": "press_conference_prepared",
@@ -352,7 +352,7 @@
     "wid": ""
   },
   {
-    "id": "b8d8b672-1fb5-4939-a4bd-318cf25d7e40",
+    "id": "a5ae445b-f7f0-4586-8e4b-053d620412f9",
     "sentence": "The Committee expects that the federal funds rate will trade below the IOER rate while reserves are so plentiful, as is the case at present.",
     "source": "FOMCpresconf20140917.pdf",
     "doc_type": "press_conference_prepared",
@@ -368,7 +368,7 @@
     "wid": ""
   },
   {
-    "id": "7947a910-ebe2-4de6-a973-cf54cf361c7f",
+    "id": "fa68764a-c58b-4297-92c2-b670f5da83b5",
     "sentence": "Although the median federal funds rate edged up this year and next, most participants did not revise their projections.",
     "source": "FOMCpresconf20180613.pdf",
     "doc_type": "press_conference_prepared",
@@ -384,7 +384,7 @@
     "wid": ""
   },
   {
-    "id": "82eb4c8e-038e-46c0-abfb-0bde91db0887",
+    "id": "080a44f3-4cf3-40da-892b-e4f4c8bc3779",
     "sentence": "As we parse the incoming information, we're focused on separating the signal from the noise as the outlook evolves.",
     "source": "FOMCpresconf20250319.json",
     "doc_type": "press_conference_prepared",
@@ -400,7 +400,7 @@
     "wid": ""
   },
   {
-    "id": "495377ee-f7e2-4346-bd2c-7c576bf20ebb",
+    "id": "b16c439c-0c01-4ded-82db-ec311b133b78",
     "sentence": "Committing funds to the IMF I don't think is within the purview of the Federal Reserve.",
     "source": "FOMCpresconf20120125.pdf",
     "doc_type": "press_conference_prepared",
@@ -416,7 +416,7 @@
     "wid": ""
   },
   {
-    "id": "02d94d16-ad03-4e24-9366-65668834404f",
+    "id": "ce84535f-291f-4e44-bea7-6b541875829e",
     "sentence": "Generally, the projections of individual participants show that they continue to expect moderate economic growth, picking up over time, as well as gradual progress towards levels of unemployment and inflation, consistent with the Federal Reserve's statutory mandate to foster maximum employment and price stability.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_prepared",
@@ -432,7 +432,7 @@
     "wid": ""
   },
   {
-    "id": "795c9b01-362c-4676-a8ed-7e6c439a21e1",
+    "id": "db999922-efca-46b4-ba10-05b78af23718",
     "sentence": "I'll focus on the information shown in the figures that have been distributed.",
     "source": "FOMCpresconf20110622.pdf",
     "doc_type": "press_conference_prepared",
@@ -448,7 +448,7 @@
     "wid": ""
   },
   {
-    "id": "4f21f26d-fa0f-4240-a11b-c6890c665a59",
+    "id": "8bab19ca-fa30-408d-ade8-5d3710285b2a",
     "sentence": "I will have more to say about today's monetary policy actions after briefly reviewing economic developments.",
     "source": "FOMCpresconf20230503.json",
     "doc_type": "press_conference_prepared",
@@ -464,7 +464,7 @@
     "wid": ""
   },
   {
-    "id": "64f4b667-a12f-467f-a360-801d69f7e842",
+    "id": "109f8b93-7c39-4aa4-9eff-9428cb865292",
     "sentence": "Excluding the volatile food and energy categories, core PCE prices rose 3.7 percent.",
     "source": "FOMCpresconf20231101.json",
     "doc_type": "press_conference_prepared",
@@ -480,7 +480,7 @@
     "wid": ""
   },
   {
-    "id": "b41751b0-fa33-40fc-8a41-88b2e004a51e",
+    "id": "2d635a94-45a9-47a2-8d6d-c185c6f293d6",
     "sentence": "Recent indicators suggest that economic activity has continued to expand at a -- at a solid pace.",
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_prepared",
@@ -496,7 +496,7 @@
     "wid": ""
   },
   {
-    "id": "bb816509-8255-4406-b84d-ff47586f5beb",
+    "id": "633a1a64-dc83-41b3-92a8-26396aaa3e47",
     "sentence": "Against the backdrop of the rapidly evolving economic environment, our policy has been adapting, and it will continue to do so.",
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_prepared",
@@ -512,7 +512,7 @@
     "wid": ""
   },
   {
-    "id": "364e3342-bb90-4683-a7ed-bc34a872b34f",
+    "id": "f8bf4b2a-ebf9-4eea-afb8-f461bbfc44a3",
     "sentence": "I will have more to say about our policy decisions in a moment, but first let me review recent economic developments and the outlook.",
     "source": "FOMCpresconf20141217.pdf",
     "doc_type": "press_conference_prepared",
@@ -528,7 +528,7 @@
     "wid": ""
   },
   {
-    "id": "b1c2700c-0fa3-4ce1-9613-6a0add5bbb84",
+    "id": "18c378fd-3b59-4722-b13b-9e0ccc9f7c0b",
     "sentence": "The central tendency of the inflation projections for this year is below 1 percent, unchanged since March.",
     "source": "FOMCpresconf20150617.pdf",
     "doc_type": "press_conference_prepared",
@@ -544,7 +544,7 @@
     "wid": ""
   },
   {
-    "id": "7651fafd-9f01-46bd-abcc-8c8b9d7172d4",
+    "id": "0f9898e7-2fea-4b21-ae45-611b92c357b4",
     "sentence": "In any case, no matter how conditions may evolve, the Federal Reserve remains committed to fostering substantial improvement in the outlook for the labor market in a context of price stability.",
     "source": "FOMCpresconf20130619.pdf",
     "doc_type": "press_conference_prepared",
@@ -560,7 +560,7 @@
     "wid": ""
   },
   {
-    "id": "c5702d56-dcdb-4683-a60b-73fe5aa7c269",
+    "id": "ffc976a0-c82d-4e1a-bfc9-c0ef3078056d",
     "sentence": "In turn, these tighter credit conditions are likely to weigh on economic activity, hiring, and inflation. The extent of these effects remains uncertain.",
     "source": "FOMCpresconf20230503.json",
     "doc_type": "press_conference_prepared",
@@ -576,7 +576,7 @@
     "wid": ""
   },
   {
-    "id": "2cf21bb0-0bf7-4e22-9efb-c3a66f8de980",
+    "id": "770e76a8-48dd-4093-aed9-205a4568b01b",
     "sentence": "As shown in our Summary of Economic Projections, FOMC participants have marked down their projections for economic activity, with the median projection for real GDP growth running below 2 percent through 2024.",
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_prepared",
@@ -592,7 +592,7 @@
     "wid": ""
   },
   {
-    "id": "45f134f3-7dfb-4ed5-90d3-b7186702011d",
+    "id": "8c104934-f2e2-4189-a107-825eee8a4ab8",
     "sentence": "The central tendency of their inflation projections for 2013 is 0.9 to 1.0 percent, rising to 1.4 to 1.6 percent for next year and to between 1.7 and 2.0 percent in 2016.",
     "source": "FOMCpresconf20131218.pdf",
     "doc_type": "press_conference_prepared",
@@ -608,7 +608,7 @@
     "wid": ""
   },
   {
-    "id": "2682c93f-1b8f-472b-aaa4-cba0ed75bddd",
+    "id": "76dceb19-7c15-4158-94ac-0a7258f4113f",
     "sentence": "Looking ahead, FOMC participants project the labor market to continue to improve, with the median projection for the unemployment rate declining to 3.5 percent by the end of the year.",
     "source": "FOMCpresconf20211215.json",
     "doc_type": "press_conference_prepared",
@@ -624,7 +624,7 @@
     "wid": ""
   },
   {
-    "id": "d394186c-318d-401a-8fc7-96d3538a851b",
+    "id": "a862fa0e-040a-4c06-afd1-5c3a655a382e",
     "sentence": "Core inflation unexpectedly fell as well, however, and as of March stood at 1.6 percent for the previous 12 months.",
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_prepared",
@@ -640,7 +640,7 @@
     "wid": ""
   },
   {
-    "id": "07b13043-8677-42e3-a6a9-dbfceb3de72f",
+    "id": "96b0a1f4-dfe3-49dd-94a8-06356cb48080",
     "sentence": "These included, in particular, the residual effects of the financial crisis, which are likely to continue to constrain spending and credit availability for some time.",
     "source": "FOMCpresconf20150617.pdf",
     "doc_type": "press_conference_prepared",
@@ -656,7 +656,7 @@
     "wid": ""
   },
   {
-    "id": "fc35e606-b9aa-4eec-a10a-d599ad6aeeec",
+    "id": "a2d612de-e3dd-4780-bf43-ba1eb860d6fe",
     "sentence": "Since early last year, we have raised interest rates by a total of 5 percentage points in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
     "source": "FOMCpresconf20230503.json",
     "doc_type": "press_conference_prepared",
@@ -672,7 +672,7 @@
     "wid": ""
   },
   {
-    "id": "48812c09-e790-4bbc-bad7-aae1d862400a",
+    "id": "2ff1f117-e710-4a3d-b0b8-d4f50e1d7370",
     "sentence": "Activity in the housing sector has weakened, in part reflecting higher mortgage rates. And after a strong increase in the first quarter, business fixed investment also looks to have declined in the second quarter.",
     "source": "FOMCpresconf20220727.json",
     "doc_type": "press_conference_prepared",
@@ -688,7 +688,7 @@
     "wid": ""
   },
   {
-    "id": "5122b08f-7260-43ef-b3f4-2a51503481ec",
+    "id": "c924c99a-f244-4242-a18b-09a4ba06d2b7",
     "sentence": "The U.S. economy slowed significantly last year, with real GDP rising at a below-trend pace of 1 percent.",
     "source": "FOMCpresconf20230201.json",
     "doc_type": "press_conference_prepared",
@@ -704,7 +704,7 @@
     "wid": ""
   },
   {
-    "id": "bc1f2fc8-8a1e-449d-9807-51cf9c5a88c2",
+    "id": "d1063aec-161e-4d1c-bd4f-60db9b811a4f",
     "sentence": "This recovery is a key factor supporting the Committee's expectation that overall economic activity will expand at a moderate pace over the next few years.",
     "source": "FOMCpresconf20160615.pdf",
     "doc_type": "press_conference_prepared",
@@ -720,7 +720,7 @@
     "wid": ""
   },
   {
-    "id": "600450ff-d91c-4908-bc37-b4cdb6eca772",
+    "id": "57278249-0d35-4c77-aecf-596b08bfda5f",
     "sentence": "We know that our policy decisions affect all American families and businesses, and we'll continue to make our decisions objectively and based solely on the best information and analysis.",
     "source": "FOMCpresconf20181219.pdf",
     "doc_type": "press_conference_prepared",
@@ -736,7 +736,7 @@
     "wid": ""
   },
   {
-    "id": "2d2b230b-8cd6-4fbc-8593-b81276484171",
+    "id": "e8757318-90db-44bc-907d-6536bdc53608",
     "sentence": "In particular, participants' projections of inflation have a central tendency of 1.9 to 2.0 percent for 2012 and 1.7 to 2.0 percent for 2014.",
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_prepared",
@@ -752,7 +752,7 @@
     "wid": ""
   },
   {
-    "id": "da72431b-8537-4439-9661-1bfa38a7158b",
+    "id": "6435a272-c835-48ab-bc45-8ba681fc6c1e",
     "sentence": "Economic activity is on track to expand at a robust pace this year, reflecting progress on vaccinations and the reopening of the economy.",
     "source": "FOMCpresconf20211215.json",
     "doc_type": "press_conference_prepared",
@@ -768,7 +768,7 @@
     "wid": ""
   },
   {
-    "id": "4f948d74-dbb2-4085-9034-f1f0f2198b6f",
+    "id": "16719041-4fcd-447a-831e-9a98b19d302f",
     "sentence": "Reducing inflation is likely to require a period of below-potential growth and some softening of labor market conditions.",
     "source": "FOMCpresconf20231101.json",
     "doc_type": "press_conference_prepared",
@@ -784,7 +784,7 @@
     "wid": ""
   },
   {
-    "id": "f38c2634-807f-4f8e-8fe7-cfa2321d0593",
+    "id": "a751de3e-1d4f-48c2-ba02-94129265691d",
     "sentence": "The median projection in the SEP for total PCE inflation is 3.3 percent this year, falls to 2.5 percent next year, and reaches 2 percent in 2026.",
     "source": "FOMCpresconf20230920.json",
     "doc_type": "press_conference_prepared",
