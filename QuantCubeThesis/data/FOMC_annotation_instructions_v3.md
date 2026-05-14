@@ -43,6 +43,16 @@ Select all topics explicitly present in the sentence. A sentence can have multip
 - `no_topic` is for generic sentences that may still carry risk or uncertainty (`ris` and `wid` still apply). `boilerplate` is for purely procedural/administrative sentences (default `ris = "na"`, `wid = "none"`).
 - **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `boilerplate` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `["monetary_policy", "macro"]` with `com = "conditional"`.
 
+**Cause-and-effect structure — label the effect, not the cause:** When a sentence describes a cause (one topic) that produces a predicted effect on a different topic, label `top` as the **effect topic** and `ten = "interpretive"`. The cause is merely the mechanism; the policy-relevant content is the predicted effect. Do not include the cause topic in `top` unless it independently carries a substantive signal of its own.
+
+> *"The ongoing rebalancing of labor supply and demand would help reduce core services inflation."*
+> → `top = ["inflation"]`, `ten = "interpretive"` — the cause (labor rebalancing) is descriptive background; the effect (inflation outlook) is what the sentence is communicating.
+
+> *"Tight credit conditions are expected to weigh on GDP growth next year."*
+> → `top = ["economic_activity"]`, `ten = "interpretive"` — the effect (growth outlook) governs the label.
+
+If both the cause and the effect independently carry distinct policy signals, include both topics. But if the cause is merely cited as a mechanism with no independent evaluative content, omit it.
+
 ---
 
 ## FIELD 2: `ten` — Temporal Orientation (binary)
@@ -59,6 +69,7 @@ Captures whether the sentence's primary content is **descriptive** (reporting wh
 - Staff projections for the current or recently elapsed year → `"descriptive"`. Use `"interpretive"` only for projections extending meaningfully beyond the meeting date.
 - `macro` sentences default to `"interpretive"` unless purely backward data description.
 - Boilerplate and procedural sentences → `"descriptive"`.
+- **Cause-and-effect sentences:** When a sentence pairs a descriptive cause with an interpretive effect, the tense defaults to `"interpretive"` — the effect governs. The cause clause is treated as background mechanism. Example: *"The ongoing rebalancing of labor supply and demand [descriptive cause] would help reduce core services inflation [interpretive effect]"* → `ten = "interpretive"`.
 
 ---
 
