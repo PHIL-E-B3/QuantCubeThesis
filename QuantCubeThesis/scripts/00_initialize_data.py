@@ -275,18 +275,17 @@ def build_annotatable_records(text, is_conversational=False):
             is_dependent = any(s_lower.startswith(trigger) for trigger in triggers)
 
             if not is_dependent:
-                pattern = r'\b(?:this|that|these|those|such)\s+(outcome|goal|objective|development|progress|condition|measure|action|policy|purchase|assessment|view|stance|trend|event|effect|forecast|projection|risk|imbalance|strain)s?\b'
+                # Any demonstrative article triggers a merge — no noun list required.
+                # The conjunction guard still blocks cases where the demonstrative
+                # appears after a subordinating conjunction within the same sentence
+                # (e.g. "although the extent of these areas"), meaning it refers
+                # inward rather than to the preceding sentence.
+                pattern = r'\b(?:this|that|these|those|such)\b'
                 for match in re.finditer(pattern, s_lower):
-                    noun = match.group(1)
-                    first_occurrence = s_lower.find(noun)
-                    if not (first_occurrence != -1 and first_occurrence < match.start()):
-                        # Reject if the demonstrative appears after a subordinating
-                        # conjunction — it refers within the sentence, not to the
-                        # preceding sentence (e.g. "although the extent of these effects")
-                        text_before = s_lower[:match.start()]
-                        if not _CONJ_BEFORE_DEMO.search(text_before):
-                            is_dependent = True
-                            break
+                    text_before = s_lower[:match.start()]
+                    if not _CONJ_BEFORE_DEMO.search(text_before):
+                        is_dependent = True
+                        break
 
             # Non-conversational doc types: hard cap at 3 sentences per chunk
             # (character limit is the primary backstop; this prevents runaway chains)

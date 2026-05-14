@@ -105,23 +105,6 @@
     "wid": "none"
   },
   {
-    "id": "1d9b4b68-8801-4865-8a17-1a076a358a0d",
-    "sentence": "Inflation has continued to run below the Committee's 2 percent objective, and the recent sizable declines in oil prices will likely hold down overall inflation in the near term. But as the effects of these oil price declines and other transitory factors dissipate and as resource utilization continues to rise, the Committee expects inflation to move gradually back toward its objective. In making this forecast, the Committee is mindful of the recent declines in market-based measures of inflation compensation.",
-    "source": "FOMCpresconf20141217.pdf",
-    "doc_type": "press_conference_prepared",
-    "date": "20141217",
-    "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "ten": "interpretive",
-    "sen": 1,
-    "com": "none",
-    "hor": false,
-    "ris": "skewed_downside",
-    "wid": "none"
-  },
-  {
     "id": "3ea6190a-4b20-4b31-a379-a91c5542f88e",
     "sentence": "FOMC participants, along with many other forecasters, had long predicted some moderation of growth in 2019.",
     "source": "FOMCpresconf20181219.pdf",

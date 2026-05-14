@@ -128,22 +128,6 @@
     "wid": "none"
   },
   {
-    "id": "e2db30f8-67e4-476a-832b-bc3e57ecc874",
-    "sentence": "In particular, it was difficult to anticipate the forces that might push the economy into a recession, and thus preserving some flexibility in responding to an economic downturn could be appropriate. Moreover, although making multiyear commitments regarding asset purchases or the future path of the federal funds rate could enhance the effectiveness of these policies, such commitments could unduly constrain the choices of the Committee in the future.",
-    "source": "minutes_20180801.html",
-    "doc_type": "minutes",
-    "date": "20180801",
-    "top": [
-      "monetary_policy"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "skewed_downside",
-    "wid": "elevated"
-  },
-  {
     "id": "57c70610-8962-4291-a7a9-f0c51a6ada9d",
     "sentence": "Interest rates on newly originated bank loans to businesses and households increased over the second quarter, interest rates on credit card offers increased in July, and interest rates on auto loans increased in July and August.",
     "source": "minutes_20230920.html",
