@@ -93,24 +93,35 @@ Applies to ALL topics including `monetary_policy`. Use `"na"` only for `boilerpl
 
 | Score | Meaning |
 |-------|---------|
-| `2` | Strongly hawkish incentive — crisis-scale tightening actions, emergency measures or clear intensifiers added describing the situation such as "signficantly" |
-| `1` | Mildly hawkish incentive — modest tightening, gradual strengthening |
+| `2` | Strongly hawkish incentive — linguistically intensified hawkish signal. Applies to crisis/emergency situations BUT ALSO to any sentence using explicit intensity markers relative to the Fed's normally measured tone. |
+| `1` | Mildly hawkish incentive — directional hawkish signal without strong intensification |
 | `0` | Neutral — balanced/mixed signals, purely factual with no evaluative stance, or hold/pause with no directional framing |
-| `-1` | Mildly dovish incentive — modest easing, gradual weakening |
-| `-2` | Strongly dovish incentive — emergency easing, crisis conditions, severe deterioration or clear intensifiers added describing the situation such as "signficantly" |
+| `-1` | Mildly dovish incentive — directional dovish signal without strong intensification |
+| `-2` | Strongly dovish incentive — linguistically intensified dovish signal. Same logic as `+2`: applies to crises but also to any clearly intensified language. |
 
-### Monetary policy sentences (`top = ["monetary_policy"]`):
+**The ±2 threshold is about linguistic intensity, not event scale.** The key question is: does the language depart from the Fed's characteristically cautious, measured register? Intensifiers include:
+- Adverbs: *significantly, substantially, markedly, sharply, dramatically, well above/below, far above/below*
+- Adjectives/nouns in strong form: *surged, collapsed, plummeted, soared, severe, robust* (vs. just *strong*), *solid* (stays at ±1)
+- Degree phrases: *highest in decades, record high, well above target, near historic lows*
+
+Compare these pairs — left is `±1`, right is `±2`:
+- "Growth was solid" → `+1` | "Growth was robust, well above expectations" → `+2`
+- "Inflation rose" → `+1` | "Inflation surged well above target" → `+2`
+- "Conditions deteriorated" → `-1` | "Conditions deteriorated sharply" → `-2`
+- "The economy slowed" → `-1` | "The economy contracted severely" → `-2`
+
+### Monetary policy sentences (`top` includes `"monetary_policy"`):
 
 Apply `sen` to the policy action or signal itself:
-- `+2`: Emergency/crisis-scale tightening (e.g., aggressive hikes, emergency QT, "whatever it takes" against inflation)
-- `+1`: Standard rate hike, routine QT continuation, hawkish signal
+- `+2`: Intensified tightening — includes crisis-scale actions (emergency hikes, "whatever it takes") AND standard actions described with strong intensity language (e.g., a 75bp hike described as a "significant increase" or "forceful response")
+- `+1`: Standard rate hike, routine QT continuation, hawkish signal without intensity markers
 - `0`: Hold/pause with no explicit directional framing; deliberative/neutral discussion
-- `-1`: Standard rate cut, QE expansion, dovish signal
-- `-2`: Emergency/crisis-scale easing (e.g., cuts to zero, massive QE announcements, pandemic-era measures)
+- `-1`: Standard rate cut, QE expansion, dovish signal without intensity markers
+- `-2`: Intensified easing — includes crisis-scale easing (emergency cuts to zero, pandemic-era QE) AND standard actions described with strong intensity language
 
 **Holds:** Default to `sen = 0` unless the sentence explicitly frames the hold as serving an accommodative or restrictive purpose. "Maintaining rates to support the expansion" → `-1`. "Maintaining rates at restrictive levels to keep downward pressure on inflation" → `+1`.
 
-**Very hawkish/dovish threshold:** Reserve `+2`/`-2` for actions or signals of emergency/crisis scale or language explicitly signaling urgency or extremity ("acting forcefully", "significantly", "whatever it takes"). Routine hikes/cuts and continuation of existing programs stay at `+1`/`-1`.
+**Very hawkish/dovish threshold:** Use `+2`/`-2` when the language is explicitly intensified relative to the Fed's measured baseline — whether or not the event itself is an emergency. The test is the sentence's language, not the historical significance of the policy action.
 
 **Minority participant views:** When a sentence attributes a position to "one member", "a few participants", or "some participants" (minority), cap at `+1`/`-1`. Reserve `+2`/`-2` for consensus/majority/Committee-level actions only.
 
@@ -555,7 +566,12 @@ ris:  skewed_downside | skewed_upside | symmetric | na
 wid:  elevated | contested | none
 
 HOLDS default to sen = 0 unless explicitly framed as restrictive (+1) or accommodative (-1)
-+2/-2 reserved for emergency/crisis-scale actions or explicit urgency language
++2/-2 = LINGUISTICALLY INTENSIFIED signal — not exclusively crisis/emergency.
+  Test: does the language depart from the Fed's measured baseline?
+  Intensifiers: significantly, substantially, sharply, markedly, surged, collapsed,
+                well above/below, robust (vs strong), record high, severely, dramatically
+  Crisis events ARE +2/-2 but so is any sentence with explicit intensity markers.
+  +1/-1 = directional without intensification ("solid", "gradual", "modest", standard hike/cut)
 MINORITY views (one/few participants) capped at +1/-1
 CONTESTED: sen = 0 from two genuinely opposing forces — applies to same-topic AND cross-topic collisions
   True neutral (nothing happening) → sen = 0, wid = "none"
