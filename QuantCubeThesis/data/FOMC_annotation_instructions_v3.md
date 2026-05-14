@@ -24,12 +24,12 @@ Return the complete JSON file with all fields populated. Never leave a field emp
 
 ## FIELD 1: `top` — Topic (multi-select array)
 
-Select all topics explicitly present in the sentence. A sentence can have multiple topics (e.g., `["inflation", "unemployment"]`). When the sentence is about monetary policy AND references specific economic conditions as justification, include both `"monetary_policy"` and the referenced topic(s) (e.g., `["monetary_policy", "inflation", "unemployment"]`). The separate `con` field has been removed — all topic information lives here.
+Select all topics explicitly present in the sentence. A sentence can have multiple topics (e.g., `["inflation", "labor_market"]`). When the sentence is about monetary policy AND references specific economic conditions as justification, include both `"monetary_policy"` and the referenced topic(s) (e.g., `["monetary_policy", "inflation", "labor_market"]`). The separate `con` field has been removed — all topic information lives here.
 
 | Label | When to use |
 |-------|-------------|
 | `inflation` | PCE, CPI, price levels, inflation expectations, price stability as a data observation |
-| `unemployment` | Labor market, payrolls, jobless claims, participation rate, wage growth, job openings |
+| `labor_market` | Labor market, payrolls, jobless claims, participation rate, wage growth, job openings |
 | `economic_activity` | GDP, output, consumption, investment, housing, trade, exports, retail sales — specific sector measures |
 | `macro` | Aggregate economic outlook where no single variable dominates. Use when the sentence references "economic conditions", "economic outlook", "economic developments", or similar aggregate phrases without specifying a single dominant variable. Do not conflate with `economic_activity` — `macro` is for unspecified aggregate framing. |
 | `financial_conditions` | Credit markets, spreads, asset prices, bank lending, financial stability, money markets, funding conditions |
@@ -90,7 +90,7 @@ Applies to ALL topics including `monetary_policy`. Use `"na"` only for `boilerpl
 | Topic | Hawkish (+) | Dovish (-) |
 |-------|-------------|------------|
 | `inflation` | Rising/high inflation | Falling/low inflation |
-| `unemployment` | Falling unemployment / tight labor market | Rising unemployment / slack labor market |
+| `labor_market` | Falling unemployment / tight labor market | Rising unemployment / slack labor market |
 | `economic_activity` | Stronger growth | Weaker growth |
 | `financial_conditions` | Easier/more accommodative conditions | Tighter/more stressed conditions |
 | `macro` | Stronger aggregate outlook | Weaker aggregate outlook |
@@ -273,7 +273,7 @@ When a single sentence contains one hawkish signal and one dovish signal on the 
 → `sen = 0`, `wid = "contested"`
 
 When signals conflict **across different topics** (e.g., inflation hawkish + unemployment dovish):
-→ `sen = 0`, `wid = "contested"`, `top = ["inflation", "unemployment"]`
+→ `sen = 0`, `wid = "contested"`, `top = ["inflation", "labor_market"]`
 
 In both cases, do not attempt to net the scores — default to zero and let `wid` carry the tension signal.
 
@@ -312,7 +312,7 @@ All "if/should/were to/in the event that" structures:
 
 ```json
 {
-  "top": ["unemployment"],
+  "top": ["labor_market"],
   "ten": "backward",
   "sen": -1,
   "com": "none",
@@ -397,7 +397,7 @@ All "if/should/were to/in the event that" structures:
   "sen": 1,
   "com": "conditional",
   "hor": "near_term",
-  "con": ["inflation", "unemployment"],
+  "con": ["inflation", "labor_market"],
   "ris": "skewed_upside",
   "wid": "none"
 }
@@ -549,7 +549,7 @@ All "if/should/were to/in the event that" structures:
 ## Quick Reference Card
 
 ```
-top:  [inflation | unemployment | economic_activity | macro | financial_conditions
+top:  [inflation | labor_market | economic_activity | macro | financial_conditions
         | monetary_policy | boilerplate | no_topic]
       For monetary_policy sentences, add any referenced economic topics directly here.
 
@@ -561,7 +561,7 @@ sen:  -2 | -1 | 0 | 1 | 2 | "na"
       na only for boilerplate
       HAWKISH/DOVISH INCENTIVE SCALE:
         inflation:            rising = +, falling = -
-        unemployment:         tighter/lower = +, slack/higher = -
+        labor_market:         tighter/lower = +, slack/higher = -
         economic_activity:    stronger = +, weaker = -
         financial_conditions: easier/accommodative = +, tighter/stressed = -
         monetary_policy:      tightening action/signal = +, easing action/signal = -

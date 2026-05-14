@@ -17,8 +17,8 @@ quantization:
 
 # --- LoRA ---
 lora:
-  r: 8                          # Rank — Optuna will search {4, 8, 16, 32}
-  lora_alpha: 16                # Scaling factor — typically 2*r
+  r: 4                          # Rank — Optuna will search {2, 4, 8}; r=4 is informed prior (FinLoRA)
+  lora_alpha: 8                 # Scaling factor = m*r; m=2 empirically optimal
   lora_dropout: 0.1
   bias: "none"
   task_type: "SEQ_CLS"          # Sequence classification
@@ -34,7 +34,7 @@ lora:
 # --- Classification Labels ---
 # Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
-  top: ["inflation", "unemployment", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
+  top: ["inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
   sen: [-2, -1, 0, 1, 2, "na"]   # numeric; "na" only for boilerplate
   ten: ["descriptive", "interpretive"]   # descriptive = backward/present; interpretive = forward
   hor: [true, false]                     # true = long_term horizon present; false otherwise
@@ -47,7 +47,7 @@ primary_label: "sen"
 
 # --- Training ---
 training:
-  num_epochs: 5
+  num_epochs: 3
   per_device_train_batch_size: 8   # Safe for 16GB VRAM with QLoRA
   per_device_eval_batch_size: 16
   gradient_accumulation_steps: 2   # Effective batch size = 16
@@ -61,7 +61,8 @@ training:
   load_best_model_at_end: true
   metric_for_best_model: "f1_macro"
   fp16: false
-  bf16: true                     # RTX 4070 Ti Super supports bf16
+  bf16: true                     # RTX 4070 Ti Super supports bf16; more stable than fp16
+  optim: "paged_adamw_8bit"      # QLoRA standard; manages memory spikes during checkpointing
 
 # --- Optuna Hyperparameter Search ---
 optuna:
@@ -73,15 +74,14 @@ optuna:
     n_warmup_steps: 50       # steps before a trial can be pruned
 
   search_space:
-    lora_r: [2, 4, 8]
-    lora_alpha_multiplier: [1, 2]       # alpha = r * multiplier
-    lora_dropout: [0.05, 0.1, 0.2]     # dropped 0.0 — literature supports regularization
+    lora_r: [2, 4, 8]                   # r=4 informed prior; r=2 lower bound, r=8 upper bound
+    lora_alpha_multiplier: [1, 2]       # alpha = r * multiplier; m=2 empirically optimal
+    lora_dropout: [0.05, 0.1, 0.2]     # 0.05 Dettmers baseline; extended upward for low-data regime
     learning_rate:
       low: 1.0e-4
       high: 5.0e-4
-      log: true
-    per_device_train_batch_size: [4, 8] # dropped 16 — OOM risk on 16GB with Mistral 7B
-    weight_decay: [0.01, 0.05, 0.1]    # AdamW weight decay — second regularization axis
+      log: true                         # 2e-4 standard starting point; upper bound confirms small-data preference
+    weight_decay: [0.01, 0.05, 0.1]    # Second regularisation axis; decays updates toward pre-trained weights
 
 # --- Active Learning ---
 active_learning:

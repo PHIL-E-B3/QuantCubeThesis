@@ -6,7 +6,9 @@
     "doc_type": "minutes",
     "date": "20221102",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 0,
     "ten": "interpretive",
     "hor": false,
@@ -23,7 +25,9 @@
     "doc_type": "minutes",
     "date": "20221102",
     "context_question": null,
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "sen": "na",
     "ten": "descriptive",
     "hor": false,
@@ -40,7 +44,9 @@
     "doc_type": "minutes",
     "date": "20221102",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": 1,
     "ten": "interpretive",
     "hor": false,
@@ -57,7 +63,10 @@
     "doc_type": "statement",
     "date": "2021-04-28",
     "context_question": null,
-    "top": ["monetary_policy", "inflation"],
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
     "sen": -1,
     "ten": "interpretive",
     "hor": true,
@@ -74,7 +83,9 @@
     "doc_type": "statement",
     "date": "2021-04-28",
     "context_question": null,
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "sen": -1,
     "ten": "interpretive",
     "hor": false,
@@ -91,7 +102,11 @@
     "doc_type": "statement",
     "date": "2021-09-22",
     "context_question": null,
-    "top": ["monetary_policy", "unemployment", "inflation"],
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
     "sen": -1,
     "ten": "descriptive",
     "hor": false,
@@ -108,7 +123,9 @@
     "doc_type": "statement",
     "date": "2021-09-22",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": 1,
     "ten": "descriptive",
     "hor": false,
@@ -125,7 +142,9 @@
     "doc_type": "press_conference_prepared",
     "date": "20190501",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": -1,
     "ten": "descriptive",
     "hor": false,
@@ -142,7 +161,9 @@
     "doc_type": "press_conference_prepared",
     "date": "20190501",
     "context_question": null,
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "sen": 0,
     "ten": "interpretive",
     "hor": false,
@@ -159,7 +180,10 @@
     "doc_type": "speech",
     "date": "2009-01-13",
     "context_question": null,
-    "top": ["monetary_policy", "financial_conditions"],
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "descriptive",
     "hor": false,
@@ -176,7 +200,10 @@
     "doc_type": "speech",
     "date": "2009-01-13",
     "context_question": null,
-    "top": ["monetary_policy", "financial_conditions"],
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
     "sen": -1,
     "ten": "descriptive",
     "hor": false,

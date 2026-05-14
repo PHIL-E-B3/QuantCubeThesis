@@ -150,11 +150,11 @@
       "monetary_policy",
       "labor_market"
     ],
-    "sen": 1,
+    "sen": -1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
-    "ris": "skewed_upside",
+    "ris": "skewed_downside",
     "wid": "none"
   },
   {
@@ -323,12 +323,13 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Narration of prior comms that clarified strategy; not a new emergency easing announcement."
   },
   {
     "id": "441a186f-84c6-4ce8-9481-63ee26e70f11",
@@ -527,12 +528,13 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": -1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 0 → -1. Preference for lower runoff cap = less tightening = dovish incentive."
   },
   {
     "id": "060f85e9-5e19-4f01-8509-66d8b9131f38",
@@ -669,12 +671,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": 0,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -1 → 0. 'Stabilization' after deterioration = neutral signal, not negative."
   },
   {
     "id": "9d4984e3-3a21-4771-89f0-563de5184a7b",
@@ -841,7 +844,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": 2,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -975,14 +978,15 @@
     "date": "20190320",
     "context_question": null,
     "top": [
-      "no_topic"
+      "monetary_policy"
     ],
     "sen": 0,
-    "ten": "descriptive",
+    "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "elevated",
+    "_annotation_note": "[CORRECTION] top: ['no_topic'] → ['monetary_policy']. Explicitly about Committee communication strategy and policy uncertainty. | [CORRECTION] ten: 'descriptive' → 'interpretive'. Forward-conditional structure: 'could complicate' is forward-signalling. | [CORRECTION] wid: 'none' → 'elevated'. 'Unusually uncertain' is an explicit epistemic uncertainty trigger."
   },
   {
     "id": "130701ac-2603-4ce8-8820-4db12e941713",
@@ -1011,12 +1015,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. GBP market move, not a Fed emergency action. -2 threshold requires crisis-scale Fed action."
   },
   {
     "id": "227740ed-5415-48e5-8cd4-fdf028495a43",
@@ -1079,12 +1084,13 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Falling imports ≠ emergency-scale. 'Significantly' modifies one monthly data drop."
   },
   {
     "id": "c71e1cdb-b8b0-4753-b7f5-de93ed62ac49",
@@ -1266,7 +1272,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": -1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1351,12 +1357,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Muni spread widening = tighter conditions = dovish incentive, but market magnitude not crisis-scale Fed action."
   },
   {
     "id": "b4a0b4da-f0c6-4dfd-9392-67495a212c40",
@@ -1419,12 +1426,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 2 → 1. Post-SVB spread recovery = easier conditions = hawkish incentive, but recovery ≠ emergency-scale upswing."
   },
   {
     "id": "d1ad2f71-da71-4cac-b4a7-d03dc5ac7601",
@@ -1470,12 +1478,13 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "elevated"
+    "wid": "elevated",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Market-driven tightening described, not a Fed emergency action. 'Significant' = market magnitude."
   },
   {
     "id": "57c21386-6041-4313-906f-9c3e8a594533",
@@ -1641,12 +1650,13 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 0 → -1. Argument that underlying inflation (ex-tariffs) is near target = dovish signal."
   },
   {
     "id": "bdc545d5-ba33-43d4-8b88-493f05739815",
@@ -1660,10 +1670,11 @@
     ],
     "sen": 1,
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] hor: True → False. 'Some time' is vague, not explicit long-horizon language. Does not meet hor=true threshold."
   },
   {
     "id": "06cfa5c9-42f4-45f7-b289-b7bf26b6adb2",
@@ -1781,12 +1792,13 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Significant but pre-crisis cut. Fed not yet in emergency mode. Reserve -2 for late-2008 crisis scale."
   },
   {
     "id": "7cb98ee7-3d81-49f9-9e76-07b6292219ed",
@@ -2022,12 +2034,13 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": "0",
+    "sen": 0,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: '0' → 0. Technical fix: sen was stored as string '0' instead of integer 0."
   },
   {
     "id": "65157851-f5ae-4640-8816-732687f75eda",
@@ -2040,11 +2053,12 @@
       "monetary_policy"
     ],
     "sen": 1,
-    "ten": "interpretive",
+    "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] ten: 'interpretive' → 'descriptive'. Fixed scheduled closure date = operational fact, not a forward projection."
   },
   {
     "id": "a16b93c1-e2ef-4022-ac5d-515ce2e3dfb4",
@@ -2091,12 +2105,13 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
-    "ten": "interpretive",
+    "sen": -1,
+    "ten": "descriptive",
     "hor": false,
-    "com": "conditional",
+    "com": "unconditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] ten: 'interpretive' → 'descriptive'. Fixed announced swap line terms = operational fact, not a forward projection. | [CORRECTION] com: 'conditional' → 'unconditional'. Fixed terms with no stated condition = unconditional. | [CORRECTION] sen: 0 → -1. Providing dollar liquidity via swap line = easing action = -1."
   },
   {
     "id": "d7b351f8-054e-4a60-9967-4fac1fe0137c",
@@ -2394,12 +2409,13 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Threshold-based Delphic guidance at ZLB — continuation not emergency escalation."
   },
   {
     "id": "63ae8207-7608-449f-bf55-1341c36b5288",
@@ -2479,14 +2495,17 @@
     "date": "2013-07-31",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "monetary_policy",
+      "labor_market",
+      "inflation"
     ],
-    "sen": "na",
-    "ten": "descriptive",
+    "sen": 0,
+    "ten": "interpretive",
     "hor": false,
-    "com": "none",
+    "com": "conditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] top: ['boilerplate'] → ['monetary_policy', 'unemployment', 'inflation']. Names specific policy tool and monitoring variables. Passes BC6 test. Not boilerplate. | [CORRECTION] sen: 'na' → 0. Bidirectional flexibility = neutral. | [CORRECTION] ten: 'descriptive' → 'interpretive'. Forward-looking contingent statement. | [CORRECTION] com: 'none' → 'conditional'. Action contingent on 'labor market or inflation changes'. | [CORRECTION] hor: False → False. No long-horizon language. | [CORRECTION] ris: 'na' → 'na'. No explicit risk framing."
   },
   {
     "id": "e41e18c5-ae5c-40e8-98ff-f053351b1d04",
@@ -2535,12 +2554,13 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. 'Considerable time' forward guidance = standard Delphic continuation, not emergency-scale."
   },
   {
     "id": "3779d40f-757a-4333-918e-5716bd9db228",
@@ -2945,8 +2965,9 @@
     "ten": "interpretive",
     "hor": false,
     "com": "none",
-    "ris": "symmetric",
-    "wid": "none"
+    "ris": "na",
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] ris: 'symmetric' → 'na'. 'Risks have diminished' ≠ symmetric. No explicit 'balanced/equal' language."
   },
   {
     "id": "bc56ccef-1956-4420-917d-4a63307f8778",
@@ -3451,7 +3472,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3918,12 +3939,13 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Forward guidance commitment to maintain accommodation; not a new emergency crisis-scale action."
   },
   {
     "id": "aa6c5b80-fee1-468a-8682-891d84fe09e3",
@@ -3969,12 +3991,13 @@
     "top": [
       "labor_market"
     ],
-    "sen": -2,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -2 → -1. Standard dovish unemployment description at Dec 2013 taper announcement. Not emergency/crisis scale."
   },
   {
     "id": "07ed511d-f41c-48fb-9274-378c0864411e",
@@ -4507,14 +4530,15 @@
     "date": "20160615",
     "context_question": "Jeanna Smialek, Bloomberg. You mentioned in your remarks at the beginning that we are getting a slightly different signal when you look at inflation versus when you look at inflation expectations. Could you detail a little bit which you look at and sort of weight more? Are you more concerned with the inflation expectations or focusing more on the slight pickup in actual inflation?",
     "top": [
-      "boilerplate"
+      "inflation"
     ],
-    "sen": "na",
+    "sen": 0,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] top: ['boilerplate'] → ['inflation']. Substantive economic claim about inflation expectations mechanism. Not boilerplate. | [CORRECTION] sen: 'na' → 0. Factual mechanism statement with no directional assessment = neutral. | [CORRECTION] ris: 'na' → 'na'. No risk framing. | [CORRECTION] wid: 'none' → 'none'. No uncertainty signal. | [CORRECTION] com: 'none' → 'none'. Not a monetary_policy sentence; com=none."
   },
   {
     "id": "d46039e7-f61d-4913-b654-168ece152d17",
@@ -4702,9 +4726,10 @@
     "sen": 0,
     "ten": "interpretive",
     "hor": false,
-    "com": "conditional",
+    "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] com: 'unconditional' → 'none'. Participant explaining reaction function, not a Committee commitment. com=none for deliberative discussion."
   },
   {
     "id": "29c6d318-7b07-4ac9-9f21-593cb320ea11",
@@ -4992,12 +5017,13 @@
     "top": [
       "labor_market"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 2 → 1. Solid above-trend job growth = hawkish, but not emergency-scale urgency language. +1."
   },
   {
     "id": "de4dc246-4b80-4eb0-9460-0f879beb1978",
@@ -5164,12 +5190,13 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 2 → 1. Strong across three dimensions = hawkish, but no urgency intensifiers. +2 threshold not met."
   },
   {
     "id": "49c4e4b4-bb8f-4e43-b2a9-bc83b7edfb60",
@@ -5299,7 +5326,7 @@
     "date": "20191211",
     "context_question": "Is one uncertainty bigger than the other? Is—do you see—not commenting on the deals themselves, is one uncertainty—",
     "top": [
-      "financial_conditions"
+      "no_topic"
     ],
     "sen": 0,
     "ten": "descriptive",
@@ -5768,9 +5795,10 @@
     "sen": 1,
     "ten": "interpretive",
     "hor": false,
-    "com": "unconditional",
+    "com": "conditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] com: 'unconditional' → 'conditional'. Commitment to goal (price stability) is goal-conditional, not an unconditional specific policy action."
   },
   {
     "id": "f8bd6902-1e09-4dff-ac10-8940701faf47",
@@ -6729,14 +6757,15 @@
     "date": "20250917",
     "context_question": "Thank you, Chair Powell. Jennifer Schonberger with Yahoo Finance. If you're cutting rates, why continue to reduce the size of your balance sheet [rather] than pause the unwinding?",
     "top": [
-      "monetary_policy"
+      "no_topic"
     ],
     "sen": 0,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] top: ['monetary_policy'] → ['no_topic']. Deflective contextualising remark with zero policy signal. | [CORRECTION] sen: 0 → 0. no_topic → sen=0."
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
@@ -6870,11 +6899,12 @@
       "financial_conditions"
     ],
     "sen": -1,
-    "ten": "descriptive",
+    "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] ten: 'descriptive' → 'interpretive'. 'Can present additional problems' and 'can severely undermine' = forward-conditional hypothetical structures."
   },
   {
     "id": "a02dbfd6-390b-40c4-b86d-b079b62b6a28",
@@ -7344,14 +7374,16 @@
     "date": "2011-09-08",
     "context_question": null,
     "top": [
-      "economic_activity"
+      "economic_activity",
+      "monetary_policy"
     ],
     "sen": 0,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "contested"
+    "wid": "contested",
+    "_annotation_note": "[CORRECTION] top: ['economic_activity'] → ['economic_activity', 'monetary_policy']. Sentence explicitly references the FOMC's policy response ('has responded… by marking down'). Add monetary_policy."
   },
   {
     "id": "62e0a79d-ea6e-4ace-a19f-b9a5e5e76e34",
@@ -7504,7 +7536,8 @@
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "elevated"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] wid: 'elevated' → 'none'. Structural proposition about network opacity. No explicit epistemic uncertainty trigger language."
   },
   {
     "id": "33e0f1cb-a15f-4385-9345-5814e78b4220",
@@ -7633,14 +7666,15 @@
     "date": "2015-07-10",
     "context_question": null,
     "top": [
-      "no_topic"
+      "boilerplate"
     ],
-    "sen": 0,
+    "sen": "na",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] top: ['no_topic'] → ['boilerplate']. Section header/framing sentence in a speech → boilerplate. | [CORRECTION] sen: 0 → 'na'. boilerplate → sen=na."
   },
   {
     "id": "90a4ef69-f575-4b2b-9043-1151ae9595dd",
@@ -7788,12 +7822,13 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": 1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
-    "ris": "skewed_downside",
-    "wid": "none"
+    "ris": "skewed_upside",
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: -1 → 1. Risk of unanchored expectations = upward inflation pressure = hawkish incentive. Was incorrectly -1. | [CORRECTION] ris: 'skewed_downside' → 'skewed_upside'. Unanchoring inflation expectations = upside inflation tail risk. Was incorrectly skewed_downside."
   },
   {
     "id": "52a50cb9-2636-4c8b-8582-7b16e13adade",
@@ -8130,12 +8165,13 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": 2,
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 1 → 2. 'Historically rapid pace' = explicit extreme-intensity marker. Qualifies for +2."
   },
   {
     "id": "7ed4fa23-6599-4c4e-9cfa-13c381949eff",
@@ -8284,12 +8320,13 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": 0,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "contested",
+    "_annotation_note": "[CORRECTION] sen: 1 → 0. 'Remain elevated' (hawkish) vs 'stepped down' (dovish): two opposing signals cancel. | [CORRECTION] wid: 'none' → 'contested'. Explicit opposing forces same sentence, same topic, same tense."
   },
   {
     "id": "e3ca873d-cead-4333-9d54-e92b0c7d6395",
@@ -8358,7 +8395,8 @@
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "elevated",
+    "_annotation_note": "[CORRECTION] wid: 'none' → 'elevated'. 'If we put aside tariff effects that I believe will be temporary' = explicit data limitation = elevated uncertainty."
   },
   {
     "id": "85d399c8-d51b-4e54-acff-ee3025b83b73",
@@ -8473,12 +8511,13 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": 1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "none",
+    "_annotation_note": "[CORRECTION] sen: 0 → 1. Projects supply-side policies will 'more than offset' negative effects = net positive = hawkish incentive."
   },
   {
     "id": "ae265411-6fcf-4588-bc0a-cf36b750b996",
@@ -8506,7 +8545,8 @@
     "date": "20221102",
     "context_question": null,
     "top": [
-      "monetary_policy"
+      "monetary_policy",
+      "macro"
     ],
     "sen": 0,
     "ten": "interpretive",
@@ -8515,7 +8555,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive — not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together — no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
+    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive — not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together — no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions. | [CORRECTION] top: ['monetary_policy'] → ['monetary_policy', 'macro']. Named conditioning variables constitute aggregate macro — add macro per annotation note."
   },
   {
     "id": "9797f119-b35c-456d-ad74-ba26f00093dd",
@@ -8607,13 +8647,13 @@
       "inflation"
     ],
     "sen": -1,
-    "ten": "descriptive",
+    "ten": "interpretive",
     "hor": false,
-    "com": "none",
+    "com": "conditional",
     "ris": "na",
     "wid": "none",
     "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "_annotation_note": "FLAG — AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense → ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program → stays at -1 (not -2)."
+    "_annotation_note": "FLAG — AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense → ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program → stays at -1 (not -2). | [CORRECTION] ten: 'descriptive' → 'interpretive'. Re-asserts a live conditional QE commitment — forward-looking even if grammatically past-tense. | [CORRECTION] com: 'none' → 'conditional'. Commitment explicitly conditional: 'until substantial further progress has been made.'"
   },
   {
     "id": "91d119c2-b3f1-4a0e-9a8e-5efac24ea138",
@@ -8667,10 +8707,10 @@
     "ten": "interpretive",
     "hor": false,
     "com": "none",
-    "ris": "symmetric",
-    "wid": "none",
+    "ris": "skewed_downside",
+    "wid": "contested",
     "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "_annotation_note": "FLAG — AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) — two simultaneously operative signals in the same tense on the same topic → wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
+    "_annotation_note": "FLAG — AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) — two simultaneously operative signals in the same tense on the same topic → wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication. | [CORRECTION] ris: 'symmetric' → 'skewed_downside'. 'Concerns remain in all areas' preserves downside tilt. Not symmetric. | [CORRECTION] wid: 'none' → 'contested'. 'While concerns remain' vs 'risks moderated': opposing signals, same topic, same tense."
   },
   {
     "id": "c1995c38-0c6e-48b7-80ca-b0f69c03d317",
@@ -8703,13 +8743,13 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none",
     "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
+    "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2. | [CORRECTION] sen: 0 → -1. Annotation note explicitly concludes -1; JSON field was inconsistent with the note."
   }
 ]

@@ -1,0 +1,212 @@
+% ============================================================
+%  §4.1.4  LLM Training
+%  Drop-in replacement for the existing \subsubsection block.
+%  Requires: \usepackage{natbib}   (add to preamble)
+%            \usepackage{booktabs} (for \toprule etc. in tables)
+% ============================================================
+
+\subsubsection{LLM Training}
+
+\paragraph{QLoRA.}
+
+The Llama~3.1 8B model is built on the transformer architecture, which
+processes text through a deep stack of identical layers, each comprising a
+multi-head self-attention mechanism and a position-wise feed-forward network
+(MLP). Together, these components learn rich contextual representations of
+language through weight matrices distributed across 32 such layers and totalling
+eight billion parameters. Full fine-tuning of a model at this scale requires
+updating every parameter simultaneously, which demands upwards of 60~GB of GPU
+memory in 16-bit precision---well beyond the capacity of consumer hardware.
+
+Low-Rank Adaptation \citep[LoRA;][]{hu2021lora} addresses this constraint by
+freezing all pre-trained weights and injecting pairs of small trainable matrices
+into targeted layers of the transformer. For a frozen weight matrix
+$W_0 \in \mathbb{R}^{d \times k}$, LoRA parameterises the incremental update as
+$\Delta W = BA$, where $B \in \mathbb{R}^{d \times r}$ and
+$A \in \mathbb{R}^{r \times k}$ with rank $r \ll \min(d, k)$.
+Only $A$ and $B$ are trained; the adapted forward pass becomes
+$h = W_0 x + \tfrac{\alpha}{r} BA x$,
+where $\alpha$ is a scaling hyperparameter controlling the relative magnitude of
+the low-rank update. This reduces the number of trainable parameters to under
+one per cent of the full model while achieving performance comparable to full
+fine-tuning on classification tasks \citep{hu2021lora}.
+
+Quantized LoRA \citep[QLoRA;][]{dettmers2023qlora} extends this approach by
+additionally compressing the frozen base-model weights to 4-bit NormalFloat
+(NF4), a data type that is information-theoretically optimal for
+normally-distributed weights. This reduces the memory footprint of the base
+model by approximately $4\times$ relative to 16-bit precision, making it
+feasible to fine-tune an 8B-parameter model on a single consumer GPU.
+Crucially, quantization is applied only to the frozen weights; the LoRA
+adapters $A$ and $B$ are maintained in full 16-bit precision throughout
+training, preserving gradient fidelity. QLoRA further employs double
+quantization---compressing the quantization constants themselves---and paged
+optimisers to manage memory spikes during gradient checkpointing.
+\citet{dettmers2023qlora} demonstrate that the reduction in representational
+flexibility introduced by 4-bit quantization is best compensated by injecting
+LoRA adapters across \emph{all} linear layers of the transformer, rather than
+restricting injection to the attention matrices alone. This all-layer strategy
+is adopted here, and carries a further consequence: final task performance
+becomes largely insensitive to the choice of rank $r$, shifting the primary
+regularisation burden to the remaining hyperparameters
+\citep{dettmers2023qlora}.
+
+\paragraph{Hyperparameter Optimisation.}
+
+Five hyperparameters govern the expressivity and regularisation of QLoRA
+fine-tuning: rank $r$, scaling multiplier $m$ (where $\alpha = m \cdot r$),
+LoRA dropout, learning rate, and AdamW weight decay. Because the training
+corpus comprises approximately 700 annotated sentences in the initial active
+learning round, overfitting is the dominant risk; optimal values are not
+directly transferable from the large-dataset regimes studied in the bulk of the
+fine-tuning literature and must be determined empirically. Preliminary review of
+comparable financial NLP fine-tuning experiments on Llama~3.1 8B was used to
+establish principled bounds for each parameter, and systematic search was then
+performed using Optuna \citep{akiba2019optuna} with Tree-structured Parzen
+Estimator (TPE) sampling over 50 trials.
+
+\textit{Rank $r$.}
+The rank controls the dimensionality of the LoRA update matrices and, by
+extension, the number of trainable parameters introduced per layer. In a
+low-data regime the primary concern is that higher rank increases overfitting
+risk, a consideration that outweighs the marginal benefit of additional
+capacity. The closest analogue to this study in the literature is FinLoRA
+\citep{finlora2024}, which applies 4-bit QLoRA fine-tuning of Llama~3.1 8B to
+financial classification tasks including sentiment analysis, and reports that
+rank 4 achieves performance comparable to rank 8 while requiring less memory.
+The search space $r \in \{2, 4, 8\}$ therefore spans from a minimally
+expressive adapter to the FinLoRA upper bound, with $r = 4$ as the informed
+prior.
+
+\textit{Alpha multiplier $m$.}
+The scaling parameter $\alpha$ is parameterised as $m \cdot r$ with
+$m \in \{1, 2\}$. A multiplier of 2 is empirically optimal across most tasks
+\citep{raschka2023lora}, and tuning $m$ jointly with the learning rate avoids
+confounding the two, since \citet{hu2021lora} note that adjusting $\alpha$ is
+broadly analogous to rescaling the learning rate.
+
+\textit{LoRA dropout.}
+Dropout applied to the adapter layers provides the primary regularisation
+channel. \citet{dettmers2023qlora} recommend a rate of 0.05 for 7--8B models,
+but this baseline was established on large instruction datasets.
+In the low-data regime of this study, stronger regularisation is warranted, and
+the search space $p \in \{0.05, 0.1, 0.2\}$ extends upward from the Dettmers
+baseline accordingly.
+
+\textit{Learning rate.}
+The learning rate is the most sensitive QLoRA hyperparameter, with small
+differences producing large swings in task performance \citep{biderman2024lora}.
+It is searched on a log scale over $[10^{-4}, 5 \times 10^{-4}]$, with
+$2 \times 10^{-4}$ as the standard starting point in the literature
+\citep{dettmers2023qlora, finlora2024}; the upper bound is included to allow the
+search to confirm it is suboptimal under this data regime.
+
+\textit{Weight decay.}
+\citet{hu2021lora} note that applying weight decay to the LoRA matrices $A$ and
+$B$ implicitly decays updates back toward the pre-trained weights, providing a
+natural guard against catastrophic forgetting that is distinct from dropout.
+The search space $\lambda \in \{0.01, 0.05, 0.1\}$ treats weight decay as a
+second, independent regularisation axis alongside dropout.
+
+To avoid wasteful evaluation of poor configurations on a constrained GPU budget,
+the Optuna search employs a Median Pruner: the first 10 trials perform unconstrained
+random exploration to establish a performance baseline, after which any trial
+whose intermediate validation score falls below the median of completed trials at
+the same step (evaluated after a 50-step warm-up) is terminated early.
+The full search space is summarised in Table~\ref{tab:optuna_search}.
+
+\begin{table}[ht]
+\centering
+\caption{Optuna hyperparameter search space for QLoRA fine-tuning of Llama~3.1 8B.
+         50 trials with TPE sampling and Median Pruner (10 startup trials,
+         50-step warm-up).}
+\label{tab:optuna_search}
+\begin{tabular}{p{3.2cm} p{3.6cm} p{4.8cm} p{2.5cm}}
+\toprule
+\textbf{Parameter} & \textbf{Search space} & \textbf{Rationale} & \textbf{Source} \\
+\midrule
+Rank $r$
+  & $\{2,\, 4,\, 8\}$
+  & $r=4$ optimal for 4-bit QLoRA on financial classification; $r=8$ upper bound
+  & \citet{finlora2024} \\[4pt]
+Alpha multiplier $m$
+  & $\{1,\, 2\}$
+  & $m=2$ empirically optimal; interacts with LR
+  & \citet{raschka2023lora} \\[4pt]
+LoRA dropout
+  & $\{0.05,\, 0.1,\, 0.2\}$
+  & 0.05 Dettmers baseline; extended upward for small-data regime
+  & \citet{dettmers2023qlora} \\[4pt]
+Learning rate
+  & $[10^{-4},\; 5{\times}10^{-4}]$ (log)
+  & $2{\times}10^{-4}$ standard; upper bound confirms small-data preference
+  & \citet{dettmers2023qlora, finlora2024} \\[4pt]
+Weight decay $\lambda$
+  & $\{0.01,\, 0.05,\, 0.1\}$
+  & Second regularisation axis; decays updates toward pre-trained weights
+  & \citet{hu2021lora} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Training Configuration.}
+
+Beyond the Optuna-optimised hyperparameters, a set of fixed training parameters
+governs the mechanics of the fine-tuning procedure. These are chosen to ensure
+stable convergence within the memory constraints of a single consumer GPU
+(NVIDIA RTX~4070 Ti Super, 16~GB VRAM) and to guard against overfitting.
+
+Training proceeds for a maximum of 3 epochs. Although broader fine-tuning
+practice sometimes employs up to 5 epochs, the small training set of
+approximately 700 sentences places this study in a regime where the model risks
+memorising the training examples rather than generalising; the conservative
+ceiling of 3 epochs is motivated by this constraint
+\citep{dettmers2023qlora, finlora2024}. The checkpoint maximising macro-averaged
+F1 on the validation set is retained at the end of training via early stopping,
+providing a further safeguard against epoch-level overfitting. Macro-F1 is
+chosen as the selection metric for robustness to class imbalance across the seven
+output fields of the annotation schema.
+
+The effective batch size is set to 16, achieved via a per-device batch size of 8
+with 2 gradient accumulation steps, which sits within the range supported by
+16~GB VRAM under 4-bit quantization. A cosine learning rate schedule with a
+warmup ratio of 0.1 decays the learning rate smoothly from its initial value to
+near zero, reducing the risk of large gradient updates disrupting pre-trained
+representations in the final steps \citep{raschka2023lora}. Training is
+performed in BFloat16 (bf16) precision, which is natively supported by the
+RTX~4070 Ti Super architecture and provides the numerical range of 32-bit
+floating point at 16-bit memory cost, making it preferable to FP16 for training
+stability. The paged AdamW 8-bit optimiser, standard in QLoRA pipelines
+\citep{dettmers2023qlora}, is used to prevent memory spikes during gradient
+checkpointing. The full training configuration is reported in
+Table~\ref{tab:training_config}.
+
+\begin{table}[ht]
+\centering
+\caption{Fixed training configuration for QLoRA fine-tuning of Llama~3.1 8B.}
+\label{tab:training_config}
+\begin{tabular}{p{4.5cm} p{3.5cm} p{6.5cm}}
+\toprule
+\textbf{Parameter} & \textbf{Value} & \textbf{Rationale} \\
+\midrule
+Max epochs              & 3
+  & Conservative ceiling for $n \approx 700$; early stopping on val.\ F1 \\
+Per-device batch size   & 8
+  & Maximum safe for 16~GB VRAM with 4-bit QLoRA \\
+Gradient accumulation   & 2 steps (eff.\ batch $= 16$)
+  & Simulates larger batch without additional memory \\
+Eval.\ \& save strategy & Per epoch
+  & Enables checkpoint selection on validation F1 \\
+Best model metric       & Macro F1
+  & Robust to class imbalance across output fields \\
+LR scheduler            & Cosine
+  & Smooth decay to near zero; standard for LoRA \\
+Warmup ratio            & 0.1
+  & Stabilises early training; prevents large initial updates \\
+Precision               & bf16
+  & Native RTX~4070 Ti Super support; more stable than fp16 \\
+Optimiser               & Paged AdamW 8-bit
+  & QLoRA standard; manages memory spikes during checkpointing \\
+\bottomrule
+\end{tabular}
+\end{table}

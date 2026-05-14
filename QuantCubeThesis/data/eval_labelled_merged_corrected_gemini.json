@@ -1,0 +1,73 @@
+[
+  {
+    "id": "10b41c84-0c3f-4c9e-902f-9d41d26dffeb",
+    "sentence": "The Committee currently anticipates that economic conditions--including low rates of resource utilization and a subdued outlook for inflation over the medium run--are likely to warrant exceptionally low levels for the federal funds rate at least through mid-2013.",
+    "source": "statement_20110809.txt",
+    "doc_type": "statement",
+    "date": "2011-08-09",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "unconditional",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1576c4e1-514e-46e2-a45b-5cd9f466b213",
+    "sentence": "Beginning in August, the Committee will add to its holdings of agency mortgage-backed securities at a pace of $10 billion per month rather than $15 billion per month, and will add to its holdings of longer-term Treasury securities at a pace of $15 billion per month rather than $20 billion per month.",
+    "source": "statement_20140730.txt",
+    "doc_type": "statement",
+    "date": "2014-07-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "unconditional",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "33822f1c-e485-4b75-b755-1ca6e4fa92cb",
+    "sentence": "Changes to the conditioning assumptions underlying the staff projection were mostly small and offsetting: Crude oil prices had risen sharply and federal fiscal policy seemed likely to be marginally more restrictive than the staff had judged in January, but these negative factors were counterbalanced by higher household net worth and a slightly lower foreign exchange value of the dollar. As a result, as in the January forecast, real GDP was expected to rise at a moderate pace over 2011 and 2012, supported by accommodative monetary policy, increasing credit availability, and greater household and business confidence.",
+    "source": "minutes_20110315.html",
+    "doc_type": "minutes",
+    "date": "20110315",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "392fabac-efea-479a-bc1a-37e19a11147b",
+    "sentence": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+    "source": "statement_20120313.txt",
+    "doc_type": "statement",
+    "date": "2012-03-13",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  }
+]
