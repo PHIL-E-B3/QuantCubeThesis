@@ -58,7 +58,7 @@
     "date": "2013-06-27",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,
@@ -92,7 +92,7 @@
     "date": "2021-10-13",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,

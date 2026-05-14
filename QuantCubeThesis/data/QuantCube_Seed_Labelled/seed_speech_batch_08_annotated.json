@@ -24,7 +24,7 @@
     "date": "2019-02-28",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": -1,
@@ -41,7 +41,7 @@
     "date": "2022-08-06",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 2,
@@ -129,7 +129,7 @@
     "top": [
       "monetary_policy",
       "inflation",
-      "unemployment"
+      "labor_market"
     ],
     "ten": "interpretive",
     "sen": 1,
@@ -248,7 +248,7 @@
     "date": "2021-02-24",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": -2,

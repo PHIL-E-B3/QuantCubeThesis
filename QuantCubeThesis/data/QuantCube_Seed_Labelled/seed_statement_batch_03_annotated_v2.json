@@ -43,7 +43,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",
@@ -96,7 +96,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",
@@ -152,7 +152,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 0,
@@ -186,7 +186,7 @@
     "date": "2025-12-10",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": -1,
@@ -220,7 +220,7 @@
     "date": "2025-05-07",
     "context_question": null,
     "top": [
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "interpretive",

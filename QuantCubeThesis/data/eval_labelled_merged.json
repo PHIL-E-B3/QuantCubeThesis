@@ -6722,23 +6722,6 @@
     "wid": "none"
   },
   {
-    "id": "2f5c304d-55eb-42b0-8714-7198c5d785b2",
-    "sentence": "These are pretty small numbers moving around inside a giant economy.",
-    "source": "FOMCpresconf20250917.json",
-    "doc_type": "press_conference_qa",
-    "date": "20250917",
-    "context_question": "Thank you, Chair Powell. Jennifer Schonberger with Yahoo Finance. If you're cutting rates, why continue to reduce the size of your balance sheet [rather] than pause the unwinding?",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": 0,
-    "ten": "descriptive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
     "sentence": "With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetings.",
     "source": "FOMCpresconf20251210.json",

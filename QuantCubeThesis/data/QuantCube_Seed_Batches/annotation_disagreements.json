@@ -346,12 +346,12 @@
     "discrepancies": {
       "top": {
         "claude": [
-          "unemployment",
+          "labor_market",
           "economic_activity",
           "financial_conditions"
         ],
         "gemini": [
-          "unemployment",
+          "labor_market",
           "economic_activity",
           "financial_conditions",
           "inflation"
@@ -365,7 +365,7 @@
     "claude_full": {
       "sen": 0,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity",
         "financial_conditions"
       ],
@@ -378,7 +378,7 @@
     "gemini_full": {
       "sen": 0,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity",
         "financial_conditions",
         "inflation"
@@ -415,7 +415,7 @@
       "sen": -1,
       "top": [
         "monetary_policy",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -427,7 +427,7 @@
       "sen": -1,
       "top": [
         "monetary_policy",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -1267,10 +1267,10 @@
     "discrepancies": {
       "top": {
         "claude": [
-          "unemployment"
+          "labor_market"
         ],
         "gemini": [
-          "unemployment",
+          "labor_market",
           "financial_conditions"
         ]
       },
@@ -1282,7 +1282,7 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -1293,7 +1293,7 @@
     "gemini_full": {
       "sen": -1,
       "top": [
-        "unemployment",
+        "labor_market",
         "financial_conditions"
       ],
       "ten": "descriptive",
@@ -1459,7 +1459,7 @@
     "discrepancies": {
       "top": {
         "claude": [
-          "unemployment"
+          "labor_market"
         ],
         "gemini": [
           "monetary_policy"
@@ -1469,7 +1469,7 @@
     "claude_full": {
       "sen": 2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,
@@ -1482,7 +1482,7 @@
       "top": [
         "monetary_policy",
         "economic_activity",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,
@@ -1923,7 +1923,7 @@
           "macro"
         ],
         "gemini": [
-          "unemployment",
+          "labor_market",
           "economic_activity"
         ]
       }
@@ -1942,7 +1942,7 @@
     "gemini_full": {
       "sen": 0,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity"
       ],
       "ten": "descriptive",
@@ -2056,7 +2056,7 @@
     "claude_full": {
       "sen": -2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -2067,7 +2067,7 @@
     "gemini_full": {
       "sen": -2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -2549,10 +2549,10 @@
     "discrepancies": {
       "top": {
         "claude": [
-          "unemployment"
+          "labor_market"
         ],
         "gemini": [
-          "unemployment",
+          "labor_market",
           "economic_activity"
         ]
       }
@@ -2560,7 +2560,7 @@
     "claude_full": {
       "sen": 2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -2571,7 +2571,7 @@
     "gemini_full": {
       "sen": 2,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity"
       ],
       "ten": "descriptive",
@@ -2658,51 +2658,7 @@
       "sen": -1,
       "top": [
         "monetary_policy",
-        "unemployment",
-        "inflation"
-      ],
-      "ten": "descriptive",
-      "hor": false,
-      "com": "none",
-      "ris": "na",
-      "wid": "none"
-    },
-    "resolution": "",
-    "top": [],
-    "ten": "descriptive",
-    "hor": false
-  },
-  {
-    "id": "7e9fee4e-aedd-4fab-96aa-e00969ca9906",
-    "sentence": "This is well above 2 percent. But it's also not the kind of inflation we were looking for.",
-    "source": "FOMCpresconf20210728.json",
-    "doc_type": "press_conference_qa",
-    "date": "20210728",
-    "sen_type": "magnitude",
-    "discrepancies": {
-      "sen": {
-        "claude": 1,
-        "gemini": 2
-      },
-      "ten": {
-        "claude": "descriptive",
-        "gemini": "descriptive"
-      }
-    },
-    "claude_full": {
-      "sen": 1,
-      "top": [
-        "inflation"
-      ],
-      "ten": "descriptive",
-      "hor": false,
-      "com": "none",
-      "ris": "na",
-      "wid": "none"
-    },
-    "gemini_full": {
-      "sen": 2,
-      "top": [
+        "labor_market",
         "inflation"
       ],
       "ten": "descriptive",
@@ -2777,7 +2733,7 @@
           "no_topic"
         ],
         "gemini": [
-          "unemployment"
+          "labor_market"
         ]
       }
     },
@@ -2795,7 +2751,7 @@
     "gemini_full": {
       "sen": 0,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "descriptive",
       "hor": false,
@@ -3203,7 +3159,7 @@
       "top": [
         "monetary_policy",
         "inflation",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,
@@ -3216,7 +3172,7 @@
       "top": [
         "monetary_policy",
         "inflation",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": true,
@@ -3477,12 +3433,12 @@
       },
       "top": {
         "claude": [
-          "unemployment",
+          "labor_market",
           "inflation"
         ],
         "gemini": [
           "inflation",
-          "unemployment",
+          "labor_market",
           "economic_activity"
         ]
       }
@@ -3490,7 +3446,7 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "unemployment",
+        "labor_market",
         "inflation"
       ],
       "ten": "descriptive",
@@ -3503,7 +3459,7 @@
       "sen": 1,
       "top": [
         "inflation",
-        "unemployment",
+        "labor_market",
         "economic_activity"
       ],
       "ten": "descriptive",
@@ -3578,7 +3534,7 @@
     "claude_full": {
       "sen": -2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,
@@ -3589,7 +3545,7 @@
     "gemini_full": {
       "sen": -2,
       "top": [
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,
@@ -4005,7 +3961,7 @@
     "claude_full": {
       "sen": -2,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity",
         "financial_conditions"
       ],
@@ -4018,7 +3974,7 @@
     "gemini_full": {
       "sen": -2,
       "top": [
-        "unemployment",
+        "labor_market",
         "economic_activity",
         "financial_conditions"
       ],
@@ -4102,7 +4058,7 @@
           "boilerplate"
         ],
         "gemini": [
-          "unemployment",
+          "labor_market",
           "financial_conditions"
         ]
       },
@@ -4125,7 +4081,7 @@
     "gemini_full": {
       "sen": 0,
       "top": [
-        "unemployment",
+        "labor_market",
         "financial_conditions"
       ],
       "ten": "descriptive",
@@ -4325,7 +4281,7 @@
     "discrepancies": {
       "top": {
         "claude": [
-          "unemployment",
+          "labor_market",
           "inflation"
         ],
         "gemini": [
@@ -4340,7 +4296,7 @@
     "claude_full": {
       "sen": -1,
       "top": [
-        "unemployment",
+        "labor_market",
         "inflation"
       ],
       "ten": "interpretive",
@@ -4354,7 +4310,7 @@
       "top": [
         "monetary_policy",
         "inflation",
-        "unemployment"
+        "labor_market"
       ],
       "ten": "interpretive",
       "hor": false,

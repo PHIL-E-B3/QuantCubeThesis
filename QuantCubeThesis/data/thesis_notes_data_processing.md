@@ -31,11 +31,13 @@ Documents are stored as JSON files in `data/raw/structured_json_*/` after prior 
 
 **Text pre-processing before tokenisation (`clean_text` function):**
 - Unicode normalisation: curly quotes → straight apostrophes, em/en dashes → ASCII equivalents
-- Removal of website boilerplate: navigation bars, "An official website of the United States Government", resource links
+- Mojibake fixing: `â€™` → `'`, `â€` → `-` (UTF-8 read as Latin-1 artifacts found in scraped FOMC text)
+- Removal of website boilerplate: navigation bars, "An official website of the United States Government", resource links; URL stripping (`http://`, `https://`, `www.` patterns)
 - `[SECTION]` tag splitting: some documents use an internal section tag; sections are reassembled with paragraph breaks
 - "For release on delivery" header removal (statements and speeches)
+- **"At the conclusion of the discussion" block removal:** regex strips the procedural vote-count paragraph (`At the conclusion of the discussion ... Voting for this action`) that appears inside some minutes before the formal vote record — this block is distinct from and precedes the bottom cut marker
 - **Bottom cut:** text is truncated at the first occurrence of "Notation Vote" or "Following the FOMC policy vote" — everything after this is procedural record-keeping with no policy content
-- **Top cut:** for minutes, text is trimmed from the beginning up to the first substantive keyword (review, developments, participants, outlook, guidance) to remove preamble headers
+- **Top cut:** for minutes, text is trimmed from the beginning up to the first substantive keyword (review, developments, participants, staff, outlook, guidance) to remove preamble headers
 
 Press conferences receive additional pre-processing: the flat transcript string is split by ALL-CAPS speaker tags (e.g., `CHAIRMAN BERNANKE.`) which separate speaker turns. Chair turns are classified as prepared remarks or Q&A answers; reporter turns are extracted as `context_question` metadata.
 
@@ -108,7 +110,7 @@ The noun list covers two broad groups:
 
 This catches mid-sentence cross-sentence references that don't start the sentence with a connective. Example: "The Committee raised rates. **These actions** were intended to reduce inflation pressures." — "these actions" refers to the previous sentence. Equally: "Growth was solid. **These conditions** justified tightening." — "these conditions" refers to the preceding assessment.
 
-**Conjunction guard on demonstrative nouns:** If the demonstrative noun pattern match appears after a subordinating conjunction (although, while, because, since, if, unless, before, after, despite, ...) within the candidate sentence, the match is rejected. This is because the demonstrative in that position refers back within its own clause, not to the preceding sentence. Example of a correctly rejected merge: "...the labour market was in balance. The economy was facing headwinds from tighter credit conditions, **although the extent of these effects** remained uncertain." — "these effects" follows "although" and refers to the headwinds described in the same sentence; merging with the preceding sentence would be incorrect.
+**Conjunction guard on demonstrative nouns:** If the demonstrative noun pattern match appears after a subordinating conjunction (although, though, even though, while, whilst, whereas, because, since, as, when, if, unless, until, before, after, despite, in spite of) within the candidate sentence, the match is rejected. This is because the demonstrative in that position refers back within its own clause, not to the preceding sentence. Example of a correctly rejected merge: "...the labour market was in balance. The economy was facing headwinds from tighter credit conditions, **although the extent of these effects** remained uncertain." — "these effects" follows "although" and refers to the headwinds described in the same sentence; merging with the preceding sentence would be incorrect.
 
 ### 5.2 Press conference additional triggers
 
@@ -120,7 +122,49 @@ For press conference documents (both prepared and Q&A), the following informal c
 - **Maximum chunk length:** 1,000 characters. If adding a dependent sentence would exceed this, the chunk is flushed and the dependent sentence begins a new chunk (potentially losing the dependency context — an acceptable trade-off).
 - **Three-sentence cap (non-PC documents):** For minutes, speeches, and statements, a chunk is capped at three sentences. Even if the fourth sentence would satisfy a dependency condition, it begins a new chunk. This prevents runaway chains in formal prose while still allowing legitimate two-step dependency chains (e.g., a sentence starting with "If that outcome..." followed by "Consequently..." — two dependent sentences that together form a coherent unit). Press conferences are exempt from this cap, as conversational speech naturally chains multiple short clauses. The character limit (1,000 chars) acts as a hard backstop independent of sentence count.
 
-### 5.4 Design rationale
+### 5.4 Examples of merged annotation units
+
+The following are real examples drawn from the labelled corpus. Each shows the merged unit as it appears in the annotation pool, the trigger that caused the merge, and the doc type.
+
+---
+
+**Example A — Formal connective "Consequently" (press conference prepared remarks, June 2011)**
+
+> "However, some moderation in gasoline prices is now in prospect, and the effects of the Japanese disaster on manufacturing output are likely to dissipate in coming months. Consequently, as shown in the first figure, entitled 'Change in Real GDP,' the Committee expects that the pace of economic recovery will pick up over coming quarters."
+
+*Trigger:* second sentence starts with `"Consequently"` → formal connective merge.
+*Two sentences merged into one annotation unit.* The first sentence is the justificatory condition; the second contains the forward-looking assessment. Without the merge, "Consequently, as shown in the first figure..." would be unlabelable in isolation.
+
+---
+
+**Example B — Demonstrative noun pattern "This assessment" (statement, December 2014)**
+
+> "In determining how long to maintain this target range, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation. This assessment will take into account a wide range of information, including measures of labor market conditions, indicators of inflation pressures and inflation expectations, and readings on financial developments."
+
+*Trigger:* second sentence contains `"This assessment"` — demonstrative `this` + noun `assessment` (in the reference list) with no subordinating conjunction preceding it.
+*Two sentences merged.* "This assessment" cross-references the assessment process named in the first sentence; the second sentence is uninterpretable without it.
+
+---
+
+**Example C — Demonstrative noun pattern "This policy" (statement, October 2015)**
+
+> "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions."
+
+*Trigger:* second sentence contains `"This policy"` — demonstrative `this` + noun `policy`.
+*Two sentences merged.* The second sentence evaluates the effect of the policy described in the first; without the antecedent the subject ("This policy") has no referent.
+
+---
+
+**Example D — Press conference informal connective chain (Q&A, March 2022)**
+
+> "And, you know, the help we've been expecting and other forecasters have been expecting from supply-side improvement, labor force participation, bottlenecks, all those things getting better -- it hasn't come. And so we're looking now to using our tools to restore price stability, and we're committed to doing that. And you see that, I think, in the Summary of Economic Projections. And you see that in the decision we make, and you'll continue to see it in the decisions we make, going forward."
+
+*Triggers:* sentences 2–4 each start with `"And so"` or `"And"` — press conference informal connectives.
+*Four sentences merged.* This is the conversational chaining pattern typical of Q&A answers: the Chair restates the problem (sentence 1) and then builds the policy implication across three consecutive "And"/"And so" clauses. Each clause is uninformative in isolation; together they form a single coherent policy signal.
+
+---
+
+### 5.5 Design rationale
 
 The merge logic is intentionally conservative. The goal is not to reconstruct complete paragraphs but to recover the minimal amount of context needed to make the annotation unit interpretable. A sentence starting with "Therefore" with no preceding context is nearly unlabelable. A sentence starting with "Inflation surged" is fully self-contained. The triggers are designed to catch the former without unnecessarily grouping the latter.
 
@@ -128,7 +172,7 @@ The merge logic is intentionally conservative. The goal is not to reconstruct co
 
 ## 6. Document-Level Notes
 
-- **Minutes:** Written in long paragraph blocks. The two-sentence cap is important here because FOMC minutes frequently contain chains of sentences each starting with "Participants noted...", "Several participants...", "A few participants..." — these superficially look connected but are actually distinct observations that should be labelled independently.
+- **Minutes:** Written in long paragraph blocks. The three-sentence cap is important here because FOMC minutes frequently contain chains of sentences each starting with "Participants noted...", "Several participants...", "A few participants..." — these superficially look connected but are actually distinct observations that should be labelled independently.
 - **Statements:** Very short documents. Sentences are usually self-contained. Merging is rare.
 - **Speeches:** Narrative prose with genuine cross-sentence dependencies. The demonstrative noun pattern fires frequently and productively here.
 - **Press conferences (prepared):** Similar to speeches; formal language.
@@ -146,7 +190,7 @@ The merge logic is intentionally conservative. The goal is not to reconstruct co
 6. Deduplication of identical sentences (copy-pasted FOMC boilerplate that survived step 4)
 7. Formatting with empty label fields → unlabelled pool for annotation
 
-**Output fields per record:** `id`, `sentence`, `source`, `doc_type`, `date`, `context_question` (Q&A only), plus empty label fields: `top`, `sen`, `ten`, `hor`, `com`, `con`, `ris`, `wid`
+**Output fields per record:** `id`, `sentence`, `source`, `doc_type`, `date`, `context_question` (Q&A only), plus empty label fields: `top`, `sen`, `ten`, `hor`, `com`, `ris`, `wid`
 
 ---
 

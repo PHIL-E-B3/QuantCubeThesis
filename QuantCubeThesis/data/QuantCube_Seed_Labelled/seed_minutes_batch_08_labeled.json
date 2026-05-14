@@ -54,7 +54,7 @@
     "doc_type": "minutes",
     "date": "20210616",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,
@@ -135,7 +135,7 @@
     "doc_type": "minutes",
     "date": "20161214",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "interpretive",
     "sen": 1,

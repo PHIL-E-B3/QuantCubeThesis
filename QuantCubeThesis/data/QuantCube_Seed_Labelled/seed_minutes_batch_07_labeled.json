@@ -8,7 +8,7 @@
     "top": [
       "monetary_policy",
       "economic_activity",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",
@@ -25,7 +25,7 @@
     "doc_type": "minutes",
     "date": "20170920",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,
@@ -74,7 +74,7 @@
     "date": "20140917",
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "interpretive",

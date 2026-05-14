@@ -33,8 +33,11 @@ DEPENDENCY_STARTS = (
     # Formal connectives (all doc types) — "however" removed: it is contrastive
     # and should not silently merge opposing clauses
     "therefore", "thus", "consequently", "as a result", "for example",
-    # Bare demonstrative sentence-starter (cross-sentence reference)
+    # Bare demonstrative sentence-starters (cross-sentence reference)
+    # "that " already covers "that is/was"; new: this is/was, these are/were
     "that ",
+    "this is ", "this was ",
+    "these are ", "these were ",
     # Epistemic + demonstrative pronoun (all doc types)
     "i think they", "i think those", "i think these", "i think that",
     "we think they", "we think those", "we think these", "we think that",
@@ -612,31 +615,15 @@ def initialize_data_pipeline(all_raw_docs: list, preserved_unlabelled: list = No
 if __name__ == "__main__":
     setup_directories()
 
-    # ── Preserve already-labelled minutes data ───────────────────────────────
-    # seed_minutes.json has been labelled and must not be touched.
-    # We keep the minutes records that are in the unlabelled pool so they
-    # are not lost when we rebuild the pool for the other doc types.
-    preserved_unlabelled = []
-    existing_pool_path = UNLABELLED_DIR / "master_unlabelled_pool.json"
-    if existing_pool_path.exists():
-        # Stream with ijson so we never load the full pool into memory
-        with open(existing_pool_path, 'rb') as f:
-            for record in ijson.items(f, 'item'):
-                if record.get('doc_type') == 'minutes':
-                    preserved_unlabelled.append(record)
-        print(f"  Preserved {len(preserved_unlabelled)} minutes records from existing pool.")
-    else:
-        print("  No existing pool found — minutes unlabelled records will be empty.")
-
-    # ── Regenerate press conference, speech, and statement docs only ─────────
-    # Minutes are intentionally excluded: seed_minutes.json is already labelled.
+    # ── Regenerate all doc types including minutes ────────────────────────────
     print("\nLoading documents for regeneration...")
     all_raw_docs = []
+    all_raw_docs += load_minutes(RAW_DATA_DIR)
     all_raw_docs += load_statements(RAW_DATA_DIR)
     all_raw_docs += load_press_conferences(RAW_DATA_DIR)
     all_raw_docs += load_speeches(RAW_DATA_DIR)
 
     if all_raw_docs:
-        initialize_data_pipeline(all_raw_docs, preserved_unlabelled=preserved_unlabelled)
+        initialize_data_pipeline(all_raw_docs)
     else:
         print("❌ No documents found. Check your RAW_DATA_DIR paths.")

@@ -26,7 +26,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "interpretive",
@@ -231,7 +231,7 @@
     "date": "2024-07-10",
     "context_question": null,
     "top": [
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "7e9fee4e-aedd-4fab-96aa-e00969ca9906",
+    "sentence": "This is well above 2 percent. But it's also not the kind of inflation we were looking for.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "Hi. Thanks for taking my question. Chair Powell, I was going to go back to inflation a little bit. I'm just kind of surprised by your tone. It, it seems like you're just sort of warning that, if inflation gets too high, you know, the Fed will act. Isn't it true that, I mean, a little inflation is good for the economy and, and that we—if somehow maybe we can get the economy out of this sort of place where we're always going to be close to the zero lower bound, isn't there a good story to tell, and you're sort of panicking people?",
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "24449255-684e-4f99-841a-6df513dd67ff",
+    "sentence": "This is a conditional program; we're going to be providing accommodation according to how the economy evolves. I think that's the virtue of putting it this way, is that if the economy is weaker, we'll provide more support; if the economy strengthens on its own or other headwinds die down, then it will require less support. So the amount of support we provide is going to depend on how the economy evolves.",
+    "source": "FOMCpresconf20120913.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120913",
+    "context_question": "You've made an eloquent explanation over the past couple of weeks of the Fed's ability to lower interest rates. But what's missing for many economists is how the transmission mechanism is going to work. Most people think this will have a minimal effect on rates. Can you give us an idea of how much you think it might push rates down, and why moving rates down a few basis points might change demand, which seems to be the problem in the economy?",
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "conditional",
+    "hor": true,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "320ec814-139b-47d6-9777-b1ba86eba90e",
+    "sentence": "This was clearly an out-of-consensus view that raised more than a few eyebrows.",
+    "source": "The Case for Continuing Rate Cuts",
+    "doc_type": "speech",
+    "date": "2025-11-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2f5c304d-55eb-42b0-8714-7198c5d785b2",
+    "sentence": "These are pretty small numbers moving around inside a giant economy.",
+    "source": "FOMCpresconf20250917.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250917",
+    "context_question": "Thank you, Chair Powell. Jennifer Schonberger with Yahoo Finance. If you're cutting rates, why continue to reduce the size of your balance sheet [rather] than pause the unwinding?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

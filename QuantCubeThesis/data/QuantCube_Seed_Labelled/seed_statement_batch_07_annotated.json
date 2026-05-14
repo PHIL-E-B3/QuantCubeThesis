@@ -114,7 +114,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",
@@ -169,7 +169,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",

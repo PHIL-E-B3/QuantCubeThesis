@@ -1,23 +1,5 @@
 [
   {
-    "id": "24449255-684e-4f99-841a-6df513dd67ff",
-    "sentence": "This is a conditional program; we're going to be providing accommodation according to how the economy evolves. I think that's the virtue of putting it this way, is that if the economy is weaker, we'll provide more support; if the economy strengthens on its own or other headwinds die down, then it will require less support. So the amount of support we provide is going to depend on how the economy evolves.",
-    "source": "FOMCpresconf20120913.pdf",
-    "doc_type": "press_conference_qa",
-    "date": "20120913",
-    "context_question": "You've made an eloquent explanation over the past couple of weeks of the Fed's ability to lower interest rates. But what's missing for many economists is how the transmission mechanism is going to work. Most people think this will have a minimal effect on rates. Can you give us an idea of how much you think it might push rates down, and why moving rates down a few basis points might change demand, which seems to be the problem in the economy?",
-    "top": [
-      "monetary_policy",
-      "macro"
-    ],
-    "ten": "interpretive",
-    "sen": -1,
-    "com": "conditional",
-    "hor": true,
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "8b57f503-c28e-4f4a-b3a3-5e7d1e921931",
     "sentence": "You know, and so each, each Reserve Bank has its own culture around monetary policy and its own approach and that kind of thing.",
     "source": "FOMCpresconf20240501.json",
@@ -43,7 +25,7 @@
     "context_question": "Darren Gersh, Nightly Business Report. Given how hard it has been to bring down unemployment in the past, why are you confident you have the tools to bring it down in the future?",
     "top": [
       "monetary_policy",
-      "unemployment"
+      "labor_market"
     ],
     "ten": "interpretive",
     "sen": -1,

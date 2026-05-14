@@ -9,7 +9,7 @@
     "top": [
       "monetary_policy",
       "economic_activity",
-      "unemployment",
+      "labor_market",
       "financial_conditions"
     ],
     "ten": "interpretive",
@@ -45,7 +45,7 @@
     "context_question": null,
     "top": [
       "economic_activity",
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,
@@ -117,7 +117,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "descriptive",
@@ -136,7 +136,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,

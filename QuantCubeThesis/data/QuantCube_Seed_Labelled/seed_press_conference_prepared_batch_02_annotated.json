@@ -7,7 +7,7 @@
     "date": "20151216",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "interpretive",
     "sen": 1,
@@ -147,7 +147,7 @@
     "date": "20170614",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 1,

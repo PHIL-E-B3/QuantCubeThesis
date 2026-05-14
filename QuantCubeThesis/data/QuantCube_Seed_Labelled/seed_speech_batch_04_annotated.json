@@ -85,23 +85,6 @@
     "wid": "none"
   },
   {
-    "id": "320ec814-139b-47d6-9777-b1ba86eba90e",
-    "sentence": "This was clearly an out-of-consensus view that raised more than a few eyebrows.",
-    "source": "The Case for Continuing Rate Cuts",
-    "doc_type": "speech",
-    "date": "2025-11-17",
-    "context_question": null,
-    "top": [
-      "no_topic"
-    ],
-    "ten": "descriptive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "4444e2af-2814-43e4-830f-46ac84e22487",
     "sentence": "Economists at central banks and in academia will need to devote much effort to overcoming these deficiencies in coming years.",
     "source": "Productivity and Innovation in Financial Services ",

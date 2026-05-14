@@ -6,7 +6,7 @@
     "doc_type": "minutes",
     "date": "20130501",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": 0,
@@ -87,7 +87,7 @@
     "date": "20150318",
     "top": [
       "monetary_policy",
-      "unemployment",
+      "labor_market",
       "inflation"
     ],
     "ten": "interpretive",
@@ -168,7 +168,7 @@
     "doc_type": "minutes",
     "date": "20161102",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "interpretive",
     "sen": -1,
@@ -200,7 +200,7 @@
     "doc_type": "minutes",
     "date": "20150917",
     "top": [
-      "unemployment"
+      "labor_market"
     ],
     "ten": "descriptive",
     "sen": -1,
