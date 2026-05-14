@@ -101,11 +101,11 @@ Applies to ALL topics including `monetary_policy`. Use `"na"` only for `boilerpl
 
 **The ±2 threshold is about linguistic intensity, not event scale.** The key question is: does the language depart from the Fed's characteristically cautious, measured register? Intensifiers include:
 - Adverbs: *significantly, substantially, markedly, sharply, dramatically, well above/below, far above/below*
-- Adjectives/nouns in strong form: *surged, collapsed, plummeted, soared, severe, robust* (vs. just *strong*), *solid* (stays at ±1)
+- Adjectives/nouns in strong form: *surged, collapsed, plummeted, soared, severe* — *solid* and *robust* stay at ±1 as they are too common in Fed prose to signal genuine intensification
 - Degree phrases: *highest in decades, record high, well above target, near historic lows*
 
 Compare these pairs — left is `±1`, right is `±2`:
-- "Growth was solid" → `+1` | "Growth was robust, well above expectations" → `+2`
+- "Growth was solid" → `+1` | "Growth surged well above expectations" → `+2`
 - "Inflation rose" → `+1` | "Inflation surged well above target" → `+2`
 - "Conditions deteriorated" → `-1` | "Conditions deteriorated sharply" → `-2`
 - "The economy slowed" → `-1` | "The economy contracted severely" → `-2`
@@ -569,7 +569,8 @@ HOLDS default to sen = 0 unless explicitly framed as restrictive (+1) or accommo
 +2/-2 = LINGUISTICALLY INTENSIFIED signal — not exclusively crisis/emergency.
   Test: does the language depart from the Fed's measured baseline?
   Intensifiers: significantly, substantially, sharply, markedly, surged, collapsed,
-                well above/below, robust (vs strong), record high, severely, dramatically
+                well above/below, record high, severely, dramatically
+  NOT intensifiers: solid, robust (too common in Fed prose to signal intensity)
   Crisis events ARE +2/-2 but so is any sentence with explicit intensity markers.
   +1/-1 = directional without intensification ("solid", "gradual", "modest", standard hike/cut)
 MINORITY views (one/few participants) capped at +1/-1
