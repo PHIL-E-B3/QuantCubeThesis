@@ -1,0 +1,289 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1\baselineskip}
+\setstretch{1.5}
+\titleformat{\section}{\Large\bfseries}{\thesection}{0.75em}{}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{0.12\textheight}
+
+  {\LARGE Extracting Sentiment Information from FOMC Communication to Forecast Policy Stance Using NLP Methods\par}
+  \vspace{0.9cm}
+
+  {\large Guillermo Alejo and Philip Bunford\par}
+  \vspace{0.15cm}
+  {\large Submission date: \today\par}
+  \vspace{0.15cm}
+  {\large Academic Advisor: Prof. Vincent Maurin \par}
+  \vspace{0.15cm}
+  {\large Internship Advisor: Nicolas de Roux and Alan Lemangnen\par}
+  \vspace{0.15cm}
+  {\large Program: Master in International Finance \par}
+  \vspace{0.15cm}
+
+  {\large HEC Paris\par}
+  
+  
+
+  \vfill
+  \textbf{Keywords:} FOMC communication, monetary policy, sentiment analysis, natural language processing, dictionary methods, large language models\footnotemark[1]\footnotemark[2]
+\end{titlepage}
+
+\begingroup
+\renewcommand\thefootnote{\fnsymbol{footnote}}
+\footnotetext[1]{Acknowledgements: We thank our advisors and peers for their guidance and feedback throughout this project.}
+\footnotetext[2]{Address: 1 rue de la Liberation, Jouy-en-Josas, France. E-mail: guillermo-luis.alejo-alvarez@hec.edu.}
+\endgroup
+\setcounter{footnote}{0}
+
+\thispagestyle{plain}
+\begin{center}
+  {\Large Extracting Sentiment Information from FOMC Communication to Forecast Policy Stance Using NLP Methods\par}
+  \vspace{0.35cm}
+  {\large Guillermo Alejo and Philip Bunford\par}
+\end{center}
+
+\textbf{Abstract}
+
+We study whether linguistic signals in Federal Open Market Committee communication help forecast subsequent policy stance. We construct sentiment indicators from official statements and related texts using two approaches: domain dictionaries and large language models. These indicators are combined with standard macro-financial controls in forecasting regressions and classification models. We compare in-sample fit and out-of-sample predictive performance and assess economic interpretability. Results indicate that communication-based sentiment captures incremental information about policy direction and improves short-horizon forecasting under specific model designs.
+
+\newpage
+\tableofcontents
+\newpage
+
+\begin{center}
+  {\Large Extracting Sentiment Information from FOMC Communication to Forecast Policy Stance Using NLP Methods\par}
+\end{center}
+
+\section{Introduction}
+Here we must introduce the overall topic. 
+\paragraph{Objective} Here we must put emphasis in that we are trying to predict policy stance at t+1 and that the objective is to use this for tradign strategies.
+
+
+
+\section{Background Knowledge \& Literature Review}
+\subsection{History of FOMC Communication}
+Explain briefly purpose of Federal Bank and its phases: original function pre 1980 under tight govrnemnt control. Then great moderation with clear mandate. Post-2008 massive Fed balance sheet, etc. (we can cite our lecture slides for economics of financial regulation).
+
+Explain the history of communication:February 1994: The first-ever statement was issued specifically because the Fed had decided to raise interest rates (the first hike in five years). Chairman Alan Greenspan felt it was important to announce the move clearly to avoid market volatility.
+
+February 1995: The Committee formally committed to announcing all changes in the stance of monetary policy immediately.
+
+n February 2000, under Greenspan, the committee first began regularly including an early form of forward guidance in its policy statements: an assessment of the balance of risks facing the economy. In 2003, it added guidance about the likely path of monetary policy. That change coincided with the publication of an important paper earlier the same year by Gauti Eggertsson of Brown University and Michael Woodford of Columbia University. They were exploring how central banks could conduct monetary policy when their policy rate was at or near zero and couldn't go lower. Eggertsson and Woodford showed that a central bank could achieve additional stimulus by credibly communicating an intent to keep its policy rate low into the future after the economy had started to recover — that is, by providing forward guidance. If markets believed the central bank's pledge, then the interest rates of longer maturity securities would fall in anticipation of a lower policy rate in the future, and that would help stimulate economic growth. (this paragraph is copy pasted from The Future of Forward Guidance Talking about the future has become a valuable tool of monetary policy, but recent events have prompted a reevaluation By Tim Sablik, must be paraphrased and cited)
+
+In a 2012 paper, Marco Del Negro of the New York Fed, Marc Giannoni of Barclays, and Christina Patterson of the University of Chicago demonstrated that a standard macro model predicted that forward guidance became more powerful the further into the future it went. If the Fed pledged to keep its policy rate low for two or more years, the model showed that this would have "explosive" effects on inflation and economic output. In essence, the model implied that the Fed should be able to dig the economy out of any hole just by talking and pledging actions further out into the future. The researchers dubbed this the "forward guidance puzzle."
+The strength of this result stems partly from the fact that, in standard models, the Fed can perfectly manage the expectations of financial markets and households through its forward guidance. As a result, longer-term interest rates immediately adjust to make the Fed's guidance a reality. The real world is much more complicated, however. The Fed's communications are not always clearly understood by the public, and the FOMC's forward guidance statements have never provided an ironclad commitment to follow a scripted policy path. In a 2019 article in the Journal of Monetary Economics, they found that the Fed's ability to influence market expectations diminishes the further into the future it tries to communicate a policy path. (similarly this paragraph is copy pasted from The Future of Forward Guidance Talking about the future has become a valuable tool of monetary policy, but recent events have prompted a reevaluation By Tim Sablik, must be paraphrased and cited)
+
+This gives rise to the distinction between odyssean and delphich forward guidance. Odyssean forward guidance refers to explicit commitments made on the future of monterary policy. Meanwhile delphic forward guidance is far more implicit that merely communicates expectations on the development of the economy and may include potential reactions to such developments but never commitments.
+
+During the aftermath of the GFC, the rates were stuck at 0 (ZLB) however the fed wanted to further accomodation. They adopted a "lower for longer" approach where they used odyssean forward guidance and commited to keeping rates lower for longer. This worked in providing further accomodation, making it tempting to think that odyssean forward guidance was the optimal solution.
+
+However, in 2021-22 how policymakers—wishing to sustain the credibility of their commitments to keep interest rates low for longer—delayed hiking rates even when conditions rendered their earlier commitments wholly obsolete. It becomes clear that odyssean forward guidance becomes an impediment for reactionary monetary policy given the risks of losing credibility.
+
+Ultimately, FOMC prioritizes the conservation of credibility and hence usually stick to delphic forward guidance.
+
+The two main conclusions are then: (a) the FOMC utilizes their communication to express forecasting and expectation information, and (b) they use majorly delphic forward guidance which is less interpretable by investors.
+
+This gives rise to the objective of this paper which is to try to extract as much information from the comunnication as possible.
+
+\subsection{NLP Sentiment Indicators}
+Brief overview of the different types of NLP methods.
+Start with dictionary approach: it is a hard-coded approach based on human annotation where certain keywords trigger a count. While it is very labour intensive, it is also the simplest of the methods and the most common in the literature as it has been around the longest. The most notable examples include Sharpe (2021), Gardner, Aruoba and the Loughran-Mcdonald dictionary.
+
+Beyond that we move to machine learning methods, which require first vectorizing the texts, either using a bag-of-words or tf-idf (don't go into too much detail as we don't use that in our paper) to then use techniques like LDA (add a short description) used by Hansen and McMahon 2016 or random forests (brief desriotion) (Nicolas de Roux paper on capturing International influences)
+
+However, modern NLPs use embedders (like BERT) and LLMs (like ChatGPT). These work using transformers which learn context to provide vectors to each word/token and are clearly the superior technique as they can understand nuance (given their context).
+
+Notable examples include The FOMC versus the Staff: Do Policymakers Add Value in Their Tales? that uses BERT, and we must add some example that uses like Llama or something.
+
+We must also add context on fine tuning. Introduce the concept that its far too expensive to use modern LLMs as the API costs would skyrocket. Hence, we must use a smaller model like Llama 8B or what we will end up using Mistral 7B. Research on fine tuning shows that by adding a Lora, you can get good results (not having to fully tweak the entire model). This combined with quantization (QLORA) allows for consuemr hardware to engage in these activities.
+
+Explain what LORA is (i.e. its a low rank matrix injected into different layers)
+
+\section{Analytical Framework}
+As stated in the introduction, the objective of this paper is to attempt to achieve a better prediction of the policy stance of the FOMC.To do so, we must establish a base model which uses all available information. To do so, it is important to determine the parameters of the forecasting excercise.
+
+\paragraph{Forecasting target and timing.} Define the dependent variable as the effective policy rate at the next FOMC meeting, using the shadow-rate-adjusted effective rate when the federal funds rate is constrained by the zero lower bound. This paragraph should also explain the no-look-ahead alignment of statements, minutes, speeches, and press conferences, since the regressions must use only information available at the forecast date. 
+
+We must define if we are predicting the level or the change (effective rate_{t+1} or effective_rate_{t+1}-effective_rate_{t})
+
+\paragraph{Baseline policy-rule model.} 
+The typical model used when predicting policy stance is a Taylor Rule which consists of a simple regression using unemployment (or output gap) and inflation deviation from 2\% as regressors. This naturally emerged from the idea that the FOMC is strictly led by their dual-mandate to promote employment while ensuring price stability. Nevertheless, the FOMC monitors a vastly larger set of variables which they assess will have an impact on their dual mandate such as: economic conditions, financial stability (FX markets), etc. These variables also have an effect on the behaviour of the FOMC and is definitely relevant information that is publicly accessible and shuld be included in any baseline model which is meant to have a trading edge. 
+
+The main issue with just bundling these many variables in a regression is the intense multicollinearity as, naturally, these macro variables are very correlated. Hence, Factor-Augmenter Vector AutoRegressions (FAVAR) are used where these many regressors are preprocessed using Principal Component Analysis (PCA) to extract orthogonal factors which (if not truncated) still contain the same information. 
+
+For the purposes of this paper, the variables added to the PCA were: inflation_deviation, unemployment_gap, VIX, GDP growth, implied_fed_funds_rate and current effective_rate.
+
+Present the equation for the favar.
+
+Make reference to a graph in appendices with the weightings of the factors on each regressor.
+
+Add a table with the R^2, adjusted R^2, BIC and AIC representing the benchmark to beat.
+
+The next section will consist in building the sentiment indicators. These will be used in a varity of ways to modify the baseline model and achieve better R^2, BIC and AIC scores. This exploration will be more detailed in \ref{section: 5}
+
+Add a note explaining that of course a more sophisticated model could have been used using the same regressors such as XGBoost which better understood the non-linearities of the policy reaction; however, that falls beyond the scope of this paper.
+
+
+\section{Constructing Sentiment Indicator}
+\subsection{Dictionary Approach}
+
+\subsection{LLM Approach}
+\subsubsection{Unit of Analysis \& Data Processing}
+Here we explain the scraping of files (speeches, statements, etc.) and we also explain the choice of unit of analysis.
+
+Scraping should be kept short. Main elements of the data processing ad also mentions of boilerplate removal
+
+We can also explain our clean_sentence function which includes a merging function. We must explain that the merge is an attempt at seeking the minimum unit of information transmission which on ocassion, is not a "sentence". When demonstrative articles, consequential conjuctions are used. These express coninuation of one idea. Thus for sentiment extraction, they must be evaluated as a whole.
+
+Why not go for even larger units of analysis? Document level: LLMs are not all-knowing. They will give inconssitent and unreliable results. Paragraph level: still there are many conflating signals per paragraph and it'll just give unreliable results. Its much better to go to the smallest unit of analysis - sentence. And then come up with paragraph or doc level indicators as a function of the smaller unit level indicators. 
+
+See "thesis_notes_data_processing.md" in data folder of the git.
+
+\subsubsection{Architecture of FOMC Communication \& Labelling Scheme}
+The underlying question that we must answer is what information does the FOMC communicate and how.
+
+We saw in the literature review that the FOMC does use forward guidance. There is an attempt from each speaker to convey information about the expected economic outlook. This confirms the obvious conclusion that FOMC communication includes the opinion of the members about the outcome of the economy. 
+
+The first instinct is then to think that the FOMC simply has better predictions then private insitutions because they have access to more data, and hence, by communicating their stance through forward guidance then, private players update their projections. We tested this idea by using the wedge between tealbook and spf (public - private) projections as a regressor in our FAVAR and found statistically insignifcant results, demonstrating that any revision of forecasts is incorrect.
+
+This is surprising as the dictionary methods really the only thing they are doing is counting hawkish/dovish sentences. And at a high-level, these correspond to most generally speaking, their modal forecasts. I.e., dictionary methods under first impression should be if anything providing information about the wedge that we already saw to be insigninificant.
+
+Upon further thought, we can see that each hawkish/dovish label is a sentence-level label, but the regressor is a document-level regressor. Something in the calculation of the document level-regressor is providing information. 
+
+The sentence level -> document level is just a simple additive count, which means the only possible thing to be measuring is "attention". I.e. how much time/words are dedicated to a topic is showing how woried the fed or how important the fed thinks a topic is.
+
+This line of logic is new, however, it is in agreement with the claims of other papers (Aruoba) that what these dictionary metrics are measuring is tail risk. 
+
+The above conclusion begs the question: so modal projections do not matter, tails do, what about uncertainty or width of projections? Further analysis with the dictionary approaches showed that when residualizing on two different proxies of uncertainty, the predictive power of the sentiment indicators decreased.
+
+At first, this conclusion does not make sense as if the FOMC are uncertain about a future outcome equally in both directions, then they these "forces" would cancel out. However, this assumes that the FOMC has a symmetric reaction function. If the FOMC is more scared of higher inflation then of lower inflation, then uncertainty over future outcomes (width of distribution) will cause the "possibility" of higher inflation to pull the reaction of the FOMC. This conclusion agrees with the literature (we must find some sources for this).
+
+Ultimately, these conclusions directly lead to the creation of our labelling scheme
+
+
+
+
+\subsubsection{LLM Selection}
+The annotation schema requires generating a structured 10-field JSON object per sentence, where several fields are conditionally populated depending on the value of other fields. This rules out encoder-only models like RoBERTa Large as a single-pass solution. While RoBERTa excels at classification tasks, it cannot natively produce structured multi-field output — it would require a separate classification head per field, effectively decomposing the task into 10 independent models and losing the conditional dependencies between fields entirely. Decoder-only generative models handle this naturally by producing the full JSON object in a single pass, respecting the interdependencies between fields through the generation process itself.
+Among decoder-only models of comparable size, Llama 3.1 8B was selected over alternatives such as Qwen 2.5 7B and Mistral 7B. Mistral 7B has largely been superseded by more recent releases and was not considered further. The choice between Llama 3.1 8B and Qwen 2.5 7B was informed by empirical evidence from the financial NLP literature. A direct comparison of fine-tuned lightweight LLMs on financial sentiment classification across multiple heterogeneous datasets found that Llama 3 8B slightly but consistently outperformed Qwen 3 8B in the fully fine-tuned setting (Author et al., 2025). While Qwen 2.5 demonstrates strong general instruction-following and structured output capabilities, the financial domain evidence favors Llama 3.1 8B as the stronger base model when fine-tuning on domain-specific classification tasks. Additionally, Llama 3.1 8B benefits from a more mature fine-tuning ecosystem and broader community tooling support, reducing implementation overhead.
+
+You will want to fill in the proper citation for the arxiv paper — it is: Fine-tuning of lightweight large language models for sentiment classification on heterogeneous financial textual data, arXiv, 2025 (arxiv.org/abs/2512.00946).
+
+\subsubsection{LLM Training}
+\paragraph{QLoRA} 
+Explain broadly the concept of transformer and its layered structure (attention and MPS) and that retraining all the weights is unfeasible on consumer hardware.
+
+Introduce concept of Low Rank Adaptation (LoRA). This refers to a smaller matrix injected in specific layers 
+
+Finally, lead with the concept of QLoRA as a 4-bit (I believe) quantized version of LoRA which makes it far more accessible for the VRAM of consumer hardware. However, of course its removing precision from the weights of the matrix, which means its ability to fine-tune is limited. T Dettmers shows that because of this loss of flexibility, it is optimal to inject a QLoRA into all layers of the transformer.
+
+\paragraph{Parameters}
+Here we must explain what are the most important parameters of the QLoRA to enable flexibility while minimizing overfitting. rank, alpha, dropout, learning rate, weight decay:
+
+Explain that through some prelim research, we could gauge whre the optimal of these values would be and then we use optuna over a range to fully optimize:
+ptuna:
+  n_trials: 50
+  sampler: TPE               # default, but explicit is good
+  pruner: 
+    type: MedianPruner       # kills bad trials early — critical on your GPU
+    n_startup_trials: 10     # random exploration before pruning kicks in
+    n_warmup_steps: 50       # steps before a trial can be pruned
+
+  search_space:
+    lora_r: [2, 4, 8]
+    lora_alpha_multiplier: [1, 2]       # alpha = r * multiplier
+    lora_dropout: [0.05, 0.1, 0.2]     # dropped 0.0 — literature supports regularization
+    learning_rate:
+      low: 1.0e-4
+      high: 5.0e-4
+      log: true
+    per_device_train_batch_size: [4, 8] # dropped 16 — OOM risk on 16GB with Mistral 7B
+    weight_decay: [0.01, 0.05, 0.1]    # AdamW weight decay — second regularization axis
+
+Explain pruner of course
+
+\paragraph{Training Parameters}
+training:
+  num_epochs: 5
+  per_device_train_batch_size: 8   # Safe for 16GB VRAM with QLoRA
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 2   # Effective batch size = 16
+  learning_rate: 2.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  lr_scheduler_type: "cosine"
+  logging_steps: 10
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  load_best_model_at_end: true
+  metric_for_best_model: "f1_macro"
+  fp16: false
+  bf16: true                     # RTX 4070 Ti Super supports bf16
+\subsubsection{LLM Performance}
+Here we ju
+
+\subsubsection{}
+
+\section{Forecasting Policy Stance}
+
+This section uses the sentiment indicator developed in Section 3 for two related purposes. First, it asks whether the indicator contains predictive information for the FOMC's future policy stance and tries to extract as much forecasting signal as possible from it. Second, it uses the richer sentence-level labels to study when, where, and under which communication regimes the sentiment indicator is most informative.
+
+\subsection{Predictive Content of the Sentiment Indicator}
+
+This first block contains the core forecasting exercise. The objective is to start from a conventional macroeconomic benchmark and then progressively add sentiment-based variables to determine whether FOMC communication improves forecasts of the future policy stance.
+
+\paragraph{Aggregate sentiment regressions.} Test whether total FOMC sentiment adds explanatory power after controlling for the baseline macro factors. This is the simplest version of the analysis: if the sentiment indicator is useful, it should improve fit, information criteria, and out-of-sample forecasting performance relative to the macro-only model.
+
+\paragraph{Sentiment dispersion.} Add measures such as the standard deviation and variance of sentence-level sentiment. This tests whether disagreement, ambiguity, or mixed communication within a document contains information beyond the average tone of the document.
+
+\paragraph{Topic-specific sentiment.} Decompose the aggregate signal into sentiment about monetary policy, inflation, unemployment, economic activity, financial conditions, and broader macro conditions. This paragraph should ask which topics carry the forecasting signal and should report multicollinearity diagnostics such as VIF because topic sentiment variables are likely to move together.
+
+\paragraph{Sentiment factor models.} Use PCA on the topic-level sentiment variables as a compact alternative to including every topic separately. This tests whether a small number of latent communication factors captures the useful variation while reducing overfitting relative to the full topic-level specification.
+
+\paragraph{Macro-sentiment interactions.} Test whether the effect of sentiment depends on macroeconomic conditions by interacting total sentiment with variables such as the VIX, GDP, unemployment gap, inflation deviation, and the implied federal funds rate. Then test matched interactions, such as inflation sentiment with inflation deviations and financial-conditions sentiment with the VIX, to see whether sentiment changes the estimated reaction function.
+
+\paragraph{Novelty in communication.} Examine changes in sentiment relative to previous meetings, such as changes in statement sentiment or changes in speech sentiment across meeting windows. This tests whether policy forecasts respond more to new information in FOMC language than to the absolute level of sentiment.
+
+\subsection{Communication Regimes and Model Diagnostics}
+
+This second block uses the additional labels produced by the NLP pipeline to investigate the behaviour of the Fed and the conditions under which the model is most effective. Rather than treating these exercises as separate forecasting specifications, they should be presented as diagnostic tests that reveal when the sentiment indicator contains the most useful information.
+
+\paragraph{Uncertainty and tail-risk regimes.} Re-estimate the best sentiment model using uncertainty-related and tail-risk-related subsets of communication, including elevated uncertainty sentences, extreme sentiment sentences, and references to upside or downside risks. This tests whether the indicator is most useful when the Fed is communicating risks rather than central-case expectations.
+
+\paragraph{Forward-looking communication.} Compare sentiment extracted from forward-looking sentences with sentiment extracted from present-oriented or full-document language. This identifies whether forecasts are driven mainly by explicit forward guidance or by broader descriptions of current economic conditions.
+
+\paragraph{Delphic versus Odyssean guidance.} Use the commitment labels to separate conditional or outlook-based communication from unconditional forward commitments. This subsection should connect directly to the earlier literature review: if the Fed mostly uses Delphic guidance, the model should be evaluated on whether it can extract information from implicit forecasts rather than only from explicit policy promises.
+
+\paragraph{Document and speaker regimes.} Compare statements, minutes, press conferences, and speeches, and within speeches compare chair-only, chair-plus-vice-chair, and all-speaker samples. This helps determine whether adding more communication sources increases signal or simply introduces noise.
+
+\paragraph{Policy-direction regimes.} As a diagnostic exercise, compare model performance when the future effective rate rises, falls, or remains flat. Because this uses the realised future policy path, it should be clearly labelled as a look-ahead analysis rather than a genuine ex ante forecasting exercise.
+
+\paragraph{Scaling and normalisation checks.} Test whether the results depend on how extreme sentiment values are scaled, how sentence sentiment is aggregated, and how dictionary sentiment benchmarks are normalised. These checks show whether the main conclusions are robust to reasonable choices in constructing the indicator.
+
+\subsection{Out-of-sample validation and placebo tests} 
+
+Close the section by evaluating rolling-window stability, leave-one-document-type-out results, alternative dependent variables, and placebo tests based on shuffled sentiment. These exercises should demonstrate whether the relationship between sentiment and policy stance is stable and unlikely to be a mechanical artefact of the modelling procedure.
+
+\section{Discussion}
+\section{Conclusion}
+
+\clearpage
+\section*{References}
+
+\clearpage
+\section*{Tables}
+
+\clearpage
+\section*{Figures}
+
+
+
+\end{document}
