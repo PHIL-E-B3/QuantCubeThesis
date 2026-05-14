@@ -100,9 +100,13 @@ A sentence triggers a merge with the preceding chunk if:
 - Bare demonstrative: *"That "* — e.g., "That decision was widely expected", "That said, ..."
 - Epistemic + demonstrative pronoun: *"I think they/those/these/that", "We think they/those/these/that"*
 
-**B. Demonstrative noun pattern** — the sentence contains a demonstrative pronoun (*this, that, these, those, such*) immediately followed by a specific policy-relevant noun (*outcome, goal, objective, development, progress, condition, measure, action, policy, purchase, assessment, view, stance, trend, event, effect, forecast, projection, risk, imbalance, strain*).
+**B. Demonstrative noun pattern** — the sentence contains a demonstrative pronoun (*this, that, these, those, such*) immediately followed by a noun from an expanded reference list. The noun list was deliberately designed to include nouns that are used as genuine cross-sentence references in FOMC text, while excluding temporal words (*year, month, meeting*) and comparative words (*level, rate, amount*) that appear in non-referential phrases like "this year" or "that level of activity".
 
-This catches mid-sentence cross-sentence references that don't start the sentence with a connective. Example: "The Committee raised rates. **These actions** were intended to reduce inflation pressures." — "these actions" refers to the previous sentence.
+The noun list covers two broad groups:
+- *Original policy terms:* outcome, goal, objective, development, progress, condition, measure, action, policy, purchase, assessment, view, stance, trend, event, effect, forecast, projection, risk, imbalance, strain
+- *Extended FOMC reference terms:* factor, aspect, area, issue, concern, pressure, indicator, approach, dynamic, tension, challenge, uncertainty, decision, situation, circumstance, environment, signal, pattern, finding, feature, consideration, shift, change, move, step, path, framework, backdrop, context, regime, episode, period, phase, cycle
+
+This catches mid-sentence cross-sentence references that don't start the sentence with a connective. Example: "The Committee raised rates. **These actions** were intended to reduce inflation pressures." — "these actions" refers to the previous sentence. Equally: "Growth was solid. **These conditions** justified tightening." — "these conditions" refers to the preceding assessment.
 
 **Conjunction guard on demonstrative nouns:** If the demonstrative noun pattern match appears after a subordinating conjunction (although, while, because, since, if, unless, before, after, despite, ...) within the candidate sentence, the match is rejected. This is because the demonstrative in that position refers back within its own clause, not to the preceding sentence. Example of a correctly rejected merge: "...the labour market was in balance. The economy was facing headwinds from tighter credit conditions, **although the extent of these effects** remained uncertain." — "these effects" follows "although" and refers to the headwinds described in the same sentence; merging with the preceding sentence would be incorrect.
 
