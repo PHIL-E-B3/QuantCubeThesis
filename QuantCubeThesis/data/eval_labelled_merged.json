@@ -8497,5 +8497,219 @@
     "com": "none",
     "ris": "na",
     "wid": "none"
+  },
+  {
+    "id": "14f2c10a-822e-4744-876c-38879a260793",
+    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would take into account the cumulative tightening of monetary policy, the lags with which monetary policy affected economic activity and inflation, and economic and financial developments.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
+    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive — not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together — no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
+  },
+  {
+    "id": "9797f119-b35c-456d-ad74-ba26f00093dd",
+    "sentence": "Members agreed to add language to this effect in the postmeeting statement in order to convey explicitly the range of factors that they would consider in determining future monetary policy actions.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "sen": "na",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
+    "_annotation_note": "Purely procedural — describes the drafting decision to add language to the statement. No independent policy signal; removing this sentence loses no policy-relevant information. Boilerplate defaults apply."
+  },
+  {
+    "id": "c163fed3-3623-41b5-9161-a74038d99ecb",
+    "sentence": "In addition, members agreed that they would continue reducing the Federal Reserve's holdings of Treasury securities, agency debt, and agency MBS, as described in the Plans for Reducing the Size of the Federal Reserve's Balance Sheet that were issued in May.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "unconditional",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
+    "_annotation_note": "Ongoing QT (balance sheet reduction) is a hawkish policy action. sen=+1 because this is continuation of an existing program, not a new emergency escalation — consistent with Example 4 logic. com=unconditional: no stated condition on the continuation ('agreed that they would continue')."
+  },
+  {
+    "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "source": "statement_20210428.txt",
+    "doc_type": "statement",
+    "date": "2021-04-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "split_from": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
+    "_annotation_note": "Average inflation targeting framework commitment. Policy is explicitly accommodative (aiming for above-target inflation). Inflation below goal is the conditioning circumstance making com=conditional. hor=true: 'for some time', 'over time', 'longer-term' are all explicit long-horizon markers. ris=skewed_downside: the operative concern is inflation running below target (downside for inflation). sen=-1: dovish (keeping policy accommodative to push inflation up)."
+  },
+  {
+    "id": "0aec9c9d-b06c-4ee1-97fe-d380abc18cc2",
+    "sentence": "The Committee expects to maintain an accommodative stance of monetary policy until these outcomes are achieved.",
+    "source": "statement_20210428.txt",
+    "doc_type": "statement",
+    "date": "2021-04-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
+    "_annotation_note": "Explicitly accommodative policy stance = dovish = sen=-1. com=conditional: contingent on 'until these outcomes are achieved'. hor=false: 'until these outcomes' is a condition, not a long-horizon signal per se — no multi-year or 'longer run' language in this sentence itself."
+  },
+  {
+    "id": "0b5cbb35-7e26-426d-9000-b93aa0415062",
+    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward its maximum employment and price stability goals.",
+    "source": "statement_20210922.txt",
+    "doc_type": "statement",
+    "date": "2021-09-22",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
+    "_annotation_note": "FLAG — AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense → ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program → stays at -1 (not -2)."
+  },
+  {
+    "id": "91d119c2-b3f1-4a0e-9a8e-5efac24ea138",
+    "sentence": "Since then, the economy has made progress toward these goals.",
+    "source": "statement_20210922.txt",
+    "doc_type": "statement",
+    "date": "2021-09-22",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
+    "_annotation_note": "Present-perfect description of aggregate economic progress — no single variable dominates, hence macro. Progress toward goals = stronger aggregate outlook = hawkish incentive = sen=+1. No forward implication in the sentence itself → descriptive."
+  },
+  {
+    "id": "a413ba26-dbad-44c0-b22e-dd5378a7b224",
+    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated",
+    "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
+    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable → macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) → ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger → wid=elevated. sen=-1: weaker aggregate outlook."
+  },
+  {
+    "id": "aeb15d15-735f-464f-b421-b4deb3c7cec4",
+    "sentence": "While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none",
+    "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
+    "_annotation_note": "FLAG — AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) — two simultaneously operative signals in the same tense on the same topic → wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
+  },
+  {
+    "id": "c1995c38-0c6e-48b7-80ca-b0f69c03d317",
+    "sentence": "The Fed's lending activities have indeed resulted in a large increase in the excess reserves held by banks.",
+    "source": "The Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2009-01-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
+    "_annotation_note": "Describes the outcome of crisis-era Fed lending (monetary policy) on bank reserves (financial conditions). The Fed's lending = emergency easing action. sen=-1 rather than -2 because the sentence is a factual description of outcomes, not an emergency announcement; the scale intensifier ('large') alone does not reach the urgency/crisis threshold required for -2. com=none: descriptive, no commitment made."
+  },
+  {
+    "id": "dc8a837a-75b1-42b9-82ff-7d63d3244735",
+    "sentence": "Bank reserves, together with currency, make up the narrowest definition of money, the monetary base; as you would expect, this measure of money has risen significantly as the Fed's balance sheet has expanded.",
+    "source": "The Crisis and the Policy Response",
+    "doc_type": "speech",
+    "date": "2009-01-13",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
+    "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
   }
 ]
