@@ -275,12 +275,21 @@ def build_annotatable_records(text, is_conversational=False):
             is_dependent = any(s_lower.startswith(trigger) for trigger in triggers)
 
             if not is_dependent:
-                # Any demonstrative article triggers a merge — no noun list required.
-                # The conjunction guard still blocks cases where the demonstrative
-                # appears after a subordinating conjunction within the same sentence
-                # (e.g. "although the extent of these areas"), meaning it refers
-                # inward rather than to the preceding sentence.
-                pattern = r'\b(?:this|that|these|those|such)\b'
+                # Expanded demonstrative noun pattern — noun list broadened beyond
+                # the original 18 policy-specific terms to include common cross-sentence
+                # referential nouns in FOMC text. Temporal words (year, month, meeting)
+                # and comparative words (level, rate) deliberately excluded.
+                pattern = (
+                    r'\b(?:this|that|these|those|such)\s+'
+                    r'(outcome|goal|objective|development|progress|condition|measure|'
+                    r'action|policy|purchase|assessment|view|stance|trend|event|effect|'
+                    r'forecast|projection|risk|imbalance|strain|'
+                    r'factor|aspect|area|issue|concern|pressure|indicator|approach|'
+                    r'dynamic|tension|challenge|uncertainty|decision|situation|'
+                    r'circumstance|environment|signal|pattern|finding|feature|'
+                    r'consideration|dynamic|shift|change|move|step|path|framework|'
+                    r'backdrop|context|regime|episode|period|phase|cycle)s?\b'
+                )
                 for match in re.finditer(pattern, s_lower):
                     text_before = s_lower[:match.start()]
                     if not _CONJ_BEFORE_DEMO.search(text_before):

@@ -223,6 +223,23 @@
     "wid": "none"
   },
   {
+    "id": "114b72d5-2ff4-459c-8f2f-80a379b54417",
+    "sentence": "We publish regular reports on all aspects of our operations. So we're very open, and we are by all means willing to work with Congress to see if there's anything that they think might be done better or in a more effective way.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Peter Cook of Bloomberg Television. Mr. Chairman, first of all, thank you for holding these news conferences. I hope you encourage your successor to have even more of them. One thing I know you're going to miss is traveling to Capitol Hill to testify, and one thing that's going to be happening next year, according to the chairman of the House Financial Services Committee, is a full review of the Federal Reserve—even the Federal Reserve Act, the structure of the Fed, the mission of the Fed, and the mandate of the Fed. And I wanted to see if you might be willing to impart some final words of wisdom to members of Congress as they consider possible legislative changes. What, if anything, could they do to the structure of the Federal Reserve, the mandate of the Federal Reserve—the dual mandate—that might help Fed policy makers in the future? Do you think the dual mandate still is merited? And just a final question for you, sir, as you get set to leave and perhaps your last news conference here—you talked a little bit about your frustrations, the headwinds that you faced through the course of your eight years. Is there a decision—with the benefit of hindsight—that you would do differently, one change perhaps in a decisionmaking process that you've made, your fellow colleagues have made here, that you think would have made a difference materially over the last eight years?",
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "descriptive",
+    "sen": "",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
     "id": "f23feb2d-795b-44ec-ae5b-8777ce04e4b5",
     "sentence": "We'll patiently watch and understand and, and, you know, kind of not be in a hurry to, to get to a place of understanding what our policy response should be until we see how it plays out.",
     "source": "FOMCpresconf20250129.json",

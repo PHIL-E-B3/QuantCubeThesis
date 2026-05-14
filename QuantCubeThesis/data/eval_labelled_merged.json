@@ -3476,6 +3476,23 @@
     "wid": "none"
   },
   {
+    "id": "ca0c1c8c-d125-42fb-af30-99a41da4b3be",
+    "sentence": "However, some moderation in gasoline prices is now in prospect, and the effects of the Japanese disaster on manufacturing output are likely to dissipate in coming months. Consequently, as shown in the first figure, entitled \"Change in Real GDP,\" the Committee expects that the pace of economic recovery will pick up over coming quarters.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110622",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
     "id": "2a7e15c8-22b3-4fc6-ac52-a993adb415bc",
     "sentence": "It will be a Committee decision.",
     "source": "FOMCpresconf20110622.pdf",
@@ -3503,6 +3520,23 @@
       "macro"
     ],
     "sen": 0,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "acfaf979-6cca-449b-a44a-1b4173a7eef8",
+    "sentence": "The sooner we can act, the better. But the most efficient and effective way to address our fiscal problems -- and, again, I think this is extremely important -- is to take a longer-run perspective, not to focus the cuts heavily on the near term. But by taking a long-run perspective and making a credible plan for reducing future deficits, we'll lower interest rates, or at least prevent them from rising, and we will increase confidence. And that could be very constructive. But if it's entirely focused on the near term, I don't think that's the optimal way to proceed.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20110622",
+    "context_question": "Darren Gersh with Nightly Business Report on PBS. If I could follow up on what he just said, there seems to be a growing view in the country that the deficit is the problem with jobs, and that immediate cuts in the deficit would grow the economy and immediately create jobs. Many economists disagree with that. Do you want to go a little further and maybe talk about that issue, and whether you agree with that view that seems to be taking root?",
+    "top": [
+      "macro"
+    ],
+    "sen": 1,
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3718,6 +3752,25 @@
     "wid": "none"
   },
   {
+    "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
+    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6½ percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
+    "source": "FOMCpresconf20121212.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "unemployment",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
     "id": "89a22aba-40af-438d-8768-00b5bc2873c8",
     "sentence": "I wouldn't say it was an important motivation for adding transparency.",
     "source": "FOMCpresconf20121212.pdf",
@@ -3833,6 +3886,23 @@
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e476b094-c97a-467a-9caf-c593329f28c3",
+    "sentence": "The median projected funds rate for the end of 2015 is 1 percent. And notably, although the central tendencies of the projections for both inflation and the unemployment rate in 2016 are close to the longer-run normal values for those variables, the median projection for the federal funds rate at the end of 2016 is 2 percent, well below the longer-run normal value for the federal funds rate of 4 percent or so projected by most participants.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -4009,6 +4079,24 @@
     "hor": true,
     "com": "none",
     "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a0fc5806-2c3f-4077-ac5d-3c38a3924626",
+    "sentence": "As I mentioned, monetary policy operates with lags, so, the policies we have in place, we think, will gradually -- only gradually -- move inflation back to 2 percent. But if the Committee had real concerns that inflation were going to remain persistently below 2 percent, I feel confident that the Committee would act to prevent that.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140319",
+    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6½ percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
     "wid": "none"
   },
   {
@@ -4252,6 +4340,23 @@
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "39f1a1c3-935b-4733-8f37-6584aa989749",
+    "sentence": "So, yes, if we defer, this is not a very large matter that we're talking about from a stimulus point of view. But it is, to some extent, true that if we delay raising the rate, it probably -- maybe delays the timing at which that process will begin. But there's no fixed -- we've not given some fixed amount of time at so many months after we start. And we're continuing to discuss what the appropriate timing would be of that policy and haven't made any further decisions on that just yet.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150917",
+    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed's policy of maintaining a large balance sheet—by not starting to shrink that balance sheet by curtailing reinvestments and rollovers—that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it's—until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -4997,6 +5102,23 @@
     "wid": "none"
   },
   {
+    "id": "9d77b396-d3e8-4d59-9b2e-2b5f73666e85",
+    "sentence": "They take it seriously. I think they do see it as we do, as something that has to go deep.",
+    "source": "FOMCpresconf20190731.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190731",
+    "context_question": "I mean, I just—I'd like to clarify, like, are you pleased with the responsiveness you're getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
     "id": "8712b646-2373-4b3e-9eee-65de5d5f8d6f",
     "sentence": "It's been -- it's been great.",
     "source": "FOMCpresconf20190731.pdf",
@@ -5669,6 +5791,24 @@
     "wid": "none"
   },
   {
+    "id": "1c1757f5-45f1-4b5d-a261-3057ad5d22f7",
+    "sentence": "You asked about rates. So the way that works, I would explain, is, as we raise interest rates, that should gradually slow down demand for the interest-sensitive parts of the economy. And so what we would see is demand slowing down, but just enough so that it's better matched with supply. And that brings -- that will bring inflation down over time.",
+    "source": "FOMCpresconf20220316.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220316",
+    "context_question": "Hi, Chair Powell. Hopefully no tech issues here on this front. Wanted to ask just kind of the broad question about how you are communicating what the Fed's doing here today to the average American who might not be reading the dot plots or understanding what the SEP is. How is the 25 basis point hike today and then the signaling on future Fed policy going to address the inflation that they're feeling at the stores on a daily basis?",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
     "id": "1881907c-8479-4d03-84f8-8a22a350ee83",
     "sentence": "Underlying momentum remains strong, however, as the decline largely reflected swings in inventories and net exports -- two volatile categories whose movements last quarter likely carry little signal for future growth.",
     "source": "FOMCpresconf20220504.json",
@@ -5997,6 +6137,23 @@
     "wid": "none"
   },
   {
+    "id": "153de660-2c90-4d14-9b52-7b4679165749",
+    "sentence": "The one that would affect -- the one that comes to mind, though, is just the question of where the neutral rate of interest is. And so, for example, if it's risen, and I'm not saying that it has, but if it were to have risen, that would mean that, that interest rates would need to be a little bit higher to convey the same level of restriction.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_qa",
+    "date": "20231213",
+    "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
     "id": "18e30457-8ffb-4ab7-9b00-a2fff4a632d0",
     "sentence": "The labor force participation rate has moved up, on balance, over the past year, particularly for individuals aged 25 to 54 years, and immigration has returned to pre-pandemic levels.",
     "source": "FOMCpresconf20240131.json",
@@ -6166,6 +6323,23 @@
     "com": "none",
     "ris": "na",
     "wid": "elevated"
+  },
+  {
+    "id": "79a89b5a-764f-46b5-b6b3-619780410103",
+    "sentence": "But, honestly, it doesn't really get you where you need to be to think about what appropriate policy is in the near term. But I, I -- back to your original question, people have been gradually writing it up because I just think people are coming to the view that rates aren't -- are less likely to go down to their, their pre-pandemic levels, which were, you know, very low by recent history measures.",
+    "source": "FOMCpresconf20240612.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240612",
+    "context_question": "Jeanna Smialek, New York Times. Thanks for taking our questions. In the Summary of Economic Projections, the long-run interest rate forecast moved up a bit. I wonder if we should read that as a sign that you think that policy is not sort of as restrictive as we've previously expected. You know, how should we interpret what that means about how the Committee views its current policy setting?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "4c7accce-7348-4508-8796-8882322b1631",
