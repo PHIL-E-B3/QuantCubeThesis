@@ -1262,7 +1262,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": 0,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1279,7 +1279,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1455,7 +1455,7 @@
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "contested"
+    "wid": "none"
   },
   {
     "id": "98631859-9646-4633-9b8a-a4b5f83e5943",
@@ -1467,12 +1467,12 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "contested"
+    "wid": "none"
   },
   {
     "id": "3ae5875f-4bdb-4ab5-84f6-87a61a970c2c",
@@ -1832,7 +1832,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
