@@ -1,0 +1,495 @@
+[
+  {
+    "id": "c4ea2948-a9ea-43c5-a340-a835e3bcabc6",
+    "sentence": "The strains in global financial markets, though generally less pronounced than last fall, continued to pose a significant risk to the outlook, and the possibility of a sharp fiscal tightening in the United States was also considered a sizable risk.",
+    "source": "minutes_20120425.html",
+    "doc_type": "minutes",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "24ccd45a-a22f-46c5-8f54-0d72452194c9",
+    "sentence": "The possibilities that U.S. fiscal policy would be more contractionary than anticipated and that uncertainty about fiscal policy could lead to a deferral of hiring and investment were other downside risks.",
+    "source": "minutes_20120425.html",
+    "doc_type": "minutes",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "b5635323-7613-4e5e-a2f1-e84c5b359389",
+    "sentence": "Notably, the British pound depreciated significantly against the U.S. dollar, reportedly as developments led investors to raise the probability they attached to a no-deal Brexit.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -2,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "61a44308-c824-43f1-ad33-fe781c1dd790",
+    "sentence": "In light of the significant uncertainty and downside risks associated with the pandemic, including how much the economy would weaken and how long it would take to recover, the staff judged that a more pessimistic projection was no less plausible than the baseline forecast.",
+    "source": "minutes_20200610.html",
+    "doc_type": "minutes",
+    "date": "20200610",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -2,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
+    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that—with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs—their situations could deteriorate significantly if additional relief and support did not materialize.",
+    "source": "minutes_20201216.html",
+    "doc_type": "minutes",
+    "date": "20201216",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": -2,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "0b5223fa-92c9-47d8-a854-2aaa8f8ca17e",
+    "sentence": "However, downside risks to growth remain.",
+    "source": "statement_20080318.txt",
+    "doc_type": "statement",
+    "date": "2008-03-18",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "e6f89337-8e59-466a-8b20-70888ee78ba1",
+    "sentence": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, but the downside risks to that outlook are significant.",
+    "source": "statement_20090128.txt",
+    "doc_type": "statement",
+    "date": "2009-01-28",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "392fabac-efea-479a-bc1a-37e19a11147b",
+    "sentence": "Strains in global financial markets have eased, though they continue to pose significant downside risks to the economic outlook.",
+    "source": "statement_20120313.txt",
+    "doc_type": "statement",
+    "date": "2012-03-13",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "726df93f-d2bf-4118-b9c4-808f6b05a33d",
+    "sentence": "Furthermore, strains in global financial markets continue to pose significant downside risks to the economic outlook.",
+    "source": "statement_20121212.txt",
+    "doc_type": "statement",
+    "date": "2012-12-12",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "c7679602-f73a-4070-99ca-8612e9dcb518",
+    "sentence": "If the outlook for the labor market does not improve substantially, the Committee will continue its purchases of Treasury and agency mortgage-backed securities, and employ its other policy tools as appropriate, until such improvement is achieved in a context of price stability.",
+    "source": "statement_20130130.txt",
+    "doc_type": "statement",
+    "date": "2013-01-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "96cfd0df-e571-421c-87c7-207d9f874bdb",
+    "sentence": "Although strains in global financial markets have eased somewhat, the Committee continues to see downside risks to the economic outlook.",
+    "source": "statement_20130130.txt",
+    "doc_type": "statement",
+    "date": "2013-01-30",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "a3279745-b7ea-4ecf-a20c-40708fb98b0f",
+    "sentence": "Recent global economic and financial developments may restrain economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+    "source": "statement_20150917.txt",
+    "doc_type": "statement",
+    "date": "2015-09-17",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "43e69851-9d16-4cff-90cd-49c943b8d2eb",
+    "sentence": "The economy continues to face economic headwinds, including the situation in Europe; tight credit for some borrowers; and fiscal contraction at the federal, state, and local levels.",
+    "source": "FOMCpresconf20120913.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120913",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "07ed511d-f41c-48fb-9274-378c0864411e",
+    "sentence": "The Committee recognizes that inflation persistently below its objective could pose risks to economic performance and is monitoring inflation developments carefully for evidence that inflation will move back toward its objective over time.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20131218",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "5d98d27f-aec7-4a63-9ec0-fbb2c87b3f1e",
+    "sentence": "I gave you some reasons why I think that will happen. But we take that very seriously, and if inflation does not show signs of returning to target, we will take appropriate action.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of—given all you've said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer—wait for more data?",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "a0fc5806-2c3f-4077-ac5d-3c38a3924626",
+    "sentence": "As I mentioned, monetary policy operates with lags, so, the policies we have in place, we think, will gradually -- only gradually -- move inflation back to 2 percent. But if the Committee had real concerns that inflation were going to remain persistently below 2 percent, I feel confident that the Committee would act to prevent that.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140319",
+    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6½ percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "fe6783f3-2b8d-4d1c-9f80-a40ff9086cb9",
+    "sentence": "Of course, that's a reason why, for a number of years, we engaged in active asset purchase programs. So there is a situation there of asymmetric risks, and it does point in the direction of waiting longer to raise rates. But I would say that this is an influence that we -- and a set of considerations -- that we have long been aware of and have been taking into account, so that it's not something that just comes into play now.",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150318",
+    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks—notably Japan, Sweden also—suggests that tightening early when you're at the zero lower bound can be a risky process—the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that's influencing the debate in the FOMC at the moment.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "fff064e5-fac5-4d28-8e25-9d14d5648024",
+    "sentence": "Developments since our July meeting -- including the drop in equity prices, the further appreciation of the dollar, and a widening in risk spreads -- have tightened overall financial conditions to some extent. These developments may restrain U.S. economic activity somewhat and are likely to put further downward pressure on inflation in the near term.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "49c4e4b4-bb8f-4e43-b2a9-bc83b7edfb60",
+    "sentence": "In any case, they've been quite volatile. So we do see those risks as actually more heightened now.",
+    "source": "FOMCpresconf20190918.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190918",
+    "context_question": "If I could just follow up, you've also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy—in this case, further cuts. Wouldn't that suggest that you should be inclined to—if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "89ae09be-92b8-437a-9424-89dc87ac73f0",
+    "sentence": "Short term -- I mentioned funding risk as the -- as the last one. So we saw, again, in this crisis, breakdowns in parts of the short-term funding markets -- came under a tremendous amount of stress. And they've been quiet since the spring.",
+    "source": "FOMCpresconf20210317.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210317",
+    "context_question": "Thank you for taking my question. I just wanted to get your—an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to—propose to the overall economy.",
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "14f97be3-7203-4d59-a25b-18b11febb57d",
+    "sentence": "However, the pace of vaccinations has slowed, and new strains of the virus remain a risk.",
+    "source": "FOMCpresconf20210616.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "715e8095-f3be-4cdb-aca8-35a8f3e8f495",
+    "sentence": "The path of the economy continues to depend on the course of the virus, and risks to the economic outlook remain.",
+    "source": "FOMCpresconf20210922.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "37c42dfc-d281-4e80-97ed-99588fb36cbe",
+    "sentence": "We'll also be looking to see progress on inflation and, you know, the labor market remaining strong but, but ideally, without seeing the kind of large increase in unemployment that happens sometimes.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_qa",
+    "date": "20231213",
+    "context_question": "Michael McKee from Bloomberg Television and Radio. Mr. Chairman, you were, by your own admission, behind the curve in starting to raise rates to fight inflation, and you said earlier, again, \"the full effects of our tightening (cycle) have not yet been felt.\" How will you decide when to cut rates, and how will you ensure you're not behind the curve there?",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "58f5842d-6848-457b-b783-8fc05ffa29bc",
+    "sentence": "So, again, I've been through some of the data already, but what we think we're seeing is, is a normalizing labor market, and we're watching carefully to see if it -- if it turns out to be more.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Hi. Victoria Guida with Politico. On the labor market, I was wondering, how worried are you all about unemployment rising to the point where it triggers the Sahm rule, and would that potentially affect how quickly you cut rates?",
+    "top": [
+      "labor_market"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "118b3824-4f1d-4e19-a222-96032aad3688",
+    "sentence": "Their various analyses suggest the possibility of destabilization even in a financial world with no dominant firms, but many medium-sized entities.",
+    "source": "Financial Stability Regulation",
+    "doc_type": "speech",
+    "date": "2012-10-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "afe06790-4fdd-4e26-ad41-1606046fa3b2",
+    "sentence": "First is the risk that inflation expectations might lose their anchor.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "source": "statement_20210428.txt",
+    "doc_type": "statement",
+    "date": "2021-04-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "split_from": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
+    "_annotation_note": "Average inflation targeting framework commitment. Policy is explicitly accommodative (aiming for above-target inflation). Inflation below goal is the conditioning circumstance making com=conditional. hor=true: 'for some time', 'over time', 'longer-term' are all explicit long-horizon markers. ris=skewed_downside: the operative concern is inflation running below target (downside for inflation). sen=-1: dovish (keeping policy accommodative to push inflation up)."
+  },
+  {
+    "id": "a413ba26-dbad-44c0-b22e-dd5378a7b224",
+    "sentence": "At the start of the year, a number of crosscurrents presented risks to the outlook, including weak global growth, particularly in China and Europe; the possibility of a disruptive Brexit; and uncertainty around unresolved trade negotiations.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated",
+    "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
+    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable → macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) → ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger → wid=elevated. sen=-1: weaker aggregate outlook."
+  }
+]

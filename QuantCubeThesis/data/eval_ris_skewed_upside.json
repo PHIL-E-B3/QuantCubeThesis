@@ -1,0 +1,237 @@
+[
+  {
+    "id": "2a630aca-a4e0-4cb8-afd6-41c1c1d7835c",
+    "sentence": "Mr. Plosser felt that a maturity extension program would do little to improve near-term growth or employment, in light of the ongoing structural adjustments and fiscal challenges both in the United States and abroad. Moreover, in his view, with inflation continuing to run above earlier forecasts, such a program could risk adding unwanted inflationary pressures and complicate the eventual exit from the period of extraordinarily accommodative monetary policy.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "9414cb78-c760-419e-8ed7-99e03c2d2e50",
+    "sentence": "While recent employment data had been encouraging, a number of members perceived a nonnegligible risk that improvements in employment could diminish as the year progressed, as had occurred in 2010 and 2011, and saw this risk as reinforcing the case for leaving the forward guidance unchanged at this meeting.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "27754d8b-0ce1-4087-9207-1f5e42302281",
+    "sentence": "Finally, if the decline in oil prices and the rise in the foreign exchange value of the dollar did not continue, then their influence on the growth rate of investment and the change in net exports would likely recede.",
+    "source": "minutes_20150429.html",
+    "doc_type": "minutes",
+    "date": "20150429",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "060f85e9-5e19-4f01-8509-66d8b9131f38",
+    "sentence": "She noted that, in such circumstances, postponing the removal of accommodation could increase financial distortions and risks to the economy and undermine the achievement of the Committee's longer-run objectives.",
+    "source": "minutes_20160316.html",
+    "doc_type": "minutes",
+    "date": "20160316",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "macro"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "20c59a4a-2af8-423c-ac0a-7f373090bf6f",
+    "sentence": "Overly accommodative policy could also induce imprudent risk-taking in financial markets, posing additional risks to achieving the Committee's goals in the future.",
+    "source": "minutes_20160427.html",
+    "doc_type": "minutes",
+    "date": "20160427",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "995fddd0-966b-4ea0-9eaf-879c5f7fbeed",
+    "sentence": "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully.",
+    "source": "statement_20071211.txt",
+    "doc_type": "statement",
+    "date": "2007-12-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "392fb343-dae5-4df9-a0f3-15c94359d38e",
+    "sentence": "Mr. Hoenig also was concerned that this continued high level of monetary accommodation increased the risks of future financial imbalances and, over time, would cause an increase in long-term inflation expectations that could destabilize the economy.",
+    "source": "statement_20101103.txt",
+    "doc_type": "statement",
+    "date": "2010-11-03",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "7d727590-5a60-4615-bcea-a91e5cda7130",
+    "sentence": "Stronger growth or a more rapid increase in inflation than we currently anticipate would suggest that the neutral federal funds rate was rising more quickly than expected, making it appropriate to raise the federal funds rate more quickly as well.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "153de660-2c90-4d14-9b52-7b4679165749",
+    "sentence": "The one that would affect -- the one that comes to mind, though, is just the question of where the neutral rate of interest is. And so, for example, if it's risen, and I'm not saying that it has, but if it were to have risen, that would mean that, that interest rates would need to be a little bit higher to convey the same level of restriction.",
+    "source": "FOMCpresconf20231213.json",
+    "doc_type": "press_conference_qa",
+    "date": "20231213",
+    "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "4c7accce-7348-4508-8796-8882322b1631",
+    "sentence": "If the economy remains solid and inflation persists, we can maintain the current target range for the federal funds rate as long as appropriate.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240731",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "7ee3c9c2-e394-45ac-955f-a11d8ad04c40",
+    "sentence": "If the economy remains strong and inflation does not continue to move sustainably toward 2 percent, we can dial back policy restraint more slowly.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20241218",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "c3e28559-e1cb-4581-8933-debbe5abbdea",
+    "sentence": "It's also possible that the inflationary effects could instead be more persistent. Avoiding that outcome will depend on the size of the tariff effects, on how long it takes for them to pass through fully into prices, and, ultimately, on keeping longer-term inflation expectations well anchored.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "b2685068-25d3-4df6-a2e6-ecd9790998e4",
+    "sentence": "And, after that, again, if there are no new tariffs that are being announced that will take nine months to get fully in -- and nine months is also an estimate -- then you should start to see that coming down in the back half of next year.",
+    "source": "FOMCpresconf20251210.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251210",
+    "context_question": "Thanks, Mr. Chairman. Edward Lawrence, with Fox Business. I wanted to ask you, the inflation expectations has come down in your SEP report. Do you see the tariff price increases as passing through in the next three months? Is it a six-month process that we're looking for that to end? And then, because of that, is jobs the threat to the economy?",
+    "top": [
+      "inflation"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  }
+]
