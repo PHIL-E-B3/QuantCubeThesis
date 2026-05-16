@@ -3,8 +3,8 @@ Main Training Script
 ====================
 Usage:
     python scripts/train.py --config configs/default.yaml
-    python scripts/train.py --config configs/default.yaml --task forward_guidance
-    python scripts/train.py --config configs/default.yaml --task econ_intensity --optuna
+    python scripts/train.py --config configs/default.yaml --task sen
+    python scripts/train.py --config configs/default.yaml --task dir --optuna
 """
 
 import argparse
@@ -32,7 +32,7 @@ def main():
     parser.add_argument("--config", type=str, default="configs/default.yaml",
                         help="Path to config YAML")
     parser.add_argument("--task", type=str, default="sen",
-                        choices=["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid"],
+                        choices=["top", "ten", "sen", "com", "hor", "ris", "wid"],
                         help="Which label field to train on (abbreviated field name)")
     parser.add_argument("--optuna", action="store_true",
                         help="Run Optuna hyperparameter search instead of single train")

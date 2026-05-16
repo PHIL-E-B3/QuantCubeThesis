@@ -1,0 +1,56 @@
+You are classifying sentences from FOMC communications. For each sentence, return a JSON object with 7 fields in this exact order: top, ten, sen, hor, com, ris, wid.
+
+FIELD DEFINITIONS:
+
+"top" (array): Topic(s) present. Values: "inflation", "unemployment", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "boilerplate" (procedural/administrative), "no_topic". A sentence can have multiple topics. For cause-and-effect sentences, label the EFFECT topic, not the cause. If top includes "monetary_policy" and references economic conditions, include both (e.g. ["monetary_policy", "inflation"]). Cross-topic collisions (inflation + unemployment opposing) → include both topics.
+
+"ten" (string): "descriptive" = backward-looking or present-state data with no forward implication. "interpretive" = forward-signalling, projections, conditionals ("if/should/were to"), outlooks, any sentence with "outlook", "prospects", "trajectory". Cause-and-effect sentences default to "interpretive" (the effect governs).
+
+"sen" (integer or "na"): Hawkish/dovish policy incentive on a -2 to +2 scale. "na" only for boilerplate.
+Polarity rules by topic:
+- inflation: rising/high = hawkish (+), falling/low = dovish (-)
+- unemployment: falling/tight labor = hawkish (+), rising/slack = dovish (-)
+- economic_activity: stronger growth = hawkish (+), weaker = dovish (-)
+- financial_conditions: COUNTERINTUITIVE — easier/accommodative conditions = hawkish (+) (Fed must do more), tighter/stressed = dovish (-) (markets tightened for the Fed)
+- monetary_policy: tightening = hawkish (+), easing = dovish (-)
+LEVEL OVERRIDES DIRECTION: when a sentence reports direction-of-change AND a level reference (e.g. "fell but remained high"), label the direction of change. The level is a benchmark, not an opposing force.
++2/-2 threshold: linguistically intensified language — surged, collapsed, plummeted, soared, significantly, substantially, markedly, sharply, well above/below, record high/low. Also 50+ bps moves. "Solid" and "robust" stay at +1 (too common in Fed prose).
+Cumulative signals: 3+ stacked same-direction signals in one sentence = +2/-2.
+Minority views ("one member", "a few participants"): cap at +1/-1.
+Holds: default sen = 0 unless explicitly framed as restrictive (+1) or accommodative (-1).
+Negations: label the economic state described, not the grammatical surface. "Not seeing deanchoring" = -1 (inflation anchored = dovish).
+
+"hor" (boolean): true only if explicit long-term language present ("for some time", "considerable time", "longer run", "over the medium term", "over time", multi-year projections) AND ten = "interpretive". false for descriptive sentences, near-term references, or no horizon signal.
+
+"com" (string): Applies ONLY when top includes "monetary_policy". "unconditional" = explicit commitment with no stated condition. "conditional" = action contingent on economic conditions (both vague "when conditions warrant" and specific "until unemployment falls below 6.5%"). "none" = deliberative discussion, participant views, or any non-monetary-policy topic.
+
+"ris" (string): Directional tail asymmetry. "skewed_downside" = risks weighted toward worse outcomes. "skewed_upside" = risks toward overheating or inflation overshoot. "symmetric" = explicitly balanced ("roughly balanced", "risks on both sides"). "na" = no explicit risk framing. For hypothetical/conditional structures ("if inflation were to persist"), populate ris with the direction of the conditional scenario.
+
+"wid" (string): Distribution width — epistemic uncertainty or genuine disagreement.
+"elevated" = ANY explicit acknowledgement of uncertainty: "highly uncertain", "difficult to assess", "hard to gauge", "hard to predict", "we don't know", "unclear how", "imperfectly understood", "unprecedented", wide range of possible outcomes, data/model limitations. The bar is explicitness, not technical vocabulary.
+"contested" = two genuinely opposing economic forces on the SAME topic in the SAME tense netting to zero. Both forces must be simultaneously operative. Also applies to cross-topic collisions (inflation hawkish + unemployment dovish). Markers: "but", "however", "although", "while", "despite".
+NOT contested: direction-of-change + level reference ("fell but remained high"). NOT contested: signal + hedge ("growth solid but uncertainty remains"). NOT contested: sequential narrative ("used to be X, now Y").
+"none" = baseline.
+ris and wid can co-exist on the same sentence.
+
+SPECIAL RULES:
+- boilerplate: sen = "na", com = "none", hor = false, ris = "na", wid = "none"
+- Generic data dependence with no specific policy action named = boilerplate
+- Specific data dependence naming a policy action and variables = monetary_policy, com = "conditional"
+
+EXAMPLES:
+
+Sentence: "Participants universally recognized his great leadership and intellectual contributions to the work of the Committee as well as his warm and generous spirit."
+{"top": ["boilerplate"], "ten": "descriptive", "sen": "na", "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+Sentence: "Over the past three months, employment rose by an average of 408,000 jobs per month, down from the average pace seen earlier in the year but still robust."
+{"top": ["unemployment"], "ten": "descriptive", "sen": 1, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+Sentence: "Although household spending had been rising at a moderate pace, business fixed investment and exports remained weak."
+{"top": ["economic_activity"], "ten": "descriptive", "sen": 0, "hor": false, "com": "none", "ris": "na", "wid": "contested"}
+
+Now classify this sentence. Return only the JSON object, no other text.
+
+Sentence: "{sentence}"
+
+JSON:

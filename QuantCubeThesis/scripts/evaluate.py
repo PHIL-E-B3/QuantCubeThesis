@@ -2,7 +2,8 @@
 Evaluation Script
 =================
 Usage:
-    python scripts/evaluate.py --config configs/default.yaml --adapter-path models/forward_guidance/final_adapter
+    python scripts/evaluate.py --config configs/default.yaml --task sen --adapter-dir models
+    python scripts/evaluate.py --config configs/default.yaml --task dir --adapter-dir models
 """
 
 import argparse
@@ -24,9 +25,10 @@ from transformers import AutoTokenizer
 def main():
     parser = argparse.ArgumentParser(description="Evaluate FOMC Sentiment Model")
     parser.add_argument("--config", type=str, default="configs/default.yaml")
-    parser.add_argument("--adapter-path", type=str, required=True)
+    parser.add_argument("--adapter-dir", type=str, required=True,
+                        help="Root directory containing per-field adapters (e.g. models/)")
     parser.add_argument("--task", type=str, default="sen",
-                        choices=["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid"])
+                        choices=["top", "ten", "sen", "com", "hor", "ris", "wid"])
     parser.add_argument("--output-dir", type=str, default="models/evaluation")
     args = parser.parse_args()
 
@@ -55,11 +57,12 @@ def main():
         max_length=config["model"]["max_seq_length"],
     )
 
-    # Load predictor
+    # Load predictor (single-field evaluation)
     predictor = FOMCPredictor(
         base_model_name=model_name,
-        adapter_path=args.adapter_path,
-        id2label=id2label,
+        adapter_dir=args.adapter_dir,
+        label_maps={args.task: label_map},
+        fields=[args.task],
         max_length=config["model"]["max_seq_length"],
     )
 
@@ -70,8 +73,8 @@ def main():
     all_probs = []
     for i in range(len(test_data)):
         text = tokenizer.decode(test_data["input_ids"][i], skip_special_tokens=True)
-        dist = predictor.predict_sentence(text)
-        probs = [dist.probabilities.get(label_names[j], 0.0) for j in range(len(label_names))]
+        fp = predictor.predict_field(text, args.task)
+        probs = [fp.probabilities.get(label_names[j], 0.0) for j in range(len(label_names))]
         all_probs.append(probs)
 
     y_probs = np.array(all_probs)
@@ -86,8 +89,8 @@ def main():
     # Save results
     results_path = os.path.join(args.output_dir, "evaluation_results.json")
     serializable = {k: v for k, v in results.items() if k != "per_class"}
-    with open(results_path, "w") as f:
-        json.dump(serializable, f, indent=2)
+    with open(results_path, "w") as outf:
+        json.dump(serializable, outf, indent=2)
     print(f"\nResults saved to {results_path}")
 
 

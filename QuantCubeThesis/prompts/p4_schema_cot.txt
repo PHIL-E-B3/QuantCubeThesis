@@ -1,0 +1,29 @@
+Classify this FOMC sentence into the schema below. Think step-by-step, then output your answer on a line starting with "ANSWER:" followed by valid JSON.
+
+### top (array of strings): Topics present. Multi-select.
+- "inflation": PCE, CPI, price levels, inflation expectations
+- "unemployment": Labor market, payrolls, jobless claims, participation, wages
+- "economic_activity": GDP, output, consumption, investment, housing, trade
+- "macro": Aggregate economic outlook, no single variable dominates
+- "financial_conditions": Credit markets, spreads, asset prices, bank lending
+- "monetary_policy": Rate decisions, asset purchases, forward guidance, policy stance
+- "no_topic": Generic, no specific economic content
+- "boilerplate": Procedural, administrative, formulaic
+Cause-and-effect: label the effect topic, not the cause.
+
+### ten (string): "descriptive" (backward/present data) or "interpretive" (forward-signalling).
+### sen (integer or "na"): Hawkish/dovish incentive score (-2 to 2). "na" for boilerplate.
+Positive = hawkish incentive, negative = dovish. Rising inflation = hawkish.
+### hor (boolean): true if long-term horizon present, false otherwise.
+### com (string): "unconditional" | "conditional" | "none". Only for monetary_policy.
+### ris (string): "skewed_upside" | "skewed_downside" | "symmetric" | "na".
+### wid (string): "elevated" | "contested" | "none".
+
+Steps:
+1. What topic(s) does this sentence address?
+2. Is it describing data/past events (descriptive) or signalling future outlook (interpretive)?
+3. What policy incentive does it create? (hawkish +, dovish -, neutral 0)
+4. Does it reference a long-term horizon?
+5. Any commitment, risk tilt, or unusual uncertainty?
+
+Sentence: {sentence}

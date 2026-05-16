@@ -45,20 +45,20 @@ def main():
     al_config = config["active_learning"]
     model_name = config["model"]["name"]
 
-    learner = ActiveLearner(
-        all_sentences_path=os.path.join(config["paths"]["data_processed"], "fomc_sentences.json"),
-        labels_path=os.path.join(config["paths"]["data_labels"], "labels.json"),
-        output_dir=os.path.join(config["paths"]["data_labels"], "active_learning"),
-        primary_label=primary,
-        query_size=al_config["query_size"],
-        strategy=al_config["strategy"],
-        holdout_crisis=al_config["holdout_crisis_episodes"],
-    )
-
+    # Primary label field for uncertainty sampling (e.g. "sen")
     primary = config.get("primary_label", "sen")
     all_maps = create_label_maps(config)
     label_map = all_maps[primary]
     id2label = {v: k for k, v in label_map.items()}
+
+    learner = ActiveLearner(
+        all_sentences_path=config["paths"]["unlabelled_pool"],
+        labels_path=os.path.join(config["paths"]["data_labels"], "labels.json"),
+        output_dir=os.path.join(config["paths"]["data_labels"], "active_learning"),
+        query_size=al_config["query_size"],
+        strategy=al_config["strategy"],
+        holdout_crisis=al_config["holdout_crisis_episodes"],
+    )
 
     if args.select:
         # Load current model for uncertainty scoring
@@ -66,12 +66,12 @@ def main():
             config["paths"]["model_output"], primary, "final_adapter"
         )
 
-        lora_config = get_lora_config()  # defaults
+        lora_config = get_lora_config()
         model, tokenizer = load_model_and_tokenizer(
             model_name, len(label_map), label_map, id2label, lora_config,
         )
 
-        # Load trained adapter weights
+        # Load trained adapter weights if available
         from peft import PeftModel
         if os.path.exists(adapter_path):
             print(f"Loading adapter from {adapter_path}")
@@ -112,7 +112,7 @@ def main():
         )
 
         model, tokenizer = load_model_and_tokenizer(
-            model_name, len(fg_map), fg_map, id2label, lora_config,
+            model_name, len(label_map), label_map, id2label, lora_config,
         )
 
         output_dir = os.path.join(config["paths"]["model_output"], f"al_cycle_{args.cycle}")

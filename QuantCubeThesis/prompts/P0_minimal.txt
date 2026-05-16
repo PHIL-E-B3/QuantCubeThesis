@@ -1,0 +1,13 @@
+Classify the following FOMC sentence. Return only a JSON object with these fields:
+
+- "top": array from ["inflation", "unemployment", "economic_activity", "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]
+- "ten": "descriptive" or "interpretive"
+- "sen": -2, -1, 0, 1, 2, or "na"
+- "hor": true or false
+- "com": "unconditional", "conditional", or "none"
+- "ris": "skewed_downside", "skewed_upside", "symmetric", or "na"
+- "wid": "elevated", "contested", or "none"
+
+Sentence: "{sentence}"
+
+JSON:

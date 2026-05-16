@@ -175,10 +175,7 @@ class ActiveLearner:
 
         Each record includes the sentence metadata plus empty label fields
         for the annotator to fill in:
-        - forward_guidance
-        - fg_uncertainty
-        - econ_topic
-        - econ_intensity
+        - top, ten, sen, com, hor, ris, wid
         - notes (optional)
         """
         keep_cols = [c for c in ["id", "sentence", "date", "doc_type", "source",
@@ -186,7 +183,7 @@ class ActiveLearner:
         export_df = candidates[keep_cols].copy()
 
         # Add empty label fields for annotator
-        for field in ["top", "ten", "sen", "dir", "com", "hor", "con", "dom", "ris", "wid", "notes"]:
+        for field in ["top", "ten", "sen", "com", "hor", "ris", "wid", "notes"]:
             if field not in export_df.columns:
                 export_df[field] = ""
 

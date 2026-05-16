@@ -1,0 +1,62 @@
+You are classifying sentences from FOMC communications. For each sentence, return a JSON object with 7 fields in this exact order: top, ten, sen, hor, com, ris, wid.
+
+FIELD DEFINITIONS:
+
+"top" (array): Topic(s) present. Values: "inflation", "unemployment", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "boilerplate", "no_topic".
+CRITICAL — do NOT over-apply "monetary_policy". Use it ONLY when the sentence is explicitly about what the Fed is doing or will do with its policy tools (rates, asset purchases, balance sheet). Sentences that merely occur in an FOMC context but discuss data, procedures, or general observations are NOT monetary_policy. Vote announcements, procedural language, section headers, formulaic monitoring pledges, and generic dual-mandate reaffirmations = "boilerplate". Generic statements with no specific economic content = "no_topic".
+"macro" = aggregate economic outlook where no single variable dominates ("economic conditions", "economic outlook"). Do NOT use "economic_activity" when the sentence is about the broad outlook.
+For cause-and-effect sentences, label the EFFECT topic. Cross-topic collisions → include both topics.
+
+"ten" (string): "descriptive" = reporting past/present data. "interpretive" = forward-looking, projections, conditionals, outlooks. Cause-and-effect defaults to "interpretive".
+
+"sen" (integer or "na"): Hawkish/dovish policy incentive. +2/+1 = hawkish, -1/-2 = dovish, 0 = neutral. "na" ONLY for boilerplate.
+Polarity by topic:
+- inflation: rising = hawkish (+), falling = dovish (-)
+- unemployment: tight/falling = hawkish (+), slack/rising = dovish (-)
+- economic_activity: stronger = hawkish (+), weaker = dovish (-)
+- monetary_policy: tightening = hawkish (+), easing = dovish (-)
+
+*** FINANCIAL CONDITIONS POLARITY IS REVERSED: ***
+- Tighter/stressed conditions (rising spreads, falling asset prices, tightening lending standards, heavy redemptions, loss of confidence) = DOVISH (-) because markets have already tightened for the Fed
+- Easier/accommodative conditions (low spreads, loose lending, rising asset prices, narrowing spreads) = HAWKISH (+) because the Fed must do more itself
+Example: "Spreads widened significantly" → sen = -2 (dovish, NOT hawkish)
+Example: "Spreads narrowed significantly" → sen = +2 (hawkish, NOT dovish)
+
+LEVEL OVERRIDES DIRECTION: "fell but remained high" → label the direction (fell), not the level.
++2/-2: only for intensified language (surged, collapsed, significantly, sharply, well above/below) or 50+ bps moves.
+Minority views: cap at +1/-1. Holds: default 0. Negations: label the economic state, not grammar.
+
+"hor" (boolean): true only if explicit long-term language AND ten = "interpretive". Otherwise false.
+
+"com" (string): ONLY for monetary_policy. "unconditional"/"conditional"/"none".
+
+"ris" (string): "skewed_downside"/"skewed_upside"/"symmetric"/"na".
+
+"wid" (string): "elevated" = explicit uncertainty. "contested" = two opposing forces netting to zero (NOT direction + level). "none" = baseline.
+
+boilerplate: sen = "na", com = "none", hor = false, ris = "na", wid = "none".
+
+EXAMPLES:
+
+Sentence: "Participants universally recognized his great leadership and intellectual contributions to the work of the Committee as well as his warm and generous spirit."
+{"top": ["boilerplate"], "ten": "descriptive", "sen": "na", "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+Sentence: "Over the past three months, employment rose by an average of 408,000 jobs per month, down from the average pace seen earlier in the year but still robust."
+{"top": ["unemployment"], "ten": "descriptive", "sen": 1, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+Sentence: "Although household spending had been rising at a moderate pace, business fixed investment and exports remained weak."
+{"top": ["economic_activity"], "ten": "descriptive", "sen": 0, "hor": false, "com": "none", "ris": "na", "wid": "contested"}
+
+Sentence: "In a related action, the Board of Governors unanimously approved a 75-basis-point decrease in the discount rate to 2-1/2 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, and San Francisco."
+{"top": ["monetary_policy"], "ten": "descriptive", "sen": -2, "hor": false, "com": "unconditional", "ris": "na", "wid": "none"}
+
+Sentence: "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully."
+{"top": ["inflation"], "ten": "interpretive", "sen": 1, "hor": false, "com": "none", "ris": "skewed_upside", "wid": "none"}
+
+Classify the following sentence. Write a BRIEF rationale (max 3 words per field, 7 fields, one line total), then ANSWER: followed by the JSON.
+
+Format:
+top:X ten:X sen:X hor:X com:X ris:X wid:X
+ANSWER: {"top": [...], ...}
+
+Sentence: "{sentence}"

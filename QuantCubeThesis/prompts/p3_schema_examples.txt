@@ -1,0 +1,41 @@
+Classify this FOMC sentence into the schema below. Return valid JSON only, no explanation.
+
+### top (array of strings): Topics present. Multi-select.
+- "inflation": PCE, CPI, price levels, inflation expectations, price stability
+- "unemployment": Labor market, payrolls, jobless claims, participation, wages, job openings
+- "economic_activity": GDP, output, consumption, investment, housing, trade, retail sales
+- "macro": Aggregate economic outlook where no single variable dominates
+- "financial_conditions": Credit markets, spreads, asset prices, bank lending, financial stability
+- "monetary_policy": Rate decisions, asset purchases, balance sheet, forward guidance, policy stance
+- "no_topic": Generic with no specific economic content
+- "boilerplate": Procedural, administrative, formulaic
+When top includes monetary_policy AND references conditions, include both. Cause-and-effect: label the effect.
+
+### ten (string): "descriptive" or "interpretive"
+descriptive = backward/present data. interpretive = forward-signalling, projections, conditionals.
+
+### sen (integer or "na"): Hawkish/dovish incentive (-2 to 2, "na" for boilerplate)
+Positive = hawkish incentive, negative = dovish. Rising inflation = hawkish. Falling unemployment = hawkish.
+
+### hor (boolean): true if long-term horizon present, false otherwise.
+### com (string): "unconditional", "conditional", or "none" (non-monetary_policy = "none").
+### ris (string): "skewed_upside", "skewed_downside", "symmetric", or "na".
+### wid (string): "elevated", "contested", or "none".
+
+### Examples:
+1. "Inflation remained well above the Committee's longer-run goal of 2 percent."
+→ {"top": ["inflation"], "ten": "descriptive", "sen": 2, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+2. "The Committee decided to lower the target range for the federal funds rate by 1/4 percentage point."
+→ {"top": ["monetary_policy"], "ten": "descriptive", "sen": -2, "hor": false, "com": "unconditional", "ris": "na", "wid": "none"}
+
+3. "Job gains have been robust in recent months, and the unemployment rate has remained low."
+→ {"top": ["unemployment"], "ten": "descriptive", "sen": 1, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+4. "The economic outlook is uncertain, with risks weighted to the downside."
+→ {"top": ["macro"], "ten": "interpretive", "sen": -1, "hor": false, "com": "none", "ris": "skewed_downside", "wid": "elevated"}
+
+5. "Voting for this action: Jerome H. Powell, Chair."
+→ {"top": ["boilerplate"], "ten": "descriptive", "sen": "na", "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+Sentence: {sentence}

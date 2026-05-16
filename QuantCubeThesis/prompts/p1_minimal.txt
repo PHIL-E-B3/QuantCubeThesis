@@ -1,0 +1,12 @@
+Classify this FOMC sentence. Return JSON only.
+
+Fields:
+- "top": array from [inflation, unemployment, economic_activity, macro, financial_conditions, monetary_policy, no_topic, boilerplate]
+- "ten": one of [descriptive, interpretive]
+- "sen": one of [-2, -1, 0, 1, 2, na] (hawkish incentive score; "na" for boilerplate)
+- "hor": true or false (long-term horizon present)
+- "com": one of [none, conditional, unconditional] (monetary_policy only, else "none")
+- "ris": one of [na, skewed_downside, symmetric, skewed_upside]
+- "wid": one of [none, contested, elevated]
+
+Sentence: {sentence}

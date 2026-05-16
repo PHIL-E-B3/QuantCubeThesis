@@ -1,0 +1,22 @@
+# QuantCubeThesis — pinned cloud GPU dependencies
+# Usage: pip install -r requirements-cloud.txt
+#
+# IMPORTANT: Do NOT pip install torch on RunPod/Lambda/Vast.ai.
+# The pre-installed torch already has the correct CUDA drivers.
+# Installing torch via pip will break GPU support.
+
+# Core ML stack (versions tested on RunPod A100 SXM, May 2026)
+transformers==4.46.0
+tokenizers==0.20.3
+huggingface-hub==0.25.2
+accelerate==0.34.2
+peft==0.13.0
+bitsandbytes==0.44.0
+
+# Data & eval
+datasets>=2.19,<3.0
+scikit-learn>=1.4,<2.0
+numpy>=1.26,<2.0
+
+# vLLM for batch inference (install separately if needed)
+# pip install vllm
