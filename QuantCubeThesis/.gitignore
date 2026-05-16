@@ -59,3 +59,7 @@ runs/
 
 # Cloud results tar
 cloud_results.tar.gz
+models/*/adapter/
+models/*/checkpoints/
+models/*/adapter/
+models/*/checkpoints/
