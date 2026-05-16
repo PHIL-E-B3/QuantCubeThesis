@@ -34,10 +34,12 @@ warn() { echo -e "${YELLOW}[cloud]${NC} $1"; }
 # ── 1. INSTALL DEPENDENCIES ──
 install_deps() {
     log "Installing Python dependencies..."
-    pip install --upgrade pip
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 2>/dev/null || true
-    pip install transformers accelerate peft bitsandbytes datasets scikit-learn
-    pip install vllm
+
+    # NEVER install torch — RunPod/Lambda/Vast.ai pre-install it with
+    # the correct CUDA drivers. pip-installing torch breaks GPU support.
+
+    # Use pinned versions to avoid the dependency hell we hit in May 2026
+    pip install -r requirements-cloud.txt --no-deps
 
     # Check GPU
     log "GPU check:"
