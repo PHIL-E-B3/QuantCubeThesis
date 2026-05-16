@@ -2,7 +2,6 @@
 venv/
 .venv/
 env/
-
 # Python
 __pycache__/
 *.py[cod]
@@ -11,55 +10,38 @@ __pycache__/
 dist/
 build/
 *.egg
-
 # Model checkpoints (large intermediate files)
 models/*/checkpoints/
-
-# Keep adapter weights, configs, and eval results
-# models/sft_p3/adapter/ — tracked
-# models/sft_p7/adapter/ — tracked
-# models/prompt_eval/ — tracked
-
+# Adapter weights (177MB+ — backed up to Dropbox, not git)
+models/*/adapter/
 # Large raw data
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 data/all_unlabelled_sentences/master_unlabelled_pool.json
-
 # Archive / old data
 _archive/
 Taylor Rule Data-20260512T153045Z-3-001/
 Data-20260512T153201Z-3-001.zip
-
 # Old nested repo copy
 QuantCubeThesis/
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
 # Jupyter
 .ipynb_checkpoints/
-
 # OS
 .DS_Store
 Thumbs.db
-
 # Logs & outputs
 logs/
 wandb/
 runs/
 *.log
-
 # Secrets
 .env
-
 # Cloud results tar
 cloud_results.tar.gz
-models/*/adapter/
-models/*/checkpoints/
-models/*/adapter/
-models/*/checkpoints/

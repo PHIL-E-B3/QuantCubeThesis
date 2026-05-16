@@ -1,0 +1,38 @@
+{
+  "model": "unsloth/Meta-Llama-3.1-8B-Instruct",
+  "prompt": "P3_medium_5shot",
+  "epochs": 3,
+  "learning_rate": 0.0002,
+  "batch_size": 4,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 16,
+  "max_seq_length": 1280,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "quantization": "4bit_nf4_double_quant",
+  "optimizer": "paged_adamw_8bit",
+  "scheduler": "cosine",
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "token_length_stats": {
+    "min": 1065,
+    "median": 1093,
+    "max": 1242,
+    "exceeding_max": 0
+  },
+  "train_size": 398,
+  "test_size": 100,
+  "timestamp": "2026-05-16T16:54:00.819580",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER"
+}

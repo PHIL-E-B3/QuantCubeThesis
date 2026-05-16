@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "f49a4bee-9e0a-4447-8a3b-c901f35696bb",
+    "sentence": "The staff gave a presentation on several tools that could be used, within the Committee's current po",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "9e81ce60-b450-4731-90bd-53822324f2fd",
+    "sentence": "While the Committee's accommodative policy continued to provide support to financial conditions, eve",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "b1c54eec-64a8-4a53-afec-b8cdbd6f9f9d",
+    "sentence": "Accordingly, Ms. George preferred to signal a near-term tapering of asset purchases, which would beg",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"unconditional\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "unconditional",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "74cf809d-2df7-45d3-82e6-0611e0d46903",
+    "sentence": "On balance, labor market indicators suggested that underutilization of labor resources had diminishe",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "4d4945a7-b9f9-4b5a-8eab-fa9a2bfd4abb",
+    "sentence": "Automakers' assembly schedules suggested that motor vehicle production would be about unchanged in t",
+    "raw_response": "{\n  \"top\": [\"economic_activity\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "547f47cf-6db2-4061-8253-9afe96f7b208",
+    "sentence": "Financing conditions in the residential mortgage market remained accommodative for most borrowers in",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "a2a174ef-228e-46cd-ac6f-76612ca65cf0",
+    "sentence": "On balance, foreign equity prices moved up moderately and sovereign credit spreads in EMEs narrowed.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.1
+  },
+  {
+    "id": "f07cbcbe-45d9-4b57-908b-16a08daba745",
+    "sentence": "Such misinterpretations could complicate the Committee's communications regarding its view of approp",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "contested"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "27d7015c-880b-45a0-8335-c325b9439bdb",
+    "sentence": "The dollar appreciated modestly against most AFE currencies except the Japanese yen and the British ",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
+    "sentence": "Business contacts in a couple of Districts\u2014particularly those in the manufacturing, health-care, and",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "a5262021-b578-4563-add9-ff730707ac58",
+    "sentence": "A couple of participants reported improved conditions in the agricultural sector, with farmers' inco",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "f1d18123-c8e4-4317-8879-4995c6fd7e5f",
+    "sentence": "Spreads of municipal bonds also widened significantly across credit categories.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.1
+  },
+  {
+    "id": "67bdb11c-5d9d-41c8-9dec-f6270bb2b9e2",
+    "sentence": "Life insurers' leverage remained somewhat elevated, and they continued to maintain large holdings of",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "163384c1-3dd8-4a05-a899-d82f9e543566",
+    "sentence": "Among the major subcategories of prices, housing services inflation had continued to moderate, consi",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "b8dbaeef-e7cd-4ae5-9366-0f83ae67cd8b",
+    "sentence": "The Treasury yield curve steepened materially, as short-term Treasury yields declined about 20 basis",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "bebcd257-9f63-4873-b821-57e663e7b546",
+    "sentence": "A couple of participants suggested that tariff effects were masking the underlying trend of inflatio",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "18ffdc59-96a7-472e-8ff2-52b0256413b1",
+    "sentence": "Participants generally expected inflation to remain somewhat elevated in the near term before moving",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "ad790216-be41-4c4a-9a8c-e88a8853313a",
+    "sentence": "Future policy adjustments will depend on the evolution of the outlook for both inflation and economi",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "4c7b0dbf-f9e6-487c-a46c-4ae04d1623d8",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that wi",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "e6f89337-8e59-466a-8b20-70888ee78ba1",
+    "sentence": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, b",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "65157851-f5ae-4640-8816-732687f75eda",
+    "sentence": "The only remaining such program, the Term Asset-Backed Securities Loan Facility, is scheduled to clo",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "10b41c84-0c3f-4c9e-902f-9d41d26dffeb",
+    "sentence": "The Committee currently anticipates that economic conditions--including low rates of resource utiliz",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"inflation\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "14a488b6-2596-4870-a604-a0da8e1a30c7",
+    "sentence": "The recent increase in oil and gasoline prices will push up inflation temporarily, but the Committee",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "e41e18c5-ae5c-40e8-98ff-f053351b1d04",
+    "sentence": "The Committee sees the downside risks to the outlook for the economy and the labor market as having ",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "8b6eb135-b862-46eb-9c74-95fc53a058fc",
+    "sentence": "Although inflation in the near term will likely be held down by lower energy prices and other factor",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "fbe76dd9-4618-48f1-a379-b128114bc7f6",
+    "sentence": "In light of the current shortfall of inflation from 2 percent, the Committee will carefully monitor ",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "c2700cdc-21e1-4bf5-9627-171cef0797ec",
+    "sentence": "Household spending has been increasing at a moderate rate, and the housing sector has improved furth",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "2bddc976-34e0-498e-af32-8ea02d46bb64",
+    "sentence": "The Committee currently expects that, with gradual adjustments in the stance of monetary policy, eco",
+    "raw_response": "{\"top\": [\"economic_activity\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "beb1ca72-4123-4163-813b-b9b97028de5e",
+    "sentence": "The Committee continues to closely monitor inflation indicators and global economic and financial de",
+    "raw_response": "{\"top\": [\"inflation\", \"economic_activity\", \"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity",
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "bc56ccef-1956-4420-917d-4a63307f8778",
+    "sentence": "The Committee judges that the case for an increase in the federal funds rate has strengthened but de",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "b54b44c5-7316-4f56-b75b-54ef73880788",
+    "sentence": "The stance of monetary policy remains accommodative, thereby supporting some further strengthening i",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.7
+  },
+  {
+    "id": "78b22a43-1d45-4743-92f9-83dabdff0b44",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to rai",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"inflation\", \"unemployment\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "312668bd-6725-412c-8875-4da29391205f",
+    "sentence": "More information can be found on the Federal Reserve Board's \nwebsite\n.",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "98826f2d-9f1d-41ca-acbf-46b22b689c69",
+    "sentence": "The Committee will closely monitor developments and is prepared to adjust its plans as appropriate.",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "f5f7b36d-4332-424b-b27c-4a3e5a13740c",
+    "sentence": "In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the i",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
+    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"unconditional\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "unconditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "d7dc1150-4b22-4965-afc2-444761ffea87",
+    "sentence": "In light of the progress on inflation and the balance of risks, the Committee decided to lower the t",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": -2, \"hor\": false, \"com\": \"unconditional\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": -2,
+      "hor": false,
+      "com": "unconditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "f747a718-a91c-4d11-a70d-ab2449e6d371",
+    "sentence": "We may help increase confidence in the part of households and businesses. And so I think it's very d",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "6dd8833d-7412-4dbe-8c9a-ce0dddb074c2",
+    "sentence": "Auto loans are cheap and broadly available.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.1
+  },
+  {
+    "id": "e476b094-c97a-467a-9caf-c593329f28c3",
+    "sentence": "The median projected funds rate for the end of 2015 is 1 percent. And notably, although the central ",
+    "raw_response": "{\n  \"top\": [\"macro\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "47629bc5-e01e-47cf-a9bd-ecc991c0b506",
+    "sentence": "However, even after asset purchases are wound down -- which we will do in a manner that is both deli",
+    "raw_response": "{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"conditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "conditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "aa6c5b80-fee1-468a-8682-891d84fe09e3",
+    "sentence": "What's the relationship between the pullback and fiscal policy?",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "e420e518-ae02-4cdc-bb32-19b5fa66b58c",
+    "sentence": "So, fiscal policy has been tight, contractionary, so there have been a lot of headwinds.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "4fa1081d-c247-4fd8-9078-2919cabcd50f",
+    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December th",
+    "raw_response": "{\n  \"top\": [\"monetary_policy\", \"inflation\", \"unemployment\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"conditional\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "conditional",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 3.0
+  },
+  {
+    "id": "5b8829bb-85cd-4235-843d-5a628fcb2017",
+    "sentence": "The central tendency of the unemployment rate projections is slightly lower than in the June project",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "78b1ce30-e0e2-40e6-a58d-270c646a276f",
+    "sentence": "There are a range of views on the appropriate timing of liftoff within the year, in part reflecting ",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.1
+  },
+  {
+    "id": "ad8275f6-fd8e-4aed-bad8-f40ec148f7e7",
+    "sentence": "We have long had the capacity to call a press conference after a meeting that we would hold by telec",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "82970a81-06ed-4b1d-aff7-7ee31adb0c52",
+    "sentence": "Participants provided a number of explanations for the federal funds rate running below its normal l",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "e23b4344-e260-4a56-b211-6b1fa72f28c8",
+    "sentence": "Clearly, we will be looking at the next job report, and if we were to see a healthy pace of job grow",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "0230a205-8321-4f28-bebe-87c3ff8e9a54",
+    "sentence": "That means that the federal funds rate does not have to rise by all that much to get to a neutral po",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "39bef325-c26a-4213-be8a-f6afd3cca366",
+    "sentence": "All of that factors into the projections you see. But I think, bottom line, when you look at assessm",
+    "raw_response": "{\n  \"top\": [\"monetary_policy\", \"economic_activity\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.9
+  },
+  {
+    "id": "c300d036-66d7-4426-a2a0-7b82895fb56b",
+    "sentence": "Although the median federal funds rate edged up this year and next, most participants did not revise",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.2
+  },
+  {
+    "id": "e52c6e92-1e99-4b46-95ba-fcac30f81e4b",
+    "sentence": "If you go back a few years, you'll see that we look at many, many indicators of wages and compensati",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "ff6fdc7f-70a7-4842-8ce1-112f26cf1262",
+    "sentence": "Now, I'm describing views of the most likely outcomes, but historical experience reminds us that gro",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "e62f059d-cb5c-4c3b-b5fd-87892d5d6edc",
+    "sentence": "The latest data from China and Europe were encouraging, and there were reports of progress in trade ",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "6860a635-7ad8-463c-967c-206e67f43769",
+    "sentence": "Growth indicators from around the world have disappointed, on net, raising concerns about the streng",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "ec378a8f-b841-43f0-b2e7-8994237bbb28",
+    "sentence": "We also decided to conclude the runoff of our securities portfolio in August rather than in Septembe",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "cc0ed83a-e324-4b69-8a5f-36b65d7ba3eb",
+    "sentence": "The unemployment rate has been near half-century lows for well more than a year, and the pace of job",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "b9422294-89d8-410d-9d63-fb195245b876",
+    "sentence": "Now, they may slow down, and, and it's, it's an interesting question, the extent to which, for examp",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "61c3ba80-fb2a-4539-8377-57b79a6b0e3f",
+    "sentence": "Following the moderation in the pace of the recovery that began toward the end of last year, indicat",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "c662e4ad-3ba9-478e-a6a8-3b0e63cb84f0",
+    "sentence": "You know, frankly, yes.",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "eb2a3522-1ab3-4253-85bc-85adfc5b9ad4",
+    "sentence": "Even after our balance sheet stops expanding, our elevated holdings of longer-term securities will c",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 3.3
+  },
+  {
+    "id": "d33010ce-47f2-4d99-bed6-8f6dad86dff5",
+    "sentence": "The pandemic recession was the deepest, and the recovery has been the fastest. And wages didn't real",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "83442c77-d8ab-4057-b794-6469e75071f4",
+    "sentence": "Wages have also risen briskly, but, thus far, wage growth has not been a major contributor to the el",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "d3283945-af5d-434e-be2f-131791b8e314",
+    "sentence": "In this case, if you're in a situation where the markets are pricing in significant declines in infl",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"conditional\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "conditional",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "52039263-c6d8-4b8b-87e8-d22e94c1d9a4",
+    "sentence": "We can see that. And we see it, really, in goods prices so far.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "d6fe3fdd-2a98-4d6f-974b-17792f98c9ce",
+    "sentence": "The balance sheet expansion is really temporary lending to banks to meet those special liquidity dem",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "37c42dfc-d281-4e80-97ed-99588fb36cbe",
+    "sentence": "We'll also be looking to see progress on inflation and, you know, the labor market remaining strong ",
+    "raw_response": "{\"top\": [\"inflation\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.7
+  },
+  {
+    "id": "18e30457-8ffb-4ab7-9b00-a2fff4a632d0",
+    "sentence": "The labor force participation rate has moved up, on balance, over the past year, particularly for in",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "a6c36bbe-81ff-4932-b30b-039cbce162e2",
+    "sentence": "We're looking at all of those things, and we're asking ourselves, what's the right -- what's the pol",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "7ee3c9c2-e394-45ac-955f-a11d8ad04c40",
+    "sentence": "If the economy remains strong and inflation does not continue to move sustainably toward 2 percent, ",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"conditional\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "conditional",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "a57fbc3e-b44d-4811-b484-7968d24ca8a4",
+    "sentence": "You ask about 2025.",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "353fffec-da52-4dcf-9fed-2ccd2bf479ed",
+    "sentence": "And, again, we're speculating here.",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "4d5cefa4-566f-4e8c-b3b6-8c8d2f61af68",
+    "sentence": "Lack of information can present additional problems during a crisis, and incorrect or incomplete inf",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "a02dbfd6-390b-40c4-b86d-b079b62b6a28",
+    "sentence": "Second, current account imbalances can help reduce tendencies toward recession, on the one hand, or ",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "91f26486-5e91-41f3-980a-d58cd91cff6f",
+    "sentence": "They developed a rules-based approach to the conduct of monetary and fiscal policy and published it ",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"fiscal_policy\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "fiscal_policy"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.7
+  },
+  {
+    "id": "f145cbb7-ecc8-4095-95a9-b4ba066edeba",
+    "sentence": "Successful coordination in the provision of liquidity raises the question of whether appreciable gai",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "580f5c3c-64f3-4da1-bb83-0e6c3e73f593",
+    "sentence": "In retrospect, I may have been unduly comforted by the resilience of the U.S. economy to the collaps",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "1cd4b0e1-f524-416e-b4bf-ac094412d585",
+    "sentence": "Second, we must ensure a robust framework--both in law and practice--for consolidated supervision of",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "55115ef5-75da-44d7-99f1-7832486cea91",
+    "sentence": "This loss of confidence was not limited to individual depositors.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "c4f7efa1-c133-4fd4-808b-bbfe25a21a5c",
+    "sentence": "Larger government deficits increase our reliance on foreign lenders, all else being equal, implying ",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "bb342d49-8205-4527-8b4f-99ef47cf97c6",
+    "sentence": "The exchange rate adjustment is incomplete, in part, because the authorities in some emerging market",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "7d0d0932-8cff-4859-8f15-a999eaa82a81",
+    "sentence": "But this confidence was misplaced.",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.7
+  },
+  {
+    "id": "33e0f1cb-a15f-4385-9345-5814e78b4220",
+    "sentence": "Committing to keep the federal funds rate lower for longer helps bring down longer-term interest rat",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"unconditional\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "unconditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.6
+  },
+  {
+    "id": "2a533477-5cc8-4dc3-8908-0624ec1ca52d",
+    "sentence": "In a similar way, the Federal Reserve Bank of Boston has been the catalyst for the Working Cities Ch",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "a7402029-87e6-454a-b3b0-007e4bd5ad92",
+    "sentence": "My view is that forward guidance has generally been effective in providing support for the economy a",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "7f11cf89-2a1d-4b0b-bc79-57b1d7d4ee83",
+    "sentence": "Several years ago, a group of economists from across the System formed an informal working group to ",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "c475e63d-6802-4b9b-a74f-ea980f1597ef",
+    "sentence": "Taking into account the potentially varied effects of the rising prevalence of gig work on household",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "3df95c29-fab0-4ed9-ba5a-eeb649e6302b",
+    "sentence": "I have one more reason for better communication, but first I will give you an idea of what I have in",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "64ac5ae9-24ee-4d6d-916e-409a1e60adab",
+    "sentence": "However, that dynamic also increases the cost, in terms of economic output, of reversing unwelcome i",
+    "raw_response": "{\"top\": [\"economic_activity\", \"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "83914e20-e8bd-41d2-8cce-a0ac745b95bd",
+    "sentence": "Leverage at broker-dealers is far below levels before the crisis and remains low relative to the nor",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "075510d0-8c25-43f3-9022-bc56ff922361",
+    "sentence": "How will we know if the new FAIT strategy is working?",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "011d78fc-31a5-4b51-a4ce-342d93ef0909",
+    "sentence": "Payment stablecoins tend to choose a sovereign currency as their anchor, typically the U.S. dollar.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "c0754001-4cdf-4bae-a9f9-4817a2e6fe0a",
+    "sentence": "But I do see tentative signs of some cooling in the labor market, which is vital to keep rising labo",
+    "raw_response": "{\"top\": [\"inflation\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "cd682ae9-885b-43ce-89b4-8e30a5317e75",
+    "sentence": "For small banks, these compliance problems can be amplified by a number of factors.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  },
+  {
+    "id": "54af67b3-fd73-438d-8c84-8f187748f6a4",
+    "sentence": "While this could solve some succession planning concerns, it is not clear how these acquisitions wil",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 2.8
+  },
+  {
+    "id": "85d399c8-d51b-4e54-acff-ee3025b83b73",
+    "sentence": "All of this is to demonstrate that the evolution of the payment system has long been a story of tech",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.3
+  },
+  {
+    "id": "c163fed3-3623-41b5-9161-a74038d99ecb",
+    "sentence": "In addition, members agreed that they would continue reducing the Federal Reserve's holdings of Trea",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": -2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": -2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.4
+  },
+  {
+    "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
+    "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve in",
+    "raw_response": "{\n  \"top\": [\"inflation\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_upside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 2.9
+  },
+  {
+    "id": "dc8a837a-75b1-42b9-82ff-7d63d3244735",
+    "sentence": "Bank reserves, together with currency, make up the narrowest definition of money, the monetary base;",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 2.5
+  }
+]
