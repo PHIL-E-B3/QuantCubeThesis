@@ -54,7 +54,7 @@ RESULTS_DIR = Path(__file__).parent.parent / "models" / "prompt_eval"
 LABEL_SCHEMA = {
     "top": {
         "type": "multi",
-        "values": ["inflation", "unemployment", "economic_activity", "macro",
+        "values": ["inflation", "labor_market", "economic_activity", "macro",
                    "financial_conditions", "monetary_policy", "boilerplate", "no_topic"],
     },
     "ten": {
@@ -86,6 +86,8 @@ LABEL_SCHEMA = {
 # Fields that are most important for the thesis (weighted in summary)
 PRIMARY_FIELDS = ["top", "sen", "ris", "wid"]
 
+VLLM_CHUNK_SIZE = 50  # sentences per save checkpoint when using vLLM
+
 
 # ── MODEL LOADING ────────────────────────────────────────────────────────────
 
@@ -116,7 +118,37 @@ def load_model(model_name: str):
     return model, tokenizer
 
 
-# ── INFERENCE ─────────────────────────────────────────────────────────────────
+# ── vLLM BACKEND ─────────────────────────────────────────────────────────────
+
+def load_model_vllm(model_name: str):
+    """Load model with vLLM for fast batched inference (no quantization needed on A100)."""
+    from vllm import LLM
+    print(f"\nLoading model with vLLM: {model_name}")
+    print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
+    llm = LLM(model=model_name, dtype="bfloat16", max_model_len=4096)
+    print("vLLM model loaded.\n")
+    return llm
+
+
+def generate_batch_vllm(
+    llm,
+    prompts: List[str],
+    max_new_tokens: int = 256,
+    temperature: float = 0.01,
+) -> List[str]:
+    """Batch inference via vLLM chat API. Returns one decoded string per prompt."""
+    from vllm import SamplingParams
+    conversations = [[{"role": "user", "content": p}] for p in prompts]
+    sampling_params = SamplingParams(
+        temperature=temperature,
+        max_tokens=max_new_tokens,
+        top_p=0.95 if temperature > 0 else 1.0,
+    )
+    outputs = llm.chat(messages=conversations, sampling_params=sampling_params, use_tqdm=False)
+    return [o.outputs[0].text.strip() for o in outputs]
+
+
+# ── INFERENCE (transformers) ──────────────────────────────────────────────────
 
 def generate_response(
     model,
@@ -316,6 +348,19 @@ def compute_summary_score(field_metrics: Dict) -> float:
 
 # ── MAIN EVALUATION LOOP ─────────────────────────────────────────────────────
 
+def _build_prompt(prompt_template: str, sentence_data: dict) -> str:
+    """Apply sentence (and optional context_question) into a prompt template."""
+    sentence = sentence_data["sentence"]
+    prompt = prompt_template.replace("{sentence}", sentence)
+    if sentence_data.get("context_question"):
+        context_insert = f'\nContext (question being answered): "{sentence_data["context_question"]}"\n'
+        prompt = prompt.replace(
+            f'Sentence: "{sentence}"',
+            f'{context_insert}Sentence: "{sentence}"',
+        )
+    return prompt
+
+
 def evaluate_prompt(
     prompt_path: Path,
     validation_data: List[dict],
@@ -324,13 +369,18 @@ def evaluate_prompt(
     results_dir: Path,
     resume: bool = False,
     max_new_tokens: int = 256,
+    vllm_model=None,
 ) -> Dict:
-    """Run a single prompt on all validation sentences and compute metrics."""
+    """Run a single prompt on all validation sentences and compute metrics.
+
+    Pass vllm_model to use the fast batched vLLM path instead of the default
+    per-sentence transformers path.
+    """
     prompt_name = prompt_path.stem
     prompt_template = prompt_path.read_text(encoding="utf-8")
 
     print(f"\n{'='*60}")
-    print(f"EVALUATING: {prompt_name}")
+    print(f"EVALUATING: {prompt_name}  [{'vLLM' if vllm_model else 'transformers'}]")
     print(f"{'='*60}")
 
     # Check for existing partial results
@@ -344,60 +394,85 @@ def evaluate_prompt(
         completed_ids = {r["id"] for r in existing_results}
         print(f"  Resuming: {len(completed_ids)} already completed")
 
-    predictions = []
-    ground_truths = []
     raw_outputs = list(existing_results)
+    predictions: List[dict] = []
+    ground_truths: List[dict] = []
     parse_failures = 0
-
     remaining = [s for s in validation_data if s["id"] not in completed_ids]
     total = len(validation_data)
 
-    for i, sentence_data in enumerate(remaining):
-        idx = len(completed_ids) + i + 1
-        sentence = sentence_data["sentence"]
-        sid = sentence_data["id"]
+    # ── vLLM batched path ─────────────────────────────────────────────────────
+    if vllm_model is not None:
+        n_chunks = (len(remaining) + VLLM_CHUNK_SIZE - 1) // VLLM_CHUNK_SIZE
+        for chunk_idx in range(n_chunks):
+            chunk = remaining[chunk_idx * VLLM_CHUNK_SIZE:(chunk_idx + 1) * VLLM_CHUNK_SIZE]
+            prompts = [_build_prompt(prompt_template, s) for s in chunk]
 
-        # Build prompt
-        prompt = prompt_template.replace("{sentence}", sentence)
+            t0 = time.time()
+            try:
+                responses = generate_batch_vllm(vllm_model, prompts, max_new_tokens=max_new_tokens)
+            except Exception as e:
+                print(f"  ERROR in vLLM batch {chunk_idx + 1}/{n_chunks}: {e}")
+                responses = [""] * len(chunk)
+            elapsed = time.time() - t0
 
-        # Add context_question for press conference Q&A
-        if sentence_data.get("context_question"):
-            context_insert = f'\nContext (question being answered): "{sentence_data["context_question"]}"\n'
-            prompt = prompt.replace(
-                f'Sentence: "{sentence}"',
-                f'{context_insert}Sentence: "{sentence}"'
-            )
+            for j, (sentence_data, response) in enumerate(zip(chunk, responses)):
+                sid = sentence_data["id"]
+                global_idx = len(completed_ids) + chunk_idx * VLLM_CHUNK_SIZE + j + 1
+                parsed = extract_json(response)
+                if parsed is None:
+                    parse_failures += 1
+                    print(f"  [{global_idx}/{total}] PARSE FAIL ({sid})")
+                    parsed = {}
+                else:
+                    print(f"  [{global_idx}/{total}] OK ({sid})")
 
-        # Generate
-        t0 = time.time()
-        try:
-            response = generate_response(model, tokenizer, prompt, max_new_tokens=max_new_tokens)
-        except Exception as e:
-            print(f"  [{idx}/{total}] ERROR generating for {sid}: {e}")
-            response = ""
-        elapsed = time.time() - t0
+                raw_outputs.append({
+                    "id": sid,
+                    "sentence": sentence_data["sentence"][:100],
+                    "raw_response": response[:1000],
+                    "parsed": parsed,
+                    "elapsed_s": round(elapsed / len(chunk), 2),
+                })
 
-        # Parse JSON
-        parsed = extract_json(response)
-        if parsed is None:
-            parse_failures += 1
-            print(f"  [{idx}/{total}] PARSE FAIL ({sid}) — {elapsed:.1f}s")
-            parsed = {}  # Empty prediction counts as wrong
-        else:
-            print(f"  [{idx}/{total}] OK ({sid}) — {elapsed:.1f}s")
+            with open(raw_results_path, "w") as f:
+                json.dump(raw_outputs, f, indent=2)
+            print(f"  Chunk {chunk_idx + 1}/{n_chunks}: {len(chunk)} sentences in {elapsed:.1f}s "
+                  f"({elapsed/len(chunk):.2f}s/sent)")
 
-        # Store raw output for debugging
-        raw_outputs.append({
-            "id": sid,
-            "sentence": sentence[:100],
-            "raw_response": response[:1000],
-            "parsed": parsed,
-            "elapsed_s": round(elapsed, 1),
-        })
+    # ── transformers per-sentence path ────────────────────────────────────────
+    else:
+        for i, sentence_data in enumerate(remaining):
+            idx = len(completed_ids) + i + 1
+            sid = sentence_data["id"]
+            prompt = _build_prompt(prompt_template, sentence_data)
 
-        # Save incrementally (crash-safe)
-        with open(raw_results_path, "w") as f:
-            json.dump(raw_outputs, f, indent=2)
+            t0 = time.time()
+            try:
+                response = generate_response(model, tokenizer, prompt, max_new_tokens=max_new_tokens)
+            except Exception as e:
+                print(f"  [{idx}/{total}] ERROR generating for {sid}: {e}")
+                response = ""
+            elapsed = time.time() - t0
+
+            parsed = extract_json(response)
+            if parsed is None:
+                parse_failures += 1
+                print(f"  [{idx}/{total}] PARSE FAIL ({sid}) — {elapsed:.1f}s")
+                parsed = {}
+            else:
+                print(f"  [{idx}/{total}] OK ({sid}) — {elapsed:.1f}s")
+
+            raw_outputs.append({
+                "id": sid,
+                "sentence": sentence_data["sentence"][:100],
+                "raw_response": response[:1000],
+                "parsed": parsed,
+                "elapsed_s": round(elapsed, 1),
+            })
+
+            with open(raw_results_path, "w") as f:
+                json.dump(raw_outputs, f, indent=2)
 
     # Now compute metrics over ALL results (existing + new)
     all_parsed = {r["id"]: r.get("parsed", {}) for r in raw_outputs}
@@ -462,6 +537,7 @@ def run_all_prompts(
     resume: bool = False,
     sample_size: Optional[int] = None,
     max_new_tokens: int = 256,
+    use_vllm: bool = False,
 ):
     """Run evaluation across all (or selected) prompts."""
     # Load validation data
@@ -481,7 +557,12 @@ def run_all_prompts(
         print(f"Sampled {len(validation_data)} sentences for evaluation")
 
     # Load model once
-    model, tokenizer = load_model(model_name)
+    if use_vllm:
+        vllm_model = load_model_vllm(model_name)
+        model, tokenizer = None, None
+    else:
+        model, tokenizer = load_model(model_name)
+        vllm_model = None
 
     # Find prompts — new naming convention: P0_minimal.txt, P1_medium_3shot.txt, etc.
     if prompt_filter:
@@ -505,7 +586,7 @@ def run_all_prompts(
 
         result = evaluate_prompt(
             prompt_path, validation_data, model, tokenizer, RESULTS_DIR, resume,
-            max_new_tokens=tokens,
+            max_new_tokens=tokens, vllm_model=vllm_model,
         )
         if result:
             all_results.append(result)
@@ -559,6 +640,8 @@ def main():
                         help="Number of sentences to sample (default: use all)")
     parser.add_argument("--max-new-tokens", type=int, default=256,
                         help="Max output tokens (default: 256, CoT prompts auto-use 512)")
+    parser.add_argument("--vllm", action="store_true",
+                        help="Use vLLM for fast batched inference instead of transformers+BitsAndBytes")
     args = parser.parse_args()
 
     run_all_prompts(
@@ -568,6 +651,7 @@ def main():
         resume=args.resume,
         sample_size=args.sample,
         max_new_tokens=args.max_new_tokens,
+        use_vllm=args.vllm,
     )
 
 

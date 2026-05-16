@@ -368,7 +368,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": 1,
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -693,7 +693,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": 1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1020,7 +1020,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": -1,
     "ten": "descriptive",
     "hor": false,
     "com": "none",
