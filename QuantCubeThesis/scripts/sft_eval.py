@@ -37,11 +37,14 @@ from sklearn.metrics import (
 
 # ── PATHS ────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-PROMPT_PATH = PROJECT_ROOT / "prompts" / "P3_medium_5shot.txt"
 EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged.json"
 DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "sft_p3" / "adapter"
-SPLIT_INFO_PATH = PROJECT_ROOT / "models" / "sft_p3" / "split_info.json"
-RESULTS_DIR = PROJECT_ROOT / "models" / "sft_p3" / "eval_results"
+
+# Prompt and output dirs are resolved dynamically from the adapter path in main()
+PROMPT_MAP = {
+    "sft_p3": "P3_medium_5shot",
+    "sft_p7": "P7_high_5shot",
+}
 
 LABEL_SCHEMA = {
     "top": {"type": "multi", "values": ["inflation", "unemployment", "economic_activity",
@@ -420,14 +423,28 @@ def main():
                         help="Also evaluate base model (no adapter) for comparison")
     args = parser.parse_args()
 
+    # Derive paths from adapter location: models/sft_p3/adapter → model_dir = models/sft_p3
+    adapter_path = Path(args.adapter)
+    model_dir = adapter_path.parent  # e.g. models/sft_p7
+    model_name_short = model_dir.name  # e.g. "sft_p7"
+
+    split_info_path = model_dir / "split_info.json"
+    results_dir = model_dir / "eval_results"
+
+    # Resolve prompt template
+    prompt_key = PROMPT_MAP.get(model_name_short, "P3_medium_5shot")
+    prompt_path = PROJECT_ROOT / "prompts" / f"{prompt_key}.txt"
+    print(f"Model dir:  {model_dir}")
+    print(f"Prompt:     {prompt_key}")
+
     # Load split info
-    if SPLIT_INFO_PATH.exists():
-        with open(SPLIT_INFO_PATH) as f:
+    if split_info_path.exists():
+        with open(split_info_path) as f:
             split_info = json.load(f)
         test_ids = set(split_info["test_ids"])
         print(f"Loaded split info: {split_info['train_size']} train, {split_info['test_size']} test")
     else:
-        print("ERROR: split_info.json not found. Run sft_train.py first.")
+        print(f"ERROR: split_info.json not found at {split_info_path}. Run sft_train.py first.")
         return
 
     # Load eval data and filter to test set
@@ -442,15 +459,15 @@ def main():
     print(f"SEN distribution: {dict(sorted(sen_dist.items()))}")
 
     # Load prompt
-    prompt_template = PROMPT_PATH.read_text(encoding="utf-8").strip()
+    prompt_template = prompt_path.read_text(encoding="utf-8").strip()
 
     # Setup results dir
-    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    results_dir.mkdir(parents=True, exist_ok=True)
 
     # ── Evaluate SFT model ──
     sft_model, tokenizer = load_sft_model(args.adapter, args.model)
     sft_result = run_eval(sft_model, tokenizer, test_data, prompt_template,
-                          "sft_p3", RESULTS_DIR)
+                          f"sft_{model_name_short}", results_dir)
 
     # Free VRAM
     del sft_model
@@ -460,7 +477,7 @@ def main():
     if args.compare_base:
         base_model, tokenizer = load_base_model(args.model)
         base_result = run_eval(base_model, tokenizer, test_data, prompt_template,
-                               "base_p3", RESULTS_DIR)
+                               f"base_{model_name_short}", results_dir)
 
         del base_model
         torch.cuda.empty_cache()
@@ -492,18 +509,18 @@ def main():
             "delta_summary_f1": sft_result["summary_f1"] - base_result["summary_f1"],
             "timestamp": datetime.now().isoformat(),
         }
-        with open(RESULTS_DIR / "comparison.json", "w") as f:
+        with open(results_dir / "comparison.json", "w") as f:
             json.dump(comparison, f, indent=2)
 
     # ── Summary ──
     print(f"\n{'=' * 60}")
     print("EVALUATION COMPLETE")
     print(f"{'=' * 60}")
-    print(f"Results saved to: {RESULTS_DIR}")
-    print(f"  Raw outputs: {RESULTS_DIR / 'sft_p3_raw.json'}")
-    print(f"  Metrics:     {RESULTS_DIR / 'sft_p3_metrics.json'}")
+    print(f"Results saved to: {results_dir}")
+    print(f"  Raw outputs: {results_dir / f'sft_{model_name_short}_raw.json'}")
+    print(f"  Metrics:     {results_dir / f'sft_{model_name_short}_metrics.json'}")
     if args.compare_base:
-        print(f"  Comparison:  {RESULTS_DIR / 'comparison.json'}")
+        print(f"  Comparison:  {results_dir / 'comparison.json'}")
 
 
 if __name__ == "__main__":
