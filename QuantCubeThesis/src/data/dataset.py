@@ -20,7 +20,7 @@ def load_labels(labels_path: str) -> pd.DataFrame:
     Load hand-labelled data from a JSON file.
 
     Required fields per record: id, sentence
-    Label fields (abbreviated): top, ten, sen, dir, com, hor, con, dom, ris, wid
+    Label fields (abbreviated): top, ten, sen, com, hor, ris, wid
     """
     import json
     with open(labels_path, encoding="utf-8") as f:
@@ -40,11 +40,8 @@ LABEL_FIELDS = {
     "top": "topic",
     "ten": "tense",
     "sen": "sentiment",
-    "dir": "direction",
     "com": "commitment",
     "hor": "horizon",
-    "con": "condition_referenced",
-    "dom": "dominant_topic",
     "ris": "risk_balance",
     "wid": "width",
 }
@@ -54,12 +51,16 @@ def create_label_maps(config: dict) -> Dict[str, Dict[str, int]]:
     """
     Build label-to-id mappings for all label dimensions from config.
 
+    All label values are cast to strings so that mixed-type YAML lists
+    (e.g. ``[-2, -1, 0, 1, 2, "na"]`` or ``[true, false]``) produce
+    consistent ``{str: int}`` mappings.
+
     Returns:
         Dict mapping each abbreviated field name to its {label_str: int} map.
-        e.g. {"sen": {"hawkish": 0, "dovish": 1, ...}, "top": {...}, ...}
+        e.g. {"sen": {"-2": 0, "-1": 1, ...}, "top": {...}, ...}
     """
     return {
-        field: {label: i for i, label in enumerate(values)}
+        field: {str(label): i for i, label in enumerate(values)}
         for field, values in config["labels"].items()
         if values  # skip fields with empty value lists
     }
@@ -92,6 +93,8 @@ def build_classification_dataset(
         DatasetDict with train/validation/test splits.
     """
     # Filter to rows that have a valid label
+    # Cast to str so mixed-type columns (int/str/bool) match the str keys in label_map
+    df[label_column] = df[label_column].astype(str)
     valid_mask = df[label_column].isin(label_map.keys())
     df_valid = df[valid_mask].copy()
     df_valid["label"] = df_valid[label_column].map(label_map)

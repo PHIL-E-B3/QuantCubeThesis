@@ -12,21 +12,28 @@ dist/
 build/
 *.egg
 
-# Models & checkpoints (too large for git)
-models/*
-!models/.gitkeep
+# Model checkpoints (large intermediate files)
+models/*/checkpoints/
 
-# Data (raw FOMC + processed datasets)
+# Keep adapter weights, configs, and eval results
+# models/sft_p3/adapter/ — tracked
+# models/sft_p7/adapter/ — tracked
+# models/prompt_eval/ — tracked
+
+# Large raw data
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-
-# Unlabelled pool is too large for git (73MB+)
 data/all_unlabelled_sentences/master_unlabelled_pool.json
 
-# Labels are version-controlled (small CSV/JSON)
-# data/labels/ is NOT ignored
+# Archive / old data
+_archive/
+Taylor Rule Data-20260512T153045Z-3-001/
+Data-20260512T153201Z-3-001.zip
+
+# Old nested repo copy
+QuantCubeThesis/
 
 # IDE
 .vscode/
@@ -49,3 +56,6 @@ runs/
 
 # Secrets
 .env
+
+# Cloud results tar
+cloud_results.tar.gz

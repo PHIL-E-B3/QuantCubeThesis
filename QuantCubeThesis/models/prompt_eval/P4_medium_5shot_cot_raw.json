@@ -1,0 +1,352 @@
+[
+  {
+    "id": "c4ea2948-a9ea-43c5-a340-a835e3bcabc6",
+    "sentence": "The strains in global financial markets, though generally less pronounced than last fall, continued ",
+    "raw_response": "To classify the sentence, I will go through each field in order.\n\n\"top\": The sentence mentions \"global financial markets\" and \"fiscal tightening\", which are related to \"financial_conditions\" and \"macro\" (aggregate outlook, no single variable dominates). However, the primary topic of the sentence is the risks to the outlook, which is more closely related to \"macro\". Therefore, the top topics are [\"macro\", \"financial_conditions\"].\n\n\"ten\": The sentence is reporting on past/present data (\"strains in",
+    "parsed": {},
+    "elapsed_s": 16.1
+  },
+  {
+    "id": "6cab1168-adfe-41d3-86c8-6ba1e7002062",
+    "sentence": "Other participants indicated a preference for initially imposing a somewhat lower cap.",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"conditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n- top: The sentence is about monetary policy, specifically the imposition of a cap, so it falls under the topic \"monetary_policy\".\n\n- ten: The sentence is forward-looking, as it discusses a preference for imposing a cap, which implies a future action. It is also a projection or a conditional statement, so it is classified as \"interpret",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "conditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 12.9
+  },
+  {
+    "id": "c368e917-9c88-47c0-89aa-55560af809f2",
+    "sentence": "Growth in real private expenditures for business equipment and intellectual property looked to be sl",
+    "raw_response": "To classify the sentence, I will go through each field in order.\n\n\"top\": The sentence mentions \"growth\" and \"expenditures\", which are related to \"economic_activity\". Therefore, the topic is \"economic_activity\".\n\n\"ten\": The sentence is forward-looking, as it uses the phrase \"looked to be slowing\", which indicates a projection or expectation about the future. Therefore, the tone is \"interpretive\".\n\n\"sen\": The sentence mentions that growth is \"slowing\", which implies a negative direction of change.",
+    "parsed": {},
+    "elapsed_s": 12.7
+  },
+  {
+    "id": "c71e1cdb-b8b0-4753-b7f5-de93ed62ac49",
+    "sentence": "Several participants suggested that such a discussion could benefit from also considering the merits",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n1. \"top\": The sentence is about monetary policy, specifically a discussion about implementing monetary policy, so the topic is \"monetary_policy\".\n\n2. \"ten\": The sentence is forward-looking, as it discusses the benefits of considering a new facility for implementing monetary policy, which implies a projection or outlook. It is not reporting pa",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 13.2
+  },
+  {
+    "id": "27d7015c-880b-45a0-8335-c325b9439bdb",
+    "sentence": "The dollar appreciated modestly against most AFE currencies except the Japanese yen and the British ",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"financial_conditions\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nExplanation:\n\n1. \"top\": The sentence is about the dollar's appreciation against various currencies, which is related to financial conditions. Therefore, the topic is \"financial_conditions\".\n\n2. \"ten\": The sentence is describing the past/present state of the dollar's appreciation, so it is \"descriptive\".\n\n3. \"sen\": The dollar appreciated \"modestly\", w",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 13.1
+  },
+  {
+    "id": "a5262021-b578-4563-add9-ff730707ac58",
+    "sentence": "A couple of participants reported improved conditions in the agricultural sector, with farmers' inco",
+    "raw_response": "To classify the sentence, I'll go through each field in order.\n\n\"top\": The sentence mentions the agricultural sector, which is related to economic activity. Therefore, the topic is \"economic_activity\".\n\n\"ten\": The sentence reports past/present data about the agricultural sector, so the tone is \"descriptive\".\n\n\"sen\": The sentence mentions \"improved conditions\", which implies a positive development, but it's not a strong enough language to be considered hawkish (+2/+1). It's also not a negative de",
+    "parsed": {},
+    "elapsed_s": 12.9
+  },
+  {
+    "id": "401dbf5b-e489-4db5-9186-aa121a3054f1",
+    "sentence": "The median respondent to the Desk's surveys of primary dealers and market participants continued to ",
+    "raw_response": "To classify the sentence, I will go through each field in order.\n\n\"top\": The sentence mentions Federal Reserve asset purchases, which is related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\n\"ten\": The sentence is discussing expectations for the future, specifically the pace of asset purchases in the first quarter of 2022. It is forward-looking and does not report past/present data, so it is \"interpretive\".\n\n\"sen\": The sentence mentions a decline in the pace of asset purchases,",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 15.3
+  },
+  {
+    "id": "b4a0b4da-f0c6-4dfd-9392-67495a212c40",
+    "sentence": "The rising rate environment has prompted inflows into prime retail MMFs, while AUM at prime institut",
+    "raw_response": "To classify the sentence, I will reason through each field in order.\n\n\"top\": The sentence mentions \"rate environment\" and \"inflows into prime retail MMFs\", which are related to financial conditions. However, it also mentions \"AUM at prime institutional funds\", which is related to economic activity. Therefore, the topics present are \"financial_conditions\" and \"economic_activity\". However, since the sentence is primarily about the impact of the rate environment on financial conditions, I will prio",
+    "parsed": {},
+    "elapsed_s": 16.7
+  },
+  {
+    "id": "bebcd257-9f63-4873-b821-57e663e7b546",
+    "sentence": "A couple of participants suggested that tariff effects were masking the underlying trend of inflatio",
+    "raw_response": "To classify the sentence, I will go through each field in order.\n\n\"top\": The sentence mentions inflation, so the topic is \"inflation\". However, it also discusses the underlying trend, which could be related to \"economic_activity\". Since it's not a clear-cut case, I'll also consider \"macro\" as a possible topic. But given the focus on inflation, I'll prioritize it. Therefore, the top field is [\"inflation\", \"macro\"].\n\n\"ten\": The sentence is discussing the current state of inflation, mentioning that",
+    "parsed": {},
+    "elapsed_s": 16.8
+  },
+  {
+    "id": "320245c6-2a20-4ea1-88bf-0313ee3074b4",
+    "sentence": "In a related action, the Board of Governors unanimously approved a 50-basis-point decrease in the di",
+    "raw_response": "Reasoning for \"top\": The sentence mentions a specific action by the Board of Governors, which is related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\nReasoning for \"ten\": The sentence is describing a past action, so it is \"descriptive\".\n\nReasoning for \"sen\": The sentence mentions a 50-basis-point decrease in the discount rate, which is a significant action. However, it is not linguistically intensified language, so the polarity should be +1, indicating a dovish policy incentiv",
+    "parsed": {},
+    "elapsed_s": 11.2
+  },
+  {
+    "id": "8b495b2c-7fad-4358-b3da-b9f21ed14787",
+    "sentence": "As is the case with the current securities lending program, securities will be made available throug",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": \"na\",\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n- top: The sentence is about the securities lending program, which is related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\n- ten: The sentence is describing the current securities lending program, which is a past/present data point. Therefore, the tone is \"descriptive\".\n\n- sen: There is no explicit direction-of-change or ",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 10.1
+  },
+  {
+    "id": "96cfd0df-e571-421c-87c7-207d9f874bdb",
+    "sentence": "Although strains in global financial markets have eased somewhat, the Committee continues to see dow",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"economic_activity\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_downside\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n1. \"top\": The sentence mentions \"economic outlook\", which is related to \"economic_activity\". Therefore, the topic is \"economic_activity\".\n\n2. \"ten\": The sentence is forward-looking, as it discusses \"downside risks to the economic outlook\", which implies a projection or a conditional statement. Therefore, the tone is \"interpretiv",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 13.1
+  },
+  {
+    "id": "59711e2f-0d43-4d1f-b597-875645ee9c96",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings",
+    "raw_response": "Here's the reasoning for each field:\n\n\"top\": The sentence is discussing monetary policy, so the topic is \"monetary_policy\".\n\n\"ten\": The sentence is describing the current policy, so it's \"descriptive\".\n\n\"sen\": The sentence is discussing the policy of reinvesting principal payments and rolling over maturing securities, which is a neutral action. There's no indication of a hawkish or dovish tone, so the sentiment score is 0.\n\n\"hor\": The sentence does not mention a long-term horizon, so \"hor\" is fa",
+    "parsed": {},
+    "elapsed_s": 9.9
+  },
+  {
+    "id": "6649d12f-a688-4ae9-bdb8-67fe61343ba4",
+    "sentence": "The economic outlook has strengthened in recent months.",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"economic_activity\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nExplanation:\n\n1. \"top\": The sentence mentions \"economic outlook\", which is related to \"economic_activity\". Therefore, the topic is \"economic_activity\".\n\n2. \"ten\": The sentence is describing the current state of the economic outlook, using the present tense (\"has strengthened\"), so it is \"descriptive\".\n\n3. \"sen\": The sentence is describing a strengthenin",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 11.0
+  },
+  {
+    "id": "6cdd59f2-c4aa-41f9-84b0-fab2e53a550b",
+    "sentence": "The Committee judges that reserve balances have declined to ample levels and will initiate purchases",
+    "raw_response": "To classify the sentence, I will go through each field in order.\n\n\"top\": The sentence mentions \"reserve balances\" and \"purchases of shorter-term Treasury securities\", which are related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\n\"ten\": The sentence is describing the current state of reserve balances and the action the Committee will take, which is forward-looking. However, it is not explicitly projecting future values or using conditionals, so it is \"descriptive\" rather than ",
+    "parsed": {},
+    "elapsed_s": 15.9
+  },
+  {
+    "id": "a0fc5806-2c3f-4077-ac5d-3c38a3924626",
+    "sentence": "As I mentioned, monetary policy operates with lags, so, the policies we have in place, we think, wil",
+    "raw_response": "Here's the reasoning for each field:\n\ntop: The sentence discusses monetary policy and its effects on inflation, so it's related to \"monetary_policy\" and \"inflation\". However, it's not a straightforward discussion of monetary policy, so it's not \"macro\". It's also not \"economic_activity\" or \"unemployment\". The sentence is not boilerplate, so it's not \"boilerplate\". Therefore, the topic is \"monetary_policy\" and \"inflation\".\n\nten: The sentence is discussing the effects of current policies and their",
+    "parsed": {},
+    "elapsed_s": 17.2
+  },
+  {
+    "id": "fb55d640-0d7f-4dc5-8ada-1ced9caa1615",
+    "sentence": "As we begin the process of normalizing policy, every meeting is live. And if we were to decide at a ",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n1. \"top\": The sentence is about monetary policy, specifically the process of normalizing policy, so the topic is \"monetary_policy\".\n\n2. \"ten\": The sentence is forward-looking, as it discusses what would happen if the Committee decides to normalize policy, so the tone is \"interpretive\".\n\n3. \"sen\": The sentence implies that the Committee would ",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 11.7
+  },
+  {
+    "id": "f918898e-5a7f-4c63-acc3-ccc234363369",
+    "sentence": "Broader measures of labor market utilization have also improved this year.",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"unemployment\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n- top: The sentence mentions labor market utilization, which is closely related to unemployment. Therefore, the topic is \"unemployment\".\n\n- ten: The sentence reports on past/present data (\"have improved this year\"), so it is \"descriptive\".\n\n- sen: The sentence does not contain any language that would indicate a hawkish or dovish bias. It simply r",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 10.1
+  },
+  {
+    "id": "d13471df-989d-4a1f-a9a5-bc8eaca37676",
+    "sentence": "So, if there are small changes in the outlook that require a recalibration of monetary policy, we wi",
+    "raw_response": "Here's the reasoning for each field:\n\ntop: The sentence discusses monetary policy, specifically the federal funds rate and the balance sheet, so the topic is \"monetary_policy\".\n\nten: The sentence is forward-looking, as it discusses potential changes in the outlook and the need for recalibration of monetary policy, so the tone is \"interpretive\".\n\nsen: The sentence implies that the Fed is willing to adjust its monetary policy in response to changes in the outlook, but is not willing to change the ",
+    "parsed": {},
+    "elapsed_s": 14.4
+  },
+  {
+    "id": "b3245786-c47a-4275-89be-1c64609ca052",
+    "sentence": "Really nothing more to it than that.",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n1. \"top\": The sentence is about the Fed's monetary policy, specifically the decision to speed up its balance sheet runoff. Therefore, the topic is \"monetary_policy\".\n\n2. \"ten\": The sentence is forward-looking, as it discusses the reason behind the Fed's decision, which implies a projection or an outlook. It is not reporting past/present data,",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 14.3
+  },
+  {
+    "id": "d33010ce-47f2-4d99-bed6-8f6dad86dff5",
+    "sentence": "The pandemic recession was the deepest, and the recovery has been the fastest. And wages didn't real",
+    "raw_response": "Here's the reasoning for each field:\n\n\"top\": The sentence discusses employment, which is related to the topic of \"unemployment\". Therefore, the topic is \"unemployment\".\n\n\"ten\": The sentence is describing past/present data, specifically the characteristics of the pandemic recession and the recovery. Therefore, the tone is \"descriptive\".\n\n\"sen\": The sentence mentions that wages didn't go down, which implies that employment is strong. However, there's no explicit direction-of-change or level mentio",
+    "parsed": {},
+    "elapsed_s": 12.6
+  },
+  {
+    "id": "6539a956-3f02-49f2-bf3b-a09b7d6f9fad",
+    "sentence": "Growth has been strong.",
+    "raw_response": "To classify the sentence, we'll go through each field in order.\n\n**top**: The sentence mentions \"Growth\", which is related to \"economic_activity\". Therefore, the topic is \"economic_activity\".\n\n**ten**: The sentence is reporting past/present data, so the tone is \"descriptive\".\n\n**sen**: The sentence is stating that growth has been strong, but it's not providing any direction of change or level. Therefore, the sentiment is neutral (0).\n\n**hor**: There is no explicit long-term horizon language pres",
+    "parsed": {},
+    "elapsed_s": 9.6
+  },
+  {
+    "id": "b945b7d7-5352-41f8-9b8f-6fac7608a474",
+    "sentence": "So I do think that the 2018, the September 2018 Tealbook alternative simulations are a good place to",
+    "raw_response": "Here's the reasoning for each field:\n\n\"top\": The sentence is discussing the Tealbook and its analysis, which is related to the Committee's thinking on tariffs. Since the Tealbook is a document used by the Fed staff, it's likely that the topic is \"monetary_policy\" or \"macro\" (aggregate outlook, no single variable dominates). However, the sentence is not discussing the overall economic outlook, so I'll choose \"monetary_policy\" as the primary topic.\n\n\"ten\": The sentence is referring to a past docum",
+    "parsed": {},
+    "elapsed_s": 13.8
+  },
+  {
+    "id": "55115ef5-75da-44d7-99f1-7832486cea91",
+    "sentence": "This loss of confidence was not limited to individual depositors.",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"financial_conditions\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nExplanation:\n\n- top: The sentence mentions a \"loss of confidence\", which is related to financial conditions. Therefore, the topic is \"financial_conditions\".\n\n- ten: The sentence is describing a past/present situation (\"This loss of confidence was not limited to individual depositors\"), so it is \"descriptive\".\n\n- sen: There is no explicit direction-of",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 10.2
+  },
+  {
+    "id": "8974be63-35e6-4655-a36f-7e908a6dd179",
+    "sentence": "The council, whose membership is drawn from smaller banks, credit unions, and savings associations i",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"boilerplate\"],\n  \"ten\": \"descriptive\",\n  \"sen\": \"na\",\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n- top: The sentence is about procedural/administrative matters, so it falls under the \"boilerplate\" topic.\n\n- ten: The sentence is reporting past/present data about the council's meetings, so it is descriptive.\n\n- sen: The sentence does not contain any language that would indicate a hawkish or dovish policy incentive, so it is neutral (sen = 0)",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 10.5
+  },
+  {
+    "id": "64ac5ae9-24ee-4d6d-916e-409a1e60adab",
+    "sentence": "However, that dynamic also increases the cost, in terms of economic output, of reversing unwelcome i",
+    "raw_response": "To classify the sentence, I will reason through each field in order.\n\n\"top\": The sentence discusses the importance of keeping longer-run inflation expectations anchored, which is related to the topic of inflation. However, it also mentions the cost of reversing unwelcome increases in longer-run inflation expectations, which is related to the topic of economic activity. Therefore, the topics present are \"inflation\" and \"economic_activity\".\n\n\"ten\": The sentence is forward-looking, as it discusses ",
+    "parsed": {},
+    "elapsed_s": 17.5
+  },
+  {
+    "id": "54cd3ce6-a657-463b-be03-31be299d76d7",
+    "sentence": "For most non-G-SIBs subject to the SCB requirement, the current 2.5 percent buffer floor likely rema",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"financial_conditions\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nExplanation:\n\n1. \"top\": The sentence is discussing the buffer floor for non-G-SIBs, which is related to financial conditions. Therefore, the topic is \"financial_conditions\".\n\n2. \"ten\": The sentence is discussing a likely future scenario (\"likely remains\"), which is forward-looking and interpretive. Therefore, \"ten\" is \"interpretive\".\n\n3. \"sen\": The ",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 12.2
+  },
+  {
+    "id": "14f2c10a-822e-4744-876c-38879a260793",
+    "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would tak",
+    "raw_response": "To classify the sentence, I will reason through each field in order.\n\n\"top\": The sentence discusses the factors that the Committee will consider when determining the pace of future increases in the target range, which is related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\n\"ten\": The sentence is forward-looking, as it discusses the factors that the Committee will consider in the future. It also mentions the target range, which implies a projection. Therefore, the tone is \"inte",
+    "parsed": {},
+    "elapsed_s": 14.8
+  },
+  {
+    "id": "9797f119-b35c-456d-ad74-ba26f00093dd",
+    "sentence": "Members agreed to add language to this effect in the postmeeting statement in order to convey explic",
+    "raw_response": "ANSWER:\n{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n\nReasoning:\n\n1. \"top\": The sentence is about monetary policy, as it mentions \"future monetary policy actions\", so the topic is \"monetary_policy\".\n\n2. \"ten\": The sentence is describing past/present data, as it mentions \"postmeeting statement\" and \"determining future monetary policy actions\", which is a past/present action. Therefore, \"ten\" is \"descriptive\".",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 13.1
+  },
+  {
+    "id": "0b5cbb35-7e26-426d-9000-b93aa0415062",
+    "sentence": "Last December, the Committee indicated that it would continue to increase its holdings of Treasury s",
+    "raw_response": "To classify the sentence, I will reason through each field in order.\n\n\"top\": The sentence is about the Committee's actions regarding its holdings of Treasury securities and agency mortgage-backed securities, which is related to monetary policy. Therefore, the topic is \"monetary_policy\".\n\n\"ten\": The sentence is describing past actions of the Committee, specifically what they indicated they would do last December. It is not forward-looking or projecting future actions, so it is \"descriptive\".\n\n\"se",
+    "parsed": {},
+    "elapsed_s": 14.4
+  }
+]

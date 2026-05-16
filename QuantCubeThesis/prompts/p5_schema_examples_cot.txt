@@ -1,0 +1,25 @@
+Classify this FOMC sentence. Think step-by-step, then output "ANSWER:" followed by valid JSON.
+
+### Schema (7 fields):
+top: array from [inflation, unemployment, economic_activity, macro, financial_conditions, monetary_policy, no_topic, boilerplate]. Cause-and-effect → label the effect.
+ten: descriptive | interpretive
+sen: -2 | -1 | 0 | 1 | 2 | "na". Hawkish incentive = positive. "na" = boilerplate.
+hor: true | false (long-term horizon present)
+com: unconditional | conditional | none. Only for monetary_policy, else "none".
+ris: skewed_upside | skewed_downside | symmetric | na
+wid: elevated | contested | none. Elevated = intensity-modified uncertainty. Contested = two opposing forces.
+
+### Examples:
+1. "Inflation remained well above the Committee's longer-run goal of 2 percent."
+→ {"top": ["inflation"], "ten": "descriptive", "sen": 2, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+
+2. "The Committee decided to lower the target range for the federal funds rate."
+→ {"top": ["monetary_policy"], "ten": "descriptive", "sen": -2, "hor": false, "com": "unconditional", "ris": "na", "wid": "none"}
+
+3. "The economic outlook is uncertain, with risks weighted to the downside."
+→ {"top": ["macro"], "ten": "interpretive", "sen": -1, "hor": false, "com": "none", "ris": "skewed_downside", "wid": "elevated"}
+
+### Steps:
+1. Topic(s)? 2. Descriptive or interpretive? 3. Policy incentive? 4. Long-term? 5. Commitment/risk/width?
+
+Sentence: {sentence}
