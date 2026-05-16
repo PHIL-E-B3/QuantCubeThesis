@@ -6,13 +6,15 @@
     "doc_type": "speech",
     "date": "2023-05-11",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
   },
   {
     "id": "c8da03cc-768d-4022-b48e-d59029475a1f",
@@ -21,13 +23,15 @@
     "doc_type": "minutes",
     "date": "20190731",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
   },
   {
     "id": "683d25cf-104a-4e37-8e45-f5cff67099ce",
@@ -36,13 +40,15 @@
     "doc_type": "speech",
     "date": "2021-03-02",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 1,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
   },
   {
     "id": "9b41d7bf-adba-4435-b9fa-f84f019b5a70",
@@ -380,21 +386,6 @@
     "source": "minutes_20150729.html",
     "doc_type": "minutes",
     "date": "20150729",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "12a89332-9863-4fbc-a8d3-bc7758c39594",
-    "sentence": "Participants acknowledged that the causes of movements in short- and longer-run inflation expectations, including the role of monetary policy, were imperfectly understood.",
-    "source": "minutes_20180131.html",
-    "doc_type": "minutes",
-    "date": "20180131",
     "context_question": null,
     "top": "",
     "sen": "",

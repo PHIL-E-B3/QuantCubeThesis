@@ -36,13 +36,15 @@
     "doc_type": "minutes",
     "date": "20210428",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "d441389a-7b30-4309-839b-1afb729592f6",
@@ -51,13 +53,15 @@
     "doc_type": "speech",
     "date": "2024-08-23",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": "0",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "818595c0-3e02-475f-9a72-f119a8419d17",
@@ -66,13 +70,15 @@
     "doc_type": "press_conference_qa",
     "date": "20160316",
     "context_question": "Marty Crutsinger, Associated Press. You said in—the policy statement in December said that the risks to the outlook were “balanced,” and you raised rates. That phrasing disappeared then in January and March. Could you talk a little bit about—but in your comments today, you seem to be indicating that not that much has changed. Could you help us understand what needs to happen to get back to “balanced,” and is that the language we need to look for to see the next rate hike?",
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none"
   },
   {
     "id": "72737fff-6fb7-4a29-9148-0fa5591beb81",
@@ -95,21 +101,6 @@
     "source": "Prospects for Emerging Market Economies in a Normalizing Global Economy",
     "doc_type": "speech",
     "date": "2017-10-12",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "51fcc489-f542-425d-ac93-67979f4ab1b2",
-    "sentence": "The manager noted that current financial conditions appeared to be providing neither a headwind nor tailwind to growth.",
-    "source": "minutes_20240731.html",
-    "doc_type": "minutes",
-    "date": "20240731",
     "context_question": null,
     "top": "",
     "sen": "",
@@ -171,13 +162,17 @@
     "doc_type": "minutes",
     "date": "20210922",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "ecd272b0-e1fe-4c30-afc3-3e8bf67d185e",
@@ -276,13 +271,16 @@
     "doc_type": "minutes",
     "date": "20110315",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "elevated"
   },
   {
     "id": "94a51007-7b62-42e2-817d-8ab6086d72ea",
@@ -351,13 +349,16 @@
     "doc_type": "minutes",
     "date": "20140730",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "ea66beb6-42bd-4c85-b2bf-fc9e5acbab84",
@@ -366,13 +367,15 @@
     "doc_type": "press_conference_qa",
     "date": "20180926",
     "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I’m wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I’d like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn’t show that, but I’m curious how you soft-land without doing that.",
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "daf97696-7cf5-487a-9840-e0613c3808c5",
@@ -381,13 +384,15 @@
     "doc_type": "speech",
     "date": "2024-02-02",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "d9049345-fb13-4c5c-9ecf-0ace723aefd0",
@@ -396,13 +401,17 @@
     "doc_type": "minutes",
     "date": "20151216",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "economic_growth",
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none"
   },
   {
     "id": "fd23f53a-ad68-4493-9a9b-5cde8f6c0622",
@@ -426,13 +435,15 @@
     "doc_type": "speech",
     "date": "2018-12-07",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "7ec108f9-9c0a-4d7c-9a25-d6735b7ba93d",
@@ -456,13 +467,17 @@
     "doc_type": "minutes",
     "date": "20250319",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "economic_activity",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "elevated"
   },
   {
     "id": "b6f02c12-7f21-4ea6-9913-c216654451e8",
@@ -486,13 +501,15 @@
     "doc_type": "minutes",
     "date": "20240131",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "9e9a947c-4e17-4acf-b66f-d1d4f6d1ec51",
@@ -501,13 +518,15 @@
     "doc_type": "minutes",
     "date": "20210616",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "79b497be-657f-4ec5-a73e-e5d20d6ba912",
@@ -516,13 +535,15 @@
     "doc_type": "minutes",
     "date": "20201216",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "b992c225-9a8e-42b3-a95f-b175ea44bcba",
@@ -576,13 +597,18 @@
     "doc_type": "minutes",
     "date": "20250129",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "labor_market",
+      "economic_activity",
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "elevated"
   },
   {
     "id": "5af5b651-263a-47d2-b29d-8f13419de47c",
