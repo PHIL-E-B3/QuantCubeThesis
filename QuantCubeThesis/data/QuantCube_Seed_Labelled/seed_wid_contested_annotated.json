@@ -1,0 +1,72 @@
+[
+  {
+    "id": "49724d32-3ec1-4ab0-b303-24829439f54a",
+    "sentence": "Consumer spending has thus far held up a bit better than expected, but households continue to face significant headwinds, including falling house prices, a softer job market, tighter credit, and higher energy prices, and consumer sentiment has declined sharply since the fall.",
+    "source": "Remarks on the economic outlook",
+    "doc_type": "speech",
+    "date": "2008-06-03",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": -2,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
+    "sentence": "With the recovery proceeding at a moderate rate and the margin of economic slack quite wide, the underlying rate of inflation has been trending lower despite upward pressure from rising costs of energy and other commodities and rising prices of imported goods.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-01-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e65a2d4d-1ab6-46e7-871f-635b9b60403b",
+    "sentence": "The increased volatility appeared to contribute to a decline in measures of market liquidity in core fixed-income markets, in particular around the period associated with U.K. volatility, but market functioning remained orderly.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "a460e423-0a22-4572-ba50-8d28978dd901",
+    "sentence": "Labor market conditions continued to improve in September, though employment growth was slower than in recent months.",
+    "source": "minutes_20211103.html",
+    "doc_type": "minutes",
+    "date": "20211103",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  }
+]

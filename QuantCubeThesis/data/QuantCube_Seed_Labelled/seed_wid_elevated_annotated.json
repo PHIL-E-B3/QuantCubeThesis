@@ -1,0 +1,343 @@
+[
+  {
+    "id": "a58a93c9-3988-4670-817f-8d74a326c185",
+    "sentence": "But what if the transition is disorderly? One argument is that uncertainty associated with a disorderly transition will make it difficult for households and businesses to plan.",
+    "source": "Climate Change and Financial Stability",
+    "doc_type": "speech",
+    "date": "2023-05-11",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "c8da03cc-768d-4022-b48e-d59029475a1f",
+    "sentence": "Participants generally judged that the risks associated with trade uncertainty would remain a persistent headwind for the outlook, with a number of participants reporting that their business contacts were making decisions based on their view that uncertainties around trade were not likely to dissipate anytime soon.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "683d25cf-104a-4e37-8e45-f5cff67099ce",
+    "sentence": "Increasing vaccinations, along with enacted and expected fiscal measures and accommodative monetary policy, point to a strong modal outlook for 2021, although considerable uncertainty remains.",
+    "source": "U.S. Economic Outlook and Monetary Policy: An Update",
+    "doc_type": "speech",
+    "date": "2021-03-02",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 1,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "9b41d7bf-adba-4435-b9fa-f84f019b5a70",
+    "sentence": "We have, since the beginning of the year -- and before, really -- been hearing from our extensive network of business contacts a lot of concerns about tariffs, concerns about material costs on imported products, and the loss of markets and things like that, depending on which industry, so there's a fair amount of uncertainty.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What’s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "b2926b56-f287-4346-ae80-f27b2b27560f",
+    "sentence": "And financial stress has not been limited just to mortgage markets, but has spread to other markets. In general, a shift in risk attitudes has interacted with heightened concerns about credit risks and uncertainty about how to evaluate those risks.",
+    "source": "Analyzing and Assessing Banking Crises",
+    "doc_type": "speech",
+    "date": "2007-09-06",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "4c791cf2-7ff9-4858-babd-65ef1152fa2b",
+    "sentence": "It's hard to say how much of an effect that's having on our economy.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What’s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "3f51fe1e-e9e0-48f6-88b9-88e389b6c4d9",
+    "sentence": "We also are at a period of higher-than-usual uncertainty about how credit conditions are evolving in response to the recent bank failures and stress among some other mid-size banks. Let me talk about each of these three key issues and then conclude with how I see these factors playing into my June policy decision.",
+    "source": "Hike, Skip, or Pause?",
+    "doc_type": "speech",
+    "date": "2023-05-24",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "6e78f365-c40b-4565-be07-2589ded3d93b",
+    "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment (figure 6).",
+    "source": "Monetary Policy and the Fedâs Framework Review",
+    "doc_type": "speech",
+    "date": "2025-08-22",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "fc2abf74-4234-40c6-bffd-c5d95cdeccc4",
+    "sentence": "The coronavirus outbreak and the effects on economic activity of measures to contain it, together with the associated elevated level of uncertainty, were likely reflected in recent downbeat readings on business sentiment in national and regional surveys and appeared to weigh heavily on business investment.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "bee561dc-ea3a-4746-83bf-260c5182f359",
+    "sentence": "I indicated I think participants have reviewed a number of pieces of analysis, including the Joint Committee on Taxation estimates, and the many outside analysts who have weighed in on this and been influenced by that kind of analysis -- but there is a good deal of uncertainty about what the impacts would be.",
+    "source": "FOMCpresconf20171213.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20171213",
+    "context_question": "Thank you. Nick Timiraos, the Wall Street Journal. Chair Yellen, I wanted to follow up on the question about tax changes. When you addressed it earlier today, and when you spoke to Congress last month, you often describe that you would welcome higher growth in the context of the employment and inflation mandate. And I guess I wonder how you judge the major provisions of the House and Senate tax plans: the corporate rate cut, immediate expensing of big-ticket purchases, new rates for pass-throughs, temporary rate cuts for individuals. Do you see those, on balance, boosting the productive capacity of the U.S. economy as opposed to simply increasing aggregate demand? And, related to that, how would you view the benefit of such tax changes now, when the economy is nearing full employment, versus at earlier periods when there was greater resource slack?",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "78435c61-9f19-4035-b5f8-16f4beec88ff",
+    "sentence": "However, some members were more uncertain about the extent of progress in the labor market to date or were concerned that if the pace of economic growth remained slow, labor market conditions might improve only gradually.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "f304c0b0-7c57-4ae5-9c5d-53e977e3b66e",
+    "sentence": "It's hard to say.",
+    "source": "FOMCpresconf20220316.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220316",
+    "context_question": "Thanks. And I apologize if this covers some of the same ground you just talked about, Mr. Chair. I think I missed some of your answer there. But I have a follow-up question on the labor force. We have seen some gains in the prime-age workforce in the last few months. I wonder what you anticipate when it comes to some of the older workers as the health outlook has changed. Are we going to see more recent retirees following Tom Brady back into the workforce? And what would that mean for wages and inflation?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "8d153860-76bc-4fa7-b742-5fb147369e29",
+    "sentence": "Participants noted that, in the circumstances of heightened uncertainty, it was especially important that the Committee continue to underscore in its communications that monetary policy would continue to be set to promote attainment of the Committee's statutory objectives of maximum employment and price stability.",
+    "source": "minutes_20161214.html",
+    "doc_type": "minutes",
+    "date": "20161214",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "41c0fa7a-cdb4-4931-89a7-442c27152d1f",
+    "sentence": "Risks to real activity were judged to remain skewed to the downside in light of the weakening in GDP growth seen so far this year and elevated policy uncertainty.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "d86c1a7c-1c2c-4b30-8c75-26ca1266767e",
+    "sentence": "There, there are many, many different scenarios -- many combinations of scenarios where inflation does or doesn't prove out to be at the levels we think and where the labor market does or doesn't soften. And I think what, what you see people doing is looking ahead at a time of very high uncertainty and writing down what they think the most likely case is.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250618",
+    "context_question": "Well, just quickly on—given that, you know, there are concerns inflation will rise—but there is the alternate scenario that tariffs would create demand destruction and slow growth sufficiently and that would perhaps keep a bit of a lid on inflation. Do you see odds of that scenario, what kind of odds do you see of that scenario coming true, and how many months of cool inflation would you need to see before concluding that maybe that lower-inflation scenario is taking place?",
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interprative",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "c7fb937a-4761-4c13-9e81-ef02fb5d1aa5",
+    "sentence": "There is much uncertainty, however, around the future path of inflation.",
+    "source": "Economic Outlook",
+    "doc_type": "speech",
+    "date": "2025-05-14",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "0587d4eb-21da-483e-9c87-ca386c39f7dd",
+    "sentence": "More generally, some participants reported that their business contacts regarded the economic outlook to be highly uncertain, in part due to unresolved fiscal and regulatory matters.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "e7c2a044-f403-43e4-8022-bcd7ba0d048a",
+    "sentence": "Several participants expressed uncertainty about the timing and magnitude of tariff-related price effects, noting that some businesses were reportedly waiting to adjust prices until tariff policies seemed more settled.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "f5ea879c-5013-4afb-9d6a-6a596fda000d",
+    "sentence": "But, you know, we get together, we discuss -- we have a great discussion, and then we decide what to do and we act. But you're right that it is -- it's a wide dispersion of views, and I think that's understandable and natural in the current situation.",
+    "source": "FOMCpresconf20250917.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250917",
+    "context_question": "Thank you for getting to my follow-up question, which was, is the dispersion in the outlook a sign of uncertainty of policy in the—in the meetings to come? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "1e07a1b3-2441-4cc0-bfbf-235da8355424",
+    "sentence": "Uncertainty surrounding the outlooks for both reserves and ON RRP participation was substantial.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

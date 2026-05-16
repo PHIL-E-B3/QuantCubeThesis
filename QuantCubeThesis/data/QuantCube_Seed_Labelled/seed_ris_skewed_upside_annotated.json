@@ -1,35 +1,5 @@
 [
   {
-    "id": "77df76f6-a777-4c12-b4fd-57b1cf016f4e",
-    "sentence": "These risks matter more than usual because the ability to provide additional accommodation if downside risks materialize is, in practice, more constrained than the ability to remove accommodation more rapidly if upside risks materialize.",
-    "source": "Economic Outlook and Monetary Policy",
-    "doc_type": "speech",
-    "date": "2015-10-12",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "20090e9b-d8aa-4cc3-a57c-36d241f47e9f",
-    "sentence": "Even with the sorts of actions I have outlined here today, it is unrealistic to hope that financial crises can be entirely eliminated, especially while maintaining a dynamic and innovative financial system. Nonetheless, these steps should help make crises less frequent and less virulent, and so contribute to a better functioning national and global economy.",
-    "source": "Financial Reform to Address Systemic Risk",
-    "doc_type": "speech",
-    "date": "2009-03-10",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
     "id": "6f73f6e7-3b86-47cb-91ee-f6d5d378168c",
     "sentence": "With regard to the characterization of inflation, members agreed that the statement should note that inflation had risen but that the increase largely reflected transitory factors.",
     "source": "minutes_20210428.html",
@@ -81,79 +51,22 @@
     "wid": "none"
   },
   {
-    "id": "72737fff-6fb7-4a29-9148-0fa5591beb81",
-    "sentence": "GDP growth after 2025 was expected to remain above potential until 2028 as the drag from higher tariffs waned, with financial conditions becoming a tailwind for spending. As a result, the unemployment rate was expected to decline gradually after this year before flattening out at a level slightly below the staff's estimate of the natural rate of unemployment.",
-    "source": "minutes_20251029.html",
-    "doc_type": "minutes",
-    "date": "20251029",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "0f49ad04-1573-4d1e-aa39-bd7bffc2c2d9",
-    "sentence": "But it would be a bigger deal if the rise in borrowing costs was accompanied by a more generalized adverse turn of events in EMEs, modeled here as a 20 percent earnings reduction and a 20 percent hit to the value of EME currencies against the dollar.",
-    "source": "Prospects for Emerging Market Economies in a Normalizing Global Economy",
-    "doc_type": "speech",
-    "date": "2017-10-12",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "418581a4-90fc-4ce8-a0d3-c7ec411e4733",
-    "sentence": "There has been a lively discussion of one element of the future path of the federal funds rate: whether liftoff should be sooner with a gradual rise in the rate, or whether liftoff should occur later and be followed by a steeper path of the rate.",
-    "source": "Monetary Policy Lessons and the Way Ahead",
-    "doc_type": "speech",
-    "date": "2015-03-23",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "e871f198-d656-43fb-bf5f-9b1abbb7e82b",
-    "sentence": "One concern was that such a delay, if the reasons were not well understood by market participants, could increase uncertainty in financial markets and unduly magnify the perceived importance of the beginning of the policy normalization process.",
-    "source": "minutes_20151028.html",
-    "doc_type": "minutes",
-    "date": "20151028",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
     "id": "a431d5f3-be80-455e-8e90-c593dc33ff3c",
     "sentence": "Market-based policy rate expectations rose notably in most advanced foreign economies, as core inflation data surprised to the upside in some countries and central bank communications were perceived as pointing to more restrictive policy than expected.",
     "source": "minutes_20230614.html",
     "doc_type": "minutes",
     "date": "20230614",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "06e2d5a4-05ff-4f00-99bf-54c434721426",
@@ -181,13 +94,15 @@
     "doc_type": "minutes",
     "date": "20110622",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "438e3672-48e3-4a3a-8c52-ed35fb7ef227",
@@ -196,28 +111,15 @@
     "doc_type": "press_conference_qa",
     "date": "20180613",
     "context_question": "Myles Udland with Yahoo Finance. Chair Powell, you referenced a minute ago this idea of cushion, or the fact that the Fed doesn’t have as much of when rates are low and inflation is low. And I’m wondering if you or the Committee has thought about your move to raise interest rates as partly responding to the economy, but partly giving yourselves room to navigate in the inevitable future recession, whenever that was to come. And do you think that that has played any part in, you know, your outlook for policy or recent policy decisions? Or is it, you know, just a purely based on what the economy is doing?",
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "2971c1aa-67a1-4a3e-ab44-4e22aa5168c6",
-    "sentence": "Even if the central bank were appropriately reluctant to increase moral hazard by stepping in for private funding when an institution is in fact insolvent, the prospect of a rapid, disorderly default could still motivate LOLR lending.",
-    "source": "Liquidity Regulation",
-    "doc_type": "speech",
-    "date": "2014-11-20",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "941a6abd-c18c-4577-9ae2-767fb9820ea6",
@@ -226,13 +128,17 @@
     "doc_type": "speech",
     "date": "2025-11-03",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
   },
   {
     "id": "bc59160f-bfe8-4aa8-b416-26003a6af11b",
@@ -241,13 +147,16 @@
     "doc_type": "speech",
     "date": "2010-10-15",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "61411fc1-328c-4d4a-972e-8740bb4096b2",
@@ -256,13 +165,16 @@
     "doc_type": "minutes",
     "date": "20220316",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "f6dc744e-ec78-44e3-85cf-8597f1e14371",
@@ -289,28 +201,15 @@
     "doc_type": "minutes",
     "date": "20250618",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "f2147fe4-7afd-4457-8504-50afa1130319",
-    "sentence": "Authorities should monitor for changes that may arise in response to the new regulations or to changing economic and financial conditions.",
-    "source": "Nonbank Financial Intermediation, Financial Stability, and the Road Forward",
-    "doc_type": "speech",
-    "date": "2015-03-30",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
   },
   {
     "id": "cfefa2ee-8b65-4ddf-88c2-e5be5b365962",
@@ -319,28 +218,16 @@
     "doc_type": "minutes",
     "date": "20220316",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "20f9ab13-2bf5-4627-9321-09a886ce8a96",
-    "sentence": "Both series are divided by gross domestic product because the Fed's balance sheet should naturally increase over time with economic growth.",
-    "source": "Implementation and Transmission of Monetary Policy",
-    "doc_type": "speech",
-    "date": "2023-03-27",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
   },
   {
     "id": "66a25be8-8588-4c95-b5cd-0e1b998106b2",
@@ -414,21 +301,6 @@
     "wid": "none"
   },
   {
-    "id": "fd23f53a-ad68-4493-9a9b-5cde8f6c0622",
-    "sentence": "Those who favored lowering the target range for the federal funds rate generally judged that such a decision was appropriate because downside risks to employment had increased in recent months and upside risks to inflation had diminished since earlier in 2025 or were little changed.",
-    "source": "minutes_20251210.html",
-    "doc_type": "minutes",
-    "date": "20251210",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
     "id": "7de51938-7ac7-4467-874d-ed27e1add539",
     "sentence": "While the most recent reading on core personal consumption expenditures, or PCE, inflation ticked down, indicators of underlying trend inflation remain encouraging overall, providing little signal of an outbreak of inflation to the upside, on the one hand, and reassurance that underlying trend inflation may be close to our target of 2 percent, on the other (figure 1).",
     "source": "Assessing Financial Stability over the Cycle",
@@ -444,21 +316,6 @@
     "com": "none",
     "ris": "na",
     "wid": "none"
-  },
-  {
-    "id": "7ec108f9-9c0a-4d7c-9a25-d6735b7ba93d",
-    "sentence": "A few commented that a sustained period of labor market activity above levels consistent with maximum employment should speed the rise in inflation to the Committee's objective.",
-    "source": "minutes_20151216.html",
-    "doc_type": "minutes",
-    "date": "20151216",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
   },
   {
     "id": "4923674a-3c93-45eb-bea8-388190b34a2b",
@@ -478,21 +335,6 @@
     "com": "none",
     "ris": "symmetric",
     "wid": "elevated"
-  },
-  {
-    "id": "b6f02c12-7f21-4ea6-9913-c216654451e8",
-    "sentence": "Relevant capital regulation tools include a higher amount and quality of capital, such as is required under Basel III; leverage ratios, particularly the supplementary leverage ratio, if regulators increase it; the Basel III countercyclical capital buffer, which is designed to build resilience and lean against credit-fueled asset bubbles in a countercyclical manner; and capital surcharges.",
-    "source": "Beyond Capital: The Case for a Harmonized Response to Asset Bubbles",
-    "doc_type": "speech",
-    "date": "2013-07-17",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
   },
   {
     "id": "83d6bd74-8fe4-4b4e-a9b0-6555bd1f1c32",
@@ -552,43 +394,15 @@
     "doc_type": "speech",
     "date": "2025-07-10",
     "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "bcb80a26-f075-4dd4-a7e8-15102af606ff",
-    "sentence": "The test participants also often did not correctly understand what creditors meant by the term âfixed rate.â They equated this with the fixed rate on their mortgage. Thus, under the proposed rules we would allow creditors to describe their rates as âfixedâ only if there is a specified period during which the rate cannot be increased for any reason.",
-    "source": "Creating More Effective Consumer Disclosures",
-    "doc_type": "speech",
-    "date": "2007-05-23",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
-  },
-  {
-    "id": "d6876b87-33db-4469-af80-4cb5dd3d52a5",
-    "sentence": "With government stimulus in the pipeline providing tailwinds to demand over the next two years, it appears reasonable to expect the shorter-run neutral rate to rise somewhat higher than the longer-run neutral rate.",
-    "source": "What Do We Mean by Neutral and What Role Does It Play in Monetary Policy?",
-    "doc_type": "speech",
-    "date": "2018-09-12",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "229a1bc8-6c94-4be6-b97b-1238bbd8a3ca",
@@ -609,20 +423,5 @@
     "com": "none",
     "ris": "skewed_upside",
     "wid": "elevated"
-  },
-  {
-    "id": "5af5b651-263a-47d2-b29d-8f13419de47c",
-    "sentence": "The reason for this divergence is that when one says that the Committee has a reaction function for how it will behave if contingency X arises, such a statement implies that we have fully litigated this contingency in advance.",
-    "source": "Challenges for Monetary Policy Communication",
-    "doc_type": "speech",
-    "date": "2014-05-06",
-    "context_question": null,
-    "top": "",
-    "sen": "",
-    "ten": "",
-    "hor": "",
-    "com": "",
-    "ris": "",
-    "wid": ""
   }
 ]
