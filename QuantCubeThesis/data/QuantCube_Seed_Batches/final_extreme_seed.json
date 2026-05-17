@@ -51,23 +51,6 @@
     "wid": "none"
   },
   {
-    "id": "4f37d367-b296-4510-b478-c868c339efd6",
-    "sentence": "But supply chains were slower to recover, leading to a global surge in inflation.",
-    "source": "The Dual Mandate and the Balance of Risks",
-    "doc_type": "speech",
-    "date": "2024-03-25",
-    "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": 2,
-    "ten": "descriptive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "134f3daf-cfec-491c-a1e0-926a20e350c4",
     "sentence": "Although reserves are projected to be above $1.5 trillion before April, a surge in the Treasury General Account balance during the April tax season is expected to briefly reduce reserve levels and, in the absence of repo operations, bring reserves down temporarily to around $1.5 trillion.",
     "source": "minutes_20200129.html",
@@ -79,23 +62,6 @@
     ],
     "sen": 0,
     "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none"
-  },
-  {
-    "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
-    "sentence": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
-    "source": "Developing Communities through Public-private Partnerships",
-    "doc_type": "speech",
-    "date": "2026-03-24",
-    "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": 2,
-    "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",

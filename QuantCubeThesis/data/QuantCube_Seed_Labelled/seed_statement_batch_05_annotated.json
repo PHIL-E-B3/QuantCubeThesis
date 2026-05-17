@@ -227,24 +227,6 @@
     "wid": "none"
   },
   {
-    "id": "6e7bf89f-b766-4257-94d0-24d7aaea13a7",
-    "sentence": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring global economic and financial developments.",
-    "source": "statement_20151028.txt",
-    "doc_type": "statement",
-    "date": "2015-10-28",
-    "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
-    "wid": "none",
-    "_flag": "AMBIGUOUS on wid: 'but is monitoring global economic and financial developments' introduces a cautionary hedge. Per the instructions this is not a genuine opposing economic force (it is a monitoring posture), so wid=none. However the juxtaposition of 'nearly balanced' with an active monitoring caveat could be read as a mild contested signal. Retained wid=none."
-  },
-  {
     "id": "8ebeef46-9b81-4714-980a-49e5402f3354",
     "sentence": "The Committee expects inflation to moderate in coming quarters, reflecting a projected leveling-out of energy and other commodity prices and an easing of pressures on resource utilization.",
     "source": "statement_20080318.txt",

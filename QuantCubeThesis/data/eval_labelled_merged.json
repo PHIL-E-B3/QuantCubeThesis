@@ -8694,5 +8694,362 @@
     "wid": "none",
     "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
     "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
+  },
+  {
+    "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
+    "sentence": "Participants generally continued to see recent fiscal policy changes as supportive of economic growth over the next few years, and a few indicated that fiscal policy posed an upside risk.",
+    "source": "minutes_20180613.html",
+    "doc_type": "minutes",
+    "date": "20180613",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": 1,
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "3fc8fde4-7a8d-47ca-ba46-d5f2f7d18a36",
+    "sentence": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation. These risks included the imbalance of aggregate demand and supply persisting longer than expected, as well as risks emanating from global oil markets, the potential for upside shocks to food prices, the effects of a strong housing market on shelter inflation, and the potential for more limited declines in goods prices.",
+    "source": "minutes_20230920.html",
+    "doc_type": "minutes",
+    "date": "20230920",
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": -2,
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "9d969986-9f80-4bfb-9fc2-05dbf62539b9",
+    "sentence": "The manager noted that current financial conditions appeared to be providing neither a headwind nor tailwind to growth.",
+    "source": "minutes_20240731.html",
+    "doc_type": "minutes",
+    "date": "20240731",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "b2ac9971-f225-4ee5-8f98-5ab9fb40943c",
+    "sentence": "At times it may be above 2 percent, just as at times it may be below.",
+    "source": "FOMCpresconf20180321.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180321",
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "818595c0-3e02-475f-9a72-f119a8419d17",
+    "sentence": "One can identify both upside and downside risks there.",
+    "source": "FOMCpresconf20160316.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20160316",
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "bf226524-b36f-4d8b-9520-8ea649a60a87",
+    "sentence": "Actual growth may turn out to be weaker or stronger, and the choices we make as a society will have something to say about that.",
+    "source": "Recent Economic Developments and Longer-Run Challenges",
+    "doc_type": "speech",
+    "date": "2016-11-29",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "a7717454-121b-40c6-92bb-da1bceb804ec",
+    "sentence": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
+    "source": "statement_20140618.txt",
+    "doc_type": "statement",
+    "date": "2014-06-18",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "fb9998c2-d465-4b05-b2ae-dfc24a8ed8e9",
+    "sentence": "Overall, taking into account domestic and international developments, the Committee sees the risks to the outlook for both economic activity and the labor market as balanced.",
+    "source": "statement_20151216.txt",
+    "doc_type": "statement",
+    "date": "2015-12-16",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none",
+    "_note": "Risk assessment covering both economic activity and the labor market with no single dominant variable = macro. 'Risks... as balanced' is an explicit symmetry statement = ris=symmetric. ten=forward (outlook). sen=0 (balanced risks, no net tilt). wid=none ('balanced' signals confidence, not elevated uncertainty)."
+  },
+  {
+    "id": "6e7bf89f-b766-4257-94d0-24d7aaea13a7",
+    "sentence": "The Committee continues to see the risks to the outlook for economic activity and the labor market as nearly balanced but is monitoring global economic and financial developments.",
+    "source": "statement_20151028.txt",
+    "doc_type": "statement",
+    "date": "2015-10-28",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none",
+    "_flag": "AMBIGUOUS on wid: 'but is monitoring global economic and financial developments' introduces a cautionary hedge. Per the instructions this is not a genuine opposing economic force (it is a monitoring posture), so wid=none. However the juxtaposition of 'nearly balanced' with an active monitoring caveat could be read as a mild contested signal. Retained wid=none."
+  },
+  {
+    "id": "79c67335-027b-4dc7-81d2-fc4ff2174d66",
+    "sentence": "The staff viewed the risks of upside inflationary pressures as having increased since the previous forecast and now saw the risks to the inflation projection as balanced.",
+    "source": "minutes_20210317.html",
+    "doc_type": "minutes",
+    "date": "20210317",
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "302a3b57-3ca7-4161-91fc-65c2d119ad7a",
+    "sentence": "Markets were attentive to the de-escalation of trade tensions; generally weaker-than-expected economic data releases, with the notable exception of the May employment report; and prospects for fiscal expansion. These factors, on net, resulted in some paring back of investors' perception of downside risk to growth and upside risk to inflation.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "42cea52d-f7c6-458d-9db9-260298cabebc",
+    "sentence": "The staff continued to judge that uncertainty around the baseline projection was considerable and still viewed the risks as being influenced importantly by the potential macroeconomic implications of banking-sector developments, which could end up being more, or less, negative than assumed in the baseline.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "com": "none",
+    "hor": false,
+    "ris": "symmetric",
+    "wid": "elevated"
+  },
+  {
+    "id": "22e2aaea-c897-498c-a45e-4c7d9e980291",
+    "sentence": "Total nonfarm payroll employment increased at a robust pace during those two months.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 2,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "acefd1ff-7de4-448c-87da-0189021a59d5",
+    "sentence": "The rate of private-sector job openings continued to be elevated in June and July, while the rate of quits moved higher on balance; initial claims for unemployment insurance benefits were at a historically low level in mid-September.",
+    "source": "minutes_20180926.html",
+    "doc_type": "minutes",
+    "date": "20180926",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 2,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "60bb15bb-d5b0-4e60-83e0-2d37884adb8d",
+    "sentence": "Employers are having difficulties filling job openings, and wages are rising at the fastest pace in many years.",
+    "source": "FOMCpresconf20220504.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20220504",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 2,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c9f81a10-bde3-4a9b-9048-92df6c65e097",
+    "sentence": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent.",
+    "source": "Fighting Inflation in Challenging Times",
+    "doc_type": "speech",
+    "date": "2022-08-06",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 2,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "40770022-9513-466c-99fc-5210a107b05c",
+    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.",
+    "source": "FOMCpresconf20230920.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230920",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": 2,
+    "com": "unconditional",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "daf97696-7cf5-487a-9840-e0613c3808c5",
+    "sentence": "And a number of important upside inflation risks remain.",
+    "source": "The Future of Banking",
+    "doc_type": "speech",
+    "date": "2024-02-02",
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "61411fc1-328c-4d4a-972e-8740bb4096b2",
+    "sentence": "Many participants noted that -- with inflation well above the Committee's objective, inflationary risks to the upside, and the federal funds rate well below participants' estimates of its longer-run level -- they would have preferred a 50 basis point increase in the target range for the federal funds rate at this meeting.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "4f37d367-b296-4510-b478-c868c339efd6",
+    "sentence": "But supply chains were slower to recover, leading to a global surge in inflation.",
+    "source": "The Dual Mandate and the Balance of Risks",
+    "doc_type": "speech",
+    "date": "2024-03-25",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
+    "sentence": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
+    "source": "Developing Communities through Public-private Partnerships",
+    "doc_type": "speech",
+    "date": "2026-03-24",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 2,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
   }
 ]

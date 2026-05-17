@@ -68,23 +68,6 @@
     "wid": "contested"
   },
   {
-    "id": "bf226524-b36f-4d8b-9520-8ea649a60a87",
-    "sentence": "Actual growth may turn out to be weaker or stronger, and the choices we make as a society will have something to say about that.",
-    "source": "Recent Economic Developments and Longer-Run Challenges",
-    "doc_type": "speech",
-    "date": "2016-11-29",
-    "context_question": null,
-    "top": [
-      "economic_activity"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
-    "wid": "none"
-  },
-  {
     "id": "4444e2af-2814-43e4-830f-46ac84e22487",
     "sentence": "Economists at central banks and in academia will need to devote much effort to overcoming these deficiencies in coming years.",
     "source": "Productivity and Innovation in Financial Services ",

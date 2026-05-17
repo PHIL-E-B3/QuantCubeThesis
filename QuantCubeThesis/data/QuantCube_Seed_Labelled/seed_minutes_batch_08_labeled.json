@@ -81,38 +81,6 @@
     "wid": "none"
   },
   {
-    "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
-    "sentence": "Participants generally continued to see recent fiscal policy changes as supportive of economic growth over the next few years, and a few indicated that fiscal policy posed an upside risk.",
-    "source": "minutes_20180613.html",
-    "doc_type": "minutes",
-    "date": "20180613",
-    "top": [
-      "economic_activity"
-    ],
-    "ten": "interpretive",
-    "sen": 1,
-    "com": "none",
-    "hor": false,
-    "ris": "skewed_upside",
-    "wid": "none"
-  },
-  {
-    "id": "3fc8fde4-7a8d-47ca-ba46-d5f2f7d18a36",
-    "sentence": "But with inflation still well above the Committee's longer-run goal and the labor market remaining tight, most participants continued to see upside risks to inflation. These risks included the imbalance of aggregate demand and supply persisting longer than expected, as well as risks emanating from global oil markets, the potential for upside shocks to food prices, the effects of a strong housing market on shelter inflation, and the potential for more limited declines in goods prices.",
-    "source": "minutes_20230920.html",
-    "doc_type": "minutes",
-    "date": "20230920",
-    "top": [
-      "inflation"
-    ],
-    "ten": "interpretive",
-    "sen": -2,
-    "com": "none",
-    "hor": false,
-    "ris": "skewed_upside",
-    "wid": "none"
-  },
-  {
     "id": "0c0774f0-57a7-4ff9-a7ff-7acc2683cf25",
     "sentence": "Purchasing and selling obligations of, or fully guaranteed as to principal and interest by, a foreign government or agency thereof (\"Permitted Foreign Securities\") through outright purchases and sales;",
     "source": "minutes_20220126.html",

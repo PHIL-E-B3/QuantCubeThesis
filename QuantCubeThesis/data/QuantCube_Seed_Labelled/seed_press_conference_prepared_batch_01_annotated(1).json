@@ -121,23 +121,6 @@
     "wid": "none"
   },
   {
-    "id": "60bb15bb-d5b0-4e60-83e0-2d37884adb8d",
-    "sentence": "Employers are having difficulties filling job openings, and wages are rising at the fastest pace in many years.",
-    "source": "FOMCpresconf20220504.json",
-    "doc_type": "press_conference_prepared",
-    "date": "20220504",
-    "context_question": null,
-    "top": [
-      "labor_market"
-    ],
-    "ten": "descriptive",
-    "sen": 2,
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "cfbecc9d-5439-427e-8a13-872ad409588d",
     "sentence": "Since early last year, we have raised interest rates by a total of 5 percentage points in order to attain a stance of monetary policy that is sufficiently restrictive to return inflation to 2 percent over time.",
     "source": "FOMCpresconf20230503.json",
@@ -171,23 +154,6 @@
     "com": "conditional",
     "hor": true,
     "ris": "na",
-    "wid": "none"
-  },
-  {
-    "id": "b2ac9971-f225-4ee5-8f98-5ab9fb40943c",
-    "sentence": "At times it may be above 2 percent, just as at times it may be below.",
-    "source": "FOMCpresconf20180321.pdf",
-    "doc_type": "press_conference_prepared",
-    "date": "20180321",
-    "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
     "wid": "none"
   },
   {

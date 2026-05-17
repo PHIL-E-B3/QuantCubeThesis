@@ -34,23 +34,6 @@
     "wid": "none"
   },
   {
-    "id": "c9f81a10-bde3-4a9b-9048-92df6c65e097",
-    "sentence": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate finally returning to the pre-pandemic level of 3.5 percent.",
-    "source": "Fighting Inflation in Challenging Times",
-    "doc_type": "speech",
-    "date": "2022-08-06",
-    "context_question": null,
-    "top": [
-      "labor_market"
-    ],
-    "ten": "descriptive",
-    "sen": 2,
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "8252af44-6b56-46dd-9d7d-93f41defc9b2",
     "sentence": "Although a significant portion of household wealth is held through homeownership for the U.S. overall, buying a home on trust land can be a complicated transaction.",
     "source": "Modernizing and Strengthening CRA Regulations: A Conversation with the National Congress of American Indians",

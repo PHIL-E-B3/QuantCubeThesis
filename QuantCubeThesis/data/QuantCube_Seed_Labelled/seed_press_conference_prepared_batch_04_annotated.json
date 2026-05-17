@@ -17,23 +17,6 @@
     "wid": "none"
   },
   {
-    "id": "40770022-9513-466c-99fc-5210a107b05c",
-    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.",
-    "source": "FOMCpresconf20230920.json",
-    "doc_type": "press_conference_prepared",
-    "date": "20230920",
-    "context_question": null,
-    "top": [
-      "monetary_policy"
-    ],
-    "ten": "descriptive",
-    "sen": 2,
-    "com": "unconditional",
-    "hor": false,
-    "ris": "na",
-    "wid": "none"
-  },
-  {
     "id": "e1058cbc-88cb-4f3f-adae-ee49ffdcfd65",
     "sentence": "We continue to monitor the recent increases in gasoline prices, which appear to be due mostly to passing factors such as refinery shutdowns for maintenance.",
     "source": "FOMCpresconf20130320.pdf",

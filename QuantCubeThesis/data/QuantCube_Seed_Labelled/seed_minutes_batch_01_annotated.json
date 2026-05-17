@@ -32,22 +32,6 @@
     "wid": "none"
   },
   {
-    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
-    "source": "minutes_20230503.html",
-    "doc_type": "minutes",
-    "date": "20230503",
-    "top": [
-      "financial_conditions"
-    ],
-    "ten": "descriptive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "contested"
-  },
-  {
     "id": "0b4fd2a2-9b9c-4ba2-a3f3-86bb3e0317c0",
     "sentence": "The recent 12-month measures of inflation were being boosted significantly by the base effects of the drop in prices from the spring of 2020 rolling out of the calculation. In addition, the surge in demand as the economy reopened further, combined with production bottlenecks and supply constraints, contributed to the large recent monthly price increases.",
     "source": "minutes_20210616.html",

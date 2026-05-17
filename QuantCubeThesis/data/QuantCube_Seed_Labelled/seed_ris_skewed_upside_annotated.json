@@ -34,23 +34,6 @@
     "wid": "none"
   },
   {
-    "id": "818595c0-3e02-475f-9a72-f119a8419d17",
-    "sentence": "One can identify both upside and downside risks there.",
-    "source": "FOMCpresconf20160316.pdf",
-    "doc_type": "press_conference_qa",
-    "date": "20160316",
-    "context_question": "Marty Crutsinger, Associated Press. You said in—the policy statement in December said that the risks to the outlook were “balanced,” and you raised rates. That phrasing disappeared then in January and March. Could you talk a little bit about—but in your comments today, you seem to be indicating that not that much has changed. Could you help us understand what needs to happen to get back to “balanced,” and is that the language we need to look for to see the next rate hike?",
-    "top": [
-      "macro"
-    ],
-    "sen": 0,
-    "ten": "interpretive",
-    "hor": "False",
-    "com": "none",
-    "ris": "symmetric",
-    "wid": "none"
-  },
-  {
     "id": "a431d5f3-be80-455e-8e90-c593dc33ff3c",
     "sentence": "Market-based policy rate expectations rose notably in most advanced foreign economies, as core inflation data surprised to the upside in some countries and central bank communications were perceived as pointing to more restrictive policy than expected.",
     "source": "minutes_20230614.html",
@@ -159,24 +142,6 @@
     "wid": "none"
   },
   {
-    "id": "61411fc1-328c-4d4a-972e-8740bb4096b2",
-    "sentence": "Many participants noted that -- with inflation well above the Committee's objective, inflationary risks to the upside, and the federal funds rate well below participants' estimates of its longer-run level -- they would have preferred a 50 basis point increase in the target range for the federal funds rate at this meeting.",
-    "source": "minutes_20220316.html",
-    "doc_type": "minutes",
-    "date": "20220316",
-    "context_question": null,
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": 2,
-    "ten": "interpretive",
-    "hor": "False",
-    "com": "none",
-    "ris": "skewed_upside",
-    "wid": "none"
-  },
-  {
     "id": "f6dc744e-ec78-44e3-85cf-8597f1e14371",
     "sentence": "Nonetheless, participants observed that rapidly rising commodity prices posed upside risks to the stability of longer-term inflation expectations, and thus to the outlook for inflation, even as they posed downside risks to the outlook for growth in consumer spending and business investment.",
     "source": "minutes_20110315.html",
@@ -258,23 +223,6 @@
       "inflation"
     ],
     "sen": 1,
-    "ten": "interpretive",
-    "hor": "False",
-    "com": "none",
-    "ris": "skewed_upside",
-    "wid": "none"
-  },
-  {
-    "id": "daf97696-7cf5-487a-9840-e0613c3808c5",
-    "sentence": "And a number of important upside inflation risks remain.",
-    "source": "The Future of Banking",
-    "doc_type": "speech",
-    "date": "2024-02-02",
-    "context_question": null,
-    "top": [
-      "inflation"
-    ],
-    "sen": 2,
     "ten": "interpretive",
     "hor": "False",
     "com": "none",

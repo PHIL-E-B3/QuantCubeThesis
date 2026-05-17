@@ -180,22 +180,6 @@
     "wid": "none"
   },
   {
-    "id": "42cea52d-f7c6-458d-9db9-260298cabebc",
-    "sentence": "The staff continued to judge that uncertainty around the baseline projection was considerable and still viewed the risks as being influenced importantly by the potential macroeconomic implications of banking-sector developments, which could end up being more, or less, negative than assumed in the baseline.",
-    "source": "minutes_20230614.html",
-    "doc_type": "minutes",
-    "date": "20230614",
-    "top": [
-      "macro"
-    ],
-    "ten": "interpretive",
-    "sen": -1,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
-    "wid": "elevated"
-  },
-  {
     "id": "e5a63625-8806-47aa-9ee5-7f1416af2434",
     "sentence": "In the nonbank sector, leverage at hedge funds remained high, partly on account of the prevalence of the Treasury cash-futures basis trade.",
     "source": "minutes_20241107.html",

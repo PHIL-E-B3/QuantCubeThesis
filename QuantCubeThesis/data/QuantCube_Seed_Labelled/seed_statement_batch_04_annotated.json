@@ -129,24 +129,6 @@
     "_note": "Pure data-dependence / deliberative forward guidance with no directional commitment. 'Will carefully assess incoming data, the evolving outlook, and the balance of risks' = classic neutral watchful-waiting language. No specific action committed to. dir=neutral, com=none. con=[none] because no specific economic condition is named as a trigger — 'incoming data' and 'balance of risks' are generic. ris=na — 'balance of risks' here is a reference to the Committee's monitoring framework, not an assertion about the current risk distribution. wid=none (data-dependence language alone does not trigger elevated)."
   },
   {
-    "id": "fb9998c2-d465-4b05-b2ae-dfc24a8ed8e9",
-    "sentence": "Overall, taking into account domestic and international developments, the Committee sees the risks to the outlook for both economic activity and the labor market as balanced.",
-    "source": "statement_20151216.txt",
-    "doc_type": "statement",
-    "date": "2015-12-16",
-    "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
-    "wid": "none",
-    "_note": "Risk assessment covering both economic activity and the labor market with no single dominant variable = macro. 'Risks... as balanced' is an explicit symmetry statement = ris=symmetric. ten=forward (outlook). sen=0 (balanced risks, no net tilt). wid=none ('balanced' signals confidence, not elevated uncertainty)."
-  },
-  {
     "id": "506c76dd-be7e-4a09-badd-b0a54821ef31",
     "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2 to 2-1/4 percent.",
     "source": "statement_20180926.txt",

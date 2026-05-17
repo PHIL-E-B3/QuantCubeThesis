@@ -208,5 +208,20 @@
     "hor": false,
     "ris": "",
     "wid": ""
+  },
+  {
+    "id": "10ce1e22-68cc-4614-a864-87a36f9987d7",
+    "sentence": "Again, I think that -- I do think that our objective, and this is what's reflected in the SEP, but our objective, really, is to bring inflation down to 2 percent while the labor market remains strong. I think that what's becoming more clear is that many factors that we don't control are going to play a very significant role in deciding whether that's possible or not. And there I'm thinking, of course, of commodity prices, the war in Ukraine, supply chain [developments], things like that, where we really -- the monetary policy stance doesn't affect those things. But having said that, there is a path for us to get there -- it's not getting easier; it's getting more challenging because of these external forces -- and that path is to move demand down, and you have a lot of surplus demand.",
+    "source": "FOMCpresconf20220615.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220615",
+    "context_question": "Are you more concerned now that to bring down inflation, it’s going to require more than just some pain at this point?",
+    "top": [],
+    "ten": "descriptive",
+    "sen": "",
+    "com": "",
+    "hor": false,
+    "ris": "",
+    "wid": ""
   }
 ]

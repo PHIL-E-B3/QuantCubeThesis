@@ -229,22 +229,5 @@
     "hor": false,
     "ris": "skewed_upside",
     "wid": "elevated"
-  },
-  {
-    "id": "a7717454-121b-40c6-92bb-da1bceb804ec",
-    "sentence": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
-    "source": "statement_20140618.txt",
-    "doc_type": "statement",
-    "date": "2014-06-18",
-    "context_question": null,
-    "top": [
-      "macro"
-    ],
-    "ten": "interpretive",
-    "sen": 0,
-    "com": "none",
-    "hor": false,
-    "ris": "symmetric",
-    "wid": "none"
   }
 ]

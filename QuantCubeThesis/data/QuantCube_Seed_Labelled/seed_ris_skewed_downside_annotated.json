@@ -261,23 +261,6 @@
     "wid": "none"
   },
   {
-    "id": "302a3b57-3ca7-4161-91fc-65c2d119ad7a",
-    "sentence": "Markets were attentive to the de-escalation of trade tensions; generally weaker-than-expected economic data releases, with the notable exception of the May employment report; and prospects for fiscal expansion. These factors, on net, resulted in some paring back of investors' perception of downside risk to growth and upside risk to inflation.",
-    "source": "minutes_20250618.html",
-    "doc_type": "minutes",
-    "date": "20250618",
-    "context_question": null,
-    "top": [
-      "financial_conditions"
-    ],
-    "ten": "descriptive",
-    "sen": 0,
-    "hor": false,
-    "com": "none",
-    "ris": "symmetric",
-    "wid": "contested"
-  },
-  {
     "id": "5cc052c2-330b-48c9-9f44-80e27b5a6d13",
     "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the middle of 2025.",
     "source": "minutes_20251210.html",

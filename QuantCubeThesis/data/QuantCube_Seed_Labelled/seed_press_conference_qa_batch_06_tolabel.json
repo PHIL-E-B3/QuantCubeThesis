@@ -45,6 +45,21 @@
     "wid": ""
   },
   {
+    "id": "5832fe66-8f3a-44bc-9447-8278e3c07a44",
+    "sentence": "My base case is that -- is, as I've said repeatedly, is that inflation will move back down. And no, we're not -- we, we have not at all changed our view, and I haven't changed my view that inflation running above 2 percent, moderately above 2 percent, is a desirable thing. This is not moderately above 2 percent. This is well above 2 percent. But it's also not the kind of inflation we were looking for. This is really driven by a supply-side shock.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210728",
+    "context_question": "Hi. Thanks for taking my question. Chair Powell, I was going to go back to inflation a little bit. I’m just kind of surprised by your tone. It, it seems like you’re just sort of warning that, if inflation gets too high, you know, the Fed will act. Isn’t it true that, I mean, a little inflation is good for the economy and, and that we—if somehow maybe we can get the economy out of this sort of place where we’re always going to be close to the zero lower bound, isn’t there a good story to tell, and you’re sort of panicking people?",
+    "top": [],
+    "ten": "descriptive",
+    "sen": "",
+    "com": "",
+    "hor": false,
+    "ris": "",
+    "wid": ""
+  },
+  {
     "id": "fd69a877-4b3e-435a-b292-5cce4f2ba74e",
     "sentence": "It really -- it has no implications at all for monetary policy.",
     "source": "FOMCpresconf20250319.json",
