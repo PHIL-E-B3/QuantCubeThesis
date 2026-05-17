@@ -1,6 +1,6 @@
 {
   "model": "unsloth/Meta-Llama-3.1-8B-Instruct",
-  "prompt": "P3_medium_5shot",
+  "prompt": "P1_medium_3shot",
   "epochs": 3,
   "learning_rate": 0.0002,
   "batch_size": 8,
@@ -26,13 +26,13 @@
   "weight_decay": 0.01,
   "seed": 42,
   "token_length_stats": {
-    "min": 1065,
-    "median": 1094,
-    "max": 1243,
+    "min": 883,
+    "median": 912,
+    "max": 1061,
     "exceeding_max": 0
   },
   "train_size": 455,
   "test_size": 114,
-  "timestamp": "2026-05-17T12:43:00.056881",
+  "timestamp": "2026-05-17T12:31:33.423984",
   "gpu": "NVIDIA A100-SXM4-80GB"
 }

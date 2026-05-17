@@ -575,5 +575,5 @@
   ],
   "train_size": 455,
   "test_size": 114,
-  "prompt": "P3_medium_5shot"
+  "prompt": "P1_medium_3shot"
 }

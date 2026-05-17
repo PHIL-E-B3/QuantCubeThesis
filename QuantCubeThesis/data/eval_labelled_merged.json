@@ -1224,7 +1224,7 @@
   },
   {
     "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
-    "sentence": "Business contacts in a couple of Districts—particularly those in the manufacturing, health-care, and technology sectors—reported having trouble hiring workers for reasons likely related to virus cases or workers' need to provide childcare.",
+    "sentence": "Business contacts in a couple of Districts\u2014particularly those in the manufacturing, health-care, and technology sectors\u2014reported having trouble hiring workers for reasons likely related to virus cases or workers' need to provide childcare.",
     "source": "minutes_20201105.html",
     "doc_type": "minutes",
     "date": "20201105",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
-    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that—with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs—their situations could deteriorate significantly if additional relief and support did not materialize.",
+    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that\u2014with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs\u2014their situations could deteriorate significantly if additional relief and support did not materialize.",
     "source": "minutes_20201216.html",
     "doc_type": "minutes",
     "date": "20201216",
@@ -2759,7 +2759,7 @@
   },
   {
     "id": "59711e2f-0d43-4d1f-b597-875645ee9c96",
-    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committeeâs holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committee\u00e2s holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
     "source": "statement_20150128.txt",
     "doc_type": "statement",
     "date": "2015-01-28",
@@ -3149,7 +3149,7 @@
   },
   {
     "id": "cc5529f5-7e1e-47e8-93d7-0bd22edf5a55",
-    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2â1/2 percent.",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2\u00e21/2 percent.",
     "source": "statement_20181219.txt",
     "doc_type": "statement",
     "date": "2018-12-19",
@@ -3306,7 +3306,7 @@
   },
   {
     "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
-    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgageâbacked securities by at least $10 billion per month.",
+    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage\u00e2backed securities by at least $10 billion per month.",
     "source": "statement_20220126.txt",
     "doc_type": "statement",
     "date": "2022-01-26",
@@ -3634,7 +3634,7 @@
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120425",
-    "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It's at the lowest level since the early '80s. Can you talk about why people are dropping out of the job market, whether it's a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds—your colleague Sheila Bair wrote this week that her—about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
+    "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It's at the lowest level since the early '80s. Can you talk about why people are dropping out of the job market, whether it's a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds\u2014your colleague Sheila Bair wrote this week that her\u2014about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
     "top": [
       "monetary_policy"
     ],
@@ -3651,7 +3651,7 @@
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120425",
-    "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections—in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the—watching your actions get a better sense of exactly what you're thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you've been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
+    "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections\u2014in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the\u2014watching your actions get a better sense of exactly what you're thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you've been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
     "top": [
       "boilerplate"
     ],
@@ -3668,7 +3668,7 @@
     "source": "FOMCpresconf20120620.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120620",
-    "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed's accommodative actions over the past few years has been that it's helped those with the least propensity to spend—the wealthy, large businesses and corporations—while the Fed's impact on those with the most propensity to spend—the cash- strapped and middle-income households—has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
+    "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed's accommodative actions over the past few years has been that it's helped those with the least propensity to spend\u2014the wealthy, large businesses and corporations\u2014while the Fed's impact on those with the most propensity to spend\u2014the cash- strapped and middle-income households\u2014has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
     "top": [
       "financial_conditions"
     ],
@@ -3753,7 +3753,7 @@
   },
   {
     "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
-    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6½ percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
+    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6\u00bd percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
     "source": "FOMCpresconf20121212.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20121212",
@@ -3776,7 +3776,7 @@
     "source": "FOMCpresconf20121212.pdf",
     "doc_type": "press_conference_qa",
     "date": "20121212",
-    "context_question": "Okay, sir, I had a follow-up, too. I'm not going to ask you whether we're in a bond bubble. But obviously, the new guidance that you've given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping—was that a consideration in adding this transparency?",
+    "context_question": "Okay, sir, I had a follow-up, too. I'm not going to ask you whether we're in a bond bubble. But obviously, the new guidance that you've given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping\u2014was that a consideration in adding this transparency?",
     "top": [
       "no_topic"
     ],
@@ -3874,7 +3874,7 @@
   },
   {
     "id": "bf42e137-1c92-498b-8c88-4acaf8b3eb16",
-    "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to ¼ percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.",
+    "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to \u00bc percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20130918",
@@ -3948,7 +3948,7 @@
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20130918",
-    "context_question": "Mr. Chairman, Josh Zumbrun from Bloomberg News. You indicated that you can see the Fed lowering the pace of purchases once the economy starts to grow faster, in line with what the Fed's projected. For about the past four years, the Fed has been projecting that growth would quicken to about 3 percent, and it never has. So, at what point are you decide—going to decide that other costs and benefits are the reason that you're making the decision? Are we getting close to that having to be a deciding factor even if you don't get the growth forecast, the way you haven't the past four years? And does the complication of this— this is kind of a second question, but I'm going to do it anyway—does the complication of this mean that you need a press conference to make a tapering decision?",
+    "context_question": "Mr. Chairman, Josh Zumbrun from Bloomberg News. You indicated that you can see the Fed lowering the pace of purchases once the economy starts to grow faster, in line with what the Fed's projected. For about the past four years, the Fed has been projecting that growth would quicken to about 3 percent, and it never has. So, at what point are you decide\u2014going to decide that other costs and benefits are the reason that you're making the decision? Are we getting close to that having to be a deciding factor even if you don't get the growth forecast, the way you haven't the past four years? And does the complication of this\u2014 this is kind of a second question, but I'm going to do it anyway\u2014does the complication of this mean that you need a press conference to make a tapering decision?",
     "top": [
       "labor_market"
     ],
@@ -3999,7 +3999,7 @@
     "source": "FOMCpresconf20131218.pdf",
     "doc_type": "press_conference_qa",
     "date": "20131218",
-    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of—given all you've said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer—wait for more data?",
+    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of\u2014given all you've said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer\u2014wait for more data?",
     "top": [
       "monetary_policy",
       "inflation"
@@ -4047,7 +4047,7 @@
   },
   {
     "id": "4fa1081d-c247-4fd8-9078-2919cabcd50f",
-    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6½ percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"",
+    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6\u00bd percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"",
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20140319",
@@ -4087,7 +4087,7 @@
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_qa",
     "date": "20140319",
-    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6½ percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
+    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6\u00bd percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
     "top": [
       "monetary_policy",
       "inflation"
@@ -4158,7 +4158,7 @@
     "source": "FOMCpresconf20140917.pdf",
     "doc_type": "press_conference_qa",
     "date": "20140917",
-    "context_question": "Jon Hilsenrath from the Wall Street Journal. Chair Yellen, I want to come back to the interest rate projections that the Fed put out today. The public, I think, would be enlightened by knowing a bit more about where you stand in relation to these projections. And with that in mind, and in the name of transparency, I wonder if you could describe to us whether you're at the low end of those projections, within the central tendency, or at the high end. I also want to ask you about a San Francisco Fed paper that came out recently, which suggested that market expectations have been running below the Fed's own projections. So I wanted to ask you if you see that as well, and whether it's at all troubling that market expectations might not be aligned with the central—with what the Fed put out today.",
+    "context_question": "Jon Hilsenrath from the Wall Street Journal. Chair Yellen, I want to come back to the interest rate projections that the Fed put out today. The public, I think, would be enlightened by knowing a bit more about where you stand in relation to these projections. And with that in mind, and in the name of transparency, I wonder if you could describe to us whether you're at the low end of those projections, within the central tendency, or at the high end. I also want to ask you about a San Francisco Fed paper that came out recently, which suggested that market expectations have been running below the Fed's own projections. So I wanted to ask you if you see that as well, and whether it's at all troubling that market expectations might not be aligned with the central\u2014with what the Fed put out today.",
     "top": [
       "boilerplate"
     ],
@@ -4192,7 +4192,7 @@
     "source": "FOMCpresconf20141217.pdf",
     "doc_type": "press_conference_qa",
     "date": "20141217",
-    "context_question": "Marty Crutsinger with the Associated Press. Given the— what's happening now with the transition with the Fed, there seems to be a pattern developing that the market expects big news to come when you have a press conference and no news to come when you don't have one. But is that a good expectation? And is there any thought to starting to have a press conference at every meeting?",
+    "context_question": "Marty Crutsinger with the Associated Press. Given the\u2014 what's happening now with the transition with the Fed, there seems to be a pattern developing that the market expects big news to come when you have a press conference and no news to come when you don't have one. But is that a good expectation? And is there any thought to starting to have a press conference at every meeting?",
     "top": [
       "monetary_policy"
     ],
@@ -4209,7 +4209,7 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks—notably Japan, Sweden also—suggests that tightening early when you're at the zero lower bound can be a risky process—the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that's influencing the debate in the FOMC at the moment.",
+    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks\u2014notably Japan, Sweden also\u2014suggests that tightening early when you're at the zero lower bound can be a risky process\u2014the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that's influencing the debate in the FOMC at the moment.",
     "top": [
       "monetary_policy"
     ],
@@ -4226,7 +4226,7 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "If I could follow up on his question. I think when you get asked about financial crimes and the public hears you talk about compliance, you get a sense that there's not enough enforcement involved in these actions, and that it's merely a case of kind of trying to achieve settlements after the fact. Is there a sense in the regulatory community that financial crimes need to be punished sort of more forcefully in order for them to be—for there to be an actual deterrent against unethical behavior?",
+    "context_question": "If I could follow up on his question. I think when you get asked about financial crimes and the public hears you talk about compliance, you get a sense that there's not enough enforcement involved in these actions, and that it's merely a case of kind of trying to achieve settlements after the fact. Is there a sense in the regulatory community that financial crimes need to be punished sort of more forcefully in order for them to be\u2014for there to be an actual deterrent against unethical behavior?",
     "top": [
       "no_topic"
     ],
@@ -4243,7 +4243,7 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "Peter Cook of Bloomberg Television. Madame Chair, one clarification, if I could, logistically, and then a question about Congress, a follow-up. First of all, you've been asked this before, I just want to see if we can clarify. When you decide to start raising interest rates, could that decision happen at a meeting in which you—it's not followed by a press conference? And, on my congressional question, I would like to get your reaction to your—the treatment you received up on Capitol Hill the other day. It didn't look like a very pleasant experience, certainly in front of the House, at least at moments. I wondered if you have concerns about that. Has the relationship between the Fed and Congress deteriorated to a point that it causes you concern? What, if anything, can you do about it as well?",
+    "context_question": "Peter Cook of Bloomberg Television. Madame Chair, one clarification, if I could, logistically, and then a question about Congress, a follow-up. First of all, you've been asked this before, I just want to see if we can clarify. When you decide to start raising interest rates, could that decision happen at a meeting in which you\u2014it's not followed by a press conference? And, on my congressional question, I would like to get your reaction to your\u2014the treatment you received up on Capitol Hill the other day. It didn't look like a very pleasant experience, certainly in front of the House, at least at moments. I wondered if you have concerns about that. Has the relationship between the Fed and Congress deteriorated to a point that it causes you concern? What, if anything, can you do about it as well?",
     "top": [
       "boilerplate"
     ],
@@ -4349,7 +4349,7 @@
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150917",
-    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed's policy of maintaining a large balance sheet—by not starting to shrink that balance sheet by curtailing reinvestments and rollovers—that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it's—until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
+    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed's policy of maintaining a large balance sheet\u2014by not starting to shrink that balance sheet by curtailing reinvestments and rollovers\u2014that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it's\u2014until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
     "top": [
       "monetary_policy"
     ],
@@ -4385,7 +4385,7 @@
     "source": "FOMCpresconf20151216.pdf",
     "doc_type": "press_conference_qa",
     "date": "20151216",
-    "context_question": "Marty Crutsinger with the Associated Press. I guess the word is \"finally.\" The—we have asked you for so long, \"Why were you delaying? Why were you delaying?\" So, I'll ask, given developments around the world that still—there is still weakness, and the inflation is still nowhere near your target. What made you say \"Do it now\"? Some have said it was because you feared a lack of credibility if you didn't move. Did that play a role in your decision?",
+    "context_question": "Marty Crutsinger with the Associated Press. I guess the word is \"finally.\" The\u2014we have asked you for so long, \"Why were you delaying? Why were you delaying?\" So, I'll ask, given developments around the world that still\u2014there is still weakness, and the inflation is still nowhere near your target. What made you say \"Do it now\"? Some have said it was because you feared a lack of credibility if you didn't move. Did that play a role in your decision?",
     "top": [
       "boilerplate"
     ],
@@ -4470,7 +4470,7 @@
     "source": "FOMCpresconf20160615.pdf",
     "doc_type": "press_conference_qa",
     "date": "20160615",
-    "context_question": "Hi, I'm Jason Lange with Reuters. The median participant forecast for the fed funds rate for 2017 and 2018 came down quite dramatically, but this stands in contrast with the 2016 meeting forecast. As you mentioned, there were a number—actually, six— participants who saw only one rate hike this year. Can you comment on what it would take for two rate increases to be a—the likely or appropriate policy path? And about this disconnect between the median view and the view of the, say, the voting members of the Committee? If there is one, I should add. Thank you.",
+    "context_question": "Hi, I'm Jason Lange with Reuters. The median participant forecast for the fed funds rate for 2017 and 2018 came down quite dramatically, but this stands in contrast with the 2016 meeting forecast. As you mentioned, there were a number\u2014actually, six\u2014 participants who saw only one rate hike this year. Can you comment on what it would take for two rate increases to be a\u2014the likely or appropriate policy path? And about this disconnect between the median view and the view of the, say, the voting members of the Committee? If there is one, I should add. Thank you.",
     "top": [
       "boilerplate"
     ],
@@ -4539,7 +4539,7 @@
     "source": "FOMCpresconf20160921.pdf",
     "doc_type": "press_conference_qa",
     "date": "20160921",
-    "context_question": "Steve Liesman, CNBC. Madam Chair, critics of the Federal Reserve have said that you look for any excuse not to hike, that the goalposts constantly move. And it looks, indeed, like there are new goalposts now when you say looking for \"further evidence\" and—and you suggest that it's evidence that labor—labor market slack is \"being taken up.\" Could you explain what \"for the time being\" means, in terms of a time frame, and what that further evidence you would look for in order to hike interest rates? And also, this notion that the goalposts seem to move, and that you've indeed introduced a new goalpost with this statement. Thank you.",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, critics of the Federal Reserve have said that you look for any excuse not to hike, that the goalposts constantly move. And it looks, indeed, like there are new goalposts now when you say looking for \"further evidence\" and\u2014and you suggest that it's evidence that labor\u2014labor market slack is \"being taken up.\" Could you explain what \"for the time being\" means, in terms of a time frame, and what that further evidence you would look for in order to hike interest rates? And also, this notion that the goalposts seem to move, and that you've indeed introduced a new goalpost with this statement. Thank you.",
     "top": [
       "boilerplate"
     ],
@@ -4641,7 +4641,7 @@
     "source": "FOMCpresconf20170614.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170614",
-    "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members'. It's an unobservable thing. At best, it's an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we've learned that the post-recession economy is vastly different than it was before the recession. So I'm wondering, something you've talked about is to focus more on the change in inflation—actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
+    "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members'. It's an unobservable thing. At best, it's an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we've learned that the post-recession economy is vastly different than it was before the recession. So I'm wondering, something you've talked about is to focus more on the change in inflation\u2014actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
     "top": [
       "labor_market"
     ],
@@ -4695,7 +4695,7 @@
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170920",
-    "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be \"an active tool for monetary policy in normal times,\" you don't plan to make adjustments to the balance sheet. I'm wondering if we could explore if there's any sensitivity to the plan you just announced if there's a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the—it suggested the only reason you'd change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there's some unexpected development in markets, or, for example, given that we don't know what the plans are on the fiscal side for the deficit in terms of tax cuts—there could be a sudden spike in the deficit—will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you've just announced and apparent unwillingness to adjust it?",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be \"an active tool for monetary policy in normal times,\" you don't plan to make adjustments to the balance sheet. I'm wondering if we could explore if there's any sensitivity to the plan you just announced if there's a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the\u2014it suggested the only reason you'd change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there's some unexpected development in markets, or, for example, given that we don't know what the plans are on the fiscal side for the deficit in terms of tax cuts\u2014there could be a sudden spike in the deficit\u2014will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you've just announced and apparent unwillingness to adjust it?",
     "top": [
       "monetary_policy"
     ],
@@ -4712,7 +4712,7 @@
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170920",
-    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around ½ percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you've said you expect the inflation softness this year to prove \"transitory.\" Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around \u00bd percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you've said you expect the inflation softness this year to prove \"transitory.\" Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
     "top": [
       "inflation"
     ],
@@ -4746,7 +4746,7 @@
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
     "date": "20171213",
-    "context_question": "I'm Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already—with unemployment so low—that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
+    "context_question": "I'm Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already\u2014with unemployment so low\u2014that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
     "top": [
       "monetary_policy",
       "labor_market",
@@ -4765,7 +4765,7 @@
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
     "date": "20171213",
-    "context_question": "Do you mean me, or—as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking—there have been some reservations among some Democratic senators recently during Governor Powell's confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopted. Do you have any similar reservations about the new leadership's ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the—sort of, the advances that have come from post-crisis regulation?",
+    "context_question": "Do you mean me, or\u2014as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking\u2014there have been some reservations among some Democratic senators recently during Governor Powell's confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopted. Do you have any similar reservations about the new leadership's ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the\u2014sort of, the advances that have come from post-crisis regulation?",
     "top": [
       "no_topic"
     ],
@@ -4867,7 +4867,7 @@
     "source": "FOMCpresconf20251029.json",
     "doc_type": "press_conference_qa",
     "date": "20251029",
-    "context_question": "Well, are you—you must be well aware by lowering interest rates you're contributing to additional asset price increases. And I wonder how you balance the idea that lowering rates would help the labor market with the reality that it seems more likely to be stimulating increased investment in AI, which is the rationale for thousands of job cuts that have been announced in the last few weeks.",
+    "context_question": "Well, are you\u2014you must be well aware by lowering interest rates you're contributing to additional asset price increases. And I wonder how you balance the idea that lowering rates would help the labor market with the reality that it seems more likely to be stimulating increased investment in AI, which is the rationale for thousands of job cuts that have been announced in the last few weeks.",
     "top": [
       "boilerplate"
     ],
@@ -4884,7 +4884,7 @@
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
     "date": "20180926",
-    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I'm wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I'd like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn't show that, but I'm curious how you soft-land without doing that.",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I'm wondering if you can talk about what risks would make the Committee\u2014plausible risks\u2014go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I'd like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn't show that, but I'm curious how you soft-land without doing that.",
     "top": [
       "monetary_policy",
       "economic_activity"
@@ -5005,7 +5005,7 @@
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190501",
-    "context_question": "Victoria Guida with Politico. I wanted to ask—early last month, I believe it was April 2, the Fedwire® system went down. And I was just wondering if you could talk about what happened there, how long it lasted, whether you know what happened, whether you're still looking into it, and whether it's something that could happen again.",
+    "context_question": "Victoria Guida with Politico. I wanted to ask\u2014early last month, I believe it was April 2, the Fedwire\u00ae system went down. And I was just wondering if you could talk about what happened there, how long it lasted, whether you know what happened, whether you're still looking into it, and whether it's something that could happen again.",
     "top": [
       "boilerplate"
     ],
@@ -5107,7 +5107,7 @@
     "source": "FOMCpresconf20190731.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190731",
-    "context_question": "I mean, I just—I'd like to clarify, like, are you pleased with the responsiveness you're getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
+    "context_question": "I mean, I just\u2014I'd like to clarify, like, are you pleased with the responsiveness you're getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
     "top": [
       "no_topic"
     ],
@@ -5177,7 +5177,7 @@
     "source": "FOMCpresconf20190918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190918",
-    "context_question": "If I could just follow up, you've also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy—in this case, further cuts. Wouldn't that suggest that you should be inclined to—if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
+    "context_question": "If I could just follow up, you've also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy\u2014in this case, further cuts. Wouldn't that suggest that you should be inclined to\u2014if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
     "top": [
       "macro"
     ],
@@ -5211,7 +5211,7 @@
     "source": "FOMCpresconf20190918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190918",
-    "context_question": "Hi, Chairman Powell. Brian Cheung with Yahoo Finance. Thanks for taking my question. As we saw with falling yields, at least up until the beginning of this month, there's been a lot of demand for U.S. Treasuries, and even that was partly maybe to blame for the liquidity crunch in repo markets that we saw this week. I mean, does the Fed have concerns over the impacts of a global glut for U.S. debt? Is that a conversation that you also have with Treasury Secretary Mnuchin—about what the proper way to maybe address some of the challenges down the road with that type of, kind of, heavy interest globally?",
+    "context_question": "Hi, Chairman Powell. Brian Cheung with Yahoo Finance. Thanks for taking my question. As we saw with falling yields, at least up until the beginning of this month, there's been a lot of demand for U.S. Treasuries, and even that was partly maybe to blame for the liquidity crunch in repo markets that we saw this week. I mean, does the Fed have concerns over the impacts of a global glut for U.S. debt? Is that a conversation that you also have with Treasury Secretary Mnuchin\u2014about what the proper way to maybe address some of the challenges down the road with that type of, kind of, heavy interest globally?",
     "top": [
       "macro"
     ],
@@ -5228,7 +5228,7 @@
     "source": "FOMCpresconf20191030.pdf",
     "doc_type": "press_conference_qa",
     "date": "20191030",
-    "context_question": "Mr.—Steve Liesman, CNBC. Mr. Chairman, I'm—not to make light of it, but I'm a little bit—I wonder if you could help me out with the appropriate understanding of the word \"appropriate\" here. So the statement says that the Committee is going \"to monitor the implications of incoming information for the outlook as it assesses the appropriate path of the target range.\" That tells me you could go either way. You came in, and you used the word \"appropriate,\" that the current rate is \"likely to remain appropriate,\" which means you're on hold. So how do I walk away from this, and what should we walk away from this believing what \"appropriate\" means? Are you on hold and need to be proved wrong that you should remain on hold, or is it, really, you could go either way here? Thank you.",
+    "context_question": "Mr.\u2014Steve Liesman, CNBC. Mr. Chairman, I'm\u2014not to make light of it, but I'm a little bit\u2014I wonder if you could help me out with the appropriate understanding of the word \"appropriate\" here. So the statement says that the Committee is going \"to monitor the implications of incoming information for the outlook as it assesses the appropriate path of the target range.\" That tells me you could go either way. You came in, and you used the word \"appropriate,\" that the current rate is \"likely to remain appropriate,\" which means you're on hold. So how do I walk away from this, and what should we walk away from this believing what \"appropriate\" means? Are you on hold and need to be proved wrong that you should remain on hold, or is it, really, you could go either way here? Thank you.",
     "top": [
       "monetary_policy",
       "macro"
@@ -5297,7 +5297,7 @@
     "source": "FOMCpresconf20191211.pdf",
     "doc_type": "press_conference_qa",
     "date": "20191211",
-    "context_question": "Is one uncertainty bigger than the other? Is—do you see—not commenting on the deals themselves, is one uncertainty—",
+    "context_question": "Is one uncertainty bigger than the other? Is\u2014do you see\u2014not commenting on the deals themselves, is one uncertainty\u2014",
     "top": [
       "financial_conditions"
     ],
@@ -5384,7 +5384,7 @@
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
     "date": "20210317",
-    "context_question": "Thank you for taking my question. I just wanted to get your—an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to—propose to the overall economy.",
+    "context_question": "Thank you for taking my question. I just wanted to get your\u2014an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to\u2014propose to the overall economy.",
     "top": [
       "financial_conditions"
     ],
@@ -5418,7 +5418,7 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you—do you see things, such as in the Beige Book—you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won't have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
+    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you\u2014do you see things, such as in the Beige Book\u2014you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won't have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
     "top": [
       "labor_market"
     ],
@@ -5435,7 +5435,7 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Hi, Chair Powell. I—I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "context_question": "Hi, Chair Powell. I\u2014I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
     "top": [
       "no_topic"
     ],
@@ -5452,7 +5452,7 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Hi, Chair Powell. I—I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "context_question": "Hi, Chair Powell. I\u2014I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
     "top": [
       "no_topic"
     ],
@@ -5537,7 +5537,7 @@
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
     "date": "20210728",
-    "context_question": "So thank you, Mr. Chairman. Thank you, Mr. Chairman, for taking the question. Now, so you're talking about jobs. You just said we're on a path to a very strong job market. You know, we have 9.5 million people unemployed as of the last labor market survey and 9.2 million job openings. So what's the—what's the disconnect? Is it a skills gap? Is it the extended unemployment benefits? Is it the fact that people just aren't willing to relocate? What is the disconnect there?",
+    "context_question": "So thank you, Mr. Chairman. Thank you, Mr. Chairman, for taking the question. Now, so you're talking about jobs. You just said we're on a path to a very strong job market. You know, we have 9.5 million people unemployed as of the last labor market survey and 9.2 million job openings. So what's the\u2014what's the disconnect? Is it a skills gap? Is it the extended unemployment benefits? Is it the fact that people just aren't willing to relocate? What is the disconnect there?",
     "top": [
       "labor_market"
     ],
@@ -5554,7 +5554,7 @@
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
     "date": "20210728",
-    "context_question": "Hi. Thank you for taking my question. Chair Powell, I guess I wanted to ask about the last—when you were before Congress earlier this month, you mentioned, I think, something along the lines of, it won't take too long before we see if you're right about inflation and its temporary aspect. You also mentioned learning a lot more in the next six months about the economy. Can you tell us a little more of what you mean by that? When do you think you'll get a clean reading on inflation that is free of most of the distortions that we're seeing now?",
+    "context_question": "Hi. Thank you for taking my question. Chair Powell, I guess I wanted to ask about the last\u2014when you were before Congress earlier this month, you mentioned, I think, something along the lines of, it won't take too long before we see if you're right about inflation and its temporary aspect. You also mentioned learning a lot more in the next six months about the economy. Can you tell us a little more of what you mean by that? When do you think you'll get a clean reading on inflation that is free of most of the distortions that we're seeing now?",
     "top": [
       "inflation"
     ],
@@ -5657,7 +5657,7 @@
     "source": "FOMCpresconf20211103.json",
     "doc_type": "press_conference_qa",
     "date": "20211103",
-    "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We've seen what's been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you've been accused of \"fighting the last war\"—that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
+    "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We've seen what's been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you've been accused of \"fighting the last war\"\u2014that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
     "top": [
       "macro"
     ],
@@ -5862,7 +5862,7 @@
   },
   {
     "id": "c2518c60-192c-43e4-b103-e92bcf697ed7",
-    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by ¾ percentage point, resulting in a 1½ percentage point increase in the target range so far this year.",
+    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by \u00be percentage point, resulting in a 1\u00bd percentage point increase in the target range so far this year.",
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_prepared",
     "date": "20220615",
@@ -5883,7 +5883,7 @@
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_qa",
     "date": "20220615",
-    "context_question": "Thanks, Chair Powell. Edward Lawrence with Fox Business. I wanted to ask you—you talked about CPI going to 8.6 percent, that retail sales surprised the market by falling and then revisions to the previous months were down. Are you hearing from contacts about consumers slowing spending or changing their habits?",
+    "context_question": "Thanks, Chair Powell. Edward Lawrence with Fox Business. I wanted to ask you\u2014you talked about CPI going to 8.6 percent, that retail sales surprised the market by falling and then revisions to the previous months were down. Are you hearing from contacts about consumers slowing spending or changing their habits?",
     "top": [
       "economic_activity"
     ],
@@ -6020,7 +6020,7 @@
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
     "date": "20230322",
-    "context_question": "Hi, Chair Powell—thanks for taking the question. Kyle Campbell with American Banker. I have a couple questions about the balance sheet. First of all, I'm curious at what point the financial supports that the Fed is extending through the discount window and through its enhanced lending facility might be at odds with the objective of reducing the balance sheet. And I'm also curious what your thoughts are on the—not just the availability of reserves but the distribution of them throughout the banking system and at what point you might be concerned about it being scarce for certain banks.",
+    "context_question": "Hi, Chair Powell\u2014thanks for taking the question. Kyle Campbell with American Banker. I have a couple questions about the balance sheet. First of all, I'm curious at what point the financial supports that the Fed is extending through the discount window and through its enhanced lending facility might be at odds with the objective of reducing the balance sheet. And I'm also curious what your thoughts are on the\u2014not just the availability of reserves but the distribution of them throughout the banking system and at what point you might be concerned about it being scarce for certain banks.",
     "top": [
       "monetary_policy"
     ],
@@ -6089,7 +6089,7 @@
     "source": "FOMCpresconf20230726.json",
     "doc_type": "press_conference_qa",
     "date": "20230726",
-    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You've talked in the past about getting the housing market back into better balance—excuse me—and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you're talking about tightening industry lending standards? Are we getting closer to balance or farther away? What's your sense?",
+    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You've talked in the past about getting the housing market back into better balance\u2014excuse me\u2014and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you're talking about tightening industry lending standards? Are we getting closer to balance or farther away? What's your sense?",
     "top": [
       "economic_activity"
     ],
@@ -6142,7 +6142,7 @@
     "source": "FOMCpresconf20231213.json",
     "doc_type": "press_conference_qa",
     "date": "20231213",
-    "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
+    "context_question": "Okay. And do you see\u2014I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
     "top": [
       "monetary_policy"
     ],
@@ -6176,7 +6176,7 @@
     "source": "FOMCpresconf20240131.json",
     "doc_type": "press_conference_qa",
     "date": "20240131",
-    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage– price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI report for the fourth quarter shows private-sector payroll growth running at a sub–4 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage\u2013 price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI report for the fourth quarter shows private-sector payroll growth running at a sub\u20134 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
     "top": [
       "economic_activity"
     ],
@@ -6313,7 +6313,7 @@
     "source": "FOMCpresconf20240612.json",
     "doc_type": "press_conference_qa",
     "date": "20240612",
-    "context_question": "As a quick follow-up—the surveys that make up the jobs report are, are showing different tales. There's been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
+    "context_question": "As a quick follow-up\u2014the surveys that make up the jobs report are, are showing different tales. There's been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
     "top": [
       "labor_market"
     ],
@@ -6383,7 +6383,7 @@
     "source": "fomcpresconf20240731.json",
     "doc_type": "press_conference_qa",
     "date": "20240731",
-    "context_question": "Just a quick follow-up—do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
+    "context_question": "Just a quick follow-up\u2014do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
     "top": [
       "no_topic"
     ],
@@ -6400,7 +6400,7 @@
     "source": "FOMCpresconf20240918.json",
     "doc_type": "press_conference_qa",
     "date": "20240918",
-    "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed—Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you’d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
+    "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed\u2014Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you\u2019d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
     "top": [
       "monetary_policy",
       "macro"
@@ -6418,7 +6418,7 @@
     "source": "FOMCpresconf20240918.json",
     "doc_type": "press_conference_qa",
     "date": "20240918",
-    "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I’m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you’re starting to act now and that’s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick’s question, do you see today’s 50 basis point move as partially a response to the fact that you didn’t cut in July and that sort of gets you to the same place?",
+    "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I\u2019m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you\u2019re starting to act now and that\u2019s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick\u2019s question, do you see today\u2019s 50 basis point move as partially a response to the fact that you didn\u2019t cut in July and that sort of gets you to the same place?",
     "top": [
       "monetary_policy"
     ],
@@ -6435,7 +6435,7 @@
     "source": "FOMCpresconf20241107.json",
     "doc_type": "press_conference_qa",
     "date": "20241107",
-    "context_question": "Great. And just to follow up, could you—what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
+    "context_question": "Great. And just to follow up, could you\u2014what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
     "top": [
       "monetary_policy"
     ],
@@ -6471,7 +6471,7 @@
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
     "date": "20241218",
-    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it’s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
+    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it\u2019s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
     "top": [
       "boilerplate"
     ],
@@ -6488,7 +6488,7 @@
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
     "date": "20241218",
-    "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of “looking through” any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
+    "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of \u201clooking through\u201d any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
     "top": [
       "no_topic"
     ],
@@ -6522,7 +6522,7 @@
     "source": "FOMCpresconf20250129.json",
     "doc_type": "press_conference_qa",
     "date": "20250129",
-    "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another ¼ point?",
+    "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another \u00bc point?",
     "top": [
       "monetary_policy",
       "macro"
@@ -6574,7 +6574,7 @@
     "source": "FOMCpresconf20250507.json",
     "doc_type": "press_conference_qa",
     "date": "20250507",
-    "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would—you could tolerate.",
+    "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would\u2014you could tolerate.",
     "top": [
       "no_topic"
     ],
@@ -6608,7 +6608,7 @@
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
     "date": "20250618",
-    "context_question": "You’re famously known as the guy that makes decision based on data instead of speculation. You’ve said today in—the inflation data is in a good place—we don’t know how tariffs are going to impact prices going forward—that’s uncertain. But I’ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today—and you didn’t cut today?",
+    "context_question": "You\u2019re famously known as the guy that makes decision based on data instead of speculation. You\u2019ve said today in\u2014the inflation data is in a good place\u2014we don\u2019t know how tariffs are going to impact prices going forward\u2014that\u2019s uncertain. But I\u2019ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today\u2014and you didn\u2019t cut today?",
     "top": [
       "boilerplate"
     ],
@@ -6625,7 +6625,7 @@
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
     "date": "20250618",
-    "context_question": "Thank you, Chair Powell. So you’re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
+    "context_question": "Thank you, Chair Powell. So you\u2019re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
     "top": [
       "inflation"
     ],
@@ -6642,7 +6642,7 @@
     "source": "FOMCpresconf20250730.json",
     "doc_type": "press_conference_qa",
     "date": "20250730",
-    "context_question": "Thank you, Mr. Chairman. Edward Lawrence from Fox Business. How concerned are you, with, with the data that we're showing—coming in showing no significant upward trend in inflation over the past six months, that the wait-and-see approach for inflation is actually giving companies cover to raise prices?",
+    "context_question": "Thank you, Mr. Chairman. Edward Lawrence from Fox Business. How concerned are you, with, with the data that we're showing\u2014coming in showing no significant upward trend in inflation over the past six months, that the wait-and-see approach for inflation is actually giving companies cover to raise prices?",
     "top": [
       "boilerplate"
     ],
@@ -6659,7 +6659,7 @@
     "source": "FOMCpresconf20250730.json",
     "doc_type": "press_conference_qa",
     "date": "20250730",
-    "context_question": "Thank you, Mr. Chairman, for taking the question. Jeff Cox from CNBC.com. A metric that you like to cite a lot is the final sales to private domestic purchasers. That was down to a 1.2 percent gain in the second quarter from 1.9 percent in Q1, suggesting that there's some softening in underlying demand. Just wondering if you look at that and you combine that with some of the housing numbers that—with the weakness that you acknowledge at the top of your remarks—that the housing market is, in fact, weak. And the inflation numbers from GDP today came down 2.1 percent for headline, 2.5 percent for core. I'm wondering how much more movement you would need to see from these data points before you would be comfortable with cutting in, say, September.",
+    "context_question": "Thank you, Mr. Chairman, for taking the question. Jeff Cox from CNBC.com. A metric that you like to cite a lot is the final sales to private domestic purchasers. That was down to a 1.2 percent gain in the second quarter from 1.9 percent in Q1, suggesting that there's some softening in underlying demand. Just wondering if you look at that and you combine that with some of the housing numbers that\u2014with the weakness that you acknowledge at the top of your remarks\u2014that the housing market is, in fact, weak. And the inflation numbers from GDP today came down 2.1 percent for headline, 2.5 percent for core. I'm wondering how much more movement you would need to see from these data points before you would be comfortable with cutting in, say, September.",
     "top": [
       "economic_activity"
     ],
@@ -6710,7 +6710,7 @@
     "source": "FOMCpresconf20250917.json",
     "doc_type": "press_conference_qa",
     "date": "20250917",
-    "context_question": "Thanks, Mr. Chairman. Edward Lawrence from Fox Business. So we saw the preliminary benchmark revisions, down 911,000. The revisions for June were the first negative revisions we've seen since December of 2020. You know, how can the Fed base important decisions on rate and what to do with the interest—with the interest rates on data that seems to be, as you've called it, in the past, noisy?",
+    "context_question": "Thanks, Mr. Chairman. Edward Lawrence from Fox Business. So we saw the preliminary benchmark revisions, down 911,000. The revisions for June were the first negative revisions we've seen since December of 2020. You know, how can the Fed base important decisions on rate and what to do with the interest\u2014with the interest rates on data that seems to be, as you've called it, in the past, noisy?",
     "top": [
       "no_topic"
     ],
@@ -6723,7 +6723,7 @@
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
-    "sentence": "With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetings.",
+    "sentence": "With today's decision, we have lowered our policy rate \u00be percentage point over our last three meetings.",
     "source": "FOMCpresconf20251210.json",
     "doc_type": "press_conference_prepared",
     "date": "20251210",
@@ -7900,7 +7900,7 @@
   {
     "id": "64ac5ae9-24ee-4d6d-916e-409a1e60adab",
     "sentence": "However, that dynamic also increases the cost, in terms of economic output, of reversing unwelcome increases in longer-run inflation expectations. Thus, it is all the more important that longer-run inflation expectations remain anchored at levels consistent with our 2 percent inflation objective.",
-    "source": "The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
+    "source": "The Federal Reserve\u00e2s Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
     "doc_type": "speech",
     "date": "2019-05-13",
     "context_question": null,
@@ -8293,7 +8293,7 @@
   },
   {
     "id": "7d80d32a-6363-4741-a676-89fb4999addd",
-    "sentence": "At the end of the day, the data should be guiding our policy action—not speculation about what could happen.",
+    "sentence": "At the end of the day, the data should be guiding our policy action\u2014not speculation about what could happen.",
     "source": "Disinflation Progress Uneven but Still on Track Rates Cuts on Track as Well",
     "doc_type": "speech",
     "date": "2025-02-17",
@@ -8310,7 +8310,7 @@
   },
   {
     "id": "ae749f50-8f0a-4181-bb9a-df3e2ef608f5",
-    "sentence": "Conclusion\r\nGraduates—Spartans—you are entering the wider world, one filled with pressing needs, and countless opportunities.",
+    "sentence": "Conclusion\r\nGraduates\u2014Spartans\u2014you are entering the wider world, one filled with pressing needs, and countless opportunities.",
     "source": "Four Guides for the Journey Ahead",
     "doc_type": "speech",
     "date": "2025-05-03",
@@ -8447,7 +8447,7 @@
   },
   {
     "id": "113b7c32-a50a-40c4-ac03-9af59c7a502d",
-    "sentence": "Less restrictive regulations, lower business taxes, and a more favorable business environment will continue to boost supplyâ€”largely due to higher productivityâ€”and more than offset any negative effects on economic activity and inflation from other policies.",
+    "sentence": "Less restrictive regulations, lower business taxes, and a more favorable business environment will continue to boost supply\u00e2\u20ac\u201dlargely due to higher productivity\u00e2\u20ac\u201dand more than offset any negative effects on economic activity and inflation from other policies.",
     "source": "Outlook for the Economy and Monetary Policy",
     "doc_type": "speech",
     "date": "2026-01-30",
@@ -8498,7 +8498,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive — not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together — no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
+    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive \u2014 not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together \u2014 no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
   },
   {
     "id": "9797f119-b35c-456d-ad74-ba26f00093dd",
@@ -8517,7 +8517,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Purely procedural — describes the drafting decision to add language to the statement. No independent policy signal; removing this sentence loses no policy-relevant information. Boilerplate defaults apply."
+    "_annotation_note": "Purely procedural \u2014 describes the drafting decision to add language to the statement. No independent policy signal; removing this sentence loses no policy-relevant information. Boilerplate defaults apply."
   },
   {
     "id": "c163fed3-3623-41b5-9161-a74038d99ecb",
@@ -8536,7 +8536,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Ongoing QT (balance sheet reduction) is a hawkish policy action. sen=+1 because this is continuation of an existing program, not a new emergency escalation — consistent with Example 4 logic. com=unconditional: no stated condition on the continuation ('agreed that they would continue')."
+    "_annotation_note": "Ongoing QT (balance sheet reduction) is a hawkish policy action. sen=+1 because this is continuation of an existing program, not a new emergency escalation \u2014 consistent with Example 4 logic. com=unconditional: no stated condition on the continuation ('agreed that they would continue')."
   },
   {
     "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
@@ -8575,7 +8575,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
-    "_annotation_note": "Explicitly accommodative policy stance = dovish = sen=-1. com=conditional: contingent on 'until these outcomes are achieved'. hor=false: 'until these outcomes' is a condition, not a long-horizon signal per se — no multi-year or 'longer run' language in this sentence itself."
+    "_annotation_note": "Explicitly accommodative policy stance = dovish = sen=-1. com=conditional: contingent on 'until these outcomes are achieved'. hor=false: 'until these outcomes' is a condition, not a long-horizon signal per se \u2014 no multi-year or 'longer run' language in this sentence itself."
   },
   {
     "id": "0b5cbb35-7e26-426d-9000-b93aa0415062",
@@ -8596,7 +8596,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "_annotation_note": "FLAG — AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense → ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program → stays at -1 (not -2)."
+    "_annotation_note": "FLAG \u2014 AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense \u2192 ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program \u2192 stays at -1 (not -2)."
   },
   {
     "id": "91d119c2-b3f1-4a0e-9a8e-5efac24ea138",
@@ -8615,7 +8615,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "_annotation_note": "Present-perfect description of aggregate economic progress — no single variable dominates, hence macro. Progress toward goals = stronger aggregate outlook = hawkish incentive = sen=+1. No forward implication in the sentence itself → descriptive."
+    "_annotation_note": "Present-perfect description of aggregate economic progress \u2014 no single variable dominates, hence macro. Progress toward goals = stronger aggregate outlook = hawkish incentive = sen=+1. No forward implication in the sentence itself \u2192 descriptive."
   },
   {
     "id": "a413ba26-dbad-44c0-b22e-dd5378a7b224",
@@ -8634,7 +8634,7 @@
     "ris": "skewed_downside",
     "wid": "elevated",
     "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable → macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) → ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger → wid=elevated. sen=-1: weaker aggregate outlook."
+    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable \u2192 macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) \u2192 ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger \u2192 wid=elevated. sen=-1: weaker aggregate outlook."
   },
   {
     "id": "aeb15d15-735f-464f-b421-b4deb3c7cec4",
@@ -8653,7 +8653,7 @@
     "ris": "symmetric",
     "wid": "none",
     "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "_annotation_note": "FLAG — AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) — two simultaneously operative signals in the same tense on the same topic → wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
+    "_annotation_note": "FLAG \u2014 AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) \u2014 two simultaneously operative signals in the same tense on the same topic \u2192 wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
   },
   {
     "id": "c1995c38-0c6e-48b7-80ca-b0f69c03d317",
@@ -8693,7 +8693,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
+    "_annotation_note": "FLAG \u2014 AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base \u2014 not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
   },
   {
     "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
@@ -8955,7 +8955,7 @@
   },
   {
     "id": "40770022-9513-466c-99fc-5210a107b05c",
-    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.",
+    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5\u00bc to 5\u00bd percent and to continue the process of significantly reducing our securities holdings.",
     "source": "FOMCpresconf20230920.json",
     "doc_type": "press_conference_prepared",
     "date": "20230920",
@@ -9004,7 +9004,7 @@
   },
   {
     "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
+    "sentence": "Al\u00adthough CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
     "source": "minutes_20230503.html",
     "doc_type": "minutes",
     "date": "20230503",
@@ -9051,5 +9051,1191 @@
     "com": "none",
     "ris": "na",
     "wid": "none"
+  },
+  {
+    "id": "c003923a-eea9-4e2c-b691-51004e3280d7",
+    "sentence": "But if there is a significant shock that's a material deterioration to the outlook, we would consider resuming reinvestment.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170920",
+    "context_question": "Hi, thank you. David Harrison with Dow Jones. I\u2019d like to follow up on the balance sheet question, if I may. What specifically would it take for you to reverse the decision to wind down the balance sheet, and under what conditions would you consider adding to the balance sheet again? And separately, as a follow-up to that, looking more broadly, how do you think history will judge the effectiveness of your asset purchases and the conditions under which that policy should be used? Thank you.",
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "-2",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "a6ec96cd-d12c-49b8-bbeb-2eb3568ab8d9",
+    "sentence": "In light of the significant uncertainty and downside risks associated with the course of the pandemic and how long it would take the economy to recover, the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "8e93feb7-f88b-42f2-a95c-4fa2e6f48ae6",
+    "sentence": "Several participants indicated that the persistence of global disinflationary pressures or the possibility that inflation expectations were moving lower continued to pose downside risks to the inflation outlook.",
+    "source": "minutes_20160316.html",
+    "doc_type": "minutes",
+    "date": "20160316",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "11b1eadc-98e9-4e77-8fe7-68355fc3fc70",
+    "sentence": "While my modal outlook calls for only a gradual reduction in labor market slack and a stable pace of inflation near the FOMC's longer-run objective of 2 percent, I see substantial risks to this outlook, particularly to the downside.",
+    "source": "Perspectives on Monetary Policy",
+    "doc_type": "speech",
+    "date": "2012-06-06",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "-2",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "1751e8e6-3284-4f4e-8c93-5183d7312182",
+    "sentence": "These headwinds had been substantial, as the aftermath of the financial crisis and housing bubble left many homeowners underwater on their mortgages, a large overhang of vacant homes, and mortgage credit very hard to obtain for anyone without an excellent credit record and a sizable down payment.",
+    "source": "Prospects for a Stronger Recovery",
+    "doc_type": "speech",
+    "date": "2013-05-16",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "-2",
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "96b41d44-54f6-4bb5-9763-a1661f7616d9",
+    "sentence": "Indeed, in a statement issued simultaneously with the Federal Reserve Board's August 17 announcement of the cut in the discount rate, the FOMC noted that the downside risks to growth had increased appreciably.",
+    "source": "The Recent Financial Turmoil and its Economic and Policy Consequences",
+    "doc_type": "speech",
+    "date": "2007-10-15",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "-2",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "309e24d8-10a9-4b51-a0c4-c35b32da88f5",
+    "sentence": "Recent weeks, however, have seen important downside risks.",
+    "source": "Fed Listens in Cincinnati: How Does Monetary Policy Affect Your Community?",
+    "doc_type": "speech",
+    "date": "2019-06-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "-2",
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "b709641c-1e2d-42fb-8f28-72e52e54afa1",
+    "sentence": "Still, even if demand declines in line with supply, wage and price inflation could still be boosted if the reduction in immigration results in labor shortages in sectors that depend heavily on immigrant labor.",
+    "source": "Economic Outlook and Supply-Side (Dis)Inflation Dynamics",
+    "doc_type": "speech",
+    "date": "2026-02-06",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "bac7faf6-1863-4e67-8afa-f39975b7ac4f",
+    "sentence": "However, with inflation still below the Committee's 2 percent objective, it was noted that downside risks to inflation remained and that a moderate undershooting of the longer-run normal unemployment rate could help return inflation to 2 percent.",
+    "source": "minutes_20161214.html",
+    "doc_type": "minutes",
+    "date": "20161214",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "1a29cee9-64ee-41fd-bb54-25a5798fc5d3",
+    "sentence": "In addition, participants noted that recent policy actions in the euro area had helped reduce financial stresses and lower downside risks in the short term; however, increased volatility in financial markets remained a possibility if measures to address the longer-term fiscal and banking issues in the euro area were not put in place in a timely fashion.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "d64da3b0-1380-45db-9327-280ec16b072d",
+    "sentence": "Moreover, continuing downside risks to the outlook for economic activity and inflation strengthened the case for providing additional monetary policy accommodation, thereby reducing the risk of another downturn in economic activity or a further decline in inflation.",
+    "source": "The Federal Reserve's Asset Purchase Program",
+    "doc_type": "speech",
+    "date": "2011-01-08",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "084bec94-e35d-4cae-a29a-a806e1f41ba5",
+    "sentence": "Downside risks to the labor market have not diminished, and we should not overemphasize the latest reading on the unemployment rate.",
+    "source": "Outlook for the Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-01-30",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "-1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "77fd6760-5813-47e0-a584-cda2711267ce",
+    "sentence": "Many members stressed the data-dependent nature of the current asset purchase program, and some pointed out that, if economic conditions warranted, the Committee could decide to slow the pace of purchases at one of its next few meetings.",
+    "source": "minutes_20131030.html",
+    "doc_type": "minutes",
+    "date": "20131030",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "1",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dba770f8-2619-4575-a228-d7f5d1718760",
+    "sentence": "Moreover, if house prices fall in line with consumer prices rather than rising as expected, then the equity in their home will be lower than they had anticipated. This situation, which is sometimes referred to as \"debt deflation,\" would also confront all households with outstanding student loans, auto loans, or credit card debt, as well as businesses that had taken out bank loans or issued bonds. Of course, in this situation, lenders would be receiving more real income.",
+    "source": "Inflation Dynamics and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-09-24",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "1d85dd18-9cf4-4103-a3eb-725a58676433",
+    "sentence": "This type of environment creates asymmetric risks, since the lower bound constraint means that policy can respond more readily when inflation surprises to the upside than to the downside.",
+    "source": "Remaining Steady as the Economy Reopens",
+    "doc_type": "speech",
+    "date": "2021-06-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "5cc052c2-330b-48c9-9f44-80e27b5a6d13",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the middle of 2025.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "059ff71c-3f36-4cc0-98b5-60a535207f1a",
+    "sentence": "Members further concurred that the ongoing public health crisis would weigh heavily on economic activity, employment, and inflation in the near term and posed considerable downside risks to the economic outlook over the medium term. In light of these developments, members decided to maintain the target range for the federal funds rate at 0 to 1/4 percent.",
+    "source": "minutes_20200610.html",
+    "doc_type": "minutes",
+    "date": "20200610",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market",
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": -2,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "unconditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "a613826e-376b-4f55-a42b-07fe68a011fc",
+    "sentence": "Despite strong, ongoing headwinds from fiscal policy, there has been significant progress in the labor market.",
+    "source": "Communications Challenges and Quantitative Easing",
+    "doc_type": "speech",
+    "date": "2013-10-11",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1c4223fa-c1de-4626-aebf-86a202aca570",
+    "sentence": "The various headwinds that are still restraining the economy, as I said, will likely take some time to fully abate, and the pace of that improvement is highly uncertain.",
+    "source": "The Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-05-22",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "True",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "e20d8857-5024-40fb-86ce-187188abba54",
+    "sentence": "Many participants pointed to indicators such as higher credit card balances, greater use of buy-now-pay-later programs, or rising delinquency rates on some types of consumer loans as evidence that the finances of some lower- and moderate-income households might be coming under pressure; these developments were seen by these participants as a downside risk to the outlook for consumption spending.",
+    "source": "minutes_20240320.html",
+    "doc_type": "minutes",
+    "date": "20240320",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "b97a9ac9-53e1-49b1-9f8b-ea09d5141b82",
+    "sentence": "Risks around the employment and GDP forecasts continued to be seen as skewed to the downside, as elevated economic uncertainty and a cooling labor market raised the risk of a sharper-than-expected weakening in labor market conditions and output growth.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "8f04b02b-d0b6-475d-a257-14cb0577a016",
+    "sentence": "But risks outside our borders are still tilted to the downside.",
+    "source": "Monetary Policy in a Time of Uncertainty",
+    "doc_type": "speech",
+    "date": "2017-01-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": -1,
+    "ten": "",
+    "hor": "",
+    "com": "",
+    "ris": "",
+    "wid": ""
+  },
+  {
+    "id": "4eb1bf23-b2d7-45cc-8365-206018bc40de",
+    "sentence": "Moreover, several continued to see important downside risks to inflation in light of the still-low readings on market-based measures of inflation compensation and the slippage in the past couple of years in some survey measures of expected longer-run inflation.",
+    "source": "minutes_20160427.html",
+    "doc_type": "minutes",
+    "date": "20160427",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": -2,
+    "ten": "interpretive",
+    "hor": "True",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "6f73f6e7-3b86-47cb-91ee-f6d5d378168c",
+    "sentence": "With regard to the characterization of inflation, members agreed that the statement should note that inflation had risen but that the increase largely reflected transitory factors.",
+    "source": "minutes_20210428.html",
+    "doc_type": "minutes",
+    "date": "20210428",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d441389a-7b30-4309-839b-1afb729592f6",
+    "sentence": "The upside risks to inflation have diminished.",
+    "source": "Review and Outlook",
+    "doc_type": "speech",
+    "date": "2024-08-23",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "0",
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a431d5f3-be80-455e-8e90-c593dc33ff3c",
+    "sentence": "Market-based policy rate expectations rose notably in most advanced foreign economies, as core inflation data surprised to the upside in some countries and central bank communications were perceived as pointing to more restrictive policy than expected.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "06e2d5a4-05ff-4f00-99bf-54c434721426",
+    "sentence": "In contrast, a number of participants raised the possibility of beginning to increase the target range by the end of next year because they expected that the labor market and inflation outcomes specified in the Committee's guidance on the federal funds rate might be achieved by that time; some of these participants saw inflation as likely to remain elevated in 2022 with risks to the upside.",
+    "source": "minutes_20210922.html",
+    "doc_type": "minutes",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "ecd272b0-e1fe-4c30-afc3-3e8bf67d185e",
+    "sentence": "The presentation began by discussing the general features of DSGE models and considering their advantages and limitations relative to other approaches of analyzing macroeconomic dynamics; with regard to the latter, the presentation noted that while the current generation of DSGE models is still somewhat limited in the range of policy issues these models can address, further advances in modeling should increase the usefulness of DSGE models for forecasting and policy analysis.",
+    "source": "minutes_20110622.html",
+    "doc_type": "minutes",
+    "date": "20110622",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "descriptive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "438e3672-48e3-4a3a-8c52-ed35fb7ef227",
+    "sentence": "If you raise rates too quickly, you're just increasing the likelihood of a recession, and that's exactly what you don't want to do. So the best thing you can do, I think -- I think the incentives actually run in the other direction.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180613",
+    "context_question": "Myles Udland with Yahoo Finance. Chair Powell, you referenced a minute ago this idea of cushion, or the fact that the Fed doesn\u2019t have as much of when rates are low and inflation is low. And I\u2019m wondering if you or the Committee has thought about your move to raise interest rates as partly responding to the economy, but partly giving yourselves room to navigate in the inevitable future recession, whenever that was to come. And do you think that that has played any part in, you know, your outlook for policy or recent policy decisions? Or is it, you know, just a purely based on what the economy is doing?",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "941a6abd-c18c-4577-9ae2-767fb9820ea6",
+    "sentence": "At the FOMC meeting last week, I supported the Committee's decision to lower the target range for the fed funds rate by a quarter-point to 3-3/4 to 4 percent. I viewed that decision as appropriate, because I believe that the downside risks to employment are greater than the upside risks to inflation.",
+    "source": "The Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2025-11-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "bc59160f-bfe8-4aa8-b416-26003a6af11b",
+    "sentence": "Even if unjustified, such a reduction in confidence might lead to an undesired increase in inflation expectations, to a level above the Committee's inflation objective. To address such concerns and to ensure that it can withdraw monetary accommodation smoothly at the appropriate time, the Federal Reserve has developed an array of new tools.",
+    "source": "Monetary Policy Objectives and Tools in a Low-Inflation Environment",
+    "doc_type": "speech",
+    "date": "2010-10-15",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "f6dc744e-ec78-44e3-85cf-8597f1e14371",
+    "sentence": "Nonetheless, participants observed that rapidly rising commodity prices posed upside risks to the stability of longer-term inflation expectations, and thus to the outlook for inflation, even as they posed downside risks to the outlook for growth in consumer spending and business investment.",
+    "source": "minutes_20110315.html",
+    "doc_type": "minutes",
+    "date": "20110315",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "elevated"
+  },
+  {
+    "id": "94a51007-7b62-42e2-817d-8ab6086d72ea",
+    "sentence": "Several participants noted that firms not directly subject to tariffs might take the opportunity to increase their prices if other prices rise, particularly those of complementary products.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "cfefa2ee-8b65-4ddf-88c2-e5be5b365962",
+    "sentence": "If banks lifted their deposit rates by less than the increase in returns available on alternative investments, depositors could shift funds into these alternatives, leading to downward pressure on rates and increased ON RRP take-up.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "66a25be8-8588-4c95-b5cd-0e1b998106b2",
+    "sentence": "However, a few others argued that the recent tightening of the labor market had increased the upside risks to inflation and inflation expectations, particularly in an environment in which the economic expansion was expected to strengthen further.",
+    "source": "minutes_20140730.html",
+    "doc_type": "minutes",
+    "date": "20140730",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "ea66beb6-42bd-4c85-b2bf-fc9e5acbab84",
+    "sentence": "You know, the main thing where we might need to move along a little bit quicker would be if inflation -- inflation surprises to the upside.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180926",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I\u2019m wondering if you can talk about what risks would make the Committee\u2014plausible risks\u2014go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I\u2019d like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn\u2019t show that, but I\u2019m curious how you soft-land without doing that.",
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "d9049345-fb13-4c5c-9ecf-0ace723aefd0",
+    "sentence": "They stressed the importance of communicating clearly that the future policy path could become shallower if the economic expansion weakened and inflation rose more slowly than currently anticipated, and that it could become steeper if real activity and inflation surprised to the upside.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_growth",
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "7de51938-7ac7-4467-874d-ed27e1add539",
+    "sentence": "While the most recent reading on core personal consumption expenditures, or PCE, inflation ticked down, indicators of underlying trend inflation remain encouraging overall, providing little signal of an outbreak of inflation to the upside, on the one hand, and reassurance that underlying trend inflation may be close to our target of 2 percent, on the other (figure 1).",
+    "source": "Assessing Financial Stability over the Cycle",
+    "doc_type": "speech",
+    "date": "2018-12-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4923674a-3c93-45eb-bea8-388190b34a2b",
+    "sentence": "Various participants commented that high uncertainty had the potential to damp consumer spending as well as business hiring and investment activities or that inflation was likely to be boosted by increased tariffs. As a result, participants generally saw increased downside risks to employment and economic growth and upside risks to inflation while indicating that high uncertainty surrounded their economic outlooks.",
+    "source": "minutes_20250319.html",
+    "doc_type": "minutes",
+    "date": "20250319",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "elevated"
+  },
+  {
+    "id": "83d6bd74-8fe4-4b4e-a9b0-6555bd1f1c32",
+    "sentence": "In particular, they saw upside risks to inflation as having diminished but noted that inflation was still above the Committee's longer-run goal. Some participants noted the risk that progress toward price stability could stall, particularly if aggregate demand strengthened or supply-side healing slowed more than expected.",
+    "source": "minutes_20240131.html",
+    "doc_type": "minutes",
+    "date": "20240131",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "9e9a947c-4e17-4acf-b66f-d1d4f6d1ec51",
+    "sentence": "On the upside, bottlenecks, supply disruptions, and historically high rates of resource utilization were seen as potential sources of greater-than-expected inflationary pressures, particularly if there were a significant rise in inflation expectations that altered inflation dynamics.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "79b497be-657f-4ec5-a73e-e5d20d6ba912",
+    "sentence": "As an upside risk to inflation, a few participants noted the potential for a stronger-than-expected recovery, coupled with the possible emergence of pandemic-related supply constraints, to boost inflation.",
+    "source": "minutes_20201216.html",
+    "doc_type": "minutes",
+    "date": "20201216",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "b992c225-9a8e-42b3-a95f-b175ea44bcba",
+    "sentence": "If interest rates rise suddenly or over time as the economy recovers, those assets lose value (in substantial amounts), which lowers the unrealized value of our portfolio.",
+    "source": "Demystifying the Federal Reserve's Balance Sheet",
+    "doc_type": "speech",
+    "date": "2025-07-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "229a1bc8-6c94-4be6-b97b-1238bbd8a3ca",
+    "sentence": "Factors mentioned by participants as supporting such an approach included the reduced downside risks to the outlook for the labor market and economic activity, increased upside risks to the outlook for inflation, and uncertainties concerning the neutral rate of interest, the degree of restraint from higher longer-term interest rates, or the economic effects of potential government policies.",
+    "source": "minutes_20250129.html",
+    "doc_type": "minutes",
+    "date": "20250129",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity",
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "elevated"
+  },
+  {
+    "id": "a58a93c9-3988-4670-817f-8d74a326c185",
+    "sentence": "But what if the transition is disorderly? One argument is that uncertainty associated with a disorderly transition will make it difficult for households and businesses to plan.",
+    "source": "Climate Change and Financial Stability",
+    "doc_type": "speech",
+    "date": "2023-05-11",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "c8da03cc-768d-4022-b48e-d59029475a1f",
+    "sentence": "Participants generally judged that the risks associated with trade uncertainty would remain a persistent headwind for the outlook, with a number of participants reporting that their business contacts were making decisions based on their view that uncertainties around trade were not likely to dissipate anytime soon.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": -1,
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "683d25cf-104a-4e37-8e45-f5cff67099ce",
+    "sentence": "Increasing vaccinations, along with enacted and expected fiscal measures and accommodative monetary policy, point to a strong modal outlook for 2021, although considerable uncertainty remains.",
+    "source": "U.S. Economic Outlook and Monetary Policy: An Update",
+    "doc_type": "speech",
+    "date": "2021-03-02",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 1,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "9b41d7bf-adba-4435-b9fa-f84f019b5a70",
+    "sentence": "We have, since the beginning of the year -- and before, really -- been hearing from our extensive network of business contacts a lot of concerns about tariffs, concerns about material costs on imported products, and the loss of markets and things like that, depending on which industry, so there's a fair amount of uncertainty.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What\u2019s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": -1,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "b2926b56-f287-4346-ae80-f27b2b27560f",
+    "sentence": "And financial stress has not been limited just to mortgage markets, but has spread to other markets. In general, a shift in risk attitudes has interacted with heightened concerns about credit risks and uncertainty about how to evaluate those risks.",
+    "source": "Analyzing and Assessing Banking Crises",
+    "doc_type": "speech",
+    "date": "2007-09-06",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": -1,
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "4c791cf2-7ff9-4858-babd-65ef1152fa2b",
+    "sentence": "It's hard to say how much of an effect that's having on our economy.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What\u2019s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "top": [
+      "economic_activity"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "3f51fe1e-e9e0-48f6-88b9-88e389b6c4d9",
+    "sentence": "We also are at a period of higher-than-usual uncertainty about how credit conditions are evolving in response to the recent bank failures and stress among some other mid-size banks. Let me talk about each of these three key issues and then conclude with how I see these factors playing into my June policy decision.",
+    "source": "Hike, Skip, or Pause?",
+    "doc_type": "speech",
+    "date": "2023-05-24",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "6e78f365-c40b-4565-be07-2589ded3d93b",
+    "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment (figure 6).",
+    "source": "Monetary Policy and the Fed\u00e2\u0080\u0099s Framework Review",
+    "doc_type": "speech",
+    "date": "2025-08-22",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "fc2abf74-4234-40c6-bffd-c5d95cdeccc4",
+    "sentence": "The coronavirus outbreak and the effects on economic activity of measures to contain it, together with the associated elevated level of uncertainty, were likely reflected in recent downbeat readings on business sentiment in national and regional surveys and appeared to weigh heavily on business investment.",
+    "source": "minutes_20200429.html",
+    "doc_type": "minutes",
+    "date": "20200429",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -2,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "bee561dc-ea3a-4746-83bf-260c5182f359",
+    "sentence": "I indicated I think participants have reviewed a number of pieces of analysis, including the Joint Committee on Taxation estimates, and the many outside analysts who have weighed in on this and been influenced by that kind of analysis -- but there is a good deal of uncertainty about what the impacts would be.",
+    "source": "FOMCpresconf20171213.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20171213",
+    "context_question": "Thank you. Nick Timiraos, the Wall Street Journal. Chair Yellen, I wanted to follow up on the question about tax changes. When you addressed it earlier today, and when you spoke to Congress last month, you often describe that you would welcome higher growth in the context of the employment and inflation mandate. And I guess I wonder how you judge the major provisions of the House and Senate tax plans: the corporate rate cut, immediate expensing of big-ticket purchases, new rates for pass-throughs, temporary rate cuts for individuals. Do you see those, on balance, boosting the productive capacity of the U.S. economy as opposed to simply increasing aggregate demand? And, related to that, how would you view the benefit of such tax changes now, when the economy is nearing full employment, versus at earlier periods when there was greater resource slack?",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "78435c61-9f19-4035-b5f8-16f4beec88ff",
+    "sentence": "However, some members were more uncertain about the extent of progress in the labor market to date or were concerned that if the pace of economic growth remained slow, labor market conditions might improve only gradually.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "f304c0b0-7c57-4ae5-9c5d-53e977e3b66e",
+    "sentence": "It's hard to say.",
+    "source": "FOMCpresconf20220316.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220316",
+    "context_question": "Thanks. And I apologize if this covers some of the same ground you just talked about, Mr. Chair. I think I missed some of your answer there. But I have a follow-up question on the labor force. We have seen some gains in the prime-age workforce in the last few months. I wonder what you anticipate when it comes to some of the older workers as the health outlook has changed. Are we going to see more recent retirees following Tom Brady back into the workforce? And what would that mean for wages and inflation?",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "8d153860-76bc-4fa7-b742-5fb147369e29",
+    "sentence": "Participants noted that, in the circumstances of heightened uncertainty, it was especially important that the Committee continue to underscore in its communications that monetary policy would continue to be set to promote attainment of the Committee's statutory objectives of maximum employment and price stability.",
+    "source": "minutes_20161214.html",
+    "doc_type": "minutes",
+    "date": "20161214",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "41c0fa7a-cdb4-4931-89a7-442c27152d1f",
+    "sentence": "Risks to real activity were judged to remain skewed to the downside in light of the weakening in GDP growth seen so far this year and elevated policy uncertainty.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": -1,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "d86c1a7c-1c2c-4b30-8c75-26ca1266767e",
+    "sentence": "There, there are many, many different scenarios -- many combinations of scenarios where inflation does or doesn't prove out to be at the levels we think and where the labor market does or doesn't soften. And I think what, what you see people doing is looking ahead at a time of very high uncertainty and writing down what they think the most likely case is.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250618",
+    "context_question": "Well, just quickly on\u2014given that, you know, there are concerns inflation will rise\u2014but there is the alternate scenario that tariffs would create demand destruction and slow growth sufficiently and that would perhaps keep a bit of a lid on inflation. Do you see odds of that scenario, what kind of odds do you see of that scenario coming true, and how many months of cool inflation would you need to see before concluding that maybe that lower-inflation scenario is taking place?",
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interprative",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "c7fb937a-4761-4c13-9e81-ef02fb5d1aa5",
+    "sentence": "There is much uncertainty, however, around the future path of inflation.",
+    "source": "Economic Outlook",
+    "doc_type": "speech",
+    "date": "2025-05-14",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "0587d4eb-21da-483e-9c87-ca386c39f7dd",
+    "sentence": "More generally, some participants reported that their business contacts regarded the economic outlook to be highly uncertain, in part due to unresolved fiscal and regulatory matters.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "e7c2a044-f403-43e4-8022-bcd7ba0d048a",
+    "sentence": "Several participants expressed uncertainty about the timing and magnitude of tariff-related price effects, noting that some businesses were reportedly waiting to adjust prices until tariff policies seemed more settled.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "f5ea879c-5013-4afb-9d6a-6a596fda000d",
+    "sentence": "But, you know, we get together, we discuss -- we have a great discussion, and then we decide what to do and we act. But you're right that it is -- it's a wide dispersion of views, and I think that's understandable and natural in the current situation.",
+    "source": "FOMCpresconf20250917.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250917",
+    "context_question": "Thank you for getting to my follow-up question, which was, is the dispersion in the outlook a sign of uncertainty of policy in the\u2014in the meetings to come? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "1e07a1b3-2441-4cc0-bfbf-235da8355424",
+    "sentence": "Uncertainty surrounding the outlooks for both reserves and ON RRP participation was substantial.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": 0,
+    "ten": "interpretive",
+    "hor": "False",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "49724d32-3ec1-4ab0-b303-24829439f54a",
+    "sentence": "Consumer spending has thus far held up a bit better than expected, but households continue to face significant headwinds, including falling house prices, a softer job market, tighter credit, and higher energy prices, and consumer sentiment has declined sharply since the fall.",
+    "source": "Remarks on the economic outlook",
+    "doc_type": "speech",
+    "date": "2008-06-03",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": -2,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
+    "sentence": "With the recovery proceeding at a moderate rate and the margin of economic slack quite wide, the underlying rate of inflation has been trending lower despite upward pressure from rising costs of energy and other commodities and rising prices of imported goods.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-01-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e65a2d4d-1ab6-46e7-871f-635b9b60403b",
+    "sentence": "The increased volatility appeared to contribute to a decline in measures of market liquidity in core fixed-income markets, in particular around the period associated with U.K. volatility, but market functioning remained orderly.",
+    "source": "minutes_20221102.html",
+    "doc_type": "minutes",
+    "date": "20221102",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "a460e423-0a22-4572-ba50-8d28978dd901",
+    "sentence": "Labor market conditions continued to improve in September, though employment growth was slower than in recent months.",
+    "source": "minutes_20211103.html",
+    "doc_type": "minutes",
+    "date": "20211103",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": 0,
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
   }
 ]

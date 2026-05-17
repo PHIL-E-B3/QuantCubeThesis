@@ -1,0 +1,255 @@
+{
+  "timestamp": "2026-05-17T13:54:29.098844",
+  "eval_set": "data/eval_labelled_merged.json (592 records after merging 68 new rare-class annotations)",
+  "test_set_size": 114,
+  "adapters": [
+    {
+      "adapter": "sft_p1",
+      "summary_f1": 0.4887,
+      "parse_failure_rate": 0.0,
+      "n_test": 114,
+      "fields": {
+        "top": {
+          "f1_macro": 0.4578,
+          "accuracy": 0.5526,
+          "precision": 0.4713,
+          "recall": 0.4746,
+          "n": 114
+        },
+        "ten": {
+          "f1_macro": 0.4095,
+          "accuracy": 0.8158,
+          "precision": 0.4062,
+          "recall": 0.4128,
+          "n": 114
+        },
+        "sen": {
+          "f1_macro": 0.4353,
+          "accuracy": 0.5877,
+          "precision": 0.486,
+          "recall": 0.4211,
+          "n": 114
+        },
+        "com": {
+          "f1_macro": 0.5913,
+          "accuracy": 0.9123,
+          "precision": 0.5746,
+          "recall": 0.6121,
+          "n": 114
+        },
+        "hor": {
+          "f1_macro": 0.5901,
+          "accuracy": 0.9474,
+          "precision": 0.6474,
+          "recall": 0.5556,
+          "n": 114
+        },
+        "ris": {
+          "f1_macro": 0.6972,
+          "accuracy": 0.9386,
+          "precision": 0.7942,
+          "recall": 0.6981,
+          "n": 114
+        },
+        "wid": {
+          "f1_macro": 0.3644,
+          "accuracy": 0.8772,
+          "precision": 0.3824,
+          "recall": 0.3535,
+          "n": 114
+        }
+      }
+    },
+    {
+      "adapter": "sft_p3",
+      "summary_f1": 0.493,
+      "parse_failure_rate": 0.0,
+      "n_test": 114,
+      "fields": {
+        "top": {
+          "f1_macro": 0.52,
+          "accuracy": 0.6053,
+          "precision": 0.5426,
+          "recall": 0.5403,
+          "n": 114
+        },
+        "ten": {
+          "f1_macro": 0.3823,
+          "accuracy": 0.7632,
+          "precision": 0.3793,
+          "recall": 0.3854,
+          "n": 114
+        },
+        "sen": {
+          "f1_macro": 0.3989,
+          "accuracy": 0.6053,
+          "precision": 0.4131,
+          "recall": 0.4072,
+          "n": 114
+        },
+        "com": {
+          "f1_macro": 0.579,
+          "accuracy": 0.9123,
+          "precision": 0.5691,
+          "recall": 0.5939,
+          "n": 114
+        },
+        "hor": {
+          "f1_macro": 0.5521,
+          "accuracy": 0.9298,
+          "precision": 0.6415,
+          "recall": 0.5111,
+          "n": 114
+        },
+        "ris": {
+          "f1_macro": 0.6828,
+          "accuracy": 0.9123,
+          "precision": 0.7566,
+          "recall": 0.6704,
+          "n": 114
+        },
+        "wid": {
+          "f1_macro": 0.3704,
+          "accuracy": 0.8684,
+          "precision": 0.4045,
+          "recall": 0.351,
+          "n": 114
+        }
+      }
+    },
+    {
+      "adapter": "sft_p5",
+      "summary_f1": 0.4644,
+      "parse_failure_rate": 0.0,
+      "n_test": 114,
+      "fields": {
+        "top": {
+          "f1_macro": 0.5,
+          "accuracy": 0.5439,
+          "precision": 0.5139,
+          "recall": 0.5192,
+          "n": 114
+        },
+        "ten": {
+          "f1_macro": 0.4036,
+          "accuracy": 0.807,
+          "precision": 0.4015,
+          "recall": 0.4062,
+          "n": 114
+        },
+        "sen": {
+          "f1_macro": 0.3804,
+          "accuracy": 0.5702,
+          "precision": 0.3836,
+          "recall": 0.39,
+          "n": 114
+        },
+        "com": {
+          "f1_macro": 0.4545,
+          "accuracy": 0.8684,
+          "precision": 0.4483,
+          "recall": 0.4611,
+          "n": 114
+        },
+        "hor": {
+          "f1_macro": 0.5521,
+          "accuracy": 0.9298,
+          "precision": 0.6415,
+          "recall": 0.5111,
+          "n": 114
+        },
+        "ris": {
+          "f1_macro": 0.6205,
+          "accuracy": 0.9386,
+          "precision": 0.5948,
+          "recall": 0.6565,
+          "n": 114
+        },
+        "wid": {
+          "f1_macro": 0.3567,
+          "accuracy": 0.8684,
+          "precision": 0.4241,
+          "recall": 0.3308,
+          "n": 114
+        }
+      }
+    },
+    {
+      "adapter": "sft_p7",
+      "summary_f1": 0.4665,
+      "parse_failure_rate": 0.0,
+      "n_test": 114,
+      "fields": {
+        "top": {
+          "f1_macro": 0.4537,
+          "accuracy": 0.5439,
+          "precision": 0.4845,
+          "recall": 0.4735,
+          "n": 114
+        },
+        "ten": {
+          "f1_macro": 0.4085,
+          "accuracy": 0.8158,
+          "precision": 0.4058,
+          "recall": 0.4115,
+          "n": 114
+        },
+        "sen": {
+          "f1_macro": 0.3555,
+          "accuracy": 0.5263,
+          "precision": 0.3563,
+          "recall": 0.3679,
+          "n": 114
+        },
+        "com": {
+          "f1_macro": 0.5042,
+          "accuracy": 0.8772,
+          "precision": 0.503,
+          "recall": 0.5054,
+          "n": 114
+        },
+        "hor": {
+          "f1_macro": 0.5408,
+          "accuracy": 0.9211,
+          "precision": 0.6042,
+          "recall": 0.5077,
+          "n": 114
+        },
+        "ris": {
+          "f1_macro": 0.6986,
+          "accuracy": 0.9123,
+          "precision": 0.7414,
+          "recall": 0.7309,
+          "n": 114
+        },
+        "wid": {
+          "f1_macro": 0.358,
+          "accuracy": 0.8772,
+          "precision": 0.4243,
+          "recall": 0.3333,
+          "n": 114
+        }
+      }
+    }
+  ],
+  "base_model": {
+    "summary_f1": 0.3996,
+    "fields": {
+      "top": 0.345,
+      "ten": 0.376,
+      "sen": 0.2685,
+      "com": 0.3608,
+      "hor": 0.3569,
+      "ris": 0.5737,
+      "wid": 0.4112
+    }
+  },
+  "winner": "sft_p3",
+  "winner_summary_f1": 0.493,
+  "notes": [
+    "All adapters trained with same data (455 train / 114 test, seed=42), differ only in prompt template.",
+    "Medium-detail prompts (P1, P3) outperformed high-detail prompts (P5, P7) on this small training set.",
+    "RIS F1 jumped from ~0.33 (original sft_p3) to ~0.68 thanks to 72 new rare-class annotations in training.",
+    "WID F1 still weak (~0.36) \u2014 could benefit from more elevated/contested examples."
+  ]
+}

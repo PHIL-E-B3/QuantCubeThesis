@@ -19,20 +19,20 @@
     "up_proj",
     "down_proj"
   ],
-  "quantization": "4bit_nf4_double_quant",
-  "optimizer": "paged_adamw_8bit",
+  "quantization": "none_bf16",
+  "optimizer": "adamw_torch",
   "scheduler": "cosine",
   "warmup_ratio": 0.1,
   "weight_decay": 0.01,
   "seed": 42,
   "token_length_stats": {
     "min": 1628,
-    "median": 1656,
-    "max": 1805,
+    "median": 1657,
+    "max": 1806,
     "exceeding_max": 0
   },
-  "train_size": 398,
-  "test_size": 100,
-  "timestamp": "2026-05-16T15:42:28.870603",
+  "train_size": 455,
+  "test_size": 114,
+  "timestamp": "2026-05-17T13:14:53.377376",
   "gpu": "NVIDIA A100-SXM4-80GB"
 }
