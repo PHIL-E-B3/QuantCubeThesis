@@ -41,7 +41,9 @@ EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged.json"
 
 # Prompt name → output directory mapping
 PROMPT_CONFIGS = {
+    "P1_medium_3shot": PROJECT_ROOT / "models" / "sft_p1",
     "P3_medium_5shot": PROJECT_ROOT / "models" / "sft_p3",
+    "P5_high_3shot":   PROJECT_ROOT / "models" / "sft_p5",
     "P7_high_5shot":   PROJECT_ROOT / "models" / "sft_p7",
 }
 
