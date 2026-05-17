@@ -1,22 +1,37 @@
-# QuantCubeThesis — pinned cloud GPU dependencies
-# Usage: pip install -r requirements-cloud.txt
+# QuantCubeThesis — cloud GPU dependencies
+# Usage: pip install --break-system-packages -r requirements-cloud.txt
 #
 # IMPORTANT: Do NOT pip install torch on RunPod/Lambda/Vast.ai.
 # The pre-installed torch already has the correct CUDA drivers.
 # Installing torch via pip will break GPU support.
+#
+# Updated May 2026 after live debugging on A100 SXM (RunPod):
+#   - Removed --no-deps pattern (was missing transitive deps)
+#   - Added vllm, scipy, joblib, threadpoolctl, pandas, pyarrow, etc.
+#   - Loosened transformers/accelerate/peft/bitsandbytes pins
+#     (the May-2026 pinned 4.46.0 stack conflicts with current vLLM)
 
-# Core ML stack (versions tested on RunPod A100 SXM, May 2026)
-transformers==4.46.0
-tokenizers==0.20.3
-huggingface-hub==0.25.2
-accelerate==0.34.2
-peft==0.13.0
-bitsandbytes==0.44.0
+# Core ML stack
+# Note: do not pin too strictly — newer vllm requires recent transformers
+transformers>=4.50
+tokenizers>=0.20
+huggingface-hub>=0.25
+accelerate>=1.0
+peft>=0.14
+bitsandbytes>=0.46.1   # avoid 0.48+ which requires CUDA 13 libs not on RunPod images
 
-# Data & eval
-datasets>=2.19,<3.0
-scikit-learn>=1.4,<2.0
+# vLLM for fast batched inference (chunky download, ~1 GB)
+vllm
+
+# Data / metrics / dataset transforms
+datasets>=2.19,<4.0
+scikit-learn>=1.4
+scipy>=1.10
+joblib>=1.3
+threadpoolctl>=3.2
+pandas>=2.0
+pyarrow>=14.0
+dill
+multiprocess
+xxhash
 numpy>=1.26,<2.0
-
-# vLLM for batch inference (install separately if needed)
-# pip install vllm
