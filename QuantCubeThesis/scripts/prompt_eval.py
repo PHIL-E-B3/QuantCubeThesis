@@ -125,7 +125,7 @@ def load_model_vllm(model_name: str):
     from vllm import LLM
     print(f"\nLoading model with vLLM: {model_name}")
     print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
-    llm = LLM(model=model_name, dtype="bfloat16", max_model_len=4096)
+    llm = LLM(model=model_name, dtype="bfloat16", max_model_len=4096, enforce_eager=True)
     print("vLLM model loaded.\n")
     return llm
 
