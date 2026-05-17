@@ -220,16 +220,9 @@ def main():
     print(f"\nLoading model: {args.model}")
     print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
 
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,
-    )
-
+    # bf16 full-precision training (no quantization) — bitsandbytes/CUDA conflict workaround
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
-        quantization_config=bnb_config,
         device_map="auto",
         torch_dtype=torch.bfloat16,
         attn_implementation="sdpa",
@@ -237,8 +230,9 @@ def main():
 
     print(f"Model loaded. VRAM: {torch.cuda.memory_allocated() / 1e9:.1f} GB")
 
-    # Prepare for QLoRA training
-    model = prepare_model_for_kbit_training(model)
+    # Enable gradient checkpointing to save memory (since we're not using 4bit quantization)
+    model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
 
     # ── 4. ATTACH LoRA ADAPTERS ──────────────────────────────────────────────
     lora_config = LoraConfig(
@@ -291,7 +285,8 @@ def main():
         logging_steps=5,
         save_strategy="epoch",
         bf16=True,
-        optim="paged_adamw_8bit",
+        optim="adamw_torch",
+        gradient_checkpointing=True,
         report_to="none",
         seed=args.seed,
     )
@@ -345,8 +340,8 @@ def main():
         "lora_dropout": 0.05,
         "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj",
                            "gate_proj", "up_proj", "down_proj"],
-        "quantization": "4bit_nf4_double_quant",
-        "optimizer": "paged_adamw_8bit",
+        "quantization": "none_bf16",
+        "optimizer": "adamw_torch",
         "scheduler": "cosine",
         "warmup_ratio": 0.1,
         "weight_decay": 0.01,
