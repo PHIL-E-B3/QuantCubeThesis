@@ -75,6 +75,21 @@
     "wid": ""
   },
   {
+    "id": "9f12a249-9942-45bb-9d7b-838b5f6ff909",
+    "sentence": "It could boost very slightly some short-term interest rates that could have an effect on borrowing costs that are linked to them, but, overall, I think that households and firms will see very modest changes from this decision.",
+    "source": "FOMCpresconf20161214.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20161214",
+    "context_question": "Hi. Jim Puzzanghera with the L.A. Times. For the average American, can you explain what the impact of this hike and three additional hikes will be next year? And should they feel more confident in the economy now that you are raising rates at a slightly faster pace?",
+    "top": [],
+    "ten": "descriptive",
+    "sen": "",
+    "com": "",
+    "hor": false,
+    "ris": "",
+    "wid": ""
+  },
+  {
     "id": "a876de55-c53b-4d21-b585-bce3a1a6428d",
     "sentence": "Labor force participation -- I do think most research suggests that due to demographic factors, labor force participation will be coming down, and there has been a downward trend now for a number of years. But I think there is also a cyclical component in the fact that labor force participation is depressed. And so, it may be that as the economy begins to strengthen, we could see labor force participation flatten out for a time as discouraged workers start moving back into the labor market. And so that's something I'm watching closely.",
     "source": "FOMCpresconf20140319.pdf",

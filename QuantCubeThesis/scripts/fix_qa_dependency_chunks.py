@@ -1,14 +1,14 @@
 """
 Fix dependency-starting sentence fragments in press_conference_qa _tolabel files.
 
-Algorithm:
-  For each sentence in a _tolabel file that starts with a PC dependency trigger:
-    1. Re-run the chunking algorithm on its source Q&A answer.
-    2. Find the chunk that CONTAINS this sentence (exact or as a substring).
-    3. If the sentence IS the full chunk → already correctly processed, skip.
-    4. If the sentence is a FRAGMENT of a larger chunk → replace with the full chunk.
-    5. Purge any sentences from other data files whose text is subsumed by the
-       merged chunk, to maintain mutual exclusivity.
+For each sentence in a _tolabel file that starts with a PC dependency trigger:
+  1. Find its Q&A answer in the source document.
+  2. Locate the sentence within that answer using sent_tokenize.
+  3. Prepend the IMMEDIATELY PRECEDING sentence (one sentence only).
+  4. Purge that preceding sentence from all other data files (mutual exclusivity).
+
+The 3-sentence cap from build_annotatable_records applies only to non-conversational
+doc types (is_conversational=False), so it is irrelevant here but kept for reference.
 """
 
 import re, json
@@ -16,10 +16,6 @@ from pathlib import Path
 from nltk.tokenize import sent_tokenize
 import nltk
 nltk.download('punkt_tab', quiet=True)
-
-# ── constants (verbatim from 00_initialize_data.py first-branch) ─────────────
-
-MAX_CONTEXT_CHARS = 1000
 
 DEPENDENCY_STARTS = (
     "therefore", "thus", "consequently", "as a result", "for example",
@@ -84,27 +80,6 @@ def clean_text(text):
     return text.strip()
 
 
-def chunk_answer(text):
-    """Replicate build_annotatable_records(text, is_conversational=True)."""
-    chunks = []
-    for para in [p.strip() for p in text.split('\n\n') if p.strip()]:
-        sents = [s.strip() for s in sent_tokenize(para)
-                 if s.strip() and not is_boilerplate(s)]
-        if not sents:
-            continue
-        current = [sents[0]]
-        for sent in sents[1:]:
-            dep = is_dependent(sent)
-            projected = sum(len(s) for s in current) + len(current) + len(sent)
-            if dep and projected <= MAX_CONTEXT_CHARS:
-                current.append(sent)
-            else:
-                chunks.append(" ".join(current))
-                current = [sent]
-        chunks.append(" ".join(current))
-    return chunks
-
-
 def parse_flat_transcript(text):
     text = re.sub(r'\bQUESTION\.\s+', 'JOURNALIST QUESTION. ', text)
     sp = re.compile(r'\b([A-Z]{2,}(?:\s+[A-Z][a-zA-Z\-\']*){1,3})\.\s+')
@@ -130,10 +105,10 @@ def parse_flat_transcript(text):
     return "\n\n".join(prepared), pairs
 
 
-def find_containing_chunk(source_json, context_question, sentence):
+def find_preceding_sentence(source_json, context_question, fragment):
     """
-    Re-chunk the matching Q&A answer and return the chunk that contains
-    `sentence` as a substring (or exact match). Returns None if not found.
+    Tokenize the matching Q&A answer and return the single sentence that
+    immediately precedes `fragment`. Returns None if fragment is first or not found.
     """
     try:
         with open(source_json, encoding='utf-8') as f:
@@ -158,24 +133,24 @@ def find_containing_chunk(source_json, context_question, sentence):
             if cq[:40] and cq[:40] in pair["question"].lower():
                 answer = pair["answer"]
                 break
-
     if answer is None:
         return None
 
-    chunks = chunk_answer(clean_text(answer))
-    sent_norm = sentence.strip().lower()
+    sents = [s.strip() for s in sent_tokenize(clean_text(answer)) if s.strip()]
+    frag_norm = fragment.strip().lower()
 
-    for ch in chunks:
-        ch_norm = ch.strip().lower()
-        if ch_norm == sent_norm:
-            return ch  # exact match — already fully merged
-        if sent_norm in ch_norm:
-            return ch  # sentence is a fragment of this larger chunk
+    for i, s in enumerate(sents):
+        # Match: the fragment starts with the first 40 chars of the sentence
+        if s.lower().strip()[:40] == frag_norm[:40] and i > 0:
+            return sents[i - 1]
+        # Or the fragment sentence is a substring start of this sentence
+        if frag_norm[:40] in s.lower() and i > 0:
+            return sents[i - 1]
+
     return None
 
 
 def remove_if_present(path, sentence_text):
-    """Remove records matching sentence_text from a JSON list file. Returns count removed."""
     try:
         with open(path, encoding='utf-8') as f:
             records = json.load(f)
@@ -190,7 +165,6 @@ def remove_if_present(path, sentence_text):
 
 
 def purge_from_all_files(base_dir, sentence_text, skip_file):
-    """Remove sentence_text from all seed/unlabelled JSON files except skip_file."""
     removed = []
     for d in [
         base_dir / "data" / "QuantCube_Seed_Batches",
@@ -225,7 +199,7 @@ def main():
         for rec in records:
             sent = rec["sentence"]
             if not is_dependent(sent):
-                continue  # no dependency trigger — nothing to check
+                continue
 
             src_name = rec.get("source", "")
             src_path = raw_dir / src_name
@@ -235,45 +209,35 @@ def main():
                 print(f"  [SKIP] Source not found: {src_name}")
                 continue
 
-            context_q = rec.get("context_question", "")
-            full_chunk = find_containing_chunk(src_path, context_q, sent)
+            preceding = find_preceding_sentence(src_path, rec.get("context_question", ""), sent)
 
-            if full_chunk is None:
-                print(f"  [MISS] Not found in source: {sent[:70]!r}")
+            if preceding is None:
+                # First sentence of the answer — conversational opener, fine as-is
                 continue
 
-            if full_chunk.strip().lower() == sent.strip().lower():
-                # Sentence IS the full chunk — correctly merged, nothing to do.
-                continue
-
-            # Sentence is a fragment of a larger correctly-merged chunk.
+            merged = preceding + " " + sent
             print(f"  [FIX]  {tfile.name}  id={rec['id'][:8]}")
-            print(f"         Was     : {sent[:80]!r}")
-            print(f"         Correct : {full_chunk[:80]!r}")
+            print(f"         Preceding : {preceding[:80]!r}")
+            print(f"         Fragment  : {sent[:80]!r}")
+            print(f"         Merged    : {merged[:100]!r}")
 
-            rec["sentence"] = full_chunk
+            rec["sentence"] = merged
             changed = True
             total_fixed += 1
 
-            # Purge the old fragment from all other data files (mutual exclusivity)
-            removed = purge_from_all_files(base, sent, skip_file=tfile)
+            # Purge the preceding sentence from all other data files
+            removed = purge_from_all_files(base, preceding, skip_file=tfile)
             if removed:
-                print(f"         Purged old fragment from: {', '.join(removed)}")
-
-            # Also purge the full_chunk if it already existed as a different record
-            # (prevents duplicates if an old version of the merged text was there)
-            removed2 = purge_from_all_files(base, full_chunk, skip_file=tfile)
-            if removed2:
-                print(f"         Purged existing full-chunk from: {', '.join(removed2)}")
+                print(f"         Purged from: {', '.join(removed)}")
+            else:
+                print(f"         (preceding not found in other files)")
+            print()
 
         if changed:
             with open(tfile, 'w', encoding='utf-8') as f:
                 json.dump(records, f, indent=2, ensure_ascii=False)
-            print(f"  -> Saved {tfile.name}\n")
-        else:
-            print(f"  {tfile.name}: no fragments found")
 
-    print(f"\nDone. Total fragments corrected: {total_fixed}")
+    print(f"Done. Total fragments fixed: {total_fixed}")
 
 
 if __name__ == "__main__":
