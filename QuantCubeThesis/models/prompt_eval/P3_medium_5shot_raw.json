@@ -8558,5 +8558,1581 @@
       "wid": "none"
     },
     "elapsed_s": 2.2
+  },
+  {
+    "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
+    "sentence": "Participants generally continued to see recent fiscal policy changes as supportive of economic growt",
+    "raw_response": "{\"top\": [\"economic_activity\", \"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "3fc8fde4-7a8d-47ca-ba46-d5f2f7d18a36",
+    "sentence": "But with inflation still well above the Committee's longer-run goal and the labor market remaining t",
+    "raw_response": "{\n  \"top\": [\"inflation\", \"economic_activity\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_upside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "9d969986-9f80-4bfb-9fc2-05dbf62539b9",
+    "sentence": "The manager noted that current financial conditions appeared to be providing neither a headwind nor ",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "b2ac9971-f225-4ee5-8f98-5ab9fb40943c",
+    "sentence": "At times it may be above 2 percent, just as at times it may be below.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "818595c0-3e02-475f-9a72-f119a8419d17",
+    "sentence": "One can identify both upside and downside risks there.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "bf226524-b36f-4d8b-9520-8ea649a60a87",
+    "sentence": "Actual growth may turn out to be weaker or stronger, and the choices we make as a society will have ",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a7717454-121b-40c6-92bb-da1bceb804ec",
+    "sentence": "The Committee sees the risks to the outlook for the economy and the labor market as nearly balanced.",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "fb9998c2-d465-4b05-b2ae-dfc24a8ed8e9",
+    "sentence": "Overall, taking into account domestic and international developments, the Committee sees the risks t",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "6e7bf89f-b766-4257-94d0-24d7aaea13a7",
+    "sentence": "The Committee continues to see the risks to the outlook for economic activity and the labor market a",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "79c67335-027b-4dc7-81d2-fc4ff2174d66",
+    "sentence": "The staff viewed the risks of upside inflationary pressures as having increased since the previous f",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "302a3b57-3ca7-4161-91fc-65c2d119ad7a",
+    "sentence": "Markets were attentive to the de-escalation of trade tensions; generally weaker-than-expected econom",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"financial_conditions\", \"inflation\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"skewed_upside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "financial_conditions",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "42cea52d-f7c6-458d-9db9-260298cabebc",
+    "sentence": "The staff continued to judge that uncertainty around the baseline projection was considerable and st",
+    "raw_response": "{\"top\": [\"macro\", \"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "macro",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "22e2aaea-c897-498c-a45e-4c7d9e980291",
+    "sentence": "Total nonfarm payroll employment increased at a robust pace during those two months.",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "acefd1ff-7de4-448c-87da-0189021a59d5",
+    "sentence": "The rate of private-sector job openings continued to be elevated in June and July, while the rate of",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "60bb15bb-d5b0-4e60-83e0-2d37884adb8d",
+    "sentence": "Employers are having difficulties filling job openings, and wages are rising at the fastest pace in ",
+    "raw_response": "{\"top\": [\"unemployment\", \"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment",
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "c9f81a10-bde3-4a9b-9048-92df6c65e097",
+    "sentence": "Yesterday's job report showed continued significant growth in hiring with the unemployment rate fina",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "40770022-9513-466c-99fc-5210a107b05c",
+    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to m",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"unconditional\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "unconditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "daf97696-7cf5-487a-9840-e0613c3808c5",
+    "sentence": "And a number of important upside inflation risks remain.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "61411fc1-328c-4d4a-972e-8740bb4096b2",
+    "sentence": "Many participants noted that -- with inflation well above the Committee's objective, inflationary ri",
+    "raw_response": "{\"top\": [\"inflation\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
+    "sentence": "Al\u00adthough CRE loan growth on banks' balance sheets remained robust in the first quarter, the April S",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "4f37d367-b296-4510-b478-c868c339efd6",
+    "sentence": "But supply chains were slower to recover, leading to a global surge in inflation.",
+    "raw_response": "{\"top\": [\"inflation\", \"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
+    "sentence": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "c003923a-eea9-4e2c-b691-51004e3280d7",
+    "sentence": "But if there is a significant shock that's a material deterioration to the outlook, we would conside",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"conditional\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "conditional",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a6ec96cd-d12c-49b8-bbeb-2eb3568ab8d9",
+    "sentence": "In light of the significant uncertainty and downside risks associated with the course of the pandemi",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "8e93feb7-f88b-42f2-a95c-4fa2e6f48ae6",
+    "sentence": "Several participants indicated that the persistence of global disinflationary pressures or the possi",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "11b1eadc-98e9-4e77-8fe7-68355fc3fc70",
+    "sentence": "While my modal outlook calls for only a gradual reduction in labor market slack and a stable pace of",
+    "raw_response": "{\"top\": [\"inflation\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "1751e8e6-3284-4f4e-8c93-5183d7312182",
+    "sentence": "These headwinds had been substantial, as the aftermath of the financial crisis and housing bubble le",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": -2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": -2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "96b41d44-54f6-4bb5-9763-a1661f7616d9",
+    "sentence": "Indeed, in a statement issued simultaneously with the Federal Reserve Board's August 17 announcement",
+    "raw_response": "{\"top\": [\"economic_activity\", \"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "309e24d8-10a9-4b51-a0c4-c35b32da88f5",
+    "sentence": "Recent weeks, however, have seen important downside risks.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "b709641c-1e2d-42fb-8f28-72e52e54afa1",
+    "sentence": "Still, even if demand declines in line with supply, wage and price inflation could still be boosted ",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "bac7faf6-1863-4e67-8afa-f39975b7ac4f",
+    "sentence": "However, with inflation still below the Committee's 2 percent objective, it was noted that downside ",
+    "raw_response": "{\"top\": [\"inflation\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "1a29cee9-64ee-41fd-bb54-25a5798fc5d3",
+    "sentence": "In addition, participants noted that recent policy actions in the euro area had helped reduce financ",
+    "raw_response": "{\n  \"top\": [\"financial_conditions\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_downside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "d64da3b0-1380-45db-9327-280ec16b072d",
+    "sentence": "Moreover, continuing downside risks to the outlook for economic activity and inflation strengthened ",
+    "raw_response": "{\"top\": [\"economic_activity\", \"inflation\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "inflation",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "084bec94-e35d-4cae-a29a-a806e1f41ba5",
+    "sentence": "Downside risks to the labor market have not diminished, and we should not overemphasize the latest r",
+    "raw_response": "{\"top\": [\"unemployment\", \"macro\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment",
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "77fd6760-5813-47e0-a584-cda2711267ce",
+    "sentence": "Many members stressed the data-dependent nature of the current asset purchase program, and some poin",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"conditional\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "conditional",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "dba770f8-2619-4575-a228-d7f5d1718760",
+    "sentence": "Moreover, if house prices fall in line with consumer prices rather than rising as expected, then the",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"macro\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "1d85dd18-9cf4-4103-a3eb-725a58676433",
+    "sentence": "This type of environment creates asymmetric risks, since the lower bound constraint means that polic",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "5cc052c2-330b-48c9-9f44-80e27b5a6d13",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, par",
+    "raw_response": "{\n  \"top\": [\"monetary_policy\", \"inflation\", \"unemployment\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_upside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "059ff71c-3f36-4cc0-98b5-60a535207f1a",
+    "sentence": "Members further concurred that the ongoing public health crisis would weigh heavily on economic acti",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"unemployment\", \"inflation\", \"macro\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_downside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment",
+        "inflation",
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a613826e-376b-4f55-a42b-07fe68a011fc",
+    "sentence": "Despite strong, ongoing headwinds from fiscal policy, there has been significant progress in the lab",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "1c4223fa-c1de-4626-aebf-86a202aca570",
+    "sentence": "The various headwinds that are still restraining the economy, as I said, will likely take some time ",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "e20d8857-5024-40fb-86ce-187188abba54",
+    "sentence": "Many participants pointed to indicators such as higher credit card balances, greater use of buy-now-",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "b97a9ac9-53e1-49b1-9f8b-ea09d5141b82",
+    "sentence": "Risks around the employment and GDP forecasts continued to be seen as skewed to the downside, as ele",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"unemployment\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 2,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"skewed_downside\",\n  \"wid\": \"elevated\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "8f04b02b-d0b6-475d-a257-14cb0577a016",
+    "sentence": "But risks outside our borders are still tilted to the downside.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "4eb1bf23-b2d7-45cc-8365-206018bc40de",
+    "sentence": "Moreover, several continued to see important downside risks to inflation in light of the still-low r",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "6f73f6e7-3b86-47cb-91ee-f6d5d378168c",
+    "sentence": "With regard to the characterization of inflation, members agreed that the statement should note that",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "d441389a-7b30-4309-839b-1afb729592f6",
+    "sentence": "The upside risks to inflation have diminished.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": -2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": -2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a431d5f3-be80-455e-8e90-c593dc33ff3c",
+    "sentence": "Market-based policy rate expectations rose notably in most advanced foreign economies, as core infla",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"inflation\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "06e2d5a4-05ff-4f00-99bf-54c434721426",
+    "sentence": "In contrast, a number of participants raised the possibility of beginning to increase the target ran",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"conditional\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "conditional",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "ecd272b0-e1fe-4c30-afc3-3e8bf67d185e",
+    "sentence": "The presentation began by discussing the general features of DSGE models and considering their advan",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "438e3672-48e3-4a3a-8c52-ed35fb7ef227",
+    "sentence": "If you raise rates too quickly, you're just increasing the likelihood of a recession, and that's exa",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": -2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": -2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "941a6abd-c18c-4577-9ae2-767fb9820ea6",
+    "sentence": "At the FOMC meeting last week, I supported the Committee's decision to lower the target range for th",
+    "raw_response": "{\"top\": [\"monetary_policy\", \"inflation\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy",
+        "inflation",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "bc59160f-bfe8-4aa8-b416-26003a6af11b",
+    "sentence": "Even if unjustified, such a reduction in confidence might lead to an undesired increase in inflation",
+    "raw_response": "{\"top\": [\"inflation\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "f6dc744e-ec78-44e3-85cf-8597f1e14371",
+    "sentence": "Nonetheless, participants observed that rapidly rising commodity prices posed upside risks to the st",
+    "raw_response": "{\"top\": [\"inflation\", \"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "94a51007-7b62-42e2-817d-8ab6086d72ea",
+    "sentence": "Several participants noted that firms not directly subject to tariffs might take the opportunity to ",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "cfefa2ee-8b65-4ddf-88c2-e5be5b365962",
+    "sentence": "If banks lifted their deposit rates by less than the increase in returns available on alternative in",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "66a25be8-8588-4c95-b5cd-0e1b998106b2",
+    "sentence": "However, a few others argued that the recent tightening of the labor market had increased the upside",
+    "raw_response": "{\"top\": [\"inflation\", \"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "ea66beb6-42bd-4c85-b2bf-fc9e5acbab84",
+    "sentence": "You know, the main thing where we might need to move along a little bit quicker would be if inflatio",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "d9049345-fb13-4c5c-9ecf-0ace723aefd0",
+    "sentence": "They stressed the importance of communicating clearly that the future policy path could become shall",
+    "raw_response": "{\"top\": [\"macro\", \"inflation\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "7de51938-7ac7-4467-874d-ed27e1add539",
+    "sentence": "While the most recent reading on core personal consumption expenditures, or PCE, inflation ticked do",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "4923674a-3c93-45eb-bea8-388190b34a2b",
+    "sentence": "Various participants commented that high uncertainty had the potential to damp consumer spending as ",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"inflation\", \"financial_conditions\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"skewed_downside\",\n  \"wid\": \"contested\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "inflation",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "83d6bd74-8fe4-4b4e-a9b0-6555bd1f1c32",
+    "sentence": "In particular, they saw upside risks to inflation as having diminished but noted that inflation was ",
+    "raw_response": "{\n  \"top\": [\"inflation\", \"economic_activity\"],\n  \"ten\": \"interpretive\",\n  \"sen\": 0,\n  \"hor\": true,\n  \"com\": \"none\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"contested\"\n}",
+    "parsed": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "9e9a947c-4e17-4acf-b66f-d1d4f6d1ec51",
+    "sentence": "On the upside, bottlenecks, supply disruptions, and historically high rates of resource utilization ",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "79b497be-657f-4ec5-a73e-e5d20d6ba912",
+    "sentence": "As an upside risk to inflation, a few participants noted the potential for a stronger-than-expected ",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_upside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "b992c225-9a8e-42b3-a95f-b175ea44bcba",
+    "sentence": "If interest rates rise suddenly or over time as the economy recovers, those assets lose value (in su",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "229a1bc8-6c94-4be6-b97b-1238bbd8a3ca",
+    "sentence": "Factors mentioned by participants as supporting such an approach included the reduced downside risks",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a58a93c9-3988-4670-817f-8d74a326c185",
+    "sentence": "But what if the transition is disorderly? One argument is that uncertainty associated with a disorde",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "c8da03cc-768d-4022-b48e-d59029475a1f",
+    "sentence": "Participants generally judged that the risks associated with trade uncertainty would remain a persis",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"macro\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "683d25cf-104a-4e37-8e45-f5cff67099ce",
+    "sentence": "Increasing vaccinations, along with enacted and expected fiscal measures and accommodative monetary ",
+    "raw_response": "{\"top\": [\"economic_activity\", \"financial_conditions\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 2, \"hor\": true, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "financial_conditions",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 2,
+      "hor": true,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "9b41d7bf-adba-4435-b9fa-f84f019b5a70",
+    "sentence": "We have, since the beginning of the year -- and before, really -- been hearing from our extensive ne",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "b2926b56-f287-4346-ae80-f27b2b27560f",
+    "sentence": "And financial stress has not been limited just to mortgage markets, but has spread to other markets.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "4c791cf2-7ff9-4858-babd-65ef1152fa2b",
+    "sentence": "It's hard to say how much of an effect that's having on our economy.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "3f51fe1e-e9e0-48f6-88b9-88e389b6c4d9",
+    "sentence": "We also are at a period of higher-than-usual uncertainty about how credit conditions are evolving in",
+    "raw_response": "{\"top\": [\"financial_conditions\", \"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions",
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "na",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "6e78f365-c40b-4565-be07-2589ded3d93b",
+    "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level m",
+    "raw_response": "{\"top\": [\"macro\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "fc2abf74-4234-40c6-bffd-c5d95cdeccc4",
+    "sentence": "The coronavirus outbreak and the effects on economic activity of measures to contain it, together wi",
+    "raw_response": "{\"top\": [\"economic_activity\", \"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "bee561dc-ea3a-4746-83bf-260c5182f359",
+    "sentence": "I indicated I think participants have reviewed a number of pieces of analysis, including the Joint C",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "78435c61-9f19-4035-b5f8-16f4beec88ff",
+    "sentence": "However, some members were more uncertain about the extent of progress in the labor market to date o",
+    "raw_response": "{\"top\": [\"economic_activity\", \"unemployment\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "unemployment"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "f304c0b0-7c57-4ae5-9c5d-53e977e3b66e",
+    "sentence": "It's hard to say.",
+    "raw_response": "{\"top\": [\"boilerplate\"], \"ten\": \"descriptive\", \"sen\": \"na\", \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "boilerplate"
+      ],
+      "ten": "descriptive",
+      "sen": "na",
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "8d153860-76bc-4fa7-b742-5fb147369e29",
+    "sentence": "Participants noted that, in the circumstances of heightened uncertainty, it was especially important",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "41c0fa7a-cdb4-4931-89a7-442c27152d1f",
+    "sentence": "Risks to real activity were judged to remain skewed to the downside in light of the weakening in GDP",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"interpretive\", \"sen\": 1, \"hor\": true, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": 1,
+      "hor": true,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "d86c1a7c-1c2c-4b30-8c75-26ca1266767e",
+    "sentence": "There, there are many, many different scenarios -- many combinations of scenarios where inflation do",
+    "raw_response": "{\"top\": [\"macro\", \"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"symmetric\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "macro",
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "symmetric",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "c7fb937a-4761-4c13-9e81-ef02fb5d1aa5",
+    "sentence": "There is much uncertainty, however, around the future path of inflation.",
+    "raw_response": "{\"top\": [\"inflation\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "0587d4eb-21da-483e-9c87-ca386c39f7dd",
+    "sentence": "More generally, some participants reported that their business contacts regarded the economic outloo",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "e7c2a044-f403-43e4-8022-bcd7ba0d048a",
+    "sentence": "Several participants expressed uncertainty about the timing and magnitude of tariff-related price ef",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"contested\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "contested"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "f5ea879c-5013-4afb-9d6a-6a596fda000d",
+    "sentence": "But, you know, we get together, we discuss -- we have a great discussion, and then we decide what to",
+    "raw_response": "{\"top\": [\"monetary_policy\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "1e07a1b3-2441-4cc0-bfbf-235da8355424",
+    "sentence": "Uncertainty surrounding the outlooks for both reserves and ON RRP participation was substantial.",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"interpretive\", \"sen\": 0, \"hor\": true, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"elevated\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "interpretive",
+      "sen": 0,
+      "hor": true,
+      "com": "none",
+      "ris": "na",
+      "wid": "elevated"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "49724d32-3ec1-4ab0-b303-24829439f54a",
+    "sentence": "Consumer spending has thus far held up a bit better than expected, but households continue to face s",
+    "raw_response": "{\"top\": [\"economic_activity\"], \"ten\": \"descriptive\", \"sen\": 2, \"hor\": false, \"com\": \"none\", \"ris\": \"skewed_downside\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": 2,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_downside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
+    "sentence": "With the recovery proceeding at a moderate rate and the margin of economic slack quite wide, the und",
+    "raw_response": "{\n  \"top\": [\"economic_activity\", \"inflation\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 1,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"skewed_upside\",\n  \"wid\": \"none\"\n}",
+    "parsed": {
+      "top": [
+        "economic_activity",
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "skewed_upside",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "e65a2d4d-1ab6-46e7-871f-635b9b60403b",
+    "sentence": "The increased volatility appeared to contribute to a decline in measures of market liquidity in core",
+    "raw_response": "{\"top\": [\"financial_conditions\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
+  },
+  {
+    "id": "a460e423-0a22-4572-ba50-8d28978dd901",
+    "sentence": "Labor market conditions continued to improve in September, though employment growth was slower than ",
+    "raw_response": "{\"top\": [\"unemployment\"], \"ten\": \"descriptive\", \"sen\": 1, \"hor\": false, \"com\": \"none\", \"ris\": \"na\", \"wid\": \"none\"}",
+    "parsed": {
+      "top": [
+        "unemployment"
+      ],
+      "ten": "descriptive",
+      "sen": 1,
+      "hor": false,
+      "com": "none",
+      "ris": "na",
+      "wid": "none"
+    },
+    "elapsed_s": 0.03
   }
 ]
