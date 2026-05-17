@@ -42,7 +42,9 @@ DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "sft_p3" / "adapter"
 
 # Prompt and output dirs are resolved dynamically from the adapter path in main()
 PROMPT_MAP = {
+    "sft_p1": "P1_medium_3shot",
     "sft_p3": "P3_medium_5shot",
+    "sft_p5": "P5_high_3shot",
     "sft_p7": "P7_high_5shot",
 }
 
@@ -64,16 +66,9 @@ LABEL_FIELDS = ["top", "ten", "sen", "hor", "com", "ris", "wid"]
 # ── MODEL LOADING ────────────────────────────────────────────────────────────
 
 def load_base_model(model_name: str):
-    """Load 4-bit quantized base model."""
+    """Load base model in bf16 (no quantization — CUDA 13 lib conflict workaround)."""
     print(f"\nLoading base model: {model_name}")
     print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
-
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,
-    )
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
@@ -82,7 +77,6 @@ def load_base_model(model_name: str):
 
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        quantization_config=bnb_config,
         device_map="auto",
         torch_dtype=torch.bfloat16,
         attn_implementation="sdpa",
