@@ -50,8 +50,8 @@ PRIMARY_FIELDS = ["top", "sen", "ris", "wid"]
 
 def build_prompt(template: str, sentence_data: dict) -> str:
     """Substitute sentence and context into prompt template."""
-    sentence = sentence_data.get("sentence", "")
-    context_q = sentence_data.get("context_question", "")
+    sentence = sentence_data.get("sentence") or ""
+    context_q = sentence_data.get("context_question") or ""
     prompt = template.replace("{sentence}", sentence)
     prompt = prompt.replace("{context_question}", context_q)
     return prompt
