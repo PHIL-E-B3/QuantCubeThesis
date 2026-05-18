@@ -4,8 +4,8 @@
 
 # --- Model ---
 model:
-  name: "meta-llama/Meta-Llama-3.1-8B-Instruct"  # Llama 3.1
-  max_seq_length: 256          # Keep this exactly as we calculated!
+  name: "unsloth/Meta-Llama-3.1-8B-Instruct"  # Llama 3.1 (ungated mirror)
+  max_seq_length: 1280         # Prompt (~900 tokens) + JSON response (~80 tokens)
   trust_remote_code: false
 
 # --- Quantization (QLoRA) ---
@@ -21,7 +21,7 @@ lora:
   lora_alpha: 8                 # Scaling factor = m*r; m=2 empirically optimal
   lora_dropout: 0.1
   bias: "none"
-  task_type: "SEQ_CLS"          # Sequence classification
+  task_type: "CAUSAL_LM"        # Generative JSON output
   target_modules:               # All linear layers per Dettmers et al.
     - "q_proj"
     - "k_proj"
@@ -35,7 +35,7 @@ lora:
 # Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
   top: ["inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
-  sen: [-2, -1, 0, 1, 2, "na"]   # numeric; "na" only for boilerplate
+  sen: ["strongly_dovish", "dovish", "neutral", "hawkish", "strongly_hawkish", "na"]   # "na" only for boilerplate
   ten: ["descriptive", "interpretive"]   # descriptive = backward/present; interpretive = forward
   hor: [true, false]                     # true = long_term horizon present; false otherwise
   com: ["none", "conditional", "unconditional"]
@@ -63,25 +63,28 @@ training:
   fp16: false
   bf16: true                     # RTX 4070 Ti Super supports bf16; more stable than fp16
   optim: "paged_adamw_8bit"      # QLoRA standard; manages memory spikes during checkpointing
+  dataloader_num_workers: 0      # 0 = main process only (safest on Windows; set to 2 on Linux)
+  group_by_length: true          # sort by length before batching — reduces padding waste
 
 # --- Optuna Hyperparameter Search ---
 optuna:
-  n_trials: 50
+  n_trials: 25                # 25 trials is sufficient for 632 samples; 50 wastes hours on this GPU
   sampler: TPE               # default, but explicit is good
-  pruner: 
-    type: MedianPruner       # kills bad trials early — critical on your GPU
-    n_startup_trials: 10     # random exploration before pruning kicks in
-    n_warmup_steps: 50       # steps before a trial can be pruned
+  pruner:
+    type: MedianPruner
+    n_startup_trials: 5      # start pruning after 5 random trials
+    n_warmup_epochs: 1       # don't prune before epoch 1 completes
 
   search_space:
-    lora_r: [2, 4, 8]                   # r=4 informed prior; r=2 lower bound, r=8 upper bound
-    lora_alpha_multiplier: [1, 2]       # alpha = r * multiplier; m=2 empirically optimal
-    lora_dropout: [0.05, 0.1, 0.2]     # 0.05 Dettmers baseline; extended upward for low-data regime
+    lora_r: [2, 4, 8]
+    lora_alpha_multiplier: [1, 2]
+    lora_dropout: [0.05, 0.1, 0.2]
     learning_rate:
       low: 1.0e-4
       high: 5.0e-4
-      log: true                         # 2e-4 standard starting point; upper bound confirms small-data preference
-    weight_decay: [0.01, 0.05, 0.1]    # Second regularisation axis; decays updates toward pre-trained weights
+      log: true
+    weight_decay: [0.01, 0.05, 0.1]
+    per_device_train_batch_size: [4, 8]  # 16 risks OOM with Llama 8B on 16GB
 
 # --- Active Learning ---
 active_learning:
@@ -98,5 +101,6 @@ paths:
   data_processed: "data/processed"
   unlabelled_pool: "data/all_unlabelled_sentences/master_unlabelled_pool.json"
   seed_sentences: "data/initial_training_seed_sentences"
+  seed_data_merged: "data/QuantCube_Seed_Labelled/all_labelled_sentences.json"
   model_output: "models"
   logs: "logs"

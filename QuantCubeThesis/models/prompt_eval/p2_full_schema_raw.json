@@ -9,7 +9,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -43,7 +43,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -111,7 +111,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -129,7 +129,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -146,7 +146,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -197,7 +197,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -248,7 +248,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -266,7 +266,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -300,7 +300,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -317,7 +317,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -437,7 +437,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -471,7 +471,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -505,7 +505,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",

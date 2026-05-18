@@ -16,6 +16,7 @@ from config import (
 )
 from utils import (
     run_pca, fit_ols, vif, save_model_row, print_metrics, log_warn,
+    OUTPUTS_DIR,
 )
 
 warnings.filterwarnings('ignore')
@@ -32,21 +33,24 @@ def _augment(factor_df: pd.DataFrame, df: pd.DataFrame,
 
 def _run_spec(label: str, df: pd.DataFrame, target: pd.Series,
               factor_df: pd.DataFrame, extra_cols: list,
-              extreme_val: float = 2.0) -> dict:
+              extreme_val: float = 2.0, label_prefix: str = '',
+              model_csv=None) -> dict:
     X = _augment(factor_df, df, extra_cols).dropna()
     y = target.loc[X.index].dropna()
     X = X.loc[y.index]
-    result = fit_ols(y, X, label=f'{label}_ev{extreme_val}')
+    result = fit_ols(y, X, label=f'{label_prefix}{label}_ev{extreme_val}')
     if result:
         print_metrics(result)
-        save_model_row(result)
+        save_model_row(result, csv_path=model_csv)
         result['spec'] = label
         result['extreme_val'] = extreme_val
     return result
 
 
 def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
-                  extreme_vals: list = None) -> dict:
+                  extreme_vals: list = None,
+                  label_prefix: str = '',
+                  model_csv=None) -> dict:
     """
     Run specifications 4a–4g across all extreme_val variants.
     Returns best_result (highest Adj R²).
@@ -58,6 +62,9 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
         log_warn('Step 4: no baseline result — cannot run NLP tests.')
         return {}
 
+    if model_csv is None:
+        model_csv = OUTPUTS_DIR / 'model_comparison.csv'
+
     factor_df = baseline_result['_factor_df']
     target    = df[TARGET_NEXT]
     sent_cols = [c for c in df.columns if c.startswith('sent_')]
@@ -66,28 +73,25 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
     all_results = []
     best = None
 
-    # Import here to avoid circular
-    from step0_aggregate import rescale_sen
-
     for ev in extreme_vals:
         df_ev = df.copy()
-        # Rescale the pre-aggregated sent values proportionally
+        # Proportional rescale of pre-aggregated sent values
         scale = ev / 2.0
         for c in sent_cols:
-            df_ev[c] = df_ev[c] * scale   # proportional rescale of aggregated scores
+            df_ev[c] = df_ev[c] * scale
+
+        kw = dict(label_prefix=label_prefix, model_csv=model_csv)
 
         # 4a: total sentiment
-        r = _run_spec('4a_total_sent', df_ev, target, factor_df,
-                      ['sent_total'], ev)
+        r = _run_spec('4a_total_sent', df_ev, target, factor_df, ['sent_total'], ev, **kw)
         all_results.append(r)
 
-        # 4b: dispersion (separate then joint)
-        r = _run_spec('4b_sent_sd',      df_ev, target, factor_df, ['sent_sd'], ev)
+        # 4b: dispersion — requires sentence-level aggregation; skipped for dictionary input
+        r = _run_spec('4b_sent_sd',      df_ev, target, factor_df, ['sent_sd'],            ev, **kw)
         all_results.append(r)
-        r = _run_spec('4b_sent_var',     df_ev, target, factor_df, ['sent_var'], ev)
+        r = _run_spec('4b_sent_var',     df_ev, target, factor_df, ['sent_var'],            ev, **kw)
         all_results.append(r)
-        r = _run_spec('4b_sd_var_joint', df_ev, target, factor_df,
-                      ['sent_sd','sent_var'], ev)
+        r = _run_spec('4b_sd_var_joint', df_ev, target, factor_df, ['sent_sd', 'sent_var'], ev, **kw)
         all_results.append(r)
 
         # 4c: all topic sentiments + VIF report
@@ -98,7 +102,7 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
             flagged = vif_df[vif_df['VIF'] > 10]['feature'].tolist()
             if flagged:
                 log_warn(f'4c (ev={ev}): VIF > 10 for {flagged}')
-            r = _run_spec('4c_all_topics', df_ev, target, factor_df, topic_sent, ev)
+            r = _run_spec('4c_all_topics', df_ev, target, factor_df, topic_sent, ev, **kw)
             all_results.append(r)
 
         # 4d: PCA on topic sentiments
@@ -112,35 +116,34 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
             fdf_aug = factor_df.join(topic_factors, how='inner')
             y_4d    = target.loc[fdf_aug.index].dropna()
             X_4d    = fdf_aug.loc[y_4d.index]
-            r = fit_ols(y_4d, X_4d, label=f'4d_topic_pca_ev{ev}')
+            r = fit_ols(y_4d, X_4d, label=f'{label_prefix}4d_topic_pca_ev{ev}')
             if r:
                 r['spec'] = '4d'
                 r['extreme_val'] = ev
                 print_metrics(r)
-                save_model_row(r)
+                save_model_row(r, csv_path=model_csv)
                 all_results.append(r)
 
         # 4e: total × macro interactions
-        macro_cols = [c for c in factor_df.columns]  # PC factors as proxies
-        macro_raw  = ['vix','gdp','unemployment_gap',
-                      'inflation_dev_from_target','implied_ffr']
+        macro_raw = ['vix', 'gdp', 'unemployment_gap',
+                     'inflation_dev_from_target', 'implied_ffr']
         inter_4e = {}
         for mc in macro_raw:
             if mc in df_ev.columns and 'sent_total' in df_ev.columns:
                 df_ev[f'inter_total_x_{mc}'] = df_ev['sent_total'] * df_ev[mc]
                 inter_4e[f'inter_total_x_{mc}'] = True
         r = _run_spec('4e_total_interactions', df_ev, target, factor_df,
-                      list(inter_4e.keys()), ev)
+                      list(inter_4e.keys()), ev, **kw)
         all_results.append(r)
 
         # 4f: matched topic × macro interactions
         matched = {
-            'sent_economic_activity': 'gdp',
+            'sent_economic_activity':  'gdp',
             'sent_financial_conditions': 'vix',
-            'sent_unemployment': 'unemployment_gap',
-            'sent_monetary_policy': 'implied_ffr',
-            'sent_inflation': 'inflation_dev_from_target',
-            'sent_macro': 'gdp',  # closest aggregate — noted
+            'sent_labor_market':       'unemployment_gap',
+            'sent_monetary_policy':    'implied_ffr',
+            'sent_inflation':          'inflation_dev_from_target',
+            'sent_macro':              'gdp',
         }
         inter_4f = []
         for sent_col, macro_col in matched.items():
@@ -148,8 +151,7 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
                 iname = f'inter_{sent_col}_x_{macro_col}'
                 df_ev[iname] = df_ev[sent_col] * df_ev[macro_col]
                 inter_4f.append(iname)
-        r = _run_spec('4f_matched_interactions', df_ev, target, factor_df,
-                      inter_4f, ev)
+        r = _run_spec('4f_matched_interactions', df_ev, target, factor_df, inter_4f, ev, **kw)
         all_results.append(r)
         if r:
             df_ev[[c for c in inter_4f if c in df_ev.columns]].to_csv(
@@ -162,7 +164,7 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
                 df_ev[f'delta_{c}'] = df_ev[c].diff()
         delta_cols = [f'delta_{c}' for c in topic_sent + ['sent_total']
                       if f'delta_{c}' in df_ev.columns]
-        r = _run_spec('4g_novelty', df_ev, target, factor_df, delta_cols, ev)
+        r = _run_spec('4g_novelty', df_ev, target, factor_df, delta_cols, ev, **kw)
         all_results.append(r)
 
     # Find best model
@@ -171,8 +173,10 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
         best = max(valid, key=lambda r: r.get('adj_r2', -np.inf))
         print(f'\n  ★  Best Step 4 model: {best["model_label"]}  '
               f'Adj R² = {best["adj_r2"]:.4f}')
-        pd.DataFrame([{k:v for k,v in r.items() if not k.startswith('_')}
-                      for r in valid]).to_csv(
-            INTER_DIR / 'step4_all_results.csv', index=False
+        inter_csv = INTER_DIR / (
+            f'step4_all_results_{label_prefix.rstrip("_")}.csv'
+            if label_prefix else 'step4_all_results.csv'
         )
+        pd.DataFrame([{k: v for k, v in r.items() if not k.startswith('_')}
+                      for r in valid]).to_csv(inter_csv, index=False)
     return best or {}

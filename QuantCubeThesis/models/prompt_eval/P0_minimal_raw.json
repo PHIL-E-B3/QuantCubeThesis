@@ -10,7 +10,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -27,7 +27,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -44,7 +44,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -61,7 +61,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -79,7 +79,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -96,7 +96,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -114,7 +114,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -135,7 +135,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -153,7 +153,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -170,7 +170,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -187,7 +187,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -206,7 +206,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -224,7 +224,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -242,7 +242,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -259,7 +259,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -278,7 +278,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -295,7 +295,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -312,7 +312,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -330,7 +330,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -347,7 +347,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -365,7 +365,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -382,7 +382,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -399,7 +399,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -417,7 +417,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -435,7 +435,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -454,7 +454,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -472,7 +472,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -491,7 +491,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -508,7 +508,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -525,7 +525,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -542,7 +542,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -560,7 +560,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -578,7 +578,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -596,7 +596,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -613,7 +613,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -632,7 +632,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -649,7 +649,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -673,7 +673,7 @@
         "no_topic"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -692,7 +692,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -711,7 +711,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -730,7 +730,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -748,7 +748,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -766,7 +766,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -803,7 +803,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -821,7 +821,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -838,7 +838,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -855,7 +855,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -874,7 +874,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -892,7 +892,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -912,7 +912,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -930,7 +930,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -947,7 +947,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -967,7 +967,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -984,7 +984,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1003,7 +1003,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1021,7 +1021,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1039,7 +1039,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1056,7 +1056,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1075,7 +1075,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1093,7 +1093,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1111,7 +1111,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1130,7 +1130,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1149,7 +1149,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1168,7 +1168,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1186,7 +1186,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1205,7 +1205,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1222,7 +1222,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1239,7 +1239,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1257,7 +1257,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1274,7 +1274,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1293,7 +1293,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1312,7 +1312,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1329,7 +1329,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1348,7 +1348,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1365,7 +1365,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1383,7 +1383,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -1401,7 +1401,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1418,7 +1418,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1435,7 +1435,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1453,7 +1453,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1470,7 +1470,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1488,7 +1488,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1505,7 +1505,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1522,7 +1522,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1540,7 +1540,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1558,7 +1558,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1576,7 +1576,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1595,7 +1595,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1613,7 +1613,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1631,7 +1631,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1649,7 +1649,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1666,7 +1666,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1685,7 +1685,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1695,7 +1695,7 @@
   },
   {
     "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
-    "sentence": "Business contacts in a couple of Districts\u2014particularly those in the manufacturing, health-care, and",
+    "sentence": "Business contacts in a couple of Districts—particularly those in the manufacturing, health-care, and",
     "raw_response": "{\n  \"top\": [\"economic_activity\", \"macro\", \"financial_conditions\", \"monetary_policy\", \"boilerplate\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"conditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}",
     "parsed": {
       "top": [
@@ -1706,7 +1706,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1725,7 +1725,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1742,7 +1742,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1759,7 +1759,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1776,7 +1776,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1793,7 +1793,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1810,7 +1810,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1828,7 +1828,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -1846,7 +1846,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1864,7 +1864,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1883,7 +1883,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1901,7 +1901,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1919,7 +1919,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1936,7 +1936,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1954,7 +1954,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1973,7 +1973,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1991,7 +1991,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2010,7 +2010,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2027,7 +2027,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2046,7 +2046,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -2066,7 +2066,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2085,7 +2085,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2103,7 +2103,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2120,7 +2120,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2138,7 +2138,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2157,7 +2157,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2174,7 +2174,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2191,7 +2191,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2210,7 +2210,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2227,7 +2227,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2247,7 +2247,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2265,7 +2265,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2284,7 +2284,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2301,7 +2301,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2321,7 +2321,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2341,7 +2341,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2360,7 +2360,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2378,7 +2378,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -2396,7 +2396,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2414,7 +2414,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2433,7 +2433,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2452,7 +2452,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2469,7 +2469,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2488,7 +2488,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2507,7 +2507,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -2526,7 +2526,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2545,7 +2545,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2563,7 +2563,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2582,7 +2582,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2601,7 +2601,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2620,7 +2620,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2639,7 +2639,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -2658,7 +2658,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2676,7 +2676,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2695,7 +2695,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2712,7 +2712,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2731,7 +2731,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2750,7 +2750,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2768,7 +2768,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2787,7 +2787,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2805,7 +2805,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2823,7 +2823,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2841,7 +2841,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2859,7 +2859,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2879,7 +2879,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2898,7 +2898,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -2916,7 +2916,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2935,7 +2935,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2956,7 +2956,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2975,7 +2975,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2994,7 +2994,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3013,7 +3013,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3032,7 +3032,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3049,7 +3049,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3068,7 +3068,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3086,7 +3086,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3104,7 +3104,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3123,7 +3123,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3142,7 +3142,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3159,7 +3159,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3178,7 +3178,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3196,7 +3196,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -3215,7 +3215,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3234,7 +3234,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3253,7 +3253,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3270,7 +3270,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3289,7 +3289,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -3308,7 +3308,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3328,7 +3328,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3346,7 +3346,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3365,7 +3365,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3384,7 +3384,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3404,7 +3404,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3423,7 +3423,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3442,7 +3442,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3460,7 +3460,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3477,7 +3477,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3496,7 +3496,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3516,7 +3516,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3535,7 +3535,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3552,7 +3552,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3588,7 +3588,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3606,7 +3606,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3624,7 +3624,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3642,7 +3642,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -3659,7 +3659,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3677,7 +3677,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3694,7 +3694,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3713,7 +3713,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -3730,7 +3730,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3747,7 +3747,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3766,7 +3766,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -3784,7 +3784,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3802,7 +3802,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3819,7 +3819,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3838,7 +3838,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3856,7 +3856,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3873,7 +3873,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3892,7 +3892,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3911,7 +3911,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3928,7 +3928,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3945,7 +3945,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3964,7 +3964,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3982,7 +3982,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3999,7 +3999,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4017,7 +4017,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4036,7 +4036,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4054,7 +4054,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4090,7 +4090,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -4109,7 +4109,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4127,7 +4127,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4138,14 +4138,14 @@
   {
     "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
     "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by s",
-    "raw_response": "To classify the given FOMC sentence, we need to analyze its content and structure. Here's the classification in JSON format:\n\n```json\n{\n  \"top\": [\"macro\", \"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": true,\n  \"com\": \"conditional\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}\n```\n\nHere's a brief explanation of the classification:\n\n- **top**: The sentence primarily discusses macroeconomic conditions and monetary policy, so it's classified under those categories.\n- **ten**: The sentence is descriptive, as it explains the FOMC's analysis and projections without making any specific policy recommendations or interpretations.\n- **sen**: The sentence is neutral, with no clear bias or opinion, so it's classified as 0.\n- **hor**: The sentence discusses future projections and potential scenarios, so it's classified as true.\n- **com**: The sentence is conditional, as it discusses the FOMC's analysis and projections under certain conditions (e.g., optimal policy, unemployment below 6\u00bd",
+    "raw_response": "To classify the given FOMC sentence, we need to analyze its content and structure. Here's the classification in JSON format:\n\n```json\n{\n  \"top\": [\"macro\", \"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": true,\n  \"com\": \"conditional\",\n  \"ris\": \"symmetric\",\n  \"wid\": \"none\"\n}\n```\n\nHere's a brief explanation of the classification:\n\n- **top**: The sentence primarily discusses macroeconomic conditions and monetary policy, so it's classified under those categories.\n- **ten**: The sentence is descriptive, as it explains the FOMC's analysis and projections without making any specific policy recommendations or interpretations.\n- **sen**: The sentence is neutral, with no clear bias or opinion, so it's classified as 0.\n- **hor**: The sentence discusses future projections and potential scenarios, so it's classified as true.\n- **com**: The sentence is conditional, as it discusses the FOMC's analysis and projections under certain conditions (e.g., optimal policy, unemployment below 6½",
     "parsed": {
       "top": [
         "macro",
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -4164,7 +4164,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4181,7 +4181,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4198,7 +4198,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4217,7 +4217,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4235,7 +4235,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4253,7 +4253,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4270,7 +4270,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4290,7 +4290,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4308,7 +4308,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4326,7 +4326,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4343,7 +4343,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4361,7 +4361,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4380,7 +4380,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4397,7 +4397,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4415,7 +4415,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4433,7 +4433,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4452,7 +4452,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4470,7 +4470,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -4487,7 +4487,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4506,7 +4506,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4524,7 +4524,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4542,7 +4542,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4561,7 +4561,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4580,7 +4580,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4598,7 +4598,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4616,7 +4616,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4634,7 +4634,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4653,7 +4653,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4671,7 +4671,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4691,7 +4691,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -4710,7 +4710,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4728,7 +4728,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4747,7 +4747,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -4764,7 +4764,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4781,7 +4781,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4799,7 +4799,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4816,7 +4816,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4835,7 +4835,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4852,7 +4852,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4871,7 +4871,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4890,7 +4890,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4908,7 +4908,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -4925,7 +4925,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4943,7 +4943,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4960,7 +4960,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4978,7 +4978,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4995,7 +4995,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5012,7 +5012,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5030,7 +5030,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5050,7 +5050,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5067,7 +5067,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5086,7 +5086,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5104,7 +5104,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5123,7 +5123,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5141,7 +5141,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5160,7 +5160,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5178,7 +5178,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5195,7 +5195,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5214,7 +5214,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5232,7 +5232,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5250,7 +5250,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5267,7 +5267,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5286,7 +5286,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5304,7 +5304,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5323,7 +5323,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5342,7 +5342,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5360,7 +5360,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5379,7 +5379,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5397,7 +5397,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5415,7 +5415,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5434,7 +5434,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5452,7 +5452,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5494,7 +5494,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5514,7 +5514,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5531,7 +5531,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5550,7 +5550,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5569,7 +5569,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5587,7 +5587,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5605,7 +5605,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5622,7 +5622,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5639,7 +5639,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5675,7 +5675,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5693,7 +5693,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5712,7 +5712,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5729,7 +5729,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5748,7 +5748,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5766,7 +5766,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5785,7 +5785,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5804,7 +5804,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5823,7 +5823,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5840,7 +5840,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5859,7 +5859,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5876,7 +5876,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5894,7 +5894,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5912,7 +5912,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5929,7 +5929,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5947,7 +5947,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5967,7 +5967,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5985,7 +5985,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6004,7 +6004,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6023,7 +6023,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6042,7 +6042,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6061,7 +6061,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6080,7 +6080,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6097,7 +6097,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6116,7 +6116,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6135,7 +6135,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6154,7 +6154,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6173,7 +6173,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -6191,7 +6191,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6210,7 +6210,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -6220,14 +6220,14 @@
   },
   {
     "id": "c2518c60-192c-43e4-b103-e92bcf697ed7",
-    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by \u00be percentage",
+    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by ¾ percentage",
     "raw_response": "{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 1,\n  \"hor\": true,\n  \"com\": \"conditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}",
     "parsed": {
       "top": [
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -6245,7 +6245,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6263,7 +6263,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -6282,7 +6282,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -6301,7 +6301,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6320,7 +6320,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6337,7 +6337,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6354,7 +6354,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6373,7 +6373,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6391,7 +6391,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6409,7 +6409,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6427,7 +6427,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6445,7 +6445,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6464,7 +6464,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6483,7 +6483,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6502,7 +6502,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -6520,7 +6520,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6537,7 +6537,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6554,7 +6554,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6571,7 +6571,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6588,7 +6588,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6607,7 +6607,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6624,7 +6624,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -6643,7 +6643,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -6662,7 +6662,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -6681,7 +6681,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6699,7 +6699,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -6718,7 +6718,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -6737,7 +6737,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6772,7 +6772,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -6790,7 +6790,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6807,7 +6807,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6827,7 +6827,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6845,7 +6845,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6862,7 +6862,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6889,7 +6889,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6906,7 +6906,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6945,7 +6945,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -6982,7 +6982,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7001,7 +7001,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7019,7 +7019,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7056,7 +7056,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -7074,7 +7074,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7084,14 +7084,14 @@
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
-    "sentence": "With today's decision, we have lowered our policy rate \u00be percentage point over our last three meetin",
+    "sentence": "With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetin",
     "raw_response": "{\n  \"top\": [\"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}",
     "parsed": {
       "top": [
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7109,7 +7109,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7128,7 +7128,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -7147,7 +7147,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7183,7 +7183,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7202,7 +7202,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7221,7 +7221,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7240,7 +7240,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7260,7 +7260,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7278,7 +7278,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7297,7 +7297,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7314,7 +7314,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7333,7 +7333,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -7351,7 +7351,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7370,7 +7370,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7387,7 +7387,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7406,7 +7406,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7423,7 +7423,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7441,7 +7441,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7458,7 +7458,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7496,7 +7496,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7514,7 +7514,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7533,7 +7533,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7552,7 +7552,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7587,7 +7587,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7606,7 +7606,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7625,7 +7625,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7643,7 +7643,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7662,7 +7662,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -7681,7 +7681,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7698,7 +7698,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7716,7 +7716,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7735,7 +7735,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7753,7 +7753,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7789,7 +7789,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7810,7 +7810,7 @@
         "no_topic"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7828,7 +7828,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -7846,7 +7846,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7865,7 +7865,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7884,7 +7884,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -7902,7 +7902,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7921,7 +7921,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7940,7 +7940,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7958,7 +7958,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7975,7 +7975,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8029,7 +8029,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8048,7 +8048,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8067,7 +8067,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8086,7 +8086,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8105,7 +8105,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8122,7 +8122,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8140,7 +8140,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8160,7 +8160,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8177,7 +8177,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8214,7 +8214,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8233,7 +8233,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8308,7 +8308,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8328,7 +8328,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8347,7 +8347,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8366,7 +8366,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8384,7 +8384,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8421,7 +8421,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8440,7 +8440,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8475,7 +8475,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8492,7 +8492,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8516,7 +8516,7 @@
         "no_topic"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -8533,7 +8533,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8550,7 +8550,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -8567,7 +8567,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8585,7 +8585,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8655,7 +8655,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8691,7 +8691,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8722,7 +8722,7 @@
   },
   {
     "id": "7d80d32a-6363-4741-a676-89fb4999addd",
-    "sentence": "At the end of the day, the data should be guiding our policy action\u2014not speculation about what could",
+    "sentence": "At the end of the day, the data should be guiding our policy action—not speculation about what could",
     "raw_response": "To classify the given FOMC sentence, we'll use the following classification:\n\n- \"top\": [\"macro\", \"monetary_policy\"]\n- \"ten\": \"descriptive\"\n- \"sen\": 0\n- \"hor\": false\n- \"com\": \"unconditional\"\n- \"ris\": \"na\"\n- \"wid\": \"none\"\n\nHere's the JSON object:\n\n```json\n{\n  \"top\": [\"macro\", \"monetary_policy\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"unconditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n```",
     "parsed": {
       "top": [
@@ -8730,7 +8730,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -8740,7 +8740,7 @@
   },
   {
     "id": "ae749f50-8f0a-4181-bb9a-df3e2ef608f5",
-    "sentence": "Conclusion\r\nGraduates\u2014Spartans\u2014you are entering the wider world, one filled with pressing needs, and",
+    "sentence": "Conclusion\r\nGraduates—Spartans—you are entering the wider world, one filled with pressing needs, and",
     "raw_response": "{\n  \"top\": [\"macro\", \"boilerplate\"],\n  \"ten\": \"descriptive\",\n  \"sen\": \"na\",\n  \"hor\": false,\n  \"com\": \"none\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}",
     "parsed": {
       "top": [
@@ -8766,7 +8766,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8805,7 +8805,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -8823,7 +8823,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8841,7 +8841,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -8877,7 +8877,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -8896,7 +8896,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -8913,7 +8913,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8932,7 +8932,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -8949,7 +8949,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -8967,7 +8967,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -8986,7 +8986,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9004,7 +9004,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9021,7 +9021,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9039,7 +9039,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9059,7 +9059,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9082,7 +9082,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9099,7 +9099,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9116,7 +9116,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9134,7 +9134,7 @@
         "risks"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9151,7 +9151,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -9171,7 +9171,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9190,7 +9190,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9211,7 +9211,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9230,7 +9230,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9249,7 +9249,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9268,7 +9268,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9285,7 +9285,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -9303,7 +9303,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9321,7 +9321,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9339,7 +9339,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9357,7 +9357,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9376,7 +9376,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9395,7 +9395,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9405,7 +9405,7 @@
   },
   {
     "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al\u00adthough CRE loan growth on banks' balance sheets remained robust in the first quarter, the April S",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April S",
     "raw_response": "To classify the given FOMC sentence, I'll use a predefined set of rules. Please note that these rules are based on general knowledge and might not be 100% accurate.\n\n```json\n{\n  \"top\": [\"macro\", \"financial_conditions\"],\n  \"ten\": \"descriptive\",\n  \"sen\": 0,\n  \"hor\": false,\n  \"com\": \"conditional\",\n  \"ris\": \"na\",\n  \"wid\": \"none\"\n}\n```\n\nHere's a breakdown of the classification:\n\n- **top**: The sentence discusses macroeconomic conditions (loan growth, loan standards) and financial conditions (banks' balance sheets), so it's classified as \"macro\" and \"financial_conditions\".\n- **ten**: The sentence provides factual information about CRE loan growth and loan standards, so it's classified as \"descriptive\".\n- **sen**: The sentence does not express a strong opinion or bias, so it's classified as 0 (neutral).\n- **hor**: The sentence does not discuss future economic conditions or projections, so it's classified as false.\n- **com**: The sentence mentions a specific indicator (April SLOOS) that condit",
     "parsed": {
       "top": [
@@ -9413,7 +9413,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9431,7 +9431,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9448,7 +9448,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9466,7 +9466,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -9485,7 +9485,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9505,7 +9505,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9524,7 +9524,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9542,7 +9542,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9562,7 +9562,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9580,7 +9580,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9599,7 +9599,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9618,7 +9618,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9637,7 +9637,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9656,7 +9656,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9675,7 +9675,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9693,7 +9693,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9720,7 +9720,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9739,7 +9739,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9759,7 +9759,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9777,7 +9777,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9795,7 +9795,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9814,7 +9814,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9834,7 +9834,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9853,7 +9853,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9873,7 +9873,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9891,7 +9891,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -9911,7 +9911,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -9930,7 +9930,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -9954,7 +9954,7 @@
         "no_topic"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -9972,7 +9972,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -9991,7 +9991,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10010,7 +10010,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -10029,7 +10029,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10048,7 +10048,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10067,7 +10067,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10085,7 +10085,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10104,7 +10104,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -10121,7 +10121,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -10140,7 +10140,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -10159,7 +10159,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10178,7 +10178,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -10197,7 +10197,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10217,7 +10217,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10236,7 +10236,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -10255,7 +10255,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -10274,7 +10274,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10292,7 +10292,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10311,7 +10311,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10330,7 +10330,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -10349,7 +10349,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10367,7 +10367,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10386,7 +10386,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10405,7 +10405,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10424,7 +10424,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10445,7 +10445,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10464,7 +10464,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10483,7 +10483,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10502,7 +10502,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -10521,7 +10521,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10541,7 +10541,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -10561,7 +10561,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10578,7 +10578,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10596,7 +10596,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10615,7 +10615,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10634,7 +10634,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -10652,7 +10652,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -10672,7 +10672,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10691,7 +10691,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10710,7 +10710,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -10728,7 +10728,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",

@@ -25,6 +25,21 @@ from utils import log_warn
 
 warnings.filterwarnings('ignore')
 
+SENTIMENT_TO_NUMERIC = {
+    'strongly_hawkish':  2,
+    'hawkish':           1,
+    'neutral':           0,
+    'dovish':           -1,
+    'strongly_dovish':  -2,
+    'na':                0,
+}
+
+# Old abbreviated field names → full names (for legacy JSON files)
+_FIELD_REMAP = {
+    'sen': 'sentiment', 'top': 'topic', 'ten': 'tense',
+    'hor': 'horizon',   'com': 'commitment', 'ris': 'risk', 'wid': 'width',
+}
+
 
 # ── Sentence loader ───────────────────────────────────────────────────────────
 
@@ -47,19 +62,25 @@ def load_sentences(path) -> pd.DataFrame:
             records = json.load(f)
 
     df = pd.DataFrame(records)
+    # Rename abbreviated field names to full names if present
+    df = df.rename(columns={k: v for k, v in _FIELD_REMAP.items() if k in df.columns})
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
-    # sen should be numeric
-    df['sen']  = pd.to_numeric(df['sen'], errors='coerce')
+    # Convert semantic sentiment strings to numeric (also handles already-numeric values)
+    if 'sentiment' in df.columns:
+        df['sentiment'] = df['sentiment'].map(
+            lambda v: SENTIMENT_TO_NUMERIC.get(str(v).lower().strip(), 0)
+            if not isinstance(v, (int, float)) else v
+        )
     return df
 
 
 # ── Rescaling ─────────────────────────────────────────────────────────────────
 
 def rescale_sen(df: pd.DataFrame, extreme_val: float = 2.0) -> pd.DataFrame:
-    """Replace sen == ±2 with ±extreme_val."""
+    """Replace sentiment == ±2 with ±extreme_val."""
     df = df.copy()
-    df['sen'] = df['sen'].where(df['sen'] != 2, extreme_val)
-    df['sen'] = df['sen'].where(df['sen'] != -2, -extreme_val)
+    df['sentiment'] = df['sentiment'].where(df['sentiment'] != 2, extreme_val)
+    df['sentiment'] = df['sentiment'].where(df['sentiment'] != -2, -extreme_val)
     return df
 
 
@@ -97,7 +118,7 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
 
     # Filter boilerplate / no_topic
     def _keep(row):
-        top = row.get('top', [])
+        top = row.get('topic', [])
         if isinstance(top, str):
             import ast
             try:
@@ -108,7 +129,7 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
 
     df = df[df.apply(_keep, axis=1)].copy()
 
-    # Normalise top to a Python list
+    # Normalise topic to a Python list
     def _to_list(val):
         if isinstance(val, list):
             return val
@@ -118,7 +139,7 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
         except Exception:
             return [str(val)]
 
-    df['top_list'] = df['top'].apply(_to_list)
+    df['topic_list'] = df['topic'].apply(_to_list)
 
     rows = []
     for (source, date, doc_type), grp in df.groupby(['source', 'date', 'doc_type']):
@@ -126,24 +147,24 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
 
         # Per-topic sentiment
         for topic in TOPICS:
-            mask      = grp['top_list'].apply(lambda t: topic in t)
-            raw_sum   = grp.loc[mask, 'sen'].sum()
+            mask      = grp['topic_list'].apply(lambda t: topic in t)
+            raw_sum   = grp.loc[mask, 'sentiment'].sum()
             row[f'sent_{topic}'] = _agg_transform(raw_sum, agg_func)
 
         # Aggregate sentiment
-        raw_total = grp['sen'].sum()
+        raw_total = grp['sentiment'].sum()
         row['sent_total'] = _agg_transform(raw_total, agg_func)
-        row['sent_sd']    = grp['sen'].std()
-        row['sent_var']   = grp['sen'].var()
+        row['sent_sd']    = grp['sentiment'].std()
+        row['sent_var']   = grp['sentiment'].var()
 
         # Flags
-        row['flag_elevated_wid']        = (grp['wid'] == 'elevated').sum()
-        row['flag_skew_up']             = (grp['ris'] == 'skewed_upside').sum()
-        row['flag_skew_down']           = (grp['ris'] == 'skewed_downside').sum()
+        row['flag_elevated_wid']        = (grp['width'] == 'elevated').sum()
+        row['flag_skew_up']             = (grp['risk'] == 'skewed_upside').sum()
+        row['flag_skew_down']           = (grp['risk'] == 'skewed_downside').sum()
         row['flag_unconditional_forward'] = int(
-            ((grp['com'] == 'unconditional') & (grp['ten'] == 'forward')).any()
+            ((grp['commitment'] == 'unconditional') & (grp['tense'] == 'interpretive')).any()
         )
-        row['flag_conditional']         = (grp['com'] == 'conditional').sum()
+        row['flag_conditional']         = (grp['commitment'] == 'conditional').sum()
 
         # Speaker types (relevant for speech doc_type)
         spk_col = 'speaker_type' if 'speaker_type' in grp.columns else None

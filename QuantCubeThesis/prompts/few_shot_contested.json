@@ -1,0 +1,178 @@
+[
+  {
+    "id": "bc56ccef-1956-4420-917d-4a63307f8778",
+    "sentence": "The Committee judges that the case for an increase in the federal funds rate has strengthened but decided, for the time being, to wait for further evidence of continued progress toward its objectives.",
+    "source": "statement_20160921.txt",
+    "doc_type": "statement",
+    "date": "2016-09-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "41d3cde4-729f-4a47-bc01-f30de820a194",
+    "sentence": "The Federal Reserve is not politically compromised.",
+    "source": "FOMCpresconf20160921.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20160921",
+    "context_question": "Chair Yellen, at a time when the public is losing faith in many institutions, did the FOMC discuss the importance of today as an opportunity to dispel the thinking that the Fed is politically compromised or beholden to markets?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "45e3a874-23b1-460c-b2a5-90873b3e6623",
+    "sentence": "Today's decision also reflects our view that waiting too long to scale back some accommodation could potentially require us to raise rates rapidly sometime down the road, which, in turn, could risk disrupting financial markets and pushing the economy into recession.",
+    "source": "FOMCpresconf20170315.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20170315",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": true,
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "a6ec96cd-d12c-49b8-bbeb-2eb3568ab8d9",
+    "sentence": "In light of the significant uncertainty and downside risks associated with the course of the pandemic and how long it would take the economy to recover, the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "c003923a-eea9-4e2c-b691-51004e3280d7",
+    "sentence": "But if there is a significant shock that's a material deterioration to the outlook, we would consider resuming reinvestment.",
+    "source": "FOMCpresconf20170920.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170920",
+    "context_question": "Hi, thank you. David Harrison with Dow Jones. I’d like to follow up on the balance sheet question, if I may. What specifically would it take for you to reverse the decision to wind down the balance sheet, and under what conditions would you consider adding to the balance sheet again? And separately, as a follow-up to that, looking more broadly, how do you think history will judge the effectiveness of your asset purchases and the conditions under which that policy should be used? Thank you.",
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "strongly_dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "17a43881-7ad1-4d7e-bffe-d61067e02aca",
+    "sentence": "The 12-month change in total and core PCE prices was well above 2 percent in May, and available data suggested that PCE price inflation would remain high in June.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "48da1d37-cac5-4a02-bd61-943ab3073663",
+    "sentence": "Starting next month, we will be purchasing $35 billion of securities per month, down $10 billion per month from our current rate.",
+    "source": "FOMCpresconf20140618.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "unconditional",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "285869e2-54ab-4000-911f-45da72de2218",
+    "sentence": "By contrast, if labor market conditions or economic activity were to weaken materially, or if inflation were to continue to come down and inflation expectations remained well anchored, then it would be appropriate to establish a less restrictive stance of monetary policy than would otherwise be the case.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "economic_activity",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": false,
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "325d99cd-2812-4586-80c9-2db65f8d8d49",
+    "sentence": "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.",
+    "source": "minutes_20140917.html",
+    "doc_type": "minutes",
+    "date": "20140917",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": true,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1c4223fa-c1de-4626-aebf-86a202aca570",
+    "sentence": "The various headwinds that are still restraining the economy, as I said, will likely take some time to fully abate, and the pace of that improvement is highly uncertain.",
+    "source": "The Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-05-22",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

@@ -50,41 +50,52 @@ from sklearn.metrics import (
 PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 RESULTS_DIR = Path(__file__).parent.parent / "models" / "prompt_eval"
 
-# Fields and their valid values (from annotation schema v2)
+# Fields and their valid values (final schema — full field names)
 LABEL_SCHEMA = {
-    "top": {
+    "topic": {
         "type": "multi",
         "values": ["inflation", "labor_market", "economic_activity", "macro",
                    "financial_conditions", "monetary_policy", "boilerplate", "no_topic"],
     },
-    "ten": {
+    "tense": {
         "type": "single",
         "values": ["descriptive", "interpretive"],
     },
-    "sen": {
+    "sentiment": {
         "type": "single",
-        "values": ["-2", "-1", "0", "1", "2", "na"],
+        "values": ["strongly_hawkish", "hawkish", "neutral", "dovish", "strongly_dovish", "na"],
     },
-    "com": {
+    "horizon": {
+        "type": "single",
+        "values": ["true", "false"],
+    },
+    "commitment": {
         "type": "single",
         "values": ["unconditional", "conditional", "none"],
     },
-    "hor": {
-        "type": "single",
-        "values": ["True", "False"],
-    },
-    "ris": {
+    "risk": {
         "type": "single",
         "values": ["skewed_downside", "skewed_upside", "symmetric", "na"],
     },
-    "wid": {
+    "width": {
         "type": "single",
         "values": ["elevated", "contested", "none"],
     },
 }
 
+# Mapping from ground-truth short field names to final long field names
+GT_FIELD_MAP = {
+    "top": "topic",
+    "ten": "tense",
+    "sen": "sentiment",
+    "hor": "horizon",
+    "com": "commitment",
+    "ris": "risk",
+    "wid": "width",
+}
+
 # Fields that are most important for the thesis (weighted in summary)
-PRIMARY_FIELDS = ["top", "sen", "ris", "wid"]
+PRIMARY_FIELDS = ["topic", "sentiment", "risk", "width"]
 
 VLLM_CHUNK_SIZE = 50  # sentences per save checkpoint when using vLLM
 
@@ -209,7 +220,7 @@ def extract_json(response: str) -> Optional[dict]:
             try:
                 parsed = json.loads(match.group())
                 # Validate it has at least some expected fields
-                if any(k in parsed for k in ["top", "ten", "sen"]):
+                if any(k in parsed for k in ["topic", "tense", "sentiment"]):
                     return parsed
             except json.JSONDecodeError:
                 continue
@@ -254,25 +265,29 @@ def normalize_prediction(pred: dict) -> dict:
 
 
 def normalize_ground_truth(gt: dict) -> dict:
-    """Normalize ground truth labels to match prediction format."""
+    """Normalize ground truth labels to match prediction format.
+    Ground truth uses short field names (top/ten/sen/hor/com/ris/wid);
+    remap to final long names before normalizing.
+    """
     normalized = {}
 
-    for field, schema in LABEL_SCHEMA.items():
-        val = gt.get(field)
+    for short, long in GT_FIELD_MAP.items():
+        schema = LABEL_SCHEMA[long]
+        val = gt.get(short)
 
         if val is None or val == "":
-            normalized[field] = "na" if schema["type"] == "single" else ["na"]
+            normalized[long] = "na" if schema["type"] == "single" else ["na"]
             continue
 
         if schema["type"] == "multi":
             if isinstance(val, str):
-                normalized[field] = [val.lower().strip()]
+                normalized[long] = [val.lower().strip()]
             elif isinstance(val, list):
-                normalized[field] = [str(v).lower().strip() for v in val]
+                normalized[long] = [str(v).lower().strip() for v in val]
             else:
-                normalized[field] = [str(val)]
+                normalized[long] = [str(val)]
         else:
-            normalized[field] = str(val).lower().strip()
+            normalized[long] = str(val).lower().strip()
 
     return normalized
 
@@ -520,19 +535,20 @@ def evaluate_prompt(
     return result
 
 
-    # IDs of sentences used as few-shot examples in prompts — exclude from evaluation
+    # IDs of sentences used as few-shot examples across _final prompts — exclude from evaluation
+    # 5-shot: all five; 3-shot: 41d3cde4, a6ec96cd, 325d99cd (48da1d37 and 17a43881 removed)
 EXAMPLE_IDS = {
-    "e5418507-7ab1-476e-8db9-fc28796c584f",  # boilerplate
-    "99122de6-aab0-49fc-9183-d4bd3fc33e27",  # level vs change
-    "c7346ec3-ca84-449c-a104-7e0c8d3543ba",  # contested
-    "cd96b673-cdc4-4ab3-a428-3880ba0bd1dd",  # strong dovish
-    "995fddd0-966b-4ea0-9eaf-879c5f7fbeed",  # risk upside
+    "41d3cde4",
+    "17a43881",
+    "a6ec96cd",
+    "48da1d37",
+    "325d99cd",
 }
 
 
 def run_all_prompts(
     val_path: str,
-    model_name: str = "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    model_name: str = "unsloth/Meta-Llama-3.1-8B-Instruct",
     prompt_filter: Optional[str] = None,
     resume: bool = False,
     sample_size: Optional[int] = None,
@@ -545,8 +561,9 @@ def run_all_prompts(
         validation_data = json.load(f)
     print(f"Loaded {len(validation_data)} validation sentences from {val_path}")
 
-    # Exclude few-shot example sentences
-    validation_data = [s for s in validation_data if s["id"] not in EXAMPLE_IDS]
+    # Exclude few-shot example sentences (EXAMPLE_IDS contains 8-char prefixes)
+    validation_data = [s for s in validation_data
+                       if not any(s["id"].startswith(ex) for ex in EXAMPLE_IDS)]
     print(f"After excluding few-shot examples: {len(validation_data)} sentences")
 
     # Subsample if requested (stratified by sen to keep label distribution)
@@ -564,13 +581,13 @@ def run_all_prompts(
         model, tokenizer = load_model(model_name)
         vllm_model = None
 
-    # Find prompts — new naming convention: P0_minimal.txt, P1_medium_3shot.txt, etc.
+    # Find prompts — only _final variants by default
     if prompt_filter:
         prompt_files = [PROMPTS_DIR / prompt_filter]
         if not prompt_files[0].exists():
             prompt_files = list(PROMPTS_DIR.glob(f"*{prompt_filter}*"))
     else:
-        prompt_files = sorted(PROMPTS_DIR.glob("P*.txt"))
+        prompt_files = sorted(PROMPTS_DIR.glob("*_final.txt"))
 
     print(f"Prompts to evaluate: {[p.stem for p in prompt_files]}")
 

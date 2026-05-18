@@ -10,7 +10,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "skewed_downside",
@@ -27,7 +27,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -44,7 +44,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -61,7 +61,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -78,7 +78,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -95,7 +95,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -127,7 +127,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -182,7 +182,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "unconditional",
       "ris": "symmetric",
@@ -220,7 +220,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -251,7 +251,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -275,7 +275,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -292,7 +292,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -328,7 +328,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "unconditional",
       "ris": "na",
@@ -345,7 +345,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -363,7 +363,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -380,7 +380,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -405,7 +405,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -429,7 +429,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -446,7 +446,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -464,7 +464,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -488,7 +488,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -506,7 +506,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na"
@@ -530,7 +530,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -547,7 +547,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -564,7 +564,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -581,7 +581,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -607,7 +607,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -625,7 +625,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -643,7 +643,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -668,7 +668,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -685,7 +685,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -703,7 +703,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -721,7 +721,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -739,7 +739,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -771,7 +771,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -790,7 +790,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -808,7 +808,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -834,7 +834,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -868,7 +868,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -887,7 +887,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -913,7 +913,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -930,7 +930,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -948,7 +948,7 @@
         "hawkish"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -965,7 +965,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -982,7 +982,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1006,7 +1006,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1025,7 +1025,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1042,7 +1042,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1059,7 +1059,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1076,7 +1076,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1093,7 +1093,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1111,7 +1111,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -1128,7 +1128,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1146,7 +1146,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1164,7 +1164,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1182,7 +1182,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1199,7 +1199,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1217,7 +1217,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1260,7 +1260,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1278,7 +1278,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1296,7 +1296,7 @@
         "none"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -1314,7 +1314,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "unconditional"
     },
@@ -1330,7 +1330,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1354,7 +1354,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1372,7 +1372,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1389,7 +1389,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -1399,7 +1399,7 @@
   },
   {
     "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
-    "sentence": "Business contacts in a couple of Districts\u2014particularly those in the manufacturing, health-care, and",
+    "sentence": "Business contacts in a couple of Districts—particularly those in the manufacturing, health-care, and",
     "raw_response": "To classify the given sentence, we'll go through each field in order.\n\n\"top\": The sentence discusses economic conditions, specifically the labor market, which is related to unemployment. However, it's not a direct discussion of unemployment rates or levels, but rather the challenges businesses are facing in hiring workers. This suggests that the topic is more closely related to economic activity, as it involves the state of the labor market and its impact on businesses. Additionally, the sentence implies that the virus cases and childcare needs are affecting the labor market, which could be related to inflation (if the virus cases lead to higher prices). Therefore, the top topics present are \"economic_activity\" and \"inflation\".\n\n\"ten\": The sentence is describing the current state of the labor market and the challenges businesses are facing, without making any forward-signalling or projections. It's a backward-looking or present-state data with no forward implication, so the ten field i",
     "parsed": {},
     "elapsed_s": 0.2
@@ -1428,7 +1428,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -1445,7 +1445,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1462,7 +1462,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1479,7 +1479,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1497,7 +1497,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -2,
+      "sen": "strongly_dovish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -1514,7 +1514,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1540,7 +1540,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1558,7 +1558,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1583,7 +1583,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -1601,7 +1601,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1619,7 +1619,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -1637,7 +1637,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -1655,7 +1655,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1673,7 +1673,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1692,7 +1692,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -1710,7 +1710,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -1728,7 +1728,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -1746,7 +1746,7 @@
         "economic_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1771,7 +1771,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -1788,7 +1788,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -1833,7 +1833,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -1850,7 +1850,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -1918,7 +1918,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1936,7 +1936,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -1969,7 +1969,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -1988,7 +1988,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2022,7 +2022,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2065,7 +2065,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2097,7 +2097,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2115,7 +2115,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2132,7 +2132,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "unconditional",
       "ris": "na",
@@ -2150,7 +2150,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -2168,7 +2168,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -2192,7 +2192,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -2218,7 +2218,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2235,7 +2235,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2255,7 +2255,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2301,7 +2301,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2319,7 +2319,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2345,7 +2345,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -2363,7 +2363,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2384,7 +2384,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -2422,7 +2422,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2447,7 +2447,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -2478,7 +2478,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -2491,7 +2491,7 @@
     "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings",
     "raw_response": "Sentence: \"The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committee's holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.\"\n\ntop: The sentence discusses monetary policy, specifically the Committee's existing policy of reinvesting principal payments and rolling over maturing securities. It also mentions the effect of this policy on financial conditions. Therefore, the top topics are \"monetary_policy\" and \"financial_conditions\". \n{\"top\": [\"monetary_policy\", \"financial_conditions\"]}\n\nten: The sentence is forward-signalling, as it discusses the effect of the Committee's policy on financial conditions. It also mentions the Committee's existing policy, which implies a projection or outlook. Therefore, the ",
     "parsed": {
-      "sen": -1
+      "sen": "dovish"
     },
     "elapsed_s": 0.2
   },
@@ -2518,7 +2518,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2556,7 +2556,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2596,7 +2596,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2629,7 +2629,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2661,7 +2661,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2687,7 +2687,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2704,7 +2704,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2723,7 +2723,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2742,7 +2742,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2766,7 +2766,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2808,7 +2808,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -2826,7 +2826,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2852,7 +2852,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2871,7 +2871,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2903,7 +2903,7 @@
         "economic_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -2922,7 +2922,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "unconditional",
       "ris": "skewed_upside",
@@ -2941,7 +2941,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -2965,7 +2965,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -2983,7 +2983,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "skewed_upside",
@@ -3001,7 +3001,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3043,7 +3043,7 @@
         "fiscal_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3074,7 +3074,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -3092,7 +3092,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -3110,7 +3110,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3127,7 +3127,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3146,7 +3146,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3182,7 +3182,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -3218,7 +3218,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3236,7 +3236,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -3254,7 +3254,7 @@
   {
     "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
     "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by s",
-    "raw_response": "Sentence: \"On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6\u00bd percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.\"\n\ntop: The sentence discusses the interest rate path, unemployment, and inflation, which are all related to monetary policy. I",
+    "raw_response": "Sentence: \"On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6½ percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.\"\n\ntop: The sentence discusses the interest rate path, unemployment, and inflation, which are all related to monetary policy. I",
     "parsed": {},
     "elapsed_s": 0.2
   },
@@ -3268,7 +3268,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3317,7 +3317,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -3335,7 +3335,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -3346,13 +3346,13 @@
   {
     "id": "bf42e137-1c92-498b-8c88-4acaf8b3eb16",
     "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the",
-    "raw_response": "Sentence: \"As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to \u00bc percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.\"\n\ntop: The sentence discusses monetary policy, specifically the decision to keep the target range for the federal funds rate and make no change in the asset purchase program or forward guidance. Therefore, the topic is \"monetary_policy\". Since the sentence does not discuss any specific economic conditions or variables, there is no need to include other topics. Hence, \"top\" is [\"monetary_policy\"].\n\nten: The sentence is a statement of current policy, with no forward implication or projection. It is a descriptive sentence, as it reports the current state of monetary policy without signaling any future action. Therefore, \"ten\" is \"descriptive\".\n\nsen: The sentence reports no change in monetary policy, which is a neutral st",
+    "raw_response": "Sentence: \"As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to ¼ percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.\"\n\ntop: The sentence discusses monetary policy, specifically the decision to keep the target range for the federal funds rate and make no change in the asset purchase program or forward guidance. Therefore, the topic is \"monetary_policy\". Since the sentence does not discuss any specific economic conditions or variables, there is no need to include other topics. Hence, \"top\" is [\"monetary_policy\"].\n\nten: The sentence is a statement of current policy, with no forward implication or projection. It is a descriptive sentence, as it reports the current state of monetary policy without signaling any future action. Therefore, \"ten\" is \"descriptive\".\n\nsen: The sentence reports no change in monetary policy, which is a neutral st",
     "parsed": {
       "top": [
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3378,7 +3378,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -3395,7 +3395,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3412,7 +3412,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -3430,7 +3430,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3448,7 +3448,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -3472,7 +3472,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3490,7 +3490,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -3501,7 +3501,7 @@
   {
     "id": "4fa1081d-c247-4fd8-9078-2919cabcd50f",
     "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December th",
-    "raw_response": "Sentence: \"Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6\u00bd percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"\n\ntop: The sentence discusses monetary policy, specifically the federal funds rate, and its relation to unemployment and inflation. It also mentions updating guidance, which is a procedural/administrative topic. Therefore, the top topics are \"monetary_policy\" and \"boilerplate\".\n\nten: The sentence projects future policy and conditions, using conditionals (\"if projected inflation continues to run below\") and a forward-looking tone. Therefore, the ten field is \"interpretive\".\n\nsen: The sentence implies that the FOMC is willing to maintain the current target range for",
+    "raw_response": "Sentence: \"Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6½ percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"\n\ntop: The sentence discusses monetary policy, specifically the federal funds rate, and its relation to unemployment and inflation. It also mentions updating guidance, which is a procedural/administrative topic. Therefore, the top topics are \"monetary_policy\" and \"boilerplate\".\n\nten: The sentence projects future policy and conditions, using conditionals (\"if projected inflation continues to run below\") and a forward-looking tone. Therefore, the ten field is \"interpretive\".\n\nsen: The sentence implies that the FOMC is willing to maintain the current target range for",
     "parsed": {},
     "elapsed_s": 0.2
   },
@@ -3515,7 +3515,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -3541,7 +3541,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3558,7 +3558,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3576,7 +3576,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -3593,7 +3593,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3617,7 +3617,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -3652,7 +3652,7 @@
         "economic_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3670,7 +3670,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3696,7 +3696,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -3714,7 +3714,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3739,7 +3739,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -3757,7 +3757,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -3799,7 +3799,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3817,7 +3817,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3859,7 +3859,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3876,7 +3876,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3894,7 +3894,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3911,7 +3911,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3929,7 +3929,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -3946,7 +3946,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -3964,7 +3964,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -3981,7 +3981,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4012,7 +4012,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4030,7 +4030,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4056,7 +4056,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4091,7 +4091,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -4115,7 +4115,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4140,7 +4140,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -4171,7 +4171,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4188,7 +4188,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -4205,7 +4205,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -4223,7 +4223,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -4241,7 +4241,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -4283,7 +4283,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4308,7 +4308,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4325,7 +4325,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4360,7 +4360,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -4378,7 +4378,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4396,7 +4396,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -4414,7 +4414,7 @@
         "boilerplate"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none"
     },
@@ -4444,7 +4444,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4462,7 +4462,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4479,7 +4479,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4496,7 +4496,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4521,7 +4521,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -4545,7 +4545,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -4562,7 +4562,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -4586,7 +4586,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4645,7 +4645,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -4670,7 +4670,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -4687,7 +4687,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4704,7 +4704,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -4721,7 +4721,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -4752,7 +4752,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -4787,7 +4787,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -4828,7 +4828,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4846,7 +4846,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -4864,7 +4864,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -4884,7 +4884,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -4902,7 +4902,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -4926,8 +4926,8 @@
   },
   {
     "id": "c2518c60-192c-43e4-b103-e92bcf697ed7",
-    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by \u00be percentage",
-    "raw_response": "To classify the given sentence, we'll go through each field in order.\n\n\"top\": The sentence mentions the Committee raising the target range for the federal funds rate, which is a monetary policy action. Therefore, the topic is \"monetary_policy\". Additionally, the sentence implies a tightening of monetary policy, which suggests a hawkish stance on inflation. However, since the sentence also mentions the target range for the federal funds rate, it's not solely focused on inflation. Therefore, the topic is [\"monetary_policy\", \"inflation\"].\n\n\"ten\": The sentence is forward-signalling, as it mentions the Committee's action and its implications for the target range. It's not a backward-looking or present-state data sentence, so it's \"interpretive\".\n\n\"sen\": The sentence implies a tightening of monetary policy, which is hawkish. The Committee raised the target range for the federal funds rate, resulting in a 1\u00bd percentage point increase in the target range so far this year. This is a significant",
+    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by ¾ percentage",
+    "raw_response": "To classify the given sentence, we'll go through each field in order.\n\n\"top\": The sentence mentions the Committee raising the target range for the federal funds rate, which is a monetary policy action. Therefore, the topic is \"monetary_policy\". Additionally, the sentence implies a tightening of monetary policy, which suggests a hawkish stance on inflation. However, since the sentence also mentions the target range for the federal funds rate, it's not solely focused on inflation. Therefore, the topic is [\"monetary_policy\", \"inflation\"].\n\n\"ten\": The sentence is forward-signalling, as it mentions the Committee's action and its implications for the target range. It's not a backward-looking or present-state data sentence, so it's \"interpretive\".\n\n\"sen\": The sentence implies a tightening of monetary policy, which is hawkish. The Committee raised the target range for the federal funds rate, resulting in a 1½ percentage point increase in the target range so far this year. This is a significant",
     "parsed": {},
     "elapsed_s": 0.2
   },
@@ -4940,7 +4940,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -4988,7 +4988,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -5007,7 +5007,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -5025,7 +5025,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -5043,7 +5043,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5060,7 +5060,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -5103,7 +5103,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -5121,7 +5121,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -5152,7 +5152,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5170,7 +5170,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5188,7 +5188,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "unconditional",
       "ris": "na",
@@ -5205,7 +5205,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5222,7 +5222,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5262,7 +5262,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "unconditional",
       "ris": "na",
@@ -5280,7 +5280,7 @@
         "no_topic"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -5298,7 +5298,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -5322,7 +5322,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5357,7 +5357,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -5375,7 +5375,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "symmetric",
@@ -5406,7 +5406,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5423,7 +5423,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5441,7 +5441,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -5458,7 +5458,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5475,7 +5475,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5510,7 +5510,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -5545,7 +5545,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -5571,7 +5571,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5588,7 +5588,7 @@
         "boilerplate"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5606,7 +5606,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5624,7 +5624,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5634,14 +5634,14 @@
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
-    "sentence": "With today's decision, we have lowered our policy rate \u00be percentage point over our last three meetin",
-    "raw_response": "Sentence: \"With today's decision, we have lowered our policy rate \u00be percentage point over our last three meetings.\"\n\n\"top\": The topic of this sentence is monetary policy, as it mentions lowering the policy rate. Therefore, \"top\" is [\"monetary_policy\"].\n\n\"ten\": This sentence is forward-signalling, as it mentions a decision and its effect on the policy rate. It also implies a future outlook, so \"ten\" is \"interpretive\".\n\n\"sen\": The sentence mentions lowering the policy rate, which is a tightening action. Therefore, it is hawkish, and \"sen\" is +1.\n\n\"hor\": The sentence mentions a specific time frame (\"over our last three meetings\"), but it does not explicitly mention a long-term horizon. Therefore, \"hor\" is false.\n\n\"com\": The sentence mentions a specific policy action (lowering the policy rate) and variables (policy rate), so it is monetary policy. The action is contingent on the decision made, which is unconditional. Therefore, \"com\" is \"unconditional\".\n\n\"ris\": The sentence does not mentio",
+    "sentence": "With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetin",
+    "raw_response": "Sentence: \"With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetings.\"\n\n\"top\": The topic of this sentence is monetary policy, as it mentions lowering the policy rate. Therefore, \"top\" is [\"monetary_policy\"].\n\n\"ten\": This sentence is forward-signalling, as it mentions a decision and its effect on the policy rate. It also implies a future outlook, so \"ten\" is \"interpretive\".\n\n\"sen\": The sentence mentions lowering the policy rate, which is a tightening action. Therefore, it is hawkish, and \"sen\" is +1.\n\n\"hor\": The sentence mentions a specific time frame (\"over our last three meetings\"), but it does not explicitly mention a long-term horizon. Therefore, \"hor\" is false.\n\n\"com\": The sentence mentions a specific policy action (lowering the policy rate) and variables (policy rate), so it is monetary policy. The action is contingent on the decision made, which is unconditional. Therefore, \"com\" is \"unconditional\".\n\n\"ris\": The sentence does not mentio",
     "parsed": {
       "top": [
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -5666,7 +5666,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -5742,7 +5742,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -5791,7 +5791,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5810,7 +5810,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -5828,7 +5828,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5845,7 +5845,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "symmetric",
@@ -5877,7 +5877,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -5901,7 +5901,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -5919,7 +5919,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -5967,7 +5967,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6019,7 +6019,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "symmetric",
@@ -6043,7 +6043,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6062,7 +6062,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -6086,7 +6086,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6121,7 +6121,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -6138,7 +6138,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6156,7 +6156,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -6190,7 +6190,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6207,7 +6207,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6224,7 +6224,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6242,7 +6242,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6260,7 +6260,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6291,7 +6291,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6308,7 +6308,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6344,7 +6344,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6378,7 +6378,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6396,7 +6396,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -6413,7 +6413,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -6431,7 +6431,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6449,7 +6449,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6468,7 +6468,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6485,7 +6485,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6503,7 +6503,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6539,7 +6539,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6573,7 +6573,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6590,7 +6590,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6641,7 +6641,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6659,7 +6659,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6677,7 +6677,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6719,7 +6719,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -6767,7 +6767,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "symmetric",
@@ -6785,7 +6785,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -6802,7 +6802,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -6827,7 +6827,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -6851,7 +6851,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6869,7 +6869,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -6962,7 +6962,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -6989,15 +6989,15 @@
   },
   {
     "id": "7d80d32a-6363-4741-a676-89fb4999addd",
-    "sentence": "At the end of the day, the data should be guiding our policy action\u2014not speculation about what could",
-    "raw_response": "Sentence: \"At the end of the day, the data should be guiding our policy action\u2014not speculation about what could happen.\"\n\n\"top\": The sentence is discussing the importance of data in guiding policy action, which implies that the topic is \"monetary_policy\". Additionally, it mentions the need to avoid speculation, which could be related to \"financial_conditions\". However, the primary focus is on the policy action, so I will label the topic as \"monetary_policy\" with a secondary mention of \"financial_conditions\". Therefore, \"top\" = [\"monetary_policy\", \"financial_conditions\"].\n\n\"ten\": The sentence is forward-signalling, as it is discussing what should guide policy action, which implies a projection or outlook. It also contains a conditional structure (\"not speculation about what could happen\"), which further supports the \"interpretive\" label. Therefore, \"ten\" = \"interpretive\".\n\n\"sen\": The sentence is discussing the importance of data in guiding policy action, which implies a hawkish tone, as",
+    "sentence": "At the end of the day, the data should be guiding our policy action—not speculation about what could",
+    "raw_response": "Sentence: \"At the end of the day, the data should be guiding our policy action—not speculation about what could happen.\"\n\n\"top\": The sentence is discussing the importance of data in guiding policy action, which implies that the topic is \"monetary_policy\". Additionally, it mentions the need to avoid speculation, which could be related to \"financial_conditions\". However, the primary focus is on the policy action, so I will label the topic as \"monetary_policy\" with a secondary mention of \"financial_conditions\". Therefore, \"top\" = [\"monetary_policy\", \"financial_conditions\"].\n\n\"ten\": The sentence is forward-signalling, as it is discussing what should guide policy action, which implies a projection or outlook. It also contains a conditional structure (\"not speculation about what could happen\"), which further supports the \"interpretive\" label. Therefore, \"ten\" = \"interpretive\".\n\n\"sen\": The sentence is discussing the importance of data in guiding policy action, which implies a hawkish tone, as",
     "parsed": {},
     "elapsed_s": 0.19
   },
   {
     "id": "ae749f50-8f0a-4181-bb9a-df3e2ef608f5",
-    "sentence": "Conclusion\r\nGraduates\u2014Spartans\u2014you are entering the wider world, one filled with pressing needs, and",
-    "raw_response": "Sentence: \"Conclusion\r\nGraduates\u2014Spartans\u2014you are entering the wider world, one filled with pressing needs, and countless opportunities.\"\n\n\"top\": This sentence is boilerplate, discussing the graduation of students and their entry into the workforce. It does not discuss any economic topic, so it is \"boilerplate\".\n\n\"ten\": This sentence is descriptive, as it is a statement about the current state of graduates entering the workforce, without any forward implication or projection.\n\n\"sen\": Since this is boilerplate, the sentence incentive is \"na\", as there is no policy discussion.\n\n\"hor\": This sentence does not contain any explicit long-term language, so \"hor\" is false.\n\n\"com\": Since this is boilerplate, the monetary policy conditionality is \"none\".\n\n\"ris\": There is no explicit risk framing in this sentence, so \"ris\" is \"na\".\n\n\"wid\": There is no explicit acknowledgement of uncertainty or genuine disagreement in this sentence, so \"wid\" is \"none\".\n\nANSWER:\n{\n  \"top\": [\"boilerplate\"],\n  \"ten\": ",
+    "sentence": "Conclusion\r\nGraduates—Spartans—you are entering the wider world, one filled with pressing needs, and",
+    "raw_response": "Sentence: \"Conclusion\r\nGraduates—Spartans—you are entering the wider world, one filled with pressing needs, and countless opportunities.\"\n\n\"top\": This sentence is boilerplate, discussing the graduation of students and their entry into the workforce. It does not discuss any economic topic, so it is \"boilerplate\".\n\n\"ten\": This sentence is descriptive, as it is a statement about the current state of graduates entering the workforce, without any forward implication or projection.\n\n\"sen\": Since this is boilerplate, the sentence incentive is \"na\", as there is no policy discussion.\n\n\"hor\": This sentence does not contain any explicit long-term language, so \"hor\" is false.\n\n\"com\": Since this is boilerplate, the monetary policy conditionality is \"none\".\n\n\"ris\": There is no explicit risk framing in this sentence, so \"ris\" is \"na\".\n\n\"wid\": There is no explicit acknowledgement of uncertainty or genuine disagreement in this sentence, so \"wid\" is \"none\".\n\nANSWER:\n{\n  \"top\": [\"boilerplate\"],\n  \"ten\": ",
     "parsed": {
       "top": [
         "boilerplate"
@@ -7022,7 +7022,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -7039,7 +7039,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7063,7 +7063,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7102,7 +7102,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -7120,7 +7120,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7144,7 +7144,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7161,7 +7161,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7186,7 +7186,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -7203,7 +7203,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7221,7 +7221,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7239,7 +7239,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "unconditional",
       "ris": "skewed_upside",
@@ -7263,7 +7263,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -7281,7 +7281,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -7298,7 +7298,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -7315,7 +7315,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "symmetric",
@@ -7332,7 +7332,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -7350,7 +7350,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "symmetric",
@@ -7375,7 +7375,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -7406,7 +7406,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7424,7 +7424,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -7441,7 +7441,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7459,7 +7459,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7470,14 +7470,14 @@
   {
     "id": "40770022-9513-466c-99fc-5210a107b05c",
     "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to m",
-    "raw_response": "Sentence: \"In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5\u00bc to 5\u00bd percent and to continue the process of significantly reducing our securities holdings.\"\n\ntop: The sentence mentions \"tightening policy\", which is a form of monetary policy, and also discusses the federal funds rate and securities holdings, which are related to economic conditions. Therefore, the top topics are \"monetary_policy\" and \"economic_conditions\", but since the sentence references economic conditions, we include both topics. So, the top topics are [\"monetary_policy\", \"economic_conditions\"].\n\nten: The sentence is forward-signalling, as it discusses the Committee's decision to continue reducing securities holdings and maintaining the target range for the federal funds rate. It also mentions \"significantly reducing\", which implies a forward implication. Therefore, the ten field is \"interpretive\".\n\nsen: The sen",
+    "raw_response": "Sentence: \"In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.\"\n\ntop: The sentence mentions \"tightening policy\", which is a form of monetary policy, and also discusses the federal funds rate and securities holdings, which are related to economic conditions. Therefore, the top topics are \"monetary_policy\" and \"economic_conditions\", but since the sentence references economic conditions, we include both topics. So, the top topics are [\"monetary_policy\", \"economic_conditions\"].\n\nten: The sentence is forward-signalling, as it discusses the Committee's decision to continue reducing securities holdings and maintaining the target range for the federal funds rate. It also mentions \"significantly reducing\", which implies a forward implication. Therefore, the ten field is \"interpretive\".\n\nsen: The sen",
     "parsed": {
       "top": [
         "monetary_policy",
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7495,7 +7495,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_upside",
@@ -7512,7 +7512,7 @@
   },
   {
     "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al\u00adthough CRE loan growth on banks' balance sheets remained robust in the first quarter, the April S",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April S",
     "raw_response": "To classify the given sentence, we'll go through each field in order.\n\n\"top\": The sentence discusses CRE loan growth and loan standards, which are related to economic conditions. It also mentions the April SLOOS, which is a data point. Therefore, the topics present are \"economic_activity\" and \"financial_conditions\". Additionally, the sentence is discussing the effect of tightened loan standards, so we'll include the \"monetary_policy\" topic as well. The final \"top\" field is [\"monetary_policy\", \"economic_activity\", \"financial_conditions\"].\n\n\"ten\": The sentence is discussing the current state of CRE loan growth and loan standards, with a specific data point (April SLOOS) mentioned. It's not projecting or signaling any forward-looking information, so it's \"descriptive\".\n\n\"sen\": The sentence mentions that loan standards tightened further, which is a hawkish signal. However, it also mentions that CRE loan growth remained robust, which is a dovish signal. Since the sentence is discussing the ",
     "parsed": {},
     "elapsed_s": 0.2
@@ -7527,7 +7527,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -7559,7 +7559,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -7577,7 +7577,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -7596,7 +7596,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -7614,7 +7614,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7638,7 +7638,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -7665,7 +7665,7 @@
     "sentence": "In addition, participants noted that recent policy actions in the euro area had helped reduce financ",
     "raw_response": "Sentence: \"In addition, participants noted that recent policy actions in the euro area had helped reduce financial stresses and lower downside risks in the short term; however, increased volatility in financial markets remained a possibility if measures to address the longer-term fiscal and banking issues in the euro area were not put in place in a timely fashion.\"\n\ntop: The sentence discusses financial conditions and monetary policy, so the topics present are \"financial_conditions\" and \"monetary_policy\". However, it also mentions the euro area, which is not a topic in the classification system. The relevant topics are the economic conditions in the euro area, which are not explicitly mentioned, but implied through the discussion of financial stresses and fiscal and banking issues. Therefore, the topics present are \"financial_conditions\" and \"monetary_policy\". \n{\"top\": [\"financial_conditions\", \"monetary_policy\"]}\n\nten: The sentence is forward-signalling, as it discusses the potential c",
     "parsed": {
-      "sen": -1
+      "sen": "dovish"
     },
     "elapsed_s": 0.2
   },
@@ -7708,7 +7708,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -7727,7 +7727,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "na",
@@ -7759,7 +7759,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -7791,7 +7791,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -7809,7 +7809,7 @@
         "economic_conditions"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -7827,7 +7827,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -7844,7 +7844,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -7863,7 +7863,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -7895,7 +7895,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -7914,7 +7914,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -7946,7 +7946,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -7978,7 +7978,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -7995,7 +7995,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_upside",
@@ -8034,7 +8034,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "none",
       "ris": "skewed_upside",
@@ -8060,7 +8060,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -8100,7 +8100,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -8118,7 +8118,7 @@
         "inflation"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -8136,7 +8136,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8172,7 +8172,7 @@
         "no_topic"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "none",
       "ris": "skewed_downside",
@@ -8197,7 +8197,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8214,7 +8214,7 @@
         "macro"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8257,7 +8257,7 @@
         "unemployment"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": true,
       "com": "conditional",
       "ris": "skewed_downside",
@@ -8282,7 +8282,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "symmetric",
@@ -8314,7 +8314,7 @@
         "economic_activity"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8356,7 +8356,7 @@
         "financial_conditions"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8381,7 +8381,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -8399,7 +8399,7 @@
         "economic_activity"
       ],
       "ten": "descriptive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",

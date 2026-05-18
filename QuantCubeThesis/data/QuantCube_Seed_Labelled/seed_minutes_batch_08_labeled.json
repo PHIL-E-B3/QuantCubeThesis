@@ -9,7 +9,7 @@
       "boilerplate"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -25,7 +25,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -41,7 +41,7 @@
       "economic_activity"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -57,7 +57,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -74,7 +74,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "conditional",
     "hor": false,
     "ris": "na",
@@ -90,7 +90,7 @@
       "boilerplate"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -106,7 +106,7 @@
       "labor_market"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -122,7 +122,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -138,7 +138,7 @@
       "economic_activity"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -154,7 +154,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -170,7 +170,7 @@
       "economic_activity"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -186,7 +186,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -202,7 +202,7 @@
       "boilerplate"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

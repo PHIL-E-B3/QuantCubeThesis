@@ -1,0 +1,289 @@
+[
+  {
+    "id": "b97a9ac9-53e1-49b1-9f8b-ea09d5141b82",
+    "sentence": "Risks around the employment and GDP forecasts continued to be seen as skewed to the downside, as elevated economic uncertainty and a cooling labor market raised the risk of a sharper-than-expected weakening in labor market conditions and output growth.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "gardner_scores": {
+      "inf": 0.0,
+      "labor": 0.4804,
+      "out": -0.3203,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "labor"
+    ],
+    "dovish_topics": [
+      "out"
+    ],
+    "opposition_strength": 0.8006,
+    "current_labels": {
+      "top": [
+        "economic_activity",
+        "labor_market"
+      ],
+      "ten": "interpretive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    }
+  },
+  {
+    "id": "4923674a-3c93-45eb-bea8-388190b34a2b",
+    "sentence": "Various participants commented that high uncertainty had the potential to damp consumer spending as well as business hiring and investment activities or that inflation was likely to be boosted by increased tariffs. As a result, participants generally saw increased downside risks to employment and economic growth and upside risks to inflation while indicating that high uncertainty surrounded their economic outlooks.",
+    "source": "minutes_20250319.html",
+    "doc_type": "minutes",
+    "date": "20250319",
+    "gardner_scores": {
+      "inf": 0.2582,
+      "labor": 0.2582,
+      "out": -0.2582,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "inf",
+      "labor"
+    ],
+    "dovish_topics": [
+      "out"
+    ],
+    "opposition_strength": 0.5164,
+    "current_labels": {
+      "top": [
+        "economic_activity",
+        "inflation",
+        "labor_market"
+      ],
+      "ten": "interpretive",
+      "sen": "neutral",
+      "com": "none",
+      "hor": false,
+      "ris": "symmetric",
+      "wid": "elevated"
+    }
+  },
+  {
+    "id": "7cc4b88a-78ca-4534-bedd-a5737a54a51c",
+    "sentence": "Over the past seven years, FOMC participants have continually revised down their estimates of long-run u* and r* as the unemployment rate fell and historically low policy rates did not trigger a surge in inflation and inflation expectations above target.",
+    "source": "Monetary Policy Outlook for 2019",
+    "doc_type": "speech",
+    "date": "2019-01-10",
+    "gardner_scores": {
+      "inf": -0.3162,
+      "labor": 0.1581,
+      "out": 0.0,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "labor"
+    ],
+    "dovish_topics": [
+      "inf"
+    ],
+    "opposition_strength": 0.4743,
+    "current_labels": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "ffd4e619-76fb-4db6-954c-f6503b25da21",
+    "sentence": "Recent developments, including the deterioration in financial market conditions, have increased the uncertainty surrounding the outlook for economic growth and inflation.",
+    "source": "statement_20071211.txt",
+    "doc_type": "statement",
+    "date": "2007-12-11",
+    "gardner_scores": {
+      "inf": 0.2182,
+      "labor": 0.0,
+      "out": -0.2182,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "inf"
+    ],
+    "dovish_topics": [
+      "out"
+    ],
+    "opposition_strength": 0.4364,
+    "current_labels": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    }
+  },
+  {
+    "id": "1f83ca7c-3ed2-439d-9130-67cfb2f65e4c",
+    "sentence": "Participants judged that the war and related events were creating additional upward pressure on inflation and were weighing on global economic activity.",
+    "source": "minutes_20220921.html",
+    "doc_type": "minutes",
+    "date": "20220921",
+    "gardner_scores": {
+      "inf": 0.2132,
+      "labor": 0.0,
+      "out": -0.2132,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "inf"
+    ],
+    "dovish_topics": [
+      "out"
+    ],
+    "opposition_strength": 0.4264,
+    "current_labels": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": "strongly_dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "bc59160f-bfe8-4aa8-b416-26003a6af11b",
+    "sentence": "Even if unjustified, such a reduction in confidence might lead to an undesired increase in inflation expectations, to a level above the Committee's inflation objective. To address such concerns and to ensure that it can withdraw monetary accommodation smoothly at the appropriate time, the Federal Reserve has developed an array of new tools.",
+    "source": "Monetary Policy Objectives and Tools in a Low-Inflation Environment",
+    "doc_type": "speech",
+    "date": "2010-10-15",
+    "gardner_scores": {
+      "inf": 0.2747,
+      "labor": 0.0,
+      "out": -0.1374,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "inf"
+    ],
+    "dovish_topics": [
+      "out"
+    ],
+    "opposition_strength": 0.4121,
+    "current_labels": {
+      "top": [
+        "monetary_policy",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": "hawkish",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_upside",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "ef480ce5-7b29-4e09-9fc4-56822afbf946",
+    "sentence": "A few participants raised the possibility that recent declines in inflation might suggest that the economic recovery was not as strong as some thought.",
+    "source": "minutes_20131218.html",
+    "doc_type": "minutes",
+    "date": "20131218",
+    "gardner_scores": {
+      "inf": -0.2041,
+      "labor": 0.0,
+      "out": 0.2041,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "out"
+    ],
+    "dovish_topics": [
+      "inf"
+    ],
+    "opposition_strength": 0.4082,
+    "current_labels": {
+      "top": [
+        "inflation",
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": "neutral",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_downside",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "6cc71f13-39f1-4b2f-96d4-25af4d0f5451",
+    "sentence": "The Committee is attentive to the risks to both sides of its dual mandate and judges that the risks of higher unemployment and higher inflation have risen.",
+    "source": "statement_20250507.txt",
+    "doc_type": "statement",
+    "date": "2025-05-07",
+    "gardner_scores": {
+      "inf": 0.1925,
+      "labor": -0.1925,
+      "out": 0.0,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "inf"
+    ],
+    "dovish_topics": [
+      "labor"
+    ],
+    "opposition_strength": 0.3849,
+    "current_labels": {
+      "top": [
+        "labor_market",
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "symmetric",
+      "wid": "contested"
+    }
+  },
+  {
+    "id": "664eb323-f6e8-47ac-a359-937dc4521e6a",
+    "sentence": "Nevertheless, participants judged that uncertainty about their forecast of real GDP growth remained high. Moreover, a number of participants noted that structural factors such as technological progress and higher productivity growth, possibly reflecting increasing use of AI, could boost economic growth without generating price pressures and could also damp job creation.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "gardner_scores": {
+      "inf": -0.14,
+      "labor": 0.0,
+      "out": 0.14,
+      "fin": 0.0
+    },
+    "hawkish_topics": [
+      "out"
+    ],
+    "dovish_topics": [
+      "inf"
+    ],
+    "opposition_strength": 0.2801,
+    "current_labels": {
+      "top": [
+        "macro"
+      ],
+      "ten": "interpretive",
+      "sen": "neutral",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "elevated"
+    }
+  }
+]

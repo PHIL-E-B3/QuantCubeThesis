@@ -6,13 +6,16 @@
     "doc_type": "statement",
     "date": "2015-07-29",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "macro",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "symmetric",
+    "wid": "none"
   },
   {
     "id": "24f5b9a3-b8e6-482b-8f75-be35730af252",
@@ -21,13 +24,17 @@
     "doc_type": "statement",
     "date": "2016-01-27",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "macro",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "symmetric",
+    "wid": "none"
   },
   {
     "id": "6f5a0341-7236-45dc-b221-c587b4a5bc9c",
@@ -36,13 +43,16 @@
     "doc_type": "statement",
     "date": "2016-01-27",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "neutral",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "980c0523-a7c1-4df5-825b-1eab6aea34c5",
@@ -51,13 +61,16 @@
     "doc_type": "statement",
     "date": "2008-03-11",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "conditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "64b23d60-b27b-4e1d-bebe-c9f9e8ef7b46",
@@ -66,13 +79,15 @@
     "doc_type": "statement",
     "date": "2008-03-18",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "e0a5fd76-ee14-4bfc-a8d1-24eaded5a804",
@@ -81,13 +96,15 @@
     "doc_type": "statement",
     "date": "2024-12-18",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "ce18b748-fe3c-46b1-ba88-cfadd172e10d",
@@ -96,28 +113,32 @@
     "doc_type": "statement",
     "date": "2025-10-29",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "skewed_downside",
+    "wid": "none"
   },
   {
     "id": "4cca71bf-e369-4eb2-a3a3-f749b0309b30",
-    "sentence": "In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4â1/4 percent.",
+    "sentence": "In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4â1/4 percent.",
     "source": "statement_20250917.txt",
     "doc_type": "statement",
     "date": "2025-09-17",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "skewed_downside",
+    "wid": "none"
   },
   {
     "id": "75f4a0df-3f4f-4d6d-aeca-b36fc6ea24c5",
@@ -126,13 +147,16 @@
     "doc_type": "statement",
     "date": "2020-07-29",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "c9e4c84a-97ba-469c-8204-535a9cb34e57",
@@ -141,13 +165,15 @@
     "doc_type": "statement",
     "date": "2008-10-08",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "41d35470-4cad-4fdf-b92e-adaea517209e",
@@ -156,13 +182,15 @@
     "doc_type": "statement",
     "date": "2025-07-30",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "neutral",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "969b3ae2-1b4c-4623-99e0-a29e3fa4f951",
@@ -171,12 +199,15 @@
     "doc_type": "statement",
     "date": "2008-03-11",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   }
 ]

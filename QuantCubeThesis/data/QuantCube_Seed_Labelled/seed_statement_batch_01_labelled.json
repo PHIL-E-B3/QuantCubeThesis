@@ -1,18 +1,21 @@
 [
   {
     "id": "a2140619-dae5-4206-a741-d304ee52330c",
-    "sentence": "In a related set of actions to support the credit needs of households and businesses, the Federal Reserve announced measures related to the discount window, intraday credit, bank capital and liquidity buffers, reserve requirements, andâin coordination with other central banksâthe U.S. dollar liquidity swap line arrangements.",
+    "sentence": "In a related set of actions to support the credit needs of households and businesses, the Federal Reserve announced measures related to the discount window, intraday credit, bank capital and liquidity buffers, reserve requirements, andâin coordination with other central banksâthe U.S. dollar liquidity swap line arrangements.",
     "source": "statement_20200315.txt",
     "doc_type": "statement",
     "date": "2020-03-15",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "540dcb83-2eeb-4732-81c3-cae504175a1b",
@@ -21,13 +24,15 @@
     "doc_type": "statement",
     "date": "2010-08-10",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "93f49a4f-fd21-4d79-bb1d-54dadc42d92a",
@@ -36,13 +41,16 @@
     "doc_type": "statement",
     "date": "2023-03-22",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
-    "hor": false,
-    "ris": "",
-    "wid": ""
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "conditional",
+    "hor": true,
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "9900c8d2-d29f-4ffa-8574-07bc44dc08b3",
@@ -51,13 +59,17 @@
     "doc_type": "statement",
     "date": "2009-04-29",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "contested"
   },
   {
     "id": "bc0ecce3-264c-42e6-a7b2-4c6d4dcec8de",
@@ -66,13 +78,16 @@
     "doc_type": "statement",
     "date": "2008-03-11",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "e95aeaa4-7fb7-42db-963c-80d8993bb49f",
@@ -81,13 +96,18 @@
     "doc_type": "statement",
     "date": "2014-01-29",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "conditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "8386c802-88ed-4d4c-a14a-a52f21b0b845",
@@ -96,13 +116,17 @@
     "doc_type": "statement",
     "date": "2009-12-16",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "macro",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "conditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "b878e544-797f-4152-aeae-16d9055128e8",
@@ -111,13 +135,15 @@
     "doc_type": "statement",
     "date": "2020-03-15",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "94ed01e5-8301-4ddf-af12-10784707d621",
@@ -126,13 +152,17 @@
     "doc_type": "statement",
     "date": "2018-11-08",
     "context_question": null,
-    "top": [],
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "neutral",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "766e3c96-b6e5-485e-8334-3ac5c4fddaf3",
@@ -141,13 +171,15 @@
     "doc_type": "statement",
     "date": "2008-10-29",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "6a595c31-5bd6-4ff8-b3d8-2266d3a0070d",
@@ -156,13 +188,15 @@
     "doc_type": "statement",
     "date": "2022-05-04",
     "context_question": null,
-    "top": [],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "na",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "a6fc5280-c2c1-4166-8e3f-3e571f95863c",
@@ -171,13 +205,16 @@
     "doc_type": "statement",
     "date": "2020-07-29",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "unconditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   },
   {
     "id": "4b4108e7-126b-4687-af47-8601b9a03ad0",
@@ -186,13 +223,16 @@
     "doc_type": "statement",
     "date": "2018-03-21",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "macro",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "symmetric",
+    "wid": "none"
   },
   {
     "id": "5ef2bd2c-eacc-43a3-83a6-1628e018993b",
@@ -201,12 +241,14 @@
     "doc_type": "statement",
     "date": "2021-12-15",
     "context_question": null,
-    "top": [],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "conditional",
     "hor": false,
-    "ris": "",
-    "wid": ""
+    "ris": "na",
+    "wid": "none"
   }
 ]

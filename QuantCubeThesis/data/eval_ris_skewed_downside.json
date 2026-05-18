@@ -10,7 +10,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -28,7 +28,7 @@
       "labor_market",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -45,7 +45,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -62,7 +62,7 @@
     "top": [
       "macro"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -79,7 +79,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -96,7 +96,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -113,7 +113,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -130,7 +130,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -148,7 +148,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -167,7 +167,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -184,7 +184,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -202,7 +202,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -220,7 +220,7 @@
       "financial_conditions",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -237,7 +237,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -255,7 +255,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -273,7 +273,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -290,7 +290,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -308,7 +308,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -325,7 +325,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -342,7 +342,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -359,7 +359,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -376,7 +376,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -395,7 +395,7 @@
       "inflation",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -412,7 +412,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -429,7 +429,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -446,7 +446,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -464,7 +464,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -483,7 +483,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",

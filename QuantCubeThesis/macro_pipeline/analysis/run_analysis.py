@@ -3,6 +3,8 @@ run_analysis.py — Master runner for the FOMC NLP sentiment analysis pipeline.
 
 Steps:
     D   Re-compute dictionary scores (Gardner + Sharpe, wordcount + zscore)
+    E   Dictionary FAVARs — run baseline + NLP-augmented FAVARs using dictionary
+        scores only (no LLM labels). Outputs dict_favar_summary.csv.
     0   Aggregate sentence labels → document level + merge to macro panel
     1   Stationarity checks (ADF + KPSS)
     2   Correlation with dictionary approaches
@@ -17,17 +19,17 @@ Usage:
     # Full pipeline (after LLM inference is done):
     python macro_pipeline/analysis/run_analysis.py --sentences data/llm_labels.json
 
+    # Dictionary FAVARs only (no LLM labels needed, run after Step D):
+    python macro_pipeline/analysis/run_analysis.py --steps D E
+
     # Skip dictionary re-computation (already done):
     python macro_pipeline/analysis/run_analysis.py --sentences data/llm_labels.json --steps 0 1 2 3 4 5 6 7 R
 
-    # Run only dictionary computation (no LLM labels needed):
-    python macro_pipeline/analysis/run_analysis.py --steps D
-
     # Run specific steps:
-    python macro_pipeline/analysis/run_analysis.py --sentences data/llm_labels.json --steps 3 4 5
+    python macro_pipeline/analysis/run_analysis.py --sentences data/llm_labels.json --steps 3 4
 
-NOTE: Steps 1–7 and R all require --sentences (LLM output).
-      Step D only requires access to raw FOMC text in data/raw/.
+NOTE: Steps 0–7 and R all require --sentences (LLM output).
+      Steps D and E only require access to raw FOMC text in data/raw/.
 """
 
 import argparse
@@ -66,6 +68,12 @@ def run(sentences_path=None, steps=None):
         _banner('D — Dictionary Re-computation')
         from step_d_dictionary_runner import main as run_dict
         run_dict()
+
+    # ── Step E: Dictionary FAVARs (no LLM labels needed) ──────────────────────
+    if 'E' in steps:
+        _banner('E — Dictionary FAVARs (Gardner + Sharpe, all combos)')
+        from step_d_favar import run_dict_favars
+        run_dict_favars()
 
     # ── Steps requiring LLM labels ────────────────────────────────────────────
     needs_labels = set('0123456789R') & set(steps)

@@ -1,0 +1,260 @@
+[
+  {
+    "id": "49724d32-3ec1-4ab0-b303-24829439f54a",
+    "sentence": "Consumer spending has thus far held up a bit better than expected, but households continue to face significant headwinds, including falling house prices, a softer job market, tighter credit, and higher energy prices, and consumer sentiment has declined sharply since the fall.",
+    "source": "Remarks on the economic outlook",
+    "doc_type": "speech",
+    "date": "2008-06-03",
+    "trigger": "but",
+    "n_hawkish_signals": 2,
+    "n_dovish_signals": 2,
+    "current_labels": {
+      "top": [
+        "economic_activity",
+        "financial_conditions",
+        "labor_market"
+      ],
+      "ten": "descriptive",
+      "sen": "strongly_dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "contested"
+    }
+  },
+  {
+    "id": "a39e09a0-76fe-4f1a-8b5d-322e6be1f658",
+    "sentence": "The labor market remained very tight, with robust job gains in recent months and the unemployment rate still low, but there were some signs that supply and demand in the labor market were coming into better balance.",
+    "source": "minutes_20230614.html",
+    "doc_type": "minutes",
+    "date": "20230614",
+    "trigger": "but",
+    "n_hawkish_signals": 3,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "labor_market"
+      ],
+      "ten": "interpretive",
+      "sen": "hawkish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
+    "sentence": "With the recovery proceeding at a moderate rate and the margin of economic slack quite wide, the underlying rate of inflation has been trending lower despite upward pressure from rising costs of energy and other commodities and rising prices of imported goods.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-01-07",
+    "trigger": "despite",
+    "n_hawkish_signals": 2,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": "neutral",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "f0b506aa-0dda-48b8-b4c3-3f2e3c2f7aec",
+    "sentence": "A second risk that we should consider is whether in our efforts to deal with the financial crisis, we are inadvertently re-creating many of the structures and behaviors that contributed to the crisis. For example, the government is providing increased leverage even as markets are calling for deleveraging; some of the government programs make use of credit ratings from the same agencies that so evidently fell short in their assessments of structured financial instruments; some of these programs employ financial structures similar to the off-balance-sheet entities that proved unstable in the crisis; we are trying to keep interest rates very low to support asset prices and spending after an episode in which low long-term rates probably contributed to unsustainable housing prices; and, finally, we are supporting economic activity by further increasing government deficits at a time when the longer-term fiscal outlook is already troubling.",
+    "source": "Policies to Bring Us Out of the Financial Crisis and Recession",
+    "doc_type": "speech",
+    "date": "2009-04-03",
+    "trigger": "even as",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 2,
+    "current_labels": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_downside",
+      "wid": "elevated"
+    }
+  },
+  {
+    "id": "feb0eb41-a551-4e43-9518-bae012e14a0c",
+    "sentence": "Well, I think there's very strong evidence that's accumulated that this rate has been falling not just in the United States, but in many advanced nations, and the decline probably predates the financial crisis.",
+    "source": "FOMCpresconf20170315.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20170315",
+    "trigger": "but",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 2,
+    "current_labels": {
+      "top": [
+        "monetary_policy"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "8576dc14-48a6-4e55-9d5a-a318905743ae",
+    "sentence": "Financing conditions remained moderately restrictive, as borrowing costs remained elevated despite declining over the intermeeting period.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "trigger": "despite",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "b4f34c1e-63af-4a5f-a5b2-b721403e91da",
+    "sentence": "Consumer sentiment in the Thomson Reuters/University of Michigan Surveys of Consumers rose somewhat in February, but it declined in early March and remained relatively downbeat.",
+    "source": "minutes_20130320.html",
+    "doc_type": "minutes",
+    "date": "20130320",
+    "trigger": "but",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "economic_activity"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "002616e3-83ec-4c4f-9305-c0f661c9c777",
+    "sentence": "In August, however, job gains slowed markedly, with the slowdown concentrated in sectors most sensitive to the pandemic, including leisure and hospitality.",
+    "source": "FOMCpresconf20210922.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210922",
+    "trigger": "however",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "labor_market"
+      ],
+      "ten": "descriptive",
+      "sen": "dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "83d6bd74-8fe4-4b4e-a9b0-6555bd1f1c32",
+    "sentence": "In particular, they saw upside risks to inflation as having diminished but noted that inflation was still above the Committee's longer-run goal. Some participants noted the risk that progress toward price stability could stall, particularly if aggregate demand strengthened or supply-side healing slowed more than expected.",
+    "source": "minutes_20240131.html",
+    "doc_type": "minutes",
+    "date": "20240131",
+    "trigger": "but",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "interpretive",
+      "sen": "hawkish",
+      "com": "none",
+      "hor": false,
+      "ris": "skewed_upside",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "2e17636e-2390-472d-bb7d-fd44f0ca3004",
+    "sentence": "Although the economic outlook has improved modestly since the March meeting, partly reflecting some easing of financial market conditions, economic activity is likely to remain weak for a time. Nonetheless, the Committee continues to anticipate that policy actions to stabilize financial markets and institutions, fiscal and monetary stimulus, and market forces will contribute to a gradual resumption of sustainable economic growth in a context of price stability.",
+    "source": "statement_20090429.txt",
+    "doc_type": "statement",
+    "date": "2009-04-29",
+    "trigger": "although",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "monetary_policy",
+        "financial_conditions",
+        "economic_activity"
+      ],
+      "ten": "interpretive",
+      "sen": "dovish",
+      "com": "conditional",
+      "hor": true,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "5f449b8a-90fb-4385-a8c9-f02542de2ced",
+    "sentence": "Oil prices fell over most of the summer but then more recently have surged.",
+    "source": "Thoughts on the Economy and Policy Rules at the Federal Open Market Committee",
+    "doc_type": "speech",
+    "date": "2024-10-14",
+    "trigger": "but",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "inflation"
+      ],
+      "ten": "descriptive",
+      "sen": "strongly_hawkish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  },
+  {
+    "id": "de24c664-bb71-4cf5-b8e3-ccec2b9084a2",
+    "sentence": "One participant posited that the sharp decline in net worth and reduced credit availability in recent years not only weighed on aggregate demand, but also reduced aggregate supply by hampering new business formation and product innovation; another participant cited evidence that structural unemployment was elevated as a result of mismatches between the skills demanded by employers and those of the long-duration unemployed.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "trigger": "but",
+    "n_hawkish_signals": 1,
+    "n_dovish_signals": 1,
+    "current_labels": {
+      "top": [
+        "labor_market",
+        "economic_activity",
+        "financial_conditions"
+      ],
+      "ten": "descriptive",
+      "sen": "strongly_dovish",
+      "com": "none",
+      "hor": false,
+      "ris": "na",
+      "wid": "none"
+    }
+  }
+]

@@ -12,11 +12,11 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": -2,
+    "sen": "strongly_dovish",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "contested"
   },
   {
     "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
@@ -29,7 +29,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -46,7 +46,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -63,7 +63,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",

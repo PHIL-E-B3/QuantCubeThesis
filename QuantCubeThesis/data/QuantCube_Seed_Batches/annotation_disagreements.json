@@ -8,8 +8,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "ten": {
         "claude": "interpretive",
@@ -58,7 +58,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -111,8 +111,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": 0
+        "claude": "strongly_dovish",
+        "gemini": "neutral"
       }
     },
     "claude_full": {
@@ -197,8 +197,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -247,8 +247,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -287,8 +287,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -493,8 +493,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 1,
-        "gemini": 2
+        "claude": "hawkish",
+        "gemini": "strongly_hawkish"
       },
       "hor": {
         "claude": false,
@@ -583,8 +583,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "ten": {
         "claude": "interpretive",
@@ -632,8 +632,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "wid": {
         "claude": "contested",
@@ -716,8 +716,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "com": {
         "claude": "unconditional",
@@ -800,8 +800,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 2,
-        "gemini": 1
+        "claude": "strongly_hawkish",
+        "gemini": "hawkish"
       },
       "ten": {
         "claude": "interpretive",
@@ -952,8 +952,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": -1
+        "claude": "neutral",
+        "gemini": "dovish"
       },
       "wid": {
         "claude": "contested",
@@ -997,7 +997,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -1048,8 +1048,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": 2
+        "claude": "neutral",
+        "gemini": "strongly_hawkish"
       },
       "wid": {
         "claude": "elevated",
@@ -1092,8 +1092,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -1226,8 +1226,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": -1
+        "claude": "neutral",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -1402,8 +1402,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 2,
-        "gemini": 0
+        "claude": "strongly_hawkish",
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -1504,8 +1504,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": 2
+        "claude": "neutral",
+        "gemini": "strongly_hawkish"
       },
       "wid": {
         "claude": "contested",
@@ -1589,7 +1589,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -1686,8 +1686,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 1,
-        "gemini": 0
+        "claude": "hawkish",
+        "gemini": "neutral"
       }
     },
     "claude_full": {
@@ -1772,8 +1772,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 0
+        "claude": "dovish",
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -1866,7 +1866,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -2089,8 +2089,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": 0
+        "claude": "strongly_dovish",
+        "gemini": "neutral"
       }
     },
     "claude_full": {
@@ -2129,8 +2129,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -2229,8 +2229,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 1,
-        "gemini": 2
+        "claude": "hawkish",
+        "gemini": "strongly_hawkish"
       },
       "wid": {
         "claude": "contested",
@@ -2317,8 +2317,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 0
+        "claude": "dovish",
+        "gemini": "neutral"
       }
     },
     "claude_full": {
@@ -2358,8 +2358,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 0
+        "claude": "dovish",
+        "gemini": "neutral"
       }
     },
     "claude_full": {
@@ -2449,7 +2449,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -2500,8 +2500,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "top": {
         "claude": [
@@ -2594,8 +2594,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 1,
-        "gemini": 2
+        "claude": "hawkish",
+        "gemini": "strongly_hawkish"
       },
       "top": {
         "claude": [
@@ -2773,8 +2773,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "wid": {
         "claude": "contested",
@@ -2863,8 +2863,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 2,
-        "gemini": 1
+        "claude": "strongly_hawkish",
+        "gemini": "hawkish"
       },
       "com": {
         "claude": "unconditional",
@@ -2953,8 +2953,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 2,
-        "gemini": 0
+        "claude": "strongly_hawkish",
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -3050,8 +3050,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -3100,8 +3100,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "top": {
         "claude": [
@@ -3194,8 +3194,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "top": {
         "claude": [
@@ -3246,8 +3246,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 0
+        "claude": "dovish",
+        "gemini": "neutral"
       },
       "ten": {
         "claude": "descriptive",
@@ -3296,8 +3296,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": 1
+        "claude": "neutral",
+        "gemini": "hawkish"
       }
     },
     "claude_full": {
@@ -3336,8 +3336,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": -2
+        "claude": "dovish",
+        "gemini": "strongly_dovish"
       },
       "top": {
         "claude": [
@@ -3428,8 +3428,8 @@
     "sen_type": "opposite_direction",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 1
+        "claude": "dovish",
+        "gemini": "hawkish"
       },
       "top": {
         "claude": [
@@ -3650,8 +3650,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 0,
-        "gemini": -1
+        "claude": "neutral",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -3786,8 +3786,8 @@
     "sen_type": "opposite_direction",
     "discrepancies": {
       "sen": {
-        "claude": -1,
-        "gemini": 1
+        "claude": "dovish",
+        "gemini": "hawkish"
       }
     },
     "claude_full": {
@@ -3826,8 +3826,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -3866,8 +3866,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": 2,
-        "gemini": 1
+        "claude": "strongly_hawkish",
+        "gemini": "hawkish"
       },
       "com": {
         "claude": "unconditional",
@@ -3999,7 +3999,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -4051,7 +4051,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [
@@ -4104,8 +4104,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -4240,8 +4240,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       }
     },
     "claude_full": {
@@ -4332,8 +4332,8 @@
     "sen_type": "magnitude",
     "discrepancies": {
       "sen": {
-        "claude": -2,
-        "gemini": -1
+        "claude": "strongly_dovish",
+        "gemini": "dovish"
       },
       "ten": {
         "claude": "descriptive",
@@ -4425,7 +4425,7 @@
     "discrepancies": {
       "sen": {
         "claude": "na",
-        "gemini": 0
+        "gemini": "neutral"
       },
       "top": {
         "claude": [

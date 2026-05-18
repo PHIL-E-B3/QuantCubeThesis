@@ -9,7 +9,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -28,7 +28,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "conditional",
     "hor": true,
     "ris": "na",
@@ -45,7 +45,7 @@
       "no_topic"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -61,7 +61,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",

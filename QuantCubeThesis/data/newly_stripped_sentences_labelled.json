@@ -9,7 +9,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -27,7 +27,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -45,7 +45,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -63,7 +63,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -81,7 +81,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -99,7 +99,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -118,7 +118,7 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",

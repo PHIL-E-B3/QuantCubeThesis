@@ -1,18 +1,18 @@
 """
-QLoRA Fine-Tuning Trainer
-=========================
-Fine-tunes a quantized LLM for FOMC sentiment classification
-using QLoRA (4-bit NF4 quantization + LoRA adapters).
+QLoRA Fine-Tuning Trainer (Generative)
+=======================================
+Fine-tunes Llama 3.1 8B with 4-bit QLoRA to generate 7-field JSON annotations.
+The model learns: sentence + prompt → {"topic": [...], "sentiment": "...", ...}
 """
 
 import os
+import gc
 import torch
 import numpy as np
-from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, Optional, List
 
 from transformers import (
-    AutoModelForSequenceClassification,
+    AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
     TrainingArguments,
@@ -25,20 +25,54 @@ from peft import (
     TaskType,
 )
 from datasets import DatasetDict
-from sklearn.metrics import (
-    accuracy_score,
-    f1_score,
-    classification_report,
-)
 
+
+# ── Data collator ────────────────────────────────────────────────────────────
+
+class GenerativeDataCollator:
+    """
+    Pads input_ids, attention_mask, and labels (which already contain -100
+    for prompt tokens) to the batch maximum length.
+    """
+
+    def __init__(self, pad_token_id: int, pad_to_multiple_of: int = 8):
+        self.pad_token_id = pad_token_id
+        self.pad_to_multiple_of = pad_to_multiple_of
+
+    def __call__(self, features: List[dict]) -> dict:
+        input_ids = [f["input_ids"] for f in features]
+        attention_mask = [f["attention_mask"] for f in features]
+        labels = [f["labels"] for f in features]
+
+        max_len = max(len(ids) for ids in input_ids)
+        if self.pad_to_multiple_of:
+            max_len = (
+                (max_len + self.pad_to_multiple_of - 1)
+                // self.pad_to_multiple_of
+                * self.pad_to_multiple_of
+            )
+
+        pad = self.pad_token_id
+        padded_ids  = [ids  + [pad]  * (max_len - len(ids))  for ids  in input_ids]
+        padded_mask = [mask + [0]    * (max_len - len(mask)) for mask in attention_mask]
+        padded_lbl  = [lbl  + [-100] * (max_len - len(lbl))  for lbl  in labels]
+
+        return {
+            "input_ids":      torch.tensor(padded_ids,  dtype=torch.long),
+            "attention_mask": torch.tensor(padded_mask, dtype=torch.long),
+            "labels":         torch.tensor(padded_lbl,  dtype=torch.long),
+        }
+
+
+# ── Model helpers ─────────────────────────────────────────────────────────────
 
 def get_quantization_config() -> BitsAndBytesConfig:
-    """Create 4-bit NF4 quantization config for QLoRA."""
+    """4-bit NF4 quantization config for QLoRA."""
     return BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True,  # Saves ~0.4GB via double quantization
+        bnb_4bit_use_double_quant=True,
     )
 
 
@@ -48,102 +82,56 @@ def get_lora_config(
     lora_dropout: float = 0.05,
     target_modules: Optional[list] = None,
 ) -> LoraConfig:
-    """Create LoRA configuration.
-
-    Args:
-        r: Rank of the low-rank matrices.
-        lora_alpha: Scaling factor (controls update magnitude).
-        lora_dropout: Dropout rate for regularization.
-        target_modules: Which layers to inject LoRA into.
-            None defaults to all linear layers (per Dettmers et al.).
-    """
     if target_modules is None:
-        # All linear layers — shown to outperform attention-only in QLoRA paper
         target_modules = [
             "q_proj", "k_proj", "v_proj", "o_proj",
             "gate_proj", "up_proj", "down_proj",
         ]
-
     return LoraConfig(
         r=r,
         lora_alpha=lora_alpha,
         lora_dropout=lora_dropout,
         bias="none",
-        task_type=TaskType.SEQ_CLS,
+        task_type=TaskType.CAUSAL_LM,
         target_modules=target_modules,
     )
 
 
 def load_model_and_tokenizer(
     model_name: str,
-    num_labels: int,
-    label2id: Dict[str, int],
-    id2label: Dict[int, str],
     lora_config: LoraConfig,
     quantization_config: Optional[BitsAndBytesConfig] = None,
 ):
-    """
-    Load a quantized model with LoRA adapters for classification.
-
-    Returns:
-        (model, tokenizer) tuple ready for training.
-    """
+    """Load 4-bit quantized CausalLM with LoRA adapters."""
     if quantization_config is None:
         quantization_config = get_quantization_config()
 
-    # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token_id = tokenizer.eos_token_id
+    tokenizer.padding_side = "right"
 
-    # Load quantized model
-    model = AutoModelForSequenceClassification.from_pretrained(
+    model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        num_labels=num_labels,
-        label2id=label2id,
-        id2label=id2label,
         quantization_config=quantization_config,
         device_map="auto",
         torch_dtype=torch.bfloat16,
     )
-
-    # Ensure the classification head uses the pad token for pooling
     model.config.pad_token_id = tokenizer.pad_token_id
 
-    # Prepare for k-bit training (freeze base, enable gradient checkpointing)
     model = prepare_model_for_kbit_training(model)
-
-    # Inject LoRA adapters
     model = get_peft_model(model, lora_config)
 
-    # Print trainable parameters
     trainable, total = model.get_nb_trainable_parameters()
-    pct = 100 * trainable / total
-    print(f"\nTrainable parameters: {trainable:,} / {total:,} ({pct:.2f}%)")
+    print(f"Trainable parameters: {trainable:,} / {total:,} ({100 * trainable / total:.2f}%)")
 
     return model, tokenizer
 
 
-def compute_metrics(eval_pred) -> dict:
-    """Compute classification metrics for the Trainer."""
-    logits, labels = eval_pred
-    predictions = np.argmax(logits, axis=-1)
-
-    acc = accuracy_score(labels, predictions)
-    f1_macro = f1_score(labels, predictions, average="macro", zero_division=0)
-    f1_weighted = f1_score(labels, predictions, average="weighted", zero_division=0)
-
-    return {
-        "accuracy": acc,
-        "f1_macro": f1_macro,
-        "f1_weighted": f1_weighted,
-    }
-
-
 def get_training_args(
     output_dir: str,
-    num_epochs: int = 5,
+    num_epochs: int = 3,
     batch_size: int = 8,
     gradient_accumulation_steps: int = 2,
     learning_rate: float = 2e-4,
@@ -151,7 +139,6 @@ def get_training_args(
     weight_decay: float = 0.01,
     **kwargs,
 ) -> TrainingArguments:
-    """Create training arguments optimized for RTX 4070 Ti Super (16GB)."""
     return TrainingArguments(
         output_dir=output_dir,
         num_train_epochs=num_epochs,
@@ -166,12 +153,13 @@ def get_training_args(
         eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
-        metric_for_best_model="f1_macro",
-        greater_is_better=True,
+        metric_for_best_model="loss",
+        greater_is_better=False,
         fp16=False,
         bf16=True,
-        optim="paged_adamw_8bit",  # Memory-efficient optimizer for QLoRA
-        report_to="none",         # Change to "wandb" if using W&B
+        optim="paged_adamw_8bit",
+        report_to="none",
+        gradient_checkpointing=True,
         remove_unused_columns=False,
         **kwargs,
     )
@@ -185,97 +173,33 @@ def train(
     training_args: Optional[TrainingArguments] = None,
     **kwargs,
 ) -> Trainer:
-    """
-    Run the full training loop.
-
-    Args:
-        model: PEFT model with LoRA adapters.
-        tokenizer: Tokenizer.
-        dataset: DatasetDict with train/validation/test splits.
-        output_dir: Where to save checkpoints.
-        training_args: Optional custom TrainingArguments.
-
-    Returns:
-        Trained Trainer instance.
-    """
     if training_args is None:
         training_args = get_training_args(output_dir, **kwargs)
+
+    data_collator = GenerativeDataCollator(pad_token_id=tokenizer.pad_token_id)
 
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=dataset["train"],
         eval_dataset=dataset["validation"],
-        compute_metrics=compute_metrics,
+        data_collator=data_collator,
     )
 
-    print("\n=== Starting QLoRA Fine-Tuning ===")
-    print(f"Train samples: {len(dataset['train'])}")
-    print(f"Val samples:   {len(dataset['validation'])}")
-    print(f"Test samples:  {len(dataset['test'])}")
-    print(f"Epochs:        {training_args.num_train_epochs}")
-    print(f"Batch size:    {training_args.per_device_train_batch_size} "
-          f"(effective: {training_args.per_device_train_batch_size * training_args.gradient_accumulation_steps})")
-    print()
-
+    print(f"\nTrain: {len(dataset['train'])}  "
+          f"Val: {len(dataset['validation'])}  "
+          f"Test: {len(dataset['test'])}")
     trainer.train()
 
-    # Evaluate on test set
-    print("\n=== Test Set Evaluation ===")
     test_results = trainer.evaluate(dataset["test"])
+    print("\nTest results:")
     for k, v in test_results.items():
-        print(f"  {k}: {v:.4f}")
+        if isinstance(v, float):
+            print(f"  {k}: {v:.4f}")
 
-    # Save the LoRA adapter (not the full model)
-    adapter_path = os.path.join(output_dir, "final_adapter")
+    adapter_path = os.path.join(output_dir, "adapter")
     model.save_pretrained(adapter_path)
     tokenizer.save_pretrained(adapter_path)
     print(f"\nAdapter saved to {adapter_path}")
 
     return trainer
-
-
-def benchmark_baseline(
-    model_name: str,
-    dataset: DatasetDict,
-    num_labels: int,
-    label2id: Dict[str, int],
-    id2label: Dict[int, str],
-) -> dict:
-    """
-    Benchmark the base model BEFORE fine-tuning (zero-shot).
-    This gives us a comparison point as recommended in the doc.
-    """
-    print("\n=== Baseline Benchmark (Pre-Fine-Tune) ===")
-
-    bnb_config = get_quantization_config()
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-
-    model = AutoModelForSequenceClassification.from_pretrained(
-        model_name,
-        num_labels=num_labels,
-        label2id=label2id,
-        id2label=id2label,
-        quantization_config=bnb_config,
-        device_map="auto",
-        torch_dtype=torch.bfloat16,
-    )
-    model.config.pad_token_id = tokenizer.pad_token_id
-
-    trainer = Trainer(
-        model=model,
-        compute_metrics=compute_metrics,
-    )
-
-    results = trainer.evaluate(dataset["test"])
-    print("Baseline results:")
-    for k, v in results.items():
-        print(f"  {k}: {v:.4f}")
-
-    # Free memory
-    del model
-    torch.cuda.empty_cache()
-
-    return results

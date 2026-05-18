@@ -9,7 +9,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -27,7 +27,7 @@
       "economic_activity",
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -44,7 +44,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -61,7 +61,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -78,7 +78,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -98,7 +98,7 @@
       "labor_market",
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -115,7 +115,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -132,7 +132,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -150,7 +150,7 @@
       "monetary_policy",
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -168,7 +168,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -186,7 +186,7 @@
       "labor_market",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -203,7 +203,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -221,7 +221,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -238,7 +238,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -272,7 +272,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -289,7 +289,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -306,7 +306,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -323,7 +323,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -340,7 +340,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -357,7 +357,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -374,7 +374,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -391,7 +391,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -408,7 +408,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -425,7 +425,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -442,7 +442,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -459,7 +459,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -476,7 +476,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -493,7 +493,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -510,7 +510,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -527,7 +527,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -546,7 +546,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -563,7 +563,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -580,7 +580,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -598,7 +598,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -617,7 +617,7 @@
       "inflation",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -635,7 +635,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -652,7 +652,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -669,7 +669,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -686,7 +686,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -703,7 +703,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -720,7 +720,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -737,7 +737,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -756,7 +756,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -773,7 +773,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -790,7 +790,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -807,7 +807,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -824,7 +824,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -841,7 +841,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -858,7 +858,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -875,7 +875,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -892,7 +892,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -909,7 +909,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -926,7 +926,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -943,7 +943,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -960,7 +960,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -977,7 +977,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -994,7 +994,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1011,7 +1011,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1028,7 +1028,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1045,7 +1045,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1062,7 +1062,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1079,7 +1079,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1096,7 +1096,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1113,7 +1113,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -1130,7 +1130,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1147,7 +1147,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1164,7 +1164,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1181,7 +1181,7 @@
     "top": [
       "macro"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -1215,7 +1215,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1224,7 +1224,7 @@
   },
   {
     "id": "2c7be5ea-7c48-4820-b46e-fa8136bb5a6f",
-    "sentence": "Business contacts in a couple of Districts\u2014particularly those in the manufacturing, health-care, and technology sectors\u2014reported having trouble hiring workers for reasons likely related to virus cases or workers' need to provide childcare.",
+    "sentence": "Business contacts in a couple of Districts—particularly those in the manufacturing, health-care, and technology sectors—reported having trouble hiring workers for reasons likely related to virus cases or workers' need to provide childcare.",
     "source": "minutes_20201105.html",
     "doc_type": "minutes",
     "date": "20201105",
@@ -1232,7 +1232,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
-    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that\u2014with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs\u2014their situations could deteriorate significantly if additional relief and support did not materialize.",
+    "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of the resurgent virus, and that—with the looming expiration of the expanded unemployment benefits, eviction moratoria, and loan forbearance programs—their situations could deteriorate significantly if additional relief and support did not materialize.",
     "source": "minutes_20201216.html",
     "doc_type": "minutes",
     "date": "20201216",
@@ -1249,7 +1249,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1266,7 +1266,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1283,7 +1283,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1300,7 +1300,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1317,7 +1317,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1334,7 +1334,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1351,7 +1351,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1368,7 +1368,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1385,7 +1385,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1402,7 +1402,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1419,7 +1419,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1436,7 +1436,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1453,7 +1453,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1470,7 +1470,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1487,7 +1487,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1504,7 +1504,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1521,7 +1521,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1539,7 +1539,7 @@
       "monetary_policy",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1556,7 +1556,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1573,7 +1573,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1590,7 +1590,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1607,7 +1607,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1624,7 +1624,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1641,7 +1641,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1658,7 +1658,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -1675,7 +1675,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -1692,7 +1692,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1711,7 +1711,7 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -1730,7 +1730,7 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -1747,7 +1747,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -1781,7 +1781,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -1815,7 +1815,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -1832,7 +1832,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1917,7 +1917,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1934,7 +1934,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1951,7 +1951,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -1968,7 +1968,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -1987,7 +1987,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2004,7 +2004,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2022,7 +2022,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": "0",
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2039,7 +2039,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2057,7 +2057,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2074,7 +2074,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -2091,7 +2091,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -2108,7 +2108,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2126,7 +2126,7 @@
       "inflation",
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2145,7 +2145,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2179,7 +2179,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2198,7 +2198,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2215,7 +2215,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2232,7 +2232,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2249,7 +2249,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2267,7 +2267,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2284,7 +2284,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -2303,7 +2303,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -2339,7 +2339,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -2356,7 +2356,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2375,7 +2375,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2394,7 +2394,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2445,7 +2445,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2464,7 +2464,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2499,7 +2499,7 @@
       "macro",
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2516,7 +2516,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2535,7 +2535,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2552,7 +2552,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -2569,7 +2569,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -2588,7 +2588,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2606,7 +2606,7 @@
       "macro",
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2625,7 +2625,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2644,7 +2644,7 @@
       "labor_market",
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2661,7 +2661,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -2678,7 +2678,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2695,7 +2695,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2712,7 +2712,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -2732,7 +2732,7 @@
       "inflation",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -2750,7 +2750,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -2759,7 +2759,7 @@
   },
   {
     "id": "59711e2f-0d43-4d1f-b597-875645ee9c96",
-    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committee\u00e2s holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
+    "sentence": "The Committee is maintaining its existing policy of reinvesting principal payments from its holdings of agency debt and agency mortgage-backed securities in agency mortgage-backed securities and of rolling over maturing Treasury securities at auction. This policy, by keeping the Committeeâs holdings of longer-term securities at sizable levels, should help maintain accommodative financial conditions.",
     "source": "statement_20150128.txt",
     "doc_type": "statement",
     "date": "2015-01-28",
@@ -2767,7 +2767,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -2784,7 +2784,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2801,7 +2801,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2819,7 +2819,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2836,7 +2836,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -2853,7 +2853,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2872,7 +2872,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2889,7 +2889,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -2907,7 +2907,7 @@
       "economic_activity",
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2941,7 +2941,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2958,7 +2958,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -2977,7 +2977,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -2996,7 +2996,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3015,7 +3015,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3051,7 +3051,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3069,7 +3069,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -3104,7 +3104,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -3121,7 +3121,7 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -3140,7 +3140,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3149,7 +3149,7 @@
   },
   {
     "id": "cc5529f5-7e1e-47e8-93d7-0bd22edf5a55",
-    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2\u00e21/2 percent.",
+    "sentence": "In view of realized and expected labor market conditions and inflation, the Committee decided to raise the target range for the federal funds rate to 2-1/4 to 2â1/2 percent.",
     "source": "statement_20181219.txt",
     "doc_type": "statement",
     "date": "2018-12-19",
@@ -3159,7 +3159,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3176,7 +3176,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3212,7 +3212,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -3229,7 +3229,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -3297,7 +3297,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3306,7 +3306,7 @@
   },
   {
     "id": "f6b7b7a8-4741-441b-aca5-bef9147ab006",
-    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgage\u00e2backed securities by at least $10 billion per month.",
+    "sentence": "Beginning in February, the Committee will increase its holdings of Treasury securities by at least $20 billion per month and of agency mortgageâbacked securities by at least $10 billion per month.",
     "source": "statement_20220126.txt",
     "doc_type": "statement",
     "date": "2022-01-26",
@@ -3314,7 +3314,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -3348,7 +3348,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3365,7 +3365,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -3383,7 +3383,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3400,7 +3400,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -3417,7 +3417,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -3434,7 +3434,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3451,7 +3451,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3468,7 +3468,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3485,7 +3485,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -3519,7 +3519,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3536,7 +3536,7 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3570,7 +3570,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3587,7 +3587,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3604,7 +3604,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3621,7 +3621,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3634,11 +3634,11 @@
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120425",
-    "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It's at the lowest level since the early '80s. Can you talk about why people are dropping out of the job market, whether it's a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds\u2014your colleague Sheila Bair wrote this week that her\u2014about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
+    "context_question": "Scott Spoerry with CNNMoney, sir. I wanted to ask you about the labor force participation rate. It's at the lowest level since the early '80s. Can you talk about why people are dropping out of the job market, whether it's a permanent structural problem, and what convinces you that things may change? If I could just a pop a second question to follow up on Steve and the bonds—your colleague Sheila Bair wrote this week that her—about her concern over being in a bond bubble. She said you should declare victory, and you should do something about puncturing that bubble before it gets too much out of control. Can you respond to that too?",
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3651,7 +3651,7 @@
     "source": "FOMCpresconf20120425.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120425",
-    "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections\u2014in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the\u2014watching your actions get a better sense of exactly what you're thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you've been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
+    "context_question": "Mr. Chairman, Peter Cook with Bloomberg Television. Thank you for the time. First up, sir, on the projections—in your bid for transparency, for more openness here at the Fed, would you consider, in the future, you and your colleagues actually attaching your name to the projections here so that, again, markets, folks out in the—watching your actions get a better sense of exactly what you're thinking in the future, what your colleagues are thinking? And separately, sir, as you consider where you are at this moment, all you've been through with the financial crisis, the recovery, what is it right now that most frustrates you about this recovery, that still confounds you most about this recovery, that confuses you most?",
     "top": [
       "boilerplate"
     ],
@@ -3668,11 +3668,11 @@
     "source": "FOMCpresconf20120620.pdf",
     "doc_type": "press_conference_qa",
     "date": "20120620",
-    "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed's accommodative actions over the past few years has been that it's helped those with the least propensity to spend\u2014the wealthy, large businesses and corporations\u2014while the Fed's impact on those with the most propensity to spend\u2014the cash- strapped and middle-income households\u2014has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
+    "context_question": "Shahien Nasiripour with the Financial Times. Mr. Chairman, one critique of the Fed's accommodative actions over the past few years has been that it's helped those with the least propensity to spend—the wealthy, large businesses and corporations—while the Fed's impact on those with the most propensity to spend—the cash- strapped and middle-income households—has been muted. I was hoping that you could perhaps address this criticism, particularly with a focus on access to credit.",
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3708,7 +3708,7 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -3726,7 +3726,7 @@
       "financial_conditions",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3744,7 +3744,7 @@
       "monetary_policy",
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -3753,7 +3753,7 @@
   },
   {
     "id": "67a1c092-9f73-49ac-a83a-241510f38b06",
-    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6\u00bd percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
+    "sentence": "On the threshold numbers, this is based -- these numbers are based on substantial analysis done by staff, both here and at the Reserve Banks, trying to assess under so-called optimal policy, or in the best policy that we can come up with, what would the interest rate path look like and how would it be connected or correlated with changes in unemployment and inflation. And when we do that analysis, what we find is that the best interest rate path -- as best as we can determine it based on our models and analysis, which is obviously imperfect -- has rates remaining low until unemployment drops below 6½ percent. And it projects if we put in the two -- the half of a percentage point above the 2 percent goal as a kind of protection against any problem with price stability, but our projections, our actual forecast suggests that inflation will not go there.",
     "source": "FOMCpresconf20121212.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20121212",
@@ -3763,7 +3763,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -3776,11 +3776,11 @@
     "source": "FOMCpresconf20121212.pdf",
     "doc_type": "press_conference_qa",
     "date": "20121212",
-    "context_question": "Okay, sir, I had a follow-up, too. I'm not going to ask you whether we're in a bond bubble. But obviously, the new guidance that you've given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping\u2014was that a consideration in adding this transparency?",
+    "context_question": "Okay, sir, I had a follow-up, too. I'm not going to ask you whether we're in a bond bubble. But obviously, the new guidance that you've given in the FOMC statement is going to give a lot more clues to people who own bonds about when they might start lightening up their bond portfolios and changing the composition of what they own. Was concerns about information about bond prices and things happening in a big hurry, in terms of some sort of a bubble popping—was that a consideration in adding this transparency?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3831,7 +3831,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3865,7 +3865,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3874,7 +3874,7 @@
   },
   {
     "id": "bf42e137-1c92-498b-8c88-4acaf8b3eb16",
-    "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to \u00bc percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.",
+    "sentence": "As you already know from our statement, the Committee decided today to keep the target range for the federal funds rate at 0 to ¼ percent and to make no change in either its asset purchase program or its forward guidance regarding the federal funds rate target.",
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20130918",
@@ -3882,7 +3882,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -3899,7 +3899,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3918,7 +3918,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -3948,11 +3948,11 @@
     "source": "FOMCpresconf20130918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20130918",
-    "context_question": "Mr. Chairman, Josh Zumbrun from Bloomberg News. You indicated that you can see the Fed lowering the pace of purchases once the economy starts to grow faster, in line with what the Fed's projected. For about the past four years, the Fed has been projecting that growth would quicken to about 3 percent, and it never has. So, at what point are you decide\u2014going to decide that other costs and benefits are the reason that you're making the decision? Are we getting close to that having to be a deciding factor even if you don't get the growth forecast, the way you haven't the past four years? And does the complication of this\u2014 this is kind of a second question, but I'm going to do it anyway\u2014does the complication of this mean that you need a press conference to make a tapering decision?",
+    "context_question": "Mr. Chairman, Josh Zumbrun from Bloomberg News. You indicated that you can see the Fed lowering the pace of purchases once the economy starts to grow faster, in line with what the Fed's projected. For about the past four years, the Fed has been projecting that growth would quicken to about 3 percent, and it never has. So, at what point are you decide—going to decide that other costs and benefits are the reason that you're making the decision? Are we getting close to that having to be a deciding factor even if you don't get the growth forecast, the way you haven't the past four years? And does the complication of this— this is kind of a second question, but I'm going to do it anyway—does the complication of this mean that you need a press conference to make a tapering decision?",
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3969,7 +3969,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -3986,7 +3986,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -3999,12 +3999,12 @@
     "source": "FOMCpresconf20131218.pdf",
     "doc_type": "press_conference_qa",
     "date": "20131218",
-    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of\u2014given all you've said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer\u2014wait for more data?",
+    "context_question": "Peter Barnes, Fox Business, sir. Was it a close call in the discussion today among participants and members of—given all you've said about the outlook and your forecast, was there a lot a of debate on whether or not to go ahead and start tapering now or wait longer—wait for more data?",
     "top": [
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4021,7 +4021,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4038,7 +4038,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4047,7 +4047,7 @@
   },
   {
     "id": "4fa1081d-c247-4fd8-9078-2919cabcd50f",
-    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6\u00bd percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"",
+    "sentence": "Although the thresholds served well as a useful guide to policy over the past year, last December the FOMC judged it appropriate to update that guidance, noting that the current target range for the federal funds rate would likely be maintained \"well past the time that the unemployment rate declines below 6½ percent, especially if projected inflation continues to run below the Committee's 2 percent longer-run goal.\"",
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_prepared",
     "date": "20140319",
@@ -4057,7 +4057,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -4074,7 +4074,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -4087,12 +4087,12 @@
     "source": "FOMCpresconf20140319.pdf",
     "doc_type": "press_conference_qa",
     "date": "20140319",
-    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6\u00bd percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
+    "context_question": "Madam Chair, Marty Crutsinger with the Associated Press. Could you give us a little insight in how the decision was made on dropping the 6½ percent numerical target in the forward guidance? Was there any concern expressed that there's been criticism on forward guidance, that it's confusing markets, not helping them in some ways? Was there concern expressed that perhaps it would have been better to go to just a lower target, say, 6 percent? And could you also address the concerns raised in the dissent that by dropping this, it lowers the commitment on fighting low inflation? Thank you.",
     "top": [
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -4109,7 +4109,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4128,7 +4128,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -4145,7 +4145,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4158,7 +4158,7 @@
     "source": "FOMCpresconf20140917.pdf",
     "doc_type": "press_conference_qa",
     "date": "20140917",
-    "context_question": "Jon Hilsenrath from the Wall Street Journal. Chair Yellen, I want to come back to the interest rate projections that the Fed put out today. The public, I think, would be enlightened by knowing a bit more about where you stand in relation to these projections. And with that in mind, and in the name of transparency, I wonder if you could describe to us whether you're at the low end of those projections, within the central tendency, or at the high end. I also want to ask you about a San Francisco Fed paper that came out recently, which suggested that market expectations have been running below the Fed's own projections. So I wanted to ask you if you see that as well, and whether it's at all troubling that market expectations might not be aligned with the central\u2014with what the Fed put out today.",
+    "context_question": "Jon Hilsenrath from the Wall Street Journal. Chair Yellen, I want to come back to the interest rate projections that the Fed put out today. The public, I think, would be enlightened by knowing a bit more about where you stand in relation to these projections. And with that in mind, and in the name of transparency, I wonder if you could describe to us whether you're at the low end of those projections, within the central tendency, or at the high end. I also want to ask you about a San Francisco Fed paper that came out recently, which suggested that market expectations have been running below the Fed's own projections. So I wanted to ask you if you see that as well, and whether it's at all troubling that market expectations might not be aligned with the central—with what the Fed put out today.",
     "top": [
       "boilerplate"
     ],
@@ -4179,7 +4179,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4192,11 +4192,11 @@
     "source": "FOMCpresconf20141217.pdf",
     "doc_type": "press_conference_qa",
     "date": "20141217",
-    "context_question": "Marty Crutsinger with the Associated Press. Given the\u2014 what's happening now with the transition with the Fed, there seems to be a pattern developing that the market expects big news to come when you have a press conference and no news to come when you don't have one. But is that a good expectation? And is there any thought to starting to have a press conference at every meeting?",
+    "context_question": "Marty Crutsinger with the Associated Press. Given the— what's happening now with the transition with the Fed, there seems to be a pattern developing that the market expects big news to come when you have a press conference and no news to come when you don't have one. But is that a good expectation? And is there any thought to starting to have a press conference at every meeting?",
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4209,11 +4209,11 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks\u2014notably Japan, Sweden also\u2014suggests that tightening early when you're at the zero lower bound can be a risky process\u2014the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that's influencing the debate in the FOMC at the moment.",
+    "context_question": "Sam Fleming from the Financial Times. The experience of some other central banks—notably Japan, Sweden also—suggests that tightening early when you're at the zero lower bound can be a risky process—the risks of tightening early can dramatically outweigh the risks of leaving things a little longer. I wonder if you could comment on that international experience and explain how that's influencing the debate in the FOMC at the moment.",
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4226,11 +4226,11 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "If I could follow up on his question. I think when you get asked about financial crimes and the public hears you talk about compliance, you get a sense that there's not enough enforcement involved in these actions, and that it's merely a case of kind of trying to achieve settlements after the fact. Is there a sense in the regulatory community that financial crimes need to be punished sort of more forcefully in order for them to be\u2014for there to be an actual deterrent against unethical behavior?",
+    "context_question": "If I could follow up on his question. I think when you get asked about financial crimes and the public hears you talk about compliance, you get a sense that there's not enough enforcement involved in these actions, and that it's merely a case of kind of trying to achieve settlements after the fact. Is there a sense in the regulatory community that financial crimes need to be punished sort of more forcefully in order for them to be—for there to be an actual deterrent against unethical behavior?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4243,7 +4243,7 @@
     "source": "FOMCpresconf20150318.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150318",
-    "context_question": "Peter Cook of Bloomberg Television. Madame Chair, one clarification, if I could, logistically, and then a question about Congress, a follow-up. First of all, you've been asked this before, I just want to see if we can clarify. When you decide to start raising interest rates, could that decision happen at a meeting in which you\u2014it's not followed by a press conference? And, on my congressional question, I would like to get your reaction to your\u2014the treatment you received up on Capitol Hill the other day. It didn't look like a very pleasant experience, certainly in front of the House, at least at moments. I wondered if you have concerns about that. Has the relationship between the Fed and Congress deteriorated to a point that it causes you concern? What, if anything, can you do about it as well?",
+    "context_question": "Peter Cook of Bloomberg Television. Madame Chair, one clarification, if I could, logistically, and then a question about Congress, a follow-up. First of all, you've been asked this before, I just want to see if we can clarify. When you decide to start raising interest rates, could that decision happen at a meeting in which you—it's not followed by a press conference? And, on my congressional question, I would like to get your reaction to your—the treatment you received up on Capitol Hill the other day. It didn't look like a very pleasant experience, certainly in front of the House, at least at moments. I wondered if you have concerns about that. Has the relationship between the Fed and Congress deteriorated to a point that it causes you concern? What, if anything, can you do about it as well?",
     "top": [
       "boilerplate"
     ],
@@ -4264,7 +4264,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4281,7 +4281,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4299,7 +4299,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4317,7 +4317,7 @@
       "financial_conditions",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4336,7 +4336,7 @@
       "macro",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4349,11 +4349,11 @@
     "source": "fomcpresconf20150917.pdf",
     "doc_type": "press_conference_qa",
     "date": "20150917",
-    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed's policy of maintaining a large balance sheet\u2014by not starting to shrink that balance sheet by curtailing reinvestments and rollovers\u2014that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it's\u2014until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
+    "context_question": "Madam Chair, Steve Beckner of MNI. You said in your opening statement that the Fed's policy of maintaining a large balance sheet—by not starting to shrink that balance sheet by curtailing reinvestments and rollovers—that helps add to your accommodative monetary stance on top of the near-zero federal funds rate. By delaying rate hikes, logically, are you not also delaying reducing the balance sheet? A year ago, the FOMC said it would not start shrinking the balance sheet and still it's—until it started raising the funds rate. So is it a concern that you are delaying normalization of the balance sheet? Was that an issue that you and your colleagues discussed? Thank you.",
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4372,7 +4372,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4385,7 +4385,7 @@
     "source": "FOMCpresconf20151216.pdf",
     "doc_type": "press_conference_qa",
     "date": "20151216",
-    "context_question": "Marty Crutsinger with the Associated Press. I guess the word is \"finally.\" The\u2014we have asked you for so long, \"Why were you delaying? Why were you delaying?\" So, I'll ask, given developments around the world that still\u2014there is still weakness, and the inflation is still nowhere near your target. What made you say \"Do it now\"? Some have said it was because you feared a lack of credibility if you didn't move. Did that play a role in your decision?",
+    "context_question": "Marty Crutsinger with the Associated Press. I guess the word is \"finally.\" The—we have asked you for so long, \"Why were you delaying? Why were you delaying?\" So, I'll ask, given developments around the world that still—there is still weakness, and the inflation is still nowhere near your target. What made you say \"Do it now\"? Some have said it was because you feared a lack of credibility if you didn't move. Did that play a role in your decision?",
     "top": [
       "boilerplate"
     ],
@@ -4406,7 +4406,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4440,7 +4440,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4457,7 +4457,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4470,7 +4470,7 @@
     "source": "FOMCpresconf20160615.pdf",
     "doc_type": "press_conference_qa",
     "date": "20160615",
-    "context_question": "Hi, I'm Jason Lange with Reuters. The median participant forecast for the fed funds rate for 2017 and 2018 came down quite dramatically, but this stands in contrast with the 2016 meeting forecast. As you mentioned, there were a number\u2014actually, six\u2014 participants who saw only one rate hike this year. Can you comment on what it would take for two rate increases to be a\u2014the likely or appropriate policy path? And about this disconnect between the median view and the view of the, say, the voting members of the Committee? If there is one, I should add. Thank you.",
+    "context_question": "Hi, I'm Jason Lange with Reuters. The median participant forecast for the fed funds rate for 2017 and 2018 came down quite dramatically, but this stands in contrast with the 2016 meeting forecast. As you mentioned, there were a number—actually, six— participants who saw only one rate hike this year. Can you comment on what it would take for two rate increases to be a—the likely or appropriate policy path? And about this disconnect between the median view and the view of the, say, the voting members of the Committee? If there is one, I should add. Thank you.",
     "top": [
       "boilerplate"
     ],
@@ -4492,7 +4492,7 @@
       "monetary_policy",
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4526,7 +4526,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4539,7 +4539,7 @@
     "source": "FOMCpresconf20160921.pdf",
     "doc_type": "press_conference_qa",
     "date": "20160921",
-    "context_question": "Steve Liesman, CNBC. Madam Chair, critics of the Federal Reserve have said that you look for any excuse not to hike, that the goalposts constantly move. And it looks, indeed, like there are new goalposts now when you say looking for \"further evidence\" and\u2014and you suggest that it's evidence that labor\u2014labor market slack is \"being taken up.\" Could you explain what \"for the time being\" means, in terms of a time frame, and what that further evidence you would look for in order to hike interest rates? And also, this notion that the goalposts seem to move, and that you've indeed introduced a new goalpost with this statement. Thank you.",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, critics of the Federal Reserve have said that you look for any excuse not to hike, that the goalposts constantly move. And it looks, indeed, like there are new goalposts now when you say looking for \"further evidence\" and—and you suggest that it's evidence that labor—labor market slack is \"being taken up.\" Could you explain what \"for the time being\" means, in terms of a time frame, and what that further evidence you would look for in order to hike interest rates? And also, this notion that the goalposts seem to move, and that you've indeed introduced a new goalpost with this statement. Thank you.",
     "top": [
       "boilerplate"
     ],
@@ -4560,7 +4560,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4577,7 +4577,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4611,7 +4611,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4628,7 +4628,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -4641,11 +4641,11 @@
     "source": "FOMCpresconf20170614.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170614",
-    "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members'. It's an unobservable thing. At best, it's an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we've learned that the post-recession economy is vastly different than it was before the recession. So I'm wondering, something you've talked about is to focus more on the change in inflation\u2014actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
+    "context_question": "Craig Torres from Bloomberg News. Hate to belabor the point on inflation, but I was wondering, I hear a lot of the so-called NAIRU in your conversation now and in other committee members'. It's an unobservable thing. At best, it's an estimate. And the assumptions in there seem to me that the economy today is much like the economy yesterday, when, if anything, we've learned that the post-recession economy is vastly different than it was before the recession. So I'm wondering, something you've talked about is to focus more on the change in inflation—actual inflation, and is it going up or is it going down, and basing policy more on that. What would be the risk of that, and why not adopt that if you have such a long period of underperformance?",
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4663,7 +4663,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4682,7 +4682,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -4695,11 +4695,11 @@
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170920",
-    "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be \"an active tool for monetary policy in normal times,\" you don't plan to make adjustments to the balance sheet. I'm wondering if we could explore if there's any sensitivity to the plan you just announced if there's a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the\u2014it suggested the only reason you'd change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there's some unexpected development in markets, or, for example, given that we don't know what the plans are on the fiscal side for the deficit in terms of tax cuts\u2014there could be a sudden spike in the deficit\u2014will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you've just announced and apparent unwillingness to adjust it?",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, you just said in your opening remarks that reducing the balance sheet should not be \"an active tool for monetary policy in normal times,\" you don't plan to make adjustments to the balance sheet. I'm wondering if we could explore if there's any sensitivity to the plan you just announced if there's a spike in interest rates, a plunge in the stock market, weakness in growth. In the June statement, you indicated that the only reason why you would change the—it suggested the only reason you'd change the balance sheet is if it required, first, a change in the funds rate. Is that true? If there's some unexpected development in markets, or, for example, given that we don't know what the plans are on the fiscal side for the deficit in terms of tax cuts—there could be a sudden spike in the deficit—will the balance sheet reduction plan be immune to all of that? And, given that question, and the idea that this has never been done before, why so much certainty about the plan you've just announced and apparent unwillingness to adjust it?",
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4712,11 +4712,11 @@
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170920",
-    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around \u00bd percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you've said you expect the inflation softness this year to prove \"transitory.\" Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Yellen, Fed Governor Lael Brainard recently gave a speech in which she said trend inflation appeared to have moved lower by around ½ percentage point. I wanted to ask, do you agree? And what would the Fed need to do, if anything, to boost trend inflation if it has fallen? And, related to that, you've said you expect the inflation softness this year to prove \"transitory.\" Compared to three months ago, how firm is your current expectation that the slowdown will remain transitory, and what implications would that have for monetary policy if it is not?",
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4746,13 +4746,13 @@
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
     "date": "20171213",
-    "context_question": "I'm Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already\u2014with unemployment so low\u2014that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
+    "context_question": "I'm Marty Crutsinger, Associated Press. Madam Chair, could you give us any insight into the discussion and how it dealt with the major tax changes that Congress is considering now? There have been thoughts that with these changes happening at a time when the economy is already—with unemployment so low—that the Fed may be forced to increase its pace on rate hikes. Did any of that discussion come up in your meeting?",
     "top": [
       "monetary_policy",
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -4765,11 +4765,11 @@
     "source": "FOMCpresconf20171213.pdf",
     "doc_type": "press_conference_qa",
     "date": "20171213",
-    "context_question": "Do you mean me, or\u2014as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking\u2014there have been some reservations among some Democratic senators recently during Governor Powell's confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopted. Do you have any similar reservations about the new leadership's ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the\u2014sort of, the advances that have come from post-crisis regulation?",
+    "context_question": "Do you mean me, or—as long as everyone gets a turn. This is John Heltman with the American Banker. Sort of a related question to what Nancy was asking—there have been some reservations among some Democratic senators recently during Governor Powell's confirmation hearing and during the markup of the reg relief bill about the approach towards regulation that the new leadership appears to be adopted. Do you have any similar reservations about the new leadership's ability to deregulate in an evenhanded way that keeps an eye towards the stability of the financial system and the—sort of, the advances that have come from post-crisis regulation?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4786,7 +4786,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4803,7 +4803,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -4820,7 +4820,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4854,7 +4854,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4867,7 +4867,7 @@
     "source": "FOMCpresconf20251029.json",
     "doc_type": "press_conference_qa",
     "date": "20251029",
-    "context_question": "Well, are you\u2014you must be well aware by lowering interest rates you're contributing to additional asset price increases. And I wonder how you balance the idea that lowering rates would help the labor market with the reality that it seems more likely to be stimulating increased investment in AI, which is the rationale for thousands of job cuts that have been announced in the last few weeks.",
+    "context_question": "Well, are you—you must be well aware by lowering interest rates you're contributing to additional asset price increases. And I wonder how you balance the idea that lowering rates would help the labor market with the reality that it seems more likely to be stimulating increased investment in AI, which is the rationale for thousands of job cuts that have been announced in the last few weeks.",
     "top": [
       "boilerplate"
     ],
@@ -4884,12 +4884,12 @@
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
     "date": "20180926",
-    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I'm wondering if you can talk about what risks would make the Committee\u2014plausible risks\u2014go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I'd like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn't show that, but I'm curious how you soft-land without doing that.",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I'm wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I'd like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn't show that, but I'm curious how you soft-land without doing that.",
     "top": [
       "monetary_policy",
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -4906,7 +4906,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4940,7 +4940,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4957,7 +4957,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4975,7 +4975,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -4992,7 +4992,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5005,7 +5005,7 @@
     "source": "FOMCpresconf20190501.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190501",
-    "context_question": "Victoria Guida with Politico. I wanted to ask\u2014early last month, I believe it was April 2, the Fedwire\u00ae system went down. And I was just wondering if you could talk about what happened there, how long it lasted, whether you know what happened, whether you're still looking into it, and whether it's something that could happen again.",
+    "context_question": "Victoria Guida with Politico. I wanted to ask—early last month, I believe it was April 2, the Fedwire® system went down. And I was just wondering if you could talk about what happened there, how long it lasted, whether you know what happened, whether you're still looking into it, and whether it's something that could happen again.",
     "top": [
       "boilerplate"
     ],
@@ -5026,7 +5026,7 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5043,7 +5043,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5077,7 +5077,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -5094,7 +5094,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5107,11 +5107,11 @@
     "source": "FOMCpresconf20190731.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190731",
-    "context_question": "I mean, I just\u2014I'd like to clarify, like, are you pleased with the responsiveness you're getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
+    "context_question": "I mean, I just—I'd like to clarify, like, are you pleased with the responsiveness you're getting from them? Do you feel like this is going the way that you kind of wanted it to go?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5128,7 +5128,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5145,7 +5145,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5164,7 +5164,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5177,11 +5177,11 @@
     "source": "FOMCpresconf20190918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190918",
-    "context_question": "If I could just follow up, you've also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy\u2014in this case, further cuts. Wouldn't that suggest that you should be inclined to\u2014if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
+    "context_question": "If I could just follow up, you've also said that the favorable outlook is predicated on financial conditions, and the financial conditions are in turn predicated on an outlook for Fed policy—in this case, further cuts. Wouldn't that suggest that you should be inclined to—if you want those financial conditions and that favorable outlook to come about, you should be inclined to cut?",
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5198,7 +5198,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5211,11 +5211,11 @@
     "source": "FOMCpresconf20190918.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190918",
-    "context_question": "Hi, Chairman Powell. Brian Cheung with Yahoo Finance. Thanks for taking my question. As we saw with falling yields, at least up until the beginning of this month, there's been a lot of demand for U.S. Treasuries, and even that was partly maybe to blame for the liquidity crunch in repo markets that we saw this week. I mean, does the Fed have concerns over the impacts of a global glut for U.S. debt? Is that a conversation that you also have with Treasury Secretary Mnuchin\u2014about what the proper way to maybe address some of the challenges down the road with that type of, kind of, heavy interest globally?",
+    "context_question": "Hi, Chairman Powell. Brian Cheung with Yahoo Finance. Thanks for taking my question. As we saw with falling yields, at least up until the beginning of this month, there's been a lot of demand for U.S. Treasuries, and even that was partly maybe to blame for the liquidity crunch in repo markets that we saw this week. I mean, does the Fed have concerns over the impacts of a global glut for U.S. debt? Is that a conversation that you also have with Treasury Secretary Mnuchin—about what the proper way to maybe address some of the challenges down the road with that type of, kind of, heavy interest globally?",
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5228,12 +5228,12 @@
     "source": "FOMCpresconf20191030.pdf",
     "doc_type": "press_conference_qa",
     "date": "20191030",
-    "context_question": "Mr.\u2014Steve Liesman, CNBC. Mr. Chairman, I'm\u2014not to make light of it, but I'm a little bit\u2014I wonder if you could help me out with the appropriate understanding of the word \"appropriate\" here. So the statement says that the Committee is going \"to monitor the implications of incoming information for the outlook as it assesses the appropriate path of the target range.\" That tells me you could go either way. You came in, and you used the word \"appropriate,\" that the current rate is \"likely to remain appropriate,\" which means you're on hold. So how do I walk away from this, and what should we walk away from this believing what \"appropriate\" means? Are you on hold and need to be proved wrong that you should remain on hold, or is it, really, you could go either way here? Thank you.",
+    "context_question": "Mr.—Steve Liesman, CNBC. Mr. Chairman, I'm—not to make light of it, but I'm a little bit—I wonder if you could help me out with the appropriate understanding of the word \"appropriate\" here. So the statement says that the Committee is going \"to monitor the implications of incoming information for the outlook as it assesses the appropriate path of the target range.\" That tells me you could go either way. You came in, and you used the word \"appropriate,\" that the current rate is \"likely to remain appropriate,\" which means you're on hold. So how do I walk away from this, and what should we walk away from this believing what \"appropriate\" means? Are you on hold and need to be proved wrong that you should remain on hold, or is it, really, you could go either way here? Thank you.",
     "top": [
       "monetary_policy",
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5250,7 +5250,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5267,7 +5267,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5284,7 +5284,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5297,11 +5297,11 @@
     "source": "FOMCpresconf20191211.pdf",
     "doc_type": "press_conference_qa",
     "date": "20191211",
-    "context_question": "Is one uncertainty bigger than the other? Is\u2014do you see\u2014not commenting on the deals themselves, is one uncertainty\u2014",
+    "context_question": "Is one uncertainty bigger than the other? Is—do you see—not commenting on the deals themselves, is one uncertainty—",
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5318,7 +5318,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5335,7 +5335,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5353,7 +5353,7 @@
       "economic_activity",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5371,7 +5371,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -5384,11 +5384,11 @@
     "source": "FOMCpresconf20210317.json",
     "doc_type": "press_conference_qa",
     "date": "20210317",
-    "context_question": "Thank you for taking my question. I just wanted to get your\u2014an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to\u2014propose to the overall economy.",
+    "context_question": "Thank you for taking my question. I just wanted to get your—an updated view on your sense of your view on financial stability risks and whether or not you see any pockets of excess out in financial markets that concern you, either, you know, specifically to that, that area of the market or as in terms of, like, the threat that it could pose to—propose to the overall economy.",
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5405,7 +5405,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5418,11 +5418,11 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you\u2014do you see things, such as in the Beige Book\u2014you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won't have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
+    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you—do you see things, such as in the Beige Book—you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won't have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5435,11 +5435,11 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Hi, Chair Powell. I\u2014I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "context_question": "Hi, Chair Powell. I—I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5452,11 +5452,11 @@
     "source": "FOMCpresconf20210428.json",
     "doc_type": "press_conference_qa",
     "date": "20210428",
-    "context_question": "Hi, Chair Powell. I\u2014I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
+    "context_question": "Hi, Chair Powell. I—I'm wondering, are you planning to visit the homeless encampment that's near the Fed in Washington that you drive by? Have you been invited, and if you went, what would you be looking to learn there?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5473,7 +5473,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5490,7 +5490,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5507,7 +5507,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5524,7 +5524,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5537,11 +5537,11 @@
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
     "date": "20210728",
-    "context_question": "So thank you, Mr. Chairman. Thank you, Mr. Chairman, for taking the question. Now, so you're talking about jobs. You just said we're on a path to a very strong job market. You know, we have 9.5 million people unemployed as of the last labor market survey and 9.2 million job openings. So what's the\u2014what's the disconnect? Is it a skills gap? Is it the extended unemployment benefits? Is it the fact that people just aren't willing to relocate? What is the disconnect there?",
+    "context_question": "So thank you, Mr. Chairman. Thank you, Mr. Chairman, for taking the question. Now, so you're talking about jobs. You just said we're on a path to a very strong job market. You know, we have 9.5 million people unemployed as of the last labor market survey and 9.2 million job openings. So what's the—what's the disconnect? Is it a skills gap? Is it the extended unemployment benefits? Is it the fact that people just aren't willing to relocate? What is the disconnect there?",
     "top": [
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5554,11 +5554,11 @@
     "source": "FOMCpresconf20210728.json",
     "doc_type": "press_conference_qa",
     "date": "20210728",
-    "context_question": "Hi. Thank you for taking my question. Chair Powell, I guess I wanted to ask about the last\u2014when you were before Congress earlier this month, you mentioned, I think, something along the lines of, it won't take too long before we see if you're right about inflation and its temporary aspect. You also mentioned learning a lot more in the next six months about the economy. Can you tell us a little more of what you mean by that? When do you think you'll get a clean reading on inflation that is free of most of the distortions that we're seeing now?",
+    "context_question": "Hi. Thank you for taking my question. Chair Powell, I guess I wanted to ask about the last—when you were before Congress earlier this month, you mentioned, I think, something along the lines of, it won't take too long before we see if you're right about inflation and its temporary aspect. You also mentioned learning a lot more in the next six months about the economy. Can you tell us a little more of what you mean by that? When do you think you'll get a clean reading on inflation that is free of most of the distortions that we're seeing now?",
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5575,7 +5575,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5592,7 +5592,7 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5609,7 +5609,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -5627,7 +5627,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5644,7 +5644,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5657,11 +5657,11 @@
     "source": "FOMCpresconf20211103.json",
     "doc_type": "press_conference_qa",
     "date": "20211103",
-    "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We've seen what's been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you've been accused of \"fighting the last war\"\u2014that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
+    "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We've seen what's been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you've been accused of \"fighting the last war\"—that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5679,7 +5679,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5696,7 +5696,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5713,7 +5713,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5730,7 +5730,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5747,7 +5747,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5765,7 +5765,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
@@ -5783,7 +5783,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "unconditional",
@@ -5801,7 +5801,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5818,7 +5818,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5836,7 +5836,7 @@
       "financial_conditions",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5853,7 +5853,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5862,7 +5862,7 @@
   },
   {
     "id": "c2518c60-192c-43e4-b103-e92bcf697ed7",
-    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by \u00be percentage point, resulting in a 1\u00bd percentage point increase in the target range so far this year.",
+    "sentence": "At today's meeting, the Committee raised the target range for the federal funds rate by ¾ percentage point, resulting in a 1½ percentage point increase in the target range so far this year.",
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_prepared",
     "date": "20220615",
@@ -5870,7 +5870,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -5883,11 +5883,11 @@
     "source": "FOMCpresconf20220615.json",
     "doc_type": "press_conference_qa",
     "date": "20220615",
-    "context_question": "Thanks, Chair Powell. Edward Lawrence with Fox Business. I wanted to ask you\u2014you talked about CPI going to 8.6 percent, that retail sales surprised the market by falling and then revisions to the previous months were down. Are you hearing from contacts about consumers slowing spending or changing their habits?",
+    "context_question": "Thanks, Chair Powell. Edward Lawrence with Fox Business. I wanted to ask you—you talked about CPI going to 8.6 percent, that retail sales surprised the market by falling and then revisions to the previous months were down. Are you hearing from contacts about consumers slowing spending or changing their habits?",
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5921,7 +5921,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5939,7 +5939,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -5956,7 +5956,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -5973,7 +5973,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -5990,7 +5990,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -6020,11 +6020,11 @@
     "source": "FOMCpresconf20230322.json",
     "doc_type": "press_conference_qa",
     "date": "20230322",
-    "context_question": "Hi, Chair Powell\u2014thanks for taking the question. Kyle Campbell with American Banker. I have a couple questions about the balance sheet. First of all, I'm curious at what point the financial supports that the Fed is extending through the discount window and through its enhanced lending facility might be at odds with the objective of reducing the balance sheet. And I'm also curious what your thoughts are on the\u2014not just the availability of reserves but the distribution of them throughout the banking system and at what point you might be concerned about it being scarce for certain banks.",
+    "context_question": "Hi, Chair Powell—thanks for taking the question. Kyle Campbell with American Banker. I have a couple questions about the balance sheet. First of all, I'm curious at what point the financial supports that the Fed is extending through the discount window and through its enhanced lending facility might be at odds with the objective of reducing the balance sheet. And I'm also curious what your thoughts are on the—not just the availability of reserves but the distribution of them throughout the banking system and at what point you might be concerned about it being scarce for certain banks.",
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -6042,7 +6042,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -6059,7 +6059,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6076,7 +6076,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -6089,11 +6089,11 @@
     "source": "FOMCpresconf20230726.json",
     "doc_type": "press_conference_qa",
     "date": "20230726",
-    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You've talked in the past about getting the housing market back into better balance\u2014excuse me\u2014and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you're talking about tightening industry lending standards? Are we getting closer to balance or farther away? What's your sense?",
+    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You've talked in the past about getting the housing market back into better balance—excuse me—and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you're talking about tightening industry lending standards? Are we getting closer to balance or farther away? What's your sense?",
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -6110,7 +6110,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6129,7 +6129,7 @@
       "inflation",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -6142,11 +6142,11 @@
     "source": "FOMCpresconf20231213.json",
     "doc_type": "press_conference_qa",
     "date": "20231213",
-    "context_question": "Okay. And do you see\u2014I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
+    "context_question": "Okay. And do you see—I mean, how are you, when you think about, you know, starting to think about the rate cuts next year or whenever they come, how do you, you know, how do you think about the economy we're in now kind of post-pandemic? Do you think that there's been significant structural shifts, and is that going to change how you look at a rate cut path?",
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -6163,7 +6163,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6176,11 +6176,11 @@
     "source": "FOMCpresconf20240131.json",
     "doc_type": "press_conference_qa",
     "date": "20240131",
-    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage\u2013 price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI report for the fourth quarter shows private-sector payroll growth running at a sub\u20134 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
+    "context_question": "Nick Timiraos of the Wall Street Journal. Chair Powell, it seems to me you raised rates rapidly over the last two years for two reasons. One was the risk of a wage– price spiral. Two, there were risks of inflation expectations becoming unanchored. This morning's ECI report for the fourth quarter shows private-sector payroll growth running at a sub–4 percent pace. Inflation expectations are very close to where they were before the inflation emergency of the last three years. And, given that you appear to have substantially cut off these two tail risks and that you've judged here today current policy as well into restrictive territory, what good reason is there to keep policy rates above 5 percent? Are you really going to learn more waiting six weeks versus three months from now that you have avoided those two risks?",
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6214,7 +6214,7 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6231,7 +6231,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6248,7 +6248,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6265,7 +6265,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6283,7 +6283,7 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -6313,11 +6313,11 @@
     "source": "FOMCpresconf20240612.json",
     "doc_type": "press_conference_qa",
     "date": "20240612",
-    "context_question": "As a quick follow-up\u2014the surveys that make up the jobs report are, are showing different tales. There's been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
+    "context_question": "As a quick follow-up—the surveys that make up the jobs report are, are showing different tales. There's been some divergence, especially, we saw, in the last report that we got on Friday. So how do you interpret that, and, and how does it change your view on the labor market?",
     "top": [
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6334,7 +6334,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -6353,7 +6353,7 @@
       "inflation",
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -6370,7 +6370,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6383,11 +6383,11 @@
     "source": "fomcpresconf20240731.json",
     "doc_type": "press_conference_qa",
     "date": "20240731",
-    "context_question": "Just a quick follow-up\u2014do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
+    "context_question": "Just a quick follow-up—do your economic forecasts and models take into account the two very different economic plans of these two presidential candidates, Harris and Trump, and, if so, how?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6400,12 +6400,12 @@
     "source": "FOMCpresconf20240918.json",
     "doc_type": "press_conference_qa",
     "date": "20240918",
-    "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed\u2014Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you\u2019d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
+    "context_question": "Hi. Chris Rugaber at Associated Press. Thank you. The projections show that the Fed—Fed officials expect the fed funds rate to still be above their estimate of long-run neutral by the end of next year. So does that suggest that you see rates as restrictive for that entire period? Does that threaten the weakening of the job market that you said you’d like to avoid? Or does it suggest that maybe people see the short-run neutral as a little bit higher? Thank you.",
     "top": [
       "monetary_policy",
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -6418,11 +6418,11 @@
     "source": "FOMCpresconf20240918.json",
     "doc_type": "press_conference_qa",
     "date": "20240918",
-    "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I\u2019m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you\u2019re starting to act now and that\u2019s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick\u2019s question, do you see today\u2019s 50 basis point move as partially a response to the fact that you didn\u2019t cut in July and that sort of gets you to the same place?",
+    "context_question": "Hi. Victoria Guida with Politico. Just following up on some of the labor market talk earlier, you know, monetary policy operates with long and variable lags, and I’m wondering how much you see being able to keep the unemployment rate from raising too much comes from the fact that you’re starting to act now and that’s going to give people more room to run versus just the labor market is strong. And then, also, if I could, following up on Nick’s question, do you see today’s 50 basis point move as partially a response to the fact that you didn’t cut in July and that sort of gets you to the same place?",
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6435,11 +6435,11 @@
     "source": "FOMCpresconf20241107.json",
     "doc_type": "press_conference_qa",
     "date": "20241107",
-    "context_question": "Great. And just to follow up, could you\u2014what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
+    "context_question": "Great. And just to follow up, could you—what might cause you to pause rate cuts in December? What kind of economic data would lead you to that path? Thank you.",
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6458,7 +6458,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -6471,7 +6471,7 @@
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
     "date": "20241218",
-    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it\u2019s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
+    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it’s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
     "top": [
       "boilerplate"
     ],
@@ -6488,11 +6488,11 @@
     "source": "FOMCpresconf20241218.json",
     "doc_type": "press_conference_qa",
     "date": "20241218",
-    "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of \u201clooking through\u201d any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
+    "context_question": "Thank you. Chris Rugaber at Associated Press. Thanks for taking the question. In September 2018, the Fed staff in the Tealbook discussed a policy of “looking through” any new tariffs as long as they were one-time increases and inflation expectations remained anchored. Could you comment on if that analysis remains effective and any other thinking on tariffs generally that you can share?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6509,7 +6509,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6522,12 +6522,12 @@
     "source": "FOMCpresconf20250129.json",
     "doc_type": "press_conference_qa",
     "date": "20250129",
-    "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another \u00bc point?",
+    "context_question": "If I could follow up. Does the economy here warrant meaningfully restrictive interest rates, and would you judge interest rates to still be meaningfully restrictive if you were to lower them by another ¼ point?",
     "top": [
       "monetary_policy",
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6544,7 +6544,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6561,7 +6561,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -6574,11 +6574,11 @@
     "source": "FOMCpresconf20250507.json",
     "doc_type": "press_conference_qa",
     "date": "20250507",
-    "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would\u2014you could tolerate.",
+    "context_question": "I, I mean, I guess I want to follow up by asking how much of a rise in the jobless rate you would—you could tolerate.",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6595,7 +6595,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -6608,7 +6608,7 @@
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
     "date": "20250618",
-    "context_question": "You\u2019re famously known as the guy that makes decision based on data instead of speculation. You\u2019ve said today in\u2014the inflation data is in a good place\u2014we don\u2019t know how tariffs are going to impact prices going forward\u2014that\u2019s uncertain. But I\u2019ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today\u2014and you didn\u2019t cut today?",
+    "context_question": "You’re famously known as the guy that makes decision based on data instead of speculation. You’ve said today in—the inflation data is in a good place—we don’t know how tariffs are going to impact prices going forward—that’s uncertain. But I’ve got to go back to the last time that you cut rates in December, and there was still the what-if of tariffs. So what made you feel comfortable cutting then, when inflation was higher than where it is today—and you didn’t cut today?",
     "top": [
       "boilerplate"
     ],
@@ -6625,11 +6625,11 @@
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
     "date": "20250618",
-    "context_question": "Thank you, Chair Powell. So you\u2019re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
+    "context_question": "Thank you, Chair Powell. So you’re saying that uncertainty has come down, the economy is moving at a solid pace, inflation has come down over the past three months, and this is all moving in the right direction. So are you indicating here that Americans should expect some sort of economic pain in the second half of the year?",
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -6642,7 +6642,7 @@
     "source": "FOMCpresconf20250730.json",
     "doc_type": "press_conference_qa",
     "date": "20250730",
-    "context_question": "Thank you, Mr. Chairman. Edward Lawrence from Fox Business. How concerned are you, with, with the data that we're showing\u2014coming in showing no significant upward trend in inflation over the past six months, that the wait-and-see approach for inflation is actually giving companies cover to raise prices?",
+    "context_question": "Thank you, Mr. Chairman. Edward Lawrence from Fox Business. How concerned are you, with, with the data that we're showing—coming in showing no significant upward trend in inflation over the past six months, that the wait-and-see approach for inflation is actually giving companies cover to raise prices?",
     "top": [
       "boilerplate"
     ],
@@ -6659,11 +6659,11 @@
     "source": "FOMCpresconf20250730.json",
     "doc_type": "press_conference_qa",
     "date": "20250730",
-    "context_question": "Thank you, Mr. Chairman, for taking the question. Jeff Cox from CNBC.com. A metric that you like to cite a lot is the final sales to private domestic purchasers. That was down to a 1.2 percent gain in the second quarter from 1.9 percent in Q1, suggesting that there's some softening in underlying demand. Just wondering if you look at that and you combine that with some of the housing numbers that\u2014with the weakness that you acknowledge at the top of your remarks\u2014that the housing market is, in fact, weak. And the inflation numbers from GDP today came down 2.1 percent for headline, 2.5 percent for core. I'm wondering how much more movement you would need to see from these data points before you would be comfortable with cutting in, say, September.",
+    "context_question": "Thank you, Mr. Chairman, for taking the question. Jeff Cox from CNBC.com. A metric that you like to cite a lot is the final sales to private domestic purchasers. That was down to a 1.2 percent gain in the second quarter from 1.9 percent in Q1, suggesting that there's some softening in underlying demand. Just wondering if you look at that and you combine that with some of the housing numbers that—with the weakness that you acknowledge at the top of your remarks—that the housing market is, in fact, weak. And the inflation numbers from GDP today came down 2.1 percent for headline, 2.5 percent for core. I'm wondering how much more movement you would need to see from these data points before you would be comfortable with cutting in, say, September.",
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6697,7 +6697,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -6710,11 +6710,11 @@
     "source": "FOMCpresconf20250917.json",
     "doc_type": "press_conference_qa",
     "date": "20250917",
-    "context_question": "Thanks, Mr. Chairman. Edward Lawrence from Fox Business. So we saw the preliminary benchmark revisions, down 911,000. The revisions for June were the first negative revisions we've seen since December of 2020. You know, how can the Fed base important decisions on rate and what to do with the interest\u2014with the interest rates on data that seems to be, as you've called it, in the past, noisy?",
+    "context_question": "Thanks, Mr. Chairman. Edward Lawrence from Fox Business. So we saw the preliminary benchmark revisions, down 911,000. The revisions for June were the first negative revisions we've seen since December of 2020. You know, how can the Fed base important decisions on rate and what to do with the interest—with the interest rates on data that seems to be, as you've called it, in the past, noisy?",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6723,7 +6723,7 @@
   },
   {
     "id": "03e10f4e-0156-4d12-90dc-af05673f4d6d",
-    "sentence": "With today's decision, we have lowered our policy rate \u00be percentage point over our last three meetings.",
+    "sentence": "With today's decision, we have lowered our policy rate ¾ percentage point over our last three meetings.",
     "source": "FOMCpresconf20251210.json",
     "doc_type": "press_conference_prepared",
     "date": "20251210",
@@ -6731,7 +6731,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -6749,7 +6749,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -6766,7 +6766,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -6783,7 +6783,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6817,7 +6817,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6835,7 +6835,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6852,7 +6852,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6869,7 +6869,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6886,7 +6886,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6937,7 +6937,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -6954,7 +6954,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -6971,7 +6971,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7005,7 +7005,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7022,7 +7022,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7039,7 +7039,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7056,7 +7056,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7073,7 +7073,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7107,7 +7107,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7124,7 +7124,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7141,7 +7141,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7158,7 +7158,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7175,7 +7175,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7192,7 +7192,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7210,7 +7210,7 @@
       "economic_activity",
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -7227,7 +7227,7 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -7244,7 +7244,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7261,7 +7261,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7278,7 +7278,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7295,7 +7295,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7312,7 +7312,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7329,7 +7329,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -7346,7 +7346,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7363,7 +7363,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7397,7 +7397,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7431,7 +7431,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7448,7 +7448,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -7465,7 +7465,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7482,7 +7482,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7499,7 +7499,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -7516,7 +7516,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7533,7 +7533,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7550,7 +7550,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7567,7 +7567,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7584,7 +7584,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7618,7 +7618,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7635,7 +7635,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -7652,7 +7652,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7669,7 +7669,7 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7686,7 +7686,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7703,7 +7703,7 @@
     "top": [
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7720,7 +7720,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7737,7 +7737,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7771,7 +7771,7 @@
     "top": [
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -7805,7 +7805,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7822,7 +7822,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7900,14 +7900,14 @@
   {
     "id": "64ac5ae9-24ee-4d6d-916e-409a1e60adab",
     "sentence": "However, that dynamic also increases the cost, in terms of economic output, of reversing unwelcome increases in longer-run inflation expectations. Thus, it is all the more important that longer-run inflation expectations remain anchored at levels consistent with our 2 percent inflation objective.",
-    "source": "The Federal Reserve\u00e2s Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
+    "source": "The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
     "doc_type": "speech",
     "date": "2019-05-13",
     "context_question": null,
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": true,
     "com": "none",
@@ -7924,7 +7924,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -7976,7 +7976,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -8010,7 +8010,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8044,7 +8044,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8078,7 +8078,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8096,7 +8096,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8113,7 +8113,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "unconditional",
@@ -8131,7 +8131,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
@@ -8148,7 +8148,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8165,7 +8165,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8233,7 +8233,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -8267,7 +8267,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8284,7 +8284,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8293,7 +8293,7 @@
   },
   {
     "id": "7d80d32a-6363-4741-a676-89fb4999addd",
-    "sentence": "At the end of the day, the data should be guiding our policy action\u2014not speculation about what could happen.",
+    "sentence": "At the end of the day, the data should be guiding our policy action—not speculation about what could happen.",
     "source": "Disinflation Progress Uneven but Still on Track Rates Cuts on Track as Well",
     "doc_type": "speech",
     "date": "2025-02-17",
@@ -8310,7 +8310,7 @@
   },
   {
     "id": "ae749f50-8f0a-4181-bb9a-df3e2ef608f5",
-    "sentence": "Conclusion\r\nGraduates\u2014Spartans\u2014you are entering the wider world, one filled with pressing needs, and countless opportunities.",
+    "sentence": "Conclusion\r\nGraduates—Spartans—you are entering the wider world, one filled with pressing needs, and countless opportunities.",
     "source": "Four Guides for the Journey Ahead",
     "doc_type": "speech",
     "date": "2025-05-03",
@@ -8336,7 +8336,7 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8353,7 +8353,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8370,7 +8370,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -8387,7 +8387,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8404,7 +8404,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8421,7 +8421,7 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -8438,7 +8438,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8447,7 +8447,7 @@
   },
   {
     "id": "113b7c32-a50a-40c4-ac03-9af59c7a502d",
-    "sentence": "Less restrictive regulations, lower business taxes, and a more favorable business environment will continue to boost supply\u00e2\u20ac\u201dlargely due to higher productivity\u00e2\u20ac\u201dand more than offset any negative effects on economic activity and inflation from other policies.",
+    "sentence": "Less restrictive regulations, lower business taxes, and a more favorable business environment will continue to boost supplyâ€”largely due to higher productivityâ€”and more than offset any negative effects on economic activity and inflation from other policies.",
     "source": "Outlook for the Economy and Monetary Policy",
     "doc_type": "speech",
     "date": "2026-01-30",
@@ -8456,7 +8456,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -8474,7 +8474,7 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
@@ -8491,14 +8491,14 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive \u2014 not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together \u2014 no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
+    "_annotation_note": "Matches Example 9. Names a specific policy action (pace of future increases) and specific monitoring variables (cumulative tightening, lags, economic/financial developments). Substantive — not boilerplate. top includes 'macro' for the aggregate conditioning variables (economic activity, inflation, and financial developments together — no single variable dominates). sen=0: data dependence is neutral until data arrives. com=conditional: explicitly contingent on incoming conditions."
   },
   {
     "id": "9797f119-b35c-456d-ad74-ba26f00093dd",
@@ -8517,7 +8517,7 @@
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Purely procedural \u2014 describes the drafting decision to add language to the statement. No independent policy signal; removing this sentence loses no policy-relevant information. Boilerplate defaults apply."
+    "_annotation_note": "Purely procedural — describes the drafting decision to add language to the statement. No independent policy signal; removing this sentence loses no policy-relevant information. Boilerplate defaults apply."
   },
   {
     "id": "c163fed3-3623-41b5-9161-a74038d99ecb",
@@ -8529,14 +8529,14 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
     "hor": false,
     "com": "unconditional",
     "ris": "na",
     "wid": "none",
     "split_from": "b851a3e9-5ab9-481f-9bfc-2ca181cb38cb",
-    "_annotation_note": "Ongoing QT (balance sheet reduction) is a hawkish policy action. sen=+1 because this is continuation of an existing program, not a new emergency escalation \u2014 consistent with Example 4 logic. com=unconditional: no stated condition on the continuation ('agreed that they would continue')."
+    "_annotation_note": "Ongoing QT (balance sheet reduction) is a hawkish policy action. sen=+1 because this is continuation of an existing program, not a new emergency escalation — consistent with Example 4 logic. com=unconditional: no stated condition on the continuation ('agreed that they would continue')."
   },
   {
     "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
@@ -8549,7 +8549,7 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
     "com": "conditional",
@@ -8568,14 +8568,14 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none",
     "split_from": "8000e89e-0717-48cf-8adf-06bae51a6cf2",
-    "_annotation_note": "Explicitly accommodative policy stance = dovish = sen=-1. com=conditional: contingent on 'until these outcomes are achieved'. hor=false: 'until these outcomes' is a condition, not a long-horizon signal per se \u2014 no multi-year or 'longer run' language in this sentence itself."
+    "_annotation_note": "Explicitly accommodative policy stance = dovish = sen=-1. com=conditional: contingent on 'until these outcomes are achieved'. hor=false: 'until these outcomes' is a condition, not a long-horizon signal per se — no multi-year or 'longer run' language in this sentence itself."
   },
   {
     "id": "0b5cbb35-7e26-426d-9000-b93aa0415062",
@@ -8589,14 +8589,14 @@
       "labor_market",
       "inflation"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none",
     "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "_annotation_note": "FLAG \u2014 AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense \u2192 ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program \u2192 stays at -1 (not -2)."
+    "_annotation_note": "FLAG — AMBIGUOUS: ten and com are borderline. The sentence reports a past commitment ('Last December... indicated') in past tense → ten=descriptive. However, the commitment is still in force as of September 2021, which could argue for ten=interpretive and com=conditional. Decision: label the grammatical act (reporting a prior decision) as descriptive, com=none. Reviewers may prefer ten=interpretive, com=conditional if treating the sentence as re-asserting the commitment. top includes unemployment and inflation as the named conditioning goals. sen=-1: large-scale ongoing QE ($120bn/month) is dovish, but continuation of existing program → stays at -1 (not -2)."
   },
   {
     "id": "91d119c2-b3f1-4a0e-9a8e-5efac24ea138",
@@ -8608,14 +8608,14 @@
     "top": [
       "macro"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none",
     "split_from": "2a954e0a-3df2-4161-8898-e5ec38a129e4",
-    "_annotation_note": "Present-perfect description of aggregate economic progress \u2014 no single variable dominates, hence macro. Progress toward goals = stronger aggregate outlook = hawkish incentive = sen=+1. No forward implication in the sentence itself \u2192 descriptive."
+    "_annotation_note": "Present-perfect description of aggregate economic progress — no single variable dominates, hence macro. Progress toward goals = stronger aggregate outlook = hawkish incentive = sen=+1. No forward implication in the sentence itself → descriptive."
   },
   {
     "id": "a413ba26-dbad-44c0-b22e-dd5378a7b224",
@@ -8627,14 +8627,14 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated",
     "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable \u2192 macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) \u2192 ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger \u2192 wid=elevated. sen=-1: weaker aggregate outlook."
+    "_annotation_note": "Backward-looking ('at the start of the year'): describing downside risks that existed earlier. Multiple risk factors with no single dominant variable → macro. All named risks are downside (weak growth, Brexit disruption, trade uncertainty) → ris=skewed_downside. 'Uncertainty around unresolved trade negotiations' is an explicit epistemic uncertainty trigger → wid=elevated. sen=-1: weaker aggregate outlook."
   },
   {
     "id": "aeb15d15-735f-464f-b421-b4deb3c7cec4",
@@ -8646,14 +8646,14 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "none",
     "split_from": "8991f308-45f8-48ca-9305-e89c53657c24",
-    "_annotation_note": "FLAG \u2014 AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) \u2014 two simultaneously operative signals in the same tense on the same topic \u2192 wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
+    "_annotation_note": "FLAG — AMBIGUOUS: 'While concerns remain' (downside risks persist, dovish) vs 'risks have moderated somewhat' (less downside risk, hawkish) — two simultaneously operative signals in the same tense on the same topic → wid=contested, sen=0. ris=skewed_downside: the residual risk direction is still downside ('concerns remain in all these areas'). ten=interpretive: macro risk assessment with forward implication per schema default. Note: an alternative reading treats 'moderated somewhat' as the dominant signal with sen=+1 and wid=none (subordinate 'while' clause as hedge). Recommend reviewer adjudication."
   },
   {
     "id": "c1995c38-0c6e-48b7-80ca-b0f69c03d317",
@@ -8666,7 +8666,7 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -8686,14 +8686,14 @@
       "monetary_policy",
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none",
     "split_from": "c43dc234-a0fb-45dd-a1f9-0e25c74c95e9",
-    "_annotation_note": "FLAG \u2014 AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base \u2014 not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
+    "_annotation_note": "FLAG — AMBIGUOUS: 'risen significantly' contains an explicit intensifier. Per the schema, 'significantly' can push to sen=-2 (emergency scale). However, this sentence is descriptive/explanatory in a speech context, describing a mechanical relationship between balance sheet expansion and monetary base — not announcing a new emergency action. Decision: sen=-1 treating this as narration of ongoing crisis-era easing rather than a new escalation. Reviewers should consider whether the crisis context (January 2009) and 'significantly' together warrant sen=-2."
   },
   {
     "id": "6e6d00a0-148e-428c-98a7-8c3eb43fe04d",
@@ -8705,7 +8705,7 @@
       "economic_activity"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "skewed_upside",
@@ -8721,7 +8721,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": -2,
+    "sen": "strongly_dovish",
     "com": "none",
     "hor": false,
     "ris": "skewed_upside",
@@ -8737,7 +8737,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8753,7 +8753,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8768,9 +8768,9 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "none"
@@ -8785,7 +8785,7 @@
       "economic_activity"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8801,7 +8801,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8817,7 +8817,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8834,7 +8834,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8851,7 +8851,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8867,7 +8867,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "symmetric",
@@ -8883,7 +8883,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "symmetric",
@@ -8899,7 +8899,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -8915,7 +8915,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -8931,7 +8931,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -8947,7 +8947,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -8955,7 +8955,7 @@
   },
   {
     "id": "40770022-9513-466c-99fc-5210a107b05c",
-    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5\u00bc to 5\u00bd percent and to continue the process of significantly reducing our securities holdings.",
+    "sentence": "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings.",
     "source": "FOMCpresconf20230920.json",
     "doc_type": "press_conference_prepared",
     "date": "20230920",
@@ -8963,7 +8963,7 @@
       "monetary_policy"
     ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "com": "unconditional",
     "hor": false,
     "ris": "na",
@@ -8978,9 +8978,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -8995,16 +8995,16 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
   },
   {
     "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al\u00adthough CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
     "source": "minutes_20230503.html",
     "doc_type": "minutes",
     "date": "20230503",
@@ -9012,7 +9012,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -9028,7 +9028,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -9045,7 +9045,7 @@
     "top": [
       "inflation"
     ],
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -9058,14 +9058,14 @@
     "source": "FOMCpresconf20170920.pdf",
     "doc_type": "press_conference_qa",
     "date": "20170920",
-    "context_question": "Hi, thank you. David Harrison with Dow Jones. I\u2019d like to follow up on the balance sheet question, if I may. What specifically would it take for you to reverse the decision to wind down the balance sheet, and under what conditions would you consider adding to the balance sheet again? And separately, as a follow-up to that, looking more broadly, how do you think history will judge the effectiveness of your asset purchases and the conditions under which that policy should be used? Thank you.",
+    "context_question": "Hi, thank you. David Harrison with Dow Jones. I’d like to follow up on the balance sheet question, if I may. What specifically would it take for you to reverse the decision to wind down the balance sheet, and under what conditions would you consider adding to the balance sheet again? And separately, as a follow-up to that, looking more broadly, how do you think history will judge the effectiveness of your asset purchases and the conditions under which that policy should be used? Thank you.",
     "top": [
       "monetary_policy",
       "macro"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "conditional",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9080,9 +9080,9 @@
     "top": [
       "macro"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -9097,9 +9097,9 @@
     "top": [
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9114,9 +9114,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9131,9 +9131,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9148,9 +9148,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9165,9 +9165,9 @@
     "top": [
       "no_topic"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9183,9 +9183,9 @@
       "inflation",
       "labor_market"
     ],
-    "sen": "1",
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9200,9 +9200,9 @@
     "top": [
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9217,9 +9217,9 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9236,9 +9236,9 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9253,9 +9253,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9271,9 +9271,9 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": "1",
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -9289,7 +9289,7 @@
       "financial_conditions"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -9307,7 +9307,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -9324,9 +9324,9 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "contested"
@@ -9344,9 +9344,9 @@
       "inflation",
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "unconditional",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9361,9 +9361,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9378,9 +9378,9 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "True",
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -9395,9 +9395,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9413,9 +9413,9 @@
       "economic_activity",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -9430,7 +9430,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "",
     "hor": "",
     "com": "",
@@ -9447,9 +9447,9 @@
     "top": [
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "True",
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9464,9 +9464,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9481,9 +9481,9 @@
     "top": [
       "inflation"
     ],
-    "sen": "0",
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9499,9 +9499,9 @@
       "inflation",
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9518,9 +9518,9 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9535,9 +9535,9 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9548,13 +9548,13 @@
     "source": "FOMCpresconf20180613.pdf",
     "doc_type": "press_conference_qa",
     "date": "20180613",
-    "context_question": "Myles Udland with Yahoo Finance. Chair Powell, you referenced a minute ago this idea of cushion, or the fact that the Fed doesn\u2019t have as much of when rates are low and inflation is low. And I\u2019m wondering if you or the Committee has thought about your move to raise interest rates as partly responding to the economy, but partly giving yourselves room to navigate in the inevitable future recession, whenever that was to come. And do you think that that has played any part in, you know, your outlook for policy or recent policy decisions? Or is it, you know, just a purely based on what the economy is doing?",
+    "context_question": "Myles Udland with Yahoo Finance. Chair Powell, you referenced a minute ago this idea of cushion, or the fact that the Fed doesn’t have as much of when rates are low and inflation is low. And I’m wondering if you or the Committee has thought about your move to raise interest rates as partly responding to the economy, but partly giving yourselves room to navigate in the inevitable future recession, whenever that was to come. And do you think that that has played any part in, you know, your outlook for policy or recent policy decisions? Or is it, you know, just a purely based on what the economy is doing?",
     "top": [
       "monetary_policy"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9571,9 +9571,9 @@
       "inflation",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9589,9 +9589,9 @@
       "monetary_policy",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9607,9 +9607,9 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "elevated"
@@ -9624,9 +9624,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9643,7 +9643,7 @@
       "monetary_policy"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -9660,9 +9660,9 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9673,13 +9673,13 @@
     "source": "FOMCpresconf20180926.pdf",
     "doc_type": "press_conference_qa",
     "date": "20180926",
-    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I\u2019m wondering if you can talk about what risks would make the Committee\u2014plausible risks\u2014go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I\u2019d like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn\u2019t show that, but I\u2019m curious how you soft-land without doing that.",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I’m wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I’d like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn’t show that, but I’m curious how you soft-land without doing that.",
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9696,9 +9696,9 @@
       "economic_growth",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "none"
@@ -9713,9 +9713,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9732,9 +9732,9 @@
       "inflation",
       "labor_market"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "elevated"
@@ -9749,9 +9749,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9766,9 +9766,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9783,9 +9783,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9801,7 +9801,7 @@
       "monetary_policy"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -9820,9 +9820,9 @@
       "inflation",
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "elevated"
@@ -9837,9 +9837,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9855,7 +9855,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": true,
     "com": "none",
     "ris": "skewed_downside",
@@ -9872,7 +9872,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -9884,12 +9884,12 @@
     "source": "FOMCpresconf20190320.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190320",
-    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What\u2019s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What’s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
     "top": [
       "macro"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -9905,7 +9905,7 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -9918,13 +9918,13 @@
     "source": "FOMCpresconf20190320.pdf",
     "doc_type": "press_conference_qa",
     "date": "20190320",
-    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What\u2019s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
+    "context_question": "Steve Liesman, CNBC. Mr. Chairman, can you talk about how global developments are affecting the U.S.? What’s the cause of the weakness over there? How much is it responsible for the downgrade in GDP over here? And what impact are tariffs, both in the United States and retaliatory tariffs, having on both the U.S. and the global economies? Thank you.",
     "top": [
       "economic_activity"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -9939,9 +9939,9 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -9949,16 +9949,16 @@
   {
     "id": "6e78f365-c40b-4565-be07-2589ded3d93b",
     "sentence": "We cannot say for certain where rates will settle out over the longer run, but their neutral level may now be higher than during the 2010s, reflecting changes in productivity, demographics, fiscal policy, and other factors that affect the balance between saving and investment (figure 6).",
-    "source": "Monetary Policy and the Fed\u00e2\u0080\u0099s Framework Review",
+    "source": "Monetary Policy and the Fedâs Framework Review",
     "doc_type": "speech",
     "date": "2025-08-22",
     "context_question": null,
     "top": [
       "monetary_policy"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -9973,9 +9973,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -9991,7 +9991,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -10008,9 +10008,9 @@
       "labor_market",
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -10025,9 +10025,9 @@
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10042,9 +10042,9 @@
     "top": [
       "monetary_policy"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10059,9 +10059,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -10072,13 +10072,13 @@
     "source": "FOMCpresconf20250618.json",
     "doc_type": "press_conference_qa",
     "date": "20250618",
-    "context_question": "Well, just quickly on\u2014given that, you know, there are concerns inflation will rise\u2014but there is the alternate scenario that tariffs would create demand destruction and slow growth sufficiently and that would perhaps keep a bit of a lid on inflation. Do you see odds of that scenario, what kind of odds do you see of that scenario coming true, and how many months of cool inflation would you need to see before concluding that maybe that lower-inflation scenario is taking place?",
+    "context_question": "Well, just quickly on—given that, you know, there are concerns inflation will rise—but there is the alternate scenario that tariffs would create demand destruction and slow growth sufficiently and that would perhaps keep a bit of a lid on inflation. Do you see odds of that scenario, what kind of odds do you see of that scenario coming true, and how many months of cool inflation would you need to see before concluding that maybe that lower-inflation scenario is taking place?",
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interprative",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10093,9 +10093,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10110,9 +10110,9 @@
     "top": [
       "macro"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10127,9 +10127,9 @@
     "top": [
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10140,13 +10140,13 @@
     "source": "FOMCpresconf20250917.json",
     "doc_type": "press_conference_qa",
     "date": "20250917",
-    "context_question": "Thank you for getting to my follow-up question, which was, is the dispersion in the outlook a sign of uncertainty of policy in the\u2014in the meetings to come? Thank you.",
+    "context_question": "Thank you for getting to my follow-up question, which was, is the dispersion in the outlook a sign of uncertainty of policy in the—in the meetings to come? Thank you.",
     "top": [
       "no_topic"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10161,9 +10161,9 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10181,7 +10181,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": -2,
+    "sen": "strongly_dovish",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -10198,7 +10198,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -10215,7 +10215,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -10232,7 +10232,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "hor": false,
     "com": "none",
     "ris": "na",

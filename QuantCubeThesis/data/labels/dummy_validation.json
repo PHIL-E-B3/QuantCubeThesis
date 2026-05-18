@@ -2,9 +2,11 @@
   {
     "id": "dummy_001",
     "sentence": "Inflation remained well above the Committee's longer-run goal of 2 percent.",
-    "top": ["inflation"],
+    "top": [
+      "inflation"
+    ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -13,9 +15,11 @@
   {
     "id": "dummy_002",
     "sentence": "The Committee decided to raise the target range for the federal funds rate by 25 basis points.",
-    "top": ["monetary_policy"],
+    "top": [
+      "monetary_policy"
+    ],
     "ten": "descriptive",
-    "sen": 2,
+    "sen": "strongly_hawkish",
     "hor": false,
     "com": "unconditional",
     "ris": "na",
@@ -24,9 +28,11 @@
   {
     "id": "dummy_003",
     "sentence": "Job gains have been robust in recent months, and the unemployment rate has remained low.",
-    "top": ["unemployment"],
+    "top": [
+      "unemployment"
+    ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -35,9 +41,11 @@
   {
     "id": "dummy_004",
     "sentence": "The economic outlook remained highly uncertain, with significant downside risks to growth.",
-    "top": ["macro"],
+    "top": [
+      "macro"
+    ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -46,7 +54,9 @@
   {
     "id": "dummy_005",
     "sentence": "Voting for this action: Jerome H. Powell, Chair; John C. Williams, Vice Chair.",
-    "top": ["boilerplate"],
+    "top": [
+      "boilerplate"
+    ],
     "ten": "descriptive",
     "sen": "na",
     "hor": false,

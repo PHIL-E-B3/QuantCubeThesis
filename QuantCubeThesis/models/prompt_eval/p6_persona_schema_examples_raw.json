@@ -8,7 +8,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -25,7 +25,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -110,7 +110,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -127,7 +127,7 @@
         "financial_conditions"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -144,7 +144,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 0,
+      "sen": "neutral",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -161,7 +161,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -2,
+      "sen": "strongly_dovish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",
@@ -195,7 +195,7 @@
         "macro"
       ],
       "ten": "interpretive",
-      "sen": -1,
+      "sen": "dovish",
       "hor": false,
       "com": "none",
       "ris": "skewed_downside",
@@ -243,7 +243,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -260,7 +260,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -277,7 +277,7 @@
         "unemployment"
       ],
       "ten": "descriptive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": false,
       "com": "none",
       "ris": "na",
@@ -294,7 +294,7 @@
         "monetary_policy"
       ],
       "ten": "interpretive",
-      "sen": 1,
+      "sen": "hawkish",
       "hor": true,
       "com": "conditional",
       "ris": "na",
@@ -413,7 +413,7 @@
         "inflation"
       ],
       "ten": "interpretive",
-      "sen": 2,
+      "sen": "strongly_hawkish",
       "hor": true,
       "com": "none",
       "ris": "na",
@@ -481,7 +481,7 @@
         "monetary_policy"
       ],
       "ten": "descriptive",
-      "sen": -2,
+      "sen": "strongly_dovish",
       "hor": false,
       "com": "unconditional",
       "ris": "na",

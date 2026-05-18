@@ -198,31 +198,65 @@ def normalize_df(df: pd.DataFrame, score_cols: list,
                  norm: str) -> pd.DataFrame:
     """
     Apply normalization to `score_cols` in `df`.
-    norm='wordcount': divide by word_count (must be a column in df).
-    norm='zscore':    wordcount first, then expanding z-score.
-    norm='none':      no change.
+    norm='wordcount':       divide by word_count only.
+    norm='zscore':          expanding z-score only (no length normalization).
+    norm='wordcount_zscore': wordcount first, then expanding z-score.
+    norm='none':            no change.
     """
     df = df.copy()
     if norm == 'none':
         return df
-    if norm in ('wordcount', 'zscore'):
+    if norm in ('wordcount', 'wordcount_zscore'):
         if 'word_count' in df.columns and df['word_count'].notna().any():
             for c in score_cols:
                 df[c] = df[c] / df['word_count'].replace(0, np.nan)
-        if norm == 'zscore':
-            for c in score_cols:
-                expanding_mean = df[c].expanding(min_periods=3).mean().shift(1)
-                expanding_std  = df[c].expanding(min_periods=3).std().shift(1)
-                df[c] = (df[c] - expanding_mean) / expanding_std.replace(0, np.nan)
+    if norm in ('zscore', 'wordcount_zscore'):
+        for c in score_cols:
+            expanding_mean = df[c].expanding(min_periods=3).mean().shift(1)
+            expanding_std  = df[c].expanding(min_periods=3).std().shift(1)
+            df[c] = (df[c] - expanding_mean) / expanding_std.replace(0, np.nan)
     return df
+
+
+# ── Sentence-level scoring helpers ───────────────────────────────────────────
+
+_SENT_SPLIT = re.compile(r'(?<=[.!?])\s+')
+
+
+def _apply_with_std(text: str, nlp_fn, score_cols: list) -> dict:
+    """
+    Apply nlp_fn to each sentence in text; return sum and std for every score col.
+    Sentences shorter than 15 chars are dropped (headings, lone punctuation).
+    """
+    sentences = [s.strip() for s in _SENT_SPLIT.split(text) if len(s.strip()) >= 15]
+    if not sentences:
+        sentences = [text]
+
+    per_sent = []
+    for sent in sentences:
+        try:
+            s = nlp_fn(sent)
+            if isinstance(s, pd.Series):
+                s = s.to_dict()
+            per_sent.append({c: float(s.get(c, 0)) for c in score_cols})
+        except Exception:
+            per_sent.append({c: 0.0 for c in score_cols})
+
+    df_s = pd.DataFrame(per_sent)
+    result = {}
+    for c in score_cols:
+        result[c]              = df_s[c].sum()
+        result[f'{c}_std']     = df_s[c].std(ddof=1) if len(df_s) > 1 else 0.0
+    return result
 
 
 # ── Apply one dictionary to a {date: text} mapping ───────────────────────────
 
-def apply_dict(texts: dict, nlp_fn, meeting_map: dict,
+def apply_dict(texts: dict, nlp_fn, score_cols: list, meeting_map: dict,
                minutes_lag: bool = False) -> pd.DataFrame:
     """
-    Run `nlp_fn` on each text; return DataFrame with date + score columns.
+    Run nlp_fn sentence-by-sentence on each text; return DataFrame with
+    date, sum scores, and per-score std-dev columns.
     meeting_map: {doc_date: meeting_date}.
     """
     rows = []
@@ -230,12 +264,10 @@ def apply_dict(texts: dict, nlp_fn, meeting_map: dict,
         if not text:
             continue
         try:
-            scores = nlp_fn(text)
+            scores = _apply_with_std(text, nlp_fn, score_cols)
         except Exception as e:
             log_warn(f'NLP failed for {doc_date}: {e}')
             continue
-        if isinstance(scores, pd.Series):
-            scores = scores.to_dict()
         row = {'date': doc_date,
                'meeting_date': meeting_map.get(doc_date),
                'word_count':   len(text.split()),

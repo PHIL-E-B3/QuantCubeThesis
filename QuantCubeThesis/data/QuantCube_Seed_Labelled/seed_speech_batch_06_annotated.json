@@ -10,7 +10,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -27,7 +27,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": -2,
+    "sen": "strongly_dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -44,7 +44,7 @@
       "macro"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -129,7 +129,7 @@
       "no_topic"
     ],
     "ten": "interpretive",
-    "sen": 0,
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -197,7 +197,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",

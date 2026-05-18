@@ -1,122 +1,121 @@
 """
-Optuna Hyperparameter Search
-=============================
-Searches over QLoRA hyperparameters (rank, alpha, dropout, lr, batch size)
-to find optimal configuration for the FOMC classification task.
+Optuna Hyperparameter Search (Generative QLoRA)
+================================================
+Searches over LoRA hyperparameters to minimise eval loss on the
+generative FOMC annotation task.
 """
 
 import os
 import gc
 import torch
 import optuna
-from typing import Dict, Optional
+from typing import Optional
 from functools import partial
 
 from datasets import DatasetDict
+from transformers import Trainer, EarlyStoppingCallback, TrainerCallback, TrainerState, TrainerControl, TrainingArguments
 
 from src.training.qlora_trainer import (
     load_model_and_tokenizer,
     get_lora_config,
-    get_quantization_config,
     get_training_args,
-    compute_metrics,
+    GenerativeDataCollator,
 )
-from transformers import Trainer, EarlyStoppingCallback
+
+
+class OptunaPruningCallback(TrainerCallback):
+    """Reports epoch-level eval loss to Optuna and raises TrialPruned when warranted."""
+
+    def __init__(self, trial: optuna.Trial):
+        self.trial = trial
+
+    def on_evaluate(self, args: TrainingArguments, state: TrainerState,
+                    control: TrainerControl, metrics=None, **kwargs):
+        epoch = int(state.epoch or 0)
+        loss = (metrics or {}).get("eval_loss", float("inf"))
+        self.trial.report(loss, step=epoch)
+        if self.trial.should_prune():
+            raise optuna.TrialPruned(f"Pruned at epoch {epoch} (loss={loss:.4f})")
 
 
 def objective(
     trial: optuna.Trial,
     model_name: str,
     dataset: DatasetDict,
-    num_labels: int,
-    label2id: Dict[str, int],
-    id2label: Dict[int, str],
     output_base_dir: str,
     search_space: Optional[dict] = None,
 ) -> float:
     """
-    Single Optuna trial: sample hyperparameters, train, return val F1.
+    Single Optuna trial: sample hyperparameters, train, return eval loss.
+    Lower is better — study direction is 'minimize'.
     """
     if search_space is None:
         search_space = {}
 
-    # ── Sample hyperparameters ──────────────────────────────────
-    r_choices = search_space.get("lora_r", [4, 8, 16, 32])
-    r = trial.suggest_categorical("lora_r", r_choices)
-
-    alpha_mult_choices = search_space.get("lora_alpha_multiplier", [1, 2])
-    alpha_mult = trial.suggest_categorical("lora_alpha_multiplier", alpha_mult_choices)
-    lora_alpha = r * alpha_mult
-
-    dropout_choices = search_space.get("lora_dropout", [0.0, 0.05, 0.1])
-    lora_dropout = trial.suggest_categorical("lora_dropout", dropout_choices)
-
-    lr_config = search_space.get("learning_rate", {"low": 1e-4, "high": 5e-4})
+    r = trial.suggest_categorical("lora_r", search_space.get("lora_r", [4, 8, 16]))
+    alpha_mult = trial.suggest_categorical(
+        "lora_alpha_multiplier", search_space.get("lora_alpha_multiplier", [1, 2])
+    )
+    lora_dropout = trial.suggest_categorical(
+        "lora_dropout", search_space.get("lora_dropout", [0.05, 0.1])
+    )
+    lr_cfg = search_space.get("learning_rate", {"low": 1e-4, "high": 5e-4, "log": True})
     learning_rate = trial.suggest_float(
-        "learning_rate",
-        lr_config["low"],
-        lr_config["high"],
-        log=lr_config.get("log", True),
+        "learning_rate", lr_cfg["low"], lr_cfg["high"], log=lr_cfg.get("log", True)
+    )
+    weight_decay = trial.suggest_categorical(
+        "weight_decay", search_space.get("weight_decay", [0.01, 0.05])
+    )
+    batch_size = trial.suggest_categorical(
+        "batch_size", search_space.get("per_device_train_batch_size", [4, 8])
     )
 
-    bs_choices = search_space.get("per_device_train_batch_size", [4, 8, 16])
-    batch_size = trial.suggest_categorical("batch_size", bs_choices)
+    lora_config = get_lora_config(r=r, lora_alpha=r * alpha_mult, lora_dropout=lora_dropout)
+    model, tokenizer = load_model_and_tokenizer(model_name=model_name, lora_config=lora_config)
 
-    # ── Build model with sampled config ─────────────────────────
-    lora_config = get_lora_config(
-        r=r,
-        lora_alpha=lora_alpha,
-        lora_dropout=lora_dropout,
-    )
-
-    model, tokenizer = load_model_and_tokenizer(
-        model_name=model_name,
-        num_labels=num_labels,
-        label2id=label2id,
-        id2label=id2label,
-        lora_config=lora_config,
-    )
-
-    # ── Training ────────────────────────────────────────────────
     trial_dir = os.path.join(output_base_dir, f"trial_{trial.number}")
     training_args = get_training_args(
         output_dir=trial_dir,
-        num_epochs=3,   # Fewer epochs for search (speed)
+        num_epochs=3,
         batch_size=batch_size,
         learning_rate=learning_rate,
+        weight_decay=weight_decay,
     )
+
+    data_collator = GenerativeDataCollator(pad_token_id=tokenizer.pad_token_id)
 
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=dataset["train"],
         eval_dataset=dataset["validation"],
-        compute_metrics=compute_metrics,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
+        data_collator=data_collator,
+        callbacks=[
+            EarlyStoppingCallback(early_stopping_patience=2),
+            OptunaPruningCallback(trial),
+        ],
     )
 
-    trainer.train()
+    try:
+        trainer.train()
+    except optuna.TrialPruned:
+        raise
 
-    # ── Evaluate ────────────────────────────────────────────────
     eval_results = trainer.evaluate()
-    f1_macro = eval_results.get("eval_f1_macro", 0.0)
+    eval_loss = eval_results.get("eval_loss", float("inf"))
 
-    # ── Cleanup GPU memory ──────────────────────────────────────
     del model, trainer
     gc.collect()
     torch.cuda.empty_cache()
 
-    return f1_macro
+    return eval_loss  # minimise
 
 
 def run_optuna_search(
     model_name: str,
     dataset: DatasetDict,
-    num_labels: int,
-    label2id: Dict[str, int],
-    id2label: Dict[int, str],
     output_dir: str = "models/optuna",
-    n_trials: int = 30,
+    n_trials: int = 25,
     search_space: Optional[dict] = None,
     study_name: str = "fomc_qlora",
 ) -> optuna.Study:
@@ -125,42 +124,41 @@ def run_optuna_search(
 
     Args:
         model_name: HuggingFace model identifier.
-        dataset: DatasetDict with train/validation splits.
-        num_labels: Number of classification labels.
-        label2id/id2label: Label mappings.
-        output_dir: Where to save trial outputs.
+        dataset: Pre-built DatasetDict with train/validation/test splits.
+        output_dir: Where to save trial outputs and the SQLite study DB.
         n_trials: Number of Optuna trials.
-        search_space: Custom search ranges (from config).
-        study_name: Name for the Optuna study.
+        search_space: Custom search ranges (from config['optuna']['search_space']).
+        study_name: Name for the Optuna study (used for SQLite key).
 
     Returns:
         Completed Optuna study with best parameters.
     """
+    os.makedirs(output_dir, exist_ok=True)
+    storage_url = f"sqlite:///{os.path.join(output_dir, f'{study_name}.db')}"
+
     study = optuna.create_study(
         study_name=study_name,
-        direction="maximize",  # Maximize F1
-        pruner=optuna.pruners.MedianPruner(n_startup_trials=5),
+        direction="minimize",
+        pruner=optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=1),
+        storage=storage_url,
+        load_if_exists=True,
     )
 
     obj_fn = partial(
         objective,
         model_name=model_name,
         dataset=dataset,
-        num_labels=num_labels,
-        label2id=label2id,
-        id2label=id2label,
         output_base_dir=output_dir,
         search_space=search_space,
     )
 
     study.optimize(obj_fn, n_trials=n_trials)
 
-    # ── Report ──────────────────────────────────────────────────
     print("\n" + "=" * 60)
     print("OPTUNA SEARCH COMPLETE")
     print("=" * 60)
     print(f"Best trial:  #{study.best_trial.number}")
-    print(f"Best F1:     {study.best_value:.4f}")
+    print(f"Best loss:   {study.best_value:.4f}")
     print("Best params:")
     for k, v in study.best_params.items():
         print(f"  {k}: {v}")

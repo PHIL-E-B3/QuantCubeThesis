@@ -10,9 +10,9 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "conditional",
     "ris": "skewed_downside",
     "wid": "none"
@@ -27,9 +27,9 @@
     "top": [
       "macro"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -44,9 +44,9 @@
     "top": [
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -61,9 +61,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -78,9 +78,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -95,9 +95,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -112,9 +112,9 @@
     "top": [
       "no_topic"
     ],
-    "sen": "-2",
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -130,9 +130,9 @@
       "inflation",
       "labor_market"
     ],
-    "sen": "1",
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -147,9 +147,9 @@
     "top": [
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -164,9 +164,9 @@
     "top": [
       "financial_conditions"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -183,9 +183,9 @@
       "economic_activity",
       "inflation"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -200,9 +200,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": "-1",
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -218,9 +218,9 @@
       "monetary_policy",
       "macro"
     ],
-    "sen": "1",
+    "sen": "hawkish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -236,7 +236,7 @@
       "financial_conditions"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -254,7 +254,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
@@ -271,9 +271,9 @@
       "labor_market",
       "inflation"
     ],
-    "sen": 0,
+    "sen": "neutral",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "symmetric",
     "wid": "contested"
@@ -291,9 +291,9 @@
       "inflation",
       "monetary_policy"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "unconditional",
     "ris": "skewed_downside",
     "wid": "none"
@@ -308,9 +308,9 @@
     "top": [
       "labor_market"
     ],
-    "sen": 1,
+    "sen": "hawkish",
     "ten": "descriptive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -325,9 +325,9 @@
     "top": [
       "macro"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "True",
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -342,9 +342,9 @@
     "top": [
       "economic_activity"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -360,9 +360,9 @@
       "economic_activity",
       "labor_market"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "interpretive",
-    "hor": "False",
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -377,7 +377,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": -1,
+    "sen": "dovish",
     "ten": "",
     "hor": "",
     "com": "",
@@ -394,9 +394,9 @@
     "top": [
       "inflation"
     ],
-    "sen": -2,
+    "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": "True",
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"

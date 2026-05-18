@@ -291,7 +291,7 @@ In both cases, do not attempt to net the scores — default to zero and let `wid
 Generic standalone data dependence: `boilerplate`
 - "The Committee will continue to monitor incoming data and act as appropriate."
 
-Specific data dependence naming a policy action and variables: `monetary_policy`, `com = "conditional"`, `con = ["macro"]`, `sen = 0`
+Specific data dependence naming a policy action and variables: `monetary_policy`, `com = "conditional"`, `sen = 0`
 - "In determining the extent of additional firming, the Committee will take into account cumulative tightening and incoming data."
 
 Test: does the sentence name a *specific policy action* and *specific monitoring variables*? If yes, substantive label. If no, boilerplate.

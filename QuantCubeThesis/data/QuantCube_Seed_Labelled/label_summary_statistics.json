@@ -1,0 +1,47 @@
+{
+  "total_sentences": 632,
+  "label_distributions": {
+    "top": {
+      "monetary_policy": 219,
+      "inflation": 161,
+      "financial_conditions": 156,
+      "economic_activity": 108,
+      "labor_market": 103,
+      "macro": 53,
+      "no_topic": 39,
+      "boilerplate": 26
+    },
+    "ten": {
+      "descriptive": 387,
+      "interpretive": 245
+    },
+    "sen": {
+      "dovish": 186,
+      "hawkish": 146,
+      "na": 26,
+      "neutral": 174,
+      "strongly_dovish": 64,
+      "strongly_hawkish": 36
+    },
+    "com": {
+      "none": 505,
+      "unconditional": 69,
+      "conditional": 58
+    },
+    "hor": {
+      "False": 585,
+      "True": 47
+    },
+    "ris": {
+      "na": 548,
+      "skewed_downside": 55,
+      "skewed_upside": 22,
+      "symmetric": 7
+    },
+    "wid": {
+      "none": 575,
+      "elevated": 42,
+      "contested": 15
+    }
+  }
+}

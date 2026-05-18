@@ -1,0 +1,530 @@
+[
+  {
+    "id": "df98f0dc-e814-4f13-99d0-c6322c2c22cc",
+    "sentence": "Mortgage credit was broadly available to households with average to high credit scores, while credit remained tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f9bd1e5f-bf25-4acc-b8b7-895aa1ff391c",
+    "sentence": "Credit remained tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20160127.html",
+    "doc_type": "minutes",
+    "date": "20160127",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "28155e26-9e2b-402a-9859-61497baafa40",
+    "sentence": "Turning to inflation, the FOMC interprets price stability to mean inflation of 2 percent as measured by the price index for personal consumption expenditures (PCE).5 This objective is symmetric, so the Committee would be concerned if inflation were to run persistently above or below this target.",
+    "source": "Thoughts on the Normalization of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-06-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ff1adc12-5e45-47a3-a18f-3c74968f0648",
+    "sentence": "However, core inflation remained subdued in most of the advanced foreign economies, and inflation in the EMEs seemed to have declined as food price inflation slowed.",
+    "source": "minutes_20110427.html",
+    "doc_type": "minutes",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "72306c34-83ce-43e3-91b2-5d41c7f1dd13",
+    "sentence": "However, credit availability for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios remained tight.",
+    "source": "minutes_20150917.html",
+    "doc_type": "minutes",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5409eafe-62c4-4031-887b-52e2e5e3b5b2",
+    "sentence": "Credit in mortgage markets stayed tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20160615.html",
+    "doc_type": "minutes",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "88587a37-c25e-4af6-a7a4-1a7c06025271",
+    "sentence": "However, credit conditions remained tight for riskier borrowers, such as those with low credit scores, undocumented income, or high debt-to-income ratios.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "303cb6bd-b40c-4e17-8193-ca4c57c17831",
+    "sentence": "Retail energy inflation continued to slow, contributing to an easing of headline consumer price inflation in many advanced foreign economies (AFEs).",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5b996fd3-bce7-4fa7-abb6-80a067024435",
+    "sentence": "The U.S. Financial System and Economic Outlook\r\nU.S. financial markets and institutions remain resilient even though financial stability risks and vulnerabilities in the U.S. financial system have increased since the recent stress events.",
+    "source": "Financial Stability and the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2023-05-31",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bafcf1a4-337f-4fe3-b005-2c71afe99d04",
+    "sentence": "It's strong economic underlying fundamentals, so, rising wages, high levels of employment, low levels of unemployment, high levels of job creation, confidence.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Trevor Hunnicutt from Reuters. Just—you mentioned that you have, kind of, a positive outlook as it regards the economy but also see slower growth on the household side and the business side. Given how big of a part of the U.S. economy that is, what gives you, kind of, confidence that both the slowdown we’re seeing is temporary?",
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "strongly_hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "64ca96ac-8035-47ff-9551-d36dfc933597",
+    "sentence": "A slowing of retail energy inflation continued to contribute to an easing of headline consumer price inflation in many advanced foreign economies (AFEs).",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5c8a5dde-15cd-47fd-9dd9-fdcc629474b0",
+    "sentence": "However, with the labor market still quite weak and income gains subdued, advances in consumption spending in the coming months likely will be muted.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2009-10-13",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3c632996-a7e2-4093-b044-27b4617b723d",
+    "sentence": "The economy's difficulty in gaining traction is, of course, due in no small part to the continued high levels of unemployment and underemployment, which constrain demand through both direct effects on household income and indirect effects in sapping consumer confidence.",
+    "source": "Unemployment, the Labor Market, and the Economy",
+    "doc_type": "speech",
+    "date": "2011-10-20",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f8fc2ab8-4c89-4645-a0a9-10f2de424faa",
+    "sentence": "Notably, the weak housing market, somewhat downbeat consumer sentiment, and slower growth in private-sector employment increased the likelihood that consumption spending would slow in coming quarters.",
+    "source": "The Recent Financial Turmoil and its Economic and Policy Consequences",
+    "doc_type": "speech",
+    "date": "2007-10-15",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "strongly_dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3f37977-2bdf-450a-8d6a-9195602cfe03",
+    "sentence": "Underlying fundamentals, such as import prices and diminishing slack, should lead inflation to resume moving closer to its goal. Nonetheless, currently I see more signs that progress on inflation is slowing than of a breakout of inflation to the upside, as might be the case with a nonlinearity in the relationship between inflation and unemployment when unemployment is very low.",
+    "source": "Navigating the Different Signals from Inflation and Unemployment",
+    "doc_type": "speech",
+    "date": "2017-05-30",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a634dc01-c83e-4728-9ae6-616ad731c76e",
+    "sentence": "Adverse economic or financial news has the potential to increase financial strains and to lead to further constraints on the supply of credit to households and businesses.",
+    "source": "Financial Markets, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2008-01-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "64a04c01-a33c-4d31-9771-604997447a7f",
+    "sentence": "With unemployment falling and wage gains thus far in line with productivity and expected inflation, the traditional indicators of cost-push price pressure are not flashing red right now.",
+    "source": "Outlook for the U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2018-10-25",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "8299009b-fdee-497d-bd9c-64eb7dc79375",
+    "sentence": "From the traditional Keynesian perspective, which was the dominant viewpoint of the time, monetary policy faced a long-term tradeoff between inflation and unemployment that it could exploit to keep unemployment low over an indefinitely long period at an acceptable cost in terms of inflation.",
+    "source": "Monetary Policy under Uncertainty",
+    "doc_type": "speech",
+    "date": "2007-10-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "09599d31-ed25-405a-9dd0-9a9cf9b327ac",
+    "sentence": "Inflation generally remained subdued in both the emerging market economies and the advanced foreign economies (AFEs).",
+    "source": "minutes_20161102.html",
+    "doc_type": "minutes",
+    "date": "20161102",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1132e425-2dd3-4ab6-97b3-ab6b1f73f87f",
+    "sentence": "But, of course, Fed interest rates are kept very low at the moment because of the need to maintain aggregate demand at levels that will support the attainment of our dual policy goals of maximum sustainable employment and price stability, defined as the rate of inflation in the price level of personal consumption expenditures (or PCE) being at our target level of 2 percent.",
+    "source": "Why Are Interest Rates So Low? Causes and Implications",
+    "doc_type": "speech",
+    "date": "2016-10-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "201f9e8f-739d-4f31-82ee-71d80c92ae21",
+    "sentence": "The cost, in the form of very high unemployment, is clear in the Great Inflation figures.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b2454dcf-14c7-4488-8418-0753958ce37a",
+    "sentence": "By 2017, the median sales price for a single-family home was about four times median household income, up from three times median income in 1988.23 The homeownership rate for middle-income families was 68 percent in 2016, down from its peak in 2004 of 74 percent.",
+    "source": "Is the Middle Class within Reach for Middle-Income Families?",
+    "doc_type": "speech",
+    "date": "2019-05-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "44e30655-e99e-4a6c-bbc4-a469ede61406",
+    "sentence": "In contrast, some others expected a faster pickup in inflation or saw upside risks to inflation and inflation expectations because they anticipated a more rapid decline in economic slack.",
+    "source": "minutes_20140618.html",
+    "doc_type": "minutes",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "2b9f10ae-f517-4014-8063-f4e6dd236eda",
+    "sentence": "Systemically Important Financial Institutions \r\n SIFIs are financial firms whose distress or failure has the potential to create broader financial instability sufficient to inflict meaningful damage on the real economy.",
+    "source": "Monitoring the Financial System",
+    "doc_type": "speech",
+    "date": "2013-05-10",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "descriptive",
+    "sen": "na",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "25c2df6e-4079-4245-af52-e63fd792dae2",
+    "sentence": "Several daily and weekly retail spending indicators tracked by Federal Reserve Board staff suggest that household spending increased quickly in response to stimulus payments and expanded unemployment insurance benefits.",
+    "source": "Navigating Monetary Policy through the Fog of COVID",
+    "doc_type": "speech",
+    "date": "2020-07-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "23ae800a-4913-431e-b640-c86cda63585f",
+    "sentence": "Overall consumer price inflation -- as measured by the price index for personal consumption expenditures -- stepped up to 1¼ percent over the 12 months ending in January, as the sharp decline in energy prices around the end of 2014 dropped out of the year-over-year figures.",
+    "source": "FOMCpresconf20160316.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20160316",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "da81609f-9492-4be9-9877-04fc04ba1b08",
+    "sentence": "Measures of inflation compensation based on Treasury Inflation-Protected Securities and on inflation swaps decreased, reportedly reflecting, in part, the decline in oil prices and increased concerns about global economic growth.",
+    "source": "minutes_20141217.html",
+    "doc_type": "minutes",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bcb3cd9c-0bc3-4484-b0ab-544164132a4e",
+    "sentence": "Even with the improving labor market, I still hear from businesses that qualified workers are difficult to find, and labor shortages remain a drag on hiring and on economic growth.",
+    "source": "High Inflation and the Outlook for Monetary Policy",
+    "doc_type": "speech",
+    "date": "2022-02-21",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "0bf49142-2288-4d77-8dcd-3c720bcce890",
+    "sentence": "In particular, an appropriate monetary policy following a jump in the price of oil will allow, on a temporary basis, both some increase in unemployment and some increase in price inflation.",
+    "source": "Lessons for Central Bankers from a Phillips Curve Framework",
+    "doc_type": "speech",
+    "date": "2008-06-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "33e50af2-6c70-40c7-a6ab-c419b9ec396d",
+    "sentence": "Inflation forecasts are typically predicated on estimates of the natural rate of unemployment, or \"u-star,\" and of how much upward pressure on inflation arises when the unemployment rate falls relative to u-star.",
+    "source": "New Economic Challenges and the Fed's Monetary Policy Review",
+    "doc_type": "speech",
+    "date": "2020-08-27",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  }
+]

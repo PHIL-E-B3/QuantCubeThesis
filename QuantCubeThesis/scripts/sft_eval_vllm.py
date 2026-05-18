@@ -26,24 +26,31 @@ EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged.json"
 DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "sft_p3" / "adapter"
 
 PROMPT_MAP = {
-    "sft_p1": "P1_medium_3shot",
-    "sft_p3": "P3_medium_5shot",
-    "sft_p5": "P5_high_3shot",
-    "sft_p7": "P7_high_5shot",
+    "sft_p2": "P2_medium_3shot_final",
+    "sft_p3": "P3_medium_5shot_final",
+    "sft_p5": "P5_high_3shot_final",
+    "sft_p7": "P7_high_5shot_final",
 }
 
 LABEL_SCHEMA = {
-    "top": {"type": "multi", "values": ["inflation", "unemployment", "economic_activity",
-            "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]},
-    "ten": {"type": "single", "values": ["descriptive", "interpretive"]},
-    "sen": {"type": "single", "values": ["-2", "-1", "0", "1", "2", "na"]},
-    "com": {"type": "single", "values": ["unconditional", "conditional", "none"]},
-    "hor": {"type": "single", "values": ["True", "False"]},
-    "ris": {"type": "single", "values": ["skewed_downside", "skewed_upside", "symmetric", "na"]},
-    "wid": {"type": "single", "values": ["elevated", "contested", "none"]},
+    "topic":      {"type": "multi",  "values": ["inflation", "labor_market", "economic_activity",
+                   "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]},
+    "tense":      {"type": "single", "values": ["descriptive", "interpretive"]},
+    "sentiment":  {"type": "single", "values": ["strongly_hawkish", "hawkish", "neutral",
+                   "dovish", "strongly_dovish", "na"]},
+    "horizon":    {"type": "single", "values": ["true", "false"]},
+    "commitment": {"type": "single", "values": ["unconditional", "conditional", "none"]},
+    "risk":       {"type": "single", "values": ["skewed_downside", "skewed_upside", "symmetric", "na"]},
+    "width":      {"type": "single", "values": ["elevated", "contested", "none"]},
 }
 
-PRIMARY_FIELDS = ["top", "sen", "ris", "wid"]
+# Ground truth files use old abbreviated field names — map them to the full names
+GT_FIELD_MAP = {
+    "top": "topic", "ten": "tense", "sen": "sentiment",
+    "hor": "horizon", "com": "commitment", "ris": "risk", "wid": "width",
+}
+
+PRIMARY_FIELDS = ["topic", "sentiment", "risk", "width"]
 
 
 # ── PROMPT + PARSING ─────────────────────────────────────────────────────────
@@ -75,6 +82,9 @@ def extract_json(response: str) -> Optional[dict]:
 
 
 def normalize(rec: dict, is_pred: bool = True) -> dict:
+    # Ground truth records use abbreviated field names — remap them first
+    if not is_pred:
+        rec = {GT_FIELD_MAP.get(k, k): v for k, v in rec.items()}
     out = {}
     for field, schema in LABEL_SCHEMA.items():
         val = rec.get(field)

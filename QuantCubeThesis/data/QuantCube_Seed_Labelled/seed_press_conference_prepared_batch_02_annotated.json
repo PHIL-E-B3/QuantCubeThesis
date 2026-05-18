@@ -10,7 +10,7 @@
       "labor_market"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -29,7 +29,7 @@
       "economic_activity"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "conditional",
     "hor": false,
     "ris": "na",
@@ -63,7 +63,7 @@
       "monetary_policy"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "unconditional",
     "hor": false,
     "ris": "na",
@@ -80,7 +80,7 @@
       "macro"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "skewed_downside",
@@ -99,7 +99,7 @@
       "economic_activity"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "conditional",
     "hor": true,
     "ris": "skewed_downside",
@@ -116,7 +116,7 @@
       "macro"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -150,7 +150,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -168,7 +168,7 @@
       "macro"
     ],
     "ten": "interpretive",
-    "sen": 1,
+    "sen": "hawkish",
     "com": "conditional",
     "hor": false,
     "ris": "na",
@@ -185,7 +185,7 @@
       "monetary_policy"
     ],
     "ten": "interpretive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -202,7 +202,7 @@
       "monetary_policy"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "conditional",
     "hor": false,
     "ris": "na",
@@ -219,7 +219,7 @@
       "economic_activity"
     ],
     "ten": "descriptive",
-    "sen": -1,
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",

@@ -42,7 +42,7 @@ TARGET_COL  = 'effective_rate'
 TARGET_NEXT = 'target_next'   # column name after forward shift
 
 TOPICS = [
-    'monetary_policy', 'inflation', 'unemployment',
+    'monetary_policy', 'inflation', 'labor_market',
     'economic_activity', 'financial_conditions', 'macro',
 ]
 EXCLUDE_TOPICS = {'no_topic', 'boilerplate'}

@@ -42,25 +42,31 @@ DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "sft_p3" / "adapter"
 
 # Prompt and output dirs are resolved dynamically from the adapter path in main()
 PROMPT_MAP = {
-    "sft_p1": "P1_medium_3shot",
-    "sft_p3": "P3_medium_5shot",
-    "sft_p5": "P5_high_3shot",
-    "sft_p7": "P7_high_5shot",
+    "sft_p2": "P2_medium_3shot_final",
+    "sft_p3": "P3_medium_5shot_final",
+    "sft_p5": "P5_high_3shot_final",
+    "sft_p7": "P7_high_5shot_final",
 }
 
 LABEL_SCHEMA = {
-    "top": {"type": "multi", "values": ["inflation", "unemployment", "economic_activity",
-            "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]},
-    "ten": {"type": "single", "values": ["descriptive", "interpretive"]},
-    "sen": {"type": "single", "values": ["-2", "-1", "0", "1", "2", "na"]},
-    "com": {"type": "single", "values": ["unconditional", "conditional", "none"]},
-    "hor": {"type": "single", "values": ["True", "False"]},
-    "ris": {"type": "single", "values": ["skewed_downside", "skewed_upside", "symmetric", "na"]},
-    "wid": {"type": "single", "values": ["elevated", "contested", "none"]},
+    "topic":      {"type": "multi",  "values": ["inflation", "labor_market", "economic_activity",
+                   "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]},
+    "tense":      {"type": "single", "values": ["descriptive", "interpretive"]},
+    "sentiment":  {"type": "single", "values": ["strongly_hawkish", "hawkish", "neutral",
+                   "dovish", "strongly_dovish", "na"]},
+    "horizon":    {"type": "single", "values": ["true", "false"]},
+    "commitment": {"type": "single", "values": ["unconditional", "conditional", "none"]},
+    "risk":       {"type": "single", "values": ["skewed_downside", "skewed_upside", "symmetric", "na"]},
+    "width":      {"type": "single", "values": ["elevated", "contested", "none"]},
 }
 
-PRIMARY_FIELDS = ["top", "sen", "ris", "wid"]
-LABEL_FIELDS = ["top", "ten", "sen", "hor", "com", "ris", "wid"]
+GT_FIELD_MAP = {
+    "top": "topic", "ten": "tense", "sen": "sentiment",
+    "hor": "horizon", "com": "commitment", "ris": "risk", "wid": "width",
+}
+
+PRIMARY_FIELDS = ["topic", "sentiment", "risk", "width"]
+LABEL_FIELDS = ["topic", "tense", "sentiment", "horizon", "commitment", "risk", "width"]
 
 
 # ── MODEL LOADING ────────────────────────────────────────────────────────────

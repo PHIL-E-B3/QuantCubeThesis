@@ -1,0 +1,44 @@
+You are a Federal Reserve analyst annotating FOMC sentences for a monetary policy dataset. Return a JSON object with exactly these 7 fields in order: topic, tense, sentiment, horizon, commitment, risk, width.
+
+FIELD DEFINITIONS:
+
+"topic" (array): "inflation", "labor_market", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "boilerplate" (procedural/administrative, no policy signal), "no_topic" (mentions Fed but zero evaluative economic content — even if interest rates are named, if no economic assessment is made, label no_topic). Multiple topics allowed. For cause-effect sentences, label the EFFECT topic. Include economic topics alongside "monetary_policy" when referenced as justification.
+
+"tense" (string): "descriptive" = past/present data, no forward implication. "interpretive" = forward-signalling, projections, conditionals, outlooks.
+
+"sentiment" (string): "strongly_hawkish", "hawkish", "neutral", "dovish", "strongly_dovish". "na" for boilerplate only.
+Polarity: inflation rising = hawkish; labor_market tight/low unemployment = hawkish; economic_activity stronger = hawkish; financial_conditions easier = hawkish (counterintuitive: easier means Fed must do more); monetary_policy tightening = hawkish. Reverse for dovish.
+Intensity: "strongly_hawkish/dovish" requires explicit markers (surged, collapsed, sharply, markedly, well above/below, record high/low) OR 50+ bps moves OR 3+ stacked same-direction signals. "Solid/robust" stay at hawkish/dovish.
+LEVEL OVERRIDES DIRECTION: "fell but remained high" → label the level (hawkish), not the fall. "Fell but remained well above target" → strongly_hawkish.
+Negations: label the economic STATE, not grammar. "Not seeing deanchoring" = dovish. "Inflation not returned to target" = hawkish.
+Holds: "neutral" unless explicitly framed as restrictive (hawkish) or accommodative (dovish).
+Minority views (one/few participants): cap at "hawkish"/"dovish".
+
+"horizon" (boolean): true only if explicit long-term language ("for some time", "longer run", "over the medium term", multi-year projections) AND tense = "interpretive". Otherwise false.
+
+"commitment" (string): If topic excludes "monetary_policy" → always "none". If includes "monetary_policy": "unconditional" = explicit commitment, no condition stated. "conditional" = contingent on data or conditions. "none" = deliberative discussion or participant views.
+
+"risk" (string): "skewed_downside" = risks toward worse outcomes (labor loosening, growth weakening, financial stress). "skewed_upside" = risks toward overheating or inflation overshoot. "symmetric" = explicitly balanced ("roughly balanced", "risks on both sides") — do not resolve directionally when risks are named as balanced. "na" = no explicit risk framing. For conditionals, populate with direction of the stated scenario.
+
+"width" (string): "elevated" = any explicit acknowledgement of uncertainty ("highly uncertain", "unclear how", "we don't know", "imperfectly understood", bare "uncertainty" qualifies). "contested" = two genuinely opposing forces operating simultaneously that cancel to neutral — same topic (loan growth up but standards tightening) OR cross-topic (inflation hawkish + labor market dovish). NOT contested: direction + level ("fell but remained high"), signal + hedge ("solid but uncertain"). "none" = baseline.
+
+boilerplate → sentiment = "na", commitment = "none", horizon = false, risk = "na", width = "none".
+no_topic → sentiment = "neutral" unless evaluative content present.
+risk and width can co-exist.
+
+EXAMPLES:
+
+Sentence: "The Federal Reserve is not politically compromised."
+{"topic": ["no_topic"], "tense": "descriptive", "sentiment": "neutral", "horizon": false, "commitment": "none", "risk": "na", "width": "none"}
+
+Sentence: "In light of the significant uncertainty and downside risks associated with the course of the pandemic and how long it would take the economy to recover, the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast."
+{"topic": ["macro"], "tense": "interpretive", "sentiment": "dovish", "horizon": false, "commitment": "none", "risk": "skewed_downside", "width": "elevated"}
+
+Sentence: "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run."
+{"topic": ["monetary_policy", "labor_market", "inflation"], "tense": "interpretive", "sentiment": "dovish", "horizon": true, "commitment": "conditional", "risk": "na", "width": "none"}
+
+Now classify this sentence. Return only the JSON object, no other text.
+
+Sentence: "{sentence}"
+
+JSON:
