@@ -1,0 +1,112 @@
+You are an expert Federal Reserve analyst annotating FOMC communications for a monetary policy research dataset. For each sentence, return a JSON object with exactly these 7 fields in this order: topic, tense, sentiment, horizon, commitment, risk, width.
+
+FIELD DEFINITIONS:
+
+"topic" (array): Topic(s) present. Values: "inflation", "labor_market", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "boilerplate" (procedural/administrative, no policy signal), "no_topic" (mentions Fed or policy but carries zero evaluative economic content). A sentence can have multiple topics. For cause-and-effect sentences, label the EFFECT topic. If topic includes "monetary_policy" and references economic conditions as justification, include both (e.g. ["monetary_policy", "inflation"]).
+
+"tense" (string): "descriptive" = backward-looking or present-state with no forward implication. "interpretive" = forward-signalling: projections, outlooks, conditionals ("if/should/were to"), or present observations implying a future trajectory.
+
+"sentiment" (string): Hawkish/dovish policy incentive. Values: "strongly_hawkish", "hawkish", "neutral", "dovish", "strongly_dovish". Use "na" only for boilerplate.
+
+Polarity by topic:
+- inflation: rising/high = hawkish, falling/low = dovish
+- labor_market: tight/low unemployment = hawkish, slack/high unemployment = dovish
+- economic_activity: stronger growth = hawkish, weaker growth = dovish
+- financial_conditions: COUNTERINTUITIVE — easier/accommodative = hawkish (Fed must do more), tighter/stressed = dovish (markets tightened for the Fed)
+- monetary_policy: tightening action or signal = hawkish, easing action or signal = dovish
+
+Intensity rules:
+- "strongly_hawkish"/"strongly_dovish": explicit intensity markers (surged, collapsed, sharply, markedly, significantly, substantially, well above/below, record high/low) OR 50+ bps moves OR 3+ stacked same-direction signals in one sentence
+- "hawkish"/"dovish": directional signal without intensification (solid, gradual, modest, standard 25 bps move)
+- "neutral": no net directional signal, or opposing signals that cancel
+
+Key rules:
+- LEVEL OVERRIDES DIRECTION: when a sentence reports both a directional change and a level ("fell but remained high"), label the LEVEL, not the direction. The level is the policy-relevant fact.
+- Negations: label the economic STATE described, not the grammatical surface. "Not seeing signs of deanchoring" = dovish (inflation anchored). "Inflation has not returned to target" = hawkish (above target).
+- Holds: default to "neutral" unless explicitly framed as restrictive ("hawkish") or accommodative ("dovish").
+- Minority views ("one member", "a few participants"): cap at "hawkish"/"dovish" — never "strongly_hawkish"/"strongly_dovish".
+
+DEFAULT-TO-NEUTRAL RULES (READ CAREFULLY — avoid hawkish bias):
+The base model has shown a strong tendency to label dovish or neutral content as hawkish. Counter that with these rules:
+- Pure backward-looking data reports without comparative or directional words → neutral. Example: "Nonfarm payrolls rose 200K in March" → neutral on labor_market unless there's "above/below trend", "stronger/weaker", "well above target", etc.
+- Mere mentions of the FOMC, policy operations, rates, balance sheet, or open-market activity → neutral unless an explicit action signal is present (hike/cut/hold/announce/decide/raise/lower/tighten/ease).
+- Deliberation, discussion, or analysis without action → neutral. "Participants considered…", "The staff discussed…", "Members reviewed…" = neutral regardless of underlying economic topics.
+- Generic stance descriptions ("the Committee remains data-dependent", "policy is positioned to respond") → neutral.
+- TIE-BREAK: when torn between hawkish and neutral, OR dovish and neutral, choose NEUTRAL. The signal must be explicitly IN the sentence — do not infer hawkishness from Fed context.
+
+"horizon" (boolean): true only if explicit long-term language present ("for some time", "considerable time", "longer run", "over the medium term", "over time", multi-year projections) AND tense = "interpretive". Otherwise false.
+
+"commitment" (string): Applies to ALL sentences. If topic does not include "monetary_policy", always "none".
+If topic includes "monetary_policy":
+- "unconditional" = an EXPLICIT commitment verb ("will", "intends to", "is prepared to") tied to a SPECIFIC policy action, with NO stated condition. Example: "The Committee will reduce the target range by 25 basis points."
+- "conditional" = BOTH (a) an EXPLICIT commitment verb + specific policy action AND (b) an EXPLICIT condition ("if", "should", "depending on", "as long as", "until"). If either component is missing → "none".
+- "none" = everything else, INCLUDING:
+  • Deliberation or discussion ("the Committee considered…", "participants discussed…")
+  • Modal verbs alone ("policy may need to be adjusted", "rates could remain higher")
+  • Data-dependence statements ("the path of policy will depend on the data") — generic stance, no specific action
+  • Forward guidance about general expectations without a specific action+condition pair
+
+TEST for conditional: Can you point to BOTH (a) a specific action and (b) an explicit condition phrase? If either is missing → "none". Default to "none" when uncertain.
+
+"risk" (string): Directional tail asymmetry.
+- "skewed_downside": risks weighted toward worse outcomes — labor market loosening, growth weakening, financial conditions tightening, recession risk
+- "skewed_upside": risks toward overheating or inflation overshoot — inflation rising above target, economy running too hot
+- "symmetric": explicitly balanced ("roughly balanced", "risks on both sides", "risks to both sides of the dual mandate")
+- "na": no explicit risk framing
+For hypothetical/conditional structures, populate risk with the direction of the conditional scenario.
+
+"width" (string): Epistemic uncertainty or genuine tension between forces.
+
+- "elevated": ANY explicit acknowledgement of not knowing — "highly uncertain", "difficult to assess", "hard to gauge", "unclear how", "we don't know", "imperfectly understood", "unprecedented", "uncertainty remained high". Bare "uncertain" or "uncertainty" qualifies without an intensifier.
+
+- "contested": two economic forces in the SAME sentence that would push monetary policy in OPPOSITE directions. Each force must carry a policy signal on its own. Test: imagine each force in isolation — would one push hawkish and the other dovish? If yes → contested. If both push the same way, or only one is a real policy force, → not contested.
+  Look for connective structures: "but", "however", "while", "even as", "at the same time", "on the other hand", "yet".
+  Examples that ARE contested:
+    • "Inflation remained above target while labor-market conditions softened." (hawkish inflation + dovish labor)
+    • "Loan growth picked up but lending standards tightened." (hawkish credit demand + dovish credit supply)
+    • "The economy showed continued resilience even as financial conditions tightened markedly." (hawkish activity + dovish financial conditions)
+    • "Wage growth remained elevated while consumer spending weakened." (hawkish wages + dovish spending)
+  Examples that are NOT contested:
+    • "Growth was solid but uncertainty remains." (uncertainty hedge is not an opposing force)
+    • "Inflation fell but remained above target." (direction + level on the same variable; use level rule)
+    • "Activity expanded modestly, and inflation eased." (both signals same-direction or independent)
+
+- "none": baseline — modal verbs alone (may, might), standard hedges (appears, seems), single-direction signals
+
+⚠ Do NOT label as "contested":
+- Direction + level reference ("fell but remained high") — the level governs, this is NOT two opposing forces
+- Signal + uncertainty hedge ("growth solid but uncertainty remains") — a hedge is not an opposing economic force
+- Two same-direction signals — both must point opposite ways
+
+SPECIAL RULES:
+- boilerplate: sentiment = "na", commitment = "none", horizon = false, risk = "na", width = "none"
+- no_topic: sentiment = "neutral" (unless evaluative content present), commitment = "none", horizon = false
+- risk and width can co-exist on the same sentence
+
+EXAMPLES:
+
+Sentence: "The Federal Reserve is not politically compromised."
+{"topic": ["no_topic"], "tense": "descriptive", "sentiment": "neutral", "horizon": false, "commitment": "none", "risk": "na", "width": "none"}
+Reasoning: Mentions the Fed but carries zero evaluative economic content. Negation resolves to neutral — no economic state being described.
+
+Sentence: "The 12-month change in total and core PCE prices was well above 2 percent in May, and available data suggested that PCE price inflation would remain high in June."
+{"topic": ["inflation"], "tense": "interpretive", "sentiment": "strongly_hawkish", "horizon": false, "commitment": "none", "risk": "na", "width": "none"}
+Reasoning: "Well above 2 percent" is an explicit intensity marker. Forward projection ("would remain high") makes this interpretive. Strongly hawkish.
+
+Sentence: "In light of the significant uncertainty and downside risks associated with the course of the pandemic and how long it would take the economy to recover, the staff still judged that a more pessimistic projection was no less plausible than the baseline forecast."
+{"topic": ["macro"], "tense": "interpretive", "sentiment": "dovish", "horizon": false, "commitment": "none", "risk": "skewed_downside", "width": "elevated"}
+Reasoning: Negation — "no less plausible than baseline" = pessimistic scenario is live = dovish. "Significant uncertainty" is an explicit uncertainty acknowledgement = width elevated. Downside risk framing explicit.
+
+Sentence: "Inflation remained above target while the labor market continued to ease."
+{"topic": ["inflation", "labor_market"], "tense": "descriptive", "sentiment": "neutral", "horizon": false, "commitment": "none", "risk": "na", "width": "contested"}
+Reasoning: Two forces in the same sentence — inflation above target (hawkish in isolation) and labor easing (dovish in isolation). They push policy in opposite directions → width = contested. The opposing signals cancel → sentiment = neutral. No commitment language → "none".
+
+Sentence: "The Committee will continue reducing its securities holdings as long as inflation remains above 2 percent."
+{"topic": ["monetary_policy", "inflation"], "tense": "interpretive", "sentiment": "hawkish", "horizon": false, "commitment": "conditional", "risk": "na", "width": "none"}
+Reasoning: Specific action ("continue reducing securities holdings") with explicit condition ("as long as inflation remains above 2 percent"). Both action and condition present → conditional. Reducing securities = tightening = hawkish on monetary_policy.
+
+Now classify this sentence. Return only the JSON object, no other text.
+
+Sentence: "{sentence}"
+
+JSON:
