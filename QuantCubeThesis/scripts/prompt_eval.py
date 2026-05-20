@@ -582,10 +582,14 @@ def run_all_prompts(
         vllm_model = None
 
     # Find prompts — only _final variants by default
+    list_file = Path("PROMPTS_TO_RUN.txt")
     if prompt_filter:
         prompt_files = [PROMPTS_DIR / prompt_filter]
         if not prompt_files[0].exists():
             prompt_files = list(PROMPTS_DIR.glob(f"*{prompt_filter}*"))
+    elif list_file.exists():
+        names = [l.strip() for l in list_file.read_text().splitlines() if l.strip() and not l.startswith("#")]
+        prompt_files = [PROMPTS_DIR / n for n in names]
     else:
         prompt_files = sorted(PROMPTS_DIR.glob("*_final.txt"))
 

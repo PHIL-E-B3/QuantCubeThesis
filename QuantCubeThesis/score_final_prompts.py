@@ -18,6 +18,7 @@ PROMPTS = [
     'P7_high_5shot_final',
     'P7_high_5shot_final_v3',
     'P8_high_12shot_final_v4',
+    'FOMC_annotation_instructions_v3_corrected',
 ]
 
 # Field name map: final prompt output → gold label keys
