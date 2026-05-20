@@ -594,6 +594,9 @@ NEGATIONS: label the economic state described, not the grammatical surface
 DATA DEPENDENCE: boilerplate if generic; top=["monetary_policy","macro"] + conditional if specific
 ```
 
+Return your answer as a JSON object using EXACTLY these field names (not the short codes used above):
+{"topic": [...], "tense": "...", "sentiment": "...", "horizon": ..., "commitment": "...", "risk": "...", "width": "..."}
+
 Sentence: "{sentence}"
 
 JSON:
