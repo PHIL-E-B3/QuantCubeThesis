@@ -1,4 +1,2 @@
-P5_high_3shot_final_CoT.txt
-P7_high_5shot_final_CoT.txt
-P7_high_5shot_final_v3_CoT.txt
-P8_high_12shot_final_v4_CoT.txt
+P5_high_3shot_v4.txt
+P7_high_5shot_v4.txt
