@@ -593,3 +593,7 @@ ELEVATED: any explicit acknowledgement of uncertainty or lack of knowledge —
 NEGATIONS: label the economic state described, not the grammatical surface
 DATA DEPENDENCE: boilerplate if generic; top=["monetary_policy","macro"] + conditional if specific
 ```
+
+Sentence: "{sentence}"
+
+JSON:
