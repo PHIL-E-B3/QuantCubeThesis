@@ -101,6 +101,11 @@ def objective(
         trainer.train()
     except optuna.TrialPruned:
         raise
+    except torch.cuda.OutOfMemoryError:
+        del model, trainer
+        gc.collect()
+        torch.cuda.empty_cache()
+        raise optuna.TrialPruned("OOM — batch_size or sequence length too large for available VRAM")
 
     eval_results = trainer.evaluate()
     eval_loss = eval_results.get("eval_loss", float("inf"))
