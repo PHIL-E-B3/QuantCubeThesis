@@ -41,6 +41,7 @@ def report(name: str, lengths: list):
     print(f"  90th pct:    {np.percentile(a, 90):>6.0f}")
     print(f"  95th pct:    {np.percentile(a, 95):>6.0f}")
     print(f"  99th pct:    {np.percentile(a, 99):>6.0f}")
+    print(f"  99.9th pct:  {np.percentile(a, 99.9):>6.0f}")
     print(f"  Max:         {a.max():>6}")
     print(f"  Mean:        {a.mean():>6.1f}")
 
