@@ -110,7 +110,7 @@ def main():
         print(f"\n{'='*60}")
         print(f"  OPTUNA HYPERPARAMETER SEARCH")
         print(f"  Trials: {n_trials}  |  Train: {len(dataset['train'])}  "
-              f"Val: {len(dataset['validation'])}  Test: {len(dataset['test'])}")
+              f"Val: {len(dataset['validation'])}")
         print(f"  Search space: {config['optuna']['search_space']}")
         print(f"{'='*60}\n")
 
