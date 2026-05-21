@@ -102,7 +102,8 @@ paths:
   unlabelled_pool: "data/all_unlabelled_sentences/master_unlabelled_pool.json"
   seed_sentences: "data/initial_training_seed_sentences"
   seed_data_merged:
-    - "data/eval_labelled_merged.json"
+    - "data/QuantCube_Seed_Labelled/all_labelled_sentences.json"
     - "data/QuantCube_Seed_Batches/final_extreme_seed.json"
+  eval_data: "data/eval_labelled_merged.json"   # held-out test set, never trained on
   model_output: "models"
   logs: "logs"

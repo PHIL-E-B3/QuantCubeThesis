@@ -183,7 +183,6 @@ def build_generative_dataset(
     tokenizer,
     prompt_template: str,
     max_length: int = 1280,
-    test_size: float = 0.15,
     val_size: float = 0.15,
     random_state: int = 42,
 ) -> DatasetDict:
@@ -219,18 +218,13 @@ def build_generative_dataset(
     # Stratify by sentiment (most imbalanced field)
     df["_strat"] = df["sen"].astype(str)
 
-    train_df, test_df = train_test_split(
-        df, test_size=test_size,
+    train_df, val_df = train_test_split(
+        df, test_size=val_size,
         stratify=df["_strat"], random_state=random_state,
     )
-    adjusted_val = val_size / (1 - test_size)
-    train_df, val_df = train_test_split(
-        train_df, test_size=adjusted_val,
-        stratify=train_df["_strat"], random_state=random_state,
-    )
 
-    print(f"Generative split — train: {len(train_df)}, "
-          f"val: {len(val_df)}, test: {len(test_df)}")
+    print(f"Generative split — train: {len(train_df)}, val: {len(val_df)}"
+          f"  (eval set held out separately)")
 
     def make_hf_dataset(split_df: pd.DataFrame) -> Dataset:
         all_input_ids, all_attention_masks, all_labels = [], [], []
@@ -284,7 +278,6 @@ def build_generative_dataset(
     return DatasetDict({
         "train":      make_hf_dataset(train_df),
         "validation": make_hf_dataset(val_df),
-        "test":       make_hf_dataset(test_df),
     })
 
 

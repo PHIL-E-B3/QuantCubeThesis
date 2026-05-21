@@ -188,16 +188,8 @@ def train(
         data_collator=data_collator,
     )
 
-    print(f"\nTrain: {len(dataset['train'])}  "
-          f"Val: {len(dataset['validation'])}  "
-          f"Test: {len(dataset['test'])}")
+    print(f"\nTrain: {len(dataset['train'])}  Val: {len(dataset['validation'])}")
     trainer.train()
-
-    test_results = trainer.evaluate(dataset["test"])
-    print("\nTest results:")
-    for k, v in test_results.items():
-        if isinstance(v, float):
-            print(f"  {k}: {v:.4f}")
 
     adapter_path = os.path.join(output_dir, "adapter")
     model.save_pretrained(adapter_path)

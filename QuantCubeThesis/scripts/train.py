@@ -54,7 +54,7 @@ def main():
     data_paths  = config["paths"]["seed_data_merged"]
     prompt_path = args.prompt
 
-    # seed_data_merged can be a single path string or a list of paths
+    # seed_data_merged: training-only seed data (never includes the eval set)
     if isinstance(data_paths, str):
         data_paths = [data_paths]
 
