@@ -215,6 +215,47 @@ DICTIONARIES = {
         (r'\boverheat\b', 3),
     ],
 
+    'conditional_commitment': [
+        # Explicit condition phrases paired with policy action
+        (r'\bif\b.{0,60}\b(?:inflation|employment|economy|conditions?|growth|labor|outlook)\b', 2),
+        (r'\bshould\b.{0,60}\b(?:inflation|employment|economy|conditions?|growth|labor|outlook)\b', 2),
+        (r'\bas long as\b', 3),
+        (r'\buntil\b.{0,60}\b(?:inflation|employment|economy|conditions?|goals?|objectives?|mandate|target|2 percent)', 3),
+        (r'\bdepending on\b', 3),
+        (r'\bprovided that\b', 3),
+        (r'\bcontingent on\b', 3),
+        (r'\bin the event that\b', 3),
+        (r'\bwere (?:the economy|inflation|conditions?|growth|labor|employment) to\b', 3),
+        (r'\bif (?:the economy|inflation|conditions?|growth|labor|employment)\b', 2),
+        (r'\bconditional(?:ly)?\b', 3),
+        (r'\bsubject to\b.{0,40}\b(?:inflation|employment|conditions?|outlook|data)\b', 2),
+        (r'\bif (?:such|this|that|these) (?:condition|progress|trend|development)', 2),
+        (r'\bdepend(?:s|ing|ent)? on\b.{0,40}\b(?:data|incoming|economic|inflation)', 2),
+        (r'\b(?:will|would) (?:continue|maintain|keep|raise|cut|reduce).{0,60}\b(?:if|until|as long|should|provided|contingent)', 2),
+        (r'\bprovided\b.{0,40}\b(?:economy|inflation|conditions?|data|progress)', 2),
+        (r'\bif (?:warranted|appropriate|necessary)\b', 3),
+        (r'\b(?:appropriate|warranted|necessary).{0,30}\b(?:if|should|depending|given)', 2),
+    ],
+
+    'risk_language': [
+        # Explicit risk mentions — high priority sentences for ris labels
+        (r'\b(?:upside|downside) risk', 3),
+        (r'\brisk(?:s)? (?:to|of|that|remain|include|are|were|have)', 3),
+        (r'\brisks? (?:are|remain|were|have been).{0,30}\b(?:balanced|skewed|tilted|weighted|elevated)', 3),
+        (r'\brisks? to (?:the |our |its )?(?:outlook|forecast|projection|growth|inflation|employment|economy)', 3),
+        (r'\bupside risks?\b', 3),
+        (r'\bdownside risks?\b', 3),
+        (r'\btail risk\b', 3),
+        (r'\brisk of (?:recession|deflation|overheating|inflation|stagflation)', 3),
+        (r'\brisks? (?:to|on) (?:both sides|the upside|the downside)', 3),
+        (r'\bbroadly balanced\b', 2),
+        (r'\broughly balanced\b', 2),
+        (r'\brisks? (?:appear|seem|judged|viewed|assessed|seen) (?:to be |as )?\b(?:balanced|skewed|tilted)', 3),
+        (r'\bposes? (?:a |significant |considerable )?risk', 2),
+        (r'\belevated (?:uncertainty|risk)', 2),
+        (r'\brisk (?:management|appetite|premium)', 2),
+    ],
+
     'strongly_dovish': [
         # Extreme economic weakness
         (r'\bcollapsed?\b', 3),
