@@ -12258,5 +12258,1782 @@
     "wid": "none",
     "strongly_dovish": true,
     "note": "Main clause enumerates three distinct dovish signals: recovery has a long way to go, unemployment still elevated at 7.9 percent, inflation still below the 2 percent objective -> criterion (c). The concessive 'While...recovery has been robust' is subordinate and only mildly hawkish ('robust' stays mild) -> does not net out -> strongly_dovish."
+  },
+  {
+    "id": "df98f0dc-e814-4f13-99d0-c6322c2c22cc",
+    "sentence": "Mortgage credit was broadly available to households with average to high credit scores, while credit remained tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "f9bd1e5f-bf25-4acc-b8b7-895aa1ff391c",
+    "sentence": "Credit remained tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20160127.html",
+    "doc_type": "minutes",
+    "date": "20160127",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "28155e26-9e2b-402a-9859-61497baafa40",
+    "sentence": "Turning to inflation, the FOMC interprets price stability to mean inflation of 2 percent as measured by the price index for personal consumption expenditures (PCE).5 This objective is symmetric, so the Committee would be concerned if inflation were to run persistently above or below this target.",
+    "source": "Thoughts on the Normalization of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-06-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ff1adc12-5e45-47a3-a18f-3c74968f0648",
+    "sentence": "However, core inflation remained subdued in most of the advanced foreign economies, and inflation in the EMEs seemed to have declined as food price inflation slowed.",
+    "source": "minutes_20110427.html",
+    "doc_type": "minutes",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "72306c34-83ce-43e3-91b2-5d41c7f1dd13",
+    "sentence": "However, credit availability for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios remained tight.",
+    "source": "minutes_20150917.html",
+    "doc_type": "minutes",
+    "date": "20150917",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5409eafe-62c4-4031-887b-52e2e5e3b5b2",
+    "sentence": "Credit in mortgage markets stayed tight for borrowers with low credit scores, hard-to-document income, or high debt-to-income ratios.",
+    "source": "minutes_20160615.html",
+    "doc_type": "minutes",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "88587a37-c25e-4af6-a7a4-1a7c06025271",
+    "sentence": "However, credit conditions remained tight for riskier borrowers, such as those with low credit scores, undocumented income, or high debt-to-income ratios.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "303cb6bd-b40c-4e17-8193-ca4c57c17831",
+    "sentence": "Retail energy inflation continued to slow, contributing to an easing of headline consumer price inflation in many advanced foreign economies (AFEs).",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5b996fd3-bce7-4fa7-abb6-80a067024435",
+    "sentence": "The U.S. Financial System and Economic Outlook\r\nU.S. financial markets and institutions remain resilient even though financial stability risks and vulnerabilities in the U.S. financial system have increased since the recent stress events.",
+    "source": "Financial Stability and the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2023-05-31",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "bafcf1a4-337f-4fe3-b005-2c71afe99d04",
+    "sentence": "It's strong economic underlying fundamentals, so, rising wages, high levels of employment, low levels of unemployment, high levels of job creation, confidence.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190320",
+    "context_question": "Trevor Hunnicutt from Reuters. Just—you mentioned that you have, kind of, a positive outlook as it regards the economy but also see slower growth on the household side and the business side. Given how big of a part of the U.S. economy that is, what gives you, kind of, confidence that both the slowdown we’re seeing is temporary?",
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "strongly_hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "64ca96ac-8035-47ff-9551-d36dfc933597",
+    "sentence": "A slowing of retail energy inflation continued to contribute to an easing of headline consumer price inflation in many advanced foreign economies (AFEs).",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5c8a5dde-15cd-47fd-9dd9-fdcc629474b0",
+    "sentence": "However, with the labor market still quite weak and income gains subdued, advances in consumption spending in the coming months likely will be muted.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2009-10-13",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3c632996-a7e2-4093-b044-27b4617b723d",
+    "sentence": "The economy's difficulty in gaining traction is, of course, due in no small part to the continued high levels of unemployment and underemployment, which constrain demand through both direct effects on household income and indirect effects in sapping consumer confidence.",
+    "source": "Unemployment, the Labor Market, and the Economy",
+    "doc_type": "speech",
+    "date": "2011-10-20",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f8fc2ab8-4c89-4645-a0a9-10f2de424faa",
+    "sentence": "Notably, the weak housing market, somewhat downbeat consumer sentiment, and slower growth in private-sector employment increased the likelihood that consumption spending would slow in coming quarters.",
+    "source": "The Recent Financial Turmoil and its Economic and Policy Consequences",
+    "doc_type": "speech",
+    "date": "2007-10-15",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "strongly_dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3f37977-2bdf-450a-8d6a-9195602cfe03",
+    "sentence": "Underlying fundamentals, such as import prices and diminishing slack, should lead inflation to resume moving closer to its goal. Nonetheless, currently I see more signs that progress on inflation is slowing than of a breakout of inflation to the upside, as might be the case with a nonlinearity in the relationship between inflation and unemployment when unemployment is very low.",
+    "source": "Navigating the Different Signals from Inflation and Unemployment",
+    "doc_type": "speech",
+    "date": "2017-05-30",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a634dc01-c83e-4728-9ae6-616ad731c76e",
+    "sentence": "Adverse economic or financial news has the potential to increase financial strains and to lead to further constraints on the supply of credit to households and businesses.",
+    "source": "Financial Markets, the Economic Outlook, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2008-01-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "64a04c01-a33c-4d31-9771-604997447a7f",
+    "sentence": "With unemployment falling and wage gains thus far in line with productivity and expected inflation, the traditional indicators of cost-push price pressure are not flashing red right now.",
+    "source": "Outlook for the U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2018-10-25",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "8299009b-fdee-497d-bd9c-64eb7dc79375",
+    "sentence": "From the traditional Keynesian perspective, which was the dominant viewpoint of the time, monetary policy faced a long-term tradeoff between inflation and unemployment that it could exploit to keep unemployment low over an indefinitely long period at an acceptable cost in terms of inflation.",
+    "source": "Monetary Policy under Uncertainty",
+    "doc_type": "speech",
+    "date": "2007-10-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "09599d31-ed25-405a-9dd0-9a9cf9b327ac",
+    "sentence": "Inflation generally remained subdued in both the emerging market economies and the advanced foreign economies (AFEs).",
+    "source": "minutes_20161102.html",
+    "doc_type": "minutes",
+    "date": "20161102",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1132e425-2dd3-4ab6-97b3-ab6b1f73f87f",
+    "sentence": "But, of course, Fed interest rates are kept very low at the moment because of the need to maintain aggregate demand at levels that will support the attainment of our dual policy goals of maximum sustainable employment and price stability, defined as the rate of inflation in the price level of personal consumption expenditures (or PCE) being at our target level of 2 percent.",
+    "source": "Why Are Interest Rates So Low? Causes and Implications",
+    "doc_type": "speech",
+    "date": "2016-10-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "201f9e8f-739d-4f31-82ee-71d80c92ae21",
+    "sentence": "The cost, in the form of very high unemployment, is clear in the Great Inflation figures.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b2454dcf-14c7-4488-8418-0753958ce37a",
+    "sentence": "By 2017, the median sales price for a single-family home was about four times median household income, up from three times median income in 1988.23 The homeownership rate for middle-income families was 68 percent in 2016, down from its peak in 2004 of 74 percent.",
+    "source": "Is the Middle Class within Reach for Middle-Income Families?",
+    "doc_type": "speech",
+    "date": "2019-05-10",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "44e30655-e99e-4a6c-bbc4-a469ede61406",
+    "sentence": "In contrast, some others expected a faster pickup in inflation or saw upside risks to inflation and inflation expectations because they anticipated a more rapid decline in economic slack.",
+    "source": "minutes_20140618.html",
+    "doc_type": "minutes",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "2b9f10ae-f517-4014-8063-f4e6dd236eda",
+    "sentence": "Systemically Important Financial Institutions \r\n SIFIs are financial firms whose distress or failure has the potential to create broader financial instability sufficient to inflict meaningful damage on the real economy.",
+    "source": "Monitoring the Financial System",
+    "doc_type": "speech",
+    "date": "2013-05-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "25c2df6e-4079-4245-af52-e63fd792dae2",
+    "sentence": "Several daily and weekly retail spending indicators tracked by Federal Reserve Board staff suggest that household spending increased quickly in response to stimulus payments and expanded unemployment insurance benefits.",
+    "source": "Navigating Monetary Policy through the Fog of COVID",
+    "doc_type": "speech",
+    "date": "2020-07-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "23ae800a-4913-431e-b640-c86cda63585f",
+    "sentence": "Overall consumer price inflation -- as measured by the price index for personal consumption expenditures -- stepped up to 1¼ percent over the 12 months ending in January, as the sharp decline in energy prices around the end of 2014 dropped out of the year-over-year figures.",
+    "source": "FOMCpresconf20160316.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20160316",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "da81609f-9492-4be9-9877-04fc04ba1b08",
+    "sentence": "Measures of inflation compensation based on Treasury Inflation-Protected Securities and on inflation swaps decreased, reportedly reflecting, in part, the decline in oil prices and increased concerns about global economic growth.",
+    "source": "minutes_20141217.html",
+    "doc_type": "minutes",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bcb3cd9c-0bc3-4484-b0ab-544164132a4e",
+    "sentence": "Even with the improving labor market, I still hear from businesses that qualified workers are difficult to find, and labor shortages remain a drag on hiring and on economic growth.",
+    "source": "High Inflation and the Outlook for Monetary Policy",
+    "doc_type": "speech",
+    "date": "2022-02-21",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "0bf49142-2288-4d77-8dcd-3c720bcce890",
+    "sentence": "In particular, an appropriate monetary policy following a jump in the price of oil will allow, on a temporary basis, both some increase in unemployment and some increase in price inflation.",
+    "source": "Lessons for Central Bankers from a Phillips Curve Framework",
+    "doc_type": "speech",
+    "date": "2008-06-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "33e50af2-6c70-40c7-a6ab-c419b9ec396d",
+    "sentence": "Inflation forecasts are typically predicated on estimates of the natural rate of unemployment, or \"u-star,\" and of how much upward pressure on inflation arises when the unemployment rate falls relative to u-star.",
+    "source": "New Economic Challenges and the Fed's Monetary Policy Review",
+    "doc_type": "speech",
+    "date": "2020-08-27",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ac9a3ecd-05a3-4da9-9c83-02762224387c",
+    "sentence": "Finally, in conjunction with our policy statement, we also released an implementation note that provides details on the tools that we are using to raise the federal funds rate into the new target range.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9e1c84da-c725-4af6-ae0f-f9c79c665f1a",
+    "sentence": "I will come back to our policy decision, but first I will review recent economic developments and the outlook.",
+    "source": "FOMCpresconf20160615.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fe481bc9-0f6c-4b36-bfa7-e8f08507a14d",
+    "sentence": "Let me now turn to the framework we will be applying as we consider interest rate policy.",
+    "source": "FOMCpresconf20140618.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7c003fef-bed0-4f4e-84c1-025f5ebaee40",
+    "sentence": "Let me emphasize again that today's modification of the forward guidance should not be read as indicating that the Committee has decided on the timing of the initial increase in the target range for the federal funds rate.",
+    "source": "FOMCpresconf20150318.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20150318",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8b57f503-c28e-4f4a-b3a3-5e7d1e921931",
+    "sentence": "You know, and so each, each Reserve Bank has its own culture around monetary policy and its own approach and that kind of thing.",
+    "source": "FOMCpresconf20240501.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240501",
+    "context_question": "Thank you. Mark Hamrick with Bankrate. Mr. Chairman, what can you tell us about the approach that you take with your role in the sense of trying to achieve consensus, which you recently identified as a priority, while allowing for a range of views or even dissent? We don't see many dissenting votes in the official statements, even when more spirited discussions are noted in the minutes after the fact. How do you avoid groupthink and avoid a higher risk of a policy mistake? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1b9ff9e8-1df4-4d4f-b64d-e2b68b3a7131",
+    "sentence": "That's something we can look at.",
+    "source": "FOMCpresconf20191030.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191030",
+    "context_question": "Hi. Nancy Marshall-Genzer with Marketplace. Have the problems in the repo market led you to look into whether the liquidity and capital requirements for banks are too high? Is that something that the Fed might review?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "2c143204-1d07-41a4-b7d7-ce7fcd44c589",
+    "sentence": "And, you know, we'll just have to see what the data show us.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Chris Rugaber at Associated Press. You mentioned not wanting to see any further cooling in the job market. Why not? Or would you consider preemptive cuts to prevent if you saw risks of an unexpected cooling? Is that something you would cut ahead of time for?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "64f0a1f6-b8e9-4411-997a-c1d78702d79b",
+    "sentence": "Well, there's been a great deal of economic news since our last meeting.",
+    "source": "FOMCpresconf20120620.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20120620",
+    "context_question": "Mark Felsenthal with Reuters. Mr. Chairman, many analysts have characterized today's step as somewhat modest. Your own outlook has a much lower GDP projection. The unemployment rate in your outlook is—shows possibly no improvement at all in the unemployment rate through the end of this year. The program itself is smaller and of shorter duration than the original Operation Twist. Given this weaker outlook, why such a modest program? And when you say you are prepared to take further action, which is a stronger characterization than in your last meeting, does that mean you are prepared to do a full-on new asset purchase program?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9c629833-12bc-4318-9a45-b944441533f6",
+    "sentence": "We don't run an SEP, and I don't like to substitute in my own estimate of what the SEP might be.",
+    "source": "FOMCpresconf20250730.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250730",
+    "context_question": "Thank you. Colby Smith with the New York Times. Two of your colleagues called for a quarter-point cut today, and I'm wondering what aspects of their argument were most compelling to you and how you are weighing their views against those on the Committee who, as of the June forecast, were in the camp of the Fed holding interest rates steady for the remainder of the year. And, and just in terms of the June SEP in particular, is that still the best representation of where the core of the Committee is?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a7f4d87a-dd18-48a8-9221-c6c24e300a1a",
+    "sentence": "So I'm afraid to tell you that those are all great questions, and they're questions that the Committee is just turning to now. So we had -- we had a discussion, as you know, at the last meeting, an introductory discussion of the balance sheet and a teeing up of the issues.",
+    "source": "FOMCpresconf20220126.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220126",
+    "context_question": "Good afternoon, Chair Powell. Nick Timiraos of the Wall Street Journal. I, I have a couple of questions on the balance sheet. The statement on the balance sheet today calls for \"significantly reducing\" your holdings. What does that mean? And then, apart from moving sooner and faster to shrink the holdings, are there any other ways in which you and your colleagues are seriously thinking about recalibrating this process? And, finally, how much disagreement is there around how you should use this tool, including active sales rather than passive sales or changes in the composition of reinvestments? Thank you.",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "114b72d5-2ff4-459c-8f2f-80a379b54417",
+    "sentence": "We publish regular reports on all aspects of our operations. So we're very open, and we are by all means willing to work with Congress to see if there's anything that they think might be done better or in a more effective way.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Peter Cook of Bloomberg Television. Mr. Chairman, first of all, thank you for holding these news conferences. I hope you encourage your successor to have even more of them. One thing I know you're going to miss is traveling to Capitol Hill to testify, and one thing that's going to be happening next year, according to the chairman of the House Financial Services Committee, is a full review of the Federal Reserve—even the Federal Reserve Act, the structure of the Fed, the mission of the Fed, and the mandate of the Fed. And I wanted to see if you might be willing to impart some final words of wisdom to members of Congress as they consider possible legislative changes. What, if anything, could they do to the structure of the Federal Reserve, the mandate of the Federal Reserve—the dual mandate—that might help Fed policy makers in the future? Do you think the dual mandate still is merited? And just a final question for you, sir, as you get set to leave and perhaps your last news conference here—you talked a little bit about your frustrations, the headwinds that you faced through the course of your eight years. Is there a decision—with the benefit of hindsight—that you would do differently, one change perhaps in a decisionmaking process that you've made, your fellow colleagues have made here, that you think would have made a difference materially over the last eight years?",
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f04b02b-d0b6-475d-a257-14cb0577a016",
+    "sentence": "But risks outside our borders are still tilted to the downside.",
+    "source": "Monetary Policy in a Time of Uncertainty",
+    "doc_type": "speech",
+    "date": "2017-01-17",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "69b30b95-648a-4f7a-8181-75b0ed634dae",
+    "sentence": "Previously, I have spoken about two primary reasons for the increase in transparency.",
+    "source": "Reading between the Lines? Textual Analysis of Central Bank Communications",
+    "doc_type": "speech",
+    "date": "2025-02-21",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "14a5d6c8-5e4a-4ba6-9fda-197016c6694a",
+    "sentence": "The insights we obtained from small business owners, lenders, and others in this series of meetings have given us a more nuanced understanding of the problem and will help us identify areas where we might be able to do more.",
+    "source": "Restoring the Flow of Credit to Small Businesses",
+    "doc_type": "speech",
+    "date": "2010-07-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dc0ffde0-7afc-4350-bc58-a01122e8082c",
+    "sentence": "Through the Fed's Partnership for Progress (PFP) program, we provide technical assistance on regulatory matters, conduct research, host convenings, and provide examiner training to support and promote the stability of MDIs and WDIs.",
+    "source": "Building a More Inclusive Financial System through Collaboration and Action",
+    "doc_type": "speech",
+    "date": "2023-12-05",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fdd81eff-f80d-4b2a-a18a-5e5dc270690b",
+    "sentence": "I'm honored to be here with you celebrating its legacy of bringing jobs and opportunity to lower-income communities—a lasting impact that benefits all Americans.",
+    "source": " Supporting Investment in Communities: The First 25 Years of the New Markets Tax Credit ",
+    "doc_type": "speech",
+    "date": "2025-10-23",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7091ff3b-de3f-46c3-a69a-a7ff828d6ecc",
+    "sentence": "My mother helped to start a Delta Sigma Theta chapter at Georgia College and State University.",
+    "source": "A New Class of Trailblazers",
+    "doc_type": "speech",
+    "date": "2024-06-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b733ba3b-abe7-4c77-b6fc-0a1a7be2fa66",
+    "sentence": "To deliver on the promise of a payment system for the future, the Federal Reserve has made a substantial commitment to the FedNow platform, which has benefited from the innovative technologies and approaches proven by global technology companies that are vital for today's always on digital economy.",
+    "source": "Progress on Fast Payments for All: An Update on FedNow",
+    "doc_type": "speech",
+    "date": "2022-08-29",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fc570923-76ee-44e6-a67c-35a1ad030a9f",
+    "sentence": "An example is the bilateral currency swap arrangement between the Federal Reserve and the Bank of Mexico that was set up during the global financial crisis.",
+    "source": "Celebrating 20 Years of the Bank of Mexico's Independence",
+    "doc_type": "speech",
+    "date": "2013-10-14",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e2ec53d0-8074-4fbd-85f3-57feb40ffc37",
+    "sentence": "While this is the first time the Fed has opened itself up in this way, many central banks around the world have conducted similar reviews, and our approach builds on their experiences.",
+    "source": "Monetary Policy: Normalization and the Road Ahead",
+    "doc_type": "speech",
+    "date": "2019-03-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f89b8204-cca4-40f0-a61a-32df55d5e373",
+    "sentence": "Most of the data I have presented thus far are carefully collected, analyzed, and released by federal government agencies, like the Bureau of Economic Analysis which collects data on GDP.",
+    "source": "The Economic Outlook and Path of Policy",
+    "doc_type": "speech",
+    "date": "2025-04-03",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "77502457-1d50-4be6-b812-eadb3eec3e0a",
+    "sentence": "Our rules are not an academic exercise.",
+    "source": "The Eye of Providence: Thoughts on the Evolution of Bank Supervision",
+    "doc_type": "speech",
+    "date": "2020-12-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ab5326c5-a2b6-4674-a297-aaa47bccaada",
+    "sentence": "But judgment and experience count.",
+    "source": "Expertise and Macroeconomic Policy, Comments on \"Insiders versus Outsiders in Monetary Policy-Making,\" by Timothy Besley, Neil Meads, and Paolo Surico",
+    "doc_type": "speech",
+    "date": "2008-01-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "05164abb-04b1-45a6-8e86-daefe00d4302",
+    "sentence": "The Basel Committee has recently agreed to accelerate its review of the LCR so as to be able to make changes well before that date and, thereby, give firms and markets ample time to prepare and, as necessary, adjust.",
+    "source": "The International Agenda for Financial Regulation",
+    "doc_type": "speech",
+    "date": "2011-11-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "21204727-e560-4bca-8b1d-50081180c698",
+    "sentence": "Heating, air conditioning, cooking, and sanitation in my childhood were not all that different from today.",
+    "source": "Economic Prospects for the Long Run",
+    "doc_type": "speech",
+    "date": "2013-05-18",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c345ddac-e92a-4b2a-ba43-425523bbbc77",
+    "sentence": "A report on the Fed Listens series is available on the Board's web site.",
+    "source": "The Federal Reserve’s New Monetary Policy Framework: A Robust Evolution",
+    "doc_type": "speech",
+    "date": "2020-08-31",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "17c825b3-833d-49ef-a3ff-b0a58ff6dff4",
+    "sentence": "In this regard, I note the importance of the creation of the SSM within the European Central Bank as the supervisor for all larger banks in the euro zone.",
+    "source": "Shared Responsibility for the Regulation of International Banks",
+    "doc_type": "speech",
+    "date": "2015-11-05",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "683dc8e4-00e7-42d2-b485-4c9c8a2a7186",
+    "sentence": "To explore the Phillips curve relationship in these two periods more closely, we need to bring in the concept of the natural rate of unemployment.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6863abb2-48ac-460b-aaf4-9b982c5eefac",
+    "sentence": "One standard approach starts with the notion that many wages and prices adjust only gradually to changes in costs and demand.",
+    "source": "The Changing Dynamics of Inflation",
+    "doc_type": "speech",
+    "date": "2007-03-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3d9398f6-22e2-46e6-b587-9d9fd9140b07",
+    "sentence": "In fact, banks were established to perform this central ledger function.",
+    "source": "Digital Currencies, Stablecoins, and the Evolving Payments Landscape",
+    "doc_type": "speech",
+    "date": "2019-10-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "066c81db-86d5-46f1-a17a-b577a13eb21f",
+    "sentence": "Equally critical to a successful review is a truly open mindset with which to evaluate the relevant data.",
+    "source": "Ideas of Order: Charting a Course for the Financial Stability Board",
+    "doc_type": "speech",
+    "date": "2019-02-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8f6481b1-89b8-4a7a-90d7-8a7f9ebe296b",
+    "sentence": "That is, legal, compliance, and operational considerations are critical to the discussion of the promise and challenges of interlinking.",
+    "source": "Interlinking Fast Payment Systems",
+    "doc_type": "speech",
+    "date": "2024-08-28",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f4869cb0-8297-4511-b122-779a8f455ba3",
+    "sentence": "At a basic level, the quantum of regulatory and supervisory resources is a policy decision—as regulatory and supervisory demands grow, so too can the staffs and budgets of the federal banking agencies.",
+    "source": "Tailoring, Fidelity to the Rule of Law, and Unintended Consequences",
+    "doc_type": "speech",
+    "date": "2024-03-05",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a8ec556e-6942-4ea9-a087-c9cede1dc7e2",
+    "sentence": "The better known of these tools is the purchase of large amounts of longer-term government securities, which is commonly referred to as quantitative easing.",
+    "source": "A Painfully Slow Recovery for America's Workers: Causes, Implications, and the Federal Reserve's Response",
+    "doc_type": "speech",
+    "date": "2013-02-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4444e2af-2814-43e4-830f-46ac84e22487",
+    "sentence": "Economists at central banks and in academia will need to devote much effort to overcoming these deficiencies in coming years.",
+    "source": "Productivity and Innovation in Financial Services ",
+    "doc_type": "speech",
+    "date": "2008-11-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "050e36a6-47ab-40da-a4e9-3d5f12cc8e8d",
+    "sentence": "Under this logic, senders need to be properly incentivized to speed up cross-border payments.",
+    "source": "Interlinking Fast Payment Systems",
+    "doc_type": "speech",
+    "date": "2024-08-28",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fbe317b0-9c71-47ec-b1fd-adf0d837b925",
+    "sentence": "Of the 35 recessions since 1858, only 8 spanned months in the single digits from peak to trough.",
+    "source": "The U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2023-03-31",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "dfd9d084-1e27-4800-b9cc-4d109a2dc4f9",
+    "sentence": "Through the Department of the Treasury, many of the affected institutions have requested and received technical assistance from the Department of Homeland Security, which has been helpful in mitigating the attacks.",
+    "source": "Reflections on Reputation and its Consequences",
+    "doc_type": "speech",
+    "date": "2013-02-28",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d9f1c2f1-2b80-49aa-a13a-e896088a5994",
+    "sentence": "But it is currently not subject to any specific process constraint promoting publicity or universality.",
+    "source": "Spontaneity and Order:  Transparency, Accountability, and Fairness in Bank Supervision",
+    "doc_type": "speech",
+    "date": "2020-02-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9cbb368a-ff7a-42b5-947d-71cdb5dea996",
+    "sentence": "The recent crisis is no exception, and figure 1 shows such an effect for the U.S., U.K., euro-area and Canadian economies since 2008.",
+    "source": "Remarks on Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-04-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ced045f1-1a7b-49e8-9fba-42fc9aab6e89",
+    "sentence": "I would especially like to thank the community bankers who work tirelessly to support their customers, businesses, and local economies.",
+    "source": "Community Banking: Looking Toward the Future",
+    "doc_type": "speech",
+    "date": "2025-10-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3eb5b3ea-f708-4208-a13c-66b2a9448945",
+    "sentence": "As a part of this approach, I have also prioritized efforts to improve the consistency, transparency, and reasonableness of regulation and supervision.",
+    "source": "My Perspective on Bank Regulation and Supervision",
+    "doc_type": "speech",
+    "date": "2021-02-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5cd51bfb-01ab-47d5-b8bd-f1ad4a8aa260",
+    "sentence": "In short, where the financial regulatory framework can provide for parity of treatment, it should do so.",
+    "source": "Challenges to the Community Banking Model",
+    "doc_type": "speech",
+    "date": "2024-10-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ef2d65de-401c-4ac7-9161-f904215d7d17",
+    "sentence": "And ultimately, as you know, it is easier to fix a problem during the good times.",
+    "source": "Community Bankers and Supervisors: Seeking Balance",
+    "doc_type": "speech",
+    "date": "2011-04-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "69690fbd-44c4-44c4-aea1-ce6f18240a74",
+    "sentence": "However, such a reduced-form description of the Committee's behavior does not answer the question of why this kind of inertia might be optimal.",
+    "source": "Challenges for Monetary Policy Communication",
+    "doc_type": "speech",
+    "date": "2014-05-06",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "24a7dd5e-f6b3-4852-bc46-0becdfe110d5",
+    "sentence": "In this process, we of course especially welcome the views of those of you on the front lines of insurance supervision.",
+    "source": "Insurance Companies and the Role of the Federal Reserve",
+    "doc_type": "speech",
+    "date": "2016-05-20",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "693894da-3bcf-47e8-81b1-6b448978628d",
+    "sentence": "Macroprudential policies focus on risks to the financial system as a whole. Such risks may be crosscutting, affecting a number of firms and markets, or they may be concentrated in a few key areas.",
+    "source": "Financial Reform to Address Systemic Risk",
+    "doc_type": "speech",
+    "date": "2009-03-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "29961b03-e79d-41cc-9dad-bd1955257b19",
+    "sentence": "Capital surcharges\nIn his May speech, Governor Tarullo alluded to the possibility of liquidity-linked capital surcharges that would effectively augment the existing regime of risk-based capital requirements.",
+    "source": "The Fire-Sales Problem and Securities Financing Transactions",
+    "doc_type": "speech",
+    "date": "2013-11-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6f52ae0a-cb08-4f36-ac1f-b2d9f0d76c0a",
+    "sentence": "Financial Regulation and Corporate Governance\r\n In the wake of the financial crisis, the public interest in regulation of banks and other financial firms is, I think it fair to say, both self-evident and substantial.",
+    "source": "Corporate Governance and Prudential Regulation",
+    "doc_type": "speech",
+    "date": "2014-06-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ccb3b107-c440-4a93-b7d2-988ef493ee9f",
+    "sentence": "This reform thread is sourced in the Dodd-Frank requirement for stress testing at large banks, but more generally in the Federal Reserve's establishment of a formal annual capital planning requirement for these firms.",
+    "source": "The Evolution of Capital Regulation",
+    "doc_type": "speech",
+    "date": "2011-11-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a5397414-cba1-4d6b-8c6a-50c0695d51f5",
+    "sentence": "This price-based approach creates some incentive for all three banks to shrink, but lets them balance this incentive against the scale benefits that they realize by staying big.",
+    "source": "Regulating Large Financial Institutions",
+    "doc_type": "speech",
+    "date": "2013-04-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "01e55e8f-e2e4-4ea0-885e-c0678fc27dc5",
+    "sentence": "Financial development involves innovations or liberalization of financial markets that improve the flow of information.",
+    "source": "On \"Leveraged Losses: Lessons from the Mortgage Meltdown\"",
+    "doc_type": "speech",
+    "date": "2008-02-29",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9998a43a-1fc0-42e7-9382-1f087932201c",
+    "sentence": "Dual Mandate--Full Employment\r\n The employment side of the dual mandate is a different story.",
+    "source": "Thoughts on Unconventional Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-06-27",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5d96e86c-2e04-4946-ac61-0c02d07ba1eb",
+    "sentence": "Will the Asset Purchase Program Result in Adverse Financial Imbalances?",
+    "source": "The Federal Reserve's Asset Purchase Program",
+    "doc_type": "speech",
+    "date": "2011-01-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "246113f6-ddcc-45c9-99bd-48b097d76979",
+    "sentence": "It has been an honor and a privilege.",
+    "source": "Economic Outlook",
+    "doc_type": "speech",
+    "date": "2025-05-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "201a9d37-c1e8-4181-80fc-8cce61eaf2d8",
+    "sentence": "What does all of this mean for the outlook for monetary policy?",
+    "source": "The Economic Outlook and Prospects for Small Business",
+    "doc_type": "speech",
+    "date": "2021-03-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "50993396-bca2-4f2b-93c7-7d3619c549e5",
+    "sentence": "I look forward to your participation and feedback today and to new partnerships going forward as we continue to identify ways to streamline the process of repurposing REO and to address the community development needs of neighborhoods that have been harmed by foreclosures.",
+    "source": "Stabilizing Neighborhoods:  Lessons Learned from the Field",
+    "doc_type": "speech",
+    "date": "2010-09-01",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bbef2ea6-a995-462e-9d61-839072dd0513",
+    "sentence": "The Committee will continue to carefully monitor the size and composition of the Federal Reserve's balance sheet in light of evolving financial and economic developments.",
+    "source": "statement_20090318.txt",
+    "doc_type": "statement",
+    "date": "2009-03-18",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0ef0520c-97f2-4941-900d-7cc3bca0c470",
+    "sentence": "The Committee will continue to assess the effects of these and other developments on economic prospects and will act as needed to foster price stability and sustainable economic growth.",
+    "source": "statement_20070918.txt",
+    "doc_type": "statement",
+    "date": "2007-09-18",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9c4f9841-c967-49d4-a4da-09654ae28262",
+    "sentence": "The anticipated expiration dates for the Term Asset-Backed Securities Loan Facility remain set at June 30 for loans backed by new-issue commercial mortgage-backed securities and March 31 for loans backed by all other types of collateral.",
+    "source": "statement_20100127.txt",
+    "doc_type": "statement",
+    "date": "2010-01-27",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e749898-dfc7-4bb2-9604-365b3d5442ac",
+    "sentence": "The Federal Reserve is monitoring the size and composition of its balance sheet and will make adjustments to its credit and liquidity programs as warranted.",
+    "source": "statement_20091104.txt",
+    "doc_type": "statement",
+    "date": "2009-11-04",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "99ab1b2d-c470-4f2f-9d2a-22faca8a525b",
+    "sentence": "Statement from Federal Reserve Bank of New York",
+    "source": "statement_20101103.txt",
+    "doc_type": "statement",
+    "date": "2010-11-03",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none",
+    "_note": "Section header / document title. Purely administrative. top=boilerplate per the instructions ('section headers'). All other fields set to defaults."
+  },
+  {
+    "id": "9aec01e1-1fdc-4852-b2b3-bd2ebe0682eb",
+    "sentence": "developments of recent months.",
+    "source": "statement_20160316.txt",
+    "doc_type": "statement",
+    "date": "2016-03-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none",
+    "_note": "Sentence fragment — clearly a partial extraction artifact with no standalone meaning. Cannot be annotated as a coherent sentence. Labeled boilerplate as the closest applicable category for content-free/non-parseable text.",
+    "_flag": "AMBIGUOUS: This is a sentence fragment, not a complete sentence. It conveys no parseable economic content in isolation. Labeled boilerplate (non-content administrative/artifact text) rather than no_topic, because no_topic implies a generic but complete statement. Annotators should flag this for data quality review — the extraction pipeline may have truncated the surrounding sentence."
+  },
+  {
+    "id": "4f99a1d0-3671-44e8-9041-9008dbad3ef7",
+    "sentence": "The Committee will monitor the economic outlook and financial developments and will act as needed to best foster maximum employment and price stability.",
+    "source": "statement_20110622.txt",
+    "doc_type": "statement",
+    "date": "2011-06-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none",
+    "_note": "Standard formulaic readiness phrase appearing routinely across FOMC statements. 'Will act as needed to best foster maximum employment and price stability' carries no real commitment content, no directional information, and no specific economic signal. top=boilerplate."
+  },
+  {
+    "id": "9b095c10-f9d2-48f6-aaff-600dfd11fd1b",
+    "sentence": "Consistent with its statutory mandate, the Committee seeks to foster maximum employment and price stability.",
+    "source": "statement_20160316.txt",
+    "doc_type": "statement",
+    "date": "2016-03-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b43a0bf1-5580-4b4e-b838-43075de91c86",
+    "sentence": "These facilities include the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility, the Commercial Paper Funding Facility, the Primary Dealer Credit Facility, and the Term Securities Lending Facility.",
+    "source": "statement_20091216.txt",
+    "doc_type": "statement",
+    "date": "2009-12-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "75fbd371-7002-43da-812e-abba27eba06e",
+    "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including information related to public health, as well as global developments and muted inflation pressures, and will use its tools and act as appropriate to support the economy.",
+    "source": "statement_20200729.txt",
+    "doc_type": "statement",
+    "date": "2020-07-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e930a35-32b5-4788-b6cd-eb4cb74f23bc",
+    "sentence": "The Committee will continue to monitor the economic outlook and financial developments and will employ its policy tools as necessary to promote economic recovery and price stability.",
+    "source": "statement_20100810.txt",
+    "doc_type": "statement",
+    "date": "2010-08-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9dd272d5-c0eb-439f-a53e-60bbad0000b0",
+    "sentence": "The Committee will continue to monitor the implications of incoming information for the economic outlook, including global developments and muted inflation pressures, as it assesses the appropriate path of the target range for the federal funds rate.",
+    "source": "statement_20200129.txt",
+    "doc_type": "statement",
+    "date": "2020-01-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "conditional",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7fea3193-c6c9-441d-bc9b-84998712e8a0",
+    "sentence": "The Committee will closely monitor incoming information and assess the implications for monetary policy.",
+    "source": "statement_20230322.txt",
+    "doc_type": "statement",
+    "date": "2023-03-22",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "997a032e-47cf-4d24-95a1-2cddfd9d24f0",
+    "sentence": "The Federal Reserve will consult with primary dealers on technical design features of the TSLF.",
+    "source": "statement_20080311.txt",
+    "doc_type": "statement",
+    "date": "2008-03-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "77912829-fd20-4b78-99b7-2798ab93bfa1",
+    "sentence": "The Committee will regularly review the size and composition of its securities holdings and is prepared to adjust those holdings as appropriate.",
+    "source": "statement_20111213.txt",
+    "doc_type": "statement",
+    "date": "2011-12-13",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1772c6d9-4d29-4d09-ad7b-7d3ad8a159f5",
+    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: European Central Bank Bank of Japan (57 KB PDF) Swiss National Bank (60 KB PDF) U.S. Dollar Liquidity Swaps FAQs (51 KB PDF)",
+    "source": "statement_20100509.txt",
+    "doc_type": "statement",
+    "date": "2010-05-09",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "none"
   }
 ]
