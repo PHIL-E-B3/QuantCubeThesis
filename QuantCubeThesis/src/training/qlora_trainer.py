@@ -115,7 +115,7 @@ def load_model_and_tokenizer(
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         quantization_config=quantization_config,
-        device_map="auto",
+        device_map={"": 0},  # force all layers on GPU 0 — no CPU fallback
         torch_dtype=torch.bfloat16,
         attn_implementation="flash_attention_2",
     )

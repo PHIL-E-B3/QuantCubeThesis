@@ -101,11 +101,16 @@ def objective(
         trainer.train()
     except optuna.TrialPruned:
         raise
-    except torch.cuda.OutOfMemoryError:
-        del model, trainer
+    except (torch.cuda.OutOfMemoryError, ValueError) as e:
+        # ValueError catches bitsandbytes CPU-offload rejection after fragmented OOM
+        try:
+            del model, trainer
+        except Exception:
+            pass
         gc.collect()
+        torch.cuda.synchronize()
         torch.cuda.empty_cache()
-        raise optuna.TrialPruned("OOM — batch_size or sequence length too large for available VRAM")
+        raise optuna.TrialPruned(f"OOM/offload error: {str(e)[:80]}")
 
     eval_results = trainer.evaluate()
     eval_loss = eval_results.get("eval_loss", float("inf"))
