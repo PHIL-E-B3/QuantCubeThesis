@@ -76,7 +76,7 @@ def objective(
     trial_dir = os.path.join(output_base_dir, f"trial_{trial.number}")
     training_args = get_training_args(
         output_dir=trial_dir,
-        num_epochs=3,
+        num_epochs=1,  # fast search; best config retrained for full epochs
         batch_size=batch_size,
         learning_rate=learning_rate,
         weight_decay=weight_decay,

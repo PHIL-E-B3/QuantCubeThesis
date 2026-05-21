@@ -117,6 +117,7 @@ def load_model_and_tokenizer(
         quantization_config=quantization_config,
         device_map="auto",
         torch_dtype=torch.bfloat16,
+        attn_implementation="flash_attention_2",
     )
     model.config.pad_token_id = tokenizer.pad_token_id
 
