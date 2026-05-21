@@ -12,8 +12,10 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 from datasets import Dataset, DatasetDict
-from transformers import AutoTokenizer, DataCollatorWithPadding
 from sklearn.model_selection import train_test_split
+from typing import Any
+# transformers imported lazily inside functions to avoid module-level failures
+# when tokenizers/sentencepiece are not yet installed in the environment
 
 
 def load_labels(labels_path: str) -> pd.DataFrame:
@@ -69,14 +71,14 @@ def create_label_maps(config: dict) -> Dict[str, Dict[str, int]]:
 
 def build_classification_dataset(
     df: pd.DataFrame,
-    tokenizer: AutoTokenizer,
+    tokenizer: Any,
     label_column: str,
     label_map: Dict[str, int],
     max_length: int = 256,
     test_size: float = 0.15,
     val_size: float = 0.15,
     random_state: int = 42,
-) -> Tuple[DatasetDict, DataCollatorWithPadding]:
+) -> Tuple[DatasetDict, Any]:
     """
     Build a HuggingFace DatasetDict from labelled DataFrame.
 
@@ -146,6 +148,7 @@ def build_classification_dataset(
         "validation": tokenize_split(val_df),
         "test": tokenize_split(test_df),
     })
+    from transformers import DataCollatorWithPadding
     collator = DataCollatorWithPadding(tokenizer=tokenizer, pad_to_multiple_of=8)
     return dataset, collator
 
@@ -287,7 +290,7 @@ def build_generative_dataset(
 
 def build_multitask_dataset(
     df: pd.DataFrame,
-    tokenizer: AutoTokenizer,
+    tokenizer: Any,
     label_maps: Dict[str, Dict[str, int]],
     label_fields: Optional[List[str]] = None,
     max_length: int = 256,
