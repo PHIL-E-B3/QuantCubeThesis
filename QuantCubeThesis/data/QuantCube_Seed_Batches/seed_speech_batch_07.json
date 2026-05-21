@@ -36,9 +36,11 @@
     "doc_type": "speech",
     "date": "2007-02-06",
     "context_question": null,
-    "top": [],
+    "top": [
+      "no_topic"
+    ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "",
     "hor": false,
     "ris": "",
@@ -53,7 +55,7 @@
     "context_question": null,
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "",
     "hor": false,
     "ris": "",
@@ -68,7 +70,7 @@
     "context_question": null,
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "",
     "hor": false,
     "ris": "",
@@ -132,7 +134,7 @@
     "com": "",
     "hor": false,
     "ris": "",
-    "wid": ""
+    "wid": "elevated"
   },
   {
     "id": "5305aab1-c5cb-4655-9e26-79d77839ba91",
@@ -218,7 +220,7 @@
     "context_question": null,
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "",
     "hor": false,
     "ris": "",

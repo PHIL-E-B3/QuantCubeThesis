@@ -41,7 +41,10 @@ def run_scaling(df: pd.DataFrame, df_sentences,
                                          rescale_extreme=ev)
         df_ev    = merge_to_macro(doc_ev)
         target   = df_ev[TARGET_NEXT]
-        fdf_sub  = factor_df.loc[factor_df.index.intersection(df_ev.index)]
+        idx_intersect = factor_df.index.intersection(df_ev.index)
+        if len(idx_intersect) < 0.9 * len(factor_df):
+            log_warn(f'6a ev={ev}: factor_df intersection is {len(idx_intersect)}/{len(factor_df)} rows — possible index misalignment.')
+        fdf_sub  = factor_df.loc[idx_intersect]
         extra    = [c for c in ['sent_total'] if c in df_ev.columns]
         X        = fdf_sub.join(df_ev[extra], how='left').dropna()
         y        = target.loc[X.index].dropna()
@@ -72,7 +75,10 @@ def run_scaling(df: pd.DataFrame, df_sentences,
         doc_agg = aggregate_to_document(df_sentences, agg_func=agg_func)
         df_agg  = merge_to_macro(doc_agg)
         target  = df_agg[TARGET_NEXT]
-        fdf_sub = factor_df.loc[factor_df.index.intersection(df_agg.index)]
+        idx_intersect = factor_df.index.intersection(df_agg.index)
+        if len(idx_intersect) < 0.9 * len(factor_df):
+            log_warn(f'6b agg={agg_func}: factor_df intersection is {len(idx_intersect)}/{len(factor_df)} rows — possible index misalignment.')
+        fdf_sub = factor_df.loc[idx_intersect]
         extra   = [c for c in ['sent_total'] if c in df_agg.columns]
         X       = fdf_sub.join(df_agg[extra], how='left').dropna()
         y       = target.loc[X.index].dropna()
@@ -114,11 +120,15 @@ def run_scaling(df: pd.DataFrame, df_sentences,
             new_col = f'{score_col}_{norm}'
             if new_col not in df_n.columns:
                 continue
-            target  = df_n[TARGET_NEXT]
-            fdf_sub = factor_df.loc[factor_df.index.intersection(df_n.index)]
-            X       = fdf_sub.join(df_n[[new_col]], how='left').dropna()
-            y       = target.loc[X.index].dropna()
-            X       = X.loc[y.index]
+            # Merge factor_df onto df_n by date to avoid RangeIndex misalignment.
+            fdf_dated = factor_df.copy()
+            fdf_dated['date'] = df.loc[factor_df.index, 'date'].values
+            merged = (pd.merge(fdf_dated,
+                               df_n[['date', new_col, TARGET_NEXT]],
+                               on='date', how='inner')
+                        .dropna())
+            y = merged[TARGET_NEXT]
+            X = merged.drop(columns=['date', TARGET_NEXT])
             r = fit_ols(y, X, label=f'6c_{dict_name}_{norm}')
             if r:
                 print_metrics(r)

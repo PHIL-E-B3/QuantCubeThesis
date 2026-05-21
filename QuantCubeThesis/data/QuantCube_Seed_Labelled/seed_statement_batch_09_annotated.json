@@ -30,7 +30,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": "hawkish",
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -86,8 +86,8 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "com": "conditional",
-    "hor": true,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -153,10 +153,10 @@
     "date": "2008-03-11",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -174,10 +174,10 @@
       "economic_activity",
       "inflation"
     ],
-    "ten": "descriptive",
+    "ten": "interpretive",
     "sen": "dovish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -189,10 +189,10 @@
     "date": "2011-12-13",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -227,7 +227,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": "dovish",
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "skewed_upside",
@@ -246,8 +246,8 @@
     ],
     "ten": "interpretive",
     "sen": "hawkish",
-    "com": "conditional",
-    "hor": true,
+    "com": "none",
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -259,10 +259,10 @@
     "date": "2010-05-09",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

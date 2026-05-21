@@ -2,38 +2,39 @@ You are classifying sentences from FOMC communications. For each sentence, retur
 
 FIELD DEFINITIONS:
 
-"top" (array): Topic(s) present. Values: "inflation", "unemployment", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "boilerplate" (procedural/administrative), "no_topic". A sentence can have multiple topics.
+"top" (array): Topic(s) present. Values: "inflation", "labor_market", "economic_activity", "macro" (aggregate outlook, no single variable dominates), "financial_conditions", "monetary_policy", "no_topic". A sentence can have multiple topics.
 
 "ten" (string): "descriptive" = reporting past/present data. "interpretive" = forward-looking, projections, conditionals, outlooks.
 
-"sen" (integer or "na"): Hawkish/dovish policy incentive. +2/+1 = hawkish, -1/-2 = dovish, 0 = neutral. "na" only for boilerplate. Polarity rules: inflation rising = hawkish (+), unemployment falling/tight = hawkish (+), stronger growth = hawkish (+), financial conditions easier = hawkish (+) (counterintuitive: easier conditions mean the Fed must do more), monetary policy tightening = hawkish (+). IMPORTANT: when a sentence shows direction-of-change AND level (e.g. "fell but remained high"), label the direction of change, not the level. Use +2/-2 only for linguistically intensified language (surged, collapsed, significantly, well above) or actions of 50+ bps.
+"sen" (string): Hawkish/dovish policy incentive. Values: "strongly_hawkish", "hawkish", "neutral", "dovish", "strongly_dovish", "na". Use "na" only for monetary_policy sentences. Use "strongly_" prefix only for explicit intensifiers (surged, collapsed, significantly, well above/below) or actions of 50+bp. Polarity rules: inflation rising = hawkish, labor market tight/falling unemployment = hawkish, stronger growth = hawkish, financial conditions easier = hawkish. IMPORTANT: when a sentence shows direction-of-change AND level (e.g. "fell but remained high"), label the direction of change, not the level.
 
-"hor" (boolean): true only if explicit long-term horizon language present ("for some time", "longer run", "over the medium term") AND ten = "interpretive". Otherwise false.
+"hor" (boolean): true only if explicit long-term horizon language present ("for some time", "longer run", "over the medium term", "considerable time", "extended period") AND ten = "interpretive". Otherwise false.
 
-"com" (string): Applies ONLY to monetary_policy sentences. "unconditional" = explicit commitment, no stated condition. "conditional" = action contingent on data. "none" = all other cases and all non-monetary-policy topics.
+"com" (string): Applies ONLY to monetary_policy sentences. "unconditional" = explicit commitment, no stated condition. "conditional" = action contingent on named data conditions. "none" = all other cases and all non-monetary-policy sentences.
 
 "ris" (string): Directional tail risk. "skewed_downside" = risks weighted toward worse outcomes. "skewed_upside" = risks toward overheating/inflation overshoot. "symmetric" = explicitly balanced. "na" = no explicit risk framing.
 
-"wid" (string): "elevated" = explicit acknowledgement of uncertainty ("highly uncertain", "difficult to assess", "hard to gauge"). "contested" = two genuinely opposing forces on the same topic netting to zero (NOT direction-of-change + level reference). "none" = baseline.
+"wid" (string): "elevated" = explicit acknowledgement of uncertainty ("highly uncertain", "difficult to assess", "hard to gauge", "considerable uncertainty", "imperfectly understood"). "contested" = two genuinely opposing forces on the same topic netting to zero (NOT direction-of-change + level reference). "none" = baseline.
 
-When top = "boilerplate": set sen = "na", com = "none", hor = false, ris = "na", wid = "none".
+When top = ["no_topic"]: set sen = "neutral", com = "none", hor = false, ris = "na", wid = "none".
+When top = ["monetary_policy"]: set sen = "na". Fill com and hor based on the sentence content.
 
 EXAMPLES:
 
-Sentence: "Participants universally recognized his great leadership and intellectual contributions to the work of the Committee as well as his warm and generous spirit."
-{"top": ["boilerplate"], "ten": "descriptive", "sen": "na", "hor": false, "com": "none", "ris": "na", "wid": "none"}
+Sentence: "The staff also noted that the outlook for real GDP growth over the next two years was little changed from the previous projection."
+{"top": ["no_topic"], "ten": "descriptive", "sen": "neutral", "hor": false, "com": "none", "ris": "na", "wid": "none"}
 
 Sentence: "Over the past three months, employment rose by an average of 408,000 jobs per month, down from the average pace seen earlier in the year but still robust."
-{"top": ["unemployment"], "ten": "descriptive", "sen": 1, "hor": false, "com": "none", "ris": "na", "wid": "none"}
+{"top": ["labor_market"], "ten": "descriptive", "sen": "hawkish", "hor": false, "com": "none", "ris": "na", "wid": "none"}
 
 Sentence: "Although household spending had been rising at a moderate pace, business fixed investment and exports remained weak."
-{"top": ["economic_activity"], "ten": "descriptive", "sen": 0, "hor": false, "com": "none", "ris": "na", "wid": "contested"}
+{"top": ["economic_activity"], "ten": "descriptive", "sen": "neutral", "hor": false, "com": "none", "ris": "na", "wid": "contested"}
 
-Sentence: "In a related action, the Board of Governors unanimously approved a 75-basis-point decrease in the discount rate to 2-1/2 percent. In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, and San Francisco."
-{"top": ["monetary_policy"], "ten": "descriptive", "sen": -2, "hor": false, "com": "unconditional", "ris": "na", "wid": "none"}
+Sentence: "In a related action, the Board of Governors unanimously approved a 75-basis-point decrease in the discount rate to 2-1/2 percent."
+{"top": ["monetary_policy"], "ten": "descriptive", "sen": "na", "hor": false, "com": "unconditional", "ris": "na", "wid": "none"}
 
 Sentence: "In this context, the Committee judges that some inflation risks remain, and it will continue to monitor inflation developments carefully."
-{"top": ["inflation"], "ten": "interpretive", "sen": 1, "hor": false, "com": "none", "ris": "skewed_upside", "wid": "none"}
+{"top": ["inflation"], "ten": "interpretive", "sen": "hawkish", "hor": false, "com": "none", "ris": "skewed_upside", "wid": "none"}
 
 Now classify this sentence. Return only the JSON object, no other text.
 

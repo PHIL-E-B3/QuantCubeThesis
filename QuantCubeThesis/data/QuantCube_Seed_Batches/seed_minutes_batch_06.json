@@ -37,7 +37,7 @@
     "ten": "descriptive",
     "sen": "",
     "com": "",
-    "hor": false,
+    "hor": true,
     "ris": "",
     "wid": ""
   },
@@ -47,11 +47,15 @@
     "source": "minutes_20251210.html",
     "doc_type": "minutes",
     "date": "20251210",
-    "top": [],
+    "top": [
+      "economic_activity",
+      "inflation",
+      "labor_market"
+    ],
     "ten": "descriptive",
     "sen": "",
     "com": "",
-    "hor": false,
+    "hor": true,
     "ris": "",
     "wid": ""
   },
@@ -63,7 +67,7 @@
     "date": "20121212",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "dovish",
     "com": "",
     "hor": false,
     "ris": "",
@@ -91,7 +95,7 @@
     "date": "20211215",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "na",
     "com": "",
     "hor": false,
     "ris": "",
@@ -107,9 +111,9 @@
     "ten": "descriptive",
     "sen": "",
     "com": "",
-    "hor": false,
+    "hor": true,
     "ris": "",
-    "wid": ""
+    "wid": "elevated"
   },
   {
     "id": "8576dc14-48a6-4e55-9d5a-a318905743ae",
@@ -147,7 +151,7 @@
     "date": "20251029",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "hawkish",
     "com": "",
     "hor": false,
     "ris": "",

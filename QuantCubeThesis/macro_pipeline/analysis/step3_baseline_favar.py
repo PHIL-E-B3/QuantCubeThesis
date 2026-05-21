@@ -25,6 +25,10 @@ def run_baseline(df: pd.DataFrame) -> dict:
         log_warn('Baseline FAVAR: fewer than 2 macro regressors available.')
         return {}
 
+    # PCA is fitted on the full sample (standard FAVAR practice — Bernanke et al. 2005).
+    # The OOS loop in oos_rmse() re-fits OLS weights at each expanding window using
+    # these full-sample factors.  Factor loadings are therefore not strictly OOS-clean,
+    # but this is the accepted trade-off for latent-factor models in the literature.
     factor_df, pca, scaler, n_comp = run_pca(df, avail, var_threshold=PCA_VAR_MACRO)
     print(f'  Baseline PCA: {n_comp} components explain '
           f'{pca.explained_variance_ratio_[:n_comp].sum():.1%} variance '

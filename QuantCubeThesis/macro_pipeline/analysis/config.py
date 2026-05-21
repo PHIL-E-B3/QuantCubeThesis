@@ -11,7 +11,10 @@ OUTPUTS_DIR = TAYLOR_DIR / 'outputs'
 INTER_DIR   = OUTPUTS_DIR / 'intermediate'
 NLP_DIR     = TAYLOR_DIR / 'nlp_output'
 
-MASTER_CSV  = ROOT / 'data' / 'macro_inputs' / 'Master_Macro.csv'
+MASTER_CSV          = ROOT / 'data' / 'macro_inputs' / 'Master_Macro.csv'
+SHADOW_RATE_CSV     = ROOT / 'data' / 'macro_inputs' / 'shadow_rate.csv'
+CFNAI_CSV           = ROOT / 'data' / 'macro_inputs' / 'CFNAI.csv.xlsx'
+KUTTNER_IMPLIED_CSV = ROOT / 'data' / 'macro_inputs' / 'kuttner_implied_ffr_v2.csv'
 
 STATEMENTS_DIR  = ROOT / 'data' / 'raw' / 'structured_json_statements'
 MINUTES_DIR     = ROOT / 'data' / 'raw' / 'structured_json_minutes'
@@ -25,7 +28,7 @@ DATE_ALIGN_LOG  = OUTPUTS_DIR / 'date_alignment_warnings.txt'
 
 RANDOM_SEED     = 42
 FIG_DPI         = 150
-OOS_MIN_FRAC    = 0.60    # minimum fraction of data for initial OOS window
+OOS_FRACS       = [0.60, 0.70, 0.80, 0.90]   # training-size thresholds for OOS RMSE
 PCA_VAR_MACRO   = 0.90    # cumulative variance threshold for macro PCA
 PCA_VAR_SENT    = 0.85    # cumulative variance threshold for sentiment PCA
 MIN_MASK_OBS    = 30      # minimum observations to run a masked regression

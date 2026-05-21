@@ -27,7 +27,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": "strongly_dovish",
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -58,10 +58,10 @@
     "date": "2011-04-07",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -75,10 +75,10 @@
     "date": "2014-05-06",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -92,10 +92,10 @@
     "date": "2016-05-20",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -109,10 +109,10 @@
     "date": "2009-03-10",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -143,10 +143,10 @@
     "date": "2013-11-07",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -160,10 +160,10 @@
     "date": "2014-06-09",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -177,10 +177,10 @@
     "date": "2011-11-09",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -197,7 +197,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": "hawkish",
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -211,10 +211,10 @@
     "date": "2013-04-17",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -228,10 +228,10 @@
     "date": "2008-02-29",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -245,10 +245,10 @@
     "date": "2013-06-27",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

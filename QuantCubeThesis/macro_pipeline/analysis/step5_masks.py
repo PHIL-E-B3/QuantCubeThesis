@@ -117,7 +117,7 @@ def run_masks(df: pd.DataFrame, best_result: dict,
         ('5b skew down', 'flag_skew_down'),
         ('5b full',      None),
     ]):
-        sub = df[df[col] > 0] if col else df
+        sub = df[df[col] > 0] if (col and col in df.columns) else df
         _direction_plot(sub, lbl, ax)
     save_fig(fig2, fig_dir / 'step5b_tail_risk.png')
 
@@ -128,7 +128,7 @@ def run_masks(df: pd.DataFrame, best_result: dict,
             ('5c_forward_only',      ['forward']),
             ('5c_forward_present',   ['forward', 'present']),
         ]:
-            df_t = df_sentences[df_sentences['ten'].isin(tenses)].copy()
+            df_t = df_sentences[df_sentences['tense'].isin(tenses)].copy()
             if len(df_t) > MIN_MASK_OBS:
                 doc_t  = aggregate_to_document(df_t)
                 df_t_m = merge_to_macro(doc_t)
@@ -156,9 +156,11 @@ def run_masks(df: pd.DataFrame, best_result: dict,
                 results[full_label] = r
 
     # ── 5e: Shadow rate direction mask (LOOKAHEAD) ────────────────────────────
+    # Mask on the direction of the NEXT rate move (effective_rate(t+1) − effective_rate(t)),
+    # which is genuinely forward-looking — hence the LOOKAHEAD label.
     print('\n  5e. Shadow rate direction mask [LOOKAHEAD]')
-    if TARGET_COL in df.columns:
-        chg = df[TARGET_COL].diff()
+    if TARGET_COL in df.columns and TARGET_NEXT in df.columns:
+        chg = df[TARGET_NEXT] - df[TARGET_COL]
         for mlabel, cond in [
             ('5e_up_LOOKAHEAD',   chg > 0.001),
             ('5e_down_LOOKAHEAD', chg < -0.001),
@@ -196,7 +198,7 @@ def run_masks(df: pd.DataFrame, best_result: dict,
                 coef_rows.append({
                     'mask': mlabel,
                     'adj_r2': r['adj_r2'],
-                    'oos_rmse': r['oos_rmse'],
+                    'oos_rmse_60': r.get('oos_rmse_60'),
                     **sent_params,
                 })
 

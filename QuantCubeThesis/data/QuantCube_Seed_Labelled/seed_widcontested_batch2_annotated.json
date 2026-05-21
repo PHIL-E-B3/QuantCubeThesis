@@ -1,0 +1,98 @@
+[
+  {
+    "id": "29bbb0fe-c41d-4de9-aea5-f7ddcf80e23a",
+    "sentence": "Staff Economic OutlookWith some stronger-than-expected incoming data on economic activity and the recent tightening in financial conditions, particularly the decline in equity prices, the U.S. economic forecast prepared by the staff for the December FOMC meeting was little revised on balance.",
+    "source": "minutes_20181219.html",
+    "doc_type": "minutes",
+    "date": "20181219",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Stronger-than-expected economic activity data (hawkish) vs recent tightening in financial conditions / equity decline (dovish). Cross-topic collision, same tense (descriptive). 'Little revised on balance' is the explicit cancellation marker -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "17cd7c4d-12f7-4817-9d98-7afb4d80f831",
+    "sentence": "The staff's forecast of total PCE price inflation this year was revised up a touch, reflecting a slightly higher projected path for consumer energy prices, while the forecast for core PCE price inflation was unrevised at a level below 2 percent.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Total PCE inflation forecast revised up (hawkish direction) vs core PCE forecast unrevised at a level below 2 percent (dovish level). Same topic, same tense (forecasts -> interpretive), 'while' connective. Headline/core divergence -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "e14b0f3a-b06b-409f-9c14-4e9cc6c4ce04",
+    "sentence": "Despite tentative signs of easing in foreign headline inflation, core inflationary pressures remained elevated in many countries.",
+    "source": "minutes_20221214.html",
+    "doc_type": "minutes",
+    "date": "20221214",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Foreign headline inflation showing tentative easing (dovish) vs core inflationary pressures remained elevated (hawkish). Same topic, same tense, 'Despite' connective. Opposing forces cancel -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "a0d4f562-a98a-4494-a4c0-b7390594abf0",
+    "sentence": "In reviewing progress to date in reducing inflation, participants noted the improvement in both headline and core inflation and discussed the developments in components of these aggregate measures. They observed that progress had been uneven across components, with energy and core goods prices falling or changing little recently, but core services prices still increasing at an elevated pace.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Energy and core goods prices falling/flat (dovish) vs core services prices still increasing at an elevated pace (hawkish). Same topic, same tense, 'but' connective. Uneven progress -> opposing forces cancel -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "0fb2d8c9-a39d-450b-bc06-0467b84e0e3e",
+    "sentence": "In their discussion of inflation, participants observed that significant progress had been made over the past year toward the Committee's 2 percent inflation objective even though the two most recent monthly readings on core and headline inflation had been firmer than expected.",
+    "source": "minutes_20240320.html",
+    "doc_type": "minutes",
+    "date": "20240320",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Significant year-long progress toward the 2 percent objective (dovish) vs two most recent monthly readings firmer than expected (hawkish). Same topic, both descriptive, 'even though' connective. Genuine broad-trend vs recent-data tension -> sentiment neutral, wid contested."
+  }
+]

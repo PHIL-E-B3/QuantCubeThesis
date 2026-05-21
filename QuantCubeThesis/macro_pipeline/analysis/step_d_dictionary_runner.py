@@ -90,22 +90,42 @@ def load_minutes() -> dict:
 
 
 def load_speeches() -> dict:
-    """Return {date: (text, speaker_type)} for all speeches."""
+    """Return {date: (text, speaker_type)} for all speeches.
+    Supports both subdirectory layout (chair/vice_chair/others) and flat layout.
+    """
     out = {}
-    for subdir, speaker_type in SPEECH_SUBDIRS.items():
-        folder = SPEECHES_DIR / subdir
-        if not folder.exists():
-            continue
-        for fname in sorted(os.listdir(folder)):
+
+    # Subdirectory layout (preferred — preserves speaker type)
+    has_subdirs = any((SPEECHES_DIR / s).exists() for s in SPEECH_SUBDIRS)
+    if has_subdirs:
+        for subdir, speaker_type in SPEECH_SUBDIRS.items():
+            folder = SPEECHES_DIR / subdir
+            if not folder.exists():
+                continue
+            for fname in sorted(os.listdir(folder)):
+                if not fname.endswith('.json'):
+                    continue
+                try:
+                    with open(folder / fname, encoding='utf-8') as f:
+                        rec = json.load(f)
+                    dt   = pd.Timestamp(rec.get('date', ''))
+                    text = rec.get('contents') or rec.get('text', '')
+                    if pd.notna(dt) and text and len(text) > 50:
+                        out[dt] = (text, speaker_type)
+                except Exception:
+                    pass
+    else:
+        # Flat layout — all files directly in SPEECHES_DIR
+        for fname in sorted(os.listdir(SPEECHES_DIR)):
             if not fname.endswith('.json'):
                 continue
             try:
-                with open(folder / fname, encoding='utf-8') as f:
+                with open(SPEECHES_DIR / fname, encoding='utf-8') as f:
                     rec = json.load(f)
                 dt   = pd.Timestamp(rec.get('date', ''))
                 text = rec.get('contents') or rec.get('text', '')
                 if pd.notna(dt) and text and len(text) > 50:
-                    out[dt] = (text, speaker_type)
+                    out[dt] = (text, 'unknown')
             except Exception:
                 pass
     return out
@@ -218,45 +238,12 @@ def normalize_df(df: pd.DataFrame, score_cols: list,
     return df
 
 
-# ── Sentence-level scoring helpers ───────────────────────────────────────────
-
-_SENT_SPLIT = re.compile(r'(?<=[.!?])\s+')
-
-
-def _apply_with_std(text: str, nlp_fn, score_cols: list) -> dict:
-    """
-    Apply nlp_fn to each sentence in text; return sum and std for every score col.
-    Sentences shorter than 15 chars are dropped (headings, lone punctuation).
-    """
-    sentences = [s.strip() for s in _SENT_SPLIT.split(text) if len(s.strip()) >= 15]
-    if not sentences:
-        sentences = [text]
-
-    per_sent = []
-    for sent in sentences:
-        try:
-            s = nlp_fn(sent)
-            if isinstance(s, pd.Series):
-                s = s.to_dict()
-            per_sent.append({c: float(s.get(c, 0)) for c in score_cols})
-        except Exception:
-            per_sent.append({c: 0.0 for c in score_cols})
-
-    df_s = pd.DataFrame(per_sent)
-    result = {}
-    for c in score_cols:
-        result[c]              = df_s[c].sum()
-        result[f'{c}_std']     = df_s[c].std(ddof=1) if len(df_s) > 1 else 0.0
-    return result
-
-
 # ── Apply one dictionary to a {date: text} mapping ───────────────────────────
 
-def apply_dict(texts: dict, nlp_fn, score_cols: list, meeting_map: dict,
+def apply_dict(texts: dict, nlp_fn, meeting_map: dict,
                minutes_lag: bool = False) -> pd.DataFrame:
     """
-    Run nlp_fn sentence-by-sentence on each text; return DataFrame with
-    date, sum scores, and per-score std-dev columns.
+    Run nlp_fn on each full text; return DataFrame with date and score columns.
     meeting_map: {doc_date: meeting_date}.
     """
     rows = []
@@ -264,7 +251,8 @@ def apply_dict(texts: dict, nlp_fn, score_cols: list, meeting_map: dict,
         if not text:
             continue
         try:
-            scores = _apply_with_std(text, nlp_fn, score_cols)
+            result = nlp_fn(text)
+            scores = result.to_dict() if isinstance(result, pd.Series) else result
         except Exception as e:
             log_warn(f'NLP failed for {doc_date}: {e}')
             continue
@@ -284,11 +272,15 @@ def apply_dict(texts: dict, nlp_fn, score_cols: list, meeting_map: dict,
 # ── Main runner ───────────────────────────────────────────────────────────────
 
 DICTIONARIES = {
-    'Gardner': {'fn': gardner_nlp, 'score_cols': ['gardner_inf','gardner_labor',
-                                                    'gardner_out','gardner_fin',
-                                                    'gardner_mp','gardner_total']},
-    'Sharpe':  {'fn': sharpe_nlp,  'score_cols': ['sharpe_positive','sharpe_negative',
-                                                    'sharpe_net']},
+    'Gardner': {'fn': gardner_nlp, 'score_cols': [
+        'gardner_inf',   'gardner_labor',  'gardner_out', 'gardner_fin',
+        'gardner_mp',    'gardner_total',
+        'gardner_inf_consensus', 'gardner_labor_consensus', 'gardner_out_consensus',
+        'gardner_fin_consensus', 'gardner_mp_consensus',
+    ]},
+    'Sharpe':  {'fn': sharpe_nlp,  'score_cols': [
+        'sharpe_positive', 'sharpe_negative', 'sharpe_net', 'sharpe_consensus',
+    ]},
 }
 
 DOC_SOURCES = {
@@ -333,14 +325,19 @@ def run_dictionary(dict_name: str, doc_types: list, norm: str):
         else:
             src = DOC_SOURCES[doc_type]
             texts = src['loader']()
+            # Drop documents dated before the first meeting in our calendar —
+            # assign_to_meeting would otherwise pile them all onto the first meeting.
+            first_meeting = meetings[0]
+            texts = {dt: text for dt, text in texts.items() if dt >= first_meeting}
             meeting_map = {}
             for dt in texts:
                 mt = assign_to_meeting(dt, calendar)
                 if mt is not None:
                     if src['lag']:
-                        # minutes: assign to the NEXT meeting row
+                        # minutes: assign to the NEXT meeting row.
+                        # Use `is not None` to avoid the idx==0 falsy-zero edge case.
                         idx = meetings.index(mt) + 1 if mt in meetings else None
-                        mt  = meetings[idx] if idx and idx < len(meetings) else mt
+                        mt  = meetings[idx] if idx is not None and idx < len(meetings) else mt
                     meeting_map[dt] = mt
             rows_df = apply_dict(texts, nlp_fn, meeting_map, minutes_lag=src['lag'])
             rows_df['doc_type'] = doc_type
@@ -363,7 +360,7 @@ def run_dictionary(dict_name: str, doc_types: list, norm: str):
                 [c for c in s_cols if c in df.columns]
     df[keep_cols].to_csv(out_path, index=False)
     n_meetings = df['meeting_date'].nunique()
-    print(f'  ✓  {out_name}  ({n_meetings} meetings × {len(s_cols)} scores)')
+    print(f'  OK  {out_name}  ({n_meetings} meetings x {len(s_cols)} scores)')
 
 
 def main(dict_filter=None, norm_filter=None):
@@ -397,7 +394,7 @@ def main(dict_filter=None, norm_filter=None):
             continue
         run_dictionary(dict_name, doc_types, norm)
 
-    print(f'\n✅  Dictionary outputs saved to {NLP_DIR}')
+    print(f'\nDone. Dictionary outputs saved to {NLP_DIR}')
 
 
 if __name__ == '__main__':

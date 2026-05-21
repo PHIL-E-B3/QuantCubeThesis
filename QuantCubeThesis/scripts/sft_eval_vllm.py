@@ -34,7 +34,7 @@ PROMPT_MAP = {
 
 LABEL_SCHEMA = {
     "topic":      {"type": "multi",  "values": ["inflation", "labor_market", "economic_activity",
-                   "macro", "financial_conditions", "monetary_policy", "boilerplate", "no_topic"]},
+                   "macro", "financial_conditions", "monetary_policy", "no_topic"]},
     "tense":      {"type": "single", "values": ["descriptive", "interpretive"]},
     "sentiment":  {"type": "single", "values": ["strongly_hawkish", "hawkish", "neutral",
                    "dovish", "strongly_dovish", "na"]},

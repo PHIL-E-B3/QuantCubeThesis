@@ -10,7 +10,7 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": "hawkish",
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -29,7 +29,7 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "com": "unconditional",
+    "com": "none",
     "hor": false,
     "ris": "na",
     "wid": "none"
@@ -46,10 +46,10 @@
       "economic_activity",
       "inflation"
     ],
-    "ten": "descriptive",
+    "ten": "interpretive",
     "sen": "dovish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -66,7 +66,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -83,7 +83,7 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "com": "unconditional",
+    "com": "none",
     "hor": false,
     "ris": "na",
     "wid": "none"
@@ -96,10 +96,10 @@
     "date": "2009-12-16",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -132,10 +132,12 @@
     "date": "2020-07-29",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "monetary_policy",
+      "inflation",
+      "macro"
     ],
-    "ten": "descriptive",
-    "sen": "",
+    "ten": "interpretive",
+    "sen": "dovish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -155,7 +157,7 @@
     ],
     "ten": "interpretive",
     "sen": "strongly_dovish",
-    "com": "conditional",
+    "com": "none",
     "hor": true,
     "ris": "na",
     "wid": "none"
@@ -187,10 +189,10 @@
     "date": "2010-08-10",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -261,7 +263,7 @@
     ],
     "ten": "interpretive",
     "sen": "hawkish",
-    "com": "conditional",
+    "com": "none",
     "hor": false,
     "ris": "na",
     "wid": "none"

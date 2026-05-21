@@ -29,6 +29,7 @@ def run_robustness(df: pd.DataFrame, best_result: dict) -> dict:
     results   = {}
     factor_df = best_result.get('_factor_df', pd.DataFrame())
     best_model = best_result.get('_model')
+    target    = df[TARGET_NEXT]   # defined here so all sub-steps share it
 
     # ── 7a: Swap DV to fed_funds_rate ─────────────────────────────────────────
     print('\n  7a. Swap DV to fed_funds_rate(t+1)')
@@ -50,18 +51,17 @@ def run_robustness(df: pd.DataFrame, best_result: dict) -> dict:
     # ── 7b: Rolling window stability ──────────────────────────────────────────
     print('\n  7b. Rolling window stability (5-year window)')
     window    = 20  # ~5 years at 4 meetings/year
-    target    = df[TARGET_NEXT]
     extra     = _get_best_extra_cols(best_result, df)
     fdf_aug   = factor_df.join(df[extra], how='left').dropna()
     y_all     = target.loc[fdf_aug.index].dropna()
     X_all     = sm.add_constant(fdf_aug.loc[y_all.index])
-
-    coef_rows = []
     sent_cols = [c for c in X_all.columns if 'sent' in c.lower()]
     if not sent_cols:
-        sent_cols = [X_all.columns[-1]]  # fallback
+        log_warn('7b: no sentiment columns found in best model — rolling coefficient plot skipped.')
 
-    for t in range(window, len(X_all)):
+    coef_rows = []
+
+    for t in (range(window, len(X_all)) if sent_cols else []):
         X_w = X_all.iloc[t-window:t]
         y_w = y_all.iloc[t-window:t]
         try:
@@ -140,9 +140,14 @@ def run_robustness(df: pd.DataFrame, best_result: dict) -> dict:
         for _ in range(N_BOOT):
             X_sh = X_p.copy()
             X_sh['sent_total'] = rng.permutation(X_sh['sent_total'].values)
-            r_sh = fit_ols(y_p, X_sh, label='_placebo')
-            if r_sh:
-                null_adj_r2.append(r_sh['adj_r2'])
+            # Use sm.OLS directly to avoid writing 500 placebo rows to model_comparison.csv
+            try:
+                with warnings.catch_warnings():
+                    warnings.simplefilter('ignore')
+                    m_sh = sm.OLS(y_p, sm.add_constant(X_sh)).fit(cov_type='HC3')
+                null_adj_r2.append(m_sh.rsquared_adj)
+            except Exception:
+                pass
 
         if null_adj_r2:
             emp_pval = np.mean(np.array(null_adj_r2) >= real_adj_r2)

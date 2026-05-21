@@ -80,10 +80,10 @@
     "date": "2008-03-18",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -166,10 +166,10 @@
     "date": "2008-10-08",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

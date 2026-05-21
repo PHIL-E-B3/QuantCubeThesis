@@ -36,8 +36,12 @@ from peft import (
 
 # ── PATHS ────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-PROMPTS_DIR = PROJECT_ROOT / "prompts"
-EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged.json"
+PROMPTS_DIR  = PROJECT_ROOT / "prompts"
+# Primary labelled dataset + extreme-label supplement
+DATA_PATHS = [
+    PROJECT_ROOT / "data" / "eval_labelled_merged.json",
+    PROJECT_ROOT / "data" / "QuantCube_Seed_Batches" / "final_extreme_seed.json",
+]
 
 # Prompt name → output directory mapping
 PROMPT_CONFIGS = {
@@ -158,12 +162,24 @@ def main():
     print()
 
     # ── 1. LOAD AND SPLIT DATA ──────────────────────────────────────────────
-    with open(EVAL_PATH, encoding="utf-8") as f:
-        all_data = json.load(f)
+    # Combine all data files; deduplicate by id so re-running is safe
+    seen_ids = set()
+    all_data = []
+    for p in DATA_PATHS:
+        if not p.exists():
+            print(f"WARNING: data file not found, skipping: {p}")
+            continue
+        with open(p, encoding="utf-8") as f:
+            records = json.load(f)
+        for r in records:
+            if r["id"] not in seen_ids:
+                all_data.append(r)
+                seen_ids.add(r["id"])
+    print(f"Loaded {len(all_data)} sentences from {len(DATA_PATHS)} file(s)")
 
     # Exclude few-shot examples
     data = [s for s in all_data if s["id"] not in EXAMPLE_IDS]
-    print(f"Loaded {len(all_data)} sentences, {len(data)} after excluding few-shot examples")
+    print(f"{len(data)} after excluding few-shot examples")
 
     # Stratified 80/20 split by sen
     # Convert sen to string for stratification (handles mixed int/str types)

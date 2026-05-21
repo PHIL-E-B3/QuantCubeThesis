@@ -7,10 +7,10 @@
     "date": "2025-04-03",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -42,10 +42,10 @@
     "date": "2020-12-11",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -83,7 +83,7 @@
     "sen": "dovish",
     "com": "conditional",
     "hor": true,
-    "ris": "skewed_upside",
+    "ris": "na",
     "wid": "none"
   },
   {
@@ -94,10 +94,10 @@
     "date": "2008-01-04",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -128,10 +128,10 @@
     "date": "2011-11-04",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -145,7 +145,6 @@
     "date": "2009-01-13",
     "context_question": null,
     "top": [
-      "monetary_policy",
       "financial_conditions"
     ],
     "ten": "interpretive",
@@ -166,7 +165,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": "hawkish",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -180,10 +179,10 @@
     "date": "2013-05-18",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -197,10 +196,10 @@
     "date": "2020-08-31",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -231,10 +230,10 @@
     "date": "2015-11-05",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

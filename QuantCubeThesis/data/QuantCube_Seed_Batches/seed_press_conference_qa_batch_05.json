@@ -11,7 +11,7 @@
     "sen": "",
     "com": "",
     "hor": false,
-    "ris": "",
+    "ris": "skewed_upside",
     "wid": ""
   },
   {
@@ -66,9 +66,11 @@
     "doc_type": "press_conference_qa",
     "date": "20220126",
     "context_question": "Thanks for taking our questions, Chair Powell. And sorry for my tech issues. I wonder if you could tell us a little bit about where your thinking on inflation stands today. You know, the last time we saw an SEP back in September, we saw that you and your colleagues were projecting that inflation would sort of sink back down quite close to target by the end of the year. And I wonder if you still think that projection from December is a reasonable one. And if your thinking has changed at all, I wonder how you’re thinking about that. And I also wonder if you could talk a little bit about the pathway to getting to that deceleration. Like, how do—how do we get from here, 7 percent CPI, to where you expect to be at the end of the year?",
-    "top": [],
+    "top": [
+      "no_topic"
+    ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "",
     "hor": false,
     "ris": "",
@@ -83,7 +85,7 @@
     "context_question": "Hi. Victoria Guida from Politico. I want to follow up on that, because you all have obviously highlighted that there are both supply and demand issues at play in inflation. And I’m just wondering, you know, if these supply chain issues continue because of Russia, because of China, or just because these things take a while to work out, does getting back down to your 2 percent mandate require that the supply chain issues get resolved, since you can only handle the demand side, as you said? Or will you have to crimp demand maybe even further if the supply chain issues don’t resolve themselves, in order to try and get inflation back down to where you want it to be?",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "hawkish",
     "com": "",
     "hor": false,
     "ris": "",
@@ -113,7 +115,7 @@
     "context_question": "Hey, Chair Powell. Nancy Marshall-Genzer from Marketplace. You mentioned consumers, and consumers are feeling the weight of interest rates right now. Mortgage rates are up, as are rates for car loans, credit cards. People looking to borrow are very discouraged. That’s reflected in their views on the economy. What would you say to them?",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "hawkish",
     "com": "",
     "hor": false,
     "ris": "",

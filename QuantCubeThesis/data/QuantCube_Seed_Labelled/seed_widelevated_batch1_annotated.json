@@ -1,0 +1,525 @@
+[
+  {
+    "id": "1ce0e22b-7bdd-48d3-9083-6df3433ea570",
+    "sentence": "Many participants continued to view the possibility of expansionary fiscal policy changes in the United States as posing upside risks to their forecasts for U.S. economic growth, although they also noted that prospects for enactment of a more expansionary fiscal program, as well as its size, composition, and timing, remained highly uncertain.",
+    "source": "minutes_20170503.html",
+    "doc_type": "minutes",
+    "date": "20170503",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "elevated"
+  },
+  {
+    "id": "37dc1320-f32a-462b-9c0e-1dc0e4d72523",
+    "sentence": "In contrast, for the medium term, participants commented that positive vaccine news had improved the economic outlook. That said, participants agreed that the path ahead remained highly uncertain and that the economy remained far from the Committee's longer-run goals. In light of this assessment, all participants judged that maintaining an accommodative stance of monetary policy was essential to foster economic recovery and to achieve an average inflation rate of 2 percent over time.",
+    "source": "minutes_20201216.html",
+    "doc_type": "minutes",
+    "date": "20201216",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "56263ffa-9b89-4a39-bcec-15b5fee9b788",
+    "sentence": "In contrast, participants remarked that the prospect of an effective vaccine program, the recently enacted fiscal support, and the potential for additional fiscal actions had led them to judge that the medium-term outlook had improved. That said, participants agreed that the economy remained far from the Committee's longer-run goals and that the path ahead remained highly uncertain, with the pandemic continuing to pose considerable risks to the outlook.",
+    "source": "minutes_20210127.html",
+    "doc_type": "minutes",
+    "date": "20210127",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "3bcc80a9-9d98-4b40-a6f0-5a1529a07ff5",
+    "sentence": "Despite these positive indicators and an improved public health situation, participants agreed that the economy remained far from the Committee's longer-run goals and that the path ahead remained highly uncertain, with the pandemic continuing to pose considerable risks to the outlook. Consequently, participants judged that the current stance of policy and policy guidance remained appropriate to foster further economic recovery as well as to achieve inflation that averages 2 percent over time and longer-term inflation expectations that remain well anchored at 2 percent.",
+    "source": "minutes_20210317.html",
+    "doc_type": "minutes",
+    "date": "20210317",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "e646129b-d954-407f-9db1-12f81a4e0e38",
+    "sentence": "They also judged that banking-sector stress would likely weigh further on economic activity, but the extent to which that would be the case remained highly uncertain.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "b73837a9-daf1-426d-a449-0a37dcbbe845",
+    "sentence": "Some participants noted, however, that their contacts and business survey respondents reported limiting or pausing hiring because of elevated uncertainty. Participants assessed that there was a risk that the labor market would weaken in coming months, that considerable uncertainty surrounded the outlook for the labor market, and that outcomes would depend importantly on the evolution of trade policy as well as other government policies.",
+    "source": "minutes_20250507.html",
+    "doc_type": "minutes",
+    "date": "20250507",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "29d85e74-0e05-4c61-bdd5-196d86f85e04",
+    "sentence": "This makes the outlook also highly uncertain and demands that policymakers remain flexible in considering the wide range of outcomes.",
+    "source": "A Tale of Two Outlooks",
+    "doc_type": "speech",
+    "date": "2025-04-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "d6d47cf2-b93a-43b3-8074-6cbf68843450",
+    "sentence": "In December 2020, as the economic outlook remained highly uncertain, the FOMC said that we expected to maintain that pace of purchases \"until substantial further progress has been made toward the Committee's maximum employment and price stability goals.",
+    "source": "Understanding the Fed's Balance Sheet",
+    "doc_type": "speech",
+    "date": "2025-10-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "882f80c2-ad68-4d14-9c99-3b73694373e0",
+    "sentence": "It's difficult to know what the policy will be, let alone what their effects will be that far out. So we have to make estimates, but we know that they're highly uncertain.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180926",
+    "context_question": "Craig Torres from Bloomberg News. Taking a page from your risk- management approach in Jackson Hole, Mr. Chairman, I'm wondering if you can talk about what risks would make the Committee—plausible risks—go faster in 2019. What risks would make them go slower? If you could talk about scenarios. And then I'd like to ask, do you see yourself, as this stimulus tails off, which it does in the forecast, possibly cutting rates to soft-land the economy? I know the forecast doesn't show that, but I'm curious how you soft-land without doing that.",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "cd76feea-bb21-4dc0-988e-39f361f746d7",
+    "sentence": "Nonetheless, the volatility of the federal funds rate in recent months reflects the extent to which daily changes in demand for reserve balances have been unusually difficult to predict.",
+    "source": "The Federal Reserve's Tools for Responding to Financial Disruptions",
+    "doc_type": "speech",
+    "date": "2008-02-15",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "aa694ce0-de5a-45c7-8990-58f44089338c",
+    "sentence": "Participants generally agreed that a clear statement of the Committee's longer-run policy objectives could be helpful; some noted that it would also be useful to clarify the linkage between these longer-run objectives and the Committee's approach to setting the stance of monetary policy in the short and medium run. That said, a number of participants expressed concerns about the conceptual issues associated with establishing and communicating explicit longer-run objectives for the unemployment rate or other measures of labor market conditions, inasmuch as the long-run equilibrium levels of such measures are influenced importantly by nonmonetary factors, are subject to change over time, and are estimated with considerable uncertainty.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "7c4b0b8b-f3e3-4acf-a8aa-9d42e95c3884",
+    "sentence": "Participants saw considerable uncertainty surrounding the outlook for a gradual pickup in economic growth.",
+    "source": "minutes_20110921.html",
+    "doc_type": "minutes",
+    "date": "20110921",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "16a5b50f-27f0-4099-8fb9-8ada20a6f269",
+    "sentence": "Business contacts in many parts of the country were reported to be highly uncertain about the outlook for the economy and for fiscal and regulatory policies.",
+    "source": "minutes_20120913.html",
+    "doc_type": "minutes",
+    "date": "20120913",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "c68d9aa1-7c6f-41a5-8a99-861119967d57",
+    "sentence": "Business contacts in many parts of the country were also said to be highly uncertain about the outlook for U.S. fiscal policy, and participants noted that this uncertainty appeared to have weighed on investment and hiring decisions.",
+    "source": "minutes_20121212.html",
+    "doc_type": "minutes",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "e79dfe2a-0ac6-40a3-904c-2c287c77d8d5",
+    "sentence": "One participant, however, expressed concern that considerable uncertainty surrounded the relationship between unemployment and inflation, raising questions about the extent to which resource slack would keep inflation restrained over the medium term.",
+    "source": "minutes_20121212.html",
+    "doc_type": "minutes",
+    "date": "20121212",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "elevated"
+  },
+  {
+    "id": "928ae452-388d-4878-9ed5-20db29942dfb",
+    "sentence": "Conditions in domestic dollar funding markets were generally little changed, and offshore dollar funding markets reacted only modestly to the elevated uncertainty surrounding the negotiations, early in the intermeeting period, to resolve the banking crisis in Cyprus.",
+    "source": "minutes_20130501.html",
+    "doc_type": "minutes",
+    "date": "20130501",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "2f3cdcf4-50d8-464d-9c89-011e47df5b34",
+    "sentence": "One participant commented that assessing the shortfall of employment from its maximum level required taking account of not only the gap between the unemployment rate and its corresponding natural rate, but also the gap between the labor force participation rate and its longer-term trend--a trend which was admittedly subject to considerable uncertainty.",
+    "source": "minutes_20130501.html",
+    "doc_type": "minutes",
+    "date": "20130501",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "484e2d6d-8e79-40ee-b318-c363d7bc2978",
+    "sentence": "Estimates of such equilibrium real interest rates were highly uncertain, but some participants reported that their estimates were currently unusually low by historical standards, reflecting, for example, factors weighing persistently on aggregate demand.",
+    "source": "minutes_20150429.html",
+    "doc_type": "minutes",
+    "date": "20150429",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "9a92f0ce-61dc-4a04-a174-203fab2e6b18",
+    "sentence": "In addition, it was noted that considerable uncertainty remained about when wages might begin to accelerate and whether that development might translate into increased price inflation.",
+    "source": "minutes_20150729.html",
+    "doc_type": "minutes",
+    "date": "20150729",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "4f945df8-55b6-4dae-8a47-f52723fea103",
+    "sentence": "Also, a number of participants pointed out that because inflation was still running well below the Committee's objective and the outlook for inflation was subject to considerable uncertainty, it would probably take some time for the data to confirm that inflation was on a trajectory to return to 2 percent over the medium term.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "1b583077-42f4-4184-a893-8d80a728a0bc",
+    "sentence": "Moreover, a number of institutional factors, including the dispersion of responsibilities across regulatory agencies, differences in mandates among those agencies, and resulting coordination challenges, may make it difficult to deploy macroprudential tools expeditiously in the United States and may lessen their effectiveness. Some participants noted that these considerations would be less significant for tools that were likely to be adjusted only infrequently. Most participants judged that the benefits of using monetary policy to address threats to financial stability would typically be outweighed by the costs associated with deviations from the Committee's employment and price-stability objectives induced by such actions; some also noted that the benefits are highly uncertain.",
+    "source": "minutes_20160427.html",
+    "doc_type": "minutes",
+    "date": "20160427",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "23314eef-3987-4c00-b718-4af34ad8d63c",
+    "sentence": "While recognizing that the longer-run neutral rate was highly uncertain, many judged that it would likely remain low relative to historical standards, held down by factors such as slow productivity growth and demographic trends.",
+    "source": "minutes_20160615.html",
+    "doc_type": "minutes",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "e8759f5d-7779-4b7f-9784-b0ac3d84b0dc",
+    "sentence": "Several noted that in the prevailing circumstances of considerable uncertainty about the neutral federal funds rate, the Committee could better gauge the effects of increases in the federal funds rate on the economy if it proceeded gradually in adjusting policy.",
+    "source": "minutes_20160615.html",
+    "doc_type": "minutes",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "f7fc6755-6a48-47bc-a996-16e90cdf36f7",
+    "sentence": "Members noted the considerable uncertainty about the outcome of the vote and its potential economic and financial market consequences.",
+    "source": "minutes_20160615.html",
+    "doc_type": "minutes",
+    "date": "20160615",
+    "context_question": null,
+    "top": [
+      "macro",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "6cdb00a7-1cad-4faf-98a9-588407d6bc3c",
+    "sentence": "In their discussion of their economic forecasts, participants emphasized their considerable uncertainty about the timing, size, and composition of any future fiscal and other economic policy initiatives as well as about how those policies might affect aggregate demand and supply.",
+    "source": "minutes_20161214.html",
+    "doc_type": "minutes",
+    "date": "20161214",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "108bee16-c394-414f-aed7-518260e3cf68",
+    "sentence": "Participants again emphasized their considerable uncertainty about the prospects for changes in fiscal and other government policies as well as about the timing and magnitude of the net effects of such changes on economic activity.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "305489cc-5d8c-4997-8c65-3ac3ca615e3f",
+    "sentence": "A few participants commented that the recent increase in equity prices might in part reflect investors' anticipation of a boost to earnings from a cut in corporate taxes or more expansionary fiscal policy, which might not materialize. They also expressed concern that the low level of implied volatility in equity markets appeared inconsistent with the considerable uncertainty attending the outlook for such policy initiatives.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "cf614c06-94d5-48e0-9b50-8eeb6e778574",
+    "sentence": "Most participants continued to judge that, while the outlook was subject to considerable uncertainty, a gradual pace of rate increases over time was likely to be appropriate to promote the Committee's objectives of maximum employment and 2 percent inflation.",
+    "source": "minutes_20170201.html",
+    "doc_type": "minutes",
+    "date": "20170201",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "5e31b6a8-a427-4c60-ab76-1d9da125fea4",
+    "sentence": "Participants continued to underscore the considerable uncertainty about the timing and nature of potential changes to fiscal policies as well as the size of the effects of such changes on economic activity.",
+    "source": "minutes_20170315.html",
+    "doc_type": "minutes",
+    "date": "20170315",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "c17347e0-f0a6-41b0-a60c-476e46c95856",
+    "sentence": "Another participant observed that a gradual approach was appropriate because the neutral rate of interest had declined and considerable uncertainty prevailed about its longer-run level.",
+    "source": "minutes_20170503.html",
+    "doc_type": "minutes",
+    "date": "20170503",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  }
+]

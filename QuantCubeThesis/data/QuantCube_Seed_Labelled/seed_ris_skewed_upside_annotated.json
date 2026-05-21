@@ -101,7 +101,7 @@
     "ten": "interpretive",
     "hor": false,
     "com": "none",
-    "ris": "na",
+    "ris": "skewed_downside",
     "wid": "none"
   },
   {
@@ -238,7 +238,7 @@
     "context_question": null,
     "top": [
       "monetary_policy",
-      "economic_growth",
+      "economic_activity",
       "inflation"
     ],
     "sen": "neutral",
@@ -282,7 +282,7 @@
     "hor": false,
     "com": "none",
     "ris": "symmetric",
-    "wid": "elevated"
+    "wid": "contested"
   },
   {
     "id": "83d6bd74-8fe4-4b4e-a9b0-6555bd1f1c32",
@@ -299,7 +299,7 @@
     "hor": false,
     "com": "none",
     "ris": "skewed_upside",
-    "wid": "none"
+    "wid": "contested"
   },
   {
     "id": "9e9a947c-4e17-4acf-b66f-d1d4f6d1ec51",

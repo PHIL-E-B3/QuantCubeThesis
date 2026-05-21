@@ -18,8 +18,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import (
-    MASTER_CSV, TOPICS, EXCLUDE_TOPICS,
-    TARGET_COL, TARGET_NEXT, INTER_DIR, DATE_ALIGN_LOG,
+    MASTER_CSV, SHADOW_RATE_CSV, CFNAI_CSV, KUTTNER_IMPLIED_CSV,
+    TOPICS, EXCLUDE_TOPICS, TARGET_COL, TARGET_NEXT, INTER_DIR, DATE_ALIGN_LOG,
 )
 from utils import log_warn
 
@@ -145,11 +145,13 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
     for (source, date, doc_type), grp in df.groupby(['source', 'date', 'doc_type']):
         row = {'source': source, 'date': date, 'doc_type': doc_type}
 
-        # Per-topic sentiment
+        # Per-topic sentiment + within-topic dispersion
         for topic in TOPICS:
             mask      = grp['topic_list'].apply(lambda t: topic in t)
-            raw_sum   = grp.loc[mask, 'sentiment'].sum()
-            row[f'sent_{topic}'] = _agg_transform(raw_sum, agg_func)
+            topic_grp = grp.loc[mask, 'sentiment']
+            raw_sum   = topic_grp.sum()
+            row[f'sent_{topic}']    = _agg_transform(raw_sum, agg_func)
+            row[f'sent_{topic}_sd'] = topic_grp.std() if mask.sum() > 1 else 0.0
 
         # Aggregate sentiment
         raw_total = grp['sentiment'].sum()
@@ -259,15 +261,83 @@ def _load_macro_dates() -> pd.DataFrame:
     ].rename(columns={'date': 'meeting_date'}).sort_values('meeting_date')
 
 
+# ── Shadow rate loader ────────────────────────────────────────────────────────
+
+def _load_shadow_rate() -> pd.DataFrame:
+    """
+    Load Wu-Xia shadow rate CSV. Returns DataFrame with columns [date, shadow_rate].
+    Dates are end-of-month; we forward-fill onto FOMC meeting dates via merge_asof.
+    """
+    if not SHADOW_RATE_CSV.exists():
+        return pd.DataFrame(columns=['date', 'shadow_rate'])
+    df = pd.read_csv(SHADOW_RATE_CSV, sep=';', header=0,
+                     usecols=[0, 2], names=['date', 'shadow_rate'], skiprows=1)
+    df = df.dropna(subset=['shadow_rate'])
+    # Parse "Jan-60" format; Python's %y treats 00-68 as 2000-2068, so fix post-2030
+    df['date'] = pd.to_datetime(df['date'] + '-01', format='%b-%y-%d', errors='coerce')
+    df['date'] = df['date'].apply(
+        lambda d: d.replace(year=d.year - 100) if pd.notna(d) and d.year > 2030 else d
+    )
+    return df.dropna(subset=['date']).sort_values('date').reset_index(drop=True)
+
+
 # ── Macro loader ──────────────────────────────────────────────────────────────
 
 def load_macro() -> pd.DataFrame:
-    """Load Master_Macro, keep meeting_date rows, build target t+1."""
+    """Load Master_Macro, keep meeting_date rows, build effective_rate and target t+1."""
     df = pd.read_csv(MASTER_CSV, parse_dates=['date'])
     df = df[[c for c in df.columns if not c.startswith('Unnamed')]]
     df = df[df['event_type'] == 'meeting_date'].copy()
+    n_before = len(df)
+    df = df.drop_duplicates(subset=['date'])
+    if len(df) < n_before:
+        log_warn(f'load_macro: dropped {n_before - len(df)} duplicate meeting-date rows '
+                 f'(kept {len(df)} unique dates). Check Master_Macro.csv for cartesian-join artefacts.')
     df = df.sort_values('date').reset_index(drop=True)
+
+    # Build effective_rate: Wu-Xia shadow rate during ZLB (fed_funds_rate <= 0.25),
+    # fed_funds_rate otherwise.  combine_first would silently use shadow_rate for
+    # the entire sample; the explicit condition restricts substitution to the ZLB.
+    shadow = _load_shadow_rate()
+    if not shadow.empty:
+        df = pd.merge_asof(df, shadow, on='date', direction='backward')
+        zlb_mask = df['fed_funds_rate'] <= 0.25
+        df['effective_rate'] = np.where(
+            zlb_mask & df['shadow_rate'].notna(),
+            df['shadow_rate'],
+            df['fed_funds_rate'],
+        )
+        df = df.drop(columns=['shadow_rate'])
+    else:
+        df['effective_rate'] = df['fed_funds_rate']
+
+    # Replace implied_ffr with Kuttner-computed level from fed funds futures.
+    # The Master_Macro column is corrupt for meeting rows (contains surprise
+    # shocks, not rate levels). kuttner_implied_ffr_v2.csv has the correct
+    # post-meeting implied rate computed via the Kuttner (2001) formula.
+    if KUTTNER_IMPLIED_CSV.exists():
+        kut = pd.read_csv(KUTTNER_IMPLIED_CSV, parse_dates=['date'])
+        kut = kut[kut['event_type'] == 'meeting_date'][['date', 'implied_ffr']]
+        # Drop the corrupt column first, then merge the clean one
+        if 'implied_ffr' in df.columns:
+            df = df.drop(columns=[c for c in df.columns
+                                   if 'implied_ffr' in c])
+        df = pd.merge_asof(df.sort_values('date'),
+                           kut.sort_values('date'),
+                           on='date', direction='backward')
+    else:
+        log_warn('kuttner_implied_ffr_v2.csv not found — implied_ffr will be missing. '
+                 'Run macro_pipeline/compute_kuttner_implied_ffr.py first.')
+
+    # Merge CFNAI if available (used as macro variable for sent_macro interactions)
+    if CFNAI_CSV.exists():
+        cfnai = pd.read_excel(CFNAI_CSV, parse_dates=['observation_date'])
+        cfnai = cfnai.rename(columns={'observation_date': 'date', 'CFNAI': 'cfnai'})
+        cfnai = cfnai[['date', 'cfnai']].sort_values('date')
+        df = pd.merge_asof(df, cfnai, on='date', direction='backward')
+
     df[TARGET_NEXT] = df[TARGET_COL].shift(-1)
+    df['delta_rate_next'] = df[TARGET_COL].shift(-1) - df[TARGET_COL]
     return df
 
 

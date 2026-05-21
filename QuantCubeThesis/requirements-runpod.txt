@@ -1,16 +1,28 @@
-# Install these AFTER manually installing vllm:
-#   pip uninstall torch torchvision torchaudio -y
-#   pip install "vllm<0.18.0"
-# Then: pip install -r requirements-runpod.txt
+# RunPod training + inference dependencies
+# IMPORTANT: do NOT pip install torch — use the pre-installed version with CUDA drivers.
+# For vLLM inference only: pip install "vllm<0.18.0" first, then this file.
+# For QLoRA training: this file is sufficient (no vllm needed).
 
-transformers>=4.40.0
-accelerate>=0.28.0
-datasets>=2.19.0
-tokenizers>=0.19.0
-scikit-learn>=1.4.0
-numpy>=1.26.0
-pandas>=2.2.0
-scipy>=1.12.0
-nltk>=3.8.0
+# Core training stack
+transformers>=4.50
+accelerate>=1.0
+peft>=0.14
+bitsandbytes>=0.46.1   # avoid 0.48+ (requires CUDA 13 libs not on RunPod images)
+tokenizers>=0.20
+huggingface-hub>=0.25
+
+# Data / metrics
+datasets>=2.19,<4.0
+scikit-learn>=1.4
+scipy>=1.10
+numpy>=1.26,<2.0
+pandas>=2.0
+pyarrow>=14.0
 tqdm>=4.66.0
+
+# Hyperparameter search
+optuna>=3.5
+
+# Config / utilities
 pyyaml>=6.0.0
+nltk>=3.8.0

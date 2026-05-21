@@ -27,7 +27,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -46,22 +46,6 @@
     "hor": false,
     "ris": "na",
     "wid": "contested"
-  },
-  {
-    "id": "0b4fd2a2-9b9c-4ba2-a3f3-86bb3e0317c0",
-    "sentence": "The recent 12-month measures of inflation were being boosted significantly by the base effects of the drop in prices from the spring of 2020 rolling out of the calculation. In addition, the surge in demand as the economy reopened further, combined with production bottlenecks and supply constraints, contributed to the large recent monthly price increases.",
-    "source": "minutes_20210616.html",
-    "doc_type": "minutes",
-    "date": "20210616",
-    "top": [
-      "inflation"
-    ],
-    "ten": "descriptive",
-    "sen": "dovish",
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "none"
   },
   {
     "id": "f1e991ee-8693-4c03-976b-1e7fdea2ace0",
@@ -89,7 +73,7 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": "dovish",
+    "sen": "hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -121,7 +105,7 @@
       "financial_conditions"
     ],
     "ten": "descriptive",
-    "sen": "dovish",
+    "sen": "strongly_hawkish",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -167,7 +151,7 @@
     "doc_type": "minutes",
     "date": "20140129",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
     "sen": "neutral",

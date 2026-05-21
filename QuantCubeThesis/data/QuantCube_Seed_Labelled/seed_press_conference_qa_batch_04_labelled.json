@@ -77,10 +77,10 @@
     "date": "20240731",
     "context_question": "—assuming inflation comes?",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -214,10 +214,10 @@
     "date": "20251210",
     "context_question": "Thank you, Chair. Enda Curran, Bloomberg News. Given the breadth of views on the policy Committee, why is there such a division of views between the—",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

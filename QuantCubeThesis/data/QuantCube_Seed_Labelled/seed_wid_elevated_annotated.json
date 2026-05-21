@@ -14,7 +14,7 @@
     "hor": false,
     "com": "none",
     "ris": "skewed_downside",
-    "wid": "none"
+    "wid": "elevated"
   },
   {
     "id": "c8da03cc-768d-4022-b48e-d59029475a1f",
@@ -130,7 +130,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -146,7 +146,7 @@
       "economic_activity"
     ],
     "sen": "strongly_dovish",
-    "ten": "interpretive",
+    "ten": "descriptive",
     "hor": false,
     "com": "none",
     "ris": "na",
@@ -212,7 +212,7 @@
     "date": "20161214",
     "context_question": null,
     "top": [
-      "monetary_policy"
+      "no_topic"
     ],
     "sen": "neutral",
     "ten": "interpretive",
@@ -246,10 +246,11 @@
     "date": "20250618",
     "context_question": "Well, just quickly on—given that, you know, there are concerns inflation will rise—but there is the alternate scenario that tariffs would create demand destruction and slow growth sufficiently and that would perhaps keep a bit of a lid on inflation. Do you see odds of that scenario, what kind of odds do you see of that scenario coming true, and how many months of cool inflation would you need to see before concluding that maybe that lower-inflation scenario is taking place?",
     "top": [
-      "inflation"
+      "inflation",
+      "labor_market"
     ],
     "sen": "neutral",
-    "ten": "interprative",
+    "ten": "interpretive",
     "hor": false,
     "com": "none",
     "ris": "na",

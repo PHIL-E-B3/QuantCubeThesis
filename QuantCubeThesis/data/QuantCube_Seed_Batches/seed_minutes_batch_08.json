@@ -10,7 +10,7 @@
     "sen": "",
     "com": "",
     "hor": false,
-    "ris": "",
+    "ris": "skewed_upside",
     "wid": ""
   },
   {
@@ -147,7 +147,7 @@
     "date": "20150318",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "na",
     "com": "",
     "hor": false,
     "ris": "",
@@ -161,7 +161,7 @@
     "date": "20240612",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "dovish",
     "com": "",
     "hor": false,
     "ris": "",
@@ -175,11 +175,11 @@
     "date": "20131218",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "dovish",
     "com": "",
     "hor": false,
     "ris": "",
-    "wid": ""
+    "wid": "none"
   },
   {
     "id": "cad58fb0-1b90-4e16-84d9-a95617c3b120",
@@ -189,7 +189,7 @@
     "date": "20130320",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "hawkish",
     "com": "",
     "hor": false,
     "ris": "",

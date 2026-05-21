@@ -9,8 +9,9 @@ Gardner maps per-topic sub-scores to sent_* columns, so specs 4c/4d/4f (topic
 PCA, matched interactions) run in full. Sharpe produces sent_total only, so
 those specs are silently skipped.
 
-Step 4b (dispersion) is skipped for both — dictionary has no sentence-level
-variance. Step 5 (masks) is not run — it requires LLM-only fields.
+Step 4b (dispersion) uses consensus scores (agreement among scoring events)
+as a proxy for dispersion — available for both Gardner and Sharpe.
+Step 5 (masks) is not run — it requires LLM-only fields.
 
 Usage:
     python macro_pipeline/analysis/step_d_favar.py              # all 20 combos
@@ -41,9 +42,16 @@ GARDNER_REMAP = {
     'gardner_out':   'sent_economic_activity',
     'gardner_fin':   'sent_financial_conditions',
     'gardner_mp':    'sent_monetary_policy',
+    # Consensus columns — used as dispersion proxy in spec 4b
+    'gardner_inf_consensus':   'sent_inflation_consensus',
+    'gardner_labor_consensus': 'sent_labor_market_consensus',
+    'gardner_out_consensus':   'sent_economic_activity_consensus',
+    'gardner_fin_consensus':   'sent_financial_conditions_consensus',
+    'gardner_mp_consensus':    'sent_monetary_policy_consensus',
 }
 SHARPE_REMAP = {
-    'sharpe_net': 'sent_total',
+    'sharpe_net':       'sent_total',
+    'sharpe_consensus': 'sent_consensus',
 }
 
 # ── All 20 combos matching step_d_dictionary_runner ───────────────────────────
@@ -111,16 +119,38 @@ def build_dict_macro(dict_name: str, doc_types: list, norm: str) -> pd.DataFrame
 
 # ── Main runner ───────────────────────────────────────────────────────────────
 
-def run_dict_favars(dict_filter: str = None, norm_filter: str = None):
+def run_dict_favars(dict_filter: str = None, norm_filter: str = None,
+                    doc_filter: str = None, target_col: str = None,
+                    oos_frac: float = None):
     """
     Run baseline + NLP-augmented FAVARs for all (or filtered) dictionary combos.
-    Results go to outputs/dict_favar_summary.csv and outputs/dict_favar_models.csv.
+
+    target_col: override the regression target. Must be a column in df_macro.
+                Defaults to TARGET_NEXT ('target_next' = level of next period rate).
+                Pass 'delta_rate_next' for change-in-rate regressions.
+    oos_frac:   override the OOS training fraction (e.g. 0.80 → 80% train / 20% OOS).
+                Defaults to 0.60 (config.OOS_FRACS minimum).
     """
+    import utils as _utils_mod
+    from config import TARGET_NEXT, OOS_FRACS
     from step3_baseline_favar import run_baseline
     from step4_nlp_tests import run_nlp_tests
 
+    # Patch OOS_FRACS so oos_rmse() uses the requested init fraction
+    if oos_frac is not None:
+        _utils_mod.OOS_FRACS = [oos_frac]
+        primary_key = f'oos_rmse_{int(oos_frac * 100)}'
+        oos_tag = f'_oos{int(oos_frac * 100)}'
+    else:
+        _utils_mod.OOS_FRACS = OOS_FRACS
+        primary_key = 'oos_rmse_60'
+        oos_tag = ''
+
+    use_target = target_col or TARGET_NEXT
+    tag = ('_delta' if use_target == 'delta_rate_next' else '') + oos_tag
+
     # Dedicated output CSV so dict results stay separate from LLM model_comparison.csv
-    dict_models_csv = OUTPUTS_DIR / 'dict_favar_models.csv'
+    dict_models_csv = OUTPUTS_DIR / f'dict_favar_models{tag}.csv'
     if dict_models_csv.exists():
         dict_models_csv.unlink()
 
@@ -131,6 +161,7 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None):
         (d, dt, n) for d, dt, n in ALL_COMBOS
         if (not dict_filter or d.lower() == dict_filter.lower())
         and (not norm_filter or n == norm_filter)
+        and (not doc_filter or dt == [doc_filter])
     ]
 
     if not combos_to_run:
@@ -140,13 +171,21 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None):
     for dict_name, doc_types, norm in combos_to_run:
         combo_label = f'{dict_name}_{"_".join(doc_types)}_{norm}'
         print(f'\n{"="*65}')
-        print(f'  Dictionary FAVAR: {combo_label}')
+        print(f'  Dictionary FAVAR: {combo_label}  [target={use_target}]')
         print(f'{"="*65}')
 
         df_macro = build_dict_macro(dict_name, doc_types, norm)
         if df_macro.empty:
-            print('  Skipped (no data — run Step D first)')
+            print('  Skipped (no data - run Step D first)')
             continue
+
+        # Swap target column in-place so step3/step4 see it as TARGET_NEXT
+        if use_target != TARGET_NEXT:
+            if use_target not in df_macro.columns:
+                print(f'  Skipped: column {use_target!r} not in df_macro')
+                continue
+            df_macro = df_macro.copy()
+            df_macro[TARGET_NEXT] = df_macro[use_target]
 
         # Baseline is macro-only — identical across all combos, compute once
         if baseline_result is None:
@@ -162,13 +201,17 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None):
         )
 
         summary_rows.append({
-            'dict':          dict_name,
-            'doc_types':     '+'.join(doc_types),
-            'norm':          norm,
-            'combo_label':   combo_label,
-            'best_spec':     step4_best.get('spec')     if step4_best else None,
-            'best_adj_r2':   step4_best.get('adj_r2')   if step4_best else None,
-            'best_oos_rmse': step4_best.get('oos_rmse') if step4_best else None,
+            'dict':              dict_name,
+            'doc_types':         '+'.join(doc_types),
+            'norm':              norm,
+            'combo_label':       combo_label,
+            'target':            use_target,
+            'oos_init_frac':     oos_frac or min(OOS_FRACS),
+            'best_spec':         step4_best.get('spec')             if step4_best else None,
+            'best_adj_r2':       step4_best.get('adj_r2')           if step4_best else None,
+            'best_oos_rmse':     step4_best.get(primary_key)        if step4_best else None,
+            'best_cw_tstat':     step4_best.get('cw_tstat')         if step4_best else None,
+            'best_cw_pval':      step4_best.get('cw_pval')          if step4_best else None,
         })
 
     if not summary_rows:
@@ -177,15 +220,16 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None):
         return
 
     summary = pd.DataFrame(summary_rows).sort_values('best_adj_r2', ascending=False)
-    out = OUTPUTS_DIR / 'dict_favar_summary.csv'
+    out = OUTPUTS_DIR / f'dict_favar_summary{tag}.csv'
     summary.to_csv(out, index=False)
 
     print(f'\n{"="*65}')
-    print('  Dictionary FAVAR — top results by Adj R²:')
+    print('  Dictionary FAVAR - top results by Adj R2:')
     print(f'{"="*65}')
-    print(summary[['combo_label', 'best_spec', 'best_adj_r2', 'best_oos_rmse']].to_string(index=False))
-    print(f'\n  Summary   → {out}')
-    print(f'  All models → {dict_models_csv}')
+    print(summary[['combo_label', 'best_spec', 'best_adj_r2',
+                   'best_oos_rmse', 'best_cw_tstat', 'best_cw_pval']].to_string(index=False))
+    print(f'\n  Summary    -> {out}')
+    print(f'  All models -> {dict_models_csv}')
 
 
 if __name__ == '__main__':
@@ -196,5 +240,15 @@ if __name__ == '__main__':
     parser.add_argument('--norm', type=str, default=None,
                         choices=['wordcount', 'zscore'],
                         help='Run only this normalization (default: both)')
+    parser.add_argument('--doc', type=str, default=None,
+                        help='Run only combos whose doc_types list matches exactly '
+                             '(e.g. "statements", "minutes")')
+    parser.add_argument('--target', type=str, default=None,
+                        choices=['target_next', 'delta_rate_next'],
+                        help='Regression target: level (target_next) or change (delta_rate_next)')
+    parser.add_argument('--oos-frac', type=float, default=None,
+                        help='OOS training fraction, e.g. 0.80 for 80%% train / 20%% OOS (default: 0.60)')
     args = parser.parse_args()
-    run_dict_favars(dict_filter=args.dict, norm_filter=args.norm)
+    run_dict_favars(dict_filter=args.dict, norm_filter=args.norm,
+                    doc_filter=args.doc, target_col=args.target,
+                    oos_frac=args.oos_frac)

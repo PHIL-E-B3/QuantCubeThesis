@@ -52,7 +52,7 @@
     "sen": "",
     "com": "",
     "hor": false,
-    "ris": "",
+    "ris": "skewed_downside",
     "wid": ""
   },
   {
@@ -149,7 +149,7 @@
     "ten": "descriptive",
     "sen": "",
     "com": "",
-    "hor": false,
+    "hor": true,
     "ris": "",
     "wid": ""
   },
@@ -189,7 +189,7 @@
     "date": "20210922",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "na",
     "com": "",
     "hor": false,
     "ris": "",

@@ -10,9 +10,9 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": "hawkish",
+    "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -42,11 +42,13 @@
     "date": "2020-01-29",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "monetary_policy",
+      "inflation",
+      "macro"
     ],
-    "ten": "descriptive",
-    "sen": "",
-    "com": "none",
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "conditional",
     "hor": false,
     "ris": "na",
     "wid": "none"
@@ -61,11 +63,11 @@
     "top": [
       "financial_conditions"
     ],
-    "ten": "descriptive",
+    "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
     "hor": false,
-    "ris": "skewed_downside",
+    "ris": "na",
     "wid": "none"
   },
   {
@@ -79,9 +81,9 @@
       "monetary_policy"
     ],
     "ten": "descriptive",
-    "sen": "neutral",
+    "sen": "dovish",
     "com": "unconditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -162,10 +164,10 @@
     "date": "2023-03-22",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -218,7 +220,7 @@
     ],
     "ten": "descriptive",
     "sen": "dovish",
-    "com": "unconditional",
+    "com": "none",
     "hor": false,
     "ris": "na",
     "wid": "none"

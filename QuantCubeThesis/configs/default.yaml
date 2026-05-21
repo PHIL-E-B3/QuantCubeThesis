@@ -34,8 +34,8 @@ lora:
 # --- Classification Labels ---
 # Each key matches the abbreviated field name used in the sentence JSON files.
 labels:
-  top: ["inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic", "boilerplate"]
-  sen: ["strongly_dovish", "dovish", "neutral", "hawkish", "strongly_hawkish", "na"]   # "na" only for boilerplate
+  top: ["inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic"]
+  sen: ["strongly_dovish", "dovish", "neutral", "hawkish", "strongly_hawkish", "na"]   # "na" only for monetary_policy
   ten: ["descriptive", "interpretive"]   # descriptive = backward/present; interpretive = forward
   hor: [true, false]                     # true = long_term horizon present; false otherwise
   com: ["none", "conditional", "unconditional"]
@@ -48,9 +48,9 @@ primary_label: "sen"
 # --- Training ---
 training:
   num_epochs: 3
-  per_device_train_batch_size: 8   # Safe for 16GB VRAM with QLoRA
-  per_device_eval_batch_size: 16
-  gradient_accumulation_steps: 2   # Effective batch size = 16
+  per_device_train_batch_size: 16  # RTX 4090 24GB — fits comfortably with QLoRA at 1280 tokens
+  per_device_eval_batch_size: 32
+  gradient_accumulation_steps: 1   # Effective batch size = 16; no accumulation needed on 4090
   learning_rate: 2.0e-4
   weight_decay: 0.01
   warmup_ratio: 0.1
@@ -68,7 +68,7 @@ training:
 
 # --- Optuna Hyperparameter Search ---
 optuna:
-  n_trials: 25                # 25 trials is sufficient for 632 samples; 50 wastes hours on this GPU
+  n_trials: 25                # 25 trials is sufficient for ~795 samples; 50 wastes hours on this GPU
   sampler: TPE               # default, but explicit is good
   pruner:
     type: MedianPruner
@@ -84,11 +84,11 @@ optuna:
       high: 5.0e-4
       log: true
     weight_decay: [0.01, 0.05, 0.1]
-    per_device_train_batch_size: [4, 8]  # 16 risks OOM with Llama 8B on 16GB
+    per_device_train_batch_size: [8, 16]  # RTX 4090 handles 16 comfortably
 
 # --- Active Learning ---
 active_learning:
-  seed_size: 300                   # Initial hand-labelled set
+  seed_size: 795                   # Combined eval_labelled_merged (667) + final_extreme_seed (128)
   query_size: 80                   # Sentences to label per cycle
   max_cycles: 4
   strategy: "entropy"              # Options: entropy, margin, least_confidence
@@ -101,6 +101,8 @@ paths:
   data_processed: "data/processed"
   unlabelled_pool: "data/all_unlabelled_sentences/master_unlabelled_pool.json"
   seed_sentences: "data/initial_training_seed_sentences"
-  seed_data_merged: "data/QuantCube_Seed_Labelled/all_labelled_sentences.json"
+  seed_data_merged:
+    - "data/eval_labelled_merged.json"
+    - "data/QuantCube_Seed_Batches/final_extreme_seed.json"
   model_output: "models"
   logs: "logs"

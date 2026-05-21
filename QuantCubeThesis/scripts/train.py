@@ -36,7 +36,7 @@ def main():
     parser.add_argument("--config", type=str, default="configs/default.yaml")
     parser.add_argument(
         "--prompt", type=str,
-        default="prompts/P3_medium_5shot_final.txt",
+        default="prompts/P5_v10.txt",
         help="Prompt template file with {sentence} placeholder",
     )
     parser.add_argument("--optuna", action="store_true",
@@ -51,19 +51,32 @@ def main():
 
     model_name  = config["model"]["name"]
     max_length  = config["model"]["max_seq_length"]
-    labels_path = config["paths"]["seed_data_merged"]
+    data_paths  = config["paths"]["seed_data_merged"]
     prompt_path = args.prompt
+
+    # seed_data_merged can be a single path string or a list of paths
+    if isinstance(data_paths, str):
+        data_paths = [data_paths]
 
     print(f"Model:      {model_name}")
     print(f"Prompt:     {prompt_path}")
-    print(f"Data:       {labels_path}")
+    print(f"Data:       {data_paths}")
     print(f"Max length: {max_length}")
     print(f"Device:     {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
     print()
 
-    # ── Load data ─────────────────────────────────────────────────────────────
-    df = load_labels(labels_path)
-    print(f"Loaded {len(df)} labelled sentences")
+    # ── Load data (combine + deduplicate across all seed files) ───────────────
+    import json, pandas as pd
+    seen_ids, all_records = set(), []
+    for p in data_paths:
+        with open(p, encoding="utf-8") as f:
+            records = json.load(f)
+        for r in records:
+            if r["id"] not in seen_ids:
+                all_records.append(r)
+                seen_ids.add(r["id"])
+    df = pd.DataFrame(all_records)
+    print(f"Loaded {len(df)} labelled sentences from {len(data_paths)} file(s)")
     print(f"SEN distribution:\n{df['sen'].value_counts().to_string()}\n")
 
     with open(prompt_path, encoding="utf-8") as f:
@@ -93,11 +106,19 @@ def main():
 
     # ── Single run or Optuna search ───────────────────────────────────────────
     if args.optuna:
+        n_trials = config["optuna"]["n_trials"]
+        print(f"\n{'='*60}")
+        print(f"  OPTUNA HYPERPARAMETER SEARCH")
+        print(f"  Trials: {n_trials}  |  Train: {len(dataset['train'])}  "
+              f"Val: {len(dataset['validation'])}  Test: {len(dataset['test'])}")
+        print(f"  Search space: {config['optuna']['search_space']}")
+        print(f"{'='*60}\n")
+
         study = run_optuna_search(
             model_name=model_name,
             dataset=dataset,
             output_dir=os.path.join(config["paths"]["model_output"], "optuna"),
-            n_trials=config["optuna"]["n_trials"],
+            n_trials=n_trials,
             search_space=config["optuna"]["search_space"],
         )
 

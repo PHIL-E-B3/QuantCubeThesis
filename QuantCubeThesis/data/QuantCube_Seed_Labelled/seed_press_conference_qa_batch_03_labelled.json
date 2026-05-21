@@ -166,10 +166,10 @@
     "date": "20190619",
     "context_question": "Is there any intention, is there any plan on the part of the Fed or other regulators to sort of create any additional clarity for, or—and consistency, really—that's the other point of guidance, right?—is to make sure everyone knows kind of what the supervisory expectations are for leveraged lending and for all—for anything, for that matter. Is anything else coming? Or is it just going to remain kind of, like, bilateral kind of conversations with banks?",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -235,10 +235,10 @@
     "date": "20121212",
     "context_question": "The debate over the extent to which the unemployment rate is falling from—",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

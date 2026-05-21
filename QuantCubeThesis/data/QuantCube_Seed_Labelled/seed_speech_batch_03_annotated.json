@@ -31,7 +31,7 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "com": "conditional",
+    "com": "none",
     "hor": true,
     "ris": "na",
     "wid": "none"
@@ -47,9 +47,9 @@
       "inflation"
     ],
     "ten": "interpretive",
-    "sen": "hawkish",
+    "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -61,10 +61,10 @@
     "date": "2018-10-02",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -95,10 +95,10 @@
     "date": "2007-03-12",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -112,10 +112,10 @@
     "date": "2012-04-13",
     "context_question": null,
     "top": [
-      "financial_conditions"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "dovish",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -129,10 +129,10 @@
     "date": "2019-10-16",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -180,10 +180,10 @@
     "date": "2019-02-10",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -197,10 +197,10 @@
     "date": "2024-08-28",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",
@@ -217,7 +217,7 @@
       "inflation"
     ],
     "ten": "descriptive",
-    "sen": "hawkish",
+    "sen": "strongly_dovish",
     "com": "none",
     "hor": false,
     "ris": "na",

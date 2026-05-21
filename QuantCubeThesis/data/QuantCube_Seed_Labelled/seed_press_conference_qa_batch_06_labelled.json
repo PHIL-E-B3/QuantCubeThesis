@@ -180,10 +180,10 @@
     "date": "20231213",
     "context_question": "But, but would you take that as a signal that you should cut rates?",
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
     "ten": "descriptive",
-    "sen": "na",
+    "sen": "neutral",
     "com": "none",
     "hor": false,
     "ris": "na",

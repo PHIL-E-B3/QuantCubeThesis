@@ -16,7 +16,7 @@
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "contested"
+    "wid": "none"
   },
   {
     "id": "053aa189-fc58-4a13-87ff-0e4bbc4b037f",
@@ -33,7 +33,7 @@
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "none"
+    "wid": "contested"
   },
   {
     "id": "e65a2d4d-1ab6-46e7-871f-635b9b60403b",
@@ -63,10 +63,10 @@
       "labor_market"
     ],
     "ten": "descriptive",
-    "sen": "neutral",
+    "sen": "hawkish",
     "hor": false,
     "com": "none",
     "ris": "na",
-    "wid": "contested"
+    "wid": "none"
   }
 ]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b6b12a3b-2edd-4eb2-aadc-6c4a5d9298de",
+    "sentence": "The dynamics of this adjustment, which coincided with the collapse of the global credit boom, helped push the U.S. economy into deep recession.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2009-04-20",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "strongly_dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "strongly_dovish": true,
+    "note": "Describes the U.S. economy being pushed into a deep recession (2009 speech, current-state). 'Collapse' (of the global credit boom) and 'deep recession' are explicit intensity markers; severe aggregate weakness -> strongly_dovish. Aggregate economy, no single variable dominates -> macro."
+  },
+  {
+    "id": "a46aa0e0-3a66-47cf-a4e9-ed80721812f9",
+    "sentence": "We have had to contend with the persistent effects of the seizing-up of the financial system, the collapse of housing prices and construction, new financial shocks in Europe and elsewhere, restrictive fiscal policies at all levels of government, and, of course, the enormous blows to output and employment associated with the worst U.S. recession since the Great Depression.",
+    "source": "Communication and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-11-19",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "strongly_dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "strongly_dovish": true,
+    "note": "Enumerates five distinct adverse forces (financial-system seizure, housing/construction collapse, European shocks, restrictive fiscal policy, blows to output and employment) -> criterion (c), 3+ same-direction signals. Intensity markers 'collapse', 'enormous blows', 'worst recession since the Great Depression'. Tied to current state via 'persistent effects' -> strongly_dovish. Spans many variables -> macro."
+  },
+  {
+    "id": "996874d4-3c57-41d0-9f64-70f5f3f27842",
+    "sentence": "Although the economy has continued to recover and the labor market is approaching our maximum employment objective, inflation has been persistently below 2 percent. That has been especially true recently, as the drop in oil prices over the past year, on the order of about 60 percent, has led directly to lower inflation as it feeds through to lower prices of gasoline and other energy items. As a result, 12-month changes in the overall personal consumption expenditure (PCE) price index have recently been only a little above zero (chart 1).",
+    "source": "U.S. Inflation Developments",
+    "doc_type": "speech",
+    "date": "2015-08-29",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "strongly_dovish": true,
+    "note": "Oil prices dropped 'about 60 percent', driving PCE inflation to 'only a little above zero' - far below the 2 percent target with explicit magnitude markers. The concessive opener ('Although the economy has continued to recover...') is subordinate; the cell is dominantly about very low inflation -> strongly_dovish, top inflation."
+  },
+  {
+    "id": "c5c935fe-ade7-4d1b-9294-5d43ae06c8d2",
+    "sentence": "Concluding Remarks\r\nWhile recovery since the spring collapse in economic activity has been robust, let us not forget that the full economic recovery from the COVID-19 recession has a long way to go, with the unemployment rate still elevated at 7.9 percent as of September and inflation still running below our 2 percent longer-run objective.",
+    "source": "U.S. Economic Outlook, Monetary Policy, and Initiatives to Sustain the Flow of Credit to Households and Firms ",
+    "doc_type": "speech",
+    "date": "2020-10-19",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "strongly_dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "strongly_dovish": true,
+    "note": "Main clause enumerates three distinct dovish signals: recovery has a long way to go, unemployment still elevated at 7.9 percent, inflation still below the 2 percent objective -> criterion (c). The concessive 'While...recovery has been robust' is subordinate and only mildly hawkish ('robust' stays mild) -> does not net out -> strongly_dovish."
+  }
+]

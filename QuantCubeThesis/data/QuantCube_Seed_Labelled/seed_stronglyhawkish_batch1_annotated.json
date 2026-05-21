@@ -1,0 +1,112 @@
+[
+  {
+    "id": "465e1e43-90d4-4e37-95c0-174a60b34c34",
+    "sentence": "Recently, headline inflation has been pushed higher by sizable increases in food and energy prices; crude oil prices have surged, and food prices have risen significantly, reflecting strong global demand in general as well as hefty demand in particular for corn for use in ethanol production.",
+    "source": "Outlook and Risks for the U.S. Economy",
+    "doc_type": "speech",
+    "date": "2008-03-04",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Current state ('Recently...pushed higher') with three stacked intensifiers: 'surged', 'risen significantly', 'sizable increases'. Multiple intensifiers on a current-state inflation level → strongly_hawkish."
+  },
+  {
+    "id": "89b6df1a-b2da-4d77-864f-3a89d76f4287",
+    "sentence": "This headline number was a slight decline from 8.5 percent in March but primarily due to a drop in volatile gasoline prices that we know surged again this month.",
+    "source": "Responding to High Inflation, with Some Thoughts on a Soft Landing",
+    "doc_type": "speech",
+    "date": "2022-05-30",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "8.5% headline inflation is extreme level well above target + gasoline 'surged again this month' = current intensifier. Level governs the slight decline direction. Strongly_hawkish."
+  },
+  {
+    "id": "ceafb6d6-6604-40d3-8d80-950fb190c29d",
+    "sentence": "Now, let's talk about what these developments mean for inflation. Inflation moderated in the second half of 2022, but that progress more or less stalled toward the end of the year, and inflation remains far above the FOMC's target of 2 percent.",
+    "source": "Financial Stabilization and Macroeconomic Stabilization: Two Tools for Two Problems",
+    "doc_type": "speech",
+    "date": "2023-04-14",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Far above' the 2% target is an explicit level intensifier on current state. Disinflation 'stalled' reinforces. Level governs over the moderation direction. Strongly_hawkish."
+  },
+  {
+    "id": "46bd2059-c872-41b3-a242-268876f0cef4",
+    "sentence": "However, inflation remains well above the FOMC's 2 percent target.",
+    "source": "Financial Stability in Uncertain Times",
+    "doc_type": "speech",
+    "date": "2023-10-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Well above' is on the explicit intensifier list. Current state. Clean strongly_hawkish."
+  },
+  {
+    "id": "d5e6ed5b-9a5b-42d8-947c-0bd06473ec7d",
+    "sentence": "At the current juncture, with inflation remaining well above the Committee's objective, participants remarked that moving to a restrictive stance of policy was required to meet the Committee's legislative mandate to promote maximum employment and price stability.",
+    "source": "minutes_20220615.html",
+    "doc_type": "minutes",
+    "date": "20220615",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Well above' inflation level intensifier + 'restrictive stance was required' = two stacked hawkish signals on current state. Conditional on inflation conditions. Strongly_hawkish."
+  },
+  {
+    "id": "7a551d33-10f0-40eb-b574-b9669ea0a8c9",
+    "sentence": "With inflation remaining well above the Committee's objective, participants judged that moving to a restrictive stance of policy was required to meet the Committee's legislative mandate to promote maximum employment and price stability.",
+    "source": "minutes_20220727.html",
+    "doc_type": "minutes",
+    "date": "20220727",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "strongly_hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Identical structure to d5e6ed5b. 'Well above' + 'restrictive stance was required' = strongly_hawkish."
+  }
+]

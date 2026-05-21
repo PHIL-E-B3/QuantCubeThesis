@@ -80,6 +80,7 @@ def objective(
         batch_size=batch_size,
         learning_rate=learning_rate,
         weight_decay=weight_decay,
+        gradient_accumulation_steps=search_space.get("gradient_accumulation_steps", 2),
     )
 
     data_collator = GenerativeDataCollator(pad_token_id=tokenizer.pad_token_id)
@@ -139,7 +140,7 @@ def run_optuna_search(
     study = optuna.create_study(
         study_name=study_name,
         direction="minimize",
-        pruner=optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=1),
+        pruner=optuna.pruners.MedianPruner(n_startup_trials=5, n_warmup_steps=3),
         storage=storage_url,
         load_if_exists=True,
     )
@@ -152,7 +153,17 @@ def run_optuna_search(
         search_space=search_space,
     )
 
-    study.optimize(obj_fn, n_trials=n_trials)
+    def trial_callback(study: optuna.Study, trial: optuna.trial.FrozenTrial):
+        status = "PRUNED" if trial.state == optuna.trial.TrialState.PRUNED else "OK"
+        loss   = f"{trial.value:.4f}" if trial.value is not None else "n/a"
+        print(f"\n{'─'*60}")
+        print(f"  Trial {trial.number:>3}/{n_trials}  [{status}]  loss={loss}")
+        print(f"  Params: { {k: round(v,6) if isinstance(v,float) else v for k,v in trial.params.items()} }")
+        if study.best_trial:
+            print(f"  Best so far: trial #{study.best_trial.number}  loss={study.best_value:.4f}")
+        print(f"{'─'*60}")
+
+    study.optimize(obj_fn, n_trials=n_trials, callbacks=[trial_callback])
 
     print("\n" + "=" * 60)
     print("OPTUNA SEARCH COMPLETE")

@@ -53,8 +53,8 @@
     "context_question": "Thank you. You said at the beginning of your press conference that you plan to be more plainspoken. And so, okay, I wanted to know what you would say to workers who are worried that, you know, these paths of rate hikes that you’ve laid out will kind of undercut the wage growth they are just starting to see. Thank you.",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
-    "com": "",
+    "sen": "hawkish",
+    "com": "none",
     "hor": false,
     "ris": "",
     "wid": ""
@@ -174,7 +174,7 @@
     "top": [],
     "ten": "descriptive",
     "sen": "",
-    "com": "",
+    "com": "none",
     "hor": false,
     "ris": "",
     "wid": ""
@@ -218,7 +218,7 @@
     "context_question": "Are you more concerned now that to bring down inflation, it’s going to require more than just some pain at this point?",
     "top": [],
     "ten": "descriptive",
-    "sen": "",
+    "sen": "hawkish",
     "com": "",
     "hor": false,
     "ris": "",
