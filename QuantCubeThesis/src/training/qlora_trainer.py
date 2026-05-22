@@ -117,7 +117,7 @@ def load_model_and_tokenizer(
         quantization_config=quantization_config,
         device_map={"": 0},  # force all layers on GPU 0 — no CPU fallback
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
+        attn_implementation="sdpa",
     )
     model.config.pad_token_id = tokenizer.pad_token_id
 
