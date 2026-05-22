@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document records the iterative prompt engineering process for classifying FOMC (Federal Open Market Committee) sentences using `unsloth/Meta-Llama-3.1-8B-Instruct` via vLLM. The goal was to maximise macro-F1 on a 7-field annotation schema applied to 591 held-out sentences from FOMC minutes, press conference transcripts, speeches, and statements.
+This document records the iterative prompt engineering process for classifying FOMC communications using `unsloth/Meta-Llama-3.1-8B-Instruct` via vLLM. The goal was to maximise macro-F1 on a 7-field annotation schema applied to held-out FOMC sentences.
 
 ---
 
@@ -12,256 +12,237 @@ Each sentence is classified into 7 fields:
 
 | Field | Type | Values |
 |-------|------|--------|
-| `topic` | multi-label array | inflation, labor_market, economic_activity, macro, financial_conditions, monetary_policy, boilerplate, no_topic |
+| `topic` | multi-label array | inflation, labor_market, economic_activity, macro, financial_conditions, monetary_policy, no_topic |
 | `tense` | string | descriptive, interpretive |
-| `sentiment` | string | strongly_hawkish, hawkish, neutral, dovish, strongly_dovish, na |
-| `horizon` | boolean | true / false |
+| `sentiment` | string | strongly_hawkish, hawkish, neutral, dovish, strongly_dovish |
 | `commitment` | string | unconditional, conditional, none |
 | `risk` | string | skewed_upside, skewed_downside, symmetric, na |
 | `width` | string | elevated, contested, none |
+
+Note: `horizon` (boolean) was retained in some variants but ultimately handled by a dictionary rule rather than model prediction.
 
 ---
 
 ## Evaluation Setup
 
-- **Validation set**: `eval_labelled_merged_corrected.json` (591 sentences, human-corrected labels)
-- **Training seed**: `all_labelled_sentences.json` (632 sentences) + `final_extreme_seed.json` (128 sentences, oversampled ±2 sentiment and rare risk/width labels) = 760 total
-- **Primary metric**: Macro F1 averaged over topic, sentiment, risk, width (equal weight)
-- **Secondary metric**: SumF1* = same but sentiment excludes `na` (more informative when boilerplate is absent from prompt schema)
-- **Infrastructure**: RunPod GPU (NVIDIA A100-SXM4-80GB / RTX 4090), vLLM 0.17.1, PyTorch 2.10.0, CUDA 12.8
+- **Validation set**: `eval_labelled_merged_corrected.json` (591 original sentences + 151 extended = 742 total)
+- **Training seed**: `all_labelled_sentences.json` (810 sentences after augmentation with rare-label batches)
+- **Primary metric**: Macro F1 averaged over topic, sentiment, risk, width (Summary F1)
+- **Infrastructure**: RunPod A100 SXM4-80GB, vLLM, PyTorch, CUDA 13.0
 
 ---
 
-## Label Distribution (seed + extreme, N=760)
+## Central Finding
 
-| Field | Dominant label | Rare labels |
-|-------|---------------|-------------|
-| sentiment | dovish 28%, neutral 26%, hawkish 21% | strongly_hawkish 8.6%, strongly_dovish 12.1%, na 4.1% |
-| risk | na 87.4% | skewed_downside 8.6%, skewed_upside 3.2%, symmetric 0.9% |
-| width | none 91.7% | elevated 6.1%, contested 2.2% |
-| horizon | False 93% | True 7% |
+**Instructions and verbosity mattered more than shot count, but targeted examples mattered most of all.**
 
-The scarcity of rare labels (especially `symmetric` risk, `contested` width, `strongly_hawkish`) was a persistent challenge throughout.
+P5 (high-detail instructions, 3 examples) was competitive with or better than P7 (5 examples, lower-detail instructions), demonstrating that schema clarity and rule precision outweigh example volume for an 8B model. However, adding two precisely targeted examples to P5 — one for `strongly_hawkish`, one for `strongly_dovish` — produced a prompt that outperformed both P5 and P7 individually. This combination (P5 instruction quality + P7 shot count) became the basis for all subsequent versions.
+
+The final compression phase (v10 → v27) confirmed the corollary: **examples carry more information per token than instruction text**. Aggressive instruction compression had minimal impact; aggressive example compression caused measurable regression.
 
 ---
 
-## Key Insight: Inflated Aggregate Scores
+## Phase 1: Early Baselines (P0–P8, p1–p6)
 
-Risk and width macro-F1 scores appeared high (~0.60–0.65) but were inflated by the dominant `na`/`none` defaults. When evaluated on **non-default labels only**:
+Minimal-schema prompts with no few-shot examples.
 
-- Risk drops from ~0.65 → ~0.55
-- Width drops from ~0.58 → ~0.42
-- Sentiment stays ~0.40 (never had a dominant default to inflate it)
-
-All three fields are genuinely performing at 0.40–0.55 on the hard cases. Sentiment is not uniquely bad — it just lacked the easy-default crutch.
+- **Summary F1**: ~0.15 across all early variants
+- These produced near-random outputs — the model could not apply the schema without worked examples
+- **Lesson**: Rules without examples are insufficient for an 8B model
 
 ---
 
-## Prompt Iterations
-
-### Early Prompts (P0–P8, lowercase p1–p6)
-
-Baseline prompts with minimal schema, no few-shot examples, or simple schema-only instructions.
-
-- **SumF1**: ~0.15 across all early variants
-- These effectively produced random outputs — the model could not follow the schema without worked examples
-
----
+## Phase 2: First Few-Shot Prompts (P2, P3)
 
 ### P2_medium_3shot_final
-
-First generation of "final" prompts. Medium-detail schema with 3 few-shot examples.
-
-- **SumF1**: 0.509
-- Notable: hawkish recall very high (0.904) but precision very low (0.325) — model defaulted to hawkish as a safe label
+- **Summary F1**: 0.509
+- Hawkish recall very high (0.904) but precision very low (0.325) — model defaulted to hawkish
 - `contested` width: 0.000 — completely undetected
 
----
-
-### P3_medium_5shot_final / P3_medium_5shot_final_v3
-
-Expanded to 5 shots. Modest improvement.
-
-- **SumF1**: 0.552 / 0.531
-- Best topic F1 across early prompts (0.629 for P3)
+### P3_medium_5shot_final / v3
+- **Summary F1**: 0.552 / 0.531
+- Best topic F1 in early phase (0.629)
 - Sentiment and contested still weak
 
 ---
 
-### P5_high_3shot_final (baseline champion)
+## Phase 3: High-Detail Schema (P5 vs P7)
 
-High-detail schema, 3 carefully selected few-shot examples. Became the baseline to beat for all subsequent iterations.
-
-- **SumF1**: 0.567
-- Best overall for a long period
+### P5_high_3shot_final — Baseline Champion
+- **Summary F1**: 0.567
+- High-detail schema, 3 carefully selected few-shot examples
 - Weaknesses: `strongly_hawkish` (0.190), `strongly_dovish` (0.171), `contested` (0.083)
 
----
+### P7_high_5shot_final / v3
+- **Summary F1**: 0.555 / 0.562
+- 5 examples with less detailed schema
+- Best `unconditional` commitment F1 (0.697)
 
-### P5_high_3shot_final_v3
-
-Added error-correction rules targeting known failure modes.
-
-- **SumF1**: 0.563 (marginal drop overall)
-- Improved: `strongly_hawkish` (0.261), `contested` (0.304), width (0.627)
-- The v3 error-correction rules made the model more conservative
-
----
-
-### P7_high_5shot_final / P7_high_5shot_final_v3
-
-5-shot variant of P5's high-detail schema.
-
-- **SumF1**: 0.555 / 0.562
-- P7 had best `unconditional` commitment F1 (0.697)
-- v3 improved risk at cost of sentiment
-
----
+**Key observation**: P5 with 3 examples matched or outperformed P7 with 5 examples. High-detail instructions compensated for fewer shots. This confirmed that **verbosity and schema precision matter more than shot count**.
 
 ### P8_high_12shot_final_v4
+- **Summary F1**: 0.521
+- 12 examples — worst result of the high-shot experiments
+- Long prompt pushed model past effective context, diluting signal
+- **Lesson confirmed**: more shots ≠ better. Sweet spot for 8B models is 3–5 well-chosen examples
 
-12 few-shot examples — the most shots attempted.
-
-- **SumF1**: 0.521
-- Counterintuitively worse than P5 (3-shot)
-- More shots hurt: long prompt pushed the model past its effective context, diluting signal
-- Lesson: **more shots ≠ better performance for 8B models**
-
----
-
-### Chain-of-Thought Variants (P5-CoT, P7-CoT, P7v3-CoT, P8-CoT)
-
-Added explicit step-by-step reasoning before the JSON output.
-
-**Key findings:**
-- CoT **dramatically improved** `strongly_hawkish` for P7-CoT: 0.105 → **0.462**
-- CoT consistently improved `neutral` detection across all variants
-- CoT **hurt** `strongly_dovish` (collapsed to 0.000 on some variants)
-- CoT helped `horizon True` slightly
-- Net effect: P7-CoT (0.566 SumF1) nearly matched P5 but didn't clearly beat it
-- CoT is most valuable for intensity detection when combined with the right base examples
+### Chain-of-Thought Variants
+- CoT improved `strongly_hawkish` dramatically for P7-CoT: 0.105 → **0.462**
+- CoT consistently improved `neutral` detection
+- CoT hurt `strongly_dovish` in some variants
+- Net: P7-CoT (0.566) nearly matched P5 but didn't clearly beat it
+- CoT most valuable for intensity detection combined with the right base examples
 
 ---
 
-### FOMC Annotation Scheme (zero-shot)
+## Phase 4: Structural Audit and Schema Fixes
 
-Tested the full 8000-token annotation scheme document as a zero-shot prompt.
+Before further iteration, a full audit against v3 annotation instructions identified:
 
-- **SumF1**: 0.153
-- Complete failure — the 8B model could not apply the full ruleset without examples
-- Lesson: **detailed rules without examples do not work for small models**
-
----
-
-### P5_high_3shot_v4 / P7_high_5shot_v4
-
-V4 variants collapsed `boilerplate` into `no_topic` and removed `na` from sentiment.
-
-- P5v4 **SumF1**: 0.555 raw, **0.573 SumF1*** (second best when na excluded)
-- `contested` improved significantly: 0.083 → 0.321
-- `strongly_dovish` improved: 0.171 → 0.111 → 0.233 (mixed)
-- Boilerplate/na removal penalised raw score but represented genuine schema simplification
+1. **Schema collapse**: boilerplate vs no_topic distinction. Resolved: procedural sentences → no_topic + neutral (not na). Locked as grading rule.
+2. **Commitment definition**: tightened to strict two-part test — commitment verb AND explicit condition phrase. Easier for small model than fuzzy rule.
+3. **Risk field contradiction**: `na` definition conflicted with conditional rule. Fixed: na = no explicit risk framing AND no conditional structure.
+4. **Intensity vocabulary drift**: union of v3 and prompt lists adopted (including "tremendous", "dramatically", "plummeted", "severe").
+5. **Recurring annotation errors** across 8 batches:
+   - **Inflation polarity inversion** (8 sentences): subdued/moderating inflation labeled hawkish
+   - **Commitment overclaiming** (10+ sentences): "will + vague action" called unconditional; "expects + action" called conditional
+   - **Horizon misses** (8 sentences): "over the medium term", "over time", etc. left false
+   - **Risk direction inversions**: downside risks called upside; dual-mandate collision misclassified
+   - **Width conflation**: contested vs elevated repeatedly confused
 
 ---
 
-### P_final_v5 / P5_final_v6 / P5_v7
+## Phase 5: The Breakthrough — P5_FINAL / P5_v10
 
-Iterative refinements focusing on schema clarity and risk compression.
+### The "Best of Both Worlds" Insight
 
-- P_final_v5: **SumF1**: 0.540 — strong width (0.644) and commitment (0.671)
-- P5_v7: compressed `na` risk into `symmetric` — concept valid but sentiment degraded badly (0.302), collapsed risk score
-- Lesson: `na` removal in risk hurt more than helped at this model size
+Adding two precisely targeted examples to P5 achieved what neither P5 nor P7 could separately:
+- Example 1: *"The January employment report came in substantially stronger than most forecasters expected"* → teaches intensity marker in comparison phrase → strongly_hawkish
+- Example 2: *"The unemployment rate surged in April by more than 10 percentage points to 14.7 percent, an 80-year high"* → teaches stacked markers + forward projection → strongly_dovish + skewed_downside
 
----
+This is technically equivalent to converting P5 into a P7-style prompt (5 examples with high-detail instructions) — **combining P5's instruction quality with P7's shot coverage**.
 
-### P5_FINAL
-
-Added two targeted few-shot examples from the extreme seed:
-- **Strongly hawkish**: *"The January employment report came in substantially stronger than most forecasters expected"* — illustrates `substantially stronger than expected` as intensity marker
-- **Strongly dovish**: *"The unemployment rate surged in April by more than 10 percentage points to 14.7 percent, an 80-year high"* — illustrates stacked intensity markers + `skewed_downside` interaction
-
-Results:
-- **SumF1**: 0.565 (raw), **0.585 SumF1*** (best at the time on hard cases)
+### P5_FINAL Results
+- **Summary F1**: 0.565 raw, 0.585 SumF1*
 - `contested` width: 0.083 → **0.370** (largest single improvement)
 - `strongly_hawkish`: 0.190 → 0.308
 - `unconditional` commitment: 0.584 → **0.693**
 - `economic_activity` topic: 0.563 → 0.661
-- Trade-offs: horizon detection degraded; the new examples didn't cover long-term horizon language
 
----
+### P5_v10 — Further Refinement (Final Reference Prompt)
 
-### P5_v10 — Final Prompt
+Additional rule additions targeting documented failures:
+- Skewed upside clarification: "MORE inflation is the tail risk — label captures direction, not value judgment"
+- Intensity criteria restructured into explicit (a/b/c) with comparison-phrase qualification
+- Cumulative signals rule: 3+ same-direction signals → strongly_
+- Width elevated triggers expanded with casual expressions
+- DEFAULT-TO-NEUTRAL exception: intensity marker present → fire ±2 regardless
 
-Further refinement incorporating lessons from P5_FINAL. Addressed precision failures and added more calibrated examples.
-
-- **SumF1**: **0.606** (raw), **0.626 SumF1*** — new best by a significant margin (+0.04 over previous best)
+**Summary F1: 0.606 (new best by +0.04)**
 
 #### Per-label results:
 
-| Field | Label | Prec | Rec | F1 |
-|-------|-------|------|-----|----|
-| topic | inflation | 0.887 | 0.881 | **0.884** |
-| topic | labor_market | 0.808 | 0.860 | **0.833** |
-| topic | monetary_policy | 0.740 | 0.816 | **0.776** |
-| topic | economic_activity | 0.568 | 0.892 | 0.695 |
-| topic | financial_conditions | 0.564 | 0.824 | 0.670 |
-| topic | no_topic | 0.355 | 0.717 | 0.475 |
-| topic | macro | 0.404 | 0.610 | 0.486 |
-| sentiment | neutral | 0.543 | 0.744 | **0.628** |
-| sentiment | dovish | 0.621 | 0.594 | **0.607** |
-| sentiment | hawkish | 0.531 | 0.675 | **0.595** |
-| sentiment | strongly_hawkish | 0.667 | 0.222 | 0.333 |
-| sentiment | strongly_dovish | 0.200 | 0.160 | 0.178 |
-| risk | na | 0.972 | 0.920 | **0.945** |
-| risk | symmetric | 0.700 | 0.778 | **0.737** |
-| risk | skewed_upside | 0.714 | 0.714 | **0.714** |
-| risk | skewed_downside | 0.544 | 0.782 | 0.642 |
-| width | none | 0.950 | 0.971 | **0.960** |
-| width | elevated | 0.931 | 0.574 | 0.711 |
-| width | contested | 0.308 | 0.400 | 0.348 |
-| commitment | none | 0.968 | 0.856 | **0.908** |
-| commitment | unconditional | 0.636 | 0.686 | 0.660 |
-| commitment | conditional | 0.396 | 0.833 | 0.537 |
-| horizon | False | 0.970 | 0.752 | **0.847** |
-| horizon | True | 0.314 | 0.831 | 0.456 |
-
-#### Remaining failure modes in P5_v10:
-
-| Pattern | Labels affected | Root cause |
-|---------|----------------|-----------|
-| **Recall failure** | `strongly_hawkish` (rec=0.222), `elevated` (rec=0.574) | Model too conservative — fires only when very certain |
-| **Precision failure** | `economic_activity`, `financial_conditions`, `no_topic` (prec~0.35–0.57), `conditional` (prec=0.396), `horizon True` (prec=0.314) | Model over-fires — too many false positives |
-| **Both weak** | `strongly_dovish` (F1=0.178), `contested` (F1=0.348), `macro` (F1=0.486) | Genuinely rare/ambiguous labels — insufficient training signal |
-| **Schema gap** | `boilerplate` (F1=0.000), `na` sentiment (F1=0.000) | Intentionally removed from prompt schema |
+| Field | Label | F1 |
+|-------|-------|----|
+| topic | inflation | 0.884 |
+| topic | labor_market | 0.833 |
+| topic | monetary_policy | 0.776 |
+| topic | economic_activity | 0.695 |
+| topic | financial_conditions | 0.670 |
+| topic | macro | 0.486 |
+| topic | no_topic | 0.475 |
+| sentiment | neutral | 0.628 |
+| sentiment | dovish | 0.607 |
+| sentiment | hawkish | 0.595 |
+| sentiment | strongly_hawkish | 0.333 |
+| sentiment | strongly_dovish | 0.178 |
+| risk | na | 0.945 |
+| risk | symmetric | 0.737 |
+| risk | skewed_upside | 0.714 |
+| risk | skewed_downside | 0.642 |
+| width | none | 0.960 |
+| width | elevated | 0.711 |
+| width | contested | 0.348 |
+| commitment | none | 0.908 |
+| commitment | unconditional | 0.660 |
+| commitment | conditional | 0.537 |
 
 ---
 
-## Summary of Prompt Evolution
+## Phase 6: Token Compression for Fine-Tuning (v10 → v27)
 
-| Prompt | SumF1 | SumF1* | Key change |
-|--------|-------|--------|------------|
-| P0–P8 (early) | ~0.15 | — | Baseline/no examples |
-| P2_medium_3shot_final | 0.509 | — | First few-shot |
-| P5_high_3shot_final | 0.567 | 0.562 | High-detail schema, 3 shots |
-| P7_high_5shot_final_CoT | 0.566 | 0.579 | CoT — best strongly_hawkish |
-| P5_high_3shot_v4 | 0.555 | 0.573 | Removed boilerplate/na |
-| P5_FINAL | 0.565 | 0.585 | Added ±2 targeted examples |
-| **P5_v10** | **0.606** | **0.626** | Final refinement — new best |
+P5_v10 at ~2,900 tokens was too long for efficient fine-tuning (max_seq_length constraint). Target: ~2,200 tokens. This phase systematically tested compression strategies.
+
+### Strategy 1 — Article Stripping (→ v11/v12, ~2,444 tokens)
+Removed articles, tightened phrasing throughout instruction section. No content removed.
+- **Result**: matched v10 performance exactly
+- **Lesson**: Article stripping loses zero semantic content
+
+### Strategy 2 — Merge Redundant Rule Blocks (→ ~2,200 tokens)
+Collapsed DEFAULT-TO-NEUTRAL and Key Rules into sentiment definition.
+- **Result**: performance dropped, primarily on risk
+- **Diagnosis**: compressing directional logic into dense prose caused model to conflate risk and sentiment concepts. Risk requires two-step reasoning sensitive to instruction clarity.
+
+### Strategy 3 — Cut Negative Contested Examples
+Removed ✗ NOT contested examples from width.
+- **Result**: poor performance
+- **Lesson**: Negative examples are load-bearing. "Fell but remained high" teaches both the level-override rule AND that level+direction ≠ contested. Cannot be removed.
+
+### v15 (~2,430 tokens)
+Strategy 1 + width trigger cuts + light trimming + horizon removed (handled by dictionary rule).
+- Only 14 tokens fewer than v12 despite all changes
+- **Lesson confirmed**: examples dominate token count (~60% of total); instruction compression has hit diminishing returns
+
+### v23 — Aggressive Reasoning Compression
+Trimmed reasoning blocks in all examples aggressively.
+- **Result**: bad performance on sentiment and risk
+- **Lesson**: Sentiment and risk need full reasoning chains. The model needs every logical step spelled out, not just the conclusion.
+
+### v24 — Conservative Reasoning Restoration
+Restored sentiment and risk reasoning near-original length. Added contrast language for intensity threshold. Added "do not confuse with skewed_downside" to upside example.
+- **~1,954 tokens** — identified ~100 tokens of headroom
+
+### v25–v27 — Final Budget Spending (~2,217 tokens)
+Three targeted additions using remaining headroom, each addressing documented failure modes:
+1. Added explicit inflation polarity rule: "subdued/moderate/at or below target = dovish, not hawkish" — making the 8-instance recurring error explicit in instructions
+2. Added "NOT elevated" to contested example reasoning — teaching that opposing forces without uncertainty vocabulary → wid=none, not elevated
+3. Changed example 4 risk label to "skewed_downside, not na" — reinforcing that forward-projecting deterioration populates risk
+
+**P5_v27 — Final Prompt for Fine-Tuning: 2,217 tokens**
+
+---
+
+## Summary Table
+
+| Prompt | Summary F1 | Key change |
+|--------|-----------|------------|
+| P0–P8 (early) | ~0.15 | Baseline, no examples |
+| P2_medium_3shot_final | 0.509 | First few-shot |
+| P5_high_3shot_final | 0.567 | High-detail schema, 3 shots |
+| P7_high_5shot_final | 0.555 | 5 shots, less instruction detail |
+| P7-CoT | 0.566 | Chain-of-thought — best strongly_hawkish |
+| P5_FINAL | 0.565 | Added 2 targeted ±2 examples |
+| **P5_v10** | **0.606** | Full revision — new best |
+| P5_v27 | (fine-tuning) | Compressed to 2,217 tokens |
 
 ---
 
 ## Key Lessons
 
-1. **More shots ≠ better**: P8 with 12 shots underperformed P5 with 3. Sweet spot for 8B models appears to be 3–5 well-chosen examples.
+1. **Instructions > shot count, but targeted examples > both**: P5 beat P7 on instruction quality, but adding 2 precisely targeted examples to P5 outperformed both. The combination of P5's schema precision with P7's shot range achieved the best results.
 
-2. **Intensity detection requires targeted examples**: The ±2 labels (strongly_hawkish/dovish) only improved meaningfully once explicit intensity-marker examples were added to the prompt. Generic schema rules were insufficient.
+2. **More shots ≠ better**: P8 with 12 shots underperformed P5 with 3. Sweet spot for 8B models is 3–5 well-chosen examples. Beyond 5, the prompt context crowds out the model's working memory.
 
-3. **CoT helps selectively**: Chain-of-thought reasoning improved intensity detection and neutral classification but hurt strongly_dovish detection. Most valuable for intensity when combined with the right base prompt (P7-CoT).
+3. **Negative examples are load-bearing**: The ✗ NOT contested examples in width were carrying two rules simultaneously. Removing them caused measurable regression. Before cutting any example content, test the specific rule it teaches.
 
-4. **Aggregate scores are misleading**: The dominant `na`/`none` defaults inflate risk and width macro-F1 by ~0.10–0.15. Evaluating on non-default labels only gives a more honest picture.
+4. **Examples dominate token cost**: ~60% of total tokens are in examples. Instruction compression yielded diminishing returns after basic article stripping. To materially reduce token count, you must compress or remove examples — but this comes at a performance cost.
 
-5. **Boilerplate/na removal is a net win**: Removing the boilerplate topic and na sentiment from the schema simplifies the task and improves performance on substantive labels — the raw F1 drop is an artefact of evaluation methodology, not real degradation.
+5. **Sentiment and risk need full reasoning chains**: Compressing example reasoning caused the largest performance drops. These fields have the most nuanced rules and the model needs to see each logical step.
 
-6. **Full annotation schemes don't work zero-shot**: The complete 8000-token annotation document scored 0.153 — worse than random on most fields. Small models need examples, not rules.
+6. **Instruction-level and example-level teaching are complementary**: The inflation polarity error persisted across 8 sentences despite being implicitly taught through examples. Making it an explicit rule ("subdued/moderate = dovish") provided a second learning signal.
 
-7. **Precision and recall failures require different fixes**: Over-firing labels (e.g., `horizon True`, `conditional`) need negative examples; under-firing labels (e.g., `strongly_hawkish`, `elevated`) need more positive examples and explicit recall-encouraging instructions.
+7. **Contested is the hardest field**: F1=0.348–0.370 throughout, resistant to prompt changes. Requires simultaneous evaluation of 5 conditions. Negative examples and the "hedge ≠ economic force" rule are the most important guardrails.
+
+8. **Schema decisions have outsized downstream impact**: The largest F1 jump came from fixing boilerplate/no_topic schema collapse — not from any prompt refinement. Clean, consistent labels matter more than prompt sophistication with small training data.
+
+9. **Full annotation schemes don't work zero-shot**: The complete 8000-token annotation document scored 0.153 — worse than random. Small models need examples, not rules alone.

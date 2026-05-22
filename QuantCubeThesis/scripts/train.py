@@ -43,6 +43,8 @@ def main():
                         help="Run Optuna hyperparameter search")
     parser.add_argument("--baseline", action="store_true",
                         help="Print dataset stats and exit (no training)")
+    parser.add_argument("--retrain-best", action="store_true",
+                        help="Skip Optuna search; retrain with best params already in DB")
     args = parser.parse_args()
 
     # ── Load config ───────────────────────────────────────────────────────────
@@ -105,6 +107,37 @@ def main():
         return
 
     # ── Single run or Optuna search ───────────────────────────────────────────
+    if args.retrain_best:
+        import optuna
+        db_path = os.path.join(config["paths"]["model_output"], "optuna", "fomc_qlora.db")
+        study = optuna.load_study(
+            study_name="fomc_qlora",
+            storage=f"sqlite:///{db_path}",
+        )
+        best = study.best_params
+        print(f"\n=== Retraining with best parameters (trial #{study.best_trial.number}, loss={study.best_value:.4f}) ===")
+        print(f"  Params: {best}")
+        lora_config = get_lora_config(
+            r=best["lora_r"],
+            lora_alpha=best["lora_r"] * best["lora_alpha_multiplier"],
+            lora_dropout=best["lora_dropout"],
+        )
+        model, _ = load_model_and_tokenizer(model_name, lora_config)
+        tr_cfg = config["training"]
+        training_args = get_training_args(
+            output_dir=os.path.join(config["paths"]["model_output"], "best"),
+            num_epochs=tr_cfg["num_epochs"],
+            batch_size=best["batch_size"],
+            learning_rate=best["learning_rate"],
+            weight_decay=best["weight_decay"],
+            gradient_accumulation_steps=tr_cfg["gradient_accumulation_steps"],
+            warmup_ratio=tr_cfg["warmup_ratio"],
+        )
+        train(model, tokenizer, dataset,
+              output_dir=os.path.join(config["paths"]["model_output"], "best"),
+              training_args=training_args)
+        return
+
     if args.optuna:
         n_trials = config["optuna"]["n_trials"]
         print(f"\n{'='*60}")
