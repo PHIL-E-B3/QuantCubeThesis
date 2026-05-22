@@ -5,7 +5,7 @@
 # --- Model ---
 model:
   name: "unsloth/Meta-Llama-3.1-8B-Instruct"  # Llama 3.1 (ungated mirror)
-  max_seq_length: 4096         # P5_v10 prompt (~2900 tokens) + sentence + JSON response
+  max_seq_length: 2560         # P5_v27 (2217 tokens) + sentence (~160) + response (~80) + buffer; 2560 = 10 × 256
   trust_remote_code: false
 
 # --- Quantization (QLoRA) ---

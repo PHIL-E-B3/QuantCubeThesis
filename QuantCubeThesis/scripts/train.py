@@ -36,7 +36,7 @@ def main():
     parser.add_argument("--config", type=str, default="configs/default.yaml")
     parser.add_argument(
         "--prompt", type=str,
-        default="prompts/P5_v10.txt",
+        default="prompts/P5_v27.txt",
         help="Prompt template file with {sentence} placeholder",
     )
     parser.add_argument("--optuna", action="store_true",
