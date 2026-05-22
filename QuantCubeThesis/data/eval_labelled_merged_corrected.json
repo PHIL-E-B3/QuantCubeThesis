@@ -11826,7 +11826,7 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": "na",
     "dir": "hawkish",
     "com": "conditional",
@@ -11848,8 +11848,8 @@
     "top": [
       "inflation"
     ],
-    "ten": "backward",
-    "sen": -2,
+    "ten": "descriptive",
+    "sen": "strongly_dovish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -11868,8 +11868,8 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
-    "sen": 1,
+    "ten": "interpretive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -11886,13 +11886,13 @@
     "date": "20190501",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
-    "ten": "none",
-    "sen": "na",
+    "ten": "descriptive",
+    "sen": "neutral",
     "dir": "na",
-    "com": "na",
-    "hor": "na",
+    "com": "none",
+    "hor": false,
     "con": "na",
     "dom": "na",
     "ris": "na",
@@ -11908,7 +11908,7 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "forward",
+    "ten": "interpretive",
     "sen": "na",
     "dir": "dovish",
     "com": "conditional",
@@ -11928,10 +11928,10 @@
     "date": "20240501",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
-    "ten": "backward",
-    "sen": 1,
+    "ten": "descriptive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -11948,13 +11948,13 @@
     "date": "20190320",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
-    "ten": "none",
-    "sen": "na",
+    "ten": "descriptive",
+    "sen": "neutral",
     "dir": "na",
-    "com": "na",
-    "hor": "na",
+    "com": "none",
+    "hor": false,
     "con": "na",
     "dom": "na",
     "ris": "na",
@@ -11970,8 +11970,8 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "forward",
-    "sen": 1,
+    "ten": "interpretive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -11990,8 +11990,8 @@
     "top": [
       "inflation"
     ],
-    "ten": "forward",
-    "sen": 1,
+    "ten": "interpretive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -12010,7 +12010,7 @@
     "top": [
       "monetary_policy"
     ],
-    "ten": "present",
+    "ten": "descriptive",
     "sen": "na",
     "dir": "neutral",
     "com": "unconditional",
@@ -12030,10 +12030,10 @@
     "date": "20250618",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
-    "ten": "backward",
-    "sen": 1,
+    "ten": "descriptive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -12052,8 +12052,8 @@
     "top": [
       "economic_activity"
     ],
-    "ten": "forward",
-    "sen": 0,
+    "ten": "interpretive",
+    "sen": "neutral",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -12070,10 +12070,10 @@
     "date": "20230201",
     "context_question": null,
     "top": [
-      "unemployment"
+      "labor_market"
     ],
-    "ten": "backward",
-    "sen": 1,
+    "ten": "descriptive",
+    "sen": "hawkish",
     "dir": "na",
     "com": "na",
     "hor": "na",
@@ -12090,13 +12090,13 @@
     "date": "20181219",
     "context_question": null,
     "top": [
-      "boilerplate"
+      "no_topic"
     ],
-    "ten": "none",
-    "sen": "na",
+    "ten": "descriptive",
+    "sen": "neutral",
     "dir": "na",
-    "com": "na",
-    "hor": "na",
+    "com": "none",
+    "hor": false,
     "con": "na",
     "dom": "na",
     "ris": "na",
@@ -12112,8 +12112,8 @@
     "top": [
       "inflation"
     ],
-    "ten": "present",
-    "sen": -2,
+    "ten": "descriptive",
+    "sen": "strongly_dovish",
     "dir": "na",
     "com": "na",
     "hor": "na",
