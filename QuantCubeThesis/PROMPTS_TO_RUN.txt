@@ -1,10 +1,3 @@
-P5_v10.txt
-P5_v11.txt
-P5_v12.txt
-P5_v13.txt
-P5_v14.txt
-P5_v15.txt
-P5_v16.txt
 P5_v17.txt
 P5_v18.txt
 P5_v19.txt
