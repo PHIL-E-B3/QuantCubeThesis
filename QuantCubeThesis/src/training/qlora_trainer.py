@@ -102,10 +102,7 @@ def load_model_and_tokenizer(
     lora_config: LoraConfig,
     quantization_config: Optional[BitsAndBytesConfig] = None,
 ):
-    """Load 4-bit quantized CausalLM with LoRA adapters."""
-    if quantization_config is None:
-        quantization_config = get_quantization_config()
-
+    """Load bf16 CausalLM with LoRA adapters (no 4-bit — bitsandbytes lacks CUDA 13 binary)."""
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
@@ -114,14 +111,14 @@ def load_model_and_tokenizer(
 
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
-        quantization_config=quantization_config,
-        device_map={"": 0},  # force all layers on GPU 0 — no CPU fallback
+        device_map={"": 0},
         torch_dtype=torch.bfloat16,
         attn_implementation="sdpa",
     )
     model.config.pad_token_id = tokenizer.pad_token_id
 
-    model = prepare_model_for_kbit_training(model)
+    model.gradient_checkpointing_enable()
+    model.enable_input_require_grads()
     model = get_peft_model(model, lora_config)
 
     trainable, total = model.get_nb_trainable_parameters()
@@ -158,7 +155,7 @@ def get_training_args(
         greater_is_better=False,
         fp16=False,
         bf16=True,
-        optim="paged_adamw_8bit",
+        optim="adamw_torch",
         report_to="none",
         gradient_checkpointing=True,
         group_by_length=True,
