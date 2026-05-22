@@ -257,27 +257,41 @@ def extract_json(response: str) -> Optional[dict]:
 
     # Try 4: Response is the completion after a forced prefix (e.g. '{"topic":')
     # Reconstruct the full JSON by prepending the prefix and trying to parse
-    try:
-        reconstructed = JSON_PREFIX + response
-        return json.loads(reconstructed)
-    except json.JSONDecodeError:
-        pass
-
-    # Try 5: Forced-prefix reconstruction + regex extraction
-    try:
-        combined = JSON_PREFIX + response
-        json_matches = list(re.finditer(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', combined, re.DOTALL))
-        for match in reversed(json_matches):
-            try:
-                parsed = json.loads(match.group())
-                if any(k in parsed for k in ["topic", "tense", "sentiment"]):
-                    return parsed
-            except json.JSONDecodeError:
-                continue
-    except Exception:
-        pass
+    for candidate in _repair_candidates(JSON_PREFIX + response):
+        try:
+            parsed = json.loads(candidate)
+            if isinstance(parsed, dict):
+                return parsed
+        except json.JSONDecodeError:
+            pass
 
     return None
+
+
+def _repair_candidates(text: str):
+    """Generate repair attempts for common JSON malformations."""
+    yield text  # original
+
+    # Fix 1: model uses } instead of ] to close arrays
+    # e.g. ["val1", "val2"} → ["val1", "val2"]
+    fixed = re.sub(r'(\[[^\[\]{}]*)\}', r'\1]', text)
+    yield fixed
+
+    # Fix 2: apply fix 1 multiple times for nested patterns
+    prev = None
+    current = fixed
+    while current != prev:
+        prev = current
+        current = re.sub(r'(\[[^\[\]{}]*)\}', r'\1]', current)
+    yield current
+
+    # Fix 3: truncated response — try appending closing braces
+    stripped = text.rstrip()
+    for suffix in ['"}', '"}}', '"}}}']:
+        yield stripped + suffix
+
+    # Fix 4: truncated array — close array then object
+    yield stripped + '"]}'
 
 
 def normalize_prediction(pred: dict) -> dict:
