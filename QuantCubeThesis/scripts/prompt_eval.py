@@ -610,6 +610,119 @@ EXAMPLE_IDS = {
 }
 
 
+def _dual_metrics_from_raw(raw_path: Path, gt_path_original: Optional[Path],
+                           gt_path_extended: Path):
+    """Print metrics on both the original subset and the full extended set."""
+    import re as _re
+    from sklearn.metrics import f1_score as _f1
+
+    _JSON_PREFIX = '{"topic":'
+    _GT_REMAP = {'top':'topic','ten':'tense','sen':'sentiment',
+                 'com':'commitment','ris':'risk','wid':'width'}
+    _PRIMARY   = ['topic','sentiment','risk','width']
+    _FTYPES    = {'topic':'multi','tense':'single','sentiment':'single',
+                  'commitment':'single','risk':'single','width':'single'}
+
+    def _repair(t):
+        prev = None
+        while t != prev:
+            prev = t
+            t = _re.sub(r'(\[[^\[\]{}]*)\}', r'\1]', t)
+        return t
+
+    def _parse(resp):
+        for s in [_JSON_PREFIX+resp, _repair(_JSON_PREFIX+resp)]:
+            try:
+                p = json.loads(s)
+                if isinstance(p, dict): return p
+            except: pass
+            m = _re.search(r'\{.*\}', s, _re.DOTALL)
+            if m:
+                try:
+                    p = json.loads(m.group())
+                    if isinstance(p, dict): return p
+                except: pass
+        return None
+
+    def _norm(v, ftype):
+        if ftype == 'multi':
+            if isinstance(v, list): return set(str(x).lower().strip() for x in v)
+            return {str(v).lower().strip()} if v else {'na'}
+        return str(v).lower().strip() if v else 'na'
+
+    def _metrics(raw, gt_map, subset_ids=None):
+        records = raw if subset_ids is None else [r for r in raw if r['id'] in subset_ids]
+        preds, gts, fails = [], [], 0
+        for r in records:
+            p = _parse(r.get('raw_response','')) or {}
+            if not p: fails += 1
+            pred, gt = {}, {}
+            for f, ft in _FTYPES.items():
+                pred[f] = _norm(p.get(f), ft)
+                short = next((k for k,v in _GT_REMAP.items() if v == f), f)
+                raw_gt = gt_map.get(r['id'], {})
+                gt[f] = _norm(raw_gt.get(short) or raw_gt.get(f), ft)
+            preds.append(pred); gts.append(gt)
+        ff = {}
+        for f, ft in _FTYPES.items():
+            if ft == 'single':
+                yt=[g[f] for g in gts]; yp=[p[f] for p in preds]
+                vld=[(t,p) for t,p in zip(yt,yp) if t]
+                if vld:
+                    a,b=zip(*vld)
+                    ff[f]=_f1(a,b,average='macro',zero_division=0)
+                else: ff[f]=0.0
+            else:
+                al=sorted({l for g in gts for l in g[f]}|{l for p in preds for l in p[f]})
+                yt_b=[[1 if l in g[f] else 0 for l in al] for g in gts]
+                yp_b=[[1 if l in p[f] else 0 for l in al] for p in preds]
+                ff[f]=_f1(yt_b,yp_b,average='macro',zero_division=0)
+        summ = sum(ff[f] for f in _PRIMARY)/len(_PRIMARY)
+        return ff, summ, fails, len(records)
+
+    if not raw_path.exists():
+        return
+
+    with open(raw_path) as f: raw = json.load(f)
+
+    # Extended GT (full)
+    with open(gt_path_extended, encoding='utf-8', errors='replace') as f:
+        gt_ext = json.load(f)
+    gt_ext_map = {r['id']: r for r in gt_ext}
+
+    # Original subset IDs (if available)
+    orig_ids = None
+    if gt_path_original and gt_path_original.exists():
+        with open(gt_path_original, encoding='utf-8', errors='replace') as f:
+            gt_orig = json.load(f)
+        orig_ids = {r['id'] for r in gt_orig}
+
+    ff_ext, summ_ext, fails_ext, n_ext = _metrics(raw, gt_ext_map)
+    print(f"\n  {'─'*64}")
+    print(f"  DUAL METRICS — {raw_path.stem}")
+    print(f"  {'─'*64}")
+    if orig_ids:
+        ff_orig, summ_orig, fails_orig, n_orig = _metrics(raw, gt_ext_map, orig_ids)
+        print(f"  {'Field':<12} {'Original (' + str(n_orig) + ')':>16} {'Extended (' + str(n_ext) + ')':>16}")
+        print(f"  {'─'*46}")
+        for field in ['topic','tense','sentiment','commitment','risk','width']:
+            m = ' *' if field in _PRIMARY else ''
+            print(f"  {field:<12} {ff_orig[field]:>16.4f} {ff_ext[field]:>16.4f}{m}")
+        print(f"  {'─'*46}")
+        print(f"  {'Summary F1':<12} {summ_orig:>16.4f} {summ_ext:>16.4f}  (* primary)")
+        print(f"  Parse fail:  original={fails_orig}/{n_orig}   extended={fails_ext}/{n_ext}")
+    else:
+        print(f"  {'Field':<12} {'Extended (' + str(n_ext) + ')':>16}")
+        print(f"  {'─'*30}")
+        for field in ['topic','tense','sentiment','commitment','risk','width']:
+            m = ' *' if field in _PRIMARY else ''
+            print(f"  {field:<12} {ff_ext[field]:>16.4f}{m}")
+        print(f"  {'─'*30}")
+        print(f"  {'Summary F1':<12} {summ_ext:>16.4f}  (* primary)")
+        print(f"  Parse fail: {fails_ext}/{n_ext}")
+    print(f"  {'─'*64}\n")
+
+
 def run_all_prompts(
     val_path: str,
     model_name: str = "unsloth/Meta-Llama-3.1-8B-Instruct",
@@ -648,9 +761,15 @@ def run_all_prompts(
     # Find prompts — only _final variants by default
     list_file = Path("PROMPTS_TO_RUN.txt")
     if prompt_filter:
-        prompt_files = [PROMPTS_DIR / prompt_filter]
-        if not prompt_files[0].exists():
-            prompt_files = list(PROMPTS_DIR.glob(f"*{prompt_filter}*"))
+        # Accept a list of prompt names
+        filters = prompt_filter if isinstance(prompt_filter, list) else [prompt_filter]
+        prompt_files = []
+        for pf in filters:
+            candidate = PROMPTS_DIR / pf
+            if candidate.exists():
+                prompt_files.append(candidate)
+            else:
+                prompt_files.extend(sorted(PROMPTS_DIR.glob(f"*{pf}*")))
     elif list_file.exists():
         names = [l.strip() for l in list_file.read_text().splitlines() if l.strip() and not l.startswith("#")]
         prompt_files = [PROMPTS_DIR / n for n in names]
@@ -661,6 +780,11 @@ def run_all_prompts(
 
     # Results directory
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Paths for dual metrics reporting
+    _project_root = Path(__file__).parent.parent
+    _gt_original  = _project_root / "data" / "eval_labelled_merged.json"
+    _gt_extended  = Path(val_path)
 
     # Run each prompt
     all_results = []
@@ -675,6 +799,9 @@ def run_all_prompts(
         )
         if result:
             all_results.append(result)
+            # Print dual metrics (original 591 + full extended)
+            raw_path = RESULTS_DIR / f"{prompt_path.stem}_raw.json"
+            _dual_metrics_from_raw(raw_path, _gt_original, _gt_extended)
 
     # ── Final comparison table ────────────────────────────────────────────
     if len(all_results) > 1:
@@ -717,8 +844,8 @@ def main():
     parser.add_argument("--model", type=str,
                         default="meta-llama/Meta-Llama-3.1-8B-Instruct",
                         help="HuggingFace model name")
-    parser.add_argument("--prompt", type=str, default=None,
-                        help="Specific prompt file to test (filename or glob)")
+    parser.add_argument("--prompt", type=str, nargs="+", default=None,
+                        help="One or more prompt files to run sequentially, e.g. --prompt P5_v10.txt P5_v11.txt")
     parser.add_argument("--resume", action="store_true",
                         help="Resume from partial results")
     parser.add_argument("--sample", type=int, default=None,
@@ -732,7 +859,7 @@ def main():
     run_all_prompts(
         val_path=args.val_set,
         model_name=args.model,
-        prompt_filter=args.prompt,
+        prompt_filter=args.prompt,   # now a list or None
         resume=args.resume,
         sample_size=args.sample,
         max_new_tokens=args.max_new_tokens,
