@@ -109,12 +109,22 @@ def load_model_and_tokenizer(
         tokenizer.pad_token_id = tokenizer.eos_token_id
     tokenizer.padding_side = "right"
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        device_map={"": 0},
-        torch_dtype=torch.bfloat16,
-        attn_implementation="sdpa",
-    )
+    try:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            device_map={"": 0},
+            torch_dtype=torch.bfloat16,
+            attn_implementation="flash_attention_2",
+        )
+        print("Using flash_attention_2")
+    except (ImportError, RuntimeError):
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            device_map={"": 0},
+            torch_dtype=torch.bfloat16,
+            attn_implementation="sdpa",
+        )
+        print("flash_attention_2 unavailable, using sdpa")
     model.config.pad_token_id = tokenizer.pad_token_id
 
     model.gradient_checkpointing_enable()
