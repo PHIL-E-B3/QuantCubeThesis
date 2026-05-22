@@ -134,8 +134,11 @@ def load_model(model_name: str):
 def load_model_vllm(model_name: str):
     """Load model with vLLM for fast batched inference (no quantization needed on A100)."""
     from vllm import LLM
+    from transformers import AutoTokenizer
     print(f"\nLoading model with vLLM: {model_name}")
     llm = LLM(model=model_name, dtype="bfloat16", max_model_len=16384, enforce_eager=True)
+    # Load tokenizer once here and attach to llm object to avoid re-downloading per batch
+    llm._prompt_tokenizer = AutoTokenizer.from_pretrained(model_name)
     print("vLLM model loaded.\n")
     return llm
 
@@ -152,11 +155,9 @@ def generate_batch_vllm(
     complete from '{"topic":' — ensuring JSON output rather than prose.
     """
     from vllm import SamplingParams
-    from transformers import AutoTokenizer
 
-    # Apply Llama chat template manually and inject the JSON prefix into
-    # the assistant turn so the model CONTINUES from '{"topic":' not from scratch.
-    tokenizer = AutoTokenizer.from_pretrained(llm.llm_engine.model_config.model)
+    # Reuse tokenizer loaded once at model init time
+    tokenizer = llm._prompt_tokenizer
 
     formatted_prompts = []
     for p in prompts:
