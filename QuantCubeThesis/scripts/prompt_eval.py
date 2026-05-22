@@ -364,7 +364,7 @@ def compute_summary_score(field_metrics: Dict) -> float:
 
 def _build_prompt(prompt_template: str, sentence_data: dict) -> str:
     """Apply sentence (and optional context_question) into a prompt template."""
-    sentence = sentence_data["sentence"]
+    sentence = sentence_data.get("sentence") or sentence_data.get("text") or ""
     prompt = prompt_template.replace("{sentence}", sentence)
     if sentence_data.get("context_question"):
         context_insert = f'\nContext (question being answered): "{sentence_data["context_question"]}"\n'
@@ -433,6 +433,9 @@ def evaluate_prompt(
             for j, (sentence_data, response) in enumerate(zip(chunk, responses)):
                 sid = sentence_data["id"]
                 global_idx = len(completed_ids) + chunk_idx * VLLM_CHUNK_SIZE + j + 1
+                # Debug: print first 3 raw responses so we can see what the model outputs
+                if global_idx <= 3:
+                    print(f"\n  DEBUG raw response [{global_idx}]: {repr(response[:300])}\n")
                 parsed = extract_json(response)
                 if parsed is None:
                     parse_failures += 1
@@ -443,7 +446,7 @@ def evaluate_prompt(
 
                 raw_outputs.append({
                     "id": sid,
-                    "sentence": sentence_data["sentence"][:100],
+                    "sentence": (sentence_data.get("sentence") or sentence_data.get("text") or "")[:100],
                     "raw_response": response[:1000],
                     "parsed": parsed,
                     "elapsed_s": round(elapsed / len(chunk), 2),
