@@ -149,10 +149,14 @@ def generate_batch_vllm(
     """Batch inference via vLLM chat API. Returns one decoded string per prompt."""
     from vllm import SamplingParams
     conversations = [[{"role": "user", "content": p}] for p in prompts]
+    # Use temperature>=0.1 to avoid repetitive-loop collapse at near-zero temp.
+    # repetition_penalty breaks cycles when the model gets stuck echoing prompt text.
+    safe_temp = max(temperature, 0.1)
     sampling_params = SamplingParams(
-        temperature=temperature,
+        temperature=safe_temp,
         max_tokens=max_new_tokens,
-        top_p=0.95 if temperature > 0 else 1.0,
+        top_p=0.95,
+        repetition_penalty=1.1,
     )
     outputs = llm.chat(messages=conversations, sampling_params=sampling_params, use_tqdm=False)
     return [o.outputs[0].text.strip() for o in outputs]
