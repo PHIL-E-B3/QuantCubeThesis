@@ -169,8 +169,10 @@ def run_optuna_search(
         print(f"\n{'─'*60}")
         print(f"  Trial {trial.number:>3}/{n_trials}  [{status}]  loss={loss}")
         print(f"  Params: { {k: round(v,6) if isinstance(v,float) else v for k,v in trial.params.items()} }")
-        if study.best_trial:
+        try:
             print(f"  Best so far: trial #{study.best_trial.number}  loss={study.best_value:.4f}")
+        except ValueError:
+            print(f"  No completed trials yet")
         print(f"{'─'*60}")
 
     study.optimize(obj_fn, n_trials=n_trials, callbacks=[trial_callback])
