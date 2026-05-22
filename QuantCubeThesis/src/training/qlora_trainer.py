@@ -113,7 +113,7 @@ def load_model_and_tokenizer(
         model_name,
         device_map={"": 0},
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
+        attn_implementation="sdpa",
     )
     model.config.pad_token_id = tokenizer.pad_token_id
 
