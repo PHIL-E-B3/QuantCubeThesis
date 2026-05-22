@@ -135,7 +135,6 @@ def load_model_vllm(model_name: str):
     """Load model with vLLM for fast batched inference (no quantization needed on A100)."""
     from vllm import LLM
     print(f"\nLoading model with vLLM: {model_name}")
-    print(f"GPU: {torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'}")
     llm = LLM(model=model_name, dtype="bfloat16", max_model_len=16384, enforce_eager=True)
     print("vLLM model loaded.\n")
     return llm
