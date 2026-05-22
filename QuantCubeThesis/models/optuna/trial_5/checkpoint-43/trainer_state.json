@@ -1,0 +1,78 @@
+{
+  "best_metric": 0.05787608027458191,
+  "best_model_checkpoint": "models/optuna/trial_5/checkpoint-43",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 43,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.23255813953488372,
+      "grad_norm": 0.2195163518190384,
+      "learning_rate": 0.00012422628812438423,
+      "loss": 0.0864,
+      "step": 10
+    },
+    {
+      "epoch": 0.46511627906976744,
+      "grad_norm": 0.24025410413742065,
+      "learning_rate": 8.589873115467486e-05,
+      "loss": 0.0666,
+      "step": 20
+    },
+    {
+      "epoch": 0.6976744186046512,
+      "grad_norm": 0.15760184824466705,
+      "learning_rate": 3.398163511263506e-05,
+      "loss": 0.0611,
+      "step": 30
+    },
+    {
+      "epoch": 0.9302325581395349,
+      "grad_norm": 0.20864485204219818,
+      "learning_rate": 1.9842072791499492e-06,
+      "loss": 0.0545,
+      "step": 40
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 0.05787608027458191,
+      "eval_runtime": 32.6969,
+      "eval_samples_per_second": 3.731,
+      "eval_steps_per_second": 0.489,
+      "step": 43
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 43,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 7.162847497814016e+16,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
