@@ -199,6 +199,9 @@ def generate_response(
 
 # ── JSON PARSING ──────────────────────────────────────────────────────────────
 
+JSON_PREFIX = '{"topic":'  # forced prefix injected at end of prompt
+
+
 def extract_json(response: str) -> Optional[dict]:
     """
     Extract JSON from model response. Handles:
@@ -232,6 +235,28 @@ def extract_json(response: str) -> Optional[dict]:
     try:
         return json.loads(response)
     except json.JSONDecodeError:
+        pass
+
+    # Try 4: Response is the completion after a forced prefix (e.g. '{"topic":')
+    # Reconstruct the full JSON by prepending the prefix and trying to parse
+    try:
+        reconstructed = JSON_PREFIX + response
+        return json.loads(reconstructed)
+    except json.JSONDecodeError:
+        pass
+
+    # Try 5: Forced-prefix reconstruction + regex extraction
+    try:
+        combined = JSON_PREFIX + response
+        json_matches = list(re.finditer(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', combined, re.DOTALL))
+        for match in reversed(json_matches):
+            try:
+                parsed = json.loads(match.group())
+                if any(k in parsed for k in ["topic", "tense", "sentiment"]):
+                    return parsed
+            except json.JSONDecodeError:
+                continue
+    except Exception:
         pass
 
     return None

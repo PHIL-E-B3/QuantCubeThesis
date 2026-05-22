@@ -94,8 +94,7 @@ Sentence: "The forward guidance also reiterated the Committee's expectation that
 {"topic": ["monetary_policy", "labor_market", "inflation"], "tense": "interpretive", "sentiment": "dovish", "horizon": true, "commitment": "conditional", "risk": "na", "width": "none"}
 Reasoning: Rates below normal even after mandate met = accommodative = dovish. "For some time" + "longer run" = horizon true (tense is interpretive). Specific action (keep rates below normal) + explicit condition (after employment and inflation near mandate levels) = conditional. Labor market and inflation are referenced as monitoring variables alongside monetary_policy.
 
-Classify the sentence below. Respond with ONLY a valid JSON object containing these exact keys: topic, tense, sentiment, horizon, commitment, risk, width. No explanation, no preamble, no other text.
-
 Sentence: "{sentence}"
 
 JSON:
+{"topic":
