@@ -30,7 +30,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -47,7 +47,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -327,7 +327,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -602,7 +602,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -656,7 +656,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -724,7 +724,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -760,7 +760,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -1117,7 +1117,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -1474,7 +1474,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -1696,7 +1696,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -2152,7 +2152,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -2205,7 +2205,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -2222,7 +2222,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -2256,7 +2256,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -2363,7 +2363,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -2471,7 +2471,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -2674,7 +2674,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -3499,7 +3499,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -3777,7 +3777,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "elevated"
@@ -3879,7 +3879,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -3932,7 +3932,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -4142,7 +4142,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -4767,7 +4767,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -5607,7 +5607,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -5643,7 +5643,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -5937,7 +5937,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -6109,7 +6109,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -6645,7 +6645,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -6713,7 +6713,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -7226,7 +7226,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "contested"
@@ -7345,7 +7345,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "contested"
@@ -7653,7 +7653,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -8251,7 +8251,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -8739,7 +8739,7 @@
     "ten": "interpretive",
     "sen": "strongly_hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "skewed_upside",
     "wid": "none"
   },
@@ -9013,26 +9013,10 @@
     ],
     "sen": "strongly_hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
-  },
-  {
-    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
-    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
-    "source": "minutes_20230503.html",
-    "doc_type": "minutes",
-    "date": "20230503",
-    "top": [
-      "financial_conditions"
-    ],
-    "ten": "descriptive",
-    "sen": "neutral",
-    "com": "none",
-    "hor": false,
-    "ris": "na",
-    "wid": "contested"
   },
   {
     "id": "4f37d367-b296-4510-b478-c868c339efd6",
@@ -9067,6 +9051,1584 @@
     "com": "none",
     "ris": "na",
     "wid": "none"
+  },
+  {
+    "id": "6b837961-e9aa-43d4-83fb-ef0ad64a4413",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Evans' proposal: hold rates near zero (action) until unemployment <7% provided inflation <3% over the medium term (conditions). 'Over the medium term' -> hor true. Accommodative = dovish. Action + explicit 'until'/'provided that' conditions confirmed."
+  },
+  {
+    "id": "5d752a57-d5bb-4067-a20d-7691beb7e30a",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Intends to hold the federal funds rate near zero' (commitment verb + action) 'at least until unemployment <6.5%' + 'provided that inflation no more than 0.5pp above 2%' + 'expectations well anchored' (explicit conditions). 'Longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "ec3236e5-654d-48e8-bb10-37bb4e710a50",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Maintain current target range for a considerable time' (action) 'especially if projected inflation continued below 2%' + 'provided longer-term expectations remained well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. 'Anticipated that it likely would be appropriate' is hedged but action + explicit conditions present -> conditional with flexibility. Dovish."
+  },
+  {
+    "id": "0d33a722-a296-4621-9ef1-ee4740425010",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Identical structure to ec3236e5 (same guidance, subsequent meeting). 'Considerable time' + 'longer-run goal' -> hor true. Conditional with flexibility. Dovish."
+  },
+  {
+    "id": "79569622-7679-48a3-ba49-15cfda5e4e9c",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Maintain the current target range for a considerable time' (action) + 'especially if projected inflation continued below 2%' + 'provided that longer-term expectations remained well anchored' (conditions). Doubly hedged ('should reiterate... likely would be appropriate') but action + explicit 'especially if'/'provided that' conditions -> conditional with flexibility. 'Considerable time' -> hor true. Dovish."
+  },
+  {
+    "id": "0c6b3ba9-116f-4889-a93e-7bc676801112",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Clarifying statement language. Core: 'maintain the 0-1/4% target range for a considerable time' (action, 'will' present) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "3ec30874-d382-4c2e-9888-6c6f93692fcf",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Deliberation about progress toward the tapering threshold. The 'provided that the economy evolved broadly as anticipated, the standard could be reached this year' is a PROJECTION about when the tapering condition will be met, not a Committee commitment to taper. No FOMC action + explicit condition pair -> com none. Dominant signals: 'substantial further progress not yet met, particularly on labor market' (dovish) + 'risks to the economic outlook remained' (dovish) vs anticipated continued progress (mildly hawkish) -> net dovish."
+  },
+  {
+    "id": "d83c3d87-dbf2-44ff-963a-2fdc87633833",
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "'A restrictive stance of policy may well become appropriate' = potential tightening = hawkish. 'May' + 'depending on the evolving economic outlook' = modal + generic data-dependence -> com none. Russia/Ukraine + China lockdowns 'posed heightened risks' -- direction not explicit but tightening consideration implies upside inflation risk dominates -> ris skewed_upside. Hawkish, not strongly (no intensity marker)."
+  },
+  {
+    "id": "2a4aa004-1646-4c83-b0e6-00d8701d7372",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "September 2014 statement. 'Likely will be appropriate to maintain the current target range for a considerable time' ('will' present, action) + 'especially if projected inflation continues below 2%' + 'provided that longer-term expectations remain well anchored' (conditions). Labor market conditions and inflation explicitly cited -> both in top. 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "4a457314-e92f-4a8a-81ad-828b7d3a6f2b",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "October 2014 statement. 'Likely will be appropriate to maintain the 0-1/4% target range for a considerable time' ('will' present, action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "4b2caa91-09fa-493e-bb27-5de3d7814702",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Two conditional structures: (1) 'prepared to take additional balance sheet actions' ('prepared to' + action) 'if necessary to achieve our objectives' ('if' condition). (2) 'will not hesitate to use them' ('will' + action) 'should the economy require that additional support' ('should' condition). Both have commitment verb + action + explicit condition -> conditional. Easing readiness = dovish. No long-run term -> hor false."
+  },
+  {
+    "id": "3aabb874-bb0f-4703-9e9b-26061a77b11b",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'This is a conditional program.' Explicit conditional: 'if the economy is weaker, we'll provide more support' ('will' + action + 'if' condition). Also: 'if the economy strengthens, it will require less support.' QE3 ongoing accommodation = dovish. No long-run term -> hor false."
+  },
+  {
+    "id": "f03a6bb2-b4ae-4fd7-a1ee-8e4bec996e9e",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Quoting forward guidance: 'conditions will likely warrant maintaining the current range for a considerable time' ('will', action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "22a40701-9210-4361-80de-4b1a8c1aa3de",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'If the economy evolves broadly as expected' (condition) 'similar reductions in the pace of net asset purchases will likely be appropriate each month' (action: taper). 'Will likely be appropriate' + explicit 'if' -> conditional with flexibility. Tapering = reducing accommodation = hawkish. 'Middle of next year' is a near-term specific reference, not a listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "28b25452-51d3-4792-86c2-c3f7d711da6c",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "June 2024: 'If the economy remains solid and inflation persists' (explicit 'if' condition) 'we're prepared to maintain the current target range' ('prepared to' + action: hold elevated rate). Action + explicit condition -> conditional. Holding rates at 5.25-5.5% with persistent inflation = no cut = hawkish. 'As long as appropriate' is open-ended, not a listed horizon trigger -> hor false."
+  },
+  {
+    "id": "beca4cce-9e7f-495e-9080-e7dcdcf20623",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'The program will continue' ('will' + action: QE continues) 'until there is a substantial improvement in the outlook for the labor market' ('until' condition) 'in a context of price stability' (additional condition). Explicit 'until' condition -> conditional. Ongoing QE = dovish. No listed long-horizon term -> hor false."
+  },
+  {
+    "id": "9bd2aae3-9546-40bb-a36a-534423ae1e39",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Quoting 'considerable time' guidance. 'Anticipates conditions will likely warrant maintaining the current range for a considerable time' (action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
+  },
+  {
+    "id": "e611a9cc-cafb-4f20-a867-3aa87b8fe988",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Underutilization of labor resources still remains significant' (dovish, labor slack). 'Inflation will gradually move up toward its longer-run objective' (mildly hawkish). Reaffirmed guidance: 'maintain the current target range for a considerable time' (action) + 'especially if projected inflation below 2%' + 'provided that longer-term expectations well anchored' (conditions). Two dovish (labor slack + hold rates) vs one mild hawkish (inflation rising gradually) -> net dovish. 'Considerable time' + 'longer-run objective' -> hor true."
+  },
+  {
+    "id": "35418d53-dddd-42d8-b7ab-23eedd6d5ff7",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Provided that inflation shows clear signs over time of moving up toward 2 percent in the context of continuing progress toward maximum employment' (condition) 'a further tightening in monetary policy will be warranted' ('will', action). Second clause: 'Should incoming data fail to support this forecast, policy will need to be adjusted' (second conditional). Both action + explicit condition pairs -> conditional. Tightening = hawkish. 'Over time' -> hor true. Second clause flags downside risk (if inflation doesn't cooperate) -> ris skewed_downside."
+  },
+  {
+    "id": "1336cf8e-0684-450c-9527-1a63f0a6c84a",
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Prediction about inflation dynamics ('would only delay the return of inflation to 2 percent'), not a commitment to a policy action. No commitment verb + specific policy action -> com none. Inflation below 2% with delayed return = dovish. 'Even if such developments were to occur' = conditional/hypothetical where shocks keep inflation low -> ris skewed_downside (risk of prolonged inflation undershoot). No listed long-horizon term -> hor false."
+  },
+  {
+    "id": "ee9c5926-f120-443c-a32f-b046aefccf54",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Academic/analytical explanation of TPLT framework mechanics via a hypothetical numerical example. No FOMC commitment, no directional economic claim about current conditions -> neutral, com none. The example ('if inflation equaled 1.8, 2, 2.2 percent for three consecutive years') is a framework parameter illustration, not a policy projection or signal. 'Three consecutive years' = framework parameter, not a genuine long-horizon projection -> hor false."
+  },
+  {
+    "id": "25c3fa32-cec2-4cf7-9aa1-dd646ed0111b",
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "2024 speech quoting the Federal Reserve's 1926 annual report about discount-window borrowing. Historical narrative from ~100 years ago, not tied to current economic state -> no_topic. Neutral, com none, hor false per no_topic constraints."
+  },
+  {
+    "id": "1cfc85de-67a7-4999-a2fc-243a1ec6fe9c",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'A few members' / 'other members' = minority views, both using modals ('could warrant', 'could become necessary') -> com none (deliberation + modals). Elevated unemployment (dovish) + inflation at/below objective (dovish) -> dovish. Minority caps at dovish. Downside conditions flagged ('economy lost momentum', 'inflation likely to remain below mandate') -> ris skewed_downside. 'Over the medium run' is close to but not exactly 'over the medium term' in the trigger list -> hor false (strict)."
+  },
+  {
+    "id": "b24a4885-acdb-4b14-ba9b-c3d652626320",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'A couple of members' = minority. 'Could become necessary' = modal -> com none. Additional stimulus if 'economy lost momentum' (economic_activity, dovish) or 'inflation likely to remain below mandate' (inflation, dovish) -> dovish. Minority caps at dovish. Both trigger conditions are downside scenarios -> ris skewed_downside. 'Over the medium run' not exactly in trigger list -> hor false."
+  },
+  {
+    "id": "4b6ab644-0bdd-4983-96c2-93506291b11f",
+    "top": [
+      "monetary_policy",
+      "macro",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Several others noted that additional policy action could be warranted if...' = modal ('could') + deliberation -> com none. Three downside conditions: economic recovery loses momentum (macro), downside risks to forecast pronounced (macro), inflation below longer-run objective (inflation) -> all dovish -> dovish. 'Longer-run objective' listed horizon trigger + interpretive -> hor true. Three explicit downside conditions -> ris skewed_downside."
+  },
+  {
+    "id": "7febfe7a-61ca-4c50-b676-0c5045b1c11e",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Continuing to raise the target range for the federal funds rate gradually' (action: rate hikes) 'would likely be appropriate if the economy evolves about as expected' (explicit 'if' condition). Specific action + explicit 'if' condition -> conditional with flexibility. Gradual rate increases = hawkish. No long-run term -> hor false."
+  },
+  {
+    "id": "365134c5-f4d9-4da6-83d4-51e3c90fb15d",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "'Not yet clear what adjustments may be appropriate' (dominant = uncertainty/deliberation). 'Rate increases might prove necessary only if inflation outcomes were higher than baseline' (modal 'might', minority 'several', deliberation) -> com none. Dominant stance is uncertainty -> neutral (tie-break; 'only if inflation higher' sets a high bar but doesn't override the 'not yet clear' framing). Upside inflation scenario flagged as the trigger for hikes -> ris skewed_upside."
+  },
+  {
+    "id": "b9605087-0d88-40e3-86f6-10fcc6fe868e",
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "Reports upside risks to inflation: 'elevated inflation would continue for longer than expected, especially if labor and other supply shortages proved more persistent' + 'longer-term expectations might move above levels consistent with 2 percent.' Upside risk framing -> hawkish (risk of persistent high inflation / de-anchoring upward). No FOMC action commitment -> com none. 'Longer-term inflation objective' (longer-term ≈ longer-run) + interpretive -> hor true. Explicit upside risk framing -> ris skewed_upside."
+  },
+  {
+    "id": "a1a9a632-b08e-4045-9375-4c5697230e60",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "'Moving to a restrictive stance... would better position the Committee to raise the policy rate further, to appropriately restrictive levels' (action) 'if inflation were to run higher than expected' (explicit 'if' condition). Action + explicit 'if' condition -> conditional with flexibility. Restrictive stance + further hikes = hawkish. 'Elevated inflation' + 'upside risks to the outlook for inflation' explicitly cited -> ris skewed_upside. No long-run term -> hor false."
+  },
+  {
+    "id": "4fc3f56a-78eb-4a89-9cd0-4298f2e3a4b5",
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'A further lowering of the target range for the federal funds rate could well be appropriate in December' (action: rate cut) 'if the economy evolved about as they expected' (explicit 'if' condition). Specific action + explicit 'if' condition -> conditional with flexibility (consistent with 7febfe7a pattern). Rate cut = dovish. Baseline expectation framing, not tail-risk -> ris na. No long-run term -> hor false."
+  },
+  {
+    "id": "c17a9dfe-8db0-43ae-a7da-1b2e6f838440",
+    "sentence": "Most participants judged that further downward adjustments to the target range for the federal funds rate would likely be appropriate if inflation declined over time as expected.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Further downward adjustments to the target range' (action: rate cuts) 'would likely be appropriate if inflation declined over time as expected' (explicit 'if' + 'over time' condition). 'Would likely be appropriate' is hedged but action + explicit 'if' condition -> conditional with flexibility. Rate cuts = dovish. 'Over time' is a listed horizon trigger, ten interpretive -> hor true."
+  },
+  {
+    "id": "fb012feb-24db-4334-9f0f-6dc96033703c",
+    "sentence": "We have very large Page 11 of 23 drags from import prices and energy prices, and over the next year or so, those things should dissipate. And the behavior of inflation should mainly -- if we -- if our understanding of the inflationary process is correct and if inflation expectations are well anchored at 2, which I believe they are, as the labor market heals and as that healing progresses, we will see further upward pressure on inflation.",
+    "source": "fomcpresconf20150917.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20150917",
+    "context_question": "Binya Appelbaum, the New York Times. The economic projections that you all released today show that Committee members expect roughly a three- year period in which the unemployment rate will be at its lowest sustainable level and yet inflation will not rise above 2 percent. That seems extraordinary. Could you talk about why, as a moment ago you said we would expect inflationary pressures when unemployment is at a low level? Why is inflation going to be so weak for so long under those circumstances, and does it indicate—when you are projecting that basically much of a decade will have passed without the Fed reaching its inflation target—does it indicate that you have failed to do enough to revive this economy in recent years?",
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Very large drags from import prices and energy prices' = current low inflation (dovish, descriptive). Dominant forward signal: 'as the labor market heals... we will see further upward pressure on inflation' (hawkish, interpretive). Different tenses (current drags descriptive vs forward inflation projection interpretive) -> not contested. No policy action commitment -> com none. Forward signal of rising inflation = hawkish. 'Over the next year or so' is a near-term reference, not a listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "25f7653d-5391-4e95-b5dc-1b3b9f40504b",
+    "sentence": "My view--that recent changes in inflation dynamics result primarily from better-anchored inflation expectations and not from structural change or simply the achievement of a persistent low rate of inflation--implies some very good news: Potentially inflationary shocks, like a sharp rise in energy prices, are less likely to spill over into expected and actual core inflation. Therefore, the Fed does not have to respond as aggressively as would be necessary if inflation expectations were unanchored, as they were during the Great Inflation era.",
+    "source": "Inflation Dynamics",
+    "doc_type": "speech",
+    "date": "2007-03-23",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Two dovish implications of anchored expectations: (1) 'potentially inflationary shocks are less likely to spill over into core inflation' (lower core inflation risk = dovish). (2) 'The Fed does not have to respond as aggressively' (less tightening needed = dovish policy implication). No specific FOMC action commitment -> com none. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "a9f93fe8-83b8-4276-808b-c0f35c32b62a",
+    "sentence": "A related implication is that, if inflation expectations are well anchored, changes in energy (and food) prices should have relatively little influence on \"core\" inflation, that is, inflation excluding the prices of food and energy.",
+    "source": "Inflation Expectations and Inflation Forecasting",
+    "doc_type": "speech",
+    "date": "2007-07-10",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "General theoretical proposition: 'if inflation expectations are well anchored, changes in energy/food prices should have relatively little influence on core inflation.' No directional assessment of current conditions, no policy action commitment -> neutral, com none. Conditional structure ('if expectations well anchored') -> interpretive. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "d23eef37-3ae1-4979-a8cc-d53c57626aed",
+    "sentence": "If inflation is above the mandate-consistent rate, monetary policy should aim at reducing inflation to that rate.",
+    "source": "The Federal Reserveâs Enhanced Communication Strategy and the Science of Monetary Policy ",
+    "doc_type": "speech",
+    "date": "2007-11-29",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Symmetric Taylor-rule principle: 'if inflation is above mandate-consistent rate, monetary policy should aim at reducing inflation.' No net directional signal (rule applies symmetrically above/below target). No FOMC commitment (normative prescription, not a direct commitment) -> com none. Conditional structure -> interpretive. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "e3eb6561-b228-4dae-9ae0-496b1902329c",
+    "sentence": "Evans suggested that the FOMC could indicate its intention to continue holding the federal funds rate close to zero as long as the unemployment rate exceeds a given threshold, conditional on the medium-term inflation outlook remaining at or below a specified level.",
+    "source": "The Outlook for the U.S. Economy and Economic Policy",
+    "doc_type": "speech",
+    "date": "2011-10-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Evans' proposal: FOMC 'could indicate its intention to continue holding the federal funds rate close to zero' (action) 'as long as unemployment exceeds a given threshold, conditional on the medium-term inflation outlook remaining at or below a specified level' (explicit conditions). Action + explicit 'as long as'/'conditional on' conditions -> conditional with flexibility (consistent with batch 1 #1 treatment). Hold rates near zero = dovish. 'Medium-term inflation outlook' -> hor true (medium-term ≈ listed trigger 'over the medium term')."
+  },
+  {
+    "id": "9587bbe3-8b0b-43a5-bfe7-335242012ca0",
+    "sentence": "It seems plausible that at least part of this supply-side damage could be reversed if the economy enjoys a period of sustained growth. To encourage that outcome, as monetary policymakers consider removing accommodation, we should look for a little more proof than usual that labor markets are tightening or other supply-side constraints are binding.",
+    "source": "Remarks on Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-04-08",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'We should look for a little more proof than usual that labor markets are tightening or other supply-side constraints are binding' before removing accommodation. This is a dovish recommendation (higher bar for tightening = patient = dovish). No specific action + explicit condition pair from the FOMC -> com none (normative recommendation, not a commitment). No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "c1a4370c-5e29-4e25-b447-eef336dfcc54",
+    "sentence": "Given that he believed that the sole function of monetary policy should be to pursue price stability, a modern interpretation of Wicksell's rule would suggest that the central bank should raise the interest rate if inflation is above target and reduce the interest rate if inflation is below target.",
+    "source": "Low Interest Rates",
+    "doc_type": "speech",
+    "date": "2016-10-05",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Explaining Wicksell's rule: 'should raise the interest rate if inflation is above target and reduce if below target.' Symmetric rule, no net directional signal -> neutral. Academic/theoretical exposition of a framework, not an FOMC commitment -> com none. Conditional structure -> interpretive. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "10fb2ff9-b33f-4c2f-9a02-242258a89393",
+    "sentence": "Fed policy normalization has proceeded without disruption to financial markets, and market participants' expectations for policy (the red symbols in figure 6) seem reasonably well aligned with policymakers' expectations in the Summary of Economic Projections (the black dots), suggesting that markets should not be surprised by our actions if the economy evolves in line with expectations.",
+    "source": "Monetary Policy Influences on Global Financial Conditions and International Capital Flows",
+    "doc_type": "speech",
+    "date": "2018-05-08",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Fed policy normalization has proceeded without disruption to financial markets' = tightening underway smoothly = hawkish. 'Markets should not be surprised by our actions if the economy evolves in line with expectations' = conditional meta-statement about predictability; no specific action stated explicitly -> com none (missing specific action). Financial markets alignment -> financial_conditions in top. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "6c2b9e87-24e5-4298-ba7e-c642e0d66aa8",
+    "sentence": "A critical aspect of our new framework is to allow inflation to run above our 2 percent target (so that it averages 2 percent), but we should do this only if inflation expectations are consistent with our 2 percent target.",
+    "source": "The Economic Outlook and a Cautionary Tale  on âIdiosyncraticâ Price Changes and Inflation",
+    "doc_type": "speech",
+    "date": "2021-10-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Allow inflation to run above our 2 percent target' (action: AIT overshoot) 'only if inflation expectations are consistent with our 2 percent target' (explicit 'if' condition). Action + explicit 'only if' condition -> conditional with flexibility. Allowing overshoot = accommodative = dovish. 'So that it averages 2 percent' — 'over time' is implicit but not explicitly stated -> hor false."
+  },
+  {
+    "id": "f56d2e98-2013-4b6b-97c1-72264259d610",
+    "sentence": "While future actions by the FOMC will depend on data we receive on inflation, employment, and economic activity, if conditions continue to evolve in the direction traveled thus far, then additional cuts will be appropriate.",
+    "source": "How We Got Here:  A Perspective on Inflation and the Labor Market",
+    "doc_type": "speech",
+    "date": "2024-09-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'If conditions continue to evolve in the direction traveled thus far' (explicit 'if' condition) 'additional cuts will be appropriate' ('will', action: rate cuts). Specific action + explicit 'if' condition -> conditional. Rate cuts = dovish. Inflation, employment, and economic activity cited as the monitored data -> all three in top alongside monetary_policy. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "b15cd680-3079-402e-93f2-3f47b9661c98",
+    "sentence": "Most members, however, agreed that stating a conditional expectation for the level of the federal funds rate through mid-2013 provided useful guidance to the public, with some noting that such an indication did not remove the Committee's flexibility to adjust the policy rate earlier or later if economic conditions do not evolve as the Committee currently expects.",
+    "source": "minutes_20110809.html",
+    "doc_type": "minutes",
+    "date": "20110809",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Meta-discussion about the value of conditional guidance through mid-2013. The underlying guidance (hold rates through mid-2013) is accommodative = dovish. However, this sentence deliberates about the COMMUNICATION value of that guidance -> com none (no new action commitment; discussion of existing guidance design). 'Through mid-2013' from August 2011 = ~22 months = multi-year projection -> hor true."
+  },
+  {
+    "id": "ebf9fa7b-7410-4399-8baa-7c6d0f55b999",
+    "sentence": "While almost all of the members agreed that the change in the outlook over the intermeeting period was insufficient to warrant an adjustment to the Committee's forward guidance, particularly given the uncertainty surrounding economic forecasts, it was noted that the forward guidance is conditional on economic developments and that the date given in the statement would be subject to revision should there be a significant change in the economic outlook.",
+    "source": "minutes_20120425.html",
+    "doc_type": "minutes",
+    "date": "20120425",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "elevated",
+    "note": "'Particularly given the uncertainty surrounding economic forecasts' -> wid elevated (explicit 'uncertainty' trigger). Maintaining existing low-rate guidance (not adjusting) = dovish. 'The date given in the statement would be subject to revision should there be a significant change in the economic outlook' = action (revise date) + explicit 'should' condition -> conditional with flexibility. No listed long-horizon trigger in this sentence itself -> hor false."
+  },
+  {
+    "id": "16a08fec-a840-4aa5-bbd4-fc498db0464f",
+    "sentence": "Members again noted that the forward guidance is conditional on economic developments and that the date given in the statement would be subject to revision should there be a significant change in the economic outlook.",
+    "source": "minutes_20120620.html",
+    "doc_type": "minutes",
+    "date": "20120620",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'The forward guidance is conditional on economic developments' + 'the date given in the statement would be subject to revision should there be a significant change in the economic outlook' = action (revise the guidance date) + explicit 'should' condition -> conditional with flexibility. Maintaining low-rate guidance = dovish. No listed long-horizon trigger -> hor false. No explicit uncertainty word in this sentence (unlike ebf9fa7b) -> wid none."
+  },
+  {
+    "id": "ed5c10d2-6a24-44b7-8a2e-b0580a54c693",
+    "sentence": "Members stressed that any changes to the purchase program should be conditional on continuing assessments both of labor market and inflation developments and of the efficacy and costs of asset purchases.",
+    "source": "minutes_20130320.html",
+    "doc_type": "minutes",
+    "date": "20130320",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Any changes to the purchase program should be conditional on continuing assessments both of labor market and inflation developments and of the efficacy and costs of asset purchases.' Specific action (changes to QE program) + explicit condition phrase ('conditional on continuing assessments of X and Y') -> conditional with flexibility. Deliberation about the conditions for QE changes without a directional action signal -> neutral (setting a bar for changes, not committing to ease or tighten). Labor market and inflation cited as monitoring variables -> in top. No listed long-horizon trigger -> hor false."
+  },
+  {
+    "id": "292bfb4b-a9b2-4f33-baa2-238141269ddd",
+    "sentence": "As you know, last week, the FOMC reduced its target rate an additional 25 basis points, to 4-1/2 percent. Combined with the action of the September meeting, the FOMC judged that the cumulative policy easing of 75 basis points reduced the downside risks to growth, and that these risks were now roughly balanced by the upside risks to inflation.",
+    "source": "The End of History?",
+    "doc_type": "speech",
+    "date": "2007-11-07",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "unconditional",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "25bps cut described + explicit balance between downside growth and upside inflation = dual-mandate contested + symmetric"
+  },
+  {
+    "id": "790993ab-0ced-4874-870c-5ef9219c763a",
+    "sentence": "Participants generally pointed to risks to both sides of the Committee's dual mandate, emphasizing upside risk to inflation and downside risk to employment.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "00b6d536-6a04-457a-a815-b4b285760de8",
+    "sentence": "A majority of participants judged the upside risk to inflation as the greater of these two risks, while several participants viewed the two risks as roughly balanced, and a couple of participants considered downside risk to employment the more salient risk.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "contested",
+    "note": "Majority sees inflation upside as greater = hawkish lean + skewed_upside. Still contested due to dual-mandate framing with dispersion of views."
+  },
+  {
+    "id": "d5760cdd-d4eb-496a-a23f-f9b778078e5d",
+    "sentence": "Participants judged that the potential for more-widespread disruptions in oil production, and thus for a larger jump in energy prices, posed both downside risks to growth and upside risks to inflation.",
+    "source": "minutes_20110315.html",
+    "doc_type": "minutes",
+    "date": "20110315",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "b08e372a-1955-4cc8-a454-92061ce4df8f",
+    "sentence": "While rising energy prices posed an upside risk to the inflation forecast, they also posed a downside risk to economic growth.",
+    "source": "minutes_20110427.html",
+    "doc_type": "minutes",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "a265603a-ae9c-4e36-85f3-83a1aeaa96a4",
+    "sentence": "Some participants indicated that they saw persistent slack in resource utilization as posing downside risks to the outlook for inflation; a few participants judged that the highly accommodative stance of monetary policy posed upside risks to the medium-term inflation outlook.",
+    "source": "minutes_20120620.html",
+    "doc_type": "minutes",
+    "date": "20120620",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Same-topic contested on inflation: persistent slack (dovish/downside) vs accommodative stance (upside). Both views are minority but together form symmetric framing."
+  },
+  {
+    "id": "51512caa-fe19-4599-b71c-50d68279a618",
+    "sentence": "The downside risks to the forecast for real GDP growth were thought to have diminished, but the risks were still seen as tilted a little to the downside because, with the target federal funds rate at its effective lower bound, the economy was not well positioned to withstand future adverse shocks.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Single-topic risk discussion (only growth, no inflation cross-mandate). Direction-of-risk change (diminished) but still tilted downside — level governs. NOT contested."
+  },
+  {
+    "id": "1b2a63d7-e9af-4af7-b7ee-12bebea7374b",
+    "sentence": "However, the downside risks were seen as nearly balanced by risks to the upside.",
+    "source": "minutes_20141217.html",
+    "doc_type": "minutes",
+    "date": "20141217",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none",
+    "note": "Explicit balance statement — symmetric without naming opposing forces concretely. No specific topic content, just risk framing. NOT contested because forces aren't named with their topics."
+  },
+  {
+    "id": "5e12a785-15e7-4bfb-a233-b07313088a51",
+    "sentence": "Weakness in the global economy, perceptions of downside risks to growth, and subdued global inflation pressures were cited as factors tilting inflation risk to the downside, and a few participants commented that they expected inflation to run below 2 percent for some time.",
+    "source": "minutes_20191030.html",
+    "doc_type": "minutes",
+    "date": "20191030",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Multiple dovish factors aligned (weak global, subdued pressures, below-target expected) — NOT contested, all factors pushing same direction."
+  },
+  {
+    "id": "59a14102-105c-485b-8475-a0b3e0ed083e",
+    "sentence": "In particular, the possibility of another sizable wave of COVID-19 cases in the winter was seen as an important source of downside risk to activity, while the possibility of more severe and persistent supply issues was viewed as an additional downside risk to activity and as an upside risk to inflation.",
+    "source": "minutes_20211103.html",
+    "doc_type": "minutes",
+    "date": "20211103",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "c9176f38-a395-40c7-991e-382a1aa588b0",
+    "sentence": "In particular, the possibility that COVID-19 cases could continue to rise steeply, especially if the Omicron variant proves to be vaccine resistant, was seen as an important source of downside risk to activity, while the possibility of more severe and persistent supply issues was viewed as an additional downside risk to activity and as an upside risk to inflation.",
+    "source": "minutes_20211215.html",
+    "doc_type": "minutes",
+    "date": "20211215",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "29cc3875-d0cd-4aff-b8d3-2e04cf98c8f4",
+    "sentence": "Many participants noted that the pandemic, particularly new variants of the virus, continued to pose downside risks to economic activity and upside risks to inflation.",
+    "source": "minutes_20211215.html",
+    "doc_type": "minutes",
+    "date": "20211215",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "1cb70e8f-d67a-4933-8785-c943b3f5767a",
+    "sentence": "In particular, the possibility that the economic effects of the virus would turn out to be larger than assumed in the baseline projection was viewed as an important source of downside risk to activity, while the possibility of more severe and more persistent supply issues was viewed as an additional downside risk to activity and as an upside risk to inflation.",
+    "source": "minutes_20220126.html",
+    "doc_type": "minutes",
+    "date": "20220126",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "e0c23aa4-cc83-4e50-97ed-0e6100fb7f86",
+    "sentence": "The COVID-19 pandemic remained a source of downside risk to activity, while the possibility of more severe and more persistent supply issues was viewed as posing an additional downside risk to activity and an upside risk to inflation.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "12e5828a-fe4f-4a15-a5bb-c7f92a386e1f",
+    "sentence": "Several participants judged that the upside risk to inflation associated with the war appeared more significant than the downside risk to growth, as inflation was already high, the United States had a relatively low level of financial and trade exposure to Russia, and the U.S. economy was well positioned to absorb additional adverse demand shocks.",
+    "source": "minutes_20220316.html",
+    "doc_type": "minutes",
+    "date": "20220316",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "Explicitly judges upside inflation risk as GREATER than downside growth risk = not balanced = NOT symmetric or contested. Skew clearly to upside."
+  },
+  {
+    "id": "7d47a5b5-70ba-4f6e-9b61-5bf15b3b8510",
+    "sentence": "Some participants observed that downside risks to growth and upside risks to unemployment had increased because of the risk that banking-sector developments could lead to further tightening of credit conditions and weigh on economic activity.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market",
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Downside growth + upside unemployment = both dovish (same direction in Fed terms), NOT opposing forces. Single-direction downside framing. NOT contested."
+  },
+  {
+    "id": "2b38d9b6-4e04-484b-b400-c6e93ea44bd0",
+    "sentence": "However, almost all participants commented that downside risks to growth and upside risks to unemployment had increased because of the possibility that banking-sector developments could lead to further tightening of credit conditions and weigh on economic activity.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market",
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Same as above — both risks dovish-aligned, NOT contested."
+  },
+  {
+    "id": "ab669af6-e637-46f1-8b55-689919596293",
+    "sentence": "One new source of uncertainty was that associated with the autoworkers' strike, and many participants observed that an intensification of the strike posed both an upside risk to inflation and a downside risk to activity.",
+    "source": "minutes_20230920.html",
+    "doc_type": "minutes",
+    "date": "20230920",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "36be2851-6f39-4ca0-8a56-b3604f84522d",
+    "sentence": "A potential for a broadening of the armed conflict in the Middle East was seen as presenting upside risk to inflation through its potential effect on oil prices as well as downside risk to economic activity.",
+    "source": "minutes_20231101.html",
+    "doc_type": "minutes",
+    "date": "20231101",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "ac348db8-4d0f-45f8-b2f9-5aa68e4f9035",
+    "sentence": "Participants also noted other sources of upside risks to inflation, including possible effects on global energy and food prices of geopolitical developments, a potential rebound in core goods prices following the period of supply chain improvements, or the effects of nearshoring and onshoring activities on labor demand and inflation. Downside risks to economic activity noted by participants included the possibility that effects of past policy tightening may be larger than expected, the risk of a marked weakening of household balance sheets, possible negative spillovers from lower growth in some foreign economies, geopolitical risks, and lingering risks of further tightening in bank credit. Relatedly, several participants noted that the weakness in gross domestic income growth relative to GDP growth over the past few quarters may suggest that economic momentum during that period was not as strong as indicated by the GDP readings.",
+    "source": "minutes_20231213.html",
+    "doc_type": "minutes",
+    "date": "20231213",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "d7589e25-28b0-4971-b495-5bb937fbff6f",
+    "sentence": "Upside risks to the inflation outlook were seen as having diminished, while downside risks to employment were seen as having increased.",
+    "source": "minutes_20240731.html",
+    "doc_type": "minutes",
+    "date": "20240731",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Both risk revisions are dovish-aligned: diminishing hawkish risk + increasing dovish risk = net dovish move. NOT contested — both forces push policy in same direction (toward easing)."
+  },
+  {
+    "id": "b3de7f09-450b-4839-94a6-ad6ec51080ac",
+    "sentence": "Almost all participants saw upside risks to the inflation outlook as having diminished, while downside risks to employment were seen as having increased. As a result, those participants now assessed the risks to achieving the Committee's dual-mandate goals as being roughly in balance.",
+    "source": "minutes_20240918.html",
+    "doc_type": "minutes",
+    "date": "20240918",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Explicit 'roughly in balance' = symmetric. Underlying revisions both dovish-aligned (diminishing hawkish + increasing dovish risks) but the final state is balanced = contested between active hawkish (inflation level) and dovish (employment) concerns."
+  },
+  {
+    "id": "b6590c3b-8c86-4faf-aafb-bf37c42cf7a1",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, almost all participants agreed that the upside risks to inflation had diminished, and most remarked that the downside risks to employment had increased.",
+    "source": "minutes_20240918.html",
+    "doc_type": "minutes",
+    "date": "20240918",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Same pattern as d7589e25: both revisions dovish-aligned. NOT contested."
+  },
+  {
+    "id": "45615783-5019-4445-ae4d-52492fa84032",
+    "sentence": "In participants' evaluation of the risks and uncertainties associated with the economic outlook, upside risks to the inflation outlook were seen as little changed, while downside risks to employment and growth were seen as having decreased somewhat.",
+    "source": "minutes_20241107.html",
+    "doc_type": "minutes",
+    "date": "20241107",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Inflation upside unchanged + employment/growth downside decreasing = hawkish shift in balance. Both risks still elevated and simultaneously named = contested."
+  },
+  {
+    "id": "dc39e58c-9d41-4b14-bc78-84f91351e1fc",
+    "sentence": "In addition, many participants suggested that a variety of factors underlined the need for a careful approach to monetary policy decisions over coming quarters. These factors included recent elevated inflation readings, the continuing strength of spending, reduced downside risks to the outlook for the labor market and economic activity, and increased upside risks to the outlook for inflation.",
+    "source": "minutes_20241218.html",
+    "doc_type": "minutes",
+    "date": "20241218",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none",
+    "note": "All four factors hawkish-aligned: elevated inflation + strong spending + reduced downside labor/growth + increased upside inflation = pure hawkish stack. NOT contested."
+  },
+  {
+    "id": "72e0c9a4-465d-4f68-9bcc-fdd38447d381",
+    "sentence": "Overall, participants judged that downside risks to employment and economic activity and upside risks to inflation had risen, primarily reflecting the potential effects of tariff increases.",
+    "source": "minutes_20250507.html",
+    "doc_type": "minutes",
+    "date": "20250507",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "f4821e7b-cec5-4e9c-a4e2-1678ad974b67",
+    "sentence": "Some participants commented that high uncertainty had the potential to restrain economic activity, including private-sector hiring, in the near term. Participants judged that there were downside risks to employment and economic activity and upside risks to inflation, but that these risks had decreased as expectations about effective tariff rates and their effects had declined from levels in April.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "00b5584f-8d89-4714-8807-46f348fd9cec",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, participants generally agreed that the upside risk to inflation and the downside risk to employment remained elevated.",
+    "source": "minutes_20250730.html",
+    "doc_type": "minutes",
+    "date": "20250730",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested"
+  },
+  {
+    "id": "ae9f20c9-7408-42ba-aff2-bcc07185a4cf",
+    "sentence": "In particular, most participants observed that it was appropriate to move the target range for the federal funds rate toward a more neutral setting because they judged that downside risks to employment had increased over the intermeeting period and that upside risks to inflation had either diminished or not increased.",
+    "source": "minutes_20250917.html",
+    "doc_type": "minutes",
+    "date": "20250917",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Both risk revisions dovish-aligned (increased dovish + diminished hawkish) + explicit dovish policy action (toward neutral) = pure dovish stack. NOT contested."
+  },
+  {
+    "id": "59ad5d03-9b16-4839-953a-8806c3c43937",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased. Participants noted that, in these circumstances, if policy were eased too much or too soon and inflation continued to be elevated, then longer-term inflation expectations could become unanchored and make restoring price stability even more challenging.",
+    "source": "minutes_20250917.html",
+    "doc_type": "minutes",
+    "date": "20250917",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "hawkish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Both risks elevated = symmetric + contested. Second sentence adds explicit hawkish warning against easing too soon (would unanchor expectations) + longer-term horizon. Net hawkish lean."
+  },
+  {
+    "id": "8af5bb5b-c81e-47c5-b101-b5ffbbc02f22",
+    "sentence": "They agreed that the Committee was attentive to the risks to both sides of its dual mandate and to add that downside risks to employment had risen to reflect their concerns about the labor market.",
+    "source": "minutes_20250917.html",
+    "doc_type": "minutes",
+    "date": "20250917",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Dual-mandate framing is acknowledged but only the labor market downside risk is concretely revised. The 'both sides' is generic context. Not contested — only one active risk revision named."
+  },
+  {
+    "id": "0e2659cf-a47f-4a4c-90f4-b97847e747f7",
+    "sentence": "Participants saw risks to both sides of the Committee's dual mandate, with many indicating that downside risks to employment had increased since earlier in the year, as the unemployment rate ticked up and the pace of job gains slowed, leaving the labor market more susceptible to any negative shock.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Same pattern as previous — 'both sides' is generic preamble but only labor downside risk substantively described. Not contested."
+  },
+  {
+    "id": "fc80fddc-da3a-47bb-81e4-8047281977e1",
+    "sentence": "Those who favored or could have supported a lowering of the target range for the federal funds rate toward a more neutral setting generally observed that such a decision was appropriate because downside risks to employment had increased in recent months and upside risks to inflation had diminished since earlier this year or were little changed. Those who preferred to keep the target range for the federal funds rate unchanged at this meeting expressed concern that progress toward the Committee's inflation objective had stalled this year, as inflation readings increased, or that more confidence was needed that inflation was on a course toward the Committee's 2 percent objective, while also noting that longer-term inflation expectations could rise should inflation not return to 2 percent in a timely manner.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Two genuinely opposing policy stances described simultaneously — dovish camp (cut toward neutral) vs hawkish camp (hold for inflation concerns). Classic contested between policy preferences. Long-term expectations referenced."
+  },
+  {
+    "id": "324dfd9a-1c5b-4d81-9830-f6f16873b61e",
+    "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, participants generally judged that upside risks to inflation remained elevated and that downside risks to employment were elevated and had increased since the first half of the year.",
+    "source": "minutes_20251029.html",
+    "doc_type": "minutes",
+    "date": "20251029",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Both risks explicitly named as elevated simultaneously = classic dual-mandate contested + symmetric."
+  },
+  {
+    "id": "486ab1dd-c0c2-41fc-9aab-a6899821da91",
+    "sentence": "They agreed that the Committee was attentive to the risks to both sides of its dual mandate and that downside risks to employment had risen in recent months.",
+    "source": "minutes_20251210.html",
+    "doc_type": "minutes",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Same pattern as 8af5bb5b — 'both sides' boilerplate + one-sided revision. Not contested."
+  },
+  {
+    "id": "f0126962-1d55-4eba-afb9-e61ecfd52751",
+    "sentence": "The downside risks to growth and the upside risks to inflation are both of significant concern to the Committee.",
+    "source": "statement_20080916.txt",
+    "doc_type": "statement",
+    "date": "2008-09-16",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Sept 2008 statement (Lehman week) — both risks named as 'significant concern' simultaneously = classic dual-mandate contested + symmetric. 'Significant' intensifier applies to both."
+  },
+  {
+    "id": "020f80c3-bcaf-4852-bcfa-a3eb0cb6665b",
+    "sentence": "Sorry, let's see, the other -- the upside risks. So I -- there are upside risks to the economy, and I think, you know, we tend to focus on the downside risk.",
+    "source": "FOMCpresconf20151216.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20151216",
+    "context_question": "Greg Robb from MarketWatch. There's been a lot of talk today and a lot of discussion about the downside risks facing the economy from, you know, the global environment, but you say in your statement that the risks are nearly balanced. So should—could you talk more about the upside risks that you see to the economy?",
+    "top": [
+      "macro"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none",
+    "note": "Acknowledges both upside and downside but doesn't substantively describe either with directional content. Generic risk acknowledgement, not contested."
+  },
+  {
+    "id": "04a08478-7888-4a61-a609-b2767e8ec304",
+    "sentence": "So, for the last couple of years, the best service we could do to the American people was to focus on inflation. But as inflation has come down -- and I think the upside risks to inflation have decreased as the labor market has cooled off, and now the labor market has softened -- you know, probably the inflation, inflation's probably a little farther from its target than is employment, but I think the downside risks to, to the employment mandate are, are real now. So we have to weigh all that, and if you think about where that takes us is we have a restrictive policy rate.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Michael McKee from Bloomberg Radio and Television. I'd like to ask you about the balance of risks as the American people see it.",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Acknowledges shift: inflation upside risk diminishing + employment downside risk emerging + restrictive rate currently. Both forces simultaneously active. Tilts dovish (rationale for considering cuts) but explicitly contested."
+  },
+  {
+    "id": "7a1b6649-f4e7-41be-86fc-6132e27f11eb",
+    "sentence": "As inflation has declined and the labor market has cooled, the upside risks to inflation have diminished, and the downside risks to employment have increased.",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240918",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Both revisions dovish-aligned (diminishing hawkish + increasing dovish risks) = same direction in policy implications. NOT contested — both forces push policy toward easing."
+  },
+  {
+    "id": "1ad3334b-2130-47f6-a81a-372e3128d5ec",
+    "sentence": "The question isn't the level; the question is that there has been change, particularly over the last few months, and, you know, so what we say is, as the risks, the upside risks, to inflation have really come down, the downside risks to employment have increased.",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240918",
+    "context_question": "Hi, Chair Powell. Rachel Siegel from the Washington Post.",
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Same pattern as 7a1b6649 — both revisions dovish-aligned. 'Really come down' adds slight intensifier on inflation diminishing. NOT contested."
+  },
+  {
+    "id": "f5073e7b-09e8-4324-8266-9521af50b831",
+    "sentence": "It's a good picture. But in terms of our policy, we have upside risks to inflation, downside risks to employment. And this is a very difficult thing for a central bank, because one of those calls for rates to be lower, one calls for rates to be higher.",
+    "source": "FOMCpresconf20251029.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251029",
+    "context_question": "Daniel Avis, Agence France-Presse. You now have dissents in three consecutive FOMC meetings, but in this meeting you had dissents going in both directions.",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Powell explicitly names this as the central bank dual-mandate dilemma: 'one calls for rates lower, one calls for higher'. Textbook contested + symmetric."
+  },
+  {
+    "id": "9cd61688-0f2a-4fc9-be1f-190d5be294b3",
+    "sentence": "I just mentioned upside risks to inflation, but there are also important downside risks to economic activity, such as the slowdown in foreign economic growth.",
+    "source": "U.S. Economic Outlook and Monetary Policy Transmission",
+    "doc_type": "speech",
+    "date": "2023-10-09",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Cross-topic dual-mandate collision explicitly named (inflation upside + activity downside). Contested + symmetric."
+  },
+  {
+    "id": "68ffa1d6-aae2-4ea3-a8a5-b466b2f72ea7",
+    "sentence": "That said, the future is uncertain, and I am attentive to risks—both upside risks to my inflation outlook and downside risks to the outlook for economic activity.",
+    "source": "The Outlook for the U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2024-04-03",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Explicit cross-topic dual-mandate framing + 'future is uncertain' acknowledgement. Could argue wid = elevated alongside contested, but contested is the primary characterization."
+  },
+  {
+    "id": "812f3618-9f7d-4569-b367-b07aba24cbdc",
+    "sentence": "It was a decision that weighed the upside risks to inflation and inflation expectations with the downside risks to economic growth.",
+    "source": "Economic Uncertainty and the Evolution of Monetary Policymaking",
+    "doc_type": "speech",
+    "date": "2024-04-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Past tense describing a decision that explicitly weighed both sides. Contested + symmetric."
+  },
+  {
+    "id": "43ac7530-3312-4d57-8f98-5f35da114032",
+    "sentence": "As I have discussed in recent remarks, if economic conditions continue to evolve in this favorable manner with more rapid disinflation, as evidenced in the inflation data of the past three months, and employment softening but remaining resilient as seen in the past few jobs reports, I anticipate that it will be appropriate to begin easing monetary policy later this year. But my approach to this policy decision will continue to be data dependent and to rely on multiple and diverse sources of data to form my view of how the economy is evolving, especially as upside risks to inflation and downside risks to employment have become much more balanced.",
+    "source": "The Challenges Facing Economic Measurement and Creative Solutions",
+    "doc_type": "speech",
+    "date": "2024-07-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "conditional",
+    "ris": "symmetric",
+    "wid": "contested",
+    "note": "Forward dovish easing signal + conditional on continued disinflation + explicit symmetric framing ('much more balanced'). Two opposing risks named simultaneously = contested."
+  },
+  {
+    "id": "bca471ef-aaff-4c70-9b5a-17e0ac2d24b9",
+    "sentence": "Al­though CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further in the first quarter.",
+    "source": "minutes_20230503.html",
+    "doc_type": "minutes",
+    "date": "20230503",
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "hor": false,
+    "ris": "na",
+    "wid": "contested"
   },
   {
     "id": "c003923a-eea9-4e2c-b691-51004e3280d7",
@@ -9132,7 +10694,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9218,7 +10780,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9235,7 +10797,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -9625,7 +11187,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "symmetric",
     "wid": "elevated"
@@ -9767,7 +11329,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -9818,7 +11380,7 @@
     ],
     "ten": "interpretive",
     "sen": "neutral",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9838,7 +11400,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "elevated"
@@ -9872,7 +11434,7 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -9974,7 +11536,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -10026,7 +11588,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -10253,5 +11815,1145 @@
     "com": "none",
     "ris": "na",
     "wid": "contested"
+  },
+  {
+    "id": "5939a7f1-1fc0-438c-b191-e9c5b94afc10",
+    "sentence": "Again, if we fear that inflation expectations look like they're becoming less anchored, we would have to respond to that.",
+    "source": "FOMCpresconf20110427.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "na",
+    "dir": "hawkish",
+    "com": "conditional",
+    "hor": "na",
+    "con": [
+      "inflation"
+    ],
+    "dom": "inflation",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "545c220a-6c9b-4923-aa64-4edb2feedebd",
+    "sentence": "The prices of oil and other commodities rose sharply earlier this year.",
+    "source": "FOMCpresconf20111102.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20111102",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "backward",
+    "sen": -2,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d56d64ce-949c-4a92-9e36-c0b70a45d3e8",
+    "sentence": "The median projection in the SEP for total PCE inflation falls to 2.4 percent this year, 2.2 percent next year, and 2 percent in 2026.",
+    "source": "FOMCpresconf20240320.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240320",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4acf85ac-8c36-480a-b53a-f1a3c7677a54",
+    "sentence": "We use the IOER rate to help keep the federal funds rate in our target range.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190501",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "none",
+    "sen": "na",
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "387bae39-ccf8-4405-8cf9-2a800ffd2075",
+    "sentence": "In particular, the Committee decided to keep the target range for the federal funds rate at 0 to ¼ percent and currently anticipates that economic conditions are likely to warrant exceptionally low levels for the federal funds rate at least until late 2014.",
+    "source": "FOMCpresconf20120125.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20120125",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "forward",
+    "sen": "na",
+    "dir": "dovish",
+    "com": "conditional",
+    "hor": "long_term",
+    "con": [
+      "macro"
+    ],
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9357279f-bb47-4e99-840f-90373a79bd19",
+    "sentence": "Payroll job gains averaged 276,000 jobs per month in the first quarter, while the unemployment rate remains low at 3.8 percent.",
+    "source": "FOMCpresconf20240501.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20240501",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1bfb1635-a85f-468c-837a-6c933c941324",
+    "sentence": "The SEP includes participants' individual projections of the most likely economic scenario, along with their views of the appropriate path of the federal funds rate in that scenario.",
+    "source": "FOMCpresconf20190320.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20190320",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "none",
+    "sen": "na",
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "67d655ac-f5ba-4883-8601-6423def3d979",
+    "sentence": "Specifically, the central tendency of participants' growth projections picks up gradually from 2.5 to 2.9 percent in 2012 to 3.0 to 3.9 percent by 2014.",
+    "source": "FOMCpresconf20111102.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20111102",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b9a7e17e-e867-40d0-a5a4-b55ada132cb1",
+    "sentence": "The effects on inflation could be short lived -- reflecting a one-time shift in the price level.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "forward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a06b918c-280d-4848-8ecd-225524708f61",
+    "sentence": "The Committee made no change today in the target range of the federal funds rate, which remains at 0 to ¼ percent.",
+    "source": "FOMCpresconf20110427.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110427",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "present",
+    "sen": "na",
+    "dir": "neutral",
+    "com": "unconditional",
+    "hor": "near_term",
+    "con": [
+      "none"
+    ],
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6f288846-c6bb-4c6a-bdcc-fcdfbedd5cb7",
+    "sentence": "The unemployment rate, at 4.2 percent, remains low and has stayed in a narrow range for the past year.",
+    "source": "FOMCpresconf20250618.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d5d8d315-75ca-4d9a-88d2-d86b26d73a26",
+    "sentence": "Specifically, participants' projections for output growth have a central tendency of about 2.7 to 2.9 percent for this year and 3.3 to 3.7 percent for next year -- growth rates faster than we have seen so far in 2011. However, Committee participants have also generally responded to the recent slowing by marking down the growth projections for 2011 and 2012, which are nearly a half percentage point lower than our April projections.",
+    "source": "FOMCpresconf20110622.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20110622",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "forward",
+    "sen": 0,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "2faa1024-8efb-434d-a889-88875a97f5c4",
+    "sentence": "Job gains have been robust, with employment rising by an average of 247,000 jobs per month over the last three months.",
+    "source": "FOMCpresconf20230201.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230201",
+    "context_question": null,
+    "top": [
+      "unemployment"
+    ],
+    "ten": "backward",
+    "sen": 1,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "419927f2-2fc9-4ff0-868f-199bc0f487ba",
+    "sentence": "Now I will provide some additional context and detail, starting with a review of policy over the last year.",
+    "source": "FOMCpresconf20181219.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20181219",
+    "context_question": null,
+    "top": [
+      "boilerplate"
+    ],
+    "ten": "none",
+    "sen": "na",
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0cda67f5-b78b-47e0-ac1e-5adf3dac0a69",
+    "sentence": "My colleagues and I are acutely aware that high inflation imposes significant hardship, especially on those least able to meet the higher costs of essentials like food, housing, and transportation.",
+    "source": "FOMCpresconf20220727.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20220727",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "present",
+    "sen": -2,
+    "dir": "na",
+    "com": "na",
+    "hor": "na",
+    "con": "na",
+    "dom": "na",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7011a017-c372-4360-9695-295ebc2d130e",
+    "sentence": "The launch of the 2019-20 review was motivated in part by a desire to evaluate the experience of the Global Financial Crisis and its aftermath. During this period, inflation had run persistently below the Committee's 2 percent objective, even as the unemployment rate and interest rates remained low. These developments indicated a greater risk that the federal funds rate would be constrained by its effective lower bound (ELB) more often in the future, posing challenges to the achievement of the Committee's dual-mandate goals over the medium term.",
+    "source": "minutes_20250129.html",
+    "doc_type": "minutes",
+    "date": "20250129",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "contested",
+    "note": "Retrospective recounting of the framework-review motivation. 'Inflation had run persistently below the 2 percent objective, EVEN AS the unemployment rate and interest rates remained low' — low inflation (dovish) vs low unemployment (hawkish), same tense, 'even as' connective -> contested -> sen neutral. Forward ELB-risk content ('more often in the future... over the medium term') -> interpretive, hor true. ELB-constraint risk = downside -> ris skewed_downside."
+  },
+  {
+    "id": "0ae46d58-17be-478b-8352-cb9be34ddbc0",
+    "sentence": "The staff also considered whether medium-term inflation risks have become more balanced around the 2 percent objective than they were during the pre-pandemic period, when the proximity of the policy rate to the effective lower bound (ELB) appeared to contribute to inflation running persistently below 2 percent.",
+    "source": "minutes_20250507.html",
+    "doc_type": "minutes",
+    "date": "20250507",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Staff meta-consideration of WHETHER medium-term inflation risks have become more balanced -- a question entertained, not an assertion -> neutral, ris na. Forward (medium-term risks) -> interpretive; 'medium-term' -> hor true. ELB/policy rate referenced -> monetary_policy in top."
+  },
+  {
+    "id": "b766e599-8b41-4b21-85b4-105de300424c",
+    "sentence": "After all, back then, the economy was still weighed down by the after-effects of the 2008 financial crisis, and inflation was running persistently below our 2 percent target.",
+    "source": "Forward Guidance as a Monetary Policy Tool: Considerations for the Current Economic Environment",
+    "doc_type": "speech",
+    "date": "2022-10-12",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "'Back then' + past tense ('was weighed down', 'was running') -> dated historical recounting of the 2010s in a 2022 speech, not a current-state assessment -> no_topic, neutral (consistent with treating dated recounts as no_topic)."
+  },
+  {
+    "id": "256bc1ce-24ee-41ae-9e23-5520a0827ec4",
+    "sentence": "As we move away from the zero lower bound, the data to which we will be responding will be driven less and less by the financial crisis and Great Recession, and increasingly by post-liftoff economic developments.",
+    "source": "Monetary Policy Lessons and the Way Ahead",
+    "doc_type": "speech",
+    "date": "2015-03-23",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Meta-statement about how the data the Fed responds to will shift from crisis-driven to post-liftoff. No directional action signal -> neutral. Forward -> interpretive. No specific action+condition -> com none."
+  },
+  {
+    "id": "24c03265-99f8-47ed-9d27-010c2e359494",
+    "sentence": "Members recognized, however, that inflation persistently below the Committee's 2 percent objective could pose risks to economic performance.",
+    "source": "minutes_20131030.html",
+    "doc_type": "minutes",
+    "date": "20131030",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below the 2 percent objective could pose risks' -> inflation below target = dovish; not strongly ('persistently below' is duration, not magnitude). Conditional 'could pose risks' -> interpretive. Explicit risk framing, inflation-undershoot direction -> ris skewed_downside."
+  },
+  {
+    "id": "7598e980-d792-487a-a959-bc5d8bb027f5",
+    "sentence": "In addition to updating its description of the state of the economy, the Committee decided to underline its concern about recent shortfalls of inflation from its longer-run goal by including in the statement an indication that it recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, while also noting that it continues to anticipate that inflation will move back toward its objective over the medium term.",
+    "source": "minutes_20130731.html",
+    "doc_type": "minutes",
+    "date": "20130731",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Concern about recent shortfalls of inflation' + 'inflation persistently below 2% could pose risks' (dovish) vs 'inflation will move back toward its objective over the medium term' (mildly hawkish) -> net dovish. The Committee's decision to include statement language is a communication choice, not a policy-action commitment -> com none. 'Over the medium term' -> hor true. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "b9e2ea38-6438-443b-87a4-c3577c9cada8",
+    "sentence": "But they noted that inflation persistently below the Committee's objective would pose risks to economic performance and so saw a need to monitor inflation developments carefully.",
+    "source": "minutes_20131218.html",
+    "doc_type": "minutes",
+    "date": "20131218",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below the objective would pose risks to economic performance' -> inflation below target = dovish, not strongly. Conditional -> interpretive. 'Persistently below' is not a listed horizon trigger -> hor false. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "524153d9-6be5-4ce3-9a44-b92772f19c58",
+    "sentence": "It was noted, however, that because this was the third year in which the statement was being issued, the coming year would be an appropriate time to consider whether the statement could be enhanced in any way. For example, some participants advocated an explicit indication that inflation persistently below the Committee's 2 percent longer-run objective and inflation persistently above that objective would be equally undesirable.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Largely procedural discussion of whether the longer-run-goals statement could be enhanced. The substantive content ('inflation persistently below... and above... equally undesirable') is a symmetric framing point -> neutral. Forward ('coming year would be appropriate to consider') -> interpretive; 'longer-run objective' -> hor true."
+  },
+  {
+    "id": "e6d52223-b82e-4af9-a87e-1b73c1f5bc5d",
+    "sentence": "Participants noted that inflation persistently below the Committee's objective would pose risks to economic performance and that inflation developments would need to be monitored carefully.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below the Committee's objective would pose risks to economic performance' -> inflation below target = dovish, not strongly. Conditional -> interpretive. 'Persistently below' not a horizon trigger -> hor false. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "952f3493-494b-49fd-b308-4fae8c6329ba",
+    "sentence": "Some participants favored quantitative guidance along the lines of the existing thresholds, while others preferred a qualitative approach that would provide additional information regarding the factors that would guide the Committee's policy decisions. Several participants suggested that risks to financial stability should appear more explicitly in the list of factors that would guide decisions about the federal funds rate once the unemployment rate threshold is crossed, and several participants argued that the forward guidance should give greater emphasis to the Committee's willingness to keep rates low if inflation were to remain persistently below the Committee's 2 percent longer-run objective.",
+    "source": "minutes_20140129.html",
+    "doc_type": "minutes",
+    "date": "20140129",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Deliberation about forward-guidance DESIGN (quantitative vs qualitative, which factors to list) -> neutral. Forward guidance / rates -> monetary_policy; inflation below objective -> inflation; 'risks to financial stability' -> financial_conditions. No specific action+condition -> com none. 'Longer-run objective' -> hor true."
+  },
+  {
+    "id": "ea48e92e-e4f1-4e72-a271-b6b38540fa49",
+    "sentence": "A few participants proposed adding new language in which the Committee would indicate its willingness to keep rates low if projected inflation remained persistently below the Committee's 2 percent longer-run objective; these participants suggested that the inclusion of this quantitative element in the forward guidance would demonstrate the Committee's commitment to defend its inflation objective from below as well as from above.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'A few participants proposed' (minority) adding dovish guidance language ('willingness to keep rates low if projected inflation remained below objective'). Directional content is dovish; minority caps at dovish. Minority proposal, not a Committee commitment -> com none. Conditional -> interpretive; 'longer-run objective' -> hor true. Inflation-undershoot scenario -> skewed_downside."
+  },
+  {
+    "id": "d19d6c8b-f2fe-4aa9-9db9-f48a58b1841a",
+    "sentence": "Other participants, however, judged that it was already well understood that the Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Meta-deliberation: 'other participants judged that it was already well understood that [inflation below objective could pose risks].' The assertion is about whether the point is well-understood, not a directional inflation claim -> neutral. The embedded risk framing ('could pose risks', inflation-undershoot) -> ris skewed_downside. Conditional -> interpretive."
+  },
+  {
+    "id": "9e4df02d-1c3c-428d-a3db-0c6b4f2b153c",
+    "sentence": "However, a couple of members preferred to include language in the statement indicating that the Committee would keep rates low if projected inflation remained persistently below the Committee's 2 percent longer-run objective.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'A couple of members' (minority) preferred dovish guidance language ('Committee would keep rates low if projected inflation remained below objective'). Directional content dovish; minority caps at dovish. Minority preference, not a Committee commitment -> com none. Conditional -> interpretive; 'longer-run objective' -> hor true. Inflation-undershoot scenario -> skewed_downside."
+  },
+  {
+    "id": "6b13f874-b2a7-4a24-8bb5-8f5d70960ff7",
+    "sentence": "Mr. Kocherlakota dissented because, in his view, the new forward guidance in the fifth paragraph of the statement would weaken the credibility of the Committee's commitment to its inflation goal by failing to communicate purposeful steps to more rapidly increase inflation to the 2 percent target and by suggesting that the Committee views inflation persistently below 2 percent as an acceptable outcome.",
+    "source": "minutes_20140319.html",
+    "doc_type": "minutes",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Kocherlakota dissent (single dissenter = minority): argues the guidance should commit to 'purposeful steps to more rapidly increase inflation' -> a more-accommodation argument = dovish; minority caps at dovish. Dissent rationale, no commitment verb+action+condition -> com none. No explicit risk-framing word -> ris na."
+  },
+  {
+    "id": "77d84236-8f8e-47a0-8e0a-7159c25662a5",
+    "sentence": "However, members continued to recognize that inflation persistently below its longer-run objective could pose risks to economic performance and agreed to monitor inflation developments closely for evidence that inflation was moving back toward its objective over the medium term.",
+    "source": "minutes_20140618.html",
+    "doc_type": "minutes",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below its longer-run objective could pose risks' (dovish) + monitoring for evidence inflation moves back toward objective (mildly hawkish) -> net dovish. Conditional/forward -> interpretive; 'longer-run objective' + 'over the medium term' -> hor true. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "b7c9f33e-87a0-4dc7-a376-dd756f6dbd90",
+    "sentence": "Participants noted that inflation had moved somewhat closer to the Committee's 2 percent longer-run objective and generally saw the risks of inflation running persistently below their objective as having diminished somewhat.",
+    "source": "minutes_20140730.html",
+    "doc_type": "minutes",
+    "date": "20140730",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "SEED MISMATCH for dovish. 'Inflation had moved somewhat closer to the 2 percent objective' (inflation rising toward target) + 'risks of inflation below objective diminished somewhat' (downside risk reduced) -> both lean hawkish -> hawkish, not strongly ('somewhat' softeners). Present-state -> descriptive. Named risk is the inflation-undershoot risk -> ris skewed_downside."
+  },
+  {
+    "id": "9b56001d-d532-40aa-8cf9-af918a15b261",
+    "sentence": "While most viewed the risk that inflation would run persistently below 2 percent as having diminished somewhat since earlier in the year, a couple noted the possibility that longer-term inflation expectations might be slightly lower than the Committee's 2 percent objective or that domestic inflation might be held down by persistent disinflation among U.S. trading partners and further appreciation of the dollar.",
+    "source": "minutes_20140917.html",
+    "doc_type": "minutes",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Divergence of views: 'most viewed the risk [of inflation below 2%] as having diminished' (mildly hawkish) WHILE 'a couple noted' downside possibilities (minority dovish). A divergence of views, not a same-tense collision of economic forces -> not contested; net unclear -> neutral. Dollar appreciation -> financial_conditions. Forward -> interpretive; 'longer-term' -> hor true. The named risk is inflation-undershoot -> skewed_downside."
+  },
+  {
+    "id": "8fa3ff1d-0654-4cb3-8d6d-ec83a05001ff",
+    "sentence": "However, with stable longer-term inflation expectations, the Committee continued to judge that the likelihood of inflation running persistently below 2 percent had diminished somewhat since early in the year.",
+    "source": "minutes_20140917.html",
+    "doc_type": "minutes",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "SEED MISMATCH for dovish. 'The likelihood of inflation running persistently below 2 percent had diminished somewhat' -> a downside-inflation risk receding = mildly hawkish, not strongly. Present-state assessment of a change -> descriptive. Named risk = inflation-undershoot -> ris skewed_downside."
+  },
+  {
+    "id": "42b43966-1d09-48c2-966c-c93ad91fcd04",
+    "sentence": "At this meeting, a staff presentation discussed three issues related to the existing statement that might warrant elaboration or clarification: whether inflation persistently below the Committee's 2 percent longer-run objective and inflation similarly persistently above that objective would be regarded as equally undesirable, whether additional information should be provided about the \"balanced approach\" that the Committee takes in promoting its two objectives under circumstances in which these objectives are judged not to be complementary, and how financial stability is linked to the Committee's mandated goals of maximum employment and price stability.",
+    "source": "minutes_20141029.html",
+    "doc_type": "minutes",
+    "date": "20141029",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Procedural: describes the agenda of a staff presentation ('discussed three issues related to the existing statement'). No directional economic assertion -> no_topic, neutral, descriptive."
+  },
+  {
+    "id": "982ac3e8-3040-4f63-a635-8f22fb631666",
+    "sentence": "In addition, longer-term inflation expectations in the Michigan survey had been relatively stable since the beginning of the year, while other survey measures of inflation expectations, such as the three-year-ahead measure from the Federal Reserve Bank of New York's Survey of Consumer Expectations, had increased in recent months. Notwithstanding these developments, some participants cautioned that progress toward the Committee's inflation objective should not be overstated; they noted that inflation had been persistently below 2 percent during the current economic expansion and that core inflation on a 12-month basis was little changed in recent months at a level below 2 percent.",
+    "source": "minutes_20170315.html",
+    "doc_type": "minutes",
+    "date": "20170315",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Expectations stable / one survey measure increased (first sentence, mixed). 'Notwithstanding' pivots to the dominant cautionary point: 'some participants cautioned that progress should not be overstated... inflation had been persistently below 2 percent... core inflation little changed at a level below 2 percent' -> dovish (minority caution, but the cell's thrust is inflation below target). Present-state data -> descriptive. No explicit risk-framing word -> ris na."
+  },
+  {
+    "id": "3b41e4a6-c07f-4734-a432-8c5eee06e000",
+    "sentence": "A few participants cautioned that further increases in the target range for the federal funds rate while inflation remained persistently below 2 percent could unduly depress inflation expectations or lead the public to question the Committee's commitment to its longer-run inflation objective.",
+    "source": "minutes_20171101.html",
+    "doc_type": "minutes",
+    "date": "20171101",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'A few participants' (minority) caution against further rate hikes while inflation is below 2% -> a don't-tighten argument = dovish; minority caps at dovish. Cautionary view, no commitment -> com none. Conditional -> interpretive; 'longer-run inflation objective' -> hor true. Risk flagged: hikes -> depressed inflation expectations = downside -> ris skewed_downside."
+  },
+  {
+    "id": "ad5d3caf-b6ee-4d8a-bf37-ce440865cb1b",
+    "sentence": "Event participants were concerned about rising costs of living and generally perceived low inflation as desirable from that perspective. Event participants were asked about monetary policymakers' concerns regarding overall inflation running persistently below 2 percent; they noted that the Federal Reserve could better communicate its reasons for these concerns.",
+    "source": "minutes_20191211.html",
+    "doc_type": "minutes",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "Reports a Fed Listens outreach event: public attendees' views on cost of living and a suggestion that the Fed communicate better. Public-sentiment/communication content, not an FOMC economic assessment -> no_topic, neutral."
+  },
+  {
+    "id": "7b9e73d1-cf0f-482a-aaf0-044c94bc2682",
+    "sentence": "In particular, if inflation ran persistently below the Committee's objective, longer-term inflation expectations could drift down, resulting in lower actual inflation.",
+    "source": "minutes_20191211.html",
+    "doc_type": "minutes",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Deflationary-spiral conditional: 'if inflation ran persistently below the objective, longer-term expectations could drift down, resulting in lower actual inflation' -> dovish, not strongly (causal chain, not 3 distinct signals; no intensity marker). Conditional -> interpretive; 'longer-term' -> hor true. Conditional scenario is downside -> ris skewed_downside."
+  },
+  {
+    "id": "bc472545-06a9-4127-a63e-0a829c5dd3ea",
+    "sentence": "The Committee recognizes that inflation persistently below its 2 percent objective could pose risks to economic performance, and it is monitoring inflation developments carefully for evidence that inflation will move back toward its objective over the medium term.",
+    "source": "statement_20140618.txt",
+    "doc_type": "statement",
+    "date": "2014-06-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below its 2 percent objective could pose risks' (dovish) + monitoring for evidence inflation moves back toward objective over the medium term (mildly hawkish) -> net dovish. Conditional/forward -> interpretive; 'over the medium term' -> hor true. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "e273b0c4-6218-42aa-806d-b202703ccc27",
+    "sentence": "The Committee recognizes that inflation persistently below its objective could pose risks to economic performance, and we will continue to monitor inflation developments closely.",
+    "source": "FOMCpresconf20130918.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below its objective could pose risks to economic performance' -> dovish, not strongly. Conditional 'could pose risks' -> interpretive. No listed horizon trigger -> hor false. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "0780b1ee-0f4f-4376-896a-186413113315",
+    "sentence": "The Committee is mindful that inflation running persistently below its objective could pose risks to economic performance. The Committee also recognizes, however, that policy actions tend to exert pressure on inflation that is manifest only gradually over time. The FOMC will continue assessing incoming data carefully to ensure that policy is consistent with attaining the FOMC's longer-run objectives of maximum employment and inflation of 2 percent.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140319",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation running persistently below its objective could pose risks' (dovish) + policy-lag note + generic data-dependence ('will continue assessing incoming data') -> dovish overall. Generic data-dependence, not a specific action+condition -> com none. Forward -> interpretive; 'over time' + 'longer-run objectives' -> hor true. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "ad08f5fd-2d27-47c0-b200-d50fb02b703d",
+    "sentence": "Inflation has continued to run below the Committee's 2 percent objective, and the Committee remains mindful that inflation running persistently below its objective could pose risks to economic performance.",
+    "source": "FOMCpresconf20140618.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation has continued to run below the 2 percent objective' -> inflation below target = dovish, not strongly ('below objective' has no magnitude intensifier). The primary assertion is present-state -> descriptive; the 'could pose risks' clause is a subordinate caveat. Inflation-undershoot risk -> skewed_downside."
+  },
+  {
+    "id": "dae28edf-899c-4713-87d4-c5a1334eb2c8",
+    "sentence": "Moreover, inflation has firmed some since earlier in the year, and the Committee believes that the likelihood of inflation running persistently below 2 percent has diminished.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "SEED MISMATCH for dovish. 'Inflation has firmed some' (inflation rising) + 'the likelihood of inflation running persistently below 2 percent has diminished' (downside risk receding) -> both lean hawkish -> hawkish, not strongly ('some' softener). Present-state -> descriptive. Named risk = inflation-undershoot -> ris skewed_downside."
+  },
+  {
+    "id": "c17b58f5-1742-4072-933e-0102777ad33d",
+    "sentence": "In light of the cumulative progress toward maximum employment and the improvement in the outlook for labor market conditions since the inception of the program, and with the likelihood of inflation running persistently below 2 percent having diminished somewhat, we have reduced our pace of asset purchases again at this meeting.",
+    "source": "FOMCpresconf20140917.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20140917",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "sen": "hawkish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "SEED MISMATCH for dovish. Taper announcement: 'we have reduced our pace of asset purchases again' (hawkish action) justified by labor-market progress and a diminished inflation-undershoot risk -> hawkish. Not strongly: gradual taper (no 50bp move), mild language ('cumulative progress', 'diminished somewhat'), labor stated as one domain -> the 3-distinct-signals bar is not cleanly met. Action taken, not a forward commitment -> com none."
+  },
+  {
+    "id": "b6302d5b-5bf9-44c4-8ebd-f5617507d955",
+    "sentence": "At the same time, we want to avoid inflation running persistently below our objective, which could leave us with less scope to counter an economic downturn in the future.",
+    "source": "FOMCpresconf20180321.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20180321",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'We want to avoid inflation running persistently below our objective' -> flags the low-inflation concern; the Fed easing to prevent undershoot = dovish incentive. 'Want to avoid' is a preference, not a commitment verb -> com none. Conditional ('could leave us... in the future') -> interpretive; 'in the future' is not a listed horizon trigger -> hor false. Risk: low inflation -> less scope to counter a downturn = downside -> ris skewed_downside."
+  },
+  {
+    "id": "ddbe07f8-3aeb-498f-a9d2-b3e940c45ec6",
+    "sentence": "If inflation were to run persistently below 2 percent or persistently above 2 percent, that would be a concern for the Committee, and the Committee would take that into account in making policy.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190501",
+    "context_question": "Well, I mean, if it was an issue, would it be appropriate to lower rates if core inflation held closer to 1½ percent? And, if not, are you worried that there is unwanted tightening from real rates, being where they are?",
+    "top": [
+      "inflation",
+      "monetary_policy"
+    ],
+    "sen": "neutral",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none",
+    "note": "Symmetric conditional: inflation 'persistently below 2 percent OR persistently above 2 percent' framed as equally a concern -> no directional skew -> neutral; explicitly two-sided -> ris symmetric. 'Would take that into account in making policy' is generic, no specific action -> com none. Conditional -> interpretive. 'Persistently' is not a listed horizon trigger -> hor false."
+  },
+  {
+    "id": "6263ecaf-2daf-470d-a648-4224ea8d9f5d",
+    "sentence": "We've had trade policy uncertainty, which we think also has been weighing on activity and investment and sentiment. And we've had inflation, which -- we've called out the risk of inflation running persistently below 2 percent as a risk that we needed to address. So we've been doing it to address all of those things.",
+    "source": "FOMCpresconf20191030.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20191030",
+    "context_question": "So if you were to describe the shifts that you’ve made so far, it wasn’t just about trade uncertainty. It was about, specifically, these kinds of high-pressure labor gains that you’ve talked about.",
+    "top": [
+      "monetary_policy",
+      "macro",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated",
+    "note": "'Trade policy uncertainty' -> wid elevated. Trade uncertainty weighing on activity/investment/sentiment (dovish) + risk of inflation below 2% (dovish) + rate cuts already done (dovish) -> dovish. Not strongly: 'weighing on' is one mechanism across three areas (not 3 distinct signals) and no intensity marker. 'Doing it to address those things' = past actions, not a forward commitment -> com none. Explicit downside risk (inflation below target, activity drag) -> ris skewed_downside."
+  },
+  {
+    "id": "5d65527d-6546-40ce-98c6-14bcd35197e5",
+    "sentence": "While low and stable inflation is certainly a good thing, inflation that runs persistently below our objective can lead to an unhealthy dynamic in which longer-term inflation expectations drift down, pulling actual inflation even lower.",
+    "source": "FOMCpresconf20191211.pdf",
+    "doc_type": "press_conference_prepared",
+    "date": "20191211",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Deflationary-spiral mechanism: inflation persistently below objective -> expectations drift down -> actual inflation even lower. Dovish; not strongly (causal chain, not 3 distinct signals; 'drift down'/'even lower' are not intensity markers). 'While low and stable inflation is a good thing' is a concession (a value statement, not an opposing economic force) -> not contested. Forward mechanism -> interpretive; 'longer-term' -> hor true. Downside inflation dynamic -> ris skewed_downside."
+  },
+  {
+    "id": "542c674d-434a-4aa4-a8b1-fe90a15aa079",
+    "sentence": "As the Committee reiterated in today's policy statement, with inflation running persistently below 2 percent, we will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210428",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "AIT guidance: 'with inflation running persistently below 2 percent' (context/condition) 'we will aim to achieve inflation moderately above 2 percent for some time' ('will' + makeup-strategy action). Action + condition -> conditional with flexibility (consistent with the d2cb0160 AIT treatment). Allowing overshoot = accommodative = dovish; 'moderately above' softens it -> not strongly. 'For some time'/'over time'/'longer-term' -> hor true."
+  },
+  {
+    "id": "f6a74925-18e7-4621-9911-4da82f83e739",
+    "sentence": "As the Committee reiterated in today's policy statement, with inflation having run persistently below 2 percent, we will aim to achieve inflation moderately above 2 percent for some time so that inflation averages 2 percent over time and longer-term inflation expectations remain well anchored at 2 percent.",
+    "source": "FOMCpresconf20210728.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": true,
+    "com": "conditional",
+    "ris": "na",
+    "wid": "none",
+    "note": "Identical AIT guidance to 542c674d ('having run' vs 'running'). 'We will aim to achieve inflation moderately above 2 percent for some time' + 'with inflation having run persistently below 2 percent' -> conditional with flexibility. Accommodative AIT = dovish, not strongly. 'For some time'/'over time'/'longer-term' -> hor true."
+  },
+  {
+    "id": "d5511afc-9246-4d65-bda2-9b3ae504fcb2",
+    "sentence": "The company's failure would thus likely have led to a further sharp decline in confidence in the global banking system and possibly to the collapse of other major financial institutions.",
+    "source": "Four Questions about the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2009-04-14",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "Past counterfactual ('the company's failure WOULD have led to' a sharp decline in confidence and possible collapse of institutions) about an AVERTED event. The scenario is severe financial stress = dovish for financial_conditions, but as a hypothetical/counterfactual the strong intensity is discounted -> dovish, not strongly (consistent with the earlier judgment call). Counterfactual -> interpretive; scenario warned about is downside -> ris skewed_downside."
+  },
+  {
+    "id": "b8a68573-ade0-4bce-bc68-21978631da9c",
+    "sentence": "It hypothesized a deep recession in the United States, with GDP contracting sharply, unemployment reaching a peak of more than 13 percent, equity prices falling by half, and house prices declining by an additional 20 percent from their 2011 levels.",
+    "source": "Developing Tools for Dynamic Capital Supervision",
+    "doc_type": "speech",
+    "date": "2012-04-10",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "SEED MISMATCH. 'It hypothesized a deep recession...' describes the PARAMETERS of a bank stress-test scenario — invented test inputs, not a real or forecast economy. Methodological -> no_topic, neutral. NOT strongly_dovish despite 'deep recession', 'sharply', 'falling by half'."
+  },
+  {
+    "id": "727724e5-fd2f-4df3-a8e0-cfefa0965150",
+    "sentence": "The Economy in the United States and in Los Angeles\r\n The overall U.S. economy had started to contract by the beginning of 2008 and entered the severe phase of the recession during the late summer of that year with the near-collapse of the financial system.",
+    "source": "Downturns and Recoveries: What the Economies in Los Angeles and the United States Tell Us",
+    "doc_type": "speech",
+    "date": "2012-04-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "SEED MISMATCH. 2012 speech recounting the dated 2008 timeline ('had started to contract by the beginning of 2008... entered the severe phase... late summer of that year'). Historical narrative not tied to current state -> no_topic, neutral. NOT strongly_dovish."
+  },
+  {
+    "id": "94f790c8-174d-4a17-9024-8f5358fe8a03",
+    "sentence": "Accordingly, our scenarios now generally incorporate not only the typical consequences of a severe recession but also, simultaneously, other adverse developments such as an exceptionally large decline in house prices, sharp drops in the value of stocks and other financial assets, or a worsening of global economic conditions more severe than might normally be expected to accompany a deep recession in the United States.",
+    "source": "Stress Testing Banks: What Have We Learned?",
+    "doc_type": "speech",
+    "date": "2013-04-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "SEED MISMATCH. 'Our scenarios now generally incorporate...' describes the design of bank stress-test scenarios — methodological description of regulatory test parameters, not a real or forecast economy -> no_topic, neutral. NOT strongly_dovish despite 'severe recession', 'sharp drops', 'exceptionally large'."
+  },
+  {
+    "id": "f3a8ee2e-78aa-4cd6-8a95-f7259c05bfd6",
+    "sentence": "As the most recent FOMC statement emphasizes, inflation persistently below 2 percent could pose risks to economic performance.",
+    "source": "Monetary Policy and the Economic Recovery",
+    "doc_type": "speech",
+    "date": "2014-04-16",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "interpretive",
+    "hor": false,
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none",
+    "note": "'Inflation persistently below 2 percent could pose risks to economic performance.' Inflation below target = dovish; not strongly ('persistently below' is duration, not a magnitude intensifier). Conditional 'could pose risks' -> interpretive. Explicit risk framing, inflation-undershoot direction -> ris skewed_downside. Topic is inflation; 'FOMC statement emphasizes' is attribution only -> com none."
+  },
+  {
+    "id": "8af6ce82-366e-4465-b85d-34bf473e0139",
+    "sentence": "The Recession and the Recovery So Far\r\n As you all know, the economy is still recovering from the Great Recession, the worst downturn since the terrible episode of the 1930s that inspired its name.",
+    "source": "The Outlook for the Economy",
+    "doc_type": "speech",
+    "date": "2015-05-22",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "SEED MISMATCH for strong. The current-state claim is mild — 'the economy is still recovering' (recovery ongoing = mildly dovish). The intensifier ('worst downturn since the 1930s') attaches to the PAST Great Recession, an appositive, not the current pace -> dovish, not strongly. Present-state -> descriptive. Aggregate economy -> macro."
+  },
+  {
+    "id": "42d991ae-bc91-4e60-a1b7-d26256014ec3",
+    "sentence": "The Dallas Fed's trimmed mean measure of the PCE price index is higher, at 1.6 percent, but still somewhat below our 2 percent objective. Moreover, these measures of core inflation have been persistently below 2 percent throughout the economic recovery. That said, as with total inflation, core inflation can be somewhat variable, especially at frequencies higher than 12-month changes.",
+    "source": "U.S. Inflation Developments",
+    "doc_type": "speech",
+    "date": "2015-08-29",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "dovish",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "none",
+    "note": "SEED MISMATCH for strong. Core inflation at 1.6 percent, 'still somewhat below' the 2 percent objective, 'persistently below 2 percent' -> dovish. Not strongly: 'somewhat below' is a softener and 1.6% is only modestly below target (no magnitude intensifier). Present-state data -> descriptive."
+  },
+  {
+    "id": "492bbb35-19fd-42c4-98f4-97247d577aef",
+    "sentence": "Despite strong job gains, very weak productivity gains have led to disappointingly slow economic growth of only about 2 percent over the course of this expansion (figure 4).",
+    "source": "Thoughts on the Normalization of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-06-01",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "economic_activity"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Strong job gains (labor_market hawkish) vs very weak productivity / disappointingly slow growth (economic_activity dovish). 'Despite' connective, same tense (descriptive). Cross-topic collision -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "89f3036c-c8a7-4485-b82b-3fbec9fc88a7",
+    "sentence": "Higher prices for energy and food put upward pressure on headline inflation in foreign economies, but measures of core inflation remained subdued.",
+    "source": "minutes_20120313.html",
+    "doc_type": "minutes",
+    "date": "20120313",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Headline inflation pushed up (hawkish) vs core inflation remained subdued (dovish). Same topic, same tense, 'but' connective. Opposing forces cancel -> sentiment neutral, wid contested."
+  },
+  {
+    "id": "b18abf30-8bcf-4f1f-961b-30d52dde238a",
+    "sentence": "The growth of commercial and industrial (C&I) loans on banks' books continued to be strong, although a modest net percentage of banks reported tightening standards for C&I loans to large and middle-market firms during the fourth quarter in the most recent Senior Loan Officer Opinion Survey (SLOOS).",
+    "source": "minutes_20160127.html",
+    "doc_type": "minutes",
+    "date": "20160127",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "sen": "neutral",
+    "ten": "descriptive",
+    "hor": false,
+    "com": "none",
+    "ris": "na",
+    "wid": "contested",
+    "contested": true,
+    "note": "Strong C&I loan growth (easier conditions = hawkish) vs banks tightening standards (tighter conditions = dovish). 'Although' connective, same tense. Opposing forces in financial_conditions -> sentiment neutral, wid contested."
   }
 ]
