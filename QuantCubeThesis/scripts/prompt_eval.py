@@ -146,11 +146,29 @@ def generate_batch_vllm(
     max_new_tokens: int = 256,
     temperature: float = 0.01,
 ) -> List[str]:
-    """Batch inference via vLLM chat API. Returns one decoded string per prompt."""
+    """Batch inference via vLLM generate API with manual chat template.
+
+    Appends JSON_PREFIX to the assistant turn so the model is forced to
+    complete from '{"topic":' — ensuring JSON output rather than prose.
+    """
     from vllm import SamplingParams
-    conversations = [[{"role": "user", "content": p}] for p in prompts]
-    # Use temperature>=0.1 to avoid repetitive-loop collapse at near-zero temp.
-    # repetition_penalty breaks cycles when the model gets stuck echoing prompt text.
+    from transformers import AutoTokenizer
+
+    # Apply Llama chat template manually and inject the JSON prefix into
+    # the assistant turn so the model CONTINUES from '{"topic":' not from scratch.
+    tokenizer = AutoTokenizer.from_pretrained(llm.llm_engine.model_config.model)
+
+    formatted_prompts = []
+    for p in prompts:
+        messages = [{"role": "user", "content": p}]
+        # apply_chat_template with add_generation_prompt=True adds the
+        # <|start_header_id|>assistant<|end_header_id|> tokens at the end.
+        base = tokenizer.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True
+        )
+        # Append the JSON prefix so generation continues from there.
+        formatted_prompts.append(base + JSON_PREFIX)
+
     safe_temp = max(temperature, 0.1)
     sampling_params = SamplingParams(
         temperature=safe_temp,
@@ -158,7 +176,7 @@ def generate_batch_vllm(
         top_p=0.95,
         repetition_penalty=1.1,
     )
-    outputs = llm.chat(messages=conversations, sampling_params=sampling_params, use_tqdm=False)
+    outputs = llm.generate(formatted_prompts, sampling_params)
     return [o.outputs[0].text.strip() for o in outputs]
 
 
@@ -199,7 +217,7 @@ def generate_response(
 
 # ── JSON PARSING ──────────────────────────────────────────────────────────────
 
-JSON_PREFIX = '{"topic":'  # forced prefix injected at end of prompt
+JSON_PREFIX = '{"topic":'  # assistant-turn prefix that forces JSON completion
 
 
 def extract_json(response: str) -> Optional[dict]:
