@@ -170,9 +170,8 @@ def generate_batch_vllm(
         # Append the JSON prefix so generation continues from there.
         formatted_prompts.append(base + JSON_PREFIX)
 
-    safe_temp = max(temperature, 0.1)
     sampling_params = SamplingParams(
-        temperature=safe_temp,
+        temperature=temperature,
         max_tokens=max_new_tokens,
         top_p=0.95,
         repetition_penalty=1.1,
