@@ -13,7 +13,7 @@ Return the complete JSON file with all fields populated. Never leave a field emp
 | Field | Type | Description |
 |-------|------|-------------|
 | `top` | array of strings | Topic(s) present in the sentence — includes conditions when topic is monetary_policy |
-| `sen` | string or "na" | Hawkish/dovish sentiment: `"hawkish"`, `"neutral"`, `"dovish"`, or `"na"` |
+| `sen` | string | Hawkish/dovish sentiment: `"hawkish"`, `"neutral"`, or `"dovish"` |
 | `ten` | string | Temporal orientation: `"descriptive"` or `"interpretive"` |
 | `com` | string | Commitment level (monetary policy only, else "none") |
 | `ris` | string | Risk balance |
@@ -33,14 +33,12 @@ Select all topics explicitly present in the sentence. A sentence can have multip
 | `macro` | Aggregate economic outlook where no single variable dominates. Use when the sentence references "economic conditions", "economic outlook", "economic developments", or similar aggregate phrases without specifying a single dominant variable. Do not conflate with `economic_activity` — `macro` is for unspecified aggregate framing. |
 | `financial_conditions` | Credit markets, spreads, asset prices, bank lending, financial stability, money markets, funding conditions |
 | `monetary_policy` | Rate decisions, asset purchases, balance sheet, forward guidance, policy stance — only when the sentence is explicitly about what the Fed is doing or will do with its policy tools. When the sentence also references specific economic conditions as justification, include those topics alongside `monetary_policy` directly in `top`. |
-| `boilerplate` | Procedural, administrative, legal directives, section headers, vote announcements, clearly formulaic language with no substantive policy signal |
-| `no_topic` | Generic statements that convey no specific economic content but may still carry risk or uncertainty signal |
+| `no_topic` | Procedural, administrative, generic, or formulaic sentences with no specific economic content. Includes vote announcements, legal directives, section headers, monitoring pledges, and generic dual-mandate reaffirmations. `ris` and `wid` still apply if relevant; default to `ris = "na"`, `wid = "none"`. |
 
 **Key distinctions:**
 - Use `macro` only when truly no single variable dominates. If a multi-variable sentence has a clear dominant conclusion (e.g., "risks to real activity"), label that variable instead.
-- `boilerplate` examples: vote announcements, legal/regulatory language, section headers, memorial tributes, formulaic monitoring pledges ("The Committee will continue to monitor..."), and generic dual-mandate reaffirmations ("The Federal Reserve is committed to both sides of its mandate") that carry no specific directional signal. Test: does removing this sentence lose any policy-relevant information? If no, it is boilerplate.
-- `no_topic` is for generic sentences that may still carry risk or uncertainty (`ris` and `wid` still apply). `boilerplate` is for purely procedural/administrative sentences (default `ris = "na"`, `wid = "none"`).
-- **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `boilerplate` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `["monetary_policy", "macro"]` with `com = "conditional"`.
+- `no_topic` covers everything with no specific economic content — both purely procedural sentences (vote announcements, section headers) and generic statements with no dominant variable. Test: does removing this sentence lose any policy-relevant information? If no, it is `no_topic`.
+- **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `no_topic` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `["monetary_policy", "macro"]` with `com = "conditional"`.
 
 **Cause-and-effect structure — topic labelling:** When a sentence pairs a cause (one topic) with an effect on a different topic, label `top` according to the **effect topic**. The cause is background mechanism; the policy-relevant content is what is being predicted or reported about the effect variable. Do not include the cause topic in `top` unless it independently carries a substantive evaluative signal of its own beyond serving as a mechanism.
 
@@ -63,13 +61,13 @@ Captures whether the sentence's primary content is **descriptive** (reporting wh
 
 | Label | When to use |
 |-------|-------------|
-| `"descriptive"` | Backward-looking (past data, historical events) OR present-state descriptions with no forward implication. Includes boilerplate and procedural sentences. |
+| `"descriptive"` | Backward-looking (past data, historical events) OR present-state descriptions with no forward implication. Includes procedural and no_topic sentences. |
 | `"interpretive"` | Forward-signalling regardless of grammatical tense. Includes projections, outlooks, conditional/hypothetical structures ("if/should/were to"), and present-tense sentences where current observations clearly imply a future trajectory. Any sentence containing "outlook", "prospects", "trajectory", or equivalent projection language. |
 
 **Key rules:**
 - All conditional/hypothetical structures → `"interpretive"` (capture the conditionality in `ris`).
 - Staff projections describing the current or recently elapsed period (data already largely realised) → `"descriptive"`. Any projection extending beyond the meeting date → `"interpretive"`.
-- Boilerplate and procedural sentences → `"descriptive"`.
+- Procedural and no_topic sentences → `"descriptive"`.
 - **Cause-and-effect sentences:** `ten` is determined by the nature of the **effect clause**, not the cause clause. Three patterns arise:
   - *Descriptive cause + interpretive effect* → `ten = "interpretive"`. The effect governs. Example: *"The ongoing rebalancing of labor supply and demand [descriptive] would help reduce core services inflation [interpretive]"* → `"interpretive"`.
   - *Descriptive cause + descriptive effect* → `ten = "descriptive"`. Both clauses report what happened. Example: *"Easing supply bottlenecks reduced goods inflation over the quarter"* → `"descriptive"`.
@@ -84,9 +82,8 @@ The field captures the *policy incentive* implied by the sentence — regardless
 - **`"hawkish"`** — the information pushes toward tightening
 - **`"neutral"`** — no net directional policy incentive, or genuinely balanced signals
 - **`"dovish"`** — the information pushes toward easing
-- **`"na"`** — use only for `boilerplate` sentences
 
-Applies to ALL topics including `monetary_policy`.
+Applies to ALL topics including `monetary_policy` and `no_topic`.
 
 ### Directional rules by topic (apply consistently):
 
@@ -177,9 +174,6 @@ Captures whether the sentence signals the distribution of outcomes is wider than
 
 ## Special Rules Summary
 
-### When `top = ["boilerplate"]`:
-- `ten = "descriptive"`, `sen = "na"`, `com = "none"`, `ris = "na"`, `wid = "none"`
-
 ### When `top` includes `"monetary_policy"`:
 - Fill `sen`, `com`; include any referenced economic topics in `top` directly
 - `ris` and `wid` still apply
@@ -224,7 +218,7 @@ When a single sentence contains one hawkish signal and one dovish signal:
 
 ### BC5: Data dependence language
 
-Generic standalone data dependence: `boilerplate`
+Generic standalone data dependence: `no_topic`, `sen = "neutral"`
 - "The Committee will continue to monitor incoming data and act as appropriate."
 
 Specific data dependence naming a policy action and variables: `monetary_policy`, `com = "conditional"`, `sen = "neutral"`
@@ -392,7 +386,7 @@ All "if/should/were to/in the event that" structures:
 
 ---
 
-### Example 9: Data dependence — boilerplate vs substantive
+### Example 9: Data dependence — no_topic vs substantive
 
 > "In determining the pace of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
 
@@ -450,15 +444,15 @@ All "if/should/were to/in the event that" structures:
 
 ```
 top:  [inflation | labor_market | economic_activity | macro | financial_conditions
-        | monetary_policy | boilerplate | no_topic]
+        | monetary_policy | no_topic]
       For monetary_policy sentences, add any referenced economic topics directly here.
+      no_topic covers procedural, administrative, generic, and formulaic sentences.
 
 ten:  "descriptive" | "interpretive"
       descriptive  = backward-looking OR present-state (no forward implication)
       interpretive = forward-signalling, projections, conditionals, outlooks
 
-sen:  "hawkish" | "neutral" | "dovish" | "na"
-      na only for boilerplate
+sen:  "hawkish" | "neutral" | "dovish"
       HAWKISH/DOVISH INCENTIVE:
         inflation:            rising/high = hawkish, falling/low = dovish
         labor_market:         tight/low unemployment = hawkish, slack/high = dovish
@@ -479,7 +473,7 @@ CONTESTED: "neutral" from two genuinely opposing forces — same-topic AND cross
   Paralysis/tension (forces cancel) → sen = "neutral", wid = "contested"
 ELEVATED: any explicit acknowledgement of uncertainty or lack of knowledge
 NEGATIONS: label the economic state described, not the grammatical surface
-DATA DEPENDENCE: boilerplate if generic; top=["monetary_policy","macro"] + conditional if specific
+DATA DEPENDENCE: no_topic + neutral if generic; top=["monetary_policy","macro"] + conditional if specific
 ```
 
 Return your answer as a JSON object using EXACTLY these field names:
