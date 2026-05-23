@@ -27,7 +27,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -283,7 +283,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -415,7 +415,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -464,7 +464,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "conditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -528,7 +528,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "conditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -838,7 +838,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -1193,7 +1193,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "conditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -1273,7 +1273,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -1663,7 +1663,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -2235,7 +2235,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "conditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -2288,7 +2288,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -2513,7 +2513,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -2547,7 +2547,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "unconditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -2723,7 +2723,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -2808,7 +2808,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -2929,7 +2929,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": true,
+    "hor": false,
     "ris": "skewed_downside",
     "wid": "none"
   },
@@ -3275,7 +3275,7 @@
     ],
     "ten": "interpretive",
     "sen": "neutral",
-    "com": "conditional",
+    "com": "none",
     "hor": false,
     "ris": "na",
     "wid": "none"
@@ -3503,7 +3503,7 @@
     "ten": "interpretive",
     "sen": "strongly_hawkish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -3866,7 +3866,7 @@
     "ten": "descriptive",
     "sen": "neutral",
     "com": "none",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -3883,7 +3883,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -4090,7 +4090,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -4175,7 +4175,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -4224,7 +4224,7 @@
     "top": [
       "no_topic"
     ],
-    "sen": "strongly_dovish",
+    "sen": "neutral",
     "ten": "descriptive",
     "hor": false,
     "com": "none",
@@ -4261,7 +4261,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -4278,7 +4278,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none"
@@ -4651,7 +4651,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "symmetric",
     "wid": "elevated"
@@ -4793,7 +4793,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "none"
@@ -4844,7 +4844,7 @@
     ],
     "ten": "interpretive",
     "sen": "neutral",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -4864,7 +4864,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_upside",
     "wid": "elevated"
@@ -5163,7 +5163,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -5760,7 +5760,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -5778,7 +5778,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -5830,7 +5830,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -5898,7 +5898,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "skewed_upside",
     "wid": "none"
   },
@@ -6545,7 +6545,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -6691,7 +6691,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -6745,7 +6745,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "conditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -6834,7 +6834,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "unconditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -6889,7 +6889,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -6907,7 +6907,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -6976,7 +6976,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7251,7 +7251,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7320,7 +7320,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7339,7 +7339,7 @@
     "ten": "interpretive",
     "sen": "strongly_dovish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -7410,7 +7410,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7638,7 +7638,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7692,7 +7692,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7784,7 +7784,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "unconditional",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7854,7 +7854,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -7906,7 +7906,7 @@
     "ten": "descriptive",
     "sen": "neutral",
     "com": "unconditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -8064,7 +8064,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -8119,7 +8119,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -8245,7 +8245,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "com": "conditional",
-    "hor": true,
+    "hor": false,
     "ris": "na",
     "wid": "none"
   },
@@ -8348,7 +8348,7 @@
     ],
     "ten": "interpretive",
     "sen": "dovish",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -8450,7 +8450,7 @@
     ],
     "sen": "hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -8502,7 +8502,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -9253,7 +9253,7 @@
     ],
     "sen": "strongly_hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "na",
     "wid": "none"
@@ -9563,7 +9563,7 @@
     ],
     "sen": "strongly_hawkish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "unconditional",
     "ris": "na",
     "wid": "none"
@@ -9857,7 +9857,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "conditional",
     "ris": "na",
     "wid": "none"
@@ -10865,7 +10865,7 @@
     ],
     "sen": "strongly_dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "none",
@@ -10918,7 +10918,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -10972,7 +10972,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "none",
     "ris": "skewed_downside",
     "wid": "elevated"
@@ -11025,7 +11025,7 @@
     ],
     "sen": "neutral",
     "ten": "interpretive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -11060,7 +11060,7 @@
     ],
     "sen": "neutral",
     "ten": "descriptive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -11163,7 +11163,7 @@
     ],
     "sen": "neutral",
     "ten": "descriptive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -11180,7 +11180,7 @@
     ],
     "sen": "dovish",
     "ten": "descriptive",
-    "hor": true,
+    "hor": false,
     "com": "none",
     "ris": "na",
     "wid": "elevated"
@@ -11267,7 +11267,7 @@
     ],
     "sen": "dovish",
     "ten": "interpretive",
-    "hor": false,
+    "hor": true,
     "com": "conditional",
     "ris": "na",
     "wid": "elevated"
@@ -12306,7 +12306,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -12461,7 +12461,7 @@
     "ten": "interpretive",
     "sen": "dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
@@ -12497,7 +12497,7 @@
     "ten": "interpretive",
     "sen": "strongly_dovish",
     "com": "none",
-    "hor": false,
+    "hor": true,
     "ris": "na",
     "wid": "none"
   },
