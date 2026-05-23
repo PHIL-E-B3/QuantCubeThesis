@@ -1,0 +1,91 @@
+You are an expert Federal Reserve analyst annotating FOMC communications for a monetary policy research dataset[cite: 5]. For each sentence, return a JSON object with exactly these 6 fields in this order: topic, tense, sentiment, commitment, risk, width[cite: 5].
+
+FIELD DEFINITIONS[cite: 5]:
+
+"topic" (array): Topic(s) present[cite: 5]. Values: "inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic"[cite: 5].
+- "inflation": prices, CPI, PCE, inflation expectations, wage pressures on costs[cite: 5]
+- "labor_market": employment, unemployment, participation rate, job openings, wages[cite: 5]
+- "economic_activity": GDP, output, consumption, investment, housing, retail, industrial production — SPECIFIC domestic output/demand variables only[cite: 5]
+- "macro": aggregate or global outlook where NO SINGLE domestic variable dominates — "economic conditions", "the outlook", "the recovery", international/global developments[cite: 5]. Do NOT use "economic_activity" for multi-variable or global sentences[cite: 5].
+- "financial_conditions": yields, spreads, credit availability, lending standards, asset prices, exchange rates, market volatility[cite: 5]
+- "monetary_policy": Fed rate decisions, balance sheet, forward guidance, policy stance, Committee actions[cite: 5]
+- "no_topic": zero evaluative economic content — procedural sentences, section headers, vote announcements, generic dual-mandate reaffirmations, institutional statements, conversational filler, historical narrative not tied to current state, any sentence mentioning Fed or rates but making no assessable economic claim[cite: 5]. Sentiment always "neutral", commitment always "none"[cite: 5].
+
+Multiple topics allowed[cite: 5]. For cause-and-effect, label EFFECT topic[cite: 5]. Include economic topics alongside "monetary_policy" when cited as justification[cite: 5]. Cross-topic dual-mandate collisions → include both topics[cite: 5].
+
+"tense": "descriptive" = backward-looking or present-state, no forward implication[cite: 5]. "interpretive" = forward-signalling: projections, outlooks, conditionals ("if/should/were to"), or present observations implying future trajectory[cite: 5].
+
+"sentiment": Hawkish/dovish policy incentive[cite: 5]. Values: "hawkish", "neutral", "dovish"[cite: 5].
+
+Polarity by topic[cite: 5]:
+- inflation: rising/high = hawkish, falling/low = dovish[cite: 5]
+- labor_market: tight/low unemployment = hawkish, slack/high unemployment = dovish[cite: 5]
+- economic_activity: stronger growth = hawkish, weaker growth = dovish[cite: 5]
+- financial_conditions: COUNTERINTUITIVE — easier/accommodative = hawkish (Fed must do more), tighter/stressed = dovish[cite: 5]
+- monetary_policy: tightening = hawkish, easing = dovish[cite: 5]
+
+Intensity rules[cite: 5]:
+- "hawkish"/"dovish": clear directional signal[cite: 5]. "solid" and "robust" stay at hawkish/dovish[cite: 5].
+- "neutral": no net directional signal, or opposing signals cancel[cite: 5].
+- Minority views ("one member", "a few participants"): cap at "hawkish"/"dovish"[cite: 5].
+
+DEFAULT-TO-NEUTRAL[cite: 5]:
+- Pure data report with no comparative/directional reference → neutral[cite: 5]. Need "above/below target", "stronger/weaker than expected", or intensity marker to go directional[cite: 5].
+- Mention of FOMC, policy, rates, balance sheet → neutral unless explicit action signal present (raise, cut, tighten, ease, taper)[cite: 5].
+- Deliberation without action → neutral[cite: 5].
+- Tie-break toward NEUTRAL[cite: 5]. Signal must be IN the sentence[cite: 5].
+
+Key rules[cite: 5]:
+- LEVEL OVERRIDES DIRECTION: "fell but remained high" → hawkish[cite: 5].
+- Negations: label STATE described[cite: 5]. "Not seeing deanchoring" = dovish[cite: 5]. "Has not returned to target" = hawkish[cite: 5].
+- Holds: "neutral" unless framed as restrictive (hawkish) or accommodative (dovish)[cite: 5].
+
+"commitment": If topic excludes "monetary_policy" → always "none"[cite: 5]. If topic includes "monetary_policy"[cite: 5]:
+- "unconditional" = commitment verb (will/intends to/is prepared to) + specific action, no condition[cite: 5].
+- "conditional" = BOTH (a) commitment verb + specific action AND (b) explicit condition ("if", "should", "as long as", "until", "depending on")[cite: 5]. Missing either → "none"[cite: 5].
+- "none" = deliberation, modal verbs alone, generic data-dependence, no specific action+condition pair[cite: 5].
+TEST: Can you point to BOTH a specific action AND explicit condition[cite: 5]? If either missing → "none"[cite: 5].
+
+"risk"[cite: 5]:
+- "skewed_downside": risks toward worse outcomes (growth weakening, labor loosening, financial stress, recession)[cite: 5]
+- "skewed_upside": risks toward overheating or inflation overshoot[cite: 5]. For inflation: skewed_upside = MORE inflation is the tail risk[cite: 5]. Label captures direction, not whether outcome is good or bad[cite: 5].
+- "symmetric": explicitly balanced ("roughly balanced", "risks on both sides") — do not resolve directionally[cite: 5].
+- "na": no explicit risk framing[cite: 5]. For conditionals, populate with direction of stated scenario[cite: 5].
+
+"width"[cite: 5]:
+- "elevated": ANY explicit uncertainty acknowledgement[cite: 5]. Triggers: "uncertain", "uncertainty", "unclear", "hard to gauge", "hard to say", "hard to know", "difficult to assess", "difficult to determine", "we don't know", "cannot know", "imperfectly understood", "unprecedented", "remains to be seen", "hard to predict"[cite: 5]. Bare "uncertain"/"uncertainty" qualifies — no modifier needed[cite: 5]. FIRES INDEPENDENTLY OF SENTIMENT[cite: 5].
+- "contested": two economic forces, same sentence, same tense, opposite policy directions[cite: 5]. One hawkish in isolation, one dovish[cite: 5]. Signals cancel → sentiment = neutral[cite: 5]. Connectives: "but", "however", "while", "although", "even as", "despite", "yet"[cite: 5].
+  ✓ "Although household spending rose, business investment remained soft." (hawkish spending + dovish investment)[cite: 5]
+  ✓ "Inflation above target while labor conditions softened." (dual-mandate collision)[cite: 5]
+  ✗ "Fell but remained high" — level governs, not two opposing forces[cite: 5].
+  ✗ "Solid but uncertainty remains" — hedge ≠ opposing economic force[cite: 5].
+- "none": baseline[cite: 5]. Modal verbs, standard hedges, single-direction signals[cite: 5].
+- risk and width can co-exist[cite: 5].
+
+EXAMPLES[cite: 5]:
+
+Sentence: "The Federal Reserve is not politically compromised."[cite: 5]
+{"topic": ["no_topic"], "tense": "descriptive", "sentiment": "neutral", "commitment": "none", "risk": "na", "width": "none"}[cite: 5]
+Reasoning: Mentions the Fed but zero evaluative economic content[cite: 5]. Institutional statement → no_topic[cite: 5]. Sentiment always neutral for no_topic[cite: 5].
+
+Sentence: "Although household spending had been increasing at a moderate rate, business fixed investment and net exports had been soft."[cite: 5]
+{"topic": ["economic_activity"], "tense": "descriptive", "sentiment": "neutral", "commitment": "none", "risk": "na", "width": "contested"}[cite: 5]
+Reasoning: Two forces on economic_activity: spending rising (hawkish in isolation) and investment/exports soft (dovish in isolation)[cite: 5]. "Although" signals the opposition[cite: 5]. Each clause pushes policy in opposite directions → contested[cite: 5]. Opposing signals cancel → neutral[cite: 5].
+
+Sentence: "In particular, the January employment report came in substantially stronger than I and most forecasters and market participants expected."[cite: 5]
+{"topic": ["labor_market"], "tense": "descriptive", "sentiment": "hawkish", "commitment": "none", "risk": "na", "width": "none"}[cite: 5]
+Reasoning: Tight/strong labor market = hawkish[cite: 5]. Past data report = descriptive[cite: 5]. No risk framing or uncertainty[cite: 5].
+
+Sentence: "The unemployment rate, which was at a 50-year low of 3.5 percent as recently as February, surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May."[cite: 5]
+{"topic": ["labor_market"], "tense": "interpretive", "sentiment": "dovish", "commitment": "none", "risk": "skewed_downside", "width": "none"}[cite: 5]
+Reasoning: High and rising unemployment = slack = dovish[cite: 5]. Forward projection ("likely to rise further in May") = interpretive[cite: 5]. Further deterioration projected → skewed_downside[cite: 5].
+
+Sentence: "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run."[cite: 5]
+{"topic": ["monetary_policy", "labor_market", "inflation"], "tense": "interpretive", "sentiment": "dovish", "commitment": "conditional", "risk": "na", "width": "none"}[cite: 5]
+Reasoning: Rates below normal even after mandate met = accommodative = dovish[cite: 5]. Specific action (keep rates below normal) + explicit condition (employment and inflation near mandate levels) = conditional[cite: 5]. Labor market and inflation referenced as monitoring variables alongside monetary_policy[cite: 5].
+
+Now classify this sentence[cite: 5]. Return only the JSON object, no other text[cite: 5].
+
+Sentence: "{sentence}"[cite: 5]
+
+JSON:[cite: 5]

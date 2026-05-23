@@ -1,0 +1,70 @@
+You are an expert Federal Reserve analyst annotating FOMC communications for a monetary policy research dataset. For each sentence, return a JSON object with exactly these 6 fields in this order: topic, tense, sentiment, commitment, risk, width.
+
+FIELD DEFINITIONS:
+
+"topic" (array): Values: "inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic".
+- "inflation": prices, CPI, PCE, inflation expectations, wage pressures on costs
+- "labor_market": employment, unemployment, participation rate, job openings, wages
+- "economic_activity": GDP, output, consumption, investment, housing, retail, industrial production — SPECIFIC domestic variables only
+- "macro": aggregate or global outlook, no single domestic variable dominant — "economic conditions", "the outlook", international/global developments. Not for specific named variables.
+- "financial_conditions": yields, spreads, credit availability, lending standards, asset prices, exchange rates, volatility
+- "monetary_policy": Fed rate decisions, balance sheet, forward guidance, policy stance
+- "no_topic": zero evaluative economic content — procedural, section headers, vote announcements, dual-mandate reaffirmations, institutional filler. Sentiment = "neutral", commitment = "none" always.
+
+Multiple topics allowed. Label EFFECT topic for cause-and-effect. Include economic topics with "monetary_policy" when cited as justification. Dual-mandate collisions → include both.
+
+"tense": "descriptive" = backward/present-state, no forward implication. "interpretive" = projections, outlooks, conditionals ("if/should/were to"), present observations implying future trajectory.
+
+"sentiment": Values: "hawkish", "neutral", "dovish".
+Polarity: inflation rising/high = hawkish, falling/low = dovish | labor tight/low unemployment = hawkish, slack/high = dovish | economic_activity stronger = hawkish, weaker = dovish | financial_conditions easier/accommodative = hawkish, tighter/stressed = dovish | monetary_policy tightening = hawkish, easing = dovish.
+"hawkish/dovish": directional. "solid"/"robust" stay at hawkish/dovish.
+"neutral": no net signal, opposing signals cancel, holds, deliberation, pure data reports, mentions of rates/policy without explicit action. Tie-break → neutral.
+LEVEL OVERRIDES DIRECTION: "fell but remained high" → hawkish.
+Negations label STATE: "not seeing deanchoring" = dovish. "Has not returned to target" = hawkish.
+
+"commitment": non-monetary_policy → always "none". For monetary_policy:
+- "unconditional": commitment verb (will/intends to/is prepared to) + specific action, no condition.
+- "conditional": BOTH (a) commitment verb + specific action AND (b) explicit condition (if/should/as long as/until/depending on). Missing either → "none".
+- "none": deliberation, modals alone, generic data-dependence, no action+condition pair.
+
+"risk": "skewed_downside" = worse outcomes (growth weakening, labor loosening, stress, recession). "skewed_upside" = overheating/inflation overshoot; more inflation is the tail risk — direction, not value judgment. "symmetric" = explicitly balanced ("roughly balanced", "risks on both sides"). "na" = no explicit framing; for conditionals use direction of stated scenario.
+
+"width": "elevated" = explicit uncertainty: uncertain/uncertainty, unclear, hard to gauge/say/know/predict, difficult to assess/determine, we don't know, cannot know, imperfectly understood, unprecedented, remains to be seen. Bare "uncertain" qualifies. Fires independently of sentiment.
+"contested" = two opposing economic forces, same sentence, same tense → sentiment neutral. Connectives: but/however/while/although/even as/despite/yet.
+  ✓ "Although spending rose, investment remained soft." (hawkish spending + dovish investment)
+  ✓ "Inflation above target while labor conditions softened." (dual-mandate collision)
+  ✗ "Fell but remained high" — level governs, not opposing forces.
+  ✗ "Solid but uncertainty remains" — hedge ≠ economic force.
+"none" = baseline. Risk and width can co-exist.
+
+EXAMPLES:
+
+Sentence: "The Federal Reserve is not politically compromised."
+{"topic": ["no_topic"], "tense": "descriptive", "sentiment": "neutral", "commitment": "none", "risk": "na", "width": "none"}
+Reasoning: Mentions Fed but zero evaluative economic content → no_topic. Sentiment always neutral.
+
+Sentence: "Although household spending had been increasing at a moderate rate, business fixed investment and net exports had been soft."
+{"topic": ["economic_activity"], "tense": "descriptive", "sentiment": "neutral", "commitment": "none", "risk": "na", "width": "contested"}
+Reasoning: Two opposing forces on economic_activity: spending rising (hawkish in isolation) vs. investment/exports soft (dovish in isolation). "Although" signals the opposition — each clause pushes policy in opposite directions → contested. Signals cancel → neutral.
+
+Sentence: "In particular, the January employment report came in substantially stronger than I and most forecasters and market participants expected."
+{"topic": ["labor_market"], "tense": "descriptive", "sentiment": "hawkish", "commitment": "none", "risk": "na", "width": "none"}
+Reasoning: Strong labor market = hawkish. Past data report = descriptive.
+
+Sentence: "The unemployment rate, which was at a 50-year low of 3.5 percent as recently as February, surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May."
+{"topic": ["labor_market"], "tense": "interpretive", "sentiment": "dovish", "commitment": "none", "risk": "skewed_downside", "width": "none"}
+Reasoning: High and rising unemployment = slack = dovish direction. Forward projection ("likely to rise further") = interpretive. Further deterioration projected → skewed_downside.
+
+Sentence: "But a few participants noted that the risk remained that inflationary pressures could rise as the expansion continued, especially if monetary policy remained highly accommodative for too long."
+{"topic": ["inflation"], "tense": "interpretive", "sentiment": "hawkish", "commitment": "none", "risk": "skewed_upside", "width": "none"}
+Reasoning: More inflation is the tail risk being flagged → skewed_upside (direction of risk, not value judgment). Rising inflation = hawkish incentive. "If" structure → interpretive.
+
+Sentence: "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run."
+{"topic": ["monetary_policy", "labor_market", "inflation"], "tense": "interpretive", "sentiment": "dovish", "commitment": "conditional", "risk": "na", "width": "none"}
+Reasoning: Rates below normal even after mandate met = accommodative = dovish. Specific action (keep rates below normal) + explicit condition (employment and inflation near mandate levels) → conditional. Labor market and inflation referenced as monitoring variables → included in topic.
+
+Now classify this sentence. Return only the JSON object, no other text.
+
+Sentence: "{sentence}"
+
+JSON:
