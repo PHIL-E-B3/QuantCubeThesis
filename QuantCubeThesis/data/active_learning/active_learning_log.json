@@ -1,0 +1,10 @@
+[
+  {
+    "cycle": 1,
+    "timestamp": "2026-05-23T14:16:00.409416",
+    "pool_scored": 29925,
+    "query_size": 80,
+    "mean_uncertainty_selected": 0.38901984111803867,
+    "mean_uncertainty_pool": 0.06106042173819279
+  }
+]
