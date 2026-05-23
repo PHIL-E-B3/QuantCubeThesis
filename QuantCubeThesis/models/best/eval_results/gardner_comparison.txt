@@ -1,0 +1,72 @@
+Loaded 742 sentences
+
+=================================================================
+SENTIMENT — Gardner Baseline
+=================================================================
+  5-class macro F1: 0.1515  (n=739)
+  3-class macro F1: 0.4432  (strongly_* merged)
+
+  5-class breakdown:
+                  precision    recall  f1-score   support
+
+ strongly_dovish      0.082     0.296     0.129        27
+          dovish      0.000     0.000     0.000       230
+         neutral      0.502     0.733     0.596       326
+         hawkish      0.000     0.000     0.000       138
+strongly_hawkish      0.018     0.167     0.033        18
+
+        accuracy                          0.338       739
+       macro avg      0.121     0.239     0.152       739
+    weighted avg      0.225     0.338     0.268       739
+
+  3-class breakdown:
+              precision    recall  f1-score   support
+
+      dovish      0.670     0.253     0.367       257
+     neutral      0.502     0.733     0.596       326
+     hawkish      0.355     0.378     0.366       156
+
+    accuracy                          0.491       739
+   macro avg      0.509     0.455     0.443       739
+weighted avg      0.530     0.491     0.468       739
+
+  Coverage (non-neutral predictions): 263/739 (35.6%)
+  Prediction distribution: Counter({'neutral': 476, 'strongly_hawkish': 166, 'strongly_dovish': 97})
+
+=================================================================
+TOPIC — Gardner score-based (requires modifier)
+=================================================================
+  Jaccard (mean):  0.3862
+  Macro F1:        0.4113
+  Micro F1:        0.4457  (n=742)
+
+  inflation                 P=0.923  R=0.572  F1=0.706  pred=155  true=250
+  monetary_policy           P=0.750  R=0.024  F1=0.047  pred=8  true=246
+  labor_market              P=0.883  R=0.496  F1=0.636  pred=77  true=137
+  economic_activity         P=0.457  R=0.508  F1=0.481  pred=138  true=124
+  financial_conditions      P=0.786  R=0.112  F1=0.196  pred=14  true=98
+  no_topic                  P=0.260  R=0.881  F1=0.401  pred=458  true=135
+
+=================================================================
+TOPIC — Gardner keyword-based (presence only)
+=================================================================
+  Jaccard (mean):  0.4825
+  Macro F1:        0.5308
+  Micro F1:        0.5698  (n=742)
+
+  inflation                 P=0.883  R=0.872  F1=0.877  pred=247  true=250
+  monetary_policy           P=0.000  R=0.000  F1=0.000  pred=0  true=246
+  labor_market              P=0.797  R=0.861  F1=0.828  pred=148  true=137
+  economic_activity         P=0.380  R=0.726  F1=0.499  pred=237  true=124
+  financial_conditions      P=0.593  R=0.520  F1=0.554  pred=86  true=98
+  no_topic                  P=0.321  R=0.637  F1=0.427  pred=268  true=135
+
+=================================================================
+SUMMARY — Gardner vs LLM (from comparison.json)
+=================================================================
+  Metric                              Gardner(score)  Gardner(kw)   Base LLM    SFT LLM
+  -----------------------------------------------------------------------------------
+  Sentiment macro F1 (5-class)                0.1515                  0.3405     0.5316
+  Sentiment macro F1 (3-class)                0.4432                  0.6344     0.7486
+  Topic Jaccard mean                          0.3862       0.4825     0.6613     0.8135
+  Topic macro F1                              0.4113       0.5308     0.6017     0.8102
