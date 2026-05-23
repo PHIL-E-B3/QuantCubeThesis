@@ -22,8 +22,8 @@ from vllm.lora.request import LoRARequest
 
 # ── PATHS ────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent.parent
-EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged.json"
-DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "sft_p3" / "adapter"
+EVAL_PATH = PROJECT_ROOT / "data" / "eval_labelled_merged_corrected.json"
+DEFAULT_ADAPTER = PROJECT_ROOT / "models" / "best" / "checkpoint-258"
 
 PROMPT_MAP = {
     "sft_p2": "P2_medium_3shot_final",
@@ -212,28 +212,39 @@ def main():
     parser.add_argument("--model", type=str, default="unsloth/Meta-Llama-3.1-8B-Instruct")
     parser.add_argument("--compare-base", action="store_true",
                         help="Also evaluate base model (no adapter)")
-    parser.add_argument("--max-model-len", type=int, default=2048)
+    parser.add_argument("--max-model-len", type=int, default=2560)
+    parser.add_argument("--eval-set", type=str, default=str(EVAL_PATH),
+                        help="Path to eval JSON file")
+    parser.add_argument("--prompt", type=str, default=None,
+                        help="Path to prompt template file (overrides PROMPT_MAP)")
     args = parser.parse_args()
 
     adapter_path = Path(args.adapter).resolve()
     model_dir = adapter_path.parent
-    model_name_short = model_dir.name  # e.g. "sft_p1"
+    model_name_short = model_dir.name  # e.g. "sft_p1" or "best"
 
     split_info_path = model_dir / "split_info.json"
     results_dir = model_dir / "eval_results"
 
-    prompt_key = PROMPT_MAP.get(model_name_short, "P3_medium_5shot")
-    prompt_path = PROJECT_ROOT / "prompts" / f"{prompt_key}.txt"
+    if args.prompt:
+        prompt_path = Path(args.prompt)
+        prompt_key = prompt_path.stem
+    else:
+        prompt_key = PROMPT_MAP.get(model_name_short, "P3_medium_5shot")
+        prompt_path = PROJECT_ROOT / "prompts" / f"{prompt_key}.txt"
     print(f"Adapter:    {adapter_path}")
     print(f"Prompt:     {prompt_key}")
 
-    with open(split_info_path) as f:
-        split_info = json.load(f)
-    test_ids = set(split_info["test_ids"])
-
-    with open(EVAL_PATH, encoding="utf-8") as f:
+    with open(args.eval_set, encoding="utf-8") as f:
         all_data = json.load(f)
-    test_data = [s for s in all_data if s["id"] in test_ids]
+
+    if split_info_path.exists():
+        with open(split_info_path) as f:
+            split_info = json.load(f)
+        test_ids = set(split_info["test_ids"])
+        test_data = [s for s in all_data if s["id"] in test_ids]
+    else:
+        test_data = all_data
     print(f"Test set:   {len(test_data)} sentences")
     print(f"SEN dist:   {dict(sorted(Counter(str(s.get('sen')) for s in test_data).items()))}")
 
