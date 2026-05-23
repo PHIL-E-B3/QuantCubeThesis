@@ -2,8 +2,8 @@
 Active Learning — Generative Model (vLLM + LoRA)
 =================================================
 Selects the most uncertain unlabelled sentences for human annotation,
-using mean negative log-probability of generated tokens as the uncertainty
-signal. Higher uncertainty = model is less confident in its output.
+using the mean label-token negative log-probability across all fields as the
+uncertainty signal. Higher uncertainty = model is less confident in its output.
 
 Workflow:
     # Step 1: score unlabelled pool and export candidates
@@ -28,6 +28,8 @@ from datetime import datetime
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
+
+SINGLE_FIELDS = ["sentiment", "tense", "commitment", "risk", "width"]
 UNLABELLED_POOL = PROJECT_ROOT / "data" / "all_unlabelled_sentences" / "master_unlabelled_pool.json"
 TRAIN_FILES = [
     PROJECT_ROOT / "data" / "QuantCube_Seed_Labelled" / "all_labelled_sentences.json",
@@ -52,17 +54,34 @@ def extract_json(response):
     return None
 
 
-def mean_neg_logprob(output):
-    logprobs_list = output.outputs[0].logprobs
-    token_ids = output.outputs[0].token_ids
-    if not logprobs_list:
+def label_token_neg_lp(output, text, field, tokenizer):
+    """Negative logprob of the first token of the predicted label for `field`."""
+    lps_list = output.outputs[0].logprobs
+    tids = output.outputs[0].token_ids
+    if not lps_list or not text:
         return float("nan")
-    lps = [
-        logprobs_list[i][tid].logprob
-        for i, tid in enumerate(token_ids)
-        if logprobs_list[i] and tid in logprobs_list[i]
-    ]
-    return -np.mean(lps) if lps else float("nan")
+    m = re.search(rf'"{re.escape(field)}"\s*:\s*"', text)
+    if not m:
+        return float("nan")
+    label_char_start = m.end()
+    try:
+        enc = tokenizer(text, add_special_tokens=False, return_offsets_mapping=True)
+        offsets = enc["offset_mapping"]
+    except Exception:
+        return float("nan")
+    for i, (start, end) in enumerate(offsets):
+        if start <= label_char_start < end or start == label_char_start:
+            if i < len(lps_list) and lps_list[i] and tids[i] in lps_list[i]:
+                return -lps_list[i][tids[i]].logprob
+            return float("nan")
+    return float("nan")
+
+
+def composite_uncertainty(output, text, tokenizer):
+    """Average label-token neg-logprob across all fields. Falls back to nan if all fail."""
+    scores = [label_token_neg_lp(output, text, f, tokenizer) for f in SINGLE_FIELDS]
+    valid = [s for s in scores if not np.isnan(s)]
+    return float(np.mean(valid)) if valid else float("nan")
 
 
 def load_known_ids():
@@ -109,6 +128,7 @@ def select(args):
         max_lora_rank=16,
         max_loras=1,
     )
+    tokenizer = llm.get_tokenizer()
     lora_request = LoRARequest("best", 1, str(Path(args.adapter).resolve()))
     sampling = SamplingParams(temperature=0.01, top_p=0.95, max_tokens=256, logprobs=1)
 
@@ -124,10 +144,11 @@ def select(args):
 
     scored = []
     for s, o in zip(pool, outputs):
-        parsed = extract_json(o.outputs[0].text.strip()) or {}
+        text = o.outputs[0].text.strip()
+        parsed = extract_json(text) or {}
         scored.append({
             **s,
-            "uncertainty": mean_neg_logprob(o),
+            "uncertainty": composite_uncertainty(o, text, tokenizer),
             "model_prediction": parsed,
         })
 
