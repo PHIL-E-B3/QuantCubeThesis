@@ -9053,429 +9053,6 @@
     "wid": "none"
   },
   {
-    "id": "6b837961-e9aa-43d4-83fb-ef0ad64a4413",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Evans' proposal: hold rates near zero (action) until unemployment <7% provided inflation <3% over the medium term (conditions). 'Over the medium term' -> hor true. Accommodative = dovish. Action + explicit 'until'/'provided that' conditions confirmed."
-  },
-  {
-    "id": "5d752a57-d5bb-4067-a20d-7691beb7e30a",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'Intends to hold the federal funds rate near zero' (commitment verb + action) 'at least until unemployment <6.5%' + 'provided that inflation no more than 0.5pp above 2%' + 'expectations well anchored' (explicit conditions). 'Longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "ec3236e5-654d-48e8-bb10-37bb4e710a50",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'Maintain current target range for a considerable time' (action) 'especially if projected inflation continued below 2%' + 'provided longer-term expectations remained well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. 'Anticipated that it likely would be appropriate' is hedged but action + explicit conditions present -> conditional with flexibility. Dovish."
-  },
-  {
-    "id": "0d33a722-a296-4621-9ef1-ee4740425010",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Identical structure to ec3236e5 (same guidance, subsequent meeting). 'Considerable time' + 'longer-run goal' -> hor true. Conditional with flexibility. Dovish."
-  },
-  {
-    "id": "79569622-7679-48a3-ba49-15cfda5e4e9c",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'Maintain the current target range for a considerable time' (action) + 'especially if projected inflation continued below 2%' + 'provided that longer-term expectations remained well anchored' (conditions). Doubly hedged ('should reiterate... likely would be appropriate') but action + explicit 'especially if'/'provided that' conditions -> conditional with flexibility. 'Considerable time' -> hor true. Dovish."
-  },
-  {
-    "id": "0c6b3ba9-116f-4889-a93e-7bc676801112",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Clarifying statement language. Core: 'maintain the 0-1/4% target range for a considerable time' (action, 'will' present) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "3ec30874-d382-4c2e-9888-6c6f93692fcf",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none",
-    "note": "Deliberation about progress toward the tapering threshold. The 'provided that the economy evolved broadly as anticipated, the standard could be reached this year' is a PROJECTION about when the tapering condition will be met, not a Committee commitment to taper. No FOMC action + explicit condition pair -> com none. Dominant signals: 'substantial further progress not yet met, particularly on labor market' (dovish) + 'risks to the economic outlook remained' (dovish) vs anticipated continued progress (mildly hawkish) -> net dovish."
-  },
-  {
-    "id": "d83c3d87-dbf2-44ff-963a-2fdc87633833",
-    "top": [
-      "monetary_policy",
-      "macro"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "skewed_upside",
-    "wid": "none",
-    "note": "'A restrictive stance of policy may well become appropriate' = potential tightening = hawkish. 'May' + 'depending on the evolving economic outlook' = modal + generic data-dependence -> com none. Russia/Ukraine + China lockdowns 'posed heightened risks' -- direction not explicit but tightening consideration implies upside inflation risk dominates -> ris skewed_upside. Hawkish, not strongly (no intensity marker)."
-  },
-  {
-    "id": "2a4aa004-1646-4c83-b0e6-00d8701d7372",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "September 2014 statement. 'Likely will be appropriate to maintain the current target range for a considerable time' ('will' present, action) + 'especially if projected inflation continues below 2%' + 'provided that longer-term expectations remain well anchored' (conditions). Labor market conditions and inflation explicitly cited -> both in top. 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "4a457314-e92f-4a8a-81ad-828b7d3a6f2b",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "October 2014 statement. 'Likely will be appropriate to maintain the 0-1/4% target range for a considerable time' ('will' present, action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "4b2caa91-09fa-493e-bb27-5de3d7814702",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Two conditional structures: (1) 'prepared to take additional balance sheet actions' ('prepared to' + action) 'if necessary to achieve our objectives' ('if' condition). (2) 'will not hesitate to use them' ('will' + action) 'should the economy require that additional support' ('should' condition). Both have commitment verb + action + explicit condition -> conditional. Easing readiness = dovish. No long-run term -> hor false."
-  },
-  {
-    "id": "3aabb874-bb0f-4703-9e9b-26061a77b11b",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'This is a conditional program.' Explicit conditional: 'if the economy is weaker, we'll provide more support' ('will' + action + 'if' condition). Also: 'if the economy strengthens, it will require less support.' QE3 ongoing accommodation = dovish. No long-run term -> hor false."
-  },
-  {
-    "id": "f03a6bb2-b4ae-4fd7-a1ee-8e4bec996e9e",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Quoting forward guidance: 'conditions will likely warrant maintaining the current range for a considerable time' ('will', action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "22a40701-9210-4361-80de-4b1a8c1aa3de",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'If the economy evolves broadly as expected' (condition) 'similar reductions in the pace of net asset purchases will likely be appropriate each month' (action: taper). 'Will likely be appropriate' + explicit 'if' -> conditional with flexibility. Tapering = reducing accommodation = hawkish. 'Middle of next year' is a near-term specific reference, not a listed long-horizon trigger -> hor false."
-  },
-  {
-    "id": "28b25452-51d3-4792-86c2-c3f7d711da6c",
-    "top": [
-      "monetary_policy",
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "June 2024: 'If the economy remains solid and inflation persists' (explicit 'if' condition) 'we're prepared to maintain the current target range' ('prepared to' + action: hold elevated rate). Action + explicit condition -> conditional. Holding rates at 5.25-5.5% with persistent inflation = no cut = hawkish. 'As long as appropriate' is open-ended, not a listed horizon trigger -> hor false."
-  },
-  {
-    "id": "beca4cce-9e7f-495e-9080-e7dcdcf20623",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'The program will continue' ('will' + action: QE continues) 'until there is a substantial improvement in the outlook for the labor market' ('until' condition) 'in a context of price stability' (additional condition). Explicit 'until' condition -> conditional. Ongoing QE = dovish. No listed long-horizon term -> hor false."
-  },
-  {
-    "id": "9bd2aae3-9546-40bb-a36a-534423ae1e39",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "Quoting 'considerable time' guidance. 'Anticipates conditions will likely warrant maintaining the current range for a considerable time' (action) + 'especially if projected inflation continues below 2% longer-run goal' + 'provided that longer-term expectations remain well anchored' (conditions). 'Considerable time' + 'longer-run goal' -> hor true. Dovish."
-  },
-  {
-    "id": "e611a9cc-cafb-4f20-a867-3aa87b8fe988",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'Underutilization of labor resources still remains significant' (dovish, labor slack). 'Inflation will gradually move up toward its longer-run objective' (mildly hawkish). Reaffirmed guidance: 'maintain the current target range for a considerable time' (action) + 'especially if projected inflation below 2%' + 'provided that longer-term expectations well anchored' (conditions). Two dovish (labor slack + hold rates) vs one mild hawkish (inflation rising gradually) -> net dovish. 'Considerable time' + 'longer-run objective' -> hor true."
-  },
-  {
-    "id": "35418d53-dddd-42d8-b7ab-23eedd6d5ff7",
-    "top": [
-      "monetary_policy",
-      "inflation",
-      "labor_market"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "conditional",
-    "ris": "skewed_downside",
-    "wid": "none",
-    "note": "'Provided that inflation shows clear signs over time of moving up toward 2 percent in the context of continuing progress toward maximum employment' (condition) 'a further tightening in monetary policy will be warranted' ('will', action). Second clause: 'Should incoming data fail to support this forecast, policy will need to be adjusted' (second conditional). Both action + explicit condition pairs -> conditional. Tightening = hawkish. 'Over time' -> hor true. Second clause flags downside risk (if inflation doesn't cooperate) -> ris skewed_downside."
-  },
-  {
-    "id": "1336cf8e-0684-450c-9527-1a63f0a6c84a",
-    "top": [
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "skewed_downside",
-    "wid": "none",
-    "note": "Prediction about inflation dynamics ('would only delay the return of inflation to 2 percent'), not a commitment to a policy action. No commitment verb + specific policy action -> com none. Inflation below 2% with delayed return = dovish. 'Even if such developments were to occur' = conditional/hypothetical where shocks keep inflation low -> ris skewed_downside (risk of prolonged inflation undershoot). No listed long-horizon term -> hor false."
-  },
-  {
-    "id": "ee9c5926-f120-443c-a32f-b046aefccf54",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "neutral",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none",
-    "note": "Academic/analytical explanation of TPLT framework mechanics via a hypothetical numerical example. No FOMC commitment, no directional economic claim about current conditions -> neutral, com none. The example ('if inflation equaled 1.8, 2, 2.2 percent for three consecutive years') is a framework parameter illustration, not a policy projection or signal. 'Three consecutive years' = framework parameter, not a genuine long-horizon projection -> hor false."
-  },
-  {
-    "id": "25c3fa32-cec2-4cf7-9aa1-dd646ed0111b",
-    "top": [
-      "no_topic"
-    ],
-    "sen": "neutral",
-    "ten": "descriptive",
-    "hor": false,
-    "com": "none",
-    "ris": "na",
-    "wid": "none",
-    "note": "2024 speech quoting the Federal Reserve's 1926 annual report about discount-window borrowing. Historical narrative from ~100 years ago, not tied to current economic state -> no_topic. Neutral, com none, hor false per no_topic constraints."
-  },
-  {
-    "id": "1cfc85de-67a7-4999-a2fc-243a1ec6fe9c",
-    "top": [
-      "monetary_policy",
-      "labor_market",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "skewed_downside",
-    "wid": "none",
-    "note": "'A few members' / 'other members' = minority views, both using modals ('could warrant', 'could become necessary') -> com none (deliberation + modals). Elevated unemployment (dovish) + inflation at/below objective (dovish) -> dovish. Minority caps at dovish. Downside conditions flagged ('economy lost momentum', 'inflation likely to remain below mandate') -> ris skewed_downside. 'Over the medium run' is close to but not exactly 'over the medium term' in the trigger list -> hor false (strict)."
-  },
-  {
-    "id": "b24a4885-acdb-4b14-ba9b-c3d652626320",
-    "top": [
-      "monetary_policy",
-      "inflation",
-      "economic_activity"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "skewed_downside",
-    "wid": "none",
-    "note": "'A couple of members' = minority. 'Could become necessary' = modal -> com none. Additional stimulus if 'economy lost momentum' (economic_activity, dovish) or 'inflation likely to remain below mandate' (inflation, dovish) -> dovish. Minority caps at dovish. Both trigger conditions are downside scenarios -> ris skewed_downside. 'Over the medium run' not exactly in trigger list -> hor false."
-  },
-  {
-    "id": "4b6ab644-0bdd-4983-96c2-93506291b11f",
-    "top": [
-      "monetary_policy",
-      "macro",
-      "inflation"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "none",
-    "ris": "skewed_downside",
-    "wid": "none",
-    "note": "'Several others noted that additional policy action could be warranted if...' = modal ('could') + deliberation -> com none. Three downside conditions: economic recovery loses momentum (macro), downside risks to forecast pronounced (macro), inflation below longer-run objective (inflation) -> all dovish -> dovish. 'Longer-run objective' listed horizon trigger + interpretive -> hor true. Three explicit downside conditions -> ris skewed_downside."
-  },
-  {
-    "id": "7febfe7a-61ca-4c50-b676-0c5045b1c11e",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'Continuing to raise the target range for the federal funds rate gradually' (action: rate hikes) 'would likely be appropriate if the economy evolves about as expected' (explicit 'if' condition). Specific action + explicit 'if' condition -> conditional with flexibility. Gradual rate increases = hawkish. No long-run term -> hor false."
-  },
-  {
-    "id": "365134c5-f4d9-4da6-83d4-51e3c90fb15d",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "neutral",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "none",
-    "ris": "skewed_upside",
-    "wid": "none",
-    "note": "'Not yet clear what adjustments may be appropriate' (dominant = uncertainty/deliberation). 'Rate increases might prove necessary only if inflation outcomes were higher than baseline' (modal 'might', minority 'several', deliberation) -> com none. Dominant stance is uncertainty -> neutral (tie-break; 'only if inflation higher' sets a high bar but doesn't override the 'not yet clear' framing). Upside inflation scenario flagged as the trigger for hikes -> ris skewed_upside."
-  },
-  {
-    "id": "b9605087-0d88-40e3-86f6-10fcc6fe868e",
-    "top": [
-      "inflation",
-      "labor_market"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": true,
-    "com": "none",
-    "ris": "skewed_upside",
-    "wid": "none",
-    "note": "Reports upside risks to inflation: 'elevated inflation would continue for longer than expected, especially if labor and other supply shortages proved more persistent' + 'longer-term expectations might move above levels consistent with 2 percent.' Upside risk framing -> hawkish (risk of persistent high inflation / de-anchoring upward). No FOMC action commitment -> com none. 'Longer-term inflation objective' (longer-term ≈ longer-run) + interpretive -> hor true. Explicit upside risk framing -> ris skewed_upside."
-  },
-  {
-    "id": "a1a9a632-b08e-4045-9375-4c5697230e60",
-    "top": [
-      "monetary_policy",
-      "inflation"
-    ],
-    "sen": "hawkish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "skewed_upside",
-    "wid": "none",
-    "note": "'Moving to a restrictive stance... would better position the Committee to raise the policy rate further, to appropriately restrictive levels' (action) 'if inflation were to run higher than expected' (explicit 'if' condition). Action + explicit 'if' condition -> conditional with flexibility. Restrictive stance + further hikes = hawkish. 'Elevated inflation' + 'upside risks to the outlook for inflation' explicitly cited -> ris skewed_upside. No long-run term -> hor false."
-  },
-  {
-    "id": "4fc3f56a-78eb-4a89-9cd0-4298f2e3a4b5",
-    "top": [
-      "monetary_policy"
-    ],
-    "sen": "dovish",
-    "ten": "interpretive",
-    "hor": false,
-    "com": "conditional",
-    "ris": "na",
-    "wid": "none",
-    "note": "'A further lowering of the target range for the federal funds rate could well be appropriate in December' (action: rate cut) 'if the economy evolved about as they expected' (explicit 'if' condition). Specific action + explicit 'if' condition -> conditional with flexibility (consistent with 7febfe7a pattern). Rate cut = dovish. Baseline expectation framing, not tail-risk -> ris na. No long-run term -> hor false."
-  },
-  {
     "id": "c17a9dfe-8db0-43ae-a7da-1b2e6f838440",
     "sentence": "Most participants judged that further downward adjustments to the target range for the federal funds rate would likely be appropriate if inflation declined over time as expected.",
     "source": "minutes_20251210.html",
@@ -11851,7 +11428,7 @@
     "ten": "descriptive",
     "sen": "strongly_dovish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -11871,7 +11448,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -11933,7 +11510,7 @@
     "ten": "descriptive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -11973,7 +11550,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -11993,7 +11570,7 @@
     "ten": "interpretive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -12035,7 +11612,7 @@
     "ten": "descriptive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -12055,7 +11632,7 @@
     "ten": "interpretive",
     "sen": "neutral",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -12075,7 +11652,7 @@
     "ten": "descriptive",
     "sen": "hawkish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
@@ -12115,7 +11692,7 @@
     "ten": "descriptive",
     "sen": "strongly_dovish",
     "dir": "na",
-    "com": "na",
+    "com": "none",
     "hor": "na",
     "con": "na",
     "dom": "na",
