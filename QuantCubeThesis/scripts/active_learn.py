@@ -30,7 +30,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 
 SINGLE_FIELDS = ["sentiment", "tense", "commitment", "risk", "width"]
-UNLABELLED_POOL = PROJECT_ROOT / "data" / "all_unlabelled_sentences" / "master_unlabelled_pool.json"
+UNLABELLED_POOL = PROJECT_ROOT / "data" / "all_unlabelled_sentences" / "unlabelled_pool_30k.json"
 TRAIN_FILES = [
     PROJECT_ROOT / "data" / "QuantCube_Seed_Labelled" / "all_labelled_sentences.json",
     PROJECT_ROOT / "data" / "QuantCube_Seed_Batches" / "final_extreme_seed.json",
