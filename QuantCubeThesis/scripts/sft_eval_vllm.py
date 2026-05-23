@@ -172,7 +172,7 @@ def run_vllm_eval(llm, test_data, prompt_template, lora_request, name, results_d
             parsed = {}
         raw_outputs.append({
             "id": s["id"],
-            "sentence": s["sentence"][:100],
+            "sentence": (s.get("sentence") or "")[:100],
             "raw_response": resp[:1000],
             "parsed": parsed,
         })
