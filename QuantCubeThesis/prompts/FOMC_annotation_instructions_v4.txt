@@ -1,0 +1,490 @@
+# FOMC Sentence Annotation Instructions v4
+
+## Overview
+
+You will be given a JSON file containing sentences extracted from FOMC communications (meeting minutes, speeches, statements, press conferences). Each sentence has an `id`, `sentence`, `source`, `doc_type`, and `date` field. All other fields are empty and must be filled in according to the rules below.
+
+Return the complete JSON file with all fields populated. Never leave a field empty.
+
+---
+
+## Output Schema
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `top` | array of strings | Topic(s) present in the sentence — includes conditions when topic is monetary_policy |
+| `sen` | string or "na" | Hawkish/dovish sentiment: `"hawkish"`, `"neutral"`, `"dovish"`, or `"na"` |
+| `ten` | string | Temporal orientation: `"descriptive"` or `"interpretive"` |
+| `com` | string | Commitment level (monetary policy only, else "none") |
+| `ris` | string | Risk balance |
+| `wid` | string | Distribution width |
+
+---
+
+## FIELD 1: `top` — Topic (multi-select array)
+
+Select all topics explicitly present in the sentence. A sentence can have multiple topics (e.g., `["inflation", "labor_market"]`). When the sentence is about monetary policy AND references specific economic conditions as justification, include both `"monetary_policy"` and the referenced topic(s) (e.g., `["monetary_policy", "inflation", "labor_market"]`). The separate `con` field has been removed — all topic information lives here.
+
+| Label | When to use |
+|-------|-------------|
+| `inflation` | PCE, CPI, price levels, inflation expectations, price stability as a data observation |
+| `labor_market` | Labor market, payrolls, jobless claims, participation rate, wage growth, job openings |
+| `economic_activity` | GDP, output, consumption, investment, housing, trade, exports, retail sales — specific sector measures |
+| `macro` | Aggregate economic outlook where no single variable dominates. Use when the sentence references "economic conditions", "economic outlook", "economic developments", or similar aggregate phrases without specifying a single dominant variable. Do not conflate with `economic_activity` — `macro` is for unspecified aggregate framing. |
+| `financial_conditions` | Credit markets, spreads, asset prices, bank lending, financial stability, money markets, funding conditions |
+| `monetary_policy` | Rate decisions, asset purchases, balance sheet, forward guidance, policy stance — only when the sentence is explicitly about what the Fed is doing or will do with its policy tools. When the sentence also references specific economic conditions as justification, include those topics alongside `monetary_policy` directly in `top`. |
+| `boilerplate` | Procedural, administrative, legal directives, section headers, vote announcements, clearly formulaic language with no substantive policy signal |
+| `no_topic` | Generic statements that convey no specific economic content but may still carry risk or uncertainty signal |
+
+**Key distinctions:**
+- Use `macro` only when truly no single variable dominates. If a multi-variable sentence has a clear dominant conclusion (e.g., "risks to real activity"), label that variable instead.
+- `boilerplate` examples: vote announcements, legal/regulatory language, section headers, memorial tributes, formulaic monitoring pledges ("The Committee will continue to monitor..."), and generic dual-mandate reaffirmations ("The Federal Reserve is committed to both sides of its mandate") that carry no specific directional signal. Test: does removing this sentence lose any policy-relevant information? If no, it is boilerplate.
+- `no_topic` is for generic sentences that may still carry risk or uncertainty (`ris` and `wid` still apply). `boilerplate` is for purely procedural/administrative sentences (default `ris = "na"`, `wid = "none"`).
+- **Data dependence language:** "In determining the extent of additional policy firming, the Committee will take into account incoming data" is `boilerplate` if standalone and generic. If the sentence names a specific policy action or specific variables being monitored, label as `["monetary_policy", "macro"]` with `com = "conditional"`.
+
+**Cause-and-effect structure — topic labelling:** When a sentence pairs a cause (one topic) with an effect on a different topic, label `top` according to the **effect topic**. The cause is background mechanism; the policy-relevant content is what is being predicted or reported about the effect variable. Do not include the cause topic in `top` unless it independently carries a substantive evaluative signal of its own beyond serving as a mechanism.
+
+> *"The ongoing rebalancing of labor supply and demand would help reduce core services inflation."*
+> → `top = ["inflation"]` — the cause (labor rebalancing) is the mechanism; the effect (inflation trajectory) is the substance.
+
+> *"Tight credit conditions are expected to weigh on GDP growth next year."*
+> → `top = ["economic_activity"]` — the effect (growth outlook) governs the label.
+
+> *"Surging energy prices have pushed headline inflation sharply higher."*
+> → `top = ["inflation"]` — even though energy prices are the cause, the evaluative content is about headline inflation.
+
+If both the cause and the effect independently carry distinct policy signals — for example, a sentence that both assesses the state of credit markets and forecasts GDP — include both topics. But if the cause is merely cited as a mechanism with no independent evaluative content, omit it.
+
+---
+
+## FIELD 2: `ten` — Temporal Orientation (binary)
+
+Captures whether the sentence's primary content is **descriptive** (reporting what is or was) or **interpretive** (signalling what will be, what should be, or what risks lie ahead). The distinction maps onto the informational role of the sentence: descriptive sentences convey data; interpretive sentences carry forward guidance.
+
+| Label | When to use |
+|-------|-------------|
+| `"descriptive"` | Backward-looking (past data, historical events) OR present-state descriptions with no forward implication. Includes boilerplate and procedural sentences. |
+| `"interpretive"` | Forward-signalling regardless of grammatical tense. Includes projections, outlooks, conditional/hypothetical structures ("if/should/were to"), and present-tense sentences where current observations clearly imply a future trajectory. Any sentence containing "outlook", "prospects", "trajectory", or equivalent projection language. |
+
+**Key rules:**
+- All conditional/hypothetical structures → `"interpretive"` (capture the conditionality in `ris`).
+- Staff projections describing the current or recently elapsed period (data already largely realised) → `"descriptive"`. Any projection extending beyond the meeting date → `"interpretive"`.
+- Boilerplate and procedural sentences → `"descriptive"`.
+- **Cause-and-effect sentences:** `ten` is determined by the nature of the **effect clause**, not the cause clause. Three patterns arise:
+  - *Descriptive cause + interpretive effect* → `ten = "interpretive"`. The effect governs. Example: *"The ongoing rebalancing of labor supply and demand [descriptive] would help reduce core services inflation [interpretive]"* → `"interpretive"`.
+  - *Descriptive cause + descriptive effect* → `ten = "descriptive"`. Both clauses report what happened. Example: *"Easing supply bottlenecks reduced goods inflation over the quarter"* → `"descriptive"`.
+  - *Interpretive cause + interpretive effect* → `ten = "interpretive"`. Both clauses are forward-signalling; the sentence typically implies a conditional risk. Example: *"If demand were to remain elevated, it would continue to feed through into services prices"* → `"interpretive"`, and populate `ris` to capture the directional skew.
+
+---
+
+## FIELD 3: `sen` — Sentiment (Hawkish / Neutral / Dovish)
+
+The field captures the *policy incentive* implied by the sentence — regardless of whether the sentence is about economic data or monetary policy itself.
+
+- **`"hawkish"`** — the information pushes toward tightening
+- **`"neutral"`** — no net directional policy incentive, or genuinely balanced signals
+- **`"dovish"`** — the information pushes toward easing
+- **`"na"`** — use only for `boilerplate` sentences
+
+Applies to ALL topics including `monetary_policy`.
+
+### Directional rules by topic (apply consistently):
+
+| Topic | Hawkish | Dovish |
+|-------|---------|--------|
+| `inflation` | Rising/high inflation | Falling/low inflation |
+| `labor_market` | Falling unemployment / tight labor market | Rising unemployment / slack labor market |
+| `economic_activity` | Stronger growth | Weaker growth |
+| `financial_conditions` | Easier/more accommodative conditions | Tighter/more stressed conditions |
+| `macro` | Stronger aggregate outlook | Weaker aggregate outlook |
+| `monetary_policy` | Tightening action or signal | Easing action or signal |
+
+**Critical rule for `financial_conditions`:** The polarity here is counterintuitive. Tighter financial conditions mean markets have already tightened for the Fed, reducing the hawkish policy incentive. The rule is:
+- Easier/more accommodative conditions → **hawkish** — Fed needs to do more
+- Tighter/more stressed conditions → **dovish** — markets have tightened for the Fed
+
+### Monetary policy sentences (`top` includes `"monetary_policy"`):
+
+- `"hawkish"`: Rate hikes, QT continuation, hawkish forward guidance, tightening actions or signals
+- `"neutral"`: Hold/pause with no explicit directional framing; deliberative/neutral discussion
+- `"dovish"`: Rate cuts, QE, dovish forward guidance, easing actions or signals
+
+**Holds:** Default to `"neutral"` unless the sentence explicitly frames the hold:
+- "Maintaining rates to support the expansion" → `"dovish"`
+- "Maintaining rates at restrictive levels to keep downward pressure on inflation" → `"hawkish"`
+- "The Committee decided to maintain the target range at X%" (no framing) → `"neutral"`
+
+**Minority participant views:** Label the direction of the view normally — the hawkish/neutral/dovish distinction still applies.
+
+**Mixed signals within a sentence:** When a sentence contains genuine opposing forces that net to zero, use `"neutral"` and capture the tension in `wid = "contested"`.
+
+**Important nuances:**
+- `"neutral"` can mean true neutral OR contested signals that cancel. The `wid` field distinguishes these.
+- For negations, label the *economic state being described*, not the grammatical surface. "Not seeing signs of deanchoring" = `"dovish"` (inflation well-anchored, less pressure to tighten).
+- **Level overrides direction:** When a sentence mentions both a directional change and a level reference, label `sen` according to the **level**. "Job openings moved down markedly but remained high" → `"hawkish"` (level is high). "Inflation fell but remained well above target" → `"hawkish"` (level is above target). If no level reference, label the direction.
+
+---
+
+## FIELD 4: `com` — Commitment Level
+
+**Applies to `monetary_policy` sentences only. All other topics default to `"none"`** — economic assessments are Delphic (informational) by definition and do not constitute commitments.
+
+| Label | When to use |
+|-------|-------------|
+| `unconditional` | Explicit commitment to a policy action with no stated condition |
+| `conditional` | Policy action or path explicitly contingent on economic conditions. Includes all forms of conditionality: vague ("when conditions warrant") and specific ("until unemployment falls below 6.5%") — both are `conditional`. |
+| `none` | Deliberative discussion, participants' views, no commitment made. Default for all non-monetary-policy topics. |
+
+---
+
+## FIELD 5: `ris` — Risk Balance
+
+Captures directional tail asymmetry. Applies to all topics including `no_topic`.
+
+**Critical distinction from `wid`:** `ris` captures *directional* uncertainty — the distribution is skewed one way. `wid` captures *epistemic* uncertainty — we don't know enough to assess direction. A sentence can have both.
+
+| Label | When to use |
+|-------|-------------|
+| `skewed_downside` | Sentence explicitly frames risks as weighted toward worse-than-expected outcomes. Key phrases: "downside risk", "risks weighted to the downside", "risks tilted to the downside". Also applies when a sentence raises a specific downside concern even without exact phrase. |
+| `skewed_upside` | Sentence explicitly frames risks toward better-than-expected or inflation-overshoot outcomes. For inflation: `skewed_upside` means more inflation is the tail risk. |
+| `symmetric` | Sentence explicitly asserts risks are balanced: "roughly balanced", "broadly balanced", "risks on both sides", "neither headwind nor tailwind" |
+| `na` | No explicit risk framing — purely descriptive |
+
+**Hypothetical/conditional structures:** When `ten = "interpretive"` and the sentence uses "if/should/were to" framing, populate `ris` to capture the direction of the conditional scenario. "If inflation were to persist, further tightening would be appropriate" → `ris = "skewed_upside"` (inflation tail is the active concern).
+
+---
+
+## FIELD 6: `wid` — Distribution Width
+
+Captures whether the sentence signals the distribution of outcomes is wider than normal or genuinely contested.
+
+**Critical distinction from `ris`:** `wid` is about *epistemic* uncertainty (how much do we know) and *genuine disagreement* between forces. `ris` is about *directional* skew (which tail is fatter).
+
+| Label | When to use |
+|-------|-------------|
+| `elevated` | Any explicit acknowledgement of uncertainty, lack of knowledge, or difficulty in knowing what will happen. Triggers include: "highly uncertain", "unusually uncertain", "elevated uncertainty", "considerable uncertainty", "significant uncertainty", "difficult to assess", "hard to gauge", "cannot know", "hard to predict", "it is unclear", "unclear how", "difficult to determine", "unprecedented", "imperfectly understood", "wide range of possible outcomes". Bare "uncertain" or "uncertainty" without a modifier also qualifies. |
+| `contested` | A single sentence contains **two genuinely opposing economic forces in the same tense** that net to zero sentiment. Forces may be on the same topic or across different topics (dual-mandate collision). Requirements: (1) both forces must be simultaneously operative — not sequential; (2) both must be in the same temporal frame. Linguistic markers: "but", "however", "although", "while", "despite", "even as". |
+| `none` | Baseline. Modal verbs alone (may, might, could), standard hedges (appears, seems, suggests), data-dependence language, single-direction signals with benchmark references |
+
+**Critical `contested` distinctions:**
+- "Fell but remained high" → NOT contested. Single directional signal + level benchmark.
+- "Robust loan growth but tightening standards" → contested. Two genuine opposing forces.
+- "Growth was solid, but uncertainty remains" → NOT contested (second clause is a hedge), but IS `wid = "elevated"`.
+- Sequential tenses (past + forward): "Used to be X, now Y" → NOT contested.
+- Mixed-topic collision (inflation hawkish + unemployment dovish): IS contested.
+
+---
+
+## Special Rules Summary
+
+### When `top = ["boilerplate"]`:
+- `ten = "descriptive"`, `sen = "na"`, `com = "none"`, `ris = "na"`, `wid = "none"`
+
+### When `top` includes `"monetary_policy"`:
+- Fill `sen`, `com`; include any referenced economic topics in `top` directly
+- `ris` and `wid` still apply
+- `com` = `"none"` for deliberative discussion; `"conditional"` or `"unconditional"` for actual commitments
+
+### When `top = ["no_topic"]`:
+- `sen = "neutral"` (default, unless evaluative content present)
+- `ris` and `wid` still apply
+- `com = "none"`
+
+### Non-monetary-policy topics:
+- `com = "none"` (always — economic assessments are not commitments)
+
+---
+
+## Borderline Cases
+
+### BC1: `wid = contested` — genuine opposing forces, same tense
+
+- ✅ "Loan growth robust but lending standards tightening" → contested (same topic, opposing forces)
+- ✅ "Inflation rising but unemployment also increasing" → contested (cross-topic dual-mandate collision)
+- ❌ "Inflation used to be transitory; now it appears persistent" → NOT contested (sequential narrative)
+- ❌ "Growth was solid, but uncertainty remains" → NOT contested (second clause is a hedge)
+
+### BC2: `wid = elevated` vs `ris` — epistemic vs directional
+
+- `ris` = we know the skew direction. Use when a specific tail risk is identified.
+- `wid = elevated` = we don't know enough to assign direction.
+- Both can co-exist: "Upside risks to inflation remain, though the exact magnitude is highly uncertain" → `ris = "skewed_upside"`, `wid = "elevated"`.
+
+### BC3: Holds — neutral unless explicitly framed
+
+Holds default to `"neutral"`. Override only when the sentence explicitly states the hold's purpose:
+- "Maintaining rates at restrictive levels to sustain downward pressure on inflation" → `"hawkish"`
+- "Maintaining rates to continue lending support to the expansion" → `"dovish"`
+- "The Committee decided to maintain the target range at X%" (no framing) → `"neutral"`
+
+### BC4: Mixed signals within a sentence
+
+When a single sentence contains one hawkish signal and one dovish signal:
+→ `sen = "neutral"`, `wid = "contested"`
+
+### BC5: Data dependence language
+
+Generic standalone data dependence: `boilerplate`
+- "The Committee will continue to monitor incoming data and act as appropriate."
+
+Specific data dependence naming a policy action and variables: `monetary_policy`, `com = "conditional"`, `sen = "neutral"`
+- "In determining the extent of additional firming, the Committee will take into account cumulative tightening and incoming data."
+
+### BC6: Negations — label the economic state, not the grammar
+
+- "We are not seeing signs of deanchoring" → inflation well-anchored → `"dovish"`
+- "Labor market conditions have not deteriorated" → stable → `"neutral"`
+- "Inflation has not returned to target" → above target → `"hawkish"`
+
+### BC7: Hypothetical/conditional structures → `interpretive` + `ris`
+
+All "if/should/were to/in the event that" structures:
+- `ten = "interpretive"` — all conditional/hypothetical structures are forward-signalling
+- Populate `ris` to capture the direction of the conditional scenario
+- "If inflation were to persist, further tightening would be appropriate" → `ten = "interpretive"`, `ris = "skewed_upside"`, `sen = "hawkish"`
+- "If labor market conditions were to weaken materially, easing would be appropriate" → `ten = "interpretive"`, `ris = "skewed_downside"`, `sen = "dovish"`
+
+---
+
+## Worked Examples
+
+### Example 1: Direction-of-change vs. level (NOT contested)
+
+> "The private-sector job openings rate moved down markedly during February and March but remained high."
+
+```json
+{
+  "top": ["labor_market"],
+  "ten": "descriptive",
+  "sen": "hawkish",
+  "com": "none",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** "Moved down markedly" is the directional movement, but "remained high" is an explicit level reference — the level governs. High job openings = tight labor market = hawkish incentive.
+
+---
+
+### Example 2: Genuine contested (opposing forces, same topic, same tense)
+
+> "Although CRE loan growth on banks' balance sheets remained robust in the first quarter, the April SLOOS indicated that loan standards across all CRE loan categories tightened further."
+
+```json
+{
+  "top": ["financial_conditions"],
+  "ten": "descriptive",
+  "sen": "neutral",
+  "com": "none",
+  "ris": "na",
+  "wid": "contested"
+}
+```
+**Reasoning:** Loan growth robust (dovish incentive — easier conditions) AND lending standards tightening (hawkish incentive — tighter conditions). Two genuine opposing forces, netting to neutral.
+
+---
+
+### Example 3: Falling inflation = dovish
+
+> "These decreases reflected notable step-downs in both energy and core inflation amid slowing aggregate demand and declines in oil prices."
+
+```json
+{
+  "top": ["inflation"],
+  "ten": "descriptive",
+  "sen": "dovish",
+  "com": "none",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** Inflation falling = dovish incentive.
+
+---
+
+### Example 4: Hold with explicit restrictive framing
+
+> "In light of how far we have come in tightening policy, the Committee decided at today's meeting to maintain the target range for the federal funds rate at 5¼ to 5½ percent and to continue the process of significantly reducing our securities holdings."
+
+```json
+{
+  "top": ["monetary_policy"],
+  "ten": "descriptive",
+  "sen": "hawkish",
+  "com": "unconditional",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** The hold is at a peak restrictive rate AND QT is explicitly continuing. The ongoing QT is a hawkish action.
+
+---
+
+### Example 5: Hypothetical structure → interpretive + ris
+
+> "If incoming information indicates faster progress toward the Committee's employment and inflation objectives than the Committee now expects, then increases in the target range for the federal funds rate are likely to occur sooner than currently anticipated."
+
+```json
+{
+  "top": ["monetary_policy", "inflation", "labor_market"],
+  "ten": "interpretive",
+  "sen": "hawkish",
+  "com": "conditional",
+  "ris": "skewed_upside",
+  "wid": "none"
+}
+```
+**Reasoning:** "If" structure → `interpretive`. The conditional scenario is hawkish (sooner hikes) conditioned on upside progress → `ris = "skewed_upside"`.
+
+---
+
+### Example 6: Dual-mandate collision → neutral + contested
+
+> "Participants judged that the war and related events were creating additional upward pressure on inflation and were weighing on global economic activity."
+
+```json
+{
+  "top": ["inflation", "economic_activity"],
+  "ten": "descriptive",
+  "sen": "neutral",
+  "com": "none",
+  "ris": "na",
+  "wid": "contested"
+}
+```
+**Reasoning:** Rising inflation = hawkish. Weakening economic activity = dovish. Cross-topic collision netting to neutral. `wid = "contested"` signals the tension.
+
+---
+
+### Example 7: Elevated uncertainty trigger
+
+> "Participants acknowledged that the causes of movements in short- and longer-run inflation expectations, including the role of monetary policy, were imperfectly understood."
+
+```json
+{
+  "top": ["inflation"],
+  "ten": "descriptive",
+  "sen": "neutral",
+  "com": "none",
+  "ris": "na",
+  "wid": "elevated"
+}
+```
+**Reasoning:** "Imperfectly understood" is an explicit epistemic limitation → `wid = "elevated"`. No directional assessment made, so `sen = "neutral"`.
+
+---
+
+### Example 8: Upside risk — ris and wid can co-exist
+
+> "But a few participants noted that the risk remained that inflationary pressures could rise as the expansion continued, especially if monetary policy remained highly accommodative for too long."
+
+```json
+{
+  "top": ["inflation"],
+  "ten": "interpretive",
+  "sen": "hawkish",
+  "com": "none",
+  "ris": "skewed_upside",
+  "wid": "none"
+}
+```
+**Reasoning:** Risk of rising inflation → `ris = "skewed_upside"`. Rising inflation = hawkish. "If" structure → `interpretive`.
+
+---
+
+### Example 9: Data dependence — boilerplate vs substantive
+
+> "In determining the pace of future increases in the target range, the Committee will take into account the cumulative tightening of monetary policy, the lags with which monetary policy affects economic activity and inflation, and economic and financial developments."
+
+```json
+{
+  "top": ["monetary_policy", "macro"],
+  "ten": "interpretive",
+  "sen": "neutral",
+  "com": "conditional",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** Names a specific policy action and specific monitoring variables — substantive, not boilerplate. `sen = "neutral"` because data dependence is inherently neutral until the data arrives.
+
+---
+
+### Example 10: Negation — label the economic state
+
+> "That's not what we're seeing." *(in context of question about inflation deanchoring)*
+
+```json
+{
+  "top": ["inflation"],
+  "ten": "descriptive",
+  "sen": "dovish",
+  "com": "none",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** Denying deanchoring = inflation well-anchored = dovish incentive.
+
+---
+
+### Example 11: Minority view
+
+> "One member preferred a reduction in the target range of 50 basis points in the federal funds rate at this meeting."
+
+```json
+{
+  "top": ["monetary_policy"],
+  "ten": "descriptive",
+  "sen": "dovish",
+  "com": "none",
+  "ris": "na",
+  "wid": "none"
+}
+```
+**Reasoning:** Calling for a rate cut = dovish signal. `com = "none"` because this is a participant preference, not a Committee commitment.
+
+---
+
+## Quick Reference Card
+
+```
+top:  [inflation | labor_market | economic_activity | macro | financial_conditions
+        | monetary_policy | boilerplate | no_topic]
+      For monetary_policy sentences, add any referenced economic topics directly here.
+
+ten:  "descriptive" | "interpretive"
+      descriptive  = backward-looking OR present-state (no forward implication)
+      interpretive = forward-signalling, projections, conditionals, outlooks
+
+sen:  "hawkish" | "neutral" | "dovish" | "na"
+      na only for boilerplate
+      HAWKISH/DOVISH INCENTIVE:
+        inflation:            rising/high = hawkish, falling/low = dovish
+        labor_market:         tight/low unemployment = hawkish, slack/high = dovish
+        economic_activity:    stronger = hawkish, weaker = dovish
+        financial_conditions: easier/accommodative = hawkish, tighter/stressed = dovish
+        monetary_policy:      tightening action/signal = hawkish, easing = dovish
+
+com:  unconditional | conditional | none
+      non-monetary-policy → always "none"
+
+ris:  skewed_downside | skewed_upside | symmetric | na
+
+wid:  elevated | contested | none
+
+HOLDS default to "neutral" unless explicitly framed as hawkish or dovish
+CONTESTED: "neutral" from two genuinely opposing forces — same-topic AND cross-topic collisions
+  True neutral (nothing happening) → sen = "neutral", wid = "none"
+  Paralysis/tension (forces cancel) → sen = "neutral", wid = "contested"
+ELEVATED: any explicit acknowledgement of uncertainty or lack of knowledge
+NEGATIONS: label the economic state described, not the grammatical surface
+DATA DEPENDENCE: boilerplate if generic; top=["monetary_policy","macro"] + conditional if specific
+```
+
+Return your answer as a JSON object using EXACTLY these field names:
+{"topic": [...], "tense": "...", "sentiment": "...", "commitment": "...", "risk": "...", "width": "..."}
+
+Sentence: "{sentence}"
+
+JSON:
