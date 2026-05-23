@@ -14,5 +14,13 @@
     "query_size": 300,
     "mean_uncertainty_selected": 0.31089950769995967,
     "mean_uncertainty_pool": 0.06020746203968074
+  },
+  {
+    "cycle": 2,
+    "timestamp": "2026-05-23T15:31:09.758069",
+    "pool_scored": 29625,
+    "query_size": 100,
+    "mean_uncertainty_selected": 1.0754578864574433,
+    "mean_uncertainty_pool": 0.16436923252890223
   }
 ]
