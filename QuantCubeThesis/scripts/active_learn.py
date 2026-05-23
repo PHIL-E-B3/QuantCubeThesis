@@ -78,10 +78,8 @@ def label_token_neg_lp(output, text, field, tokenizer):
 
 
 def composite_uncertainty(output, text, tokenizer):
-    """Average label-token neg-logprob across all fields. Falls back to nan if all fail."""
-    scores = [label_token_neg_lp(output, text, f, tokenizer) for f in SINGLE_FIELDS]
-    valid = [s for s in scores if not np.isnan(s)]
-    return float(np.mean(valid)) if valid else float("nan")
+    """Label-token neg-logprob for sentiment only."""
+    return label_token_neg_lp(output, text, "sentiment", tokenizer)
 
 
 def load_known_ids():
@@ -262,7 +260,7 @@ def main():
     parser.add_argument("--model", default="unsloth/Meta-Llama-3.1-8B-Instruct")
     parser.add_argument("--prompt", default="prompts/P5_v27.txt")
     parser.add_argument("--max-model-len", type=int, default=2560)
-    parser.add_argument("--query-size", type=int, default=300, help="Sentences to select per cycle")
+    parser.add_argument("--query-size", type=int, default=100, help="Sentences to select per cycle")
     parser.add_argument("--pool-size", type=int, default=None,
                         help="Max unlabelled sentences to score (None = all). "
                              "Use e.g. 10000 to limit runtime.")
