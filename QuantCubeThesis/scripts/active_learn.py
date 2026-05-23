@@ -262,7 +262,7 @@ def main():
     parser.add_argument("--model", default="unsloth/Meta-Llama-3.1-8B-Instruct")
     parser.add_argument("--prompt", default="prompts/P5_v27.txt")
     parser.add_argument("--max-model-len", type=int, default=2560)
-    parser.add_argument("--query-size", type=int, default=80, help="Sentences to select per cycle")
+    parser.add_argument("--query-size", type=int, default=300, help="Sentences to select per cycle")
     parser.add_argument("--pool-size", type=int, default=None,
                         help="Max unlabelled sentences to score (None = all). "
                              "Use e.g. 10000 to limit runtime.")
