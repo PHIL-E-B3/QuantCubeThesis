@@ -12,8 +12,6 @@ build/
 *.egg
 # Model checkpoints (large intermediate files)
 models/*/checkpoints/
-# Adapter weights (177MB+ — backed up to Dropbox, not git)
-models/*/adapter/
 # Large raw data
 data/raw/*
 data/processed/*
