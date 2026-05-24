@@ -1,0 +1,67 @@
+{
+  "methodology": {
+    "eval_set": "eval_merged_labelled_corrected_3-class_com_con.json",
+    "n": 711,
+    "primary_fields": ["topic", "sentiment", "commitment", "risk", "width"],
+    "label_compression": {
+      "sentiment": {"strongly_hawkish": "hawkish", "strongly_dovish": "dovish"},
+      "width": {"contested": "none"},
+      "commitment": {"conditional": "none"}
+    },
+    "forcing_rules": {
+      "no_monetary_policy_topic": "commitment=none",
+      "no_topic_only": "sentiment=neutral"
+    },
+    "sentiment_na_excluded": true,
+    "topic_restricted_to_valid_labels": true
+  },
+  "results": {
+    "checkpoint258_old_prompt_compressed": {
+      "adapter": "models/best/checkpoint-258",
+      "prompt": "unknown (pre-v28, likely P5_v25-27)",
+      "raw_file": "models/best/eval_results/sft_best_raw.json",
+      "compression_applied": true,
+      "summary_f1": 0.8453,
+      "fields": {
+        "topic":       {"f1_macro": 0.842, "accuracy": 0.785},
+        "tense":       {"f1_macro": 0.904, "accuracy": 0.904},
+        "sentiment":   {"f1_macro": 0.773, "accuracy": 0.784},
+        "commitment":  {"f1_macro": 0.924, "accuracy": 0.982},
+        "risk":        {"f1_macro": 0.810, "accuracy": 0.921},
+        "width":       {"f1_macro": 0.878, "accuracy": 0.963}
+      }
+    },
+    "checkpoint258_P5v41b": {
+      "adapter": "models/best/checkpoint-258",
+      "prompt": "prompts/P5_v41b.txt",
+      "raw_file": "git:bb620da/models/best/eval_results/prompt_compare/sft_P5_v41b_raw.json",
+      "compression_applied": false,
+      "notes": "Prompt already outputs 3-class labels. Commitment returned as boolean (True=unconditional, False=none). fiscal_policy hallucinated on 1 sentence — excluded from topic eval.",
+      "summary_f1": 0.8282,
+      "fields": {
+        "topic":       {"f1_macro": 0.836, "accuracy": 0.772},
+        "tense":       {"f1_macro": 0.897, "accuracy": 0.897},
+        "sentiment":   {"f1_macro": 0.778, "accuracy": 0.784},
+        "commitment":  {"f1_macro": 0.917, "accuracy": 0.982},
+        "risk":        {"f1_macro": 0.801, "accuracy": 0.921},
+        "width":       {"f1_macro": 0.914, "accuracy": 0.979}
+      }
+    },
+    "new_adapter_P5v41b": {
+      "adapter": "models/best/adapter",
+      "prompt": "prompts/P5_v41b.txt",
+      "raw_file": "models/best/eval_results/prompt_compare/sft_P5_v41b_raw.json",
+      "compression_applied": false,
+      "summary_f1": 0.8104,
+      "fields": {
+        "topic":       {"f1_macro": 0.825, "accuracy": 0.769},
+        "tense":       {"f1_macro": 0.886, "accuracy": 0.886},
+        "sentiment":   {"f1_macro": 0.721, "accuracy": 0.726},
+        "commitment":  {"f1_macro": 0.898, "accuracy": 0.976},
+        "risk":        {"f1_macro": 0.690, "accuracy": 0.890},
+        "width":       {"f1_macro": 0.919, "accuracy": 0.979}
+      }
+    }
+  },
+  "decision": "Use checkpoint-258 with P5_v41b for full inference. Summary F1 = 0.828 with no post-processing required."
+}
