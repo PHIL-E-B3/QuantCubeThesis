@@ -168,7 +168,6 @@ def get_training_args(
         optim="adamw_torch",
         report_to="none",
         gradient_checkpointing=True,
-        group_by_length=True,
         dataloader_num_workers=0,
         torch_compile=False,
         remove_unused_columns=False,
