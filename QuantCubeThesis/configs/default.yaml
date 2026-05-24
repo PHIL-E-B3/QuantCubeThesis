@@ -68,7 +68,7 @@ training:
 
 # --- Optuna Hyperparameter Search ---
 optuna:
-  n_trials: 25                # 25 trials is sufficient for ~795 samples; 50 wastes hours on this GPU
+  n_trials: 20                # 20 trials sufficient given warm-start from known-good params
   sampler: TPE               # default, but explicit is good
   pruner:
     type: MedianPruner
