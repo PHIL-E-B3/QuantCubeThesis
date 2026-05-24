@@ -68,17 +68,17 @@ pip install "transformers==4.46.3" --force-reinstall
 Run the baseline check — loads data, tokenises, prints stats. No GPU used, exits immediately:
 
 ```bash
-python scripts/train.py --config configs/default.yaml --baseline
+python scripts/train.py --config configs/default.yaml --prompt prompts/P5_v41b.txt --baseline
 ```
 
 Expected output:
 ```
 Model:      unsloth/Meta-Llama-3.1-8B-Instruct
-Prompt:     prompts/P5_v27.txt
+Prompt:     prompts/P5_v41b.txt
 Max length: 2560
 Device:     NVIDIA A100-SXM4-80GB
-Loaded 810 labelled sentences from 2 file(s)
-Generative split — train: 688, val: 122  (eval set held out separately)
+Loaded 906 labelled sentences from 3 file(s)
+Generative split — train: 770, val: 136  (eval set held out separately)
 Dataset built. Exiting (--baseline mode).
 ```
 
@@ -86,10 +86,18 @@ If you see 0 skipped examples and the correct sentence counts, proceed to traini
 
 ---
 
-## 6. Run Optuna Hyperparameter Search + Final Retrain
+## 6. Run Final Retrain (using existing best Optuna params)
+
+Since Optuna has already been run and best hyperparameters are stored in `models/optuna/fomc_qlora.db`, use `--retrain-best` to skip the search and go straight to the 3-epoch retrain with the expanded dataset and best prompt:
 
 ```bash
-PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train.py --config configs/default.yaml --optuna
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train.py --config configs/default.yaml --prompt prompts/P5_v41b.txt --retrain-best
+```
+
+### To run a fresh Optuna search instead (optional)
+
+```bash
+PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True python scripts/train.py --config configs/default.yaml --prompt prompts/P5_v41b.txt --optuna
 ```
 
 ### What this does
@@ -170,8 +178,8 @@ git push origin main
 | `training.per_device_train_batch_size` | 16 | A100 80GB handles this |
 | `optuna.n_trials` | 25 | Hyperparameter search trials |
 | `lora.target_modules` | q/k/v/o/gate/up/down | All 7 linear layers |
-| `paths.seed_data_merged` | all_labelled_sentences.json + final_extreme_seed.json | Training data only |
-| `paths.eval_data` | eval_labelled_merged.json | True held-out test set |
+| `paths.seed_data_merged` | all_labelled_sentences.json + final_extreme_seed.json + active_learning_all.json | Training data only |
+| `paths.eval_data` | eval_merged_labelled_corrected_3-class_com_con.json | True held-out test set (711 records) |
 
 ---
 
@@ -212,4 +220,4 @@ Training continues with the next trial.
 - **No 4-bit quantization**: A100 80GB has 80GB VRAM; Llama 3.1 8B in bf16 uses ~16GB, leaving 64GB free. 4-bit would be needed only on smaller GPUs.
 - **LoRA targets all 7 linear layers**: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj. This matches the standard QLoRA setup from Dettmers et al.
 - **Training prompt**: P5_v27 (2,217 tokens) — the result of systematic compression from P5_v10 while preserving performance. See `prompt_engineering_log.md` for full history.
-- **Training data**: 688 train / 122 val from 810 seed sentences. Eval set (`eval_labelled_merged.json`, 613 sentences) is never touched during training.
+- **Training data**: ~770 train / ~136 val from 906 unique sentences (741 seed + 165 active learning; extreme seed fully contained in main seed). Eval set (`eval_merged_labelled_corrected_3-class_com_con.json`, 711 sentences) is never touched during training. The 69 records that overlapped between the original seed file and the eval set have been removed from training.

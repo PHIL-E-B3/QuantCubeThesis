@@ -154,11 +154,11 @@ def build_classification_dataset(
 
 
 # Mapping from data file field names (short) to prompt/output field names (full)
+# horizon excluded — computed by dictionary post-hoc, not predicted by model
 FIELD_REMAP = {
     "top": "topic",
     "ten": "tense",
     "sen": "sentiment",
-    "hor": "horizon",
     "com": "commitment",
     "ris": "risk",
     "wid": "width",
@@ -174,6 +174,17 @@ def format_target_json(record: dict) -> str:
             val = [val]
         if short == "hor" and isinstance(val, str):
             val = val.lower() == "true"
+        if short == "sen":
+            if val == "strongly_hawkish":
+                val = "hawkish"
+            elif val == "strongly_dovish":
+                val = "dovish"
+        if short == "com":
+            # Normalize boolean commitment to string (active-learning batches use bool)
+            if isinstance(val, bool):
+                val = "unconditional" if val else "none"
+            elif val == "conditional":
+                val = "none"
         out[long] = val
     return json.dumps(out)
 

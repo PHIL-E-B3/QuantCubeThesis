@@ -104,6 +104,7 @@ paths:
   seed_data_merged:
     - "data/QuantCube_Seed_Labelled/all_labelled_sentences.json"
     - "data/QuantCube_Seed_Batches/final_extreme_seed.json"
-  eval_data: "data/eval_labelled_merged.json"   # held-out test set, never trained on
+    - "data/active_learning/active_learning_all.json"
+  eval_data: "data/eval_merged_labelled_corrected_3-class_com_con.json"   # held-out test set, never trained on
   model_output: "models"
   logs: "logs"
