@@ -48,7 +48,7 @@ Key rules:
 
 
 "width":
-- "elevated": ANY explicit uncertainty acknowledgement, difficulty in assesment, acknowledgement of lack of knowledge, unprecedented conditions.
+- "elevated": ANY explicit uncertainty acknowledgement ("unclear", "hard to say", "difficult to assess", "remains to be seen", "unprecedented". FIRES INDEPENDENTLY OF SENTIMENT.
 - "none": baseline. Modal verbs, standard hedges, single-direction signals, opposing economic forces.
 - risk and width can co-exist.
 
