@@ -328,7 +328,7 @@
     "sen": "strongly_dovish",
     "ten": "interpretive",
     "hor": false,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -622,7 +622,7 @@
     "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
-    "com": "conditional",
+    "com": "unconditional",
     "ris": "na",
     "wid": "none"
   },
@@ -1752,7 +1752,7 @@
     "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
-    "com": "conditional",
+    "com": "unconditional",
     "ris": "na",
     "wid": "none"
   },
@@ -1878,24 +1878,6 @@
   {
     "id": "4c7b0dbf-f9e6-487c-a46c-4ae04d1623d8",
     "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: Bank of Canada Bank of England European Central Bank Swiss National Bank (61 KB PDF) Statements by Other Central Banks Bank of Japan Sveriges Riksbank Term Securities Lending Facility Terms and conditions Frequently asked questions Federal Reserve Actions The Federal Reserve announced today an expansion of its securities lending program.",
-    "source": "statement_20080311.txt",
-    "doc_type": "statement",
-    "date": "2008-03-11",
-    "context_question": null,
-    "top": [
-      "monetary_policy",
-      "financial_conditions"
-    ],
-    "sen": "dovish",
-    "ten": "descriptive",
-    "hor": false,
-    "com": "unconditional",
-    "ris": "na",
-    "wid": "none"
-  },
-  {
-    "id": "652f8a2b-7016-40d4-8df8-ed74229ca3fe",
-    "sentence": "Information on Related Actions Being Taken by Other Central Banks Information on the actions that will be taken by other central banks is available at the following websites: Bank of Canada Bank of England European Central Bank Swiss National Bank (61 KB PDF) Statements by Other Central Banks Bank of Japan Sveriges Riksbank Term Securities Lending Facility Terms and conditions Frequently asked questions In addition, the Federal Open Market Committee has authorized increases in its existing temporary reciprocal currency arrangements (swap lines) with the European Central Bank (ECB) and the Swiss National Bank (SNB).",
     "source": "statement_20080311.txt",
     "doc_type": "statement",
     "date": "2008-03-11",
@@ -2064,7 +2046,7 @@
     "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -2098,7 +2080,7 @@
     "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -2472,7 +2454,7 @@
     "sen": "dovish",
     "ten": "interpretive",
     "hor": false,
-    "com": "conditional",
+    "com": "unconditional",
     "ris": "na",
     "wid": "none"
   },
@@ -2583,7 +2565,7 @@
     "sen": "dovish",
     "ten": "interpretive",
     "hor": true,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -3312,7 +3294,7 @@
     "sen": "dovish",
     "ten": "descriptive",
     "hor": false,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -3432,7 +3414,7 @@
     "sen": "neutral",
     "ten": "interpretive",
     "hor": false,
-    "com": "conditional",
+    "com": "unconditional",
     "ris": "na",
     "wid": "none"
   },
@@ -6007,7 +5989,7 @@
     "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
-    "com": "unconditional",
+    "com": "none",
     "ris": "na",
     "wid": "none"
   },
@@ -12230,7 +12212,7 @@
     "sen": "hawkish",
     "ten": "descriptive",
     "hor": false,
-    "com": "none",
+    "com": "unconditional",
     "ris": "skewed_downside",
     "wid": "none",
     "note": "SEED MISMATCH for dovish. Taper announcement: 'we have reduced our pace of asset purchases again' (hawkish action) justified by labor-market progress and a diminished inflation-undershoot risk -> hawkish. Not strongly: gradual taper (no 50bp move), mild language ('cumulative progress', 'diminished somewhat'), labor stated as one domain -> the 3-distinct-signals bar is not cleanly met. Action taken, not a forward commitment -> com none."
