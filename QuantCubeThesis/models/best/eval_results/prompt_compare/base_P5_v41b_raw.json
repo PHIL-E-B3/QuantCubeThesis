@@ -125,14 +125,14 @@
   {
     "id": "9414cb78-c760-419e-8ed7-99e03c2d2e50",
     "sentence": "While recent employment data had been encouraging, a number of members perceived a nonnegligible ris",
-    "raw_response": "{\n  \"topic\": [\"labor_market\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market",
         "monetary_policy"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "skewed_downside",
       "width": "none"
@@ -297,7 +297,7 @@
   {
     "id": "441a186f-84c6-4ce8-9481-63ee26e70f11",
     "sentence": "In response, some EME authorities took actions to support their currencies, including tightening mon",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"monetary_policy\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"financial_conditions\", \"monetary_policy\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "financial_conditions",
@@ -373,10 +373,10 @@
   {
     "id": "27754d8b-0ce1-4087-9207-1f5e42302281",
     "sentence": "Finally, if the decline in oil prices and the rise in the foreign exchange value of the dollar did n",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "macro",
+        "economic_activity",
         "financial_conditions"
       ],
       "tense": "interpretive",
@@ -404,7 +404,7 @@
   {
     "id": "34cd534f-b300-4ad7-8bdb-4911da0cac68",
     "sentence": "The foreign exchange value of the dollar increased a bit, on balance, during the intermeeting period",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "financial_conditions"
@@ -479,11 +479,11 @@
   {
     "id": "060f85e9-5e19-4f01-8509-66d8b9131f38",
     "sentence": "She noted that, in such circumstances, postponing the removal of accommodation could increase financ",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
-        "financial_conditions",
-        "macro"
+        "monetary_policy",
+        "financial_conditions"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
@@ -697,7 +697,7 @@
   {
     "id": "6bf0b423-a3dd-4cb0-ab3b-37c25349fa21",
     "sentence": "As anticipated, growth in household spending appeared to have been stronger in the second quarter af",
-    "raw_response": "{\"topic\": [\"economic_activity\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"economic_activity\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "economic_activity"
@@ -772,12 +772,12 @@
   {
     "id": "e4ab3d80-d1bf-467e-963c-61f30f9da51e",
     "sentence": "This could be accomplished by implementing a 20 basis point increase in the IOER rate at a time when",
-    "raw_response": "{\n  \"topic\": [\"monetary_policy\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "monetary_policy"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": true,
       "risk": "na",
@@ -802,7 +802,7 @@
   {
     "id": "2ebfdace-a2b6-407a-9e05-8136dd630e5e",
     "sentence": "Job gains had been strong, on average, in recent months, and the unemployment rate had stayed low.",
-    "raw_response": "{\"topic\": [\"labor_market\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market"
@@ -970,12 +970,12 @@
   {
     "id": "c71e1cdb-b8b0-4753-b7f5-de93ed62ac49",
     "sentence": "Several participants suggested that such a discussion could benefit from also considering the merits",
-    "raw_response": "{\"topic\": [\"monetary_policy\"], \"tense\": \"interpretive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"monetary_policy\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "monetary_policy"
       ],
-      "tense": "interpretive",
+      "tense": "descriptive",
       "sentiment": "neutral",
       "commitment": false,
       "risk": "na",
@@ -1076,13 +1076,13 @@
   {
     "id": "27d7015c-880b-45a0-8335-c325b9439bdb",
     "sentence": "The dollar appreciated modestly against most AFE currencies except the Japanese yen and the British ",
-    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"descriptive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "financial_conditions"
       ],
       "tense": "descriptive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -1107,11 +1107,11 @@
   {
     "id": "8f27c96f-e1bb-4a2e-ab1b-065fec212af8",
     "sentence": "Various participants noted that low-income households were particularly hard hit by the effects of t",
-    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "economic_activity",
-        "financial_conditions"
+        "labor_market"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
@@ -1243,16 +1243,15 @@
   {
     "id": "c2e9a8b3-770e-4fa0-b8b2-b6257e2a4d5a",
     "sentence": "The market-implied policy rate path shifted down sizably, with the federal funds rate expected to pe",
-    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "monetary_policy",
-        "financial_conditions"
+        "monetary_policy"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
       "commitment": false,
-      "risk": "skewed_downside",
+      "risk": "na",
       "width": "none"
     }
   },
@@ -1274,7 +1273,7 @@
   {
     "id": "d1ad2f71-da71-4cac-b4a7-d03dc5ac7601",
     "sentence": "They expected that this process would continue and would help lead to a decline in housing services ",
-    "raw_response": "{\"topic\": [\"inflation\", \"economic_activity\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -1322,7 +1321,7 @@
   {
     "id": "57c21386-6041-4313-906f-9c3e8a594533",
     "sentence": "Several participants observed that the ongoing rebalancing of labor supply and demand would help red",
-    "raw_response": "{\"topic\": [\"inflation\", \"labor_market\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -1475,11 +1474,11 @@
   {
     "id": "bdc545d5-ba33-43d4-8b88-493f05739815",
     "sentence": "In terms of timing, many participants noted that it could take some time for the full effects of hig",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"EFFECT\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"financial_conditions\", \"economic_activity\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
-        "inflation",
-        "EFFECT"
+        "financial_conditions",
+        "economic_activity"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
@@ -1734,14 +1733,14 @@
   {
     "id": "e6f89337-8e59-466a-8b20-70888ee78ba1",
     "sentence": "The Committee anticipates that a gradual recovery in economic activity will begin later this year, b",
-    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "economic_activity",
         "macro"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "skewed_downside",
       "width": "elevated"
@@ -1750,14 +1749,14 @@
   {
     "id": "6ab24aaa-64eb-40d8-a215-59f6ff50eb1f",
     "sentence": "The Federal Reserve will employ all available tools to promote the resumption of sustainable economi",
-    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "economic_activity",
-        "inflation"
+        "macro",
+        "monetary_policy"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": true,
       "risk": "na",
       "width": "none"
@@ -1782,7 +1781,7 @@
   {
     "id": "33e7d1d5-9050-4d4b-845d-ecfeac78c1ee",
     "sentence": "The Committee will continue to evaluate its purchases of securities in light of the evolving economi",
-    "raw_response": "{\"topic\": [\"monetary_policy\", \"macro\"], \"tense\": \"interpretive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "monetary_policy",
@@ -2214,7 +2213,7 @@
   {
     "id": "e41e18c5-ae5c-40e8-98ff-f053351b1d04",
     "sentence": "The Committee sees the downside risks to the outlook for the economy and the labor market as having ",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "macro",
@@ -2223,7 +2222,7 @@
       "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
-      "risk": "skewed_downside",
+      "risk": "skewed_upside",
       "width": "none"
     }
   },
@@ -2280,11 +2279,10 @@
   {
     "id": "05521c59-64e1-4534-a864-49b13b7ff662",
     "sentence": "The Committee's sizable and still-increasing holdings of longer-term securities should maintain down",
-    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"financial_conditions\", \"economic_activity\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"economic_activity\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "monetary_policy",
-        "financial_conditions",
         "economic_activity",
         "inflation"
       ],
@@ -2315,13 +2313,13 @@
   {
     "id": "748bb834-9fc2-49bd-bfd4-7c8acb37151e",
     "sentence": "The Committee currently judges that there is sufficient underlying strength in the broader economy t",
-    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"labor_market\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "economic_activity",
+        "macro",
         "labor_market"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
       "risk": "na",
@@ -3067,11 +3065,10 @@
   {
     "id": "dd82c942-ff34-4ddb-8642-7753e0543846",
     "sentence": "As indicated in today's policy statement, the Committee sees the economic recovery as proceeding at ",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"economic_activity\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
-        "macro",
-        "economic_activity"
+        "macro"
       ],
       "tense": "descriptive",
       "sentiment": "neutral",
@@ -3160,14 +3157,14 @@
   {
     "id": "acfaf979-6cca-449b-a44a-1b4173a7eef8",
     "sentence": "The sooner we can act, the better. But the most efficient and effective way to address our fiscal pr",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "macro",
-        "monetary_policy"
+        "financial_conditions"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "skewed_upside",
       "width": "none"
@@ -3311,11 +3308,11 @@
   {
     "id": "e2737c34-c8d5-42de-bccf-24f22ae7a2f4",
     "sentence": "With inflation anticipated to run at or below our 2 percent objective, the Committee has become conv",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
-        "economic_activity",
+        "macro",
         "monetary_policy"
       ],
       "tense": "interpretive",
@@ -3562,7 +3559,7 @@
   {
     "id": "07ed511d-f41c-48fb-9274-378c0864411e",
     "sentence": "The Committee recognizes that inflation persistently below its objective could pose risks to economi",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -3571,7 +3568,7 @@
       "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
-      "risk": "skewed_upside",
+      "risk": "skewed_downside",
       "width": "none"
     }
   },
@@ -3594,13 +3591,13 @@
   {
     "id": "e420e518-ae02-4cdc-bb32-19b5fa66b58c",
     "sentence": "So, fiscal policy has been tight, contractionary, so there have been a lot of headwinds.",
-    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "macro"
       ],
       "tense": "descriptive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -3673,7 +3670,7 @@
   {
     "id": "5b8829bb-85cd-4235-843d-5a628fcb2017",
     "sentence": "The central tendency of the unemployment rate projections is slightly lower than in the June project",
-    "raw_response": "{\"topic\": [\"labor_market\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market"
@@ -3979,13 +3976,13 @@
   {
     "id": "45f09474-d16b-41d9-874b-4d8568adbf7c",
     "sentence": "Although recent labor market data have, on balance, been disappointing, it's important not to overre",
-    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "neutral",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -4010,13 +4007,13 @@
   {
     "id": "e23b4344-e260-4a56-b211-6b1fa72f28c8",
     "sentence": "Clearly, we will be looking at the next job report, and if we were to see a healthy pace of job grow",
-    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "hawkish",
       "commitment": false,
       "risk": "skewed_upside",
       "width": "none"
@@ -4025,11 +4022,10 @@
   {
     "id": "18b1f4f3-26b1-49f0-bfa3-fe33290d31f1",
     "sentence": "But, we've seen in the past, and economic theory suggests, that inflation expectations are relevant ",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"inflation\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
-        "inflation",
-        "economic_activity"
+        "inflation"
       ],
       "tense": "descriptive",
       "sentiment": "neutral",
@@ -4210,13 +4206,13 @@
   {
     "id": "29c6d318-7b07-4ac9-9f21-593cb320ea11",
     "sentence": "I've mentioned a few idiosyncratic things, but, frankly, the low inflation is more broad based than ",
-    "raw_response": "{\"topic\": [\"inflation\"], \"tense\": \"descriptive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"inflation\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "inflation"
       ],
       "tense": "descriptive",
-      "sentiment": "dovish",
+      "sentiment": "hawkish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -4289,14 +4285,14 @@
   {
     "id": "47d9bffd-c8e1-4463-b420-06cf70741832",
     "sentence": "As you can see in our Summary of Economic Projections, the median of Committee participants' project",
-    "raw_response": "{\n  \"topic\": [\"labor_market\", \"macro\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\", \"macro\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market",
         "macro"
       ],
       "tense": "descriptive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -4730,10 +4726,10 @@
   {
     "id": "fb3058b1-1289-44ea-8792-d79ba13b3d45",
     "sentence": "Well, I think you can -- you know, it's -- I think you can see that what's been moving -- one way to",
-    "raw_response": "{\"topic\": [\"no_topic\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
-        "no_topic"
+        "financial_conditions"
       ],
       "tense": "descriptive",
       "sentiment": "neutral",
@@ -5020,14 +5016,14 @@
   {
     "id": "5e444d4b-8f49-473f-b271-c1442f26f104",
     "sentence": "Half of FOMC participants forecast that these favorable economic conditions will be fulfilled by the",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "macro",
         "monetary_policy"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -5145,13 +5141,13 @@
   {
     "id": "96ed7f93-ac53-4f74-9039-d70efe882565",
     "sentence": "That is our intention, and we believe we can do that. But we have to restore price stability.",
-    "raw_response": "{\"topic\": [\"inflation\", \"monetary_policy\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": true, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"inflation\", \"monetary_policy\"], \"tense\": \"interpretive\", \"sentiment\": \"hawkish\", \"commitment\": true, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "inflation",
         "monetary_policy"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": true,
       "risk": "na",
@@ -5226,7 +5222,7 @@
   {
     "id": "99122de6-aab0-49fc-9183-d4bd3fc33e27",
     "sentence": "Over the past three months, employment rose by an average of 408,000 jobs per month, down from the a",
-    "raw_response": "{\"topic\": [\"labor_market\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "labor_market"
@@ -5487,11 +5483,11 @@
   {
     "id": "153de660-2c90-4d14-9b52-7b4679165749",
     "sentence": "The one that would affect -- the one that comes to mind, though, is just the question of where the n",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "macro",
-        "monetary_policy"
+        "monetary_policy",
+        "macro"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
@@ -5655,7 +5651,7 @@
   {
     "id": "79a89b5a-764f-46b5-b6b3-619780410103",
     "sentence": "But, honestly, it doesn't really get you where you need to be to think about what appropriate policy",
-    "raw_response": "{\n  \"topic\": [\"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "monetary_policy"
@@ -5663,7 +5659,7 @@
       "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
-      "risk": "skewed_downside",
+      "risk": "skewed_upside",
       "width": "none"
     }
   },
@@ -6188,15 +6184,15 @@
   {
     "id": "f145cbb7-ecc8-4095-95a9-b4ba066edeba",
     "sentence": "Successful coordination in the provision of liquidity raises the question of whether appreciable gai",
-    "raw_response": "{\"topic\": [\"monetary_policy\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"skewed_upside\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"monetary_policy\"], \"tense\": \"interpretive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "monetary_policy"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "neutral",
       "commitment": false,
-      "risk": "skewed_upside",
+      "risk": "na",
       "width": "none"
     }
   },
@@ -6296,13 +6292,13 @@
   {
     "id": "580f5c3c-64f3-4da1-bb83-0e6c3e73f593",
     "sentence": "In retrospect, I may have been unduly comforted by the resilience of the U.S. economy to the collaps",
-    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "macro"
       ],
       "tense": "descriptive",
-      "sentiment": "neutral",
+      "sentiment": "dovish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -7074,13 +7070,13 @@
   {
     "id": "83914e20-e8bd-41d2-8cce-a0ac745b95bd",
     "sentence": "Leverage at broker-dealers is far below levels before the crisis and remains low relative to the nor",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"financial_conditions\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "financial_conditions"
       ],
       "tense": "descriptive",
-      "sentiment": "dovish",
+      "sentiment": "hawkish",
       "commitment": false,
       "risk": "na",
       "width": "none"
@@ -7150,16 +7146,16 @@
   {
     "id": "d0eb8cd8-e596-425f-982d-a0798142c573",
     "sentence": "It is true that there are structural vulnerabilities in the nonbank financial sector, particularly m",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"monetary_policy\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "financial_conditions",
         "monetary_policy"
       ],
-      "tense": "interpretive",
+      "tense": "descriptive",
       "sentiment": "dovish",
       "commitment": false,
-      "risk": "symmetric",
+      "risk": "skewed_downside",
       "width": "none"
     }
   },
@@ -7378,9 +7374,10 @@
   {
     "id": "b6662a36-dc37-48a2-a76c-2c8185ec75be",
     "sentence": "Rent growth and other measures of housing inflation remain elevated but stepped down in the November",
-    "raw_response": "{\"topic\": [\"inflation\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"inflation\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
+        "economic_activity",
         "inflation"
       ],
       "tense": "descriptive",
@@ -7530,10 +7527,10 @@
   {
     "id": "124cb04d-f8b3-46ff-8950-e6300cb098ad",
     "sentence": "Of course, much has changed over the past quarter-century, so history can only be a useful reference",
-    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\"topic\": [\"no_topic\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
-        "macro"
+        "no_topic"
       ],
       "tense": "descriptive",
       "sentiment": "neutral",
@@ -7577,12 +7574,11 @@
   {
     "id": "14f2c10a-822e-4744-876c-38879a260793",
     "sentence": "Members agreed that, in determining the pace of future increases in the target range, they would tak",
-    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"economic_activity\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "monetary_policy",
-        "economic_activity",
-        "inflation"
+        "macro"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
@@ -7624,13 +7620,14 @@
   {
     "id": "d658d6ab-dbc1-4f09-a3cc-a6d81aca8bd1",
     "sentence": "With inflation running persistently below this longer-run goal, the Committee will aim to achieve in",
-    "raw_response": "{\n  \"topic\": [\"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": true,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "inflation"
+        "inflation",
+        "monetary_policy"
       ],
       "tense": "interpretive",
-      "sentiment": "hawkish",
+      "sentiment": "dovish",
       "commitment": true,
       "risk": "na",
       "width": "none"
@@ -7700,10 +7697,10 @@
   {
     "id": "aeb15d15-735f-464f-b421-b4deb3c7cec4",
     "sentence": "While concerns remain in all of these areas, it appears that risks have moderated somewhat.",
-    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "financial_conditions"
+        "macro"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
@@ -7824,10 +7821,9 @@
   {
     "id": "bf226524-b36f-4d8b-9520-8ea649a60a87",
     "sentence": "Actual growth may turn out to be weaker or stronger, and the choices we make as a society will have ",
-    "raw_response": "{\n  \"topic\": [\"economic_activity\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "economic_activity",
         "macro"
       ],
       "tense": "interpretive",
@@ -8061,7 +8057,7 @@
   {
     "id": "2e41eb8c-f288-4d8f-bbaf-2f7449dbbcdd",
     "sentence": "We continue to contend with inflation notably above the FOMC's 2 percent goal.",
-    "raw_response": "{\n  \"topic\": [\"inflation\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"inflation\"], \"tense\": \"descriptive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "inflation"
@@ -8666,7 +8662,7 @@
   {
     "id": "b3de7f09-450b-4839-94a6-ad6ec51080ac",
     "sentence": "Almost all participants saw upside risks to the inflation outlook as having diminished, while downsi",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\", \"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -8674,7 +8670,7 @@
         "macro"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "neutral",
       "commitment": false,
       "risk": "symmetric",
       "width": "none"
@@ -8683,12 +8679,12 @@
   {
     "id": "b6590c3b-8c86-4faf-aafb-bf37c42cf7a1",
     "sentence": "In discussing risk-management considerations that could bear on the outlook for monetary policy, alm",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\", \"monetary_policy\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"inflation\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
+        "monetary_policy",
         "inflation",
-        "labor_market",
-        "monetary_policy"
+        "labor_market"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
@@ -8920,11 +8916,11 @@
   {
     "id": "020f80c3-bcaf-4852-bcfa-a3eb0cb6665b",
     "sentence": "Sorry, let's see, the other -- the upside risks. So I -- there are upside risks to the economy, and ",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"financial_conditions\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "macro",
-        "economic_activity"
+        "financial_conditions"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
@@ -8969,14 +8965,14 @@
   {
     "id": "1ad3334b-2130-47f6-a81a-372e3128d5ec",
     "sentence": "The question isn't the level; the question is that there has been change, particularly over the last",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"labor_market\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
         "labor_market"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "hawkish",
       "commitment": false,
       "risk": "skewed_downside",
       "width": "none"
@@ -9085,7 +9081,7 @@
   {
     "id": "c003923a-eea9-4e2c-b691-51004e3280d7",
     "sentence": "But if there is a significant shock that's a material deterioration to the outlook, we would conside",
-    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"interpretive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "macro"
@@ -9307,17 +9303,17 @@
   {
     "id": "1d85dd18-9cf4-4103-a3eb-725a58676433",
     "sentence": "This type of environment creates asymmetric risks, since the lower bound constraint means that polic",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
-        "macro",
+        "financial_conditions",
         "inflation"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
       "risk": "symmetric",
-      "width": "none"
+      "width": "elevated"
     }
   },
   {
@@ -9482,16 +9478,16 @@
   {
     "id": "a431d5f3-be80-455e-8e90-c593dc33ff3c",
     "sentence": "Market-based policy rate expectations rose notably in most advanced foreign economies, as core infla",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"inflation\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "financial_conditions",
         "inflation"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
-      "risk": "na",
+      "risk": "skewed_upside",
       "width": "none"
     }
   },
@@ -9515,7 +9511,7 @@
   {
     "id": "ecd272b0-e1fe-4c30-afc3-3e8bf67d185e",
     "sentence": "The presentation began by discussing the general features of DSGE models and considering their advan",
-    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "macro"
@@ -9596,10 +9592,10 @@
   {
     "id": "94a51007-7b62-42e2-817d-8ab6086d72ea",
     "sentence": "Several participants noted that firms not directly subject to tariffs might take the opportunity to ",
-    "raw_response": "{\"topic\": [\"financial_conditions\", \"EFFECT\"], \"tense\": \"interpretive\", \"sentiment\": \"hawkish\", \"commitment\": false, \"risk\": \"skewed_upside\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"EFFECT\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "financial_conditions",
+        "inflation",
         "EFFECT"
       ],
       "tense": "interpretive",
@@ -9692,13 +9688,12 @@
   {
     "id": "4923674a-3c93-45eb-bea8-388190b34a2b",
     "sentence": "Various participants commented that high uncertainty had the potential to damp consumer spending as ",
-    "raw_response": "{\n  \"topic\": [\"macro\", \"financial_conditions\", \"economic_activity\", \"inflation\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\", \"financial_conditions\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "macro",
         "financial_conditions",
-        "economic_activity",
-        "inflation"
+        "economic_activity"
       ],
       "tense": "interpretive",
       "sentiment": "dovish",
@@ -9742,11 +9737,11 @@
   {
     "id": "79b497be-657f-4ec5-a73e-e5d20d6ba912",
     "sentence": "As an upside risk to inflation, a few participants noted the potential for a stronger-than-expected ",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"EFFECT\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
-        "economic_activity"
+        "EFFECT"
       ],
       "tense": "interpretive",
       "sentiment": "hawkish",
@@ -9758,14 +9753,14 @@
   {
     "id": "b992c225-9a8e-42b3-a95f-b175ea44bcba",
     "sentence": "If interest rates rise suddenly or over time as the economy recovers, those assets lose value (in su",
-    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"financial_conditions\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "financial_conditions",
         "economic_activity"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "hawkish",
       "commitment": false,
       "risk": "skewed_downside",
       "width": "none"
@@ -9825,7 +9820,7 @@
   {
     "id": "683d25cf-104a-4e37-8e45-f5cff67099ce",
     "sentence": "Increasing vaccinations, along with enacted and expected fiscal measures and accommodative monetary ",
-    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"symmetric\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_upside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "macro"
@@ -9833,7 +9828,7 @@
       "tense": "interpretive",
       "sentiment": "hawkish",
       "commitment": false,
-      "risk": "symmetric",
+      "risk": "skewed_upside",
       "width": "elevated"
     }
   },
@@ -9871,12 +9866,12 @@
   {
     "id": "4c791cf2-7ff9-4858-babd-65ef1152fa2b",
     "sentence": "It's hard to say how much of an effect that's having on our economy.",
-    "raw_response": "{\"topic\": [\"economic_activity\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"elevated\"}",
+    "raw_response": "{\"topic\": [\"economic_activity\"], \"tense\": \"interpretive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"elevated\"}",
     "parsed": {
       "topic": [
         "economic_activity"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "neutral",
       "commitment": false,
       "risk": "na",
@@ -9948,14 +9943,14 @@
   {
     "id": "78435c61-9f19-4035-b5f8-16f4beec88ff",
     "sentence": "However, some members were more uncertain about the extent of progress in the labor market to date o",
-    "raw_response": "{\n  \"topic\": [\"labor_market\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"labor_market\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "labor_market",
         "economic_activity"
       ],
       "tense": "interpretive",
-      "sentiment": "dovish",
+      "sentiment": "neutral",
       "commitment": false,
       "risk": "skewed_downside",
       "width": "elevated"
@@ -10043,12 +10038,12 @@
   {
     "id": "0587d4eb-21da-483e-9c87-ca386c39f7dd",
     "sentence": "More generally, some participants reported that their business contacts regarded the economic outloo",
-    "raw_response": "{\"topic\": [\"macro\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"elevated\"}",
+    "raw_response": "{\n  \"topic\": [\"macro\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
     "parsed": {
       "topic": [
         "macro"
       ],
-      "tense": "descriptive",
+      "tense": "interpretive",
       "sentiment": "neutral",
       "commitment": false,
       "risk": "skewed_downside",
@@ -10073,7 +10068,7 @@
   {
     "id": "f5ea879c-5013-4afb-9d6a-6a596fda000d",
     "sentence": "But, you know, we get together, we discuss -- we have a great discussion, and then we decide what to",
-    "raw_response": "{\n  \"topic\": [\"no_topic\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\"topic\": [\"no_topic\"], \"tense\": \"descriptive\", \"sentiment\": \"neutral\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "no_topic"
@@ -10289,7 +10284,7 @@
   {
     "id": "b9a7e17e-e867-40d0-a5a4-b55ada132cb1",
     "sentence": "The effects on inflation could be short lived -- reflecting a one-time shift in the price level.",
-    "raw_response": "{\"topic\": [\"inflation\", \"EFFECT\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"na\", \"width\": \"none\"}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"EFFECT\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"dovish\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -10681,10 +10676,12 @@
   {
     "id": "42b43966-1d09-48c2-966c-c93ad91fcd04",
     "sentence": "At this meeting, a staff presentation discussed three issues related to the existing statement that ",
-    "raw_response": "{\n  \"topic\": [\"no_topic\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"monetary_policy\", \"inflation\", \"macro\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"neutral\",\n  \"commitment\": false,\n  \"risk\": \"na\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
-        "no_topic"
+        "monetary_policy",
+        "inflation",
+        "macro"
       ],
       "tense": "descriptive",
       "sentiment": "neutral",
@@ -10808,11 +10805,11 @@
   {
     "id": "ad08f5fd-2d27-47c0-b200-d50fb02b703d",
     "sentence": "Inflation has continued to run below the Committee's 2 percent objective, and the Committee remains ",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"macro\"],\n  \"tense\": \"descriptive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
-        "economic_activity"
+        "macro"
       ],
       "tense": "descriptive",
       "sentiment": "hawkish",
@@ -10856,7 +10853,7 @@
   {
     "id": "b6302d5b-5bf9-44c4-8ebd-f5617507d955",
     "sentence": "At the same time, we want to avoid inflation running persistently below our objective, which could l",
-    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"elevated\"\n}",
+    "raw_response": "{\n  \"topic\": [\"inflation\", \"economic_activity\"],\n  \"tense\": \"interpretive\",\n  \"sentiment\": \"hawkish\",\n  \"commitment\": false,\n  \"risk\": \"skewed_downside\",\n  \"width\": \"none\"\n}",
     "parsed": {
       "topic": [
         "inflation",
@@ -10866,7 +10863,7 @@
       "sentiment": "hawkish",
       "commitment": false,
       "risk": "skewed_downside",
-      "width": "elevated"
+      "width": "none"
     }
   },
   {
@@ -10952,7 +10949,7 @@
   {
     "id": "d5511afc-9246-4d65-bda2-9b3ae504fcb2",
     "sentence": "The company's failure would thus likely have led to a further sharp decline in confidence in the glo",
-    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"elevated\"}",
+    "raw_response": "{\"topic\": [\"financial_conditions\"], \"tense\": \"interpretive\", \"sentiment\": \"dovish\", \"commitment\": false, \"risk\": \"skewed_downside\", \"width\": \"none\"}",
     "parsed": {
       "topic": [
         "financial_conditions"
@@ -10961,7 +10958,7 @@
       "sentiment": "dovish",
       "commitment": false,
       "risk": "skewed_downside",
-      "width": "elevated"
+      "width": "none"
     }
   },
   {
