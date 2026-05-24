@@ -129,6 +129,7 @@ def run_optuna_search(
     n_trials: int = 25,
     search_space: Optional[dict] = None,
     study_name: str = "fomc_qlora",
+    enqueue_params: Optional[dict] = None,
 ) -> optuna.Study:
     """
     Run full Optuna hyperparameter search.
@@ -154,6 +155,10 @@ def run_optuna_search(
         storage=storage_url,
         load_if_exists=True,
     )
+
+    if enqueue_params:
+        study.enqueue_trial(enqueue_params)
+        print(f"Enqueued warm-start trial: {enqueue_params}")
 
     obj_fn = partial(
         objective,

@@ -45,6 +45,8 @@ def main():
                         help="Print dataset stats and exit (no training)")
     parser.add_argument("--retrain-best", action="store_true",
                         help="Skip Optuna search; retrain with best params already in DB")
+    parser.add_argument("--warm-start", action="store_true",
+                        help="Run new Optuna study (fomc_qlora_v2) seeded with best params from fomc_qlora")
     args = parser.parse_args()
 
     # ── Load config ───────────────────────────────────────────────────────────
@@ -138,13 +140,42 @@ def main():
               training_args=training_args)
         return
 
-    if args.optuna:
+    if args.warm_start or args.optuna:
+        if args.warm_start:
+            import sqlite3 as _sqlite3, json as _json
+            old_db = os.path.join(config["paths"]["model_output"], "optuna", "fomc_qlora.db")
+            conn = _sqlite3.connect(old_db)
+            best_row = conn.execute("""
+                SELECT t.trial_id FROM trials t
+                JOIN trial_values tv ON t.trial_id = tv.trial_id
+                WHERE t.state = 'COMPLETE'
+                ORDER BY tv.value ASC LIMIT 1
+            """).fetchone()
+            raw_params = conn.execute(
+                "SELECT param_name, param_value, distribution_json FROM trial_params WHERE trial_id=?",
+                (best_row[0],)
+            ).fetchall()
+            conn.close()
+            seed_params = {}
+            for name, value, dist_json in raw_params:
+                dist = _json.loads(dist_json)
+                if dist.get("name") == "CategoricalDistribution":
+                    seed_params[name] = dist["attributes"]["choices"][int(value)]
+                else:
+                    seed_params[name] = value
+            study_name  = "fomc_qlora_v2"
+            enqueue     = seed_params
+            print(f"\nWarm-start seed params from fomc_qlora: {seed_params}")
+            print(f"  OPTUNA WARM-START SEARCH (study: {study_name})")
+        else:
+            study_name  = "fomc_qlora"
+            enqueue     = None
+            print(f"  OPTUNA HYPERPARAMETER SEARCH (study: {study_name})")
+
         n_trials = config["optuna"]["n_trials"]
         print(f"\n{'='*60}")
-        print(f"  OPTUNA HYPERPARAMETER SEARCH")
         print(f"  Trials: {n_trials}  |  Train: {len(dataset['train'])}  "
               f"Val: {len(dataset['validation'])}")
-        print(f"  Search space: {config['optuna']['search_space']}")
         print(f"{'='*60}\n")
 
         study = run_optuna_search(
@@ -153,6 +184,8 @@ def main():
             output_dir=os.path.join(config["paths"]["model_output"], "optuna"),
             n_trials=n_trials,
             search_space=config["optuna"]["search_space"],
+            study_name=study_name,
+            enqueue_params=enqueue,
         )
 
         print("\n=== Retraining with best parameters ===")
