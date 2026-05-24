@@ -1,0 +1,251 @@
+[
+  {
+    "id": "b187c842-e65a-4ff7-9c4e-b1a937d16ade",
+    "sentence": "Second, the large U.S. current account deficit cannot persist indefinitely because the ability of the United States to make debt service payments and the willingness of foreigners to hold U.S. assets in their portfolios are both limited.",
+    "source": "Global Imbalances:  Recent Developments and Prospects",
+    "doc_type": "speech",
+    "date": "2007-09-11",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "322b92b8-f781-4b75-8117-f73bd99392ce",
+    "sentence": "In contrast to the sizable rebound in consumer spending, participants saw less improvement in the business sector in recent months, and they noted that their District business contacts continued to report extraordinarily high levels of uncertainty and risks.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "contested"
+  },
+  {
+    "id": "054d86fd-414a-45b8-83f1-65a76eaa7150",
+    "sentence": "We don't see wages moving up yet, and presumably we would see that in a real -- you know, in a really tight labor market. And we may well start to see that.",
+    "source": "FOMCpresconf20210428.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210428",
+    "context_question": "Thanks for taking my question. I wanted to ask about the labor market. Do you—do you see things, such as in the Beige Book—you saw in the Beige Book anecdotes about businesses not able to find workers, [inaudible] back to the labor market for fear of getting sick, childcare concerns, and so forth. Do you see these as also just sort of temporary bottlenecks that won’t have much effect on the long-term health of the labor market? Or how are you thinking about these kinds of issues?",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "63ad60a4-6e6d-4c3a-ab2d-a681e2bca507",
+    "sentence": "A third, and related point, is that for some loan types the Federal Reserve model incorporates nonlinear effects of the macroeconomic scenario. For example, a 20 percent decline in national house prices would mean that prices would decline substantially more in some markets and less in others, and losses in areas where house prices decline more would be disproportionately greater than losses in areas where house prices decline by less.",
+    "source": "Developing Tools for Dynamic Capital Supervision",
+    "doc_type": "speech",
+    "date": "2012-04-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f6dbc5bb-5440-4bfa-9dab-98eb4c3addbb",
+    "sentence": "We hear anecdotally that banks are more attuned to the needs of the communities in which they are headquartered, so the significance of this loss could have an effect on the local markets.",
+    "source": "Trends in Urban and Rural Community Banks",
+    "doc_type": "speech",
+    "date": "2018-10-04",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "87150102-b441-4d6c-9383-80081e0ee343",
+    "sentence": "A few participants remarked that, in the period ahead, it might be difficult to distinguish more persistent influences on inflation from potentially temporary ones, such as those stemming from changes in trade policy that could lead to shifts in the level of prices. Most participants noted that risks to the achievement of the Committee's maximum-employment goal appeared to be roughly balanced, though some saw risks to the labor market as tilted to the downside.",
+    "source": "minutes_20241218.html",
+    "doc_type": "minutes",
+    "date": "20241218",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "elevated"
+  },
+  {
+    "id": "2d204e5d-4a8b-4ff6-a67b-04e6d44d44c5",
+    "sentence": "Nevertheless, taking into account the experience around the end of the 2017-19 balance sheet runoff episode, participants broadly assessed it would be appropriate to take a cautious approach to further runoff.",
+    "source": "minutes_20240320.html",
+    "doc_type": "minutes",
+    "date": "20240320",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "25218c98-98a4-49f8-9a82-ba20981e1b4d",
+    "sentence": "My guess is that those things influenced individuals who wrote down a slightly lower number for the longer-run unemployment rate.",
+    "source": "FOMCpresconf20160316.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20160316",
+    "context_question": "That, and the slope of the path of rate increases combined with projections of relatively low inflation.",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "528d801b-44ca-443e-8e24-ed1adec2cf26",
+    "sentence": "Participants generally noted that high interest rates could contribute to vulnerabilities in the financial system. In that context, a number of participants emphasized that monetary policy should be guided by the outlook for employment and inflation and that other tools should be the primary means to address financial stability risks.",
+    "source": "minutes_20240501.html",
+    "doc_type": "minutes",
+    "date": "20240501",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "9020e45a-72f9-48c1-bb97-ae118252368d",
+    "sentence": "However the conditions necessary for full-blown inflation targeting achieved through adjustment of policy interest rates may not be present in some of these economies.",
+    "source": "Monetary Policy in the United States and in Developing Countries",
+    "doc_type": "speech",
+    "date": "2015-06-30",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8e1a7965-2eb9-460c-8a41-dd8bbb03926d",
+    "sentence": "Except in the most extreme circumstances, when market functioning breaks down and systemic risk reaches unacceptable levels, central banks should distance themselves from decisions about the allocation of credit among private parties.",
+    "source": "Productivity and Innovation in Financial Services ",
+    "doc_type": "speech",
+    "date": "2008-11-12",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e59730e-0871-41b5-a5b2-e2ae4b6a2af1",
+    "sentence": "Risks to the Outlook\r\nLet me turn now to the second category of crosscurrents facing the U.S. economy: the risks around the modal outlook.",
+    "source": "Navigating Cautiously",
+    "doc_type": "speech",
+    "date": "2019-03-07",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "d840d0cb-7d63-4f5f-8176-6b51ba7647f6",
+    "sentence": "However, contacts in a number of Districts appeared less upbeat than at the time of the November meeting, as concerns about a variety of factors--including trade policy, waning fiscal stimulus, slowing global economic growth, or financial market volatility--were reportedly beginning to weigh on business sentiment.",
+    "source": "minutes_20181219.html",
+    "doc_type": "minutes",
+    "date": "20181219",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "e382c585-44fd-47df-9d4e-15b2ea388c18",
+    "sentence": "We think we have a good chance to do it without a significant increase in unemployment or, you know, a really sharp slowdown.",
+    "source": "FOMCpresconf20220504.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220504",
+    "context_question": "Hi, Chair Powell. Rachel Siegel here from the Washington Post. To follow up from your message from the very beginning, what is your message to the American people about when they will start to feel the effects of, say, a 50-basis-point rate hike or multiple hikes? How do you explain to them what that does to their grocery bill or their rent or their gas bill? Thank you.",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1fc27e12-5611-44b1-b2c2-43d8be1636b5",
+    "sentence": "Although it is well above levels consistent with 2 percent inflation, wage growth has been running below current inflation.",
+    "source": "Restoring Price Stability in an Uncertain Economic Environment",
+    "doc_type": "speech",
+    "date": "2022-10-10",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  }
+]

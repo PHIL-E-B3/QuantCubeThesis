@@ -1,0 +1,246 @@
+[
+  {
+    "id": "7951ff59-bc28-4cc4-ac46-2711ec04f162",
+    "sentence": "Though the pace of decline is likely to abate, I am decidedly uncomfortable forecasting a sharp and determined resumption of growth in the coming quarters. The panic conditions that have marked this period may also have long-run implications.",
+    "source": "The Panic of 2008",
+    "doc_type": "speech",
+    "date": "2009-04-06",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "e047fa01-7c03-42d1-929c-7d3c7da0101e",
+    "sentence": "How might the problems in the market for subprime mortgages affect housing markets and the economy more broadly?",
+    "source": "The Subprime Mortgage Market",
+    "doc_type": "speech",
+    "date": "2007-05-17",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "ff69fd0b-7cad-4e85-a80e-976eb6466a50",
+    "sentence": "In the July Desk Survey of Primary Dealers, respondents expected lower ON RRP balances and higher bank reserves by the end of the year, compared with the June survey.",
+    "source": "minutes_20230726.html",
+    "doc_type": "minutes",
+    "date": "20230726",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "18ef93f6-112c-43a1-b884-4121b0c53839",
+    "sentence": "We just have to do it, and that's why we're moving so very gradually.",
+    "source": "FOMCpresconf20190501.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20190501",
+    "context_question": "Hi, Jean Yung with Market News. If the fed funds rate keeps rising, do you see room for another IOER adjustment? And then, can you speak to any other strategies or tools that might be useful for keeping a ceiling on short-term interest rates? There have been other ideas floated, like the standing repo facility and targeting a different benchmark rate.",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6ddb3c92-2c51-4238-bbee-ca40bbde11ae",
+    "sentence": "A bankruptcy filing would have forced its secured creditors to liquidate the underlying collateral, which would have added to already severe downward pressures on prices given the illiquidity of the markets for some of this collateral.",
+    "source": "Money Markets and Financial Stability",
+    "doc_type": "speech",
+    "date": "2008-05-29",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f66a966b-024a-4f19-b78f-019ea7c36ebe",
+    "sentence": "Most members saw room for additional progress in reducing labor market slack, while a couple of members indicated that they viewed the unemployment rate as very close or essentially identical to its mandate-consistent level.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "b794ebf9-d643-43d0-96e8-f29822cd730e",
+    "sentence": "Another could be inflation expectations moving.",
+    "source": "FOMCpresconf20251029.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251029",
+    "context_question": "Jonnelle Marte with Bloomberg. How are officials interpreting the latest CPI report? So some components came in lower than expected, but core inflation was still at 3 percent. So at this moment are—what are you learning about the drivers and, also, do you believe that the risks are greater that the Fed makes a mistake on employment or inflation?",
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "d0951f9f-ae71-4078-a16a-c3b580a9fcfe",
+    "sentence": "It seems prudent to address this known leverage rule constraint before future stresses emerge that would likely disrupt market functioning.",
+    "source": "Liquidity, Supervision, and Regulatory Reform",
+    "doc_type": "speech",
+    "date": "2024-07-18",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "d113cd08-a5ad-46be-9ef2-7a8e356e1399",
+    "sentence": "Some have suggested that the price of oil is on a more significant upward trend than currently appreciated.",
+    "source": "Lessons for Central Bankers from a Phillips Curve Framework",
+    "doc_type": "speech",
+    "date": "2008-06-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "elevated"
+  },
+  {
+    "id": "9657e986-84f0-48d1-881f-66a2805355fb",
+    "sentence": "While asset valuations appear to be elevated, overall risks to the financial system remain moderate because household borrowing is moderate, risks associated with liquidity and maturity transformation have declined, and, importantly, the banking system appears to be well capitalized.",
+    "source": "Navigating Monetary Policy as Headwinds Shift to Tailwinds",
+    "doc_type": "speech",
+    "date": "2018-03-06",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "08c030ac-0b4d-427f-a75a-c65ab6a7565c",
+    "sentence": "Thereafter, the median falls to 2 percent.",
+    "source": "FOMCpresconf20251210.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20251210",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1ebe07f3-4b5e-4810-8d6e-cfc83bc88c11",
+    "sentence": "Accordingly, an injection of liquidity in the form of domestic currency can actually make the financial crisis worse by raising inflation fears and thus causing the domestic currency to depreciate.",
+    "source": "Systemic Risk and the International Lender of Last Resort ",
+    "doc_type": "speech",
+    "date": "2007-09-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "9ad61b67-bac8-4911-9734-b470f6457042",
+    "sentence": "Nonetheless, that is the job we have, and so we're, we're -- I think we need -- it's appropriate for us -- for us now to proceed cautiously, now that we're 100 basis points closer to, to neutral, and we'll do so.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241218",
+    "context_question": "But, but I think that the markets are looking for, for a little more clarity. I mean, I’ve heard estimates from 2.9 percent to 4 percent. You know, I, I think the markets would like to see a little more clarity about a year out, 18 months out, as to where that, that goalpost, for lack of a better term, is, because at the moment, it requires a, you know, the wide range of possible estimates.",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d3cfd675-cc75-4118-84bc-fad5291768f5",
+    "sentence": "Survey-based indicators suggest small business owners, especially from COVID-sensitive sectors that include lodging and food services, arts, entertainment and recreation, and educational services, became more pessimistic about their financial prospects, largely because of a worsening of near-term expectations for sales and general business conditions.",
+    "source": "minutes_20210922.html",
+    "doc_type": "minutes",
+    "date": "20210922",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4af68a4d-29ba-4984-986c-c8316b9dd4ab",
+    "sentence": "The success of such a program lies not in loans extended but rather in the extent to which the existence of this facility helps reassure market participants.",
+    "source": "Financial Markets and Central Banking",
+    "doc_type": "speech",
+    "date": "2007-11-28",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

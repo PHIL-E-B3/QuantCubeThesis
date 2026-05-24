@@ -1,0 +1,250 @@
+[
+  {
+    "id": "55efba03-6738-415a-a791-481d9ed81eaf",
+    "sentence": "And second, we will have sizable earnings on our assets.",
+    "source": "Comments on \"Interpreting the Unconventional U.S. Monetary Policy of 2007-2009\"",
+    "doc_type": "speech",
+    "date": "2009-09-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "53c7b102-8c8c-4a13-973c-7eea5499ce19",
+    "sentence": "To some extent, this elevated wage growth is catching up to the previous surge in inflation.",
+    "source": "The Dual Mandate and the Balance of Risks",
+    "doc_type": "speech",
+    "date": "2024-03-25",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5ba0c709-30b5-43d5-aed5-9f1b886324bf",
+    "sentence": "Instead, policymakers chose to emphasize so-called cost-push and structural factors as sources of inflation and saw wage- and price-setting as having become insensitive to economic slack.",
+    "source": "A Century of U.S. Central Banking: Goals, Frameworks, Accountability",
+    "doc_type": "speech",
+    "date": "2013-07-10",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ca45cfd1-bf1b-461c-ac62-55e970dae543",
+    "sentence": "But that was neither safe for the financial system nor particularly fair to their competitors--U.S. and foreign--that hold significant amounts of capital here.",
+    "source": "Regulating Large Foreign Banking Organizations",
+    "doc_type": "speech",
+    "date": "2014-03-27",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9e912a3c-fdd0-4dba-8fbe-a7d370d41418",
+    "sentence": "And, just as slowly, the economy began to function again.",
+    "source": "Unusual and Exigent: My First Year at the Fed",
+    "doc_type": "speech",
+    "date": "2010-02-18",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9764d77a-4990-4d2b-a776-6284599cd5f5",
+    "sentence": "In China, rates of both saving and investment rose, but saving rates rose more, leading to an increase in that country's current account surplus of about $60 billion.",
+    "source": "Global Imbalances:  Recent Developments and Prospects",
+    "doc_type": "speech",
+    "date": "2007-09-11",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5600cc19-7df7-4594-b7d9-017a75bf82cb",
+    "sentence": "If inflation fluctuates a lot, it may require a more forceful monetary policy response, and the process of reining in inflation can contribute to bouts of higher unemployment.",
+    "source": "The Dual Mandate and the Balance of Risks",
+    "doc_type": "speech",
+    "date": "2024-03-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "00ba92f0-bbc0-4c72-84a8-f21d65dbb6e2",
+    "sentence": "When the tax base shrinks in response to inflation, governments have a reduced incentive to resort to the inflation tax.",
+    "source": "Globalization and Capital Markets: Implications for Inflation and the Yield Curve",
+    "doc_type": "speech",
+    "date": "2007-05-16",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "31df314d-2063-449d-9389-5b6f167909fb",
+    "sentence": "It appears that the -- I wouldn't say that the labor market has fully stabilized, because I do think it's continuing to very gradually cool, but it seems to be in a good place. And our policy, of course, is designed to keep it in that good place, to maintain the strength in the labor market, while also enabling further progress on inflation.",
+    "source": "FOMCpresconf20241107.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241107",
+    "context_question": "Hi, Chair Powell. Craig Torres from Bloomberg. Two questions today. Did you learn anything about what Americans think about the economy from the election results? First question. Second question—I want to talk about some labor market indicators, and I do so with great respect for your attentiveness to the maximum-employment side of the mandate, Chair Powell. So the unemployment rate has been at 4 percent or higher for six months. One of the broadest measures of unemployment is up about a half a point from a year ago. Compensation gains are sliding back. The quits rate, a signal of labor market dynamism, has been heading down to that bad neighborhood of the 20-teens. So you have put a marker at Jackson Hole saying any “further cooling” is unwelcome. It is cooling, generally, a little bit further. So at what point do we reach what you would describe as a shortfall from maximum employment? Thank you.",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "eee03736-6a54-442c-978d-c49e621581c0",
+    "sentence": "However, business contacts or national surveys led a few participants to conclude that some businesses facing labor shortages were changing job requirements so that they matched more closely the skills of available workers, increasing training, or offering more flexible work arrangements, rather than increasing wages in a broad-based fashion.",
+    "source": "minutes_20180321.html",
+    "doc_type": "minutes",
+    "date": "20180321",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0028348e-9705-431e-bc96-253d1ec3c407",
+    "sentence": "The other thing is, I'd say look at the labor market -- not a source of inflationary pressures.",
+    "source": "FOMCpresconf20241107.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241107",
+    "context_question": "Yes.",
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ebcf75ea-b43e-4197-8d23-168614d66e56",
+    "sentence": "Based on this analysis, we argued that, as long as the involuntary job-separation rate did not rise, restrictive monetary policy would allow the FOMC to bring inflation down without a significant increase in the unemployment rate.",
+    "source": "Almost as Good as It Getsâ€¦But Will It Last?",
+    "doc_type": "speech",
+    "date": "2024-01-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b1233297-c0ac-4eda-addf-0fa51bba0447",
+    "sentence": "We have much ground to cover to reach maximum employment, and time will tell whether we have reached 2 percent inflation on a sustainable basis.",
+    "source": "Monetary Policy in the Time of COVID",
+    "doc_type": "speech",
+    "date": "2021-08-27",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "086ef281-fa6a-424e-baac-e5831de0ad18",
+    "sentence": "And, actually, the increase in goods prices accounts for most of the increase in inflation or, perhaps, all of the increase in inflation over the course of this year.",
+    "source": "FOMCpresconf20250917.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250917",
+    "context_question": "And then just as a quick follow-up—I’m sorry. Can you—you and other Fed officials have spoken extensively about the impact of tariffs on inflation, although, perhaps, with many companies appearing to “eat” the tariffs, tariffs may be impacting the labor market and other parts of the economy instead. Do you see that as a possible outcome here—that tariffs are the reason we’re seeing some slowing, particularly in the labor market? Rather than in inflation? Thank you.",
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "de6834ee-abbd-49b2-a4e7-ac493b680f20",
+    "sentence": "Cyclically-adjusted fiscal balances in emerging Asian economies fell noticeably in 2008 and 2009, reflecting a more expansionary fiscal stance; fiscal stimulus was particularly large in China, India, and Singapore.",
+    "source": "Aggregate Demand and the Global Economic Recovery",
+    "doc_type": "speech",
+    "date": "2011-11-29",
+    "context_question": null,
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

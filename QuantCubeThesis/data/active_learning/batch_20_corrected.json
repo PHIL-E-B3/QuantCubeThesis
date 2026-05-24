@@ -1,0 +1,246 @@
+[
+  {
+    "id": "5b1cd9a4-98ec-46fe-8d5e-90a67fda28ab",
+    "sentence": "Another factor I will consider in calibrating the pace of policy normalization post-liftoff is the average rate of PCE inflation since the new framework was adopted in August 2020âa time, as it happened, that the federal funds rate was constrained at the ELB.",
+    "source": "The Federal Reserve's New Framework: Context and Consequences",
+    "doc_type": "speech",
+    "date": "2020-11-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bcf0c0a7-23f4-40b6-92ee-4362799cafb5",
+    "sentence": "They also concurred that job gains had picked up in recent months and were running at a robust pace, that the unemployment rate had remained low, and that inflation remains elevated.",
+    "source": "minutes_20230322.html",
+    "doc_type": "minutes",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "158b1ada-a2dc-43b6-bc5e-13d982c5fb3b",
+    "sentence": "As Brainard made clear, this is not a universal truth, and recent research highlights two particularly important cases in which doing too little comes with higher costs than doing too much.",
+    "source": "Monetary Policy in a Changing Economy",
+    "doc_type": "speech",
+    "date": "2018-08-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "ab89e168-e528-4f8c-b3ac-b4ed4f45cfe7",
+    "sentence": "The big difference between then and now is that the federal funds rate was 5.2 percentâwhich, to underscore the point, put the rate 20 quarter-point rate cuts away from the ELB.",
+    "source": "Opening Remarks",
+    "doc_type": "speech",
+    "date": "2019-06-04",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "320c8826-f799-4181-99c9-b8f8173daa10",
+    "sentence": "\"13 In subsequent meetings, the FOMC gradually lowered its target for the federal funds rate by 25 basis points and, in January 2008, decided to quicken its pace by lowering the target by 75 basis points in an unscheduled meeting and by 50 basis points, 75 basis points, and 25 basis points in subsequent meetings. Inflation, however, was rising over that period.",
+    "source": "Economic Uncertainty and the Evolution of Monetary Policymaking",
+    "doc_type": "speech",
+    "date": "2024-04-16",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "d179113e-ee50-45be-8746-c283687e940d",
+    "sentence": "As I said, we have good reason to believe that the so-called neutral rate or rate compatible with the economy operating at full employment is low at the present time. And many of us believe, as a base case, it's reasonable to assume that those rates will move up over time, but we're not certain of that.",
+    "source": "FOMCpresconf20160615.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20160615",
+    "context_question": "Do these yield levels give you any uncertainty, any doubt about whether—are you going to be able to get rates to where projections say they’re going?",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "52d0bf43-7a2c-425c-a98b-f25f91b39607",
+    "sentence": "Longer-term effects and effects from more substantial changes in regulations are, in my view, likely to be substantially larger, since firm entry and the effects of increased competition develop over time.",
+    "source": "Regulations, the Supply Side, and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2026-01-14",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "904708c3-0093-4928-a56e-ce93ce1e1519",
+    "sentence": "As I mentioned earlier, there were substantial supply chain disruptions during the past few years that came at the same time as strong demand. That resulted in material and labor shortages.",
+    "source": "Navigating Inflation Waves: A Phillips Curve Perspective",
+    "doc_type": "speech",
+    "date": "2025-02-20",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "7d63e24b-e64e-4068-9f51-e8ebcf21b2a1",
+    "sentence": "I don't -- I don't believe we'll ever get to that place.",
+    "source": "FOMCpresconf20250917.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250917",
+    "context_question": "Hi. Victoria Guida with Politico. You’ve talked a lot about Fed independence and the importance of it over the years, but as markets have questions about what exactly President Trump’s intentions are with the Fed, what would you point to as the things they should be watching to determine that the Fed is still making decisions based on, you know, the economic outlook rather than political considerations?",
+    "top": [
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "950ed3f3-ea84-44b3-8392-422ea2ef07e7",
+    "sentence": "Hopefully, more supply comes on line, and, you know, we, we work through it.",
+    "source": "FOMCpresconf20230726.json",
+    "doc_type": "press_conference_qa",
+    "date": "20230726",
+    "context_question": "Mr. Chairman, Mark Hamrick with Bankrate. You’ve talked in the past about getting the housing market back into better balance—excuse me—and also that the market might have bottomed. Where do you see that situation in balance, or lack thereof, right now, particularly with the restrained, constrained inventory of existing homes that might otherwise be coming onto market at a time when existing homeowners are reluctant to move and, of course, also all of that happening with the 30-year fixed-rate mortgage still around 7 percent on the heels of Fed tightening and with what you’re talking about tightening industry lending standards? Are we getting closer to balance or farther away? What’s your sense?",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bbb60aaf-7c8e-4161-b85f-9a347d42b4d8",
+    "sentence": "The employment cost index of total hourly compensation in the private sector increased at an annual rate of 4 percent in the three months ending in March, a notably faster pace than over the previous three months.",
+    "source": "minutes_20210616.html",
+    "doc_type": "minutes",
+    "date": "20210616",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "49f0deda-55e4-4177-8645-40a2bc1c0e42",
+    "sentence": "So, even though estimates of r* are imprecise, I do not believe they should be ignored.",
+    "source": "Outlook for the U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2018-10-25",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "328516f1-9a39-4cb9-bbd2-e6490748aa74",
+    "sentence": "In contrast, as I noted earlier, recent readings on underlying inflation have been approximately 1 percent. Thus, in effect, inflation is running at rates that are too low relative to the levels that the Committee judges to be most consistent with the Federal Reserve's dual mandate in the longer run.",
+    "source": "Monetary Policy Objectives and Tools in a Low-Inflation Environment",
+    "doc_type": "speech",
+    "date": "2010-10-15",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "35fe5a27-b5aa-4d6a-b228-7e5c10ca00a6",
+    "sentence": "If you go back two months, people were saying that the, the likelihood of a recession was extremely low.",
+    "source": "FOMCpresconf20250319.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250319",
+    "context_question": "Well, just to follow up, yesterday the UCLA Anderson Forecast said there’s—a high probability of a recession. Where, where do you stand on whether or not the slowdown you’re seeing creates a higher probability or concern that you may have on recession? Thank you.",
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8cad824d-7ef8-4745-9fd1-198e474ce6f9",
+    "sentence": "In the next year, and just looking at the median, you're now above the, you know, above the, what people estimate to be the longer-run median. And also, in many people's forecasts, that actually amounts to, you know, tight policy under, in real rates as well. So why does unemployment remain at 3.5 percent?",
+    "source": "FOMCpresconf20220316.json",
+    "doc_type": "press_conference_qa",
+    "date": "20220316",
+    "context_question": "Thank you. Mr. Chairman, I wonder if you can help me understand the kind of logic, if there is one, in the SEP here. As I look at the median forecast, for example, for unemployment, it runs for the three-year window below the long-run rate. I look at inflation being above, over the three-year window, the long-run—or call it the neutral—rate, so the economy still runs hot. And that is all true in a regime when you run at least for two years the funds rate above the long-run rate. I guess my question is this: Are you not create—giving a forecast here that essentially suggests you will be continuing to run further “behind the curve”—and never really get in front of inflation, because the economy will continue to run hot? And, kind of on a related issue: You said earlier [that] inflation will take longer to return to price stability than we had originally expected. Isn’t that a choice you’re making? And, if so, why are you making that choice to let inflation run above price stability longer than you’d like?",
+    "top": [
+      "monetary_policy",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

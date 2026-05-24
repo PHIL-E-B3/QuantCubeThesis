@@ -1,0 +1,247 @@
+[
+  {
+    "id": "9167dda4-7ad5-46b8-b774-e11dfa09d9e8",
+    "sentence": "Last year, as we pointed out late in the year, a whole lot of the progress we saw last year was from goods prices, which were going down at an unsustainable rate, disinflating at an unsustainable rate. This is a broader disinflation.",
+    "source": "fomcpresconf20240731.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240731",
+    "context_question": "Hi, Chair Powell. Rachel Siegel from the Washington Post. Thanks for taking our questions. On inflation, do the past few months of good reports look like what we saw last year, where you really had a lot of momentum, with a few bumps in between? Would you characterize that kind of momentum as back on track at this point in the year?",
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "619a40cc-4ec6-4ab7-bc5f-ee62fdf594ab",
+    "sentence": "Well, I think the risk of inflation is pretty clear to see. And that is, you know, we see higher inflation, as I mentioned.",
+    "source": "FOMCpresconf20251210.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251210",
+    "context_question": "Thanks. Chris Rugaber, Associated Press. You mentioned on inflation services inflation being low, goods inflation looking like maybe it’ll peak. We had the wages report you mentioned today showing moderating wage growth. Where are the inflation risks? It looks like inflation is cooling in your view. At the same time, you have potentially negative hiring. Why not—why aren’t we hearing more about maybe more cuts in this environment?",
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "bdabd804-02cd-4c2b-a710-fdad0e193caf",
+    "sentence": "But compared with the typical wealth of these households, the additive effect of bequests of this size is significant for the millions of households below the top 5 that receive them.",
+    "source": "Perspectives on Inequality and Opportunity from the Survey of Consumer Finances",
+    "doc_type": "speech",
+    "date": "2014-10-17",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5ccae493-542d-4706-be72-04dfcf64da1c",
+    "sentence": "What Is the Risk that the Federal Reserve's Monetary Policy Will Lead to Inflation?",
+    "source": "Five Questions about the Federal Reserve and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2012-10-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "5d98f069-053d-4b39-8991-bf88aa33ae76",
+    "sentence": "Finally, I'll consider some potential implications of a persistent increase in productivity growth for inflation.",
+    "source": "Economic Outlook and Supply-Side (Dis)Inflation Dynamics",
+    "doc_type": "speech",
+    "date": "2026-02-06",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "923cf397-661d-4703-978c-926232b73b14",
+    "sentence": "Inflation has moderated somewhat since the middle of last year, but the strength of these recent readings indicates that inflation pressures continue to run high.",
+    "source": "FOMCpresconf20230322.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20230322",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "83e632af-45ef-4bec-b2b3-73975c6c12be",
+    "sentence": "I think -- I think as of now, you know, the, the question, which -- we want to take advantage of this situation and finish the job on inflation while keeping the labor market strong.",
+    "source": "FOMCpresconf20240131.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240131",
+    "context_question": "Could you get inflation that is below target—end up with inflation below target, and you have to do something about that?",
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "284c91c5-f88a-408b-9929-22f5395f0dd5",
+    "sentence": "AI is already changing the speed of pharmaceutical drug discoveries, the efficiency of customer service, and the pace of computer coding, especially by the biggest tech firms themselves. The speed of AI adoption may be much faster than previous general-purpose technologies, boosting productivity growth, but also allowing less time for workers, businesses, and the economy to adapt to these changes.",
+    "source": "What Will Artificial Intelligence Mean for the Labor Market and the Economy?",
+    "doc_type": "speech",
+    "date": "2026-02-17",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "31132f14-1739-4360-afd3-94283edbb7f8",
+    "sentence": "Market-based measures of inflation compensation remained low, with some longer-term measures being at or near multi-year lows.",
+    "source": "minutes_20191030.html",
+    "doc_type": "minutes",
+    "date": "20191030",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0838a25d-59dd-4a37-b3ee-ddf425f2d784",
+    "sentence": "Moreover, businesses have been so aggressive in cutting labor input that productivity rose noticeably in the first half of the year.",
+    "source": "The Economic Outlook",
+    "doc_type": "speech",
+    "date": "2009-10-13",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "09affb17-9093-470e-b4c0-971361c1359b",
+    "sentence": "Hence, they should be, and are, used only after a finding that broader instruments, like open market operations, are unlikely to prevent significant economic disruption.",
+    "source": "Financial Stability: Preventing and Managing Crises",
+    "doc_type": "speech",
+    "date": "2007-02-21",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e34d015c-4084-4dae-9a94-9f471fc3442a",
+    "sentence": "Several members noted the benefits of accumulating further information that could help clarify the contours of the outlook for economic activity and inflation as well as the need for further policy action. One member judged that additional accommodation would likely not be effective in improving the economic outlook and viewed the potential costs associated with such action as unacceptably high.",
+    "source": "minutes_20120801.html",
+    "doc_type": "minutes",
+    "date": "20120801",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d355471b-e7b2-4c81-968b-5b88402e5c6e",
+    "sentence": "In addition, some research suggested that the relationship between resource utilization and inflation may be nonlinear, with the response of inflation increasing as rates of utilization rise to very high levels.",
+    "source": "minutes_20180131.html",
+    "doc_type": "minutes",
+    "date": "20180131",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "b26163b3-b93d-4f67-825a-96d6701c51f1",
+    "sentence": "I think we all look at them -- those of us who file SEPs every quarter will look at that every quarter and not make a change every quarter but, every now and again, make a change. And you're right -- we actually -- the median ticked up a tenth.",
+    "source": "FOMCpresconf20180926.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180926",
+    "context_question": "Steve Beckner, freelance journalist filing for NPR. Mr. Chairman, following up on the neutral rate issue—and you touched on this—but, you know, you and your colleagues slightly lifted the longer-run estimate, the neutral funds rate estimate to 3 percent, but that’s still, I believe, like 125 basis points below where it was six years ago. What are the odds that productivity, you know, investment, productivity, labor market, other developments could further push up the longer-run estimate and possibly make the projected funds rate levels less restrictive than they now seem?",
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c3c2f898-58e4-406b-9b4b-53ae4f5b2e3a",
+    "sentence": "This must go beyond the corrective actions that need to be taken to rectify current deficiencies.",
+    "source": "Putting the Low Road Behind Us",
+    "doc_type": "speech",
+    "date": "2011-02-11",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

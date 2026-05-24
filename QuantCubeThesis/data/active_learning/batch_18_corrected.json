@@ -1,0 +1,249 @@
+[
+  {
+    "id": "5c5ac6ae-9b6b-4f2c-bbfa-e0f39994c78c",
+    "sentence": "Of those participants who discussed this option, most judged that yield caps and targets would likely provide only modest benefits in the current environment, as the Committee's forward guidance regarding the path of the federal funds rate already appeared highly credible and longer-term interest rates were already low.",
+    "source": "minutes_20200729.html",
+    "doc_type": "minutes",
+    "date": "20200729",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5fb361d7-5c62-4d28-bc28-1a910b722f2e",
+    "sentence": "The staff projected that inflation would increase gradually over the next several years and reach the Committee's longer-run objective of 2 percent by the end of 2018.",
+    "source": "minutes_20151216.html",
+    "doc_type": "minutes",
+    "date": "20151216",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "71b7622b-6075-4739-b5f1-68ffbb0ce2f2",
+    "sentence": "Longer-term inflation expectations have been well anchored, so when some developments have pushed inflation above or below target, the rise has not been embedded in the ongoing inflation rate.",
+    "source": "Remaining Steady as the Economy Reopens",
+    "doc_type": "speech",
+    "date": "2021-06-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0e50550b-48c6-4408-90b4-fb484ad66eb6",
+    "sentence": "Now, supply of workers has also gone way down, so the unemployment rate hasn't moved that much.",
+    "source": "FOMCpresconf20251210.json",
+    "doc_type": "press_conference_qa",
+    "date": "20251210",
+    "context_question": "Hi. Victoria Guida with Politico. Just to follow up on that, I mean, this is now the third time that you’ve cut this year, and inflation is around 3 percent. So is the message that you’re sort of trying to send with that that you’re okay with where inflation is for now as long as people understand that, at some point, you still want to get back to 2 percent because inflation is relatively stable where it is?",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "50a2da61-8d61-409c-86d8-f0fa8a832c58",
+    "sentence": "We'll be looking for sustained improvement across a range of indicators, and in a way that's taking place throughout the economy. And since we're looking at the outlook -- we're looking at the prospects rather than the current state of the labor market -- we'll also be looking at things like growth to try to understand whether there's sufficient momentum in the economy to provide demand for labor going forward. So that will allow us to look through, perhaps, some temporary fluctuations associated with short-term shocks or problems.",
+    "source": "FOMCpresconf20130320.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20130320",
+    "context_question": "Hi. Ylan Mui, Washington Post. My question is around QE. Obviously, we’ve seen some of your colleagues give more-specific criteria, give some color around what they’re looking for before they would consider exiting from QE. Can you give us any additional color on what you’re looking for specifically in terms of substantial improvement in the labor market? And does the fact that there aren’t thresholds associated with QE say anything about the level of disagreement among the Committee members over what that exit should look like?",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "8465afb2-0058-428a-a38c-1d32904edf25",
+    "sentence": "Although house prices have continued to fall year-over-year, the pace of decline has slowed notably and the month-over-month readings have shown increases for three months now.",
+    "source": "Prescriptions for Housing Recovery",
+    "doc_type": "speech",
+    "date": "2012-05-15",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "533b36bb-26b4-476b-b275-f8aafba19756",
+    "sentence": "Market participants generally expected usage of the ON RRP facility to continue a downward trend in 2023, moderating the decline in reserve balances as the Federal Reserve's holdings of securities continue to run off.",
+    "source": "minutes_20230201.html",
+    "doc_type": "minutes",
+    "date": "20230201",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "17f5647a-f9f2-44b4-b454-97b73fd899b9",
+    "sentence": "Research by Federal Reserve staff suggests that, all told, U.S. monetary policy spillovers to other economies are positive--that is, policies designed to provide stimulus to the U.S. economy also boost activity abroad, as negative effects of dollar depreciation are offset by positive effects of higher U.S. imports and easier foreign financial conditions. However, this issue is far from settled, as are a host of other related questions, including the following: Do U.S. monetary policy actions affect advanced and emerging market countries differently?",
+    "source": "Macroeconomic Research After the Crisis",
+    "doc_type": "speech",
+    "date": "2016-10-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "4e350cfe-d291-46fc-a1fd-124cdd8ece12",
+    "sentence": "First, supply curves are, as economists say, \"convex\": Their slope increases sharply after quantity supplied reaches a certain point, such that prices rise quickly.",
+    "source": "Disinflation without a Rise in Unemployment?  What Is Different This Time Around",
+    "doc_type": "speech",
+    "date": "2024-03-01",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "b67f2ed1-a284-4306-812a-7c38fb66e464",
+    "sentence": "Separately, on the other side of our dual mandate, inflation has receded further below its 2 percent objectiveâreflecting weaker demand along with lower oil prices in recent months.",
+    "source": "Navigating Monetary Policy through the Fog of COVID",
+    "doc_type": "speech",
+    "date": "2020-07-14",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "3e8f90e9-51a0-46a0-8869-6d3206e0b237",
+    "sentence": "With tariff-related price increases likely being a one-time effect, my view is that inflation will return to 2 percent after these effects dissipate.",
+    "source": "Thoughts on Monetary Policy Decisionmaking and Challenges Ahead",
+    "doc_type": "speech",
+    "date": "2025-09-26",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9e58c1ee-7d09-41c6-94af-140dc373d023",
+    "sentence": "Consumer price inflation continued to run below the FOMC's longer-run objective of 2 percent and was restrained significantly by earlier declines in energy prices and decreases in prices of non-energy imports.",
+    "source": "minutes_20150617.html",
+    "doc_type": "minutes",
+    "date": "20150617",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4743939b-cc8c-4443-9f4b-8d4908d57995",
+    "sentence": "We don't think we need further cooling in the labor market to get inflation down to 2 percent.",
+    "source": "FOMCpresconf20241218.json",
+    "doc_type": "press_conference_qa",
+    "date": "20241218",
+    "context_question": "Jeanna Smialek with the New York Times. Thank you for taking our questions. I, I wonder if you could talk a little bit about why officials think it’s appropriate to cut rates at all in 2025 if inflation is expected to remain firm throughout the year. And what would you expect, at this point, the timing might look like? Would a January cut potentially be possible, or does a pause next month seem more likely?",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "47048b9f-51d0-4708-8678-73f2c8c386a0",
+    "sentence": "While interest rates on existing credit card accounts remained elevated, they fell noticeably in the fourth quarter, reflecting the declines in the prime rate since the September FOMC meeting.",
+    "source": "minutes_20250319.html",
+    "doc_type": "minutes",
+    "date": "20250319",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "305b9a7d-4bab-4b00-94ed-2ae310e6e681",
+    "sentence": "History shows that the employment costs of bringing down inflation are likely to increase with delay, as high inflation becomes more entrenched in wage and price setting.",
+    "source": "Monetary Policy and Price Stability",
+    "doc_type": "speech",
+    "date": "2022-08-26",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  }
+]

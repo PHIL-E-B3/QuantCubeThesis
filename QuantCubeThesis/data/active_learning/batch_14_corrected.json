@@ -1,0 +1,246 @@
+[
+  {
+    "id": "255c4ec6-8cdc-4245-847d-d1ac42a9552c",
+    "sentence": "Global factors may have put downward pressure on term premiums because of anxiety about the foreign outlook, which may have increased demand for U.S. assets, or because low rates abroad have depressed U.S. term premiums through a global portfolio balance channel.",
+    "source": "Low Interest Rates and the Financial System",
+    "doc_type": "speech",
+    "date": "2017-01-07",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0b3e9fdd-9002-4012-8806-c0a80f4b8975",
+    "sentence": "Although the presence of low inflation makes the traditional inflationary bias less of an immediate concern, actions that would compromise monetary policy independence would still be dangerous.",
+    "source": "Central Bank Independence",
+    "doc_type": "speech",
+    "date": "2015-11-04",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6e8b7eae-50d2-45ed-897f-2f435bc888ce",
+    "sentence": "I myself believe that the range of plausible estimates of u* extends to 4 percent and below and includes the current unemployment rate of 3.6 percent.",
+    "source": "The Federal Reserveâs Review of Its Monetary Policy Strategy, Tools, and Communication Practices",
+    "doc_type": "speech",
+    "date": "2019-11-14",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "deef606f-752f-42a3-a809-368f22b72416",
+    "sentence": "Some participants commented that they saw the risk of elevated inflation as remaining more prominent, or as having diminished by less, than risks to employment.",
+    "source": "minutes_20250618.html",
+    "doc_type": "minutes",
+    "date": "20250618",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "01502aeb-dab0-4fd4-a93c-e353aac374c9",
+    "sentence": "Instead, investors remained willing to accept GSE mortgage-backed securities because they continued to believe that the government stood behind them. That experience suggests that, at least under the most stressed conditions, some form of government backstop may be necessary to ensure continued securitization of mortgages.",
+    "source": "The Future of Mortgage Finance in the United States ",
+    "doc_type": "speech",
+    "date": "2008-10-31",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "aab5e611-ca06-44c1-b97d-0302eee4dc44",
+    "sentence": "To this end, the new statement conveys the Committee's judgment that, in order to anchor expectations at the 2 percent level consistent with price stability, it will conduct policy to achieve inflation outcomes that keep long-run inflation expectations anchored at our 2 percent longer-run goal.",
+    "source": "U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2021-05-12",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "49f42f5d-7cc4-42ab-9c03-e8ae58b4d396",
+    "sentence": "Surprised as we have been by the rapid, extended run-up in energy costs over the past few years, one would think that the price of a storable commodity such as oil should already embody expectations of continued rapid growth in the developing economies.",
+    "source": "Implications of Globalization for the Conduct of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2008-03-07",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "caf159df-d925-41b0-a262-0f162203a387",
+    "sentence": "The differences in return on equity were similarly significant -- 11.14 percent compared to 8.61 percent.",
+    "source": "Community Banks and Mortgage Lending",
+    "doc_type": "speech",
+    "date": "2012-11-09",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "00341c34-071a-4616-ba6e-de6c38148406",
+    "sentence": "Citing reports received from contacts in a broad range of industries, participants indicated that shortages of materials and labor as well as supply chain challenges remained widespread and continued to limit the ability of firms to keep up with strong demand.",
+    "source": "minutes_20210728.html",
+    "doc_type": "minutes",
+    "date": "20210728",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "9008e2e0-05f7-4fe0-86e6-a8bc86ed0cfd",
+    "sentence": "It is evidence like this that fuels speculation about the Phillips curve's demise.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b72b459e-fecc-4989-8002-9750c48edc91",
+    "sentence": "Maintaining an environment of low and stable inflation facilitates planning, saving, and capital investment by households and businesses and thus is a prerequisite for allowing the economy to realize its potential.",
+    "source": " Economic Outlook",
+    "doc_type": "speech",
+    "date": "2007-10-04",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d7f840df-cc32-416b-89a9-dae00e78d294",
+    "sentence": "During the Great Inflation samples, the value of C is near 1, meaning that higher inflation one year tended to translate almost one-for-one into higher inflation the next.",
+    "source": "Monetary Policy and Risk Management at a Time of Low Inflation and Low Unemployment",
+    "doc_type": "speech",
+    "date": "2018-10-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c67d2d26-5332-446b-9a4c-45f971665977",
+    "sentence": "The September decision not to reduce purchases clearly took some market participants by surprise.",
+    "source": "Communications Challenges and Quantitative Easing",
+    "doc_type": "speech",
+    "date": "2013-10-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0a088759-cfd8-40b4-bded-5133f53f1f1d",
+    "sentence": "You know, an economy where inflation was driven by services is now inflation where -- all the inflation is in goods, which have had negative inflation for a quarter-century. So you ask about full employment.",
+    "source": "FOMCpresconf20211103.json",
+    "doc_type": "press_conference_qa",
+    "date": "20211103",
+    "context_question": "Yes, thank you. Chair, I just want to dig a little bit deeper on employment. We’ve seen what’s been called the great resignation, folks leaving their jobs in record numbers. Is there any feeling there that maybe you’ve been accused of “fighting the last war”—that perhaps the labor dynamics have changed in the post-COVID environment and that full employment may not look like what it looked like before?",
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bcf2975e-cab4-488a-aba7-6a7db082c449",
+    "sentence": "In contrast, if reserves bear no interest, then commercial banks will have strong incentives to avoid holding a lot of reserves, and instead hold short-term, interest-bearing assets like Treasury bills.",
+    "source": "Demystifying the Federal Reserve's Balance Sheet",
+    "doc_type": "speech",
+    "date": "2025-07-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

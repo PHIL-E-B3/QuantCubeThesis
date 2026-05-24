@@ -1,0 +1,254 @@
+[
+  {
+    "id": "b37b19b2-226c-477a-a884-d68206555a97",
+    "sentence": "As, as I've mentioned, it, it can be the case that it's appropriate sometimes to look through inflation if it's going to go away quickly without action by, by us, if it's transitory. And that can be the case in the case of, of tariff inflation. I think that would depend on the, the tariff inflation moving through fairly quickly and would depend critically, as well, on inflation expectations being well anchored -- longer-term inflation expectations being well anchored.",
+    "source": "FOMCpresconf20250319.json",
+    "doc_type": "press_conference_qa",
+    "date": "20250319",
+    "context_question": "Howard Schneider with Reuters. Thanks for your time. So two things on sort of the real side here, one inflation and then—and then GDP. How much of the higher inflation forecast for this year is due to tariffs, and since the policy path remains the same, are you effectively reading this as a one-time price-level shock?",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "13431b31-ea7b-4e63-bda7-8aea9458b3e5",
+    "sentence": "We should start answering such a question by recognizing that there is always a chance of some market volatility.",
+    "source": "Monetary Policy Expectations and Surprises",
+    "doc_type": "speech",
+    "date": "2017-04-17",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b20e3900-3865-4615-b69d-0b05916151ba",
+    "sentence": "But I strongly believe that the application of these tools, together with the underlying vitality and resilience of the American economy, will help to restore confidence to our financial system and place our economy back on a path to vigorous, healthy growth.",
+    "source": "Remarks",
+    "doc_type": "speech",
+    "date": "2008-10-14",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a7d45ae5-895b-47af-a952-d9529f225fd0",
+    "sentence": "Or are we getting closer but moving very slowly? And then, what the statement emphasizes, and this is the same language we used in December and January, we used the language especially if inflation is running below our 2 percent objective.",
+    "source": "FOMCpresconf20140319.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20140319",
+    "context_question": "To be clear—I just wanted to be clear about that. Then once you do wind down the bond buying program, could you tell us how long of a gap we might expect before the rate hikes do begin?",
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "75cff97f-78b1-4a41-915a-0436a78084a8",
+    "sentence": "Responsible monetary policy in the current environment requires attention not only to near-term macroeconomic conditions, but also to corollary risks with long-term effects. Should these risks threaten to materialize, however one gauges the probabilities, I am confident that members of the FOMC will have the tools and convictions to adjust policies appropriately.",
+    "source": "Rejecting the Requiem",
+    "doc_type": "speech",
+    "date": "2010-11-08",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "5780e363-5fab-4865-9abf-629066f0a6b2",
+    "sentence": "In that regard, circumstances that might entail either a slower or a more rapid removal of policy accommodation were cited. For example, a number of participants noted their concern that a more gradual approach might be appropriate if forecasts of above-trend economic growth later this year were not realized.",
+    "source": "minutes_20140618.html",
+    "doc_type": "minutes",
+    "date": "20140618",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "8812ef60-c789-4daf-b448-446e213c4dee",
+    "sentence": "Many -- By many other measures, the labor market has returned to or below 2019 levels, which was a very good, strong labor market, but this is more sort of 2018, '17. So the labor market bears close -- bears close watching, and we'll be giving it that. But ultimately, we think -- we believe, with an appropriate recalibration of our policy, that we can continue to see the economy growing, and that will support the labor market.",
+    "source": "FOMCpresconf20240918.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240918",
+    "context_question": "Thank you. Colby Smith with the Financial Times. Just following up on Jeanna’s question on rising unemployment. Is it your view that this is just a function of a normalizing labor market amid improved supply, or is there anything to suggest that something more concerning perhaps is taking place here, given that other metrics of labor demand have softened too? And I guess, in direct follow-up to Jeanna, do you not—why should we not expect a further deterioration in labor market conditions if policy is still restrictive?",
+    "top": [
+      "monetary_policy",
+      "labor_market",
+      "economic_activity"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "5d185e9e-ffc3-4121-a488-9a4fb699556f",
+    "sentence": "That's, that's sort of a natural thing to be seeing in a strong economy. And what we're seeing is -- we don't see anything that's troubling in the sense of -- what would be troubling would be, you know, very wide across the economy, wages at unsustainable levels without high inflation.",
+    "source": "FOMCpresconf20210616.json",
+    "doc_type": "press_conference_qa",
+    "date": "20210616",
+    "context_question": "Hey, Chair Powell. Thank you for taking our questions. I was wondering if you could follow up a little bit on your response to Rachel at the very beginning and talk a little bit about how we should understand what full employment means in a world that, as you mentioned, is pretty roiled. All the data is pretty—has been pretty roiled by the pandemic, and we’re not really sure where EPOP is going to settle in, we’re not sure where participation is going to settle in. And wages are already looking, you know, decent. So I guess I wonder what full employment means in this context and, and sort of how you’re thinking about those wage data.",
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "31267cd2-96d0-4062-b5af-df0f91395bf7",
+    "sentence": "Participants discussed financial market developments, including their views on the extent to which the rise in longer-term interest rates since May reflected growing confidence about the economic outlook or a perception by financial markets that monetary policy would be less accommodative going forward than had been previously anticipated.",
+    "source": "minutes_20130918.html",
+    "doc_type": "minutes",
+    "date": "20130918",
+    "context_question": null,
+    "top": [
+      "financial_conditions",
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0184f19d-31c1-48ba-a99f-459b084a4977",
+    "sentence": "Although we view this new approach to capital assessment as a significant improvement over previous practices, we are aware that the true test of this new regime will come only if another period of significant financial or economic stress were to materialize--which is to say that we will not have a strong test of the effectiveness of stress testing until the stress tests undergo a real world stress test.",
+    "source": "Supervisory Stress Testing of Large Systemic Financial Institutions",
+    "doc_type": "speech",
+    "date": "2015-06-24",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "b474c2bf-97c6-40bd-b6a7-d16039436b0c",
+    "sentence": "My colleagues and I are strongly committed to doing all we can to promote this employment goal.",
+    "source": "Getting Back to a Strong Labor Market",
+    "doc_type": "speech",
+    "date": "2021-02-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "99f9155f-d447-4fff-b063-75a2021f277e",
+    "sentence": "A few participants expressed the concern that capital ratios at the largest banks had continued to fall at a time when they should ideally be rising and that capital ratios were expected to decline further.",
+    "source": "minutes_20190731.html",
+    "doc_type": "minutes",
+    "date": "20190731",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "e5985946-4935-4cef-847f-ffedfab84bed",
+    "sentence": "If anything, the pattern is even more striking for industrial metals, where double-digit percentage rates of decline in consumption by the advanced economies over the past decade have been overwhelmed by triple-digit percentage increases in consumption by the emerging market economies.",
+    "source": "The U.S. Economic Outlook",
+    "doc_type": "speech",
+    "date": "2011-06-07",
+    "context_question": null,
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "bf16c8a0-cbd9-4c90-b63e-df7badde76cc",
+    "sentence": "In particular, when evaluating risky activities, senior executives should internalize not only the upside risk faced by stockholders, but also the downside risk borne by bondholders, especially as that better aligns with the public interest in reducing the likelihood of material financial distress or failure at the systemic banking institutions.",
+    "source": "Dodd-Frank at Five: Assessing Progress on Too Big to Fail",
+    "doc_type": "speech",
+    "date": "2015-07-09",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f446a4fb-8a61-4006-8dba-4c9960008668",
+    "sentence": "Notice that this would suggest a \"flat Phillips curve\" or a big penalty in terms of unemployment needed to reduce inflation.",
+    "source": "Navigating Inflation Waves: A Phillips Curve Perspective",
+    "doc_type": "speech",
+    "date": "2025-02-20",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]

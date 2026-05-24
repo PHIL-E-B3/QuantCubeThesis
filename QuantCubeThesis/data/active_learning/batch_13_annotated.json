@@ -1,0 +1,252 @@
+[
+  {
+    "id": "490832b3-4971-4e48-a920-0c9df243ce03",
+    "sentence": "Nonetheless, it is important that we understand the reasons for the decline in average real rates and whether low rates are likely to persist--and that very tough problem is the extra credit assignment.",
+    "source": "Homework Assignments for Monetary Policymakers",
+    "doc_type": "speech",
+    "date": "2010-03-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "elevated"
+  },
+  {
+    "id": "dc3be428-64a6-4ed2-921b-1e9f49e99d21",
+    "sentence": "These government sponsored enterprises (GSEs) have continued to issue large quantities of securities even as private securitization faltered, apparently because investors have continued to believe that the government stands behind them. That experience suggests that, at least under the most stressed conditions, some form of government backstop may be necessary to ensure continued securitization of mortgages.",
+    "source": "Envisioning a Future for Housing Finance",
+    "doc_type": "speech",
+    "date": "2009-12-10",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ee553ca2-c6bc-4358-ad3f-ca7337f5fe73",
+    "sentence": "Evaluating the Appropriate Stance of Monetary Policy\r\nAchieving these goals could prove challenging, however, even if the economy manages to avoid being hit with adverse shocks over the next few years.",
+    "source": "The Economic Outlook and the Conduct of Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-01-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "elevated"
+  },
+  {
+    "id": "e88df09e-24d8-451b-a761-00815b7432cc",
+    "sentence": "Nonetheless, two dynamics with respect to the use of leverage bear watching.",
+    "source": "Assessing Potential Financial Imbalances in an Era of Accommodative Monetary Policy",
+    "doc_type": "speech",
+    "date": "2011-06-01",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "8f8f72f3-bb7a-4f9e-97b3-5a2663a593dd",
+    "sentence": "Another common concern was that, if the Committee had to alter its forward guidance too frequently in response to rapidly changing economic conditions, its forward guidance could become ineffective (meaning that the public could heavily discount or simply disregard the guidance) or, worse, the public could come to question the Committee's overall credibility.",
+    "source": "Forward Guidance as a Monetary Policy Tool: Considerations for the Current Economic Environment",
+    "doc_type": "speech",
+    "date": "2022-10-12",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "708da5f8-3835-42c1-b196-8fc92ec91c1a",
+    "sentence": "Several participants noted the continued elevated rates of increase in core goods prices. These participants considered this development as potentially indicating that the shift of household spending from goods to services might be having a smaller effect on goods prices than they expected or that the supply bottlenecks and labor shortages were taking longer to be resolved.",
+    "source": "minutes_20220921.html",
+    "doc_type": "minutes",
+    "date": "20220921",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_upside",
+    "wid": "none"
+  },
+  {
+    "id": "2a30c7d9-73a0-4967-9ba2-daa0d518043c",
+    "sentence": "Chairman Alan Greenspan, however, suspected that technological advances and other forces were fostering a \"new economy\" of sustained high productivity growth that would allow a period of persistently low unemployment without generating inflationary pressure.",
+    "source": "Economic Uncertainty and the Evolution of Monetary Policymaking",
+    "doc_type": "speech",
+    "date": "2024-04-16",
+    "context_question": null,
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "d603aa93-2746-4554-bf6a-e71828fed24e",
+    "sentence": "These reductions, current and expected, stimulate spending and hiring by lowering longer-term real interest rates--that is, nominal rates adjusted for inflation--and improving financial conditions more broadly.",
+    "source": "Inflation Dynamics and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-09-24",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "a2be9c25-f2bb-44f6-b4a9-8f258dce6a65",
+    "sentence": "As a consequence, when a given shock causes inflation to deviate significantly from the numerical objective, the central bank must communicate how its policy strategy will bring inflation back to this rate within a reasonable timeframe and how this strategy will minimize fluctuations in output and employment over that horizon. For example, it is generally desirable to reduce inflation gradually following an adverse cost shock in order to alleviate the contractionary effects on the real economy.",
+    "source": "Central Bank Commitment and Communication",
+    "doc_type": "speech",
+    "date": "2008-04-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation",
+      "economic_activity",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "0032a72e-8d0e-4500-ab8c-f9a8a9def14f",
+    "sentence": "Although some theoretical models suggest that raising interest rates can diminish the acceleration of asset prices, raising interest rates may be very ineffective in restraining the bubble, because market participants expect such high rates of return from buying bubble-driven assets.",
+    "source": "How Should We Respond to Asset Price Bubbles? ",
+    "doc_type": "speech",
+    "date": "2008-05-15",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "8cf235c8-7ab3-4ea7-88d8-b1e90a61b623",
+    "sentence": "Just as our strengthened policy framework helps modulate vulnerabilities in the financial sector that could make the economy more vulnerable to shocks, so, too, our quarterly surveillance is intended to identify rising vulnerabilities early enough to be able to act to prevent disruptions that could damage the economy.",
+    "source": "An Update on the Federal Reserve's Financial Stability Agenda",
+    "doc_type": "speech",
+    "date": "2018-04-03",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  },
+  {
+    "id": "33b55994-7e54-4143-ba41-b1c2b53cb3cd",
+    "sentence": "I will say that we, of course, have -- we have broad contacts in -- among business leaders around the country. And the Reserve Bank presidents, in particular, have that. And so they report in the Beige Book and then in person at the FOMC meeting. And they do come back and they say that concerns about changes in trade policy are arising, I think it's fair to say, and also that you're beginning to hear reports of companies holding off on making investments and hiring people. So right now we don't see that in the numbers at all.",
+    "source": "FOMCpresconf20180613.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20180613",
+    "context_question": "Well, thanks very much. Sam Fleming from the Financial Times. Over the weekend, we saw some significant tensions within the G-7. In Canada, there is the potential, obviously, for further action against China right now and retaliatory action from major U.S. trading partners. How big a risk do you currently see this as being to the United States economy? And what kind of feedback are you getting in terms of corporate investment intentions? Is there something that’s beginning to feature more prominently in your own discussions with major U.S. companies? Thanks.",
+    "top": [
+      "economic_activity"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "contested"
+  },
+  {
+    "id": "83edf692-ab24-426f-a837-5308c50d826c",
+    "sentence": "When, despite this encouragement, private lenders have such a strong preference for safety and liquidity that credit is not forthcoming, we lend, often at a penalty rate relative to normally functioning markets; that lending is intended to prevent disorderly and disruptive failures and fire sales of illiquid assets, which would drive asset prices lower, intensify the disruption of credit flows, and deepen the pullback in spending.",
+    "source": "Monetary Policy in the Financial Crisis",
+    "doc_type": "speech",
+    "date": "2009-04-18",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "547606ad-516c-446d-a1e3-f055be1c2003",
+    "sentence": "In other words, they should not be converted to permanent standing facilities.",
+    "source": "Thoughts on Monetary Policy Decisionmaking and Challenges Ahead",
+    "doc_type": "speech",
+    "date": "2025-09-26",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e8540d1d-ba3f-4402-8cbf-46d24c7d0ce5",
+    "sentence": "The challenges associated with the ZLB and the potential risks resulting from an environment of extremely low rates for a prolonged period of time bring me to the third question: How should central banks incorporate financial stability considerations in the conduct of monetary policy?",
+    "source": "Monetary Policy, Financial Stability, and the Zero Lower Bound",
+    "doc_type": "speech",
+    "date": "2016-01-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  }
+]

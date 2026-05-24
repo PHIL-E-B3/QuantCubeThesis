@@ -1,0 +1,248 @@
+[
+  {
+    "id": "c3877482-248c-42b0-94e3-9b5dc59222a7",
+    "sentence": "Although dramatic actions by governments and central banks around the world helped these markets to stabilize and begin recovering, tight credit and a high degree of risk aversion have restrained economic growth in the United States and in other countries as well.",
+    "source": "The Economic Recovery and Economic Policy",
+    "doc_type": "speech",
+    "date": "2012-11-20",
+    "context_question": null,
+    "top": [
+      "economic_activity",
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "ac2f255d-ff79-4aea-951f-b9bf0ffd1e3f",
+    "sentence": "In the nine years since the FOMC's announcement of a 2 percent inflation objective, 12-month PCE inflation has averaged under 1-1/2 percent.",
+    "source": "U.S. Economic Outlook and Monetary Policy: An Update",
+    "doc_type": "speech",
+    "date": "2021-03-02",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "146d0c34-c301-49c2-9cda-29943630247a",
+    "sentence": "We are mindful that this could be the case even though monetary policy normalization in the United States will only occur in the context of a strengthening U.S. economy, and even though it has been clear from conversations at this conference that many officials of emerging market and other countries feel sufficiently forewarned and prepared for them to want us \"to just do it.\"",
+    "source": "U.S. Economy and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2015-10-11",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "49ab21e0-4f43-4f01-930f-3e2cafa3ebd2",
+    "sentence": "Bond markets have grown considerably, and market-based finance has intensified over the past years, making market liquidity even more important.",
+    "source": "Is There a Liquidity Problem Post-Crisis?",
+    "doc_type": "speech",
+    "date": "2016-11-15",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "58898e11-4e4c-4a05-b5ba-87e1a3a1afc9",
+    "sentence": "Short-term interest rates would have to rise very high very quickly for interest on reserves to outweigh the interest we are earning on our longer-term asset portfolio.",
+    "source": "Comments on \"Interpreting the Unconventional U.S. Monetary Policy of 2007-2009\"",
+    "doc_type": "speech",
+    "date": "2009-09-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "aecf5b95-3922-4434-8a8f-6cc228a17652",
+    "sentence": "Auto registrations rose from 140,000 in 1906 to 23 million in 1929, at a time when the total number of households was fewer than 30 million.",
+    "source": "Innovation at the Speed of AI",
+    "doc_type": "speech",
+    "date": "2025-10-15",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1e8790ee-3890-4e83-a6c9-cb26c1791fd3",
+    "sentence": "In particular, it appeared that the FOMC's forward guidance for the federal funds rate had become less effective after June, with market participants pulling forward the time at which they expected the Committee to start raising rates, in a manner inconsistent with the guidance.",
+    "source": "Communication and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2013-11-19",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b4ec9811-6a19-4916-b460-134550ceb9d1",
+    "sentence": "Such an approach would amount to taxing liquidity provision more in good times than in bad, which has a stabilizing macroprudential effect.",
+    "source": "Liquidity Regulation and Central Banking",
+    "doc_type": "speech",
+    "date": "2013-04-19",
+    "context_question": null,
+    "top": [
+      "financial_conditions"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "1d196101-3798-4160-a3fe-2ff6aa688026",
+    "sentence": "People don't appreciate how tight fiscal policy has been.",
+    "source": "FOMCpresconf20131218.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20131218",
+    "context_question": "Mr. Chairman, thank you. Wyatt Andrews at CBS. Given the billions of dollars that the Fed has put into the economy over the years, do you see a leading reason why the economy has not created more jobs?",
+    "top": [
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "79db54f7-bedf-42f6-b7b3-e69e5ea7be1c",
+    "sentence": "Notably, well-anchored longer-term inflation expectations moderated both inflation and deflation risks, as price-setters and market participants remained confident in the ability of central banks to keep inflation near target in the medium term.",
+    "source": "The Effects of the Great Recession on Central Bank Doctrine and Practice",
+    "doc_type": "speech",
+    "date": "2011-10-18",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "symmetric",
+    "wid": "none"
+  },
+  {
+    "id": "fc9d5578-400c-4791-9668-292442d924d6",
+    "sentence": "Although prices for some commodities have turned down recently, the earlier surge in prices of crude oil and other commodities that resulted from Russia's war on Ukraine has boosted prices for gasoline and food, creating additional upward pressure on inflation.",
+    "source": "FOMCpresconf20220727.json",
+    "doc_type": "press_conference_prepared",
+    "date": "20220727",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "b243d020-b73f-4c0c-addb-bac78f861ea9",
+    "sentence": "Looking at figure 4, you can see that as of November, there were 1.2 job openings for every unemployed person seeking work. That ratio is down from 2.0 in 2022, when the labor market was overheated.",
+    "source": "U.S. Economic Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2025-02-04",
+    "context_question": null,
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "4e3cbafc-1187-4a74-a977-e485de63d505",
+    "sentence": "First, from 1980 to 2020 there was a significant decline in the level and volatility of U.S. inflation. Second, the Great Moderation during this period meant economic performance in the United States was less volatile, which meant less variability in the monetary policy rate.",
+    "source": "Some Thoughts on r*:  Why Did It Fall and Will It Rise?",
+    "doc_type": "speech",
+    "date": "2024-05-24",
+    "context_question": null,
+    "top": [
+      "inflation",
+      "macro"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "e1706942-ae97-4a96-a1e0-283047901fb7",
+    "sentence": "While in the euro area, swaps-based inflation compensation has fallen about 3/4 percentage point since the middle of 2014 and is now around 1-1/2 percent at the five-year, five-year-ahead horizon, in the United States, swaps-based inflation compensation has fallen 1 full percentage point over the same period and is now at 1-3/4 percent. Japan has experienced a similar decline over this period, while the United Kingdom has seen a much more modest decline.",
+    "source": "What Happened to the Great Divergence?",
+    "doc_type": "speech",
+    "date": "2016-02-26",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c7aab23d-af7b-4475-8b0f-f00489fd259a",
+    "sentence": "And trying to achieve growth that is lower than the economy's true potential growth rate would create unnecessary unemployment and generate deflationary pressures that would subsequently have to be reversed.",
+    "source": "Monetary Policy and the Dual Mandate",
+    "doc_type": "speech",
+    "date": "2007-04-10",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "economic_activity",
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "none"
+  }
+]

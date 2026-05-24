@@ -1,0 +1,246 @@
+[
+  {
+    "id": "61eec372-55fd-4fa9-ba29-878099a50f5a",
+    "sentence": "Most participants viewed the recent softness in these price data as largely reflecting idiosyncratic factors, including sharp declines in prices of wireless telephone services and prescription drugs, and expected these developments to have little bearing on inflation over the medium run.",
+    "source": "minutes_20170614.html",
+    "doc_type": "minutes",
+    "date": "20170614",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "c22d5611-bfdb-4f8e-8f75-a0ee17ac0874",
+    "sentence": "But, given that the economy is now close to our maximum employment objective, you know, hopefully inflation is moving up -- I mentioned, as you mentioned, recent readings on inflation have moved up.",
+    "source": "FOMCpresconf20160316.pdf",
+    "doc_type": "press_conference_qa",
+    "date": "20160316",
+    "context_question": "Steve Liesman, CNBC. Madam Chair, as you know, inflation has gone up the last two months. We had another strong jobs report, the tracking forecasts for GDP have returned to 2 percent, and yet the Fed stands pat while it’s in a process of what it said it launched in December was a “process of normalization.” So I have two questions about this: Does the Fed have a credibility problem, in the sense that it says it will do some—one thing under certain conditions but doesn’t end up doing it? And then, frankly, if the current conditions are not sufficient for the Fed to raise rates, well, what would those conditions ever look like?",
+    "top": [
+      "labor_market",
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "6d457d7d-59ac-4b77-b482-5e8b2e7f7c87",
+    "sentence": "Almost all participants remarked that while the incoming data regarding inflation were encouraging, additional information was needed to provide greater confidence that inflation was moving sustainably toward the Committee's 2 percent objective before it would be appropriate to lower the target range for the federal funds rate.",
+    "source": "minutes_20240731.html",
+    "doc_type": "minutes",
+    "date": "20240731",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "inflation"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "92005de9-d118-49ed-85b0-d8589941203d",
+    "sentence": "It has been inconsistent, but we have seen a substantial decline overall. But we have a ways to go on that.",
+    "source": "FOMCpresconf20240501.json",
+    "doc_type": "press_conference_qa",
+    "date": "20240501",
+    "context_question": "Thank you, Chair Powell. Question about the labor market— you’ve mentioned a few times that the labor market is normalizing. Certainly, today’s JOLTS data suggested that things are kind of getting back to pre-pandemic levels. One thing that hasn’t normalized is wage growth, which is still quite a bit stronger than before the pandemic. I wonder if you can share your analysis of, of why that’s happening. Is it a lagging indicator, or is something else going on?",
+    "top": [
+      "labor_market"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "272f4005-c81c-4472-b95a-ad69770619ca",
+    "sentence": "The welfare costs of inflation result from many factors: the potential costs to households and firms that result from efforts to insure themselves against inflation or from confusion regarding real and nominal prices; distortions to the financial system related to inflation; imperfect indexation of the taxation, especially of capital income, and the related distortions to economic activity; and the costs associated with a slow adjustment of nominal prices and wages.",
+    "source": "Lessons for Central Bankers from a Phillips Curve Framework",
+    "doc_type": "speech",
+    "date": "2008-06-11",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "682449c6-48f6-42b5-9589-f3e657cba899",
+    "sentence": "Specifically, data from RealPage suggest that asking rents rose 16 percent in both low- and moderate-income neighborhoods from January 2020 to February 2022, the same as in higher income neighborhoods.",
+    "source": "The Red Hot Housing Market: the Role of Policy and Implications for Housing Affordability",
+    "doc_type": "speech",
+    "date": "2022-03-24",
+    "context_question": null,
+    "top": [
+      "inflation"
+    ],
+    "ten": "descriptive",
+    "sen": "hawkish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "61ebbca3-4c86-4294-8223-8b8b89de1467",
+    "sentence": "In particular, restraining the growth of health-care costs would increase the number of people who can afford insurance coverage.",
+    "source": "Challenges for Health-Care Reform",
+    "doc_type": "speech",
+    "date": "2008-06-16",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "fb67747e-bfd0-4a60-a07a-0fa7fe354ebb",
+    "sentence": "But there is a circumstance where it might be reasonable to argue that the Fed could be too predictable--in particular, if the path of policy is not appropriately responsive to the incoming economic data and the implications for the economic outlook.",
+    "source": "Monetary Policy Expectations and Surprises",
+    "doc_type": "speech",
+    "date": "2017-04-17",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "macro"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "62bedeb4-2ef5-43e2-810b-7fdba88d830b",
+    "sentence": "However, with the recovery well into its seventh full year, credit in many markets is widely available, while consumer confidence and household net worth are at high levels. As a result, it appears more likely that much of the decline in the neutral rate is likely to prove persistent, consistent with a variety of estimates.",
+    "source": "The Economic Outlook and Implications for Monetary Policy",
+    "doc_type": "speech",
+    "date": "2016-06-03",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "115667db-dc57-43fe-93fc-db12ef226c33",
+    "sentence": "The fall in equilibrium interest rates was most pronounced at the time of the financial crisis, but rates have shown little tendency to increase during the long recovery from the crisis.",
+    "source": "The Low Level of Global Real Interest Rates",
+    "doc_type": "speech",
+    "date": "2017-07-31",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "dovish",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "24c7533f-52b3-4c42-b5e2-7773fc74d468",
+    "sentence": "This sort of compression of term spreads is the twist in Operation Twist.",
+    "source": "Overheating in Credit Markets: Origins, Measurement, and Policy Responses",
+    "doc_type": "speech",
+    "date": "2013-02-07",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "48945040-c244-4472-af9d-2e726f37b31a",
+    "sentence": "Some may also simply pull back from market pricing if they think it is too thin and accept a lower return.",
+    "source": "The Present and Future of Community Banking",
+    "doc_type": "speech",
+    "date": "2010-04-08",
+    "context_question": null,
+    "top": [
+      "no_topic"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "f4de765e-cff7-4925-a570-e05089a70156",
+    "sentence": "Choosing a slower pace of rate cuts gives time to gradually assess whether the neutral rate has in fact risen, but at the risk of moving too slowly and putting the labor market at risk.",
+    "source": "The Time Has Come",
+    "doc_type": "speech",
+    "date": "2024-09-06",
+    "context_question": null,
+    "top": [
+      "monetary_policy",
+      "labor_market"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "skewed_downside",
+    "wid": "contested"
+  },
+  {
+    "id": "aa53c05d-1570-4497-ae69-de8e2f5aed16",
+    "sentence": "But then you can see the feedback loop that arises: The more strongly the market becomes attached to this belief--even if it was initially somewhat arbitrary--the more wary the Committee must be of making an unexpected change, and this wariness further reinforces the market's initial belief.",
+    "source": "Challenges for Monetary Policy Communication",
+    "doc_type": "speech",
+    "date": "2014-05-06",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "interpretive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  },
+  {
+    "id": "39cdda41-15ae-4b67-b613-217104313e2e",
+    "sentence": "The case for the subordination strategy is straightforward and compelling.",
+    "source": "Transitions in the Outlook and Monetary Policy",
+    "doc_type": "speech",
+    "date": "2017-03-01",
+    "context_question": null,
+    "top": [
+      "monetary_policy"
+    ],
+    "ten": "descriptive",
+    "sen": "neutral",
+    "com": "none",
+    "ris": "na",
+    "wid": "none"
+  }
+]
