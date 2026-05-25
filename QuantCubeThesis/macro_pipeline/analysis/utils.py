@@ -171,6 +171,62 @@ def oos_rmse(y: pd.Series, X: pd.DataFrame, label: str = '') -> dict:
 
 # ── Clark-West (2007) OOS significance test ───────────────────────────────────
 
+def diebold_mariano_test(baseline_preds: list, model_preds: list) -> tuple:
+    """
+    Diebold-Mariano (1995) test for equal predictive accuracy.
+
+    Valid for both nested and non-nested models.  Use this instead of
+    clark_west_test when the model and baseline are non-nested (e.g. joint
+    PCA vs macro-only PCA, where you cannot recover the baseline by zeroing
+    coefficients in the augmented model).
+
+    H0: equal MSPE.
+    H1: augmented model has lower MSPE (one-sided).
+
+    d_t = e_baseline_t² - e_model_t²
+    DM  = mean(d) / HAC_se(d)  ~  N(0,1) under H0.
+
+    Unlike CW there is no (ŷ_b - ŷ_m)² adjustment term, so the test is
+    unbiased but potentially conservative when models are in fact nested.
+
+    Returns
+    -------
+    (t_stat, p_value) — p_value is one-sided; NaN when model is worse on MSPE.
+    """
+    from scipy.stats import norm as _norm
+
+    base_dict  = {t: (y, yh) for t, y, yh in baseline_preds}
+    model_dict = {t: (y, yh) for t, y, yh in model_preds}
+    common_t   = sorted(set(base_dict) & set(model_dict))
+
+    if len(common_t) < 10:
+        return np.nan, np.nan
+
+    d = []
+    for t in common_t:
+        y,  yh_b = base_dict[t]
+        _y, yh_m = model_dict[t]
+        e_b = y - yh_b
+        e_m = y - yh_m
+        d.append(e_b**2 - e_m**2)
+
+    d = np.array(d)
+    T = len(d)
+    model_beats_base = np.mean(d) > 0
+
+    bw = max(1, int(np.ceil(T ** 0.25)))
+    with warnings.catch_warnings():
+        warnings.simplefilter('ignore')
+        res = sm.OLS(d, np.ones(T)).fit(cov_type='HAC',
+                                         cov_kwds={'maxlags': bw, 'use_correction': True})
+    t_stat = float(res.tvalues[0])
+    if not model_beats_base:
+        return round(t_stat, 4), np.nan
+
+    p_val = float(_norm.sf(t_stat))
+    return round(t_stat, 4), round(p_val, 4)
+
+
 def clark_west_test(baseline_preds: list, model_preds: list) -> tuple:
     """
     Clark-West (2007) test for equal predictive accuracy of nested models.

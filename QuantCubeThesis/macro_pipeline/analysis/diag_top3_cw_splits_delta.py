@@ -36,7 +36,7 @@ warnings.filterwarnings('ignore')
 
 sys.path.insert(0, '.')
 from config import TARGET_NEXT, MACRO_REGRESSORS, PCA_VAR_MACRO
-from utils import run_pca, clark_west_test
+from utils import run_pca, clark_west_test, diebold_mariano_test
 from step0_aggregate import load_macro
 
 root      = r'C:\Users\Javier\OneDrive - HEC Paris\Documentos\QuantCubeThesis\QuantCubeThesis'
@@ -98,8 +98,14 @@ def expanding_ols(y, X, train_frac=TRAIN_FRAC):
     return preds
 
 
-def compute_metrics(model_preds, base_preds, n):
-    out = {}
+def compute_metrics(model_preds, base_preds, n, test='cw'):
+    """RMSE and test-t at each cutoff.
+
+    test='cw'  Clark-West (2007)     — nested models (standard FAVAR specs)
+    test='dm'  Diebold-Mariano (1995) — non-nested models (joint PCA specs)
+    """
+    stat_fn = clark_west_test if test == 'cw' else diebold_mariano_test
+    out = {'_test': test}
     for frac in CUTOFFS:
         ct  = int(n * frac)
         key = int(frac * 100)
@@ -108,9 +114,9 @@ def compute_metrics(model_preds, base_preds, n):
         if m_sub:
             out[f'rmse_{key}'] = round(
                 np.sqrt(np.mean([(y - yh)**2 for _, y, yh in m_sub])), 4)
-            cw_t, cw_p = clark_west_test(b_sub, m_sub)
-            out[f'cw_t_{key}'] = cw_t
-            out[f'cw_p_{key}'] = cw_p
+            t_stat, t_p = stat_fn(b_sub, m_sub)
+            out[f'cw_t_{key}'] = t_stat
+            out[f'cw_p_{key}'] = t_p
         else:
             out[f'rmse_{key}'] = np.nan
             out[f'cw_t_{key}'] = np.nan
@@ -255,7 +261,7 @@ llm_results = []
 for label, df_v, pca_cols in llm_variants:
     print(f'  [{label}]', end='', flush=True)
     m_preds, b_preds, n = run_4h_delta(df_v, pca_cols)
-    metrics = compute_metrics(m_preds, b_preds, n)
+    metrics = compute_metrics(m_preds, b_preds, n, test='dm')   # non-nested: use DM
     metrics.update({'model': label, 'method': 'LLM', 'n': n})
     llm_results.append(metrics)
     print(f'  N={n}  OOS80={metrics["rmse_80"]:.4f}', end='')
@@ -346,10 +352,11 @@ print(f'  N={n}  OOS80={metrics["rmse_80"]:.4f}', end='')
 
 print('\n\n')
 print('=' * 100)
-print('  RESULTS [DELTA]: OOS RMSE and CW-t at each cutoff (vs macro-only baseline, same sample)')
+print('  RESULTS [DELTA]: OOS RMSE and t-stat at each cutoff (vs macro-only baseline, same sample)')
 print('  Macro baseline delta: OOS60=0.314  OOS70=0.313  OOS80=0.265  OOS90=0.168  (N=151, 2007-2025)')
-print('  CW-t > 1.65 => model beats baseline at ~5% one-sided')
-print('  p-value: * p<0.10  ** p<0.05  *** p<0.01  (NaN p = model has higher MSE than baseline)')
+print('  t-stat: DM = Diebold-Mariano (1995) for joint PCA models (LLM) [non-nested]')
+print('          CW = Clark-West (2007) for standard FAVAR models (Gardner, Sharpe) [nested]')
+print('  p-value: * p<0.10  ** p<0.05  *** p<0.01  (blank = model has higher MSE than baseline)')
 print('=' * 100)
 
 
@@ -362,16 +369,17 @@ def sig_star(p):
     return '   '
 
 
-hdr = (f'  {"Model":<50} {"N":>5}'
-       + ''.join(f'  {"OOS"+str(int(f*100)):>5} {"CW-t":>6}{"p":>4}'
+hdr = (f'  {"Model":<50} {"N":>5} {"test":>4}'
+       + ''.join(f'  {"OOS"+str(int(f*100)):>5} {"t-stat":>6}{"p":>4}'
                  for f in CUTOFFS))
 print(hdr)
-print('  ' + '-' * 100)
+print('  ' + '-' * 105)
 
 for row in all_rows:
-    name = row['model']
-    n    = row['n']
-    line = f'  {name:<50} {n:>5}'
+    name  = row['model']
+    n     = row['n']
+    test  = row.get('_test', 'cw').upper()
+    line  = f'  {name:<50} {n:>5} {test:>4}'
     for frac in CUTOFFS:
         key   = int(frac * 100)
         rmse  = row.get(f'rmse_{key}', np.nan)
@@ -384,9 +392,9 @@ for row in all_rows:
     print(line)
 
 print()
-print('  Note: NaN CW p-value = model has higher MSE than baseline OR HAC test fails')
-print('  Note: Gardner speeches covers full 2007-2025 sample (same as LLM)')
-print('  Note: Sharpe specs weakly significant — sentiment less useful for delta than level')
+print('  Blank p-value: model has higher MSE than baseline over that sub-period')
+print('  Gardner speeches covers full 2007-2025 sample (same as LLM)')
+print('  Sharpe specs weakly significant — sentiment less useful for delta than level')
 
 # ── Save ───────────────────────────────────────────────────────────────────────
 out = root + r'\Taylor Rule\outputs\top3_cw_splits_delta.csv'
