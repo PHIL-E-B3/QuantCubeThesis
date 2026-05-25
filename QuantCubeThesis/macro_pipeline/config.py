@@ -13,9 +13,10 @@ FRED_API_KEY  = 'c5b5ec287d025fecd23b73051ee03c84'
 VINTAGE_START = '2010-01-01'   # earliest vintage to pull (pre-2010 not needed)
 
 # ── Raw text data ─────────────────────────────────────────────────────────────
-STATEMENTS_JSON_DIR = ROOT / 'data' / 'raw' / 'structured_json_statements'
-SPEECHES_JSON_DIR   = ROOT / 'data' / 'raw' / 'structured_json_speeches'
-MINUTES_JSON_DIR    = ROOT / 'data' / 'raw' / 'structured_json_minutes'
+STATEMENTS_JSON_DIR  = ROOT / 'data' / 'raw' / 'structured_json_statements'
+SPEECHES_JSON_DIR    = ROOT / 'data' / 'raw' / 'structured_json_speeches'
+MINUTES_JSON_DIR     = ROOT / 'data' / 'raw' / 'structured_json_minutes'
+PRESS_CONF_JSON_DIR  = ROOT / 'data' / 'raw' / 'structured_json'
 
 # ── External input files ──────────────────────────────────────────────────────
 INPUTS_DIR         = ROOT / 'data' / 'macro_inputs'

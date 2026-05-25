@@ -176,6 +176,8 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
             )
             topic_factors.columns = [f'SPC{i+1}' for i in range(nc)]
             fdf_aug = factor_df.join(topic_factors, how='inner')
+            if 'cfnai' in df_ev.columns:
+                fdf_aug = fdf_aug.join(df_ev[['cfnai']], how='left')
             y_4d    = target.loc[fdf_aug.index].dropna()
             X_4d    = fdf_aug.loc[y_4d.index]
             r = fit_ols(y_4d, X_4d, label=f'{label_prefix}4d_topic_pca_ev{ev}')
@@ -192,7 +194,7 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
 
         # 4e: total × macro interactions
         macro_raw = ['vix', 'gdp', 'unemployment_gap',
-                     'inflation_dev_from_target', 'implied_ffr']
+                     'inflation_dev_from_target', 'implied_ffr', 'cfnai']
         inter_4e = {}
         for mc in macro_raw:
             if mc in df_ev.columns and 'sent_total' in df_ev.columns:

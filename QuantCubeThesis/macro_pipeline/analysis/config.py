@@ -40,6 +40,7 @@ MACRO_REGRESSORS = [
     'effective_rate',
     'gdp',
     'vix',
+    'cfnai',
 ]
 TARGET_COL  = 'effective_rate'
 TARGET_NEXT = 'target_next'   # column name after forward shift
