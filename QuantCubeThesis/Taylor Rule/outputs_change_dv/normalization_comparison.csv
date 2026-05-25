@@ -1,0 +1,5 @@
+dictionary,norm,adj_r2,aic,bic
+Gardner,wordcount,0.22,63.84,87.37
+Gardner,zscore,0.2187,64.2,87.73
+Sharpe,wordcount,0.2176,64.5,88.03
+Sharpe,zscore,0.2175,64.54,88.07

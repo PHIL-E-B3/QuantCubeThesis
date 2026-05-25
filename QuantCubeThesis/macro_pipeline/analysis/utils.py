@@ -244,6 +244,7 @@ def clark_west_test(baseline_preds: list, model_preds: list) -> tuple:
 _MODEL_CSV_COLS = (
     ['model_label', 'n_obs', 'r2', 'adj_r2', 'aic', 'bic', 'f_stat', 'f_pvalue']
     + [f'oos_rmse_{int(f*100)}' for f in OOS_FRACS]
+    + ['cw_tstat', 'cw_pval']
 )
 
 def save_model_row(result: dict, csv_path=None):

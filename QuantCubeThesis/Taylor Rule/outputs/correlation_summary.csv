@@ -1,0 +1,9 @@
+pair,n,pearson_r,pearson_p,spearman_r,spearman_p
+sent_total vs gardner_total [wordcount],209,0.1292,0.0623,0.2212,0.0013
+sent_total vs sharpe_net [wordcount],209,-0.2331,0.0007,-0.3092,0.0
+Gardner vs Sharpe [wordcount],215,-0.1898,0.0052,-0.2034,0.0027
+sent_total vs gardner_total [zscore],209,0.1292,0.0623,0.2212,0.0013
+sent_total vs gardner_total_gard_zscore [zscore],209,0.1353,0.0508,0.1247,0.072
+sent_total vs sharpe_net [zscore],209,-0.2331,0.0007,-0.3092,0.0
+sent_total vs sharpe_net_shp_zscore [zscore],209,-0.2864,0.0,-0.2704,0.0001
+Gardner vs Sharpe [zscore],215,-0.1898,0.0052,-0.2034,0.0027

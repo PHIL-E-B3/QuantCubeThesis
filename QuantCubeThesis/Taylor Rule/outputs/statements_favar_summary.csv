@@ -1,0 +1,5 @@
+combo,best_spec,best_adj_r2,best_oos_rmse
+Gardner_statements_zscore,4e_total_interactions,0.9089,
+Sharpe_statements_wordcount,4e_total_interactions,0.9088,
+Sharpe_statements_zscore,4e_total_interactions,0.9069,
+Gardner_statements_wordcount,4e_total_interactions,0.89,

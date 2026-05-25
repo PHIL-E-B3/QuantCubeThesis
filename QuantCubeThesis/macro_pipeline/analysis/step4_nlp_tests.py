@@ -12,7 +12,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).parent))
 from config import (
-    TOPICS, TARGET_NEXT, PCA_VAR_SENT, INTER_DIR, OUTPUTS_DIR,
+    TOPICS, TARGET_NEXT, PCA_VAR_SENT, PCA_VAR_MACRO, INTER_DIR, OUTPUTS_DIR,
+    MACRO_REGRESSORS,
 )
 from utils import (
     run_pca, fit_ols, vif, save_model_row, print_metrics, log_warn,
@@ -240,6 +241,42 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
                 delta_cols.append(dname)
         r = _run_spec('4g_novelty', df_ev, target, factor_df, delta_cols, ev, **kw)
         all_results.append(r)
+
+        # 4h: joint PCA — re-run PCA on macro + sentiment together.
+        # Unlike 4a–4g which augment baseline factors, 4h rebuilds the factor
+        # space from scratch so sentiment can reorganise the macro components.
+        # ev sweep is skipped (scaling doesn't affect PCA structure).
+        if ev == extreme_vals[0]:
+            macro_avail = [c for c in MACRO_REGRESSORS if c in df.columns]
+            h_variants = [
+                ('4h_joint_pca_total',   ['sent_total']),
+                ('4h_joint_pca_inf_mp',  ['sent_inflation', 'sent_monetary_policy']),
+                ('4h_joint_pca_labor',   ['sent_labor_market']),
+                ('4h_joint_pca_all',     [c for c in topic_sent if c in df.columns]),
+            ]
+            for h_label, h_sent in h_variants:
+                h_cols = macro_avail + [c for c in h_sent if c in df.columns]
+                if len(h_cols) < 3:
+                    continue
+                h_df = df[h_cols + [TARGET_NEXT]].dropna()
+                if len(h_df) < 30:
+                    continue
+                h_factors, _, _, h_nc = run_pca(h_df, h_cols, var_threshold=PCA_VAR_MACRO)
+                h_factors.columns = [f'JPC{i+1}' for i in range(h_nc)]
+                h_target = h_df[TARGET_NEXT].loc[h_factors.index]
+                r = fit_ols(h_target, h_factors,
+                            label=f'{label_prefix}{h_label}_ev{ev}')
+                if r:
+                    if baseline_preds:
+                        cw_t, cw_p = clark_west_test(baseline_preds,
+                                                     r.get('_oos_preds', []))
+                        r['cw_tstat'] = cw_t
+                        r['cw_pval']  = cw_p
+                    r['spec'] = h_label
+                    r['extreme_val'] = ev
+                    print_metrics(r)
+                    save_model_row(r, csv_path=model_csv)
+                    all_results.append(r)
 
     # Find best model
     valid = [r for r in all_results if r and r.get('adj_r2') is not None]
