@@ -241,12 +241,19 @@ def clark_west_test(baseline_preds: list, model_preds: list) -> tuple:
 
 # ── Model comparison table ────────────────────────────────────────────────────
 
+_MODEL_CSV_COLS = (
+    ['model_label', 'n_obs', 'r2', 'adj_r2', 'aic', 'bic', 'f_stat', 'f_pvalue']
+    + [f'oos_rmse_{int(f*100)}' for f in OOS_FRACS]
+)
+
 def save_model_row(result: dict, csv_path=None):
-    """Append one model result dict to model_comparison.csv."""
+    """Append one model result dict to model_comparison.csv (fixed schema)."""
     if not result:
         return
     csv_path = csv_path or OUTPUTS_DIR / 'model_comparison.csv'
-    row = {k: v for k, v in result.items() if not k.startswith('_')}
+    # Enforce fixed column set — extra keys (e.g. 'lookahead') are dropped,
+    # missing ones get NaN, so every row has the same width.
+    row = {col: result.get(col, np.nan) for col in _MODEL_CSV_COLS}
     df  = pd.DataFrame([row])
     if csv_path.exists():
         df.to_csv(csv_path, mode='a', header=False, index=False)

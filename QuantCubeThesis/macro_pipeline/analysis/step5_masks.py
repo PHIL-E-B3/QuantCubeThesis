@@ -82,13 +82,13 @@ def run_masks(df: pd.DataFrame, best_result: dict,
 
     # Mask A: re-aggregate with only elevated-wid sentences
     if df_sentences is not None:
-        df_elev = df_sentences[df_sentences['wid'] == 'elevated'].copy()
+        df_elev = df_sentences[df_sentences['width'] == 'elevated'].copy()
         if len(df_elev) > MIN_MASK_OBS:
             doc_elev = aggregate_to_document(df_elev)
             df_elev_m = merge_to_macro(doc_elev)
             r = _rerun_best(df_elev_m, best_result, '5a_uncertainty_elevated_sentences')
             results['5a_uncertainty_A'] = r
-            _direction_plot(df_elev_m, '5a-A elevated wid (sentences)', axes[0])
+            _direction_plot(df_elev_m, '5a-A elevated width (sentences)', axes[0])
 
     # Mask B: flag_elevated_wid > median
     if 'flag_elevated_wid' in df.columns:
@@ -125,8 +125,8 @@ def run_masks(df: pd.DataFrame, best_result: dict,
     print('\n  5c. Tense mask')
     if df_sentences is not None:
         for mask_label, tenses in [
-            ('5c_forward_only',      ['forward']),
-            ('5c_forward_present',   ['forward', 'present']),
+            ('5c_interpretive_only',       ['interpretive']),
+            ('5c_interpretive_descriptive', ['interpretive', 'descriptive']),
         ]:
             df_t = df_sentences[df_sentences['tense'].isin(tenses)].copy()
             if len(df_t) > MIN_MASK_OBS:
@@ -136,24 +136,27 @@ def run_masks(df: pd.DataFrame, best_result: dict,
                 results[mask_label] = r
 
     # ── 5d: Commitment / Odyssean guidance mask ───────────────────────────────
+    # df is the macro panel — doc-type-specific flags live in per-suffix columns
+    # e.g. flag_unconditional_forward_minutes, flag_unconditional_forward (combined)
     print('\n  5d. Commitment mask')
-    doc_type_sets = {
-        'all':      None,
-        'minutes':  ['minutes'],
-        'external': ['statements', 'press_conference_prepared'],
+    col_sources = {
+        'all':      '',            # combined across all doc types (no suffix)
+        'minutes':  '_minutes',
+        'external': '_statements', # statements as proxy for external comms
     }
-    for dt_label, dt_filter in doc_type_sets.items():
-        sub = df if dt_filter is None else df[df['doc_type'].isin(dt_filter)]
-        for mask_label, col, cond_fn in [
-            ('odyssean',  'flag_unconditional_forward', lambda d: d == 1),
-            ('delphic',   'flag_unconditional_forward', lambda d: d == 0),
-            ('conditional', 'flag_conditional',         lambda d: d > 0),
+    for dt_label, col_sfx in col_sources.items():
+        for mask_label, base_col, cond_fn in [
+            ('odyssean',    'flag_unconditional_forward', lambda d: d == 1),
+            ('delphic',     'flag_unconditional_forward', lambda d: d == 0),
+            ('conditional', 'flag_conditional',           lambda d: d > 0),
         ]:
-            if col in sub.columns:
-                cond = cond_fn(sub[col])
-                full_label = f'5d_{mask_label}_{dt_label}'
-                r = apply_mask(sub, cond, full_label, best_result)
-                results[full_label] = r
+            col = base_col + col_sfx
+            if col not in df.columns:
+                continue
+            cond = cond_fn(df[col])
+            full_label = f'5d_{mask_label}_{dt_label}'
+            r = apply_mask(df, cond, full_label, best_result)
+            results[full_label] = r
 
     # ── 5e: Shadow rate direction mask (LOOKAHEAD) ────────────────────────────
     # Mask on the direction of the NEXT rate move (effective_rate(t+1) − effective_rate(t)),

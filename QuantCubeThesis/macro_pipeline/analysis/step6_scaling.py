@@ -103,7 +103,7 @@ def run_scaling(df: pd.DataFrame, df_sentences,
         for norm in ['wordcount', 'zscore', 'none']:
             fname = NLP_DIR / f'{dict_name}_statements_{norm}_nlp.csv'
             if not fname.exists():
-                print(f'  ⚠️  Missing: {fname.name} — skipping')
+                print(f'  WARN  Missing: {fname.name} -- skipping')
                 continue
             dict_df = pd.read_csv(fname, parse_dates=['meeting_date'])
             score_col = 'gardner_total' if dict_name == 'Gardner' else 'sharpe_net'

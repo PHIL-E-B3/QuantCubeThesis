@@ -253,4 +253,6 @@ def run_nlp_tests(df: pd.DataFrame, baseline_result: dict,
         )
         pd.DataFrame([{k: v for k, v in r.items() if not k.startswith('_')}
                       for r in valid]).to_csv(inter_csv, index=False)
+    if best:
+        best['_factor_df'] = factor_df  # needed by step5 _rerun_best
     return best or {}

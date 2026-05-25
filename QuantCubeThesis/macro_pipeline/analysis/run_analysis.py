@@ -78,7 +78,7 @@ def run(sentences_path=None, steps=None):
     # ── Steps requiring LLM labels ────────────────────────────────────────────
     needs_labels = set('0123456789R') & set(steps)
     if needs_labels and not sentences_path:
-        print('\n  ⚠️  Steps 0–7 and R require --sentences <path>. '
+        print('\n  WARN  Steps 0-7 and R require --sentences <path>. '
               'Skipping those steps.\n  Re-run with --sentences once LLM '
               'inference is complete.')
         return
@@ -173,64 +173,71 @@ def run(sentences_path=None, steps=None):
     elapsed = time.time() - t_total
     print(f'\n{"="*65}')
     print(f'  Pipeline complete in {elapsed/60:.1f} min')
-    print(f'  Outputs → {OUTPUTS_DIR}')
+    print(f'  Outputs -> {OUTPUTS_DIR}')
     print(f'{"="*65}')
+
+
+def _safe_read_csv(path):
+    """Read CSV only if it exists and is non-empty; return None otherwise."""
+    p = Path(path)
+    if not p.exists() or p.stat().st_size < 4:
+        return None
+    try:
+        return pd.read_csv(p)
+    except Exception:
+        return None
 
 
 def _write_summary(state: dict):
     lines = ['# FOMC NLP Sentiment Analysis — Results Summary\n']
 
     # Model comparison table
-    mc = OUTPUTS_DIR / 'model_comparison.csv'
-    if mc.exists():
-        df_mc = pd.read_csv(mc)
+    df_mc = _safe_read_csv(OUTPUTS_DIR / 'model_comparison.csv')
+    if df_mc is not None and not df_mc.empty:
         lines.append('## All Model Specifications\n')
         lines.append(df_mc.to_markdown(index=False))
         lines.append('\n')
-
         best_row = df_mc.loc[df_mc['adj_r2'].idxmax()]
-        lines.append(f'## Best Model Overall\n')
+        oos_col = next((c for c in df_mc.columns if 'oos_rmse' in c), None)
+        oos_val = f'{best_row[oos_col]:.4f}' if oos_col else 'n/a'
+        lines.append('## Best Model Overall\n')
         lines.append(f'**{best_row["model_label"]}** — '
-                     f'Adj R² = {best_row["adj_r2"]:.4f}, '
-                     f'OOS RMSE = {best_row.get("oos_rmse","n/a")}\n')
+                     f'Adj R2 = {best_row["adj_r2"]:.4f}, '
+                     f'OOS RMSE = {oos_val}\n')
 
     # Mask results
-    mf = INTER_DIR / 'step5_mask_results.csv'
-    if mf.exists():
-        df_m = pd.read_csv(mf)
-        if 'adj_r2' in df_m.columns and not df_m.empty:
-            best_mask = df_m.loc[df_m['adj_r2'].idxmax()]
-            lines.append(f'\n## Best Mask\n')
-            lines.append(f'**{best_mask["model_label"]}** — '
-                         f'Adj R² = {best_mask["adj_r2"]:.4f}\n')
+    df_m = _safe_read_csv(INTER_DIR / 'step5_mask_results.csv')
+    if df_m is not None and 'adj_r2' in df_m.columns and not df_m.empty:
+        best_mask = df_m.loc[df_m['adj_r2'].idxmax()]
+        lines.append('\n## Best Mask\n')
+        lines.append(f'**{best_mask["model_label"]}** — '
+                     f'Adj R2 = {best_mask["adj_r2"]:.4f}\n')
 
     # Scaling
-    sf = OUTPUTS_DIR / 'aggregation_func_comparison.csv'
-    if sf.exists():
-        df_s = pd.read_csv(sf)
+    df_s = _safe_read_csv(OUTPUTS_DIR / 'aggregation_func_comparison.csv')
+    if df_s is not None and not df_s.empty:
         best_s = df_s.loc[df_s['adj_r2'].idxmax()]
-        lines.append(f'\n## Optimal Aggregation Function\n')
-        lines.append(f'**{best_s["agg_func"]}** — Adj R² = {best_s["adj_r2"]:.4f}\n')
+        lines.append('\n## Optimal Aggregation Function\n')
+        lines.append(f'**{best_s["agg_func"]}** — Adj R2 = {best_s["adj_r2"]:.4f}\n')
 
-    nf = OUTPUTS_DIR / 'normalization_comparison.csv'
-    if nf.exists():
-        df_n = pd.read_csv(nf)
+    df_n = _safe_read_csv(OUTPUTS_DIR / 'normalization_comparison.csv')
+    if df_n is not None and not df_n.empty:
         best_n = df_n.loc[df_n['adj_r2'].idxmax()]
-        lines.append(f'\n## Optimal Normalisation Strategy\n')
+        lines.append('\n## Optimal Normalisation Strategy\n')
         lines.append(f'**{best_n["dictionary"]} / {best_n["norm"]}** — '
-                     f'Adj R² = {best_n["adj_r2"]:.4f}\n')
+                     f'Adj R2 = {best_n["adj_r2"]:.4f}\n')
 
     # Speaker mask finding
-    spk = INTER_DIR / 'step5f_speaker_mask_results.csv'
-    if spk.exists():
-        df_spk = pd.read_csv(spk)
-        lines.append(f'\n## Speaker Mask (5f)\n')
-        lines.append(df_spk[['mask','adj_r2','oos_rmse']].to_markdown(index=False))
+    df_spk = _safe_read_csv(INTER_DIR / 'step5f_speaker_mask_results.csv')
+    if df_spk is not None and not df_spk.empty:
+        available_cols = [c for c in ['mask', 'adj_r2', 'oos_rmse_60'] if c in df_spk.columns]
+        lines.append('\n## Speaker Mask (5f)\n')
+        lines.append(df_spk[available_cols].to_markdown(index=False))
         lines.append('\n')
 
     out = OUTPUTS_DIR / 'RESULTS_SUMMARY.md'
     out.write_text('\n'.join(lines), encoding='utf-8')
-    print(f'  Summary written → {out}')
+    print(f'  Summary written -> {out}')
 
 
 if __name__ == '__main__':

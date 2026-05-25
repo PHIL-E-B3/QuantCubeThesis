@@ -163,10 +163,15 @@ def aggregate_to_document(df_sentences: pd.DataFrame,
         row['flag_elevated_wid']        = (grp['width'] == 'elevated').sum()
         row['flag_skew_up']             = (grp['risk'] == 'skewed_upside').sum()
         row['flag_skew_down']           = (grp['risk'] == 'skewed_downside').sum()
-        row['flag_unconditional_forward'] = int(
-            ((grp['commitment'] == 'unconditional') & (grp['tense'] == 'interpretive')).any()
+        # commitment is bool (new LLM output: True=firm) or str (legacy: 'unconditional')
+        _firm = grp['commitment'].apply(
+            lambda v: v is True or str(v).lower() == 'unconditional'
         )
-        row['flag_conditional']         = (grp['commitment'] == 'conditional').sum()
+        row['flag_unconditional_forward'] = int(
+            (_firm & (grp['tense'] == 'interpretive')).any()
+        )
+        _cond = grp['commitment'].apply(lambda v: str(v).lower() == 'conditional')
+        row['flag_conditional']         = _cond.sum()
 
         # Speaker types (relevant for speech doc_type)
         spk_col = 'speaker_type' if 'speaker_type' in grp.columns else None

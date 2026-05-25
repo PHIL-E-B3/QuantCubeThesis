@@ -24,7 +24,7 @@ warnings.filterwarnings('ignore')
 def _load_dict_scores(dict_name: str, doc_types: str, norm: str) -> pd.DataFrame:
     fname = NLP_DIR / f'{dict_name}_{doc_types}_{norm}_nlp.csv'
     if not fname.exists():
-        print(f'  ⚠️  Dictionary file not found: {fname}')
+        print(f'  WARN  Dictionary file not found: {fname}')
         return pd.DataFrame()
     df = pd.read_csv(fname, parse_dates=['meeting_date'])
     return df
