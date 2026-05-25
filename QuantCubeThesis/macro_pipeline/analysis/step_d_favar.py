@@ -121,7 +121,8 @@ def build_dict_macro(dict_name: str, doc_types: list, norm: str) -> pd.DataFrame
 
 def run_dict_favars(dict_filter: str = None, norm_filter: str = None,
                     doc_filter: str = None, target_col: str = None,
-                    oos_frac: float = None):
+                    oos_frac: float = None, start_date: str = None,
+                    ewma_span: int = None):
     """
     Run baseline + NLP-augmented FAVARs for all (or filtered) dictionary combos.
 
@@ -130,6 +131,7 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None,
                 Pass 'delta_rate_next' for change-in-rate regressions.
     oos_frac:   override the OOS training fraction (e.g. 0.80 → 80% train / 20% OOS).
                 Defaults to 0.60 (config.OOS_FRACS minimum).
+    ewma_span:  apply causal EWMA smoothing to all sent_* columns before regression.
     """
     import utils as _utils_mod
     from config import TARGET_NEXT, OOS_FRACS
@@ -147,7 +149,9 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None,
         oos_tag = ''
 
     use_target = target_col or TARGET_NEXT
-    tag = ('_delta' if use_target == 'delta_rate_next' else '') + oos_tag
+    start_tag = f'_from{start_date.replace("-","")[:6]}' if start_date else ''
+    ewma_tag  = f'_ewma{ewma_span}' if ewma_span else ''
+    tag = ('_delta' if use_target == 'delta_rate_next' else '') + oos_tag + start_tag + ewma_tag
 
     # Dedicated output CSV so dict results stay separate from LLM model_comparison.csv
     dict_models_csv = OUTPUTS_DIR / f'dict_favar_models{tag}.csv'
@@ -178,6 +182,13 @@ def run_dict_favars(dict_filter: str = None, norm_filter: str = None,
         if df_macro.empty:
             print('  Skipped (no data - run Step D first)')
             continue
+        if start_date:
+            df_macro = df_macro[df_macro['date'] >= pd.Timestamp(start_date)].reset_index(drop=True)
+
+        if ewma_span:
+            sent_cols = [c for c in df_macro.columns if c.startswith('sent_')]
+            for c in sent_cols:
+                df_macro[c] = df_macro[c].ewm(span=ewma_span, adjust=False).mean()
 
         # Swap target column in-place so step3/step4 see it as TARGET_NEXT
         if use_target != TARGET_NEXT:
@@ -248,7 +259,12 @@ if __name__ == '__main__':
                         help='Regression target: level (target_next) or change (delta_rate_next)')
     parser.add_argument('--oos-frac', type=float, default=None,
                         help='OOS training fraction, e.g. 0.80 for 80%% train / 20%% OOS (default: 0.60)')
+    parser.add_argument('--start-date', type=str, default=None,
+                        help='Drop rows before this date, e.g. 2007-01-01')
+    parser.add_argument('--ewma-span', type=int, default=None,
+                        help='Apply causal EWMA smoothing to all sent_* columns, e.g. 10')
     args = parser.parse_args()
     run_dict_favars(dict_filter=args.dict, norm_filter=args.norm,
                     doc_filter=args.doc, target_col=args.target,
-                    oos_frac=args.oos_frac)
+                    oos_frac=args.oos_frac, start_date=args.start_date,
+                    ewma_span=args.ewma_span)

@@ -55,7 +55,7 @@ def _banner(step: str):
     print(f'{"="*65}')
 
 
-def run(sentences_path=None, steps=None):
+def run(sentences_path=None, steps=None, start_date=None, ewma_span=None):
     steps = steps or ['D','0','1','2','3','4','5','6','7','R']
     steps = [str(s).upper() for s in steps]
 
@@ -73,7 +73,7 @@ def run(sentences_path=None, steps=None):
     if 'E' in steps:
         _banner('E — Dictionary FAVARs (Gardner + Sharpe, all combos)')
         from step_d_favar import run_dict_favars
-        run_dict_favars()
+        run_dict_favars(start_date=start_date, ewma_span=ewma_span)
 
     # ── Steps requiring LLM labels ────────────────────────────────────────────
     needs_labels = set('0123456789R') & set(steps)
@@ -111,6 +111,21 @@ def run(sentences_path=None, steps=None):
 
         df_macro    = state.get('df_macro', pd.DataFrame())
         df_sentences = state.get('df_sentences', pd.DataFrame())
+
+        # ── Sample start-date filter ───────────────────────────────────────────
+        if start_date and not df_macro.empty:
+            before = len(df_macro)
+            df_macro = df_macro[df_macro['date'] >= pd.Timestamp(start_date)].reset_index(drop=True)
+            state['df_macro'] = df_macro
+            print(f'  Sample restricted to >= {start_date}: {before} -> {len(df_macro)} rows')
+
+        # ── EWMA smoothing of sentiment columns ────────────────────────────────
+        if ewma_span and not df_macro.empty:
+            sent_cols = [c for c in df_macro.columns if c.startswith('sent_')]
+            for c in sent_cols:
+                df_macro[c] = df_macro[c].ewm(span=ewma_span, adjust=False).mean()
+            state['df_macro'] = df_macro
+            print(f'  EWMA smoothing applied (span={ewma_span}) to {len(sent_cols)} sent_* columns')
 
         # ── Step 1 ─────────────────────────────────────────────────────────────
         if '1' in steps:
@@ -246,5 +261,35 @@ if __name__ == '__main__':
                         help='Path to LLM-labelled sentences JSON (single file or dir)')
     parser.add_argument('--steps', nargs='+', default=None,
                         help='Steps to run, e.g. --steps D 0 1 2 3 4 5 6 7 R')
+    parser.add_argument('--dv', choices=['level', 'change'], default='level',
+                        help='Dependent variable: level=effective_rate(t+1) [default], '
+                             'change=delta_rate_next')
+    parser.add_argument('--start-date', type=str, default=None,
+                        help='Drop all macro rows before this date, e.g. 2007-01-01')
+    parser.add_argument('--ewma-span', type=int, default=None,
+                        help='Apply causal EWMA smoothing to all sent_* columns, e.g. 5')
     args = parser.parse_args()
-    run(sentences_path=args.sentences, steps=args.steps)
+
+    # Patch config BEFORE any step module is imported so all lazy imports see
+    # the correct TARGET_NEXT and output directories.
+    import config as _cfg
+    suffix = ''
+    if args.dv == 'change':
+        _cfg.TARGET_NEXT = 'delta_rate_next'
+        suffix += '_change_dv'
+    if args.start_date:
+        tag = args.start_date.replace('-', '')[:6]
+        suffix += f'_from{tag}'
+    if args.ewma_span:
+        suffix += f'_ewma{args.ewma_span}'
+    if suffix:
+        _cfg.OUTPUTS_DIR  = _cfg.OUTPUTS_DIR.parent / f'outputs{suffix}'
+        _cfg.WARNINGS_LOG   = _cfg.OUTPUTS_DIR / 'warnings.log'
+        _cfg.DATE_ALIGN_LOG = _cfg.OUTPUTS_DIR / 'date_alignment_warnings.txt'
+        _cfg.OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
+        global OUTPUTS_DIR
+        OUTPUTS_DIR = _cfg.OUTPUTS_DIR
+        print(f'Outputs -> {OUTPUTS_DIR}')
+
+    run(sentences_path=args.sentences, steps=args.steps,
+        start_date=args.start_date, ewma_span=args.ewma_span)

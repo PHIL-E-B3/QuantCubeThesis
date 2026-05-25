@@ -64,6 +64,11 @@ def load_sentences(path) -> pd.DataFrame:
     df = pd.DataFrame(records)
     # Rename abbreviated field names to full names if present
     df = df.rename(columns={k: v for k, v in _FIELD_REMAP.items() if k in df.columns})
+    # Normalise compact YYYYMMDD strings (e.g. '20040128') to ISO before parsing
+    df['date'] = df['date'].apply(
+        lambda v: f'{str(v)[:4]}-{str(v)[4:6]}-{str(v)[6:8]}'
+        if isinstance(v, str) and len(v) == 8 and str(v).isdigit() else v
+    )
     df['date'] = pd.to_datetime(df['date'], errors='coerce')
     # Convert semantic sentiment strings to numeric (also handles already-numeric values)
     if 'sentiment' in df.columns:
