@@ -118,6 +118,7 @@ def load_checkpoint(ckpt_path: Path) -> dict:
 
 def append_checkpoint(ckpt_path: Path, records: list[dict]) -> None:
     """Append a batch of labelled records to the JSONL checkpoint file."""
+    ckpt_path.parent.mkdir(parents=True, exist_ok=True)
     with open(ckpt_path, "a", encoding="utf-8") as f:
         for rec in records:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
