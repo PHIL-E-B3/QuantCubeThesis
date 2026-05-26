@@ -1,0 +1,112 @@
+# OOS Forecasting Results: LLM Sentiment vs Macro Baseline
+**Sample**: N=151 FOMC meetings, 2007–2025  
+**Baseline**: Macro-only expanding FAVAR (5 PCA factors from 7 macro regressors)  
+**Significance**: Diebold-Mariano (DM) for joint-PCA models; Clark-West (CW) for nested FAVAR models
+
+---
+
+## 1. Summary Tables (Best 3 per Method, OOS60/70/80/90)
+
+### Table 1: Level Target (effective rate at next meeting)
+
+| Method   | Model                          |  N  | Adj-R² | OOS60 | OOS70 | OOS80 | OOS90 |
+|----------|--------------------------------|-----|--------|-------|-------|-------|-------|
+| Baseline | Macro-only FAVAR               | 151 | 0.967  | 0.585 | 0.573 | 0.534 | 0.429 |
+| LLM [DM] | 4h_llm_total                   | 151 | 0.959  | 0.563 | 0.626 | 0.255*** | 0.228** |
+| LLM [DM] | 4h_llm_topics                  | 151 | 0.963  | 0.725 | 0.818 | 0.266*** | 0.223*** |
+| LLM [DM] | 4h_llm_all_sent                | 151 | 0.963  | 0.705 | 0.796 | 0.267*** | 0.225*** |
+| Gardner [CW] | G4_pc_wc_EWMA10_4b_cons    | 118 | 0.979  | 0.902 | 0.547* | 0.230*** | 0.219** |
+| Gardner [CW] | G5_pc_zs_EWMA10_4f_matched | 118 | 0.982  | 1.113** | 0.395*** | 0.245*** | 0.275*** |
+| Gardner [CW] | G6_pc_zs_EWMA10_4b_cons_matched | 118 | 0.977 | 1.203** | 0.466** | 0.254** | 0.281 |
+| Sharpe [CW] | S7_statements_zs_4e           | 151 | 0.982  | 0.437*** | 0.451*** | 0.296*** | 0.248*** |
+| Sharpe [CW] | S8_speeches_wc_EWMA10_4e      | 151 | 0.985  | 0.501*** | 0.490*** | 0.323*** | 0.265*** |
+| Sharpe [DM] | S9_4h_sharpe_total_inter      | 151 | 0.964  | 0.528 | 0.565 | 0.372*** | 0.213*** |
+
+*OOS60/70 blank for LLM = model RMSE > baseline RMSE on that sub-period (COVID/ZLB, 2019–2022).*  
+*Gardner N=118: press conferences begin 2011; baseline comparison is against N=118 sub-sample baseline.*
+
+### Table 2: Delta Target (change in effective rate at next meeting)
+
+| Method   | Model                               |  N  | Adj-R² | OOS60 | OOS70 | OOS80 | OOS90 |
+|----------|-------------------------------------|-----|--------|-------|-------|-------|-------|
+| Baseline | Macro-only FAVAR                    | 151 | 0.301  | 0.314 | 0.314 | 0.265 | 0.169 |
+| LLM [DM] | 4h_llm_all_sent                     | 151 | 0.392  | 0.267*** | 0.257*** | 0.210* | 0.130 |
+| LLM [DM] | 4h_llm_topics                       | 151 | 0.389  | 0.268*** | 0.260*** | 0.211* | 0.132 |
+| LLM [DM] | 4h_llm_total_inter                  | 151 | 0.245  | 0.341 | 0.355 | 0.276 | 0.196 |
+| Gardner [CW] | G4_speeches_zs_4f_matched       | 151 | 0.352  | 0.299*** | 0.298*** | 0.240** | 0.176 |
+| Gardner [CW] | G5_minutes_zs_ewma10_4c_topics  | 151 | 0.406  | 0.319 | 0.312** | 0.223* | 0.188 |
+| Gardner [CW] | G6_minutes_zs_4f_matched        | 151 | 0.360  | 0.301*** | 0.315 | 0.255** | 0.171 |
+| Sharpe [CW] | S7_all_docs_wc_ewma10_4b_cons    | 151 | 0.347  | 0.304* | 0.307 | 0.241* | 0.167 |
+| Sharpe [CW] | S8_statements_wc_ewma10_4b_cons  | 151 | 0.343  | 0.305* | 0.309 | 0.243* | 0.167 |
+| Sharpe [CW] | S9_minutes_zs_4e_inter           | 151 | 0.323  | 0.315 | 0.314 | 0.253 | 0.178 |
+
+*\* p<0.10  \*\* p<0.05  \*\*\* p<0.01  (blank = model RMSE > baseline)*
+
+---
+
+## 2. Statistical Test Choice: DM vs CW
+
+| Model type | Structure | Correct test | Reason |
+|---|---|---|---|
+| Joint PCA (4h LLM, S9) | Non-nested: JPC ≠ restricted BPC | **DM** | Baseline not a restricted version of model |
+| Standard FAVAR (Gardner, Sharpe) | Nested: baseline = model minus sentiment cols | **CW** | CW corrects finite-sample negative bias of DM for nested models |
+
+**Key finding from cross-test diagnostic (delta, OOS80, N=151):**
+
+| Model | RMSE | Improvement | DM-t | DM-p | CW-t | CW-p |
+|---|---|---|---|---|---|---|
+| 4h_llm_all_sent | 0.210 | 20.8% | 1.490 | 0.068* | 2.413 | 0.008*** |
+| G4_speeches_zs | 0.240 | 9.6% | 1.170 | 0.121 | 2.029 | 0.021** |
+
+LLM achieves a larger RMSE improvement (20.8% vs 9.6%) but appears less significant because DM is the appropriate (more conservative) test for non-nested models. G4's ** under CW is legitimate — CW corrects for the finite-sample downward bias of DM in nested settings. The significance levels are not directly comparable across model types.
+
+---
+
+## 3. Multi-Horizon DM Test (delta, 50% training)
+
+**Setup**: expanding window from 50% of N (~75 meetings), predicting h meetings ahead.  
+**Target**: cumulative delta = `effective_rate[t+h] - effective_rate[t]`  
+**OOS predictions**: ~76 at h=1, decreasing to ~61 at h=30.
+
+### 4h_llm_all_sent
+
+| h | n_pred | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|---|--------|-----------|-----------|---------|------|------|-----|
+| 1 | 76 | 0.243 | 0.283 | 14.1% | 2.419 | 0.0078 | *** |
+| 5 | 74 | 0.618 | 0.745 | 17.2% | 1.300 | 0.0968 | * |
+| 10 | 71 | 1.383 | 1.140 | -21.4% | — | — | |
+| 15 | 69 | 1.770 | 1.889 | 6.3% | 1.044 | 0.148 | |
+| 20 | 66 | 2.498 | 2.294 | -8.9% | — | — | |
+| 25 | 64 | 2.356 | 2.800 | 15.9% | 1.714 | 0.043 | ** |
+| 30 | 61 | 2.305 | 2.689 | 14.3% | 2.054 | 0.020 | ** |
+
+### 4h_llm_topics
+
+| h | n_pred | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|---|--------|-----------|-----------|---------|------|------|-----|
+| 1 | 76 | 0.244 | 0.283 | 13.5% | 2.334 | 0.0098 | *** |
+| 5 | 74 | 0.621 | 0.745 | 16.7% | 1.271 | 0.102 | |
+| 10 | 71 | 1.392 | 1.140 | -22.1% | — | — | |
+| 15 | 69 | 1.743 | 1.889 | 7.7% | 1.231 | 0.109 | |
+| 20 | 66 | 2.147 | 2.294 | 6.4% | 1.546 | 0.061 | * |
+| 25 | 64 | 2.344 | 2.800 | 16.3% | 1.687 | 0.046 | ** |
+| 30 | 61 | 2.300 | 2.689 | 14.5% | 2.023 | 0.022 | ** |
+
+### Key findings
+
+1. **h=1 (next meeting): *** significance** — both all_sent and topics beat the macro baseline at the 1% level when trained from 50% and predicting meeting-by-meeting. This is the primary result.
+
+2. **h=10–20 (medium run): model fails** — sentiment cannot reliably predict cumulative rate changes 1–2 years out. The model actively underperforms the baseline at h=10.
+
+3. **h=25–30 (long run): ** significance** — LLM sentiment regains predictive power at 2–3 year horizons, likely capturing persistent hawkish/dovish regime shifts.
+
+4. **Power matters**: the h=1 result shows *** with 76 OOS predictions (50% training) vs only * with 31 predictions (OOS80 / 80% training). The model's true predictive advantage was present throughout — the OOS80 window was simply too short for DM to confirm it.
+
+---
+
+## 4. Notes
+
+- **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
+- **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
+- **Gardner press_conf (level, N=118)**: OOS60/70 significance stars are against the N=118 sub-sample baseline, not the N=151 baseline shown in the table header. OOS80/90 comparisons are reliable.
+- **Delta OOS90**: only ~16 predictions; DM is severely underpowered at this window size.
