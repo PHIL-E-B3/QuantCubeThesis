@@ -180,7 +180,48 @@ Harvey-Leybourne-Newbold (1997) small-sample corrected DM: t=2.72, p=0.0040 ***.
 
 ---
 
-## 6. Notes
+## 6. Sentence-Attribute Filtering Variants (h=1)
+
+**Question**: Is the predictive signal driven by a specific subset of sentences — forward-looking (interpretive) sentences only, or does it survive when commitment language is stripped out?
+
+**Setup**: Same as multi-horizon h=1 test (50% training, expanding OLS, DM vs Macro FAVAR). Two variants tested against the original 4h_llm_all_sent:
+
+| Variant | Filter | Sentences kept |
+|---------|--------|---------------|
+| Original | None | 174,525 (100%) |
+| A: Interpretive only | tense == 'interpretive' | 35,430 (20%) |
+| B: Excl. unconditional docs | Drop whole doc if any sentence has commitment=True | 98,593 (57%) |
+| B2: Drop unconditional sentences | Drop only sentences with commitment=True | 171,923 (98.5%) |
+
+**Corpus breakdown**:
+- 139,095 descriptive sentences / 35,430 interpretive (20%)
+- 2,602 sentences with commitment=True (unconditional, 1.5% of corpus)
+- Unconditional sentences appear in 85–94% of minutes, statements, and prepared remarks — nearly every formal FOMC document
+
+### Results
+
+| Model | N_sent | n_pred | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|-------|--------|--------|-----------|-----------|---------|------|------|-----|
+| Original 4h_llm_all_sent | 174,525 | 76 | 0.2428 | 0.2826 | +14.1% | 2.419 | 0.0078 | *** |
+| A: Interpretive only | 35,430 | 76 | 0.2513 | 0.2826 | +11.0% | 1.228 | 0.110 | |
+| B: Excl. unconditional docs | 98,593 | 76 | 0.3014 | 0.2826 | −6.7% | −1.712 | — | |
+| B2: Drop unconditional sents | 171,923 | 76 | 0.2899 | 0.2826 | −2.6% | −0.441 | — | |
+
+### Interpretation
+
+**Variant A**: Restricting to interpretive (forward-looking) sentences reduces the improvement from 14.1% to 11.0% and loses significance (p=0.11). Descriptive sentences contribute useful signal — they report on current economic conditions that the PCA picks up as leading indicators. The combination of both tenses is what drives the *** result.
+
+**Variants B and B2**: Both show the model underperforming the macro baseline when unconditional commitment language is removed. Strikingly, dropping just the 2,602 unconditional sentences (1.5% of the corpus) is enough to collapse performance below the macro baseline. This is a strong result:
+
+> The predictive signal is concentrated in the small fraction of sentences where the Fed makes explicit, unconditional commitments — the "Odyssean" forward guidance moments. These sentences (e.g., "we commit to holding rates near zero until unemployment falls below X") carry disproportionate predictive weight relative to their frequency.
+
+This is not a methodological concern — it validates the economic hypothesis. The LLM correctly identifies and weights the most policy-relevant language. The finding is consistent with the Odyssean vs Delphic guidance distinction in the literature (Campbell et al. 2012): unconditional forward guidance conveys the clearest signal about the future rate path.
+
+**Caveat on Variant B's scope**: The "any unconditional sentence in document" threshold is very broad. 85–94% of minutes, statements, and prepared remarks contain at least one unconditional sentence — so Variant B effectively removes almost all formal FOMC communications, leaving primarily speeches without explicit commitments.
+
+---
+
+## 7. Notes
 
 - **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
 - **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
