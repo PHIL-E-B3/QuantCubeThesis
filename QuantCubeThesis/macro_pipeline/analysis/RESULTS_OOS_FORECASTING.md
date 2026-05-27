@@ -312,9 +312,34 @@ Does the 4h_llm_all_sent model outperform the macro FAVAR specifically in high-r
 
 ---
 
-## 8. Notes
+## 8. Method Comparison: LLM vs Gardner (2022) vs Sharpe (2023) — Delta Target
+
+**Setup**: All three NLP methods are evaluated in the *same* joint-PCA FAVAR architecture on the delta target (cum_delta_h1), h=1, 50% training, 2007–2025. Gardner and Sharpe scores are aggregated by summing z-scored document-level scores to the meeting level across all doc types (statements, minutes, speeches, press conferences). **DM test** is used throughout (correct for non-nested joint PCA models; prior files for Gardner/Sharpe used CW — wrong for this architecture).
+
+| Method | Sentiment cols | n OOS | mdl RMSE | base RMSE | Improv | DM-t | p | sig |
+|--------|---------------|-------|----------|-----------|--------|------|---|-----|
+| **LLM_all_sent** | sent_total + 6 topic scores | 76 | **0.2428** | 0.2826 | **+14.1%** | **2.419** | **0.008** | **\*\*\*** |
+| Sharpe_all | net + positive + negative + consensus | 76 | 0.2739 | 0.2826 | +3.1% | 1.504 | 0.066 | * |
+| Sharpe_net | sharpe_net only | 76 | 0.2848 | 0.2826 | -0.8% | -0.419 | — | |
+| Gardner_total | gardner_total only | 76 | 0.2904 | 0.2826 | -2.8% | -0.732 | — | |
+| Gardner_all | all 6 Gardner topic scores | 76 | 0.3075 | 0.2826 | -8.8% | -1.923 | — | |
+
+Baseline (all rows): Macro FAVAR = PCA on 7 macro regressors, expanding OLS. DM p-value shown as "—" when DM-t < 0 (model worse than baseline; one-sided test does not apply).
+
+**Findings:**
+
+- **LLM is the only method that significantly outperforms the macro FAVAR baseline** on the rate change target: +14.1% RMSE improvement, DM-t = 2.42, p = 0.008 ***.
+- **Gardner scores hurt predictive accuracy**: Gardner_all is -8.8% (worse than baseline). Gardner_total is marginally negative (-2.8%). Neither is close to significance in the right direction. The simple hawkish/dovish word-count framework does not capture the forward-looking signal in FOMC communications that matters for *rate changes*.
+- **Sharpe scores are slightly positive but not robust**: Sharpe_all achieves +3.1% and borderline significance (* at 10%), but Sharpe_net alone is near zero. The composite of positive/negative/consensus scores partially captures something, but far below the LLM multi-topic architecture.
+- **The performance gap between LLM and dictionary methods is large** (~10 pp RMSE improvement): LLM topic decomposition (inflation, labor, economic activity, financial conditions, monetary policy, macro) extracts signals that a simple positive/negative polarity score misses. The granular, topic-specific sentiment produced by the LLM is informationally distinct from the macro regressors in a way that generic sentiment is not.
+- **This confirms the thesis contribution**: the LLM-based approach is not just a repackaging of existing dictionary methods — it produces genuinely new predictive information at the meeting-level for short-horizon policy forecasting.
+
+---
+
+## 9. Notes
 
 - **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
 - **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
 - **Gardner press_conf (level, N=118)**: OOS60/70 significance stars are against the N=118 sub-sample baseline, not the N=151 baseline shown in the table header. OOS80/90 comparisons are reliable.
 - **Delta OOS90**: only ~16 predictions; DM is severely underpowered at this window size.
+- **Gardner/Sharpe level results** (prior files `4h_gard_joint_pca_200701.csv`, `4h_sharpe_joint_pca_200701.csv`): CW test was used throughout — this is the wrong test for joint PCA (non-nested) models. Those level-target results should be treated with caution.

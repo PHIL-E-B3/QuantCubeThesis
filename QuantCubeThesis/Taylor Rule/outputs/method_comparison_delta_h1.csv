@@ -1,0 +1,6 @@
+method,n_oos,n_pca,rmse_model,rmse_base,improv_pct,dm_t,dm_p,sig
+LLM_all_sent,76,14,0.2428,0.2826,14.1,2.4189,0.0078,***
+Gardner_all,76,13,0.3075,0.2826,-8.8,-1.9228,,
+Gardner_total,76,8,0.2904,0.2826,-2.8,-0.7321,,
+Sharpe_all,76,11,0.2739,0.2826,3.1,1.5039,0.0663,*
+Sharpe_net,76,8,0.2848,0.2826,-0.8,-0.4189,,
