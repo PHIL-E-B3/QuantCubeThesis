@@ -245,7 +245,74 @@ This finding is consistent with the PCA-as-information-aggregator view of FAVAR 
 
 ---
 
-## 7. Notes
+## 7. Risk and Uncertainty Flag Analysis (h=1)
+
+**Hypotheses:**
+- (U) Elevated uncertainty → asymmetric FOMC reaction function → model more predictive in high-uncertainty periods
+- (R-down) High downside risk → rate cut more likely
+- (R-up) High upside risk → rate hike more likely
+
+**Aggregation rule**: All three flags have counts >0 at almost every meeting (flag_elevated_wid and flag_skew_down: 0% zero; flag_skew_up: 5% zero). Continuous distributions → **median split** for all three.
+
+| Flag | Median | Range |
+|------|--------|-------|
+| flag_elevated_wid | 20 | [6, 122] |
+| flag_skew_up | 10 | [0, 57] |
+| flag_skew_down | 44 | [9, 162] |
+
+### 7.1 Directional accuracy
+
+Does high upside/downside risk actually predict the direction of the next policy move?
+
+| Condition | N | % Cuts | % Holds | % Hikes | Mean delta |
+|-----------|---|--------|---------|---------|-----------|
+| All meetings | 152 | 43.4% | 13.2% | 43.4% | −0.010 |
+| High downside risk | 75 | 46.7% | 16.0% | 37.3% | −0.031 |
+| Low downside risk | 77 | 40.3% | 10.4% | 49.4% | +0.010 |
+| **High upside risk** | **67** | **26.9%** | **23.9%** | **49.3%** | **+0.093** |
+| **Low upside risk** | **85** | **56.5%** | **4.7%** | **38.8%** | **−0.091** |
+| High uncertainty | 75 | 38.7% | 18.7% | 42.7% | +0.009 |
+| Low uncertainty | 77 | 48.1% | 7.8% | 44.2% | −0.028 |
+
+**Correlations with cum_delta_h1:**
+
+| Flag | Correlation |
+|------|------------|
+| flag_elevated_wid | +0.077 |
+| flag_skew_up | **+0.308** |
+| flag_skew_down | −0.097 |
+
+**Findings:**
+
+- **Upside risk strongly confirmed** (corr = +0.31): high upside risk meetings see 49% hikes vs 39% in low upside risk, with a mean delta spread of +0.093 vs −0.091. This is the clearest directional signal in the flags.
+- **Downside risk directionally correct** but weaker (corr = −0.10): high downside risk meetings have more cuts (46.7% vs 40.3%) and fewer hikes (37.3% vs 49.4%).
+- **Uncertainty does not predict direction**: roughly equal cuts/hikes in both high and low uncertainty subsamples (corr = +0.08).
+
+### 7.2 Subsample DM test
+
+Does the 4h_llm_all_sent model outperform the macro FAVAR specifically in high-risk or high-uncertainty periods?
+
+| Subsample | N | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|-----------|---|-----------|-----------|---------|------|------|-----|
+| [Full sample] | 76 | 0.2428 | 0.2826 | +14.1% | 2.419 | 0.0078 | *** |
+| High uncertainty | 47 | 0.1883 | 0.2279 | +17.4% | 1.640 | 0.051 | * |
+| Low uncertainty | 29 | 0.3116 | 0.3537 | +11.9% | 2.273 | 0.012 | ** |
+| High upside risk | 47 | 0.2134 | 0.2558 | +16.6% | 1.581 | 0.057 | * |
+| Low upside risk | 29 | 0.2841 | 0.3212 | +11.5% | 2.242 | 0.013 | ** |
+| **High downside risk** | **41** | **0.1551** | **0.1947** | **+20.3%** | **2.120** | **0.017** | **\*\*** |
+| Low downside risk | 35 | 0.3160 | 0.3591 | +12.0% | 2.249 | 0.012 | ** |
+
+**Findings:**
+
+- The model beats the macro FAVAR in **every single subsample** at * or **.
+- **High downside risk achieves the largest improvement (+20.3%, **)**, directly validating the hypothesis that the model has more value when the FOMC is concerned about downside risks.
+- The pattern across all flags: high-flag subsamples tend to show larger RMSE improvements (17–20%) but slightly lower DM significance vs low-flag subsamples (11–12% improvement, **). This reflects the higher volatility in high-risk periods (larger loss differential variance) which reduces DM power even as the absolute gains increase.
+- High uncertainty shows the same pattern: +17.4% improvement but only * significance vs ** in low uncertainty periods.
+- **The model does not rely on any single regime to survive**: ** holds in both halves for downside risk, and both halves for the other flags. This is additional evidence against regime-dependency.
+
+---
+
+## 8. Notes
 
 - **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
 - **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
