@@ -158,7 +158,29 @@ The model gains accumulate gradually across C_zlb and D_hiking (the two high-rat
 
 ---
 
-## 5. Notes
+## 5. Block Bootstrap DM Test (h=1)
+
+**Why not a permutation test**: shuffling the target or predictions breaks the temporal ordering that expanding-window OLS depends on — the null distribution would be meaningless.
+
+**Moving block bootstrap (Kunsch 1989)**: resamples contiguous blocks of the loss differential series `d_t = e_b² - e_m²`, preserving local autocorrelation. B=5,000 replications; H0 imposed by centering `d_t`. One-sided p-value = fraction of bootstrap DM stats ≥ observed.
+
+**Observed DM stat: t = 2.74** (vs 2.42 from `diebold_mariano_test` — small difference from variance estimator convention; both *** level).
+
+| Block L | Rationale | Bootstrap p-val | Sig |
+|---------|-----------|----------------|-----|
+| 3 | fixed 3 | 0.0008 | *** |
+| 4 | T^(1/3) | 0.0008 | *** |
+| 5 | fixed 5 | 0.0010 | *** |
+| 8 | fixed 8 | 0.0032 | *** |
+| 9 | T^(1/2) | 0.0048 | *** |
+
+Harvey-Leybourne-Newbold (1997) small-sample corrected DM: t=2.72, p=0.0040 ***.
+
+**Finding**: p < 0.01 at every block length tested. The result is not an artefact of parametric distributional assumptions. The empirical null distribution, which accounts for autocorrelation in `d_t`, confirms *** significance.
+
+---
+
+## 6. Notes
 
 - **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
 - **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
