@@ -104,7 +104,61 @@ LLM achieves a larger RMSE improvement (20.8% vs 9.6%) but appears less signific
 
 ---
 
-## 4. Notes
+## 4. Robustness: Regime Analysis for h=1
+
+**Setup**: Expanding OLS from 50% training (same as multi-horizon test). 76 OOS predictions (2016–2025). Model: 4h_llm_all_sent vs Macro FAVAR baseline.
+
+**Economic regimes (OOS period ~2019–2025):**
+
+| Regime | Period | N (OOS) |
+|--------|--------|---------|
+| A. Pre-COVID | 2019-01 to 2020-02 | 9 |
+| B. COVID shock | 2020-03 to 2020-06 | 4 |
+| C. ZLB | 2020-07 to 2022-02 | 13 |
+| D. Hiking | 2022-03 to 2023-07 | 12 |
+| E. Peak+Cuts | 2023-08 to 2025-12 | 18 |
+
+### 4.1 Sub-period DM within each regime
+
+| Regime | N | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|--------|---|-----------|-----------|---------|------|------|-----|
+| A. Pre-COVID | 9 | 0.3580 | 0.3952 | 9.4% | — | — | (too few) |
+| B. COVID shock | 4 | — | — | — | — | — | (too few) |
+| C. ZLB | 13 | 0.3545 | 0.4145 | 14.5% | 2.280 | 0.0113 | ** |
+| D. Hiking | 12 | 0.2946 | 0.3756 | 21.6% | 1.467 | 0.0712 | * |
+| E. Peak+Cuts | 18 | 0.1335 | 0.1591 | 16.1% | 0.697 | 0.2428 | |
+
+ZLB and Hiking are the periods of clearest outperformance. Peak+Cuts shows a 16.1% improvement but n=18 provides insufficient power for DM significance.
+
+### 4.2 Leave-one-regime-out
+
+| Excluded regime | N | Model RMSE | Base RMSE | Improv% | DM-t | DM-p | Sig |
+|-----------------|---|-----------|-----------|---------|------|------|-----|
+| [All included] | 76 | 0.2428 | 0.2826 | 14.1% | 2.419 | 0.0078 | *** |
+| excl. A. Pre-COVID | 67 | 0.2229 | 0.2638 | 15.5% | 2.018 | 0.0218 | ** |
+| excl. B. COVID shock | 72 | 0.2455 | 0.2862 | 14.2% | 2.386 | 0.0085 | *** |
+| excl. C. ZLB | 63 | 0.2126 | 0.2467 | 13.8% | 1.689 | 0.0456 | ** |
+| excl. D. Hiking | 64 | 0.2318 | 0.2614 | 11.3% | 2.244 | 0.0124 | ** |
+| excl. E. Peak+Cuts | 58 | 0.2678 | 0.3111 | 13.9% | 2.386 | 0.0085 | *** |
+
+**Key finding**: significance holds at ** or *** when any single regime is excluded. The h=1 result is not driven by any one period.
+
+### 4.3 Cumulative loss differential by regime
+
+| Regime | N | Avg loss diff | Cumulative contribution |
+|--------|---|--------------|------------------------|
+| pre-OOS (2016–2018) | 20 | −0.0041 | −0.0819 |
+| A. Pre-COVID | 9 | +0.0281 | +0.2526 |
+| B. COVID shock | 4 | +0.0073 | +0.0292 |
+| C. ZLB | 13 | +0.0461 | +0.5998 |
+| D. Hiking | 12 | +0.0543 | +0.6515 |
+| E. Peak+Cuts | 18 | +0.0075 | +0.1347 |
+
+The model gains accumulate gradually across C_zlb and D_hiking (the two high-rate-change periods), not from a single spike. The pre-2019 window (before the OOS regime of interest) is slightly negative, reflecting the warm-up period before the model has enough training data.
+
+---
+
+## 5. Notes
 
 - **Adj-R² for level is high (>0.96)** by construction: effective rate is highly persistent and macro PCA (which includes implied_ffr) fits the level well in-sample. OOS RMSE is the more informative metric for level.
 - **Adj-R² for delta (0.25–0.41)** is more meaningful: changes are genuinely hard to predict, and LLM topic scores add ~10pp of explanatory power over the macro baseline.
