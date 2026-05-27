@@ -244,6 +244,31 @@ print(f'  Sentences remaining: {len(df_no_firm_sents):,}')
 panel_b2 = sentences_to_meeting_panel(df_no_firm_sents)
 
 
+# ── 2×2 decomposition: tense × commitment ─────────────────────────────────────
+# Pinpoint exactly which quadrant carries the predictive signal.
+#
+#   interpretive + NOT unconditional : forward-looking, tentative (user hypothesis)
+#   interpretive + unconditional     : Odyssean guidance (firm forward commitment)
+#   descriptive  + NOT unconditional : current/past assessment (already in macro)
+#   descriptive  + unconditional     : announced decisions ("Committee raised rates")
+
+df_all['_firm'] = df_all['commitment'].apply(
+    lambda v: v is True or str(v).lower() == 'unconditional'
+)
+
+QUADRANTS = {
+    'C: interp + cond  (not uncondit)': df_all[ (df_all['tense']=='interpretive') & ~df_all['_firm']],
+    'D: interp + uncondit (Odyssean)' : df_all[ (df_all['tense']=='interpretive') &  df_all['_firm']],
+    'E: descrip + cond  (not uncondit)': df_all[(df_all['tense']=='descriptive')  & ~df_all['_firm']],
+    'F: descrip + uncondit (past decis)': df_all[(df_all['tense']=='descriptive') &  df_all['_firm']],
+}
+
+panels_quad = {}
+for label, df_q in QUADRANTS.items():
+    print(f'\n  [{label}]  n={len(df_q):,}  ({len(df_q)/len(df_all)*100:.1f}%)', flush=True)
+    panels_quad[label] = sentences_to_meeting_panel(df_q.drop(columns=['_firm'], errors='ignore').copy())
+
+
 # ── Baseline: original 4h_llm_all_sent (from existing merged CSV) ─────────────
 
 print('\n  [Orig] Loading original merged panel...', flush=True)
@@ -262,6 +287,13 @@ if r_a:  r_a['n_sent_sentences']  = len(df_interp)
 if r_b:  r_b['n_sent_sentences']  = len(df_no_unconditional)
 if r_b2: r_b2['n_sent_sentences'] = len(df_no_firm_sents)
 
+results_quad = {}
+for label, panel_q in panels_quad.items():
+    r = run_dm_h1(panel_q, label)
+    if r:
+        r['n_sent_sentences'] = len(QUADRANTS[label])
+    results_quad[label] = r
+
 # ── Print results ──────────────────────────────────────────────────────────────
 
 print('\n' + '=' * 100)
@@ -275,6 +307,24 @@ hdr = (f'\n  {"Model":<36}  {"N_sent":>8}  {"n_pred":>6}  {"JPC":>4}  '
 print(hdr)
 print('  ' + '-' * 96)
 
+print('\n\n  --- 2x2 DECOMPOSITION: tense x commitment ---')
+print('  Which quadrant carries the predictive signal?')
+print(hdr)
+print('  ' + '-' * 96)
+for label, r in results_quad.items():
+    if r is None:
+        print(f'  {label:<36}  (insufficient data)')
+        continue
+    n_s  = f'{r["n_sent_sentences"]:,}'
+    dm_t = f'{r["dm_t"]:>7.3f}' if r['dm_t'] is not None and not np.isnan(r['dm_t']) else '    n/a'
+    dm_p = f'{r["dm_p"]:.4f}'  if r['dm_p'] is not None and not np.isnan(r['dm_p']) else '   n/a'
+    print(f'  {r["label"]:<36}  {n_s:>8}  {r["n_pred"]:>6}  {r["n_jpc"]:>4}  '
+          f'{r["rmse_m"]:>9.4f}  {r["rmse_b"]:>10.4f}  {r["improv"]:>7.1f}%  '
+          f'{dm_t}  {dm_p}  {sig_star(r["dm_p"]):>3}')
+
+print('\n  --- ORIGINAL + EARLY VARIANTS (for reference) ---')
+print(hdr)
+print('  ' + '-' * 96)
 for r in [r_orig, r_a, r_b, r_b2]:
     if r is None:
         continue
@@ -297,7 +347,7 @@ print(f'    minutes=94%, statements=85%, press_conf_prepared=90%, speech=25%')
 print(f'  - base_RMSE may differ slightly because fewer sentiment cols shift PCA')
 
 # ── Save ───────────────────────────────────────────────────────────────────────
-rows = [r for r in [r_orig, r_a, r_b, r_b2] if r is not None]
+rows = [r for r in [r_orig, r_a, r_b, r_b2] + list(results_quad.values()) if r is not None]
 df_out = pd.DataFrame([{k: v for k, v in r.items() if k != 'n_sent_sentences'}
                         for r in rows])
 out = root + r'\Taylor Rule\outputs\tense_commitment_variants.csv'
