@@ -1,0 +1,209 @@
+% table_unified_delta.tex
+% Out-of-sample evaluation: Delta FFR target (h=1), all methods x architectures
+% Generated from diag_unified_delta_table.py (unified_delta_table.csv)
+%
+% Required packages: booktabs, longtable, amsmath, amssymb
+%
+% Usage in main document:
+%   \input{table_unified_delta}
+
+\begin{small}
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{@{} l r r r r @{\hspace{3pt}} l @{\hspace{6pt}} r r @{}}
+
+\caption{Out-of-sample forecast evaluation for the rate change target
+($\Delta\mathrm{FFR}_{t+1} - \Delta\mathrm{FFR}_t$), one meeting ahead ($h=1$).
+\textit{Sample}: $N=151$ FOMC meetings, January 2007--December 2025.
+\textit{Protocol}: 50\% initial training window, expanding OLS re-estimated at each step,
+$N_{\mathrm{OOS}}=76$ predictions.
+\textit{Baseline} (shown once): Macro FAVAR --- PCA on 7 macro regressors
+($\hat{\pi}$, $u$-gap, GDP growth, CFNAI, VIX, shadow rate, implied FFR);
+RMSE\,$=$\,0.2826 throughout.
+\textit{Imp.}: $({\rm RMSE}_{\rm base} - {\rm RMSE}_{\rm model})/{\rm RMSE}_{\rm base}\times 100$.
+\textit{Panel A} (Joint PCA): macro and sentiment factors extracted jointly via PCA;
+Diebold--Mariano one-sided test ($H_1$: model $\prec$ baseline, i.e.\ lower RMSE).
+\textit{Panel B} (Nested FAVAR): macro PCA factors retained from Panel A baseline plus
+raw sentiment scores appended as additional OLS regressors; Clark--West test (correct
+for nested specification).
+\textit{Sub-windows}: RMSE$_{60}$ and RMSE$_{80}$ report RMSE restricted to OOS
+predictions with $t\geq\lceil 0.60\,N\rceil$ and $t\geq\lceil 0.80\,N\rceil$,
+capturing progressively shorter, more recent evaluation windows.
+``---'' denotes $\hat{t}<0$ (model worse) or undefined $p$-value.
+$^{***}p<0.01$;\; $^{**}p<0.05$;\; $^{*}p<0.10$.
+Bold: lowest RMSE within each method $\times$ architecture block.}
+\label{tab:delta_unified}\\
+
+\toprule
+ & \multicolumn{5}{c}{Full OOS ($N_{\mathrm{OOS}}=76$)}
+ & \multicolumn{2}{c}{Sub-window RMSE} \\
+\cmidrule(lr){2-6}\cmidrule(l){7-8}
+Specification
+  & RMSE & Imp.\,\% & $\hat{t}$ & $p$-val &
+  & RMSE$_{60}$ & RMSE$_{80}$ \\
+\midrule
+\endfirsthead
+
+\multicolumn{8}{c}{\footnotesize\itshape (Table~\ref{tab:delta_unified} continued\ldots)}\\[4pt]
+\toprule
+ & \multicolumn{5}{c}{Full OOS ($N_{\mathrm{OOS}}=76$)}
+ & \multicolumn{2}{c}{Sub-window RMSE} \\
+\cmidrule(lr){2-6}\cmidrule(l){7-8}
+Specification
+  & RMSE & Imp.\,\% & $\hat{t}$ & $p$-val &
+  & RMSE$_{60}$ & RMSE$_{80}$ \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{8}{r}{\footnotesize\itshape (continued on next page)}\\
+\endfoot
+
+\bottomrule
+\multicolumn{8}{l}{\footnotesize
+  \textit{Notes:} $s_{\rm tot}$\,=\,aggregate LLM sentiment score;
+  $\{s_k\}_{k=1}^6$\,=\,six topic scores (inflation, labour market, economic activity,
+  financial conditions, monetary policy, macro);
+  $g_{\rm tot}$\,=\,Gardner total polarity;
+  $\{g_k\}_{k=1}^5$\,=\,Gardner topic polarity scores;
+  $s_{\rm net}$\,=\,Sharpe net sentiment;
+  $\{s_k\}_{k=1}^3$\,=\,Sharpe positive, negative, consensus scores.
+  ``Matched $\times$\,mac.'': each sentiment score interacted with its paired macro
+  variable only (e.g.\ $s_{\rm inf}\times(\hat{\pi}-\pi^*)$).
+  ``All $\times$\,mac.'': full cross-product of all sentiment scores with six macro
+  variables (VIX, GDP, $u$-gap, $\hat{\pi}-\pi^*$, shadow rate, CFNAI).
+}\\
+\endlastfoot
+
+% ====================================================================
+\multicolumn{8}{l}{\textbf{Panel A: Joint PCA FAVAR}\enspace
+  \textnormal{(Diebold--Mariano test, non-nested)}} \\[3pt]
+
+% Baseline reference row
+\quad Macro FAVAR (baseline)
+  & 0.2826 & $\phantom{+}0.0$ & --- & --- &
+  & 0.3136 & 0.2645 \\[4pt]
+
+% ---- LLM ----
+\multicolumn{8}{l}{\quad\textit{LLM sentiment (GPT-4o, all documents)}} \\
+\quad $s_{\rm tot}$ only
+  & 0.2884 & $-2.1$ & $-0.73$ & --- &
+  & 0.3207 & 0.2781 \\
+\quad $s_{\rm tot}$ + all $\times$\,mac.
+  & 0.3078 & $-8.9$ & $-1.27$ & --- &
+  & 0.3408 & 0.2755 \\
+\quad Topics $\{s_k\}_{k=1}^6$
+  & 0.2444 & $+13.5$ & $2.33$ & 0.010 & $^{***}$
+  & 0.2683 & 0.2113 \\
+\quad Topics + matched $\times$\,mac.
+  & 0.2759 & $+2.3$ & $0.24$ & 0.405 &
+  & 0.3050 & 0.2761 \\
+\quad Topics + all $\times$\,mac.
+  & 0.3351 & $-18.6$ & $-1.20$ & --- &
+  & 0.3722 & 0.3312 \\
+\quad \textbf{$s_{\rm tot}$ + Topics $\{s_k\}_{k=1}^6$}
+  & \textbf{0.2428} & $\mathbf{+14.1}$ & $2.42$ & 0.008 & $^{***}$
+  & \textbf{0.2668} & \textbf{0.2096} \\
+\quad $s_{\rm tot}$ + Topics + all $\times$\,mac.
+  & 0.3227 & $-14.2$ & $-0.91$ & --- &
+  & 0.3575 & 0.3543 \\[4pt]
+
+% ---- Gardner ----
+\multicolumn{8}{l}{\quad\textit{Gardner (2022) word-count polarity dictionary}} \\
+\quad \textbf{$g_{\rm tot}$ only}
+  & \textbf{0.2904} & $\mathbf{-2.8}$ & $-0.73$ & --- &
+  & \textbf{0.3233} & \textbf{0.3000} \\
+\quad $g_{\rm tot}$ + all $\times$\,mac.
+  & 0.3064 & $-8.4$ & $-1.33$ & --- &
+  & 0.3396 & 0.3410 \\
+\quad Topics $\{g_k\}_{k=1}^5$
+  & 0.2996 & $-6.0$ & $-1.53$ & --- &
+  & 0.3324 & 0.3103 \\
+\quad Topics + matched $\times$\,mac.
+  & 0.2986 & $-5.7$ & $-0.73$ & --- &
+  & 0.3313 & 0.2728 \\
+\quad Topics + all $\times$\,mac.
+  & 0.3150 & $-11.5$ & $-1.53$ & --- &
+  & 0.3465 & 0.3487 \\
+\quad All scores $\{g_{\rm tot},g_k\}$
+  & 0.3075 & $-8.8$ & $-1.92$ & --- &
+  & 0.3412 & 0.3237 \\
+\quad All scores + all $\times$\,mac.
+  & 0.3183 & $-12.7$ & $-1.60$ & --- &
+  & 0.3526 & 0.3609 \\[4pt]
+
+% ---- Sharpe ----
+\multicolumn{8}{l}{\quad\textit{Sharpe (2023) word-count polarity dictionary}} \\
+\quad $s_{\rm net}$ only
+  & 0.2848 & $-0.8$ & $-0.42$ & --- &
+  & 0.3157 & 0.2686 \\
+\quad $s_{\rm net}$ + all $\times$\,mac.
+  & 0.3784 & $-33.9$ & $-1.26$ & --- &
+  & 0.4211 & 0.3069 \\
+\quad Topics $\{s_k\}_{k=1}^3$
+  & 0.2755 & $+2.5$ & $1.48$ & 0.070 & $^{*}$
+  & 0.3056 & 0.2535 \\
+\quad Topics + matched $\times$\,mac.
+  & 0.3042 & $-7.7$ & $-1.92$ & --- &
+  & 0.3382 & 0.3101 \\
+\quad Topics + all $\times$\,mac.
+  & 0.3907 & $-38.3$ & $-1.38$ & --- &
+  & 0.4344 & 0.4646 \\
+\quad \textbf{All scores $\{s_{\rm net},s_k\}$}
+  & \textbf{0.2739} & $\mathbf{+3.1}$ & $1.50$ & 0.066 & $^{*}$
+  & \textbf{0.3033} & \textbf{0.2521} \\
+\quad All scores + all $\times$\,mac.
+  & 0.4151 & $-46.9$ & $-1.55$ & --- &
+  & 0.4614 & 0.4937 \\
+
+% ====================================================================
+\midrule
+\multicolumn{8}{l}{\textbf{Panel B: Nested FAVAR}\enspace
+  \textnormal{(Clark--West test, nested)}} \\[3pt]
+
+% ---- LLM nested ----
+\multicolumn{8}{l}{\quad\textit{LLM sentiment (GPT-4o, all documents)}} \\
+\quad $s_{\rm tot}$
+  & 0.2739 & $+3.1$ & $3.31$ & 0.001 & $^{***}$
+  & 0.3037 & 0.2523 \\
+\quad \textbf{Topics $\{s_k\}_{k=1}^6$}
+  & \textbf{0.2545} & $\mathbf{+9.9}$ & $3.24$ & 0.001 & $^{***}$
+  & \textbf{0.2821} & \textbf{0.2267} \\
+\quad Matched $s_k\times$\,mac.$_k$
+  & 0.2808 & $+0.6$ & $1.52$ & 0.064 & $^{*}$
+  & 0.3117 & 0.2522 \\
+\quad $s_{\rm tot}\times$\,mac.\ (all)
+  & 0.2950 & $-4.4$ & $0.94$ & --- &
+  & 0.3260 & 0.2398 \\[4pt]
+
+% ---- Gardner nested ----
+\multicolumn{8}{l}{\quad\textit{Gardner (2022) polarity dictionary}} \\
+\quad $g_{\rm tot}$
+  & 0.2796 & $+1.1$ & $1.21$ & 0.114 &
+  & 0.3108 & 0.2727 \\
+\quad Topics $\{g_k\}_{k=1}^5$
+  & 0.2873 & $-1.7$ & $1.24$ & --- &
+  & 0.3187 & 0.2596 \\
+\quad \textbf{Matched $g_k\times$\,mac.$_k$}
+  & \textbf{0.2759} & $\mathbf{+2.4}$ & $2.62$ & 0.004 & $^{***}$
+  & \textbf{0.3063} & \textbf{0.2761} \\
+\quad $g_{\rm tot}\times$\,mac.\ (all)
+  & 0.3486 & $-23.4$ & $1.70$ & --- &
+  & 0.3828 & 0.2676 \\[4pt]
+
+% ---- Sharpe nested ----
+\multicolumn{8}{l}{\quad\textit{Sharpe (2023) polarity dictionary}} \\
+\quad $s_{\rm net}$
+  & \textbf{0.2856} & $-1.1$ & $-1.34$ & --- &
+  & \textbf{0.3171} & \textbf{0.2652} \\
+\quad Topics $\{s_k\}_{k=1}^3$
+  & 0.2880 & $-1.9$ & $-0.53$ & --- &
+  & 0.3195 & 0.2729 \\
+\quad Matched $s_k\times$\,mac.$_k$
+  & 0.3183 & $-12.7$ & $-0.40$ & --- &
+  & 0.3519 & 0.2995 \\
+\quad $s_{\rm net}\times$\,mac.\ (all)
+  & 0.3406 & $-20.5$ & $-1.22$ & --- &
+  & 0.3786 & 0.2739 \\
+
+\end{longtable}
+\end{small}

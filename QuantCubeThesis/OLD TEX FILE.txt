@@ -11,6 +11,11 @@
 \usepackage{url}      % for URLs in bibliography
 \usepackage{longtable} % for multipage tables
 \usepackage{graphicx} % for figures
+\usepackage{listings} % for prompt appendix
+\usepackage{placeins} % keep appendix tables within subsections
+\usepackage{float} % allow non-floating appendix tables
+\usepackage{needspace} % avoid orphaned appendix subsection headings
+\lstset{basicstyle=\small\ttfamily,breaklines=true,columns=fullflexible,keepspaces=true}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.35\baselineskip}
@@ -44,8 +49,8 @@
   \vspace{0.15cm}
 
   {\large HEC Paris\par}\footnotemark[3]
-  
-  
+
+
 
   \vfill
   \textbf{Keywords:} FOMC communication, monetary policy, sentiment analysis, natural language processing, dictionary methods, large language models\footnotemark[1]\footnotemark[2]
@@ -68,6 +73,10 @@
 
 \textbf{Abstract}
 
+This paper studies whether sentiment in Federal Open Market Committee communication helps forecast the future policy stance of the Federal Reserve. Using official statements, minutes, press conferences, and speeches, we compare transparent dictionary indicators with labels produced by a fine-tuned large language model. Combined with a macro-financial FAVAR benchmark, LLM-based sentiment substantially improves out-of-sample forecasts of the next-period shadow rate, while dictionary methods provide only limited gains. The strongest predictive content appears in interpretive, risk-oriented, and uncertainty-rich communication, suggesting that FOMC language matters because it reveals how policymakers assess conditions and the reaction function.
+
+
+
 %We study whether linguistic signals in Federal Open Market Committee communication help forecast subsequent policy stance. We construct sentiment indicators from official statements and related texts using two approaches: domain dictionaries and large language models. These indicators are combined with standard macro-financial controls in forecasting regressions and classification models. We compare in-sample fit and out-of-sample predictive performance and assess economic interpretability. Results indicate that communication-based sentiment captures incremental information about policy direction and improves short-horizon forecasting under specific model designs.
 
 \newpage
@@ -85,9 +94,11 @@ This paper studies whether sentiment extracted from public FOMC communication at
 
 The timing of the forecast is central to the contribution. Much of the existing literature studies whether central bank language explains policy stance or market reactions at the same meeting date. This paper instead focuses on prediction. The analysis uses only information publicly available before the forecast target is realised and restricts the communication set to FOMC statements, press conferences, minutes, and speeches. This restriction is deliberate as the paper is inspired by applications to trading strategies. Hence, all text inputs must be observable to market participants at the time a forecast would be made.
 
-The empirical strategy begins with dictionary-based sentiment indicators, which provide a transparent baseline and connect the analysis to earlier work that classifies or explains policy stance at time $t$. The paper then develops a large language model approach (LLM) that assigns hawkish or dovish sentiment and also adds labels for uncertainty, risk, tense, and commitment. These additional labels are intended to capture features of communication that simple word counts miss, such as whether a sentence is descriptive or interpretive, whether it refers to tail risks, and whether it contains conditional policy guidance. To the best of the authors' knowledge, this richer annotation structure has not been used in this setting before.
+The empirical strategy begins with dictionary-based sentiment indicators, which provide a transparent baseline and connect the analysis to earlier work that classifies or explains policy stance at time $t$. The paper then develops a large language model approach (LLM) by fine tuning Llama 3.1-8B to assign hawkish or dovish sentiment. The model was also trained to add labels for uncertainty, risk, tense, commitment, and topic. These additional labels are intended to capture features of communication that simple word counts miss, such as whether a sentence is descriptive or interpretive, whether it refers to tail risks, and whether it contains unconditional policy guidance. The minimum F1 score for any label was 0.778. To the best of the authors' knowledge, this richer annotation structure has not been used in this setting before.
 
-Finally, the forecasting exercise combines the communication variables with a FAVAR-style macro-financial benchmark. Variations of the sentiment indicators are tested for incremental predictive power over the next-period shadow rate. The extra labels are also used as regime conditionals, allowing the analysis to ask when FOMC communication is most informative.
+Finally, the forecasting exercise combines the communication variables with a FAVAR-style macro-financial benchmark and evaluates performance in an expanding-window out-of-sample design. Variations of the sentiment indicators are tested for incremental predictive power over the next-period shadow rate by comparing their OOS forecast errors and RMSE against the macro-only baseline. The extra labels are also used as regime conditionals, allowing the analysis to ask when FOMC communication is most informative.
+
+The main results show that LLM-based sentiment contains economically meaningful and statistically reliable information about future policy stance, and significantly outperforms existing dictionary approahces. The best LLM joint-PCA specification reduces out-of-sample RMSE by 14.1\% relative to the baseline model (significant at 1\%), while the best-performing dictionary approach (Sharpe) provides a reduction of 3.1\% only signficant at 10\%. By utilizing the additional labels as masks to investigate different regimes, the predictive content was found to be strongest in interpretive, conditional, and risk-oriented communication, suggesting that FOMC language is useful not because it mechanically reveals a private modal forecast, but because it encodes how policymakers assess uncertainty, risks, and the reaction function.
 
 \section{Background Knowledge \& Literature Review}
 % ============================================================
@@ -100,12 +111,12 @@ Finally, the forecasting exercise combines the communication variables with a FA
 
 The Federal Reserve was established in 1913 primarily as a lender of last
 resort, with its early decades characterised by limited independence and a
-mandate subordinated to government financing priorities --- most acutely during
+mandate subordinated to government financing priorities, most acutely during
 and after World War II, when the Fed was effectively directed to peg Treasury
 yields. The Treasury-Fed Accord of 1951 restored a degree of operational
 independence, but it was not until the Volcker disinflation of the early 1980s
-that the modern conception of the Fed's dual mandate --- maximum employment and
-price stability --- became the organising principle of monetary policy. The
+that the modern conception of the Fed's dual mandate (maximum employment and
+price stability) became the organising principle of monetary policy. The
 \textit{Great Moderation} that followed, a period of declining macroeconomic
 volatility running roughly from 1985 to 2007, was in large part attributed to
 more credible and rule-consistent monetary policy \citep{bernanke2004great}. The
@@ -130,23 +141,22 @@ all changes in the stance of monetary policy immediately.
 
 The content of communication deepened over subsequent years. In February 2000,
 the FOMC began including in its statements an assessment of the balance of risks
-facing the economy --- an early form of forward guidance about the expected
-direction of policy. In 2003, it added explicit guidance about the likely
-\textit{path} of monetary policy. This evolution was directly influenced by
+facing the economy: an early form of forward guidance about the expected
+direction of policy. In 2003, it added explicit guidance about the likely path of monetary policy. This evolution was directly influenced by
 theoretical work on the role of expectations in monetary transmission. Eggertsson
 and Woodford showed that when the policy rate is constrained at the zero lower
 bound, a central bank can achieve additional accommodation by credibly committing
 to keep rates low \textit{after} recovery has begun: if markets believe the
 pledge, longer-term rates fall immediately in anticipation, stimulating demand
 without any further rate cut \citep{eggertsson2003zero}. Communication, in this
-framework, is not merely a description of policy --- it \textit{is} policy.
+framework, is not merely a description of policy; it is policy.
 
 \subsubsection*{The forward guidance puzzle and its limits}
 
 The theoretical power of forward guidance proved difficult to realise in
 practice. \citet{delnegro2012forward} demonstrated in a standard New Keynesian
 model that forward guidance grows more powerful the further into the future it
-extends --- a pledge to hold rates low for two or more years should, in the
+extends: a pledge to hold rates low for two or more years should, in the
 model, produce near-explosive effects on inflation and output. This
 \textit{forward guidance puzzle} arises because the model assumes that markets
 perfectly internalise and believe the central bank's commitment, causing
@@ -161,7 +171,7 @@ commitments.
 This tension between the theoretical potency and empirical limitations of
 forward guidance gives rise to a fundamental distinction in its practice.
 \textit{Odyssean} forward guidance refers to explicit, unconditional commitments
-about the future path of policy --- the central bank ties itself to the mast,
+about the future path of policy; the central bank ties itself to the mast,
 deliberately removing its own discretion in order to manage expectations
 \citep{campbelletal2012}. \textit{Delphic} forward guidance, by contrast, is
 probabilistic and conditional: the central bank communicates its assessment of
@@ -187,7 +197,7 @@ its default mode of communication. Explicit unconditional commitments are
 reserved for exceptional circumstances; the overwhelming majority of FOMC
 communication consists of conditional assessments of the economic outlook,
 qualitative characterisations of risk, and data-dependent descriptions of the
-Committee's reaction function --- none of which constitute binding commitments
+Committee's reaction function, none of which constitute binding commitments
 and all of which require interpretation rather than simple reading.
 
 \subsubsection*{Implications for information extraction}
@@ -196,7 +206,7 @@ Two conclusions follow from this history that motivate the present paper.
 First, FOMC communication is substantively informative: it encodes the
 Committee's assessment of the economic outlook, its characterisation of risks,
 and its intended policy reaction function. Second, the dominant mode of this
-communication is Delphic --- implicit, conditional, and deliberately ambiguous
+communication is Delphic: implicit, conditional, and deliberately ambiguous
 in a way that resists mechanical extraction. Explicit Odyssean signals, when
 they occur, are immediately incorporated into asset prices and yield curves by
 financial markets and offer limited incremental forecasting value. The
@@ -204,7 +214,7 @@ information that remains to be extracted is the subtler signal embedded in the
 texture of Delphic communication: which risks the Committee emphasises, how its
 characterisation of the outlook shifts across meetings, and where its attention
 is concentrated. Accessing this signal requires methods capable of reading
-beyond the surface of the text --- which the NLP literature has only recently
+beyond the surface of the text; this is something the NLP literature has only recently
 developed the tools to attempt.
 
 \subsection{NLP Sentiment Indicators}
@@ -286,12 +296,10 @@ corpora and produces contextualised token embeddings that can be fine-tuned for
 downstream classification tasks. \citet{filippou2023fomc} apply BERT to FOMC
 transcripts and Tealbook documents and find that text-based measures of
 \textit{risk attentiveness} and \textit{sentiment} extracted with BERT add
-value in the tails of the distribution of GDP and unemployment outcomes ---
-evidence that the model captures signals that point forecasts and dictionary
-methods do not.
+value in the tails of the distribution of GDP and unemployment outcomes (evidence that the model captures signals that point forecasts and dictionary
+methods do not).
 
-Autoregressive large language models (LLMs) --- most prominently the GPT family
---- extend the transformer paradigm to generation, producing coherent multi-token
+Autoregressive large language models (LLMs) (most prominently the GPT family) extend the transformer paradigm to generation, producing coherent multi-token
 outputs conditioned on a prompt. Applied to financial NLP, LLMs can be instructed
 to classify or annotate text in a single inference call, producing structured
 outputs that would require multiple independent classifiers under an encoder-only
@@ -307,17 +315,15 @@ of an 8-billion-parameter model, however, requires updating all parameters
 simultaneously, demanding upwards of 60~GB of GPU memory, making it
 inaccessible on standard research hardware.
 
-Low-Rank Adaptation \citep[LoRA;][]{hu2021lora} resolves this by freezing all
-pre-trained weights and injecting small trainable matrices into targeted layers
-of the transformer. For a frozen weight matrix $W_0 \in \mathbb{R}^{d \times k}$,
-LoRA parameterises the incremental update as $\Delta W = BA$, where
-$B \in \mathbb{R}^{d \times r}$ and $A \in \mathbb{R}^{r \times k}$ with rank
-$r \ll \min(d, k)$. Only $A$ and $B$ are trained; the adapted forward pass
-becomes $h = W_0 x + \tfrac{\alpha}{r} BAx$, where $\alpha$ is a scaling
-hyperparameter controlling the relative magnitude of the update. This reduces
-the number of trainable parameters to under one per cent of the full model
-while achieving performance comparable to full fine-tuning on classification
-tasks \citep{hu2021lora}.
+Low-Rank Adaptation \citep[LoRA;][]{hu2021lora} resolves this by freezing the
+pre-trained model and adding a small number of trainable adapter weights inside
+selected transformer layers. Instead of rewriting the whole model, fine-tuning
+only teaches these adapters how to adjust the model's behaviour for the target
+task. The original Llama parameters remain fixed, while the adapters learn the
+task-specific correction needed for FOMC sentence annotation. This reduces the
+number of trainable parameters to under one per cent of the full model while
+achieving performance comparable to full fine-tuning on classification tasks
+\citep{hu2021lora}.
 
 This makes it feasible to fine-tune a competitive open-weight LLM with
 substantially lower hardware requirements than full fine-tuning, enabling
@@ -332,7 +338,7 @@ The dependent variable is the one-meeting-ahead change in the shadow federal fun
   \label{eq:shadow_change}
   \Delta r_{t+1} = r_{t+1} - r_t,
 \end{equation}
-where $r_t$ denotes the Wu-Xia shadow federal funds rate at meeting $t$ \citep{wuxia2016}. The shadow rate is used because the objective is to forecast the stance of monetary policy, not only the observed target rate. Outside zero-lower-bound periods, the shadow rate closely tracks the effective federal funds rate. During zero-lower-bound episodes, however, the observed rate is mechanically constrained near zero even when policy becomes more or less accommodative through forward guidance, asset purchases, or other balance-sheet tools. The shadow rate provides a single short-rate-equivalent proxy for this broader stance, making changes in $r_t$ the relevant forecasting target for the exercise.
+where $r_t$ denotes the Wu-Xia shadow federal funds rate at meeting $t$ \citep{wuxia2016}. The shadow rate is used because the objective is to forecast the stance of monetary policy, not only the observed target rate. Outside zero-lower-bound periods, the shadow rate closely tracks the effective federal funds rate. During zero-lower-bound episodes, however, the observed rate is mechanically constrained near zero even when policy becomes more or less accommodative through forward guidance, asset purchases, or other balance-sheet tools. The shadow rate provides a single short-rate-equivalent proxy for this broader stance. The dependent variable is specified as the change rather than the level because interest rates are highly persistent: a level forecast can appear accurate simply by reproducing the current rate, whereas the change focuses the test on whether communication helps predict the next policy adjustment.
 
 The sample begins in 2007 to focus on the modern transparency regime of Federal Reserve communication. Ben Bernanke replaced Alan Greenspan as Chair in early 2006, marking a shift toward more systematic and explicit communication. Starting the forecasting sample in 2007 allows the analysis to concentrate on this post-Greenspan communication environment, rather than mixing it with the earlier, more opaque style of FOMC communication.
 
@@ -341,9 +347,9 @@ The benchmark model is a Factor-Augmented Vector Autoregression (FAVAR) in the s
   \label{eq:favar}
   \Delta r_{t+1} = \alpha + \boldsymbol{\beta}^{\top}\mathbf{F}_t + \varepsilon_{t+1},
 \end{equation}
-where $\mathbf{F}_t$ is the vector of PCA factors at meeting $t$. The PCA input set includes the deviation of CPI inflation from the 2 per cent target, the unemployment gap, GDP growth, CFNAI, the VIX, the shadow rate, and the market-implied federal funds rate. All principal components are retained so that the transformation removes multicollinearity without discarding macro-financial variation that may be relevant for assessing the incremental contribution of sentiment.
+where $\mathbf{F}_t$ is the vector of PCA factors at meeting $t$. The PCA input set includes the deviation of CPI inflation from the 2 per cent target, the unemployment gap, GDP growth, CFNAI (Chicago Fed National Activity Index), the VIX, the shadow rate at time t, and the market-implied federal funds rate (following the approach of \citet{kuttner2001}). All principal components are retained so that the transformation removes multicollinearity without discarding macro-financial variation that may be relevant for assessing the incremental contribution of sentiment.
 
-Two simpler benchmarks were also considered. The first is a naive model that always predicts no change in the policy stance. The second is a market-based model that uses the gap between the implied federal funds rate and the current shadow rate as the expected change in policy stance.
+Two simpler benchmarks were also considered. The first is a naive model that always predicts no change in the policy stance. The second is a market-based model: the gap between the market-implied federal funds rate and the current shadow rate is used as the expected change in policy stance.
 
 Since the motivation of the exercise is partly a trading application, the relevant criterion is not only in-sample fit but real-time forecasting performance. Because FOMC decisions are infrequent, a lower total RMSE over many meetings is only marginally informative on its own: it could be driven by a small number of unusually large errors. The evaluation therefore prioritises the sequence of out-of-sample forecast errors produced meeting by meeting under an expanding-window design.
 
@@ -351,14 +357,14 @@ In this context, a baseline is said to underperform when it has a larger out-of-
 
 Both simpler benchmarks underperform the FAVAR baseline under the preferred shadow-rate target, so the FAVAR is retained for the main comparisons. When the dependent variable is instead defined as the change in the effective federal funds rate, the market baseline produces a lower RMSE than the naive and FAVAR baselines, although the improvement is not statistically significant (Appendix~\ref{app:baseline-comparison}). For the main specification, however, the shadow-rate target is preferred because it better captures the stance of policy during unconventional-policy periods.
 
-Table~\ref{tab:favar_baseline} reports the baseline FAVAR performance for the main shadow-rate-change specification. The expanding-window evaluation uses 151 post-2007 FOMC meetings, with 76 out-of-sample predictions after the initial 50\% training window. The adjusted in-sample $R^2$ is 0.301.
+Appendix Table~\ref{tab:favar_baseline} reports the baseline FAVAR performance for the main shadow-rate-change specification. The expanding-window evaluation uses 151 post-2007 FOMC meetings, with 76 out-of-sample predictions after the initial 50\% training window, achieving an RMSE of 0.2826. The adjusted in-sample $R^2$ is 0.301.
 
 Against this benchmark, the forecasting tests add communication variables to evaluate whether sentiment contains incremental predictive information. The main null hypothesis is that sentiment-based variables do not improve forecasts of $\Delta r_{t+1}$ relative to the macro-financial FAVAR baseline. Two types of comparisons are used. When sentiment variables are added directly to the macro-only regression, the sentiment-augmented specification nests the baseline, so forecast improvements are evaluated using nested-model tests such as Clark--West. When sentiment variables are instead included in the PCA step before the forecasting regression, the resulting factor structure differs from the macro-only FAVAR and the models are non-nested; these comparisons are therefore evaluated using Diebold--Mariano tests.
 
 \section{Constructing Sentiment Indicator}
 \label{sec:sentiment}
 \subsection{Dictionary Approach}
-Existing dictionaries will be used; however, the work is not redundant as they will be applied on a different corpora of text and the forecasting excercise has a different dependent variable. Several dictionary-based approaches could be used to construct FOMC sentiment indicators, including the Loughran--McDonald dictionary \citep{loughranmcdonald2011} and the measure developed by Aruoba and Drechsel \citep{aruoba2022}. In this paper, however, the dictionary analysis focuses on two alternatives: the Sharpe dictionary \citep{sharpe2023} and the Gardner dictionary \citep{gardner2022}. These two dictionaries were retained because, in preliminary tests, they were the only dictionary specifications that improved in-sample fit relative to the macro-financial baseline. 
+Existing dictionaries will be used; however, the work is not redundant as they will be applied on a different corpora of text and the forecasting excercise has a different dependent variable. Several dictionary-based approaches could be used to construct FOMC sentiment indicators, including the Loughran--McDonald dictionary \citep{loughranmcdonald2011} and the measure developed by Aruoba and Drechsel \citep{aruoba2022}. In this paper, however, the dictionary analysis focuses on two alternatives: the Sharpe dictionary \citep{sharpe2023} and the Gardner dictionary \citep{gardner2022}. These two dictionaries were retained because, in preliminary tests, they were the only dictionary specifications that improved in-sample fit relative to the macro-financial baseline.
 
   %─────────────────────────────────────────────────────────────────────
   \subsubsection{Sharpe Dictionary}
@@ -377,8 +383,7 @@ Existing dictionaries will be used; however, the work is not redundant as they w
   values indicate weaker or more dovish language.
 
   \paragraph{Worked example.}
-  Consider the following FOMC statement excerpt (10 words after
-  stripping punctuation):
+  Consider the following FOMC statement excerpt:
   \vspace{-0.4\baselineskip}
   \begin{quote}
     ``Consumer spending grew at a \underline{solid} pace supported by
@@ -394,7 +399,7 @@ Existing dictionaries will be used; however, the work is not redundant as they w
   The Sharpe method is fast and fully reproducible but treats every token
   independently of syntax, topic, and context: the word \textit{low}
   receives no score even if the phrase is ``low unemployment''
-  (unambiguously a positive signal). Topic-specific signals are averaged out in the aggregate net score.
+  (unambiguously a positive signal).
 
   %─────────────────────────────────────────────────────────────────────
   \subsubsection{Gardner Dictionary}
@@ -436,15 +441,16 @@ Existing dictionaries will be used; however, the work is not redundant as they w
   individually in the forecasting regressions.
 
 \subsection{LLM Approach}
+This subsection describes the paper's main methodological contribution to NLP: an LLM-based annotation pipeline that moves beyond dictionary word counts by assigning sentence-level labels for sentiment, uncertainty, risk, tense, commitment, and topic.
 % ============================================================
-%  §4.1.1  Unit of Analysis & Data Processing
-% ============================================================
-
-% ============================================================
-%  §4.1.1  Unit of Analysis & Data Processing
+%  §4.1.1  Sentence-Level Corpus Construction
 % ============================================================
 
-\subsubsection{Unit of Analysis \& Data Processing}
+% ============================================================
+%  §4.1.1  Sentence-Level Corpus Construction
+% ============================================================
+
+\subsubsection{Corpus Construction}
 
 \paragraph{Data collection and pre-processing.}
 Five document types are collected from the Federal Reserve's public website:
@@ -455,43 +461,39 @@ artefact removal, truncation of procedural appendices), documents are tokenised
 into candidate sentences using NLTK's Punkt algorithm
 \citep{kiss2006unsupervised}, which learns to distinguish sentence-ending
 periods from abbreviations (\textit{U.S.}, \textit{p.m.}, \textit{Fed.})
-without custom training. A regex-based boilerplate filter then removes sentences
+without custom training. A regex-based boilerplate filter (essentially a dictionary approach) then removes sentences
 with no policy-relevant content, including voting records, administrative
 directives, and generic data-dependence formulations such as:
 
 \begin{itemize}
   \item \textit{``Voting for this action: Jerome H.\ Powell, Chair; John C.\
         Williams, Vice Chair\ldots''}
-  \item \textit{``The Committee will continue to monitor the implications of
-        incoming information for the economic outlook.''}
-  \item \textit{``The Federal Reserve is committed to using its full range of
-        tools to support the U.S.\ economy in this challenging time.''}
 \end{itemize}
-\noindent The filter is intentionally conservative: an estimated 15--20\% of
+\noindent The filter was devised iteratively after analyzing many FOMC documents and is intentionally conservative: an estimated 15--20\% of
 surviving sentences still carry no policy signal and are subsequently labelled
-\texttt{boilerplate} by the annotator.
+\texttt{no\_topic} by the annotator. This is needed to avoid losing any relevant sentences to the hard-coded rules of the regex-based filter.
 
 \paragraph{Unit of analysis.}
 The fundamental design choice is the unit at which sentiment is extracted. The
-ideal unit is a \textit{thought} --- the minimum self-contained idea that a
-speaker is communicating about the economy or policy. The preliminary
-investigation using dictionary methods directly informs this choice. That
-analysis established that the forecasting signal resides not in the average
-direction of sentiment across a document --- which approximates the FOMC's modal
-economic forecast and was shown to be statistically insignificant when tested
-directly --- but in the \textit{distribution} of labels: how much attention is
-devoted to each topic, how extreme individual assessments are, and which risks
-are emphasised. Extracting sentiment at the document level forecloses all access
-to this distributional information by construction; document-level prompting
-also produces inconsistent LLM outputs, as the model must simultaneously resolve
-conflicting signals spanning 10,000--15,000 words without a principled
-aggregation rule. Paragraph-level extraction is similarly insufficient, as a
-single FOMC paragraph frequently contains multiple distinct assessments that are
-analytically separable.
+ideal unit is a \textit{thought}: the minimum self-contained idea that a
+speaker is communicating about the economy or policy. Existing dictionary-based
+studies show that FOMC language contains information relevant for policy and
+financial-market outcomes, but they usually recover this information from word
+counts aggregated over larger blocks of text. The LLM approach adopted here is
+intended to preserve more of the structure inside those blocks. It matters not
+only whether a document sounds hawkish or dovish overall, but also which topics
+receive attention, how strong individual assessments are, and whether risks or
+uncertainty are being emphasised.
+
+Extracting sentiment only at the document level would hide this internal
+variation. A full statement or set of minutes can contain several distinct
+messages, and asking the model to assign one label to a more-than-1000-word
+document would force it to compress conflicting signals into a single output.
+Paragraph-level extraction is also too coarse, since a single FOMC paragraph can
+contain several analytically separable assessments.
 
 The sentence is therefore adopted as the operational approximation of the
-thought-level ideal, with document- and paragraph-level indicators constructed
-\textit{ex post} as aggregates over sentence-level labels. This is an
+thought-level ideal, with document-level indicators constructed ex post as aggregates over sentence-level labels (explored further in section~\ref{sec:results}). This is an
 acknowledged imperfect operationalisation: some sentences contain more than one
 distinct idea, and some are grammatically incomplete without their predecessor.
 The former case is accepted as annotation noise; the latter is addressed by a
@@ -505,27 +507,23 @@ their predecessor into a single annotation unit. The following example
 illustrates:
 
 \begin{quote}
-\textit{``In determining how long to maintain this target range, the Committee
-will assess progress---both realized and expected---toward its objectives of
-maximum employment and 2 percent inflation. \textbf{This assessment} will take
-into account a wide range of information, including measures of labor market
-conditions, indicators of inflation pressures and inflation expectations, and
-readings on financial developments.''}
+\textit{``"We all monitor the labor market very, very carefully. And I don't see \textbf{those cracks} today.''}
 \end{quote}
 
 \noindent Submitted in isolation, the second sentence has no recoverable
-subject; the two are merged into a single annotation unit. Merging is capped at
+subject; the two are merged into a single annotation unit, enriching both sentences. Merging is capped at
 three sentences and 1,000 characters to prevent runaway chains, and is
 conservative by design: the goal is to recover the minimum context needed for a
 well-defined label, not to reconstruct full paragraphs.
 
 \subsubsection{Architecture of FOMC Communication \& Labelling Scheme}
+\label{sec:Architecture}
 The labelling scheme is designed around the central question of this thesis:
 what information does the FOMC communicate, and how is that information encoded
 in language? The literature review showed that the FOMC uses forward guidance
 and that speakers attempt to convey information about the expected economic
 outlook. This implies the obvious starting point that FOMC communication
-contains policymakers' views about future economic outcomes. 
+contains policymakers' views about future economic outcomes.
 
 The first instinct
 is therefore to think of central bank communication as a forecast-revision
@@ -535,13 +533,12 @@ it leads private agents to update their own projections.
 
 We tested this interpretation directly by using the wedge between Tealbook and
 Survey of Professional Forecasters projections (public minus private
-expectations) as a regressor in the baseline FAVAR. The results were statistically insignificant for all OOS metrics (see Appendix~\ref{app:all-regressions}). This suggests that the predictive content of communication is not explained by a simple correction of private-sector modal forecasts. 
+expectations) as a regressor in the baseline FAVAR. The results were statistically insignificant for all OOS metrics (see Appendix~\ref{sec:Wedge}). This suggests that the predictive content of communication is not explained by a simple correction of private-sector modal forecasts.
 
 The result is
 surprising because the dictionary literature finds that hawkish--dovish language
 can have predictive power, and dictionary methods are, at a high level, little
-more than counts of hawkish and dovish sentences. Under a
-simple forecast-revision interpretation, those counts should mostly reflect the
+more than counts of hawkish and dovish sentences. Those counts should mostly reflect the
 same modal-outlook information captured by the Tealbook--SPF wedge, which we do
 not find to be significant.
 
@@ -562,7 +559,7 @@ tail risks, uncertainty, interpretation, and policy commitments.
 \paragraph{Policy sentiment.}
 In the spirit of existing dictionary approaches, each sentence
 is assigned a hawkish, neutral, or dovish policy orientation. This label remains
-useful because it captures the direction of the policy implication and, as discussed, can provide a measure of attention. 
+useful because it captures the direction of the policy implication and, as discussed, can provide a measure of attention.
 
 The motivation for using an
 LLM, however, is that sentence-level sentiment is often not recoverable from
@@ -572,7 +569,7 @@ unemployment and inflation, raising questions about the extent to which resource
 slack would keep inflation restrained over the medium term'' contains words such
 as \textit{concern}, \textit{uncertainty}, \textit{resource slack}, and
 \textit{restrained}, which a dictionary may treat as dovish. The
-sentence is hawkish(or maybe neutral) because it questions whether the usual Phillips-curve
+sentence is hawkish because it questions whether the usual Phillips-curve
 mechanism will operate: the participant is worried that slack may not keep
 inflation down. The policy implication depends on the argument made by the
 sentence, not on the polarity of isolated words.
@@ -585,7 +582,7 @@ to be practical. Capturing mechanism inversions, implicit hypotheticals, scope
 limitations, and conditional commitments would require a large number of
 hand-coded rules, creating a high risk of overfitting to observed phrasing. The
 work required would be disproportionate to the gain, whereas an LLM can apply the
-same underlying semantic judgement across many surface forms.
+same underlying semantic judgement across many forms.
 
 \paragraph{Risk balance.}
 The preceding logic motivates adding a sentence-level risk-balance label. Instead of relying purely on aggregation to extract tail-risk, each sentence can be evaluated for tail risk independently. The risk-balance
@@ -627,7 +624,7 @@ because the sentence recognises a blind spot in the measurement tool. This is th
 kind of implicit acknowledgement of unknown information that is difficult for a
 dictionary but natural for an LLM.
 
-\paragraph{Tense and interpretive content.}
+\paragraph{Tense.}
 The schema also distinguishes descriptive language from interpretive or
 forward-looking language. Descriptive communication refers to past events or the
 current state of the economy; interpretive communication refers to judgements
@@ -661,18 +658,15 @@ data-dependent guidance, and true commitments is exactly the type of
 context-dependent classification that motivates using an LLM.
 
 \paragraph{Topic.}
-Finally, each sentence is assigned a topic label. Splitting communication by
+Finally, each sentence is assigned a topic label: \textit{inflation, labor-market, financial conditions, economic activity, macro and no topic}. These
+topics are commonly used in the central-bank communication literature, except for \textit{macro} made for sentences that refer to the overall economic
+outlook rather than to a single component such as inflation or economic
+activity. Splitting communication by
 topic serves two purposes. Economically, it allows the forecasting exercise to
-ask which parts of FOMC communication are informative: inflation language may
-matter in one period, labour-market language in another, and financial-stability
-language during stress episodes. Methodologically, the topic label helps the LLM
+ask which parts of FOMC communication are informative. Methodologically, the topic label helps the LLM
 classify sentiment more consistently, because the same word can have different
 policy implications depending on whether the sentence is about inflation,
-employment, output, financial conditions, or the policy reaction function. These
-topics are commonly used in the central-bank communication literature. We also
-add a \textit{macro} category for sentences that refer to the overall economic
-outlook rather than to a single component such as inflation or economic
-activity.
+employment, financial conditions, or the policy reaction function.
 
 Taken together, these labels operationalise the thesis's core claim. FOMC
 communication should not be treated only as a direct statement of the modal
@@ -680,11 +674,11 @@ forecast. The more informative object is the distribution of attention across
 topics, risks, uncertainty, interpretive statements, and commitments. The LLM
 schema is designed to preserve this structure at the sentence level before
 constructing document-level regressors for the forecasting exercise. The full
-annotation schema is reported in Table~\ref{tab:llm-label-schema}.
+annotation schema is reported in Appendix Table~\ref{tab:llm-label-schema}.
 
 \vspace{-2mm}
 \subsubsection{LLM Selection}
-The annotation schema requires a structured 10-field JSON object for each
+The annotation schema requires a structured 6-field JSON object for each
 sentence, with several fields populated conditionally on the values of other
 fields. This makes the task different from a standard single-label sentiment
 classification problem. Encoder-only models such as RoBERTa Large are strong
@@ -697,23 +691,10 @@ instruction-tuned model is better matched to the annotation problem because it
 can generate the full JSON object directly and can condition later fields on the
 fields already generated.
 
-This structure also matters for the economic object being measured. The paper is
-not only trying to classify whether a sentence sounds hawkish or dovish; it is
-trying to identify communication that may explain the wedge between market or
-professional expectations and subsequent policy outcomes. In particular, the SPF
-wedge is informative only if the text model can separate different sources of
-information in the same sentence: whether the Fed is describing the central
-forecast, highlighting upside or downside risks, signalling uncertainty, or
-making a conditional policy commitment. A flat sentence-level classifier would
-collapse these channels into a single sentiment label, whereas a generative JSON
-schema preserves them as separate variables that can later be aggregated and
-tested in the forecasting regressions.
-
 Among decoder-only models of comparable size, Llama~3.1 8B was selected over
 alternatives such as Qwen~2.5 7B and Mistral~7B. Mistral~7B was not pursued
 because more recent small open models offer stronger instruction following and
-fine-tuning support. The relevant choice was therefore between Llama and Qwen.
-Qwen~2.5 has strong general structured-output capabilities, but the available
+fine-tuning support. The relevant choice was therefore between Llama and Qwen. Qwen~2.5 has strong general structured-output capabilities, but the available
 financial NLP evidence favours the Llama family for domain-specific sentiment
 fine-tuning: a direct comparison of lightweight LLMs on heterogeneous financial
 sentiment datasets finds that Llama~3 8B slightly but consistently outperforms
@@ -728,6 +709,11 @@ reduced implementation risk for repeated active-learning and fine-tuning rounds.
 %            \usepackage{booktabs} (for \toprule etc. in tables)
 % ============================================================
  \subsubsection{LLM Training}
+While Llama~3.1 8B comes pretrained on a large text corpus, it is not specialised in FOMC terminology or the annotation scheme used in this paper. Fine-tuning is therefore necessary, and the training data had to be created by manually labelling sentences before they could be fed into the model.
+
+The training sample combines breadth with targeted coverage. To ensure that the model sees the full range of communication styles, random samples of 150 sentences were first drawn from each document type. However, several substantively important labels are rare in a purely random sample, including \textit{skewed\_upside}, \textit{elevated}, and \textit{unconditional}. These categories are precisely the ones that are hardest for the model to learn and most important for the later regime analysis. Additional examples were therefore manually appended until the rare labels had enough observations to be useful for fine-tuning.
+
+This targeted sampling was done manually rather than by relying primarily on dictionary hits. A dictionary-based search would have overrepresented easy cases whose wording is already recognisable by fixed word lists. Manual search made it possible to include more varied and context-dependent examples, which is essential for training a model whose intended contribution is to move beyond dictionary rules. The final training set had 912 sentences.
 
   \paragraph{LoRA.}
 
@@ -752,7 +738,7 @@ reduced implementation risk for repeated active-learning and fine-tuning rounds.
   Five hyperparameters govern the expressivity and regularisation of LoRA
   fine-tuning: rank $r$, scaling multiplier $m$ (where $\alpha = m \cdot r$),
   LoRA dropout, learning rate, and AdamW weight decay.
-  Because the training corpus comprises approximately 700 annotated sentences,
+  Because the training corpus comprises approximately 900 annotated sentences,
   overfitting is the dominant risk; optimal values are not directly
   transferable from the large-dataset regimes studied in the bulk of the
   fine-tuning literature and must be determined empirically.
@@ -813,21 +799,19 @@ reduced implementation risk for repeated active-learning and fine-tuning rounds.
   perform unconstrained random exploration to establish a performance
   baseline, after which any trial whose intermediate validation score falls
   below the median of completed trials at the same step is terminated early.
-  The full search space is summarised in Table~\ref{tab:optuna_search}.
+  The full search space is summarised in Appendix Table~\ref{tab:optuna_search}.
+
 
   \paragraph{Training Configuration.}
 
   Beyond the Optuna-optimised hyperparameters, a set of fixed training
   parameters governs the mechanics of the fine-tuning procedure, chosen
   to ensure stable convergence within the memory constraints of a single
-  consumer GPU (NVIDIA RTX~4070 Ti Super, 16~GB VRAM).
-  The selected hyperparameters are rank $r = 2$, alpha multiplier $m = 1$
-  ($\alpha = 2$), LoRA dropout $= 0.05$, learning rate $= 5 \times 10^{-4}$,
-  and weight decay $\lambda = 0.01$.
+  consumer GPU.
 
-  Training proceeds for 3 epochs over the annotated corpus.
+  Training proceeds for 2 epochs over the annotated corpus.
   The small training set places this study in a regime where the model
-  risks memorising training examples rather than generalising; 3 epochs
+  risks memorising training examples rather than generalising; 2 epochs
   represents a conservative ceiling motivated by this constraint
   \citep{hu2021lora, finlora2024}.
   The effective batch size is set to 16, achieved via a per-device batch
@@ -837,9 +821,7 @@ reduced implementation risk for repeated active-learning and fine-tuning rounds.
   learning rate smoothly from its peak to near zero, reducing the risk of
   large gradient updates disrupting pre-trained representations in the
   final steps \citep{raschka2023lora}.
-  Training is performed in BFloat16 precision, natively supported by the
-  RTX~4070 Ti Super and preferable to FP16 for training stability.
-  The full configuration is reported in Table~\ref{tab:training_config}.
+  Training is performed in BFloat16 precision. The full configuration is reported in Appendix Table~\ref{tab:training_config}
 
 \subsection{LLM Performance}
 \paragraph{Prompt Engineering}
@@ -848,7 +830,7 @@ The prompt-engineering process iterated over three components: instruction
 verbosity, the number and composition of few-shot examples, and whether to use
 explicit chain-of-thought reasoning. These choices created a trade-off between
 label quality and inference cost. Minimal prompts with few or no examples
-performed poorly, with SumF1* close to 0.15, showing that the model could not
+performed poorly, with SumF1 close to 0.15, showing that the model could not
 infer the annotation procedure from short definitions alone. Adding few-shot
 examples produced the first meaningful improvement. The strongest early
 candidates were P5 and P7: P5 used three carefully chosen examples and left
@@ -871,8 +853,8 @@ implementation detail.
 The final iteration therefore started from P5 rather than from the longer
 variants. P5\_FINAL improved the balance between examples and instructions, but
 still underperformed on rare and difficult labels. P5\_v10 addressed this by
-adding examples for strongly hawkish and strongly dovish labour-market shocks,
-raising SumF1* to 0.626 and confirming the importance of few-shot prompting.
+adding examples for \textit{skewed\_downside} and unconditional commitment,
+raising SumF1 to 0.626 and confirming the importance of few-shot prompting.
 However, this version was too long for the production labelling pipeline: the
 additional examples increased inference cost materially, while the marginal
 validation gain was already beginning to plateau.
@@ -884,10 +866,10 @@ phrase as tail risk and assigning its direction. The final P5-derived prompt kep
 the stronger risk instructions, simplified the width instructions, and reduced
 the number of examples relative to P5\_v10. It preserved most of the validation
 gain while lowering inference cost enough for production labelling; the
-remaining rare-label weaknesses were left for the fine-tuning stage.
+remaining rare-label weaknesses were left for the fine-tuning stage. The final prompt can be seen in Appendix~\ref{app:prompt}.
 
 \paragraph{Evaluation}
-Because several labels are rare, including \textit{skewed\_upside}, \textit{elevated}, and \textit{unconditional}, a purely random evaluation sample would underrepresent the categories that are most difficult and substantively important to classify. The evaluation set was therefore built from an initial random sample of 500 sentences, after which additional examples were manually appended until each relevant category contained at least 50 observations. Relying primarily on dictionaries to locate these extra sentences would have introduced selection bias: the evaluation set would have overrepresented ``easy'' cases whose wording is already recognisable by dictionary rules. Manual search was therefore preferable because it allowed the evaluation set to include more varied and context-dependent examples without mechanically favouring the benchmark methods.
+The evaluation set follows the same logic as the training data. It starts from a random sample of 500 sentences and then manually appends additional rare-label examples until each relevant category contains at least 50 observations. This avoids evaluating the model mostly on common labels while still keeping the rare-label search independent of dictionary rules, so the benchmark methods are not mechanically favoured.
 
 F1 scores are used as the primary evaluation metric because the label
 distribution is uneven and the central evaluation problem is whether each method
@@ -902,15 +884,15 @@ precision and recall,
 F1 = 2 \cdot \frac{\text{precision} \cdot \text{recall}}
 {\text{precision} + \text{recall}},
 \]
-and is high only when the model performs well on both dimensions. Table~\ref{tab:active-learning-performance} summarises performance across the different models for all labels. Because the Sharpe and Gardner dictionaries produce only sentence-level sentiment scores, their evaluation is limited to the sentiment dimension. To make them comparable with the LLM labels, each dictionary score is converted into a three-class sentiment label using a simple thresholding rule: positive net scores are classified as hawkish, negative net scores as dovish, and zero net scores as neutral. 
+and is high only when the model performs well on both dimensions. Appendix Table~\ref{tab:active-learning-performance} summarises performance across the different models for all labels. Because the Sharpe and Gardner dictionaries produce only sentence-level sentiment scores, their evaluation is limited to the sentiment dimension. To make them comparable with the LLM labels, each dictionary score is converted into a three-class sentiment label using a simple thresholding rule: positive net scores are classified as hawkish, negative net scores as dovish, and zero net scores as neutral. Ultimately, the fine-tuned model is significantly better than the rest, having achieved a sentiment F1 score of 0.778 (0.118 higher than the non fine tuned model). Meanwhile the Gardner dictionary (best dictionary) only achieved 0.460.
 
 % ============================================================
 %  §4  Empirical Results
 % ============================================================
 
-\section{Empirical Results}
-
-This section presents the out-of-sample (OOS) forecasting results for the three sentiment methods --- LLM, Gardner, and Sharpe --- against a macro-only FAVAR baseline. The dependent variable throughout is $\Delta\text{EffRate}_{t+1} = \text{EffRate}_{t+1} - \text{EffRate}_t$, the one-meeting-ahead change in the shadow federal funds rate. All OOS estimates use an expanding window initialised at 50\% of the sample ($N=151$ FOMC meetings, 2007--2025), yielding 76 OOS predictions. The baseline is a macro-only FAVAR with principal components from seven macro-financial regressors (inflation deviation, unemployment gap, GDP growth, VIX, CFNAI, implied FFR, effective rate).
+\section{Forecasting Future Policy Stance}
+\label{sec:results}
+This section presents the out-of-sample (OOS) forecasting results for the three sentiment methods  (LLM, Gardner, and Sharpe) against a macro-only FAVAR baseline. The dependent variable throughout is $\Delta\text{EffRate}_{t+1} = \text{EffRate}_{t+1} - \text{EffRate}_t$, the one-meeting-ahead change in the shadow federal funds rate. All OOS estimates use an expanding window initialised at 50\% of the sample ($N=151$ FOMC meetings, 2007--2025), yielding 76 OOS predictions. The baseline is a macro-only FAVAR with principal components from seven macro-financial regressors (inflation deviation, unemployment gap, GDP growth, VIX, CFNAI, implied FFR, effective rate).
 
 % ============================================================
 %  4.1  Predictive correlations
@@ -918,45 +900,79 @@ This section presents the out-of-sample (OOS) forecasting results for the three 
 
 \subsection{Predictive Correlations}
 
-Table~\ref{tab:correlations} reports unconditional correlations of the sentiment indicators and macro regressors with the dependent variable. The LLM aggregate sentiment score achieves a Pearson correlation of $r = 0.297$ ($p < 0.001$), just below inflation deviation ($r = 0.303$), and surpasses it on Spearman rank correlation ($\rho = 0.327$ vs $0.140$). Gardner's aggregate carries a modest but significant signal ($r = 0.141$, $\rho = 0.248$). Sharpe's net word count is indistinguishable from zero on both metrics. These raw correlations motivate the subsequent model comparison but do not control for the macro baseline.
+In the next section, several sentiment indicators and models will be introduced. In this section, the typical definition is retained as a an aggregate sum of sentence scores. These scores are then normalized by dividing by the wordcount and applying an expanding z-score. This makes the scores comparable.
 
-Figures~\ref{fig:llm_ts}--\ref{fig:sharpe_ts} plot each sentiment indicator alongside $\Delta\text{EffRate}_{t+1}$ over the full sample. The LLM series tracks the sign and magnitude of rate changes closely, with sharp negative readings preceding the 2008--2009 easing cycle, near-zero readings during the ZLB, and a pronounced hawkish spike in 2022. Gardner's signal is directionally consistent but noisier and misses several turning points. Sharpe's series shows no coherent relationship with policy changes.
+Appendix Table~\ref{tab:correlations} reports correlations of the sentiment indicators with the dependent variable. The LLM aggregate sentiment score achieves a Pearson correlation of $r = 0.297$ ($p < 0.001$), just below inflation sentiment ($r = 0.303$), and surpasses it on Spearman rank correlation ($\rho = 0.327$ vs $0.140$). Gardner's aggregate carries a modest but significant signal ($r = 0.141$, $\rho = 0.248$). Sharpe's net sentiment is indistinguishable from zero on both metrics. These raw correlations motivate the subsequent model comparison but do not control for the macro baseline.
+
+Figures~\ref{fig:llm_ts}--\ref{fig:sharpe_ts} plot each sentiment indicator alongside $\Delta\text{EffRate}_{t+1}$ over the full sample. The LLM series tracks the sign and magnitude of rate changes closely, with sharp negative readings preceding the 2008--2009 easing cycle, and a pronounced hawkish spike in 2022. Gardner's signal is directionally consistent but flatter and misses several turning points. Sharpe's series shows a less correlated signal where, although major events like the 2022 hike is captured, smaller deviations are not. A defining feature of all series, but perhaps LLM most, is high volatility. This will be addressed later.
 
 % ============================================================
 %  4.2  Testing framework
 % ============================================================
 
-\subsection{Model Specifications: Steps 4a--4h}
+\subsection{Out-of-Sample Forecasting Performance}
 
-Rather than testing a single model, we evaluate progressively richer integration strategies against the same expanding-window macro FAVAR baseline. For steps 4a--4g, the comparison is nested: the baseline regression is augmented with a candidate sentiment block $Z_t$. Step 4h is different because it recomputes PCA jointly on macro and sentiment inputs, changing the factor space itself and therefore producing a non-nested model.
+Rather than testing a single model, we evaluate progressively richer integration strategies against the same expanding-window macro FAVAR baseline. For steps 4a--4g, the comparison is nested because the baseline is augmented with an additional candidate regressor block $Z_t$:
+\begin{equation}
+\Delta\text{EffRate}_{t+1} = \alpha + \boldsymbol{\beta}'\mathbf{F}_t + \boldsymbol{\gamma}'Z_t + \varepsilon_{t+1}.
+\end{equation}
+The object being swapped across specifications 4a--4h is therefore $Z_t$: total sentiment, dispersion, consensus, topic scores, topic PCA factors, interaction terms, novelty, or smoothed sentiment. Step 4i is different because it recomputes PCA jointly on macro and sentiment inputs, changing the factor space itself and therefore producing a non-nested model.
+
+\textbf{4a — Aggregate sentiment.} Calculates total meeting sentiment as the sum of sentence-level sentiment scores, $\displaystyle S_t=\sum_i s_{i,t}$, where hawkish sentences enter positively and dovish sentences enter negatively. This is the simplest test of whether overall FOMC tone adds information beyond the macro baseline.
+
+\textbf{4b1 — Sentiment dispersion.} Calculates the within-meeting standard deviation of sentence sentiment, $\operatorname{sd}(s_{i,t})$. This tests whether disagreement, ambiguity, or mixed communication is informative even when the average tone is unchanged.
+
+\textbf{4b2 — Consensus.} Calculates the absolute value of mean meeting sentiment, $|\bar{s}_t|$. This measures how strongly communication leans in one direction, regardless of whether the direction is hawkish or dovish.
+
+\textbf{4c — Topic-specific sentiment.} Calculates separate sentiment sums by topic, $\displaystyle S_{k,t}=\sum_{i \in k} s_{i,t}$, for inflation, labour market, economic activity, financial conditions, monetary policy, and macro language. This tests whether predictive power comes from particular parts of the Fed's communication rather than from tone in general.
+
+\textbf{4d — Topic sentiment factors.} Applies PCA to the six topic-specific sentiment series and uses the resulting sentiment factors as regressors. This can prevent collinearity between topic sentiment indicators.
+
+\textbf{4e — Macro-sentiment interactions.} Calculates interaction terms between total sentiment and macro-financial variables, such as $S_t \times unemployment_t$. This tests whether the same tone has different predictive content depending on the economic environment in which it is used.
+
+\textbf{4f — Matched topic interactions.} Calculates topic-specific interaction terms that pair each sentiment channel with its corresponding macro variable, such as inflation sentiment $S_{\pi,t}$ multiplied by inflation deviation $\pi_t-\pi^*$. This tests whether communication is most informative when sentiment about a topic is evaluated in the matching macro context.
+
+\textbf{4g — Novelty.} Calculates the change in aggregate sentiment since the previous meeting, $\bar{s}_t-\bar{s}_{t-1}$. This tests whether revisions in communication matter more than the absolute level of tone.
+
+
+
+\textbf{4h — EWMA-smoothed sentiment.} Replaces the raw meeting sentiment input with an exponentially weighted moving average over the current and previous two meetings (window = 3 meetings). This tests whether short-run smoothing reduces noise in the sentiment signal, or instead dilutes the information contained in the most recent communication.
+
+\textbf{4i — Joint PCA (non-nested).} Runs PCA on the combined macro and sentiment dataset rather than adding sentiment after macro factors are formed. Sentiment therefore changes the factor space itself, making the specification non-nested and motivating evaluation with the Diebold-Mariano test.
 
 % ============================================================
 %  4.3  Main OOS results
-% ============================================================
+% ===========================================================
 
-\subsection{Out-of-Sample Forecasting Performance}
+Appendix Table~\ref{tab:oos_main} reports the best-performing model for each method and architecture. Two statistical tests are used depending on model structure: the Diebold-Mariano (DM) test for joint-PCA models, which are non-nested with the baseline, and the Clark-West (CW) test for nested FAVAR models, where the baseline is a restricted version of the full model. Using DM for nested models would introduce a finite-sample downward bias in the test statistic; using CW for non-nested models would over-reject the null. The two tests are therefore not directly comparable in terms of significance levels.
 
-Table~\ref{tab:oos_main} reports the best-performing model for each method and architecture. Two statistical tests are used depending on model structure: the Diebold-Mariano (DM) test for joint-PCA models, which are non-nested with the baseline, and the Clark-West (CW) test for nested FAVAR models, where the baseline is a restricted version of the full model. Using DM for nested models would introduce a finite-sample downward bias in the test statistic; using CW for non-nested models would over-reject the null. The two tests are therefore not directly comparable in terms of significance levels.
+LLM joint PCA (\texttt{all\_sent}) achieves the lowest overall RMSE (0.243, $+14.1\%$, DM $p = 0.008$) and retains significance through OOS70. LLM nested FAVAR (\texttt{topics}) achieves $+9.9\%$ under CW ($p = 0.001$) and retains significance through OOS80. These two results, using different architectures and different test statistics appropriate to their structure, point to the same conclusion: LLM sentiment carries statistically reliable predictive information about future rate changes beyond the macro baseline. No other method achieves significance under its correct test in the joint-PCA architecture. Gardner \texttt{nest\_matched} passes CW (***) but requires a specific nested architecture with theoretically motivated interaction terms; its joint-PCA variants all show negative DM statistics. Sharpe is at best marginal (*) in both architectures. Even then, its improvement in RMSE is marginal. Similarly, the best Sharpe model (4b2) provides a marginal improvement at low significance.
 
-Table~\ref{tab:oos_subwindow} shows how LLM performance evolves across sub-windows of the OOS period, which correspond to the latter fraction of predictions (e.g.\ OOS80 = predictions in the final 20\% of meetings).
-
-\smallskip
-
-LLM joint PCA (\texttt{all\_sent}) achieves the lowest overall RMSE (0.243, $+14.1\%$, DM $p = 0.008$) and retains significance through OOS70. LLM nested FAVAR (\texttt{topics}) achieves $+9.9\%$ under CW ($p = 0.001$) and retains significance through OOS80. These two results, using different architectures and different test statistics appropriate to their structure, point to the same conclusion: LLM sentiment carries statistically reliable predictive information about future rate changes beyond the macro baseline. No other method achieves significance under its correct test in the joint-PCA architecture. Gardner \texttt{nest\_matched} passes CW (***) but requires a specific nested architecture with theoretically motivated interaction terms; its joint-PCA variants all show negative DM statistics. Sharpe is at best marginal (*) in both architectures.
-
-The interaction and novelty variants (steps 4e--4g) uniformly underperform the simpler specifications for all three methods, consistent with overfitting at $n_{\text{OOS}} = 76$. The one exception is \texttt{Gardner\_nest\_matched}, which benefits from the matched-interaction structure but fails to generalise to joint PCA.
+The interaction and novelty variants (steps 4e--4g) uniformly underperform the simpler specifications for all three methods, consistent with overfitting at $n_{\text{OOS}} = 76$. The one exception is \texttt{Gardner\_nest\_matched}, which benefits from the matched-interaction structure but fails to generalise to joint PCA. Furthermore, the smoothed regressions also underperform showing that adding past sentiment scores "contaminates" the signal and lowers predictability.
 
 % ============================================================
 %  4.4  Robustness: regime analysis
 % ============================================================
 
-\subsection{Robustness: Regime Analysis}
+\subsection{Robustness Tests}
 
 A natural concern is that the LLM result is driven by a specific economic episode. The OOS period runs from 2016 to 2025 (76 predictions); 20 of these fall in the 2016--2018 period before any named regime begins and are always retained in the leave-one-out samples. The five named economic episodes cover 2019--2025: Pre-COVID (Jan 2019--Feb 2020, $n = 9$), COVID shock (Mar--Jun 2020, $n = 4$), zero lower bound (Jul 2020--Feb 2022, $n = 13$), hiking cycle (Mar 2022--Jul 2023, $n = 12$), and Peak+Cuts (Aug 2023 onward, $n = 18$).
 
-Table~\ref{tab:regimes} reports leave-one-regime-out DM tests. Excluding any single regime leaves the result significant at ** or ***, with improvements ranging from 11.3\% to 15.5\%. The improvement is actually larger when ZLB is dropped (13.8\%) and when the hiking cycle is excluded (11.3\%), indicating the result does not depend on the high-volatility periods that might mechanically favour sentiment models.
+Appendix Table~\ref{tab:regimes} reports leave-one-regime-out DM tests. Excluding any single regime leaves the result significant at ** or ***, with improvements ranging from 11.3\% to 15.5\%. In all cases, the improvement is significant to 5\% proving that the results are valid across different economic regimes.
 
-As a further check, a moving block bootstrap with 5,000 replications imposes the null of equal forecast accuracy by centring the loss differential series. The bootstrapped $p$-value is below 0.01 at every block length tested ($L \in \{3, 4, 5, 8, 9\}$), and the Harvey-Leybourne-Newbold small-sample corrected statistic confirms $p = 0.004$ (***). The DM result is therefore not an artefact of parametric distributional assumptions.
+The Diebold-Mariano test relies on an asymptotic normal approximation that may be
+unreliable with only 76 out-of-sample observations. To verify that the significance
+result does not depend on this assumption, a moving block bootstrap is applied. The
+procedure resamples the series of meeting-by-meeting loss differentials in overlapping   blocks of consecutive observations, preserving the autocorrelation structure of
+forecast errors, and repeats this 5,000 times to build an empirical null distribution
+of the test statistic. The bootstrapped $p$-value falls below 0.01 across all block
+lengths tested ($L \in {3, 4, 5, 8, 9}$), and the Harvey-Leybourne-Newbold correction
+— which adjusts the DM statistic downward to account for small samples — yields $p =
+0.004$ (***). The LLM model's forecasting advantage over the macro baseline is
+therefore statistically significant under both parametric and non-parametric
+inference.
+
+Furthermore, Appendix Table~\ref{tab:oos_subwindow} shows how LLM performance evolves across other OOS tests. In the main specification, the first forecast is made after the initial 50\% training window and the model is re-estimated before each subsequent meeting. The OOS60, OOS70, OOS80, and OOS90 columns do not retrain after X\%, making it a pure OOS test. The model retains significance at 1\% up to OOS70. The loss of significance in the narrowest windows should therefore be interpreted cautiously: OOS80 and especially OOS90 contain far fewer forecast errors, and the Diebold--Mariano test is heavily penalised by this smaller effective sample even when the RMSE improvement remains economically meaningful. The absolute RMSE is still signficantly below the baseline (-20\% or more) which indicates that the edge has not dissapeared.
 
 % ============================================================
 %  4.5  Document type analysis
@@ -964,99 +980,106 @@ As a further check, a moving block bootstrap with 5,000 replications imposes the
 
 \subsection{Document Type Analysis}
 
-Table~\ref{tab:doctype} disaggregates the LLM result by document source. Minutes and the combined corpus are the only document types that achieve statistical significance in the joint-PCA architecture. Statements are significant only in the nested FAVAR under CW. Speeches and press-conference Q\&A add noise rather than signal, with negative improvement figures.
+Appendix Table~\ref{tab:doctype} disaggregates the LLM result by document source. Minutes and the combined corpus are the only document types that achieve statistical significance in the joint-PCA architecture. Statements are significant only in the nested FAVAR under CW. Speeches and press-conference Q\&A add noise rather than signal, with negative improvement figures. This does not confirm that press conferences Q\&A and speeches are not informative but may rather indicate a limitation in the LLM model as these documents present the most unstructured communication, and hence, are harder to label. It could also be true that these signals are noisier by nature.
 
-The ranking reflects the deliberative depth of each document type. Minutes record the full discussion at each meeting, capturing the committee's collective assessment of the macro outlook and the balance of risks; their richness translates directly into predictive power. Statements are the official policy announcement, terse by design and well-anticipated by markets, yet their structured language about the stance of policy carries incremental signal in the nested FAVAR where it is not compressed with macro variables into joint factors. Speeches represent individual Fed governor views and lack the consensus character of the Minutes; they add idiosyncratic noise. Press-conference Q\&A is noisy by construction: the Chair responds to unpredictable questions in real time, and the resulting text has lower information density per sentence. The superiority of the combined corpus over any single document type reflects the PCA's role as an information aggregator: the joint factor structure extracts latent dimensions that span all source types simultaneously.
 
-% ============================================================
-%  4.6  Normalisation
-% ============================================================
-
-\subsection{Normalisation}\label{sec:normalisation}
-
-For the LLM, individual sentence scores are aggregated to the meeting level by averaging across sentences, with an optional winsorisation of extreme values (threshold $\sigma \in \{1.0, 1.5, 2.0, 2.5, 3.0\}$). OOS results are stable across all thresholds; the best RMSE is achieved at $\sigma = 1.0$ but the DM significance is retained at every level. Once inputs enter the joint PCA, meeting-level normalisation is absorbed into the factor loadings and becomes irrelevant to OOS performance.
-
-For Gardner, the original word-count normalisation (dividing each category score by $\sqrt{\text{word count}}$ of the filtered sentence) is used, consistent with \citet{gardner2022}. For Sharpe, z-score standardisation at the meeting level slightly outperforms word-count normalisation. Neither choice materially changes the ordering of results across methods.
-
-% ============================================================
+%============================================================
 %  4.7  Topic decomposition
 % ============================================================
 
 \subsection{Topic Decomposition}
 
-To identify which LLM sentiment channels drive the predictive signal, the 4h joint-PCA architecture is re-estimated restricting inputs to subsets of topic scores. Table~\ref{tab:topics} reports OOS RMSE and CW statistics for the level of the shadow rate (for which OOS80 is the informative metric given the high persistence of the level).
+To identify which LLM sentiment channels drive the predictive signal, the 4i joint-PCA architecture is re-estimated restricting inputs to subsets of topic scores. Appendix Table~\ref{tab:topics} reports OOS RMSE and CW statistics for the level of the shadow rate (for which OOS80 is the informative metric given the high persistence of the level).
 
 The aggregate score (\texttt{total}) achieves the best OOS RMSE (0.255, CW ***). Among individual topic subsets, inflation and monetary policy sentiment together reach 0.303 (CW ***), while labour market sentiment alone reaches 0.348 (CW ***). Supplying all five topic scores jointly (0.266) loses significance because the added dimensionality invites overfitting at $n_{\text{OOS}} = 76$. The result points to inflation and forward-guidance language as the primary sources of predictive information --- channels through which markets read the Fed's reaction function most directly.
 
-% ============================================================
-%  4.8  Informational wedge: Tealbook vs. SPF
-% ============================================================
-
-\subsection{Robustness: Tealbook--SPF Informational Wedge}
-
-One concern is that the LLM signal merely proxies for the Fed's private information advantage: if the Fed knows something about the economy that neither the public nor the macro variables capture, its communication may inadvertently signal that information, and the predictive power of LLM sentiment would reflect the Fed's superior data rather than any added value of the annotation approach.
-
-To test this, we augment the macro FAVAR with the Tealbook--SPF wedge: the difference between the Fed's internal Tealbook forecast and the public SPF consensus for unemployment ($\Delta\hat{u}$), real GDP growth ($\Delta\hat{g}$), and inflation ($\Delta\hat{\pi}$). These wedges are publicly available with a five-year release lag (coverage 2011--2020, $N = 78$). Table~\ref{tab:wedge} shows CW statistics for three wedge specifications relative to the macro FAVAR baseline on this restricted sample.
-
-The unemployment and GDP wedges consistently hurt forecast accuracy, suggesting that the Fed's private information advantage on real-activity variables is already embedded in the publicly available macro variables used in the baseline. The inflation wedge carries a weak positive signal (* at 10\%), consistent with the view that the Fed has some incremental inflation information not yet in public data. However, the overall evidence does not support the interpretation that the LLM predictive advantage is driven by private information leakage: the LLM improves by 14.1\% over the macro baseline (***) on a sample where the wedge adds at most 2.6\% (*). The two effects are additive, not substitutes.
-\label{sec:forecasting}
-
-Building on the conceptual framework above, this section uses the sentiment indicator to test whether FOMC communication contains predictive information about the future policy stance. The analysis progressively adds sentiment-based variables and sentence-level communication labels to the macro-financial benchmark.
-
-\subsection{Predictive Content of the Sentiment Indicator}
-
-This first block contains the core forecasting exercise. The objective is to start from a conventional macroeconomic benchmark and then progressively add sentiment-based variables to determine whether FOMC communication improves forecasts of the future policy stance.
-
-\subsubsection{Aggregate sentiment regressions.} 
-\paragraph{Rationale}
-\paragraph{Results} Test whether total FOMC sentiment adds explanatory power after controlling for the baseline macro factors. This is the simplest version of the analysis: if the sentiment indicator is useful, it should improve fit, information criteria, and out-of-sample forecasting performance relative to the macro-only model.
-
-\subsubsection{Sentiment dispersion.} 
-\paragraph{Rationale}
-\paragraph{Results}Add measures such as the standard deviation and variance of sentence-level sentiment. This tests whether disagreement, ambiguity, or mixed communication within a document contains information beyond the average tone of the document.
-
-\subsubsection{Topic-specific sentiment.} \paragraph{Rationale}
-\paragraph{Results}Decompose the aggregate signal into sentiment about monetary policy, inflation, unemployment, economic activity, financial conditions, and broader macro conditions. This paragraph should ask which topics carry the forecasting signal and should report multicollinearity diagnostics such as VIF because topic sentiment variables are likely to move together.
-
-\subsubsection{Sentiment factor models.} \paragraph{Rationale}
-\paragraph{Results}Use PCA on the topic-level sentiment variables as a compact alternative to including every topic separately. This tests whether a small number of latent communication factors captures the useful variation while reducing overfitting relative to the full topic-level specification.
-
-\subsubsection{Macro-sentiment interactions.} 
-\paragraph{Rationale}
-\paragraph{Results}Test whether the effect of sentiment depends on macroeconomic conditions by interacting total sentiment with variables such as the VIX, GDP, unemployment gap, inflation deviation, and the implied federal funds rate. Then test matched interactions, such as inflation sentiment with inflation deviations and financial-conditions sentiment with the VIX, to see whether sentiment changes the estimated reaction function.
-
-\subsubsection{Novelty in communication.} \paragraph{Rationale}
-\paragraph{Results}Examine changes in sentiment relative to previous meetings, such as changes in statement sentiment or changes in speech sentiment across meeting windows. This tests whether policy forecasts respond more to new information in FOMC language than to the absolute level of sentiment.
-
 \subsection{Communication Regimes and Model Diagnostics}
 
-\paragraph{Rationale}
-\paragraph{Results}This second block uses the additional labels produced by the NLP pipeline to investigate the behaviour of the Fed and the conditions under which the model is most effective. Rather than treating these exercises as separate forecasting specifications, they should be presented as diagnostic tests that reveal when the sentiment indicator contains the most useful information.
+  Rather than treating FOMC communication as a uniform stream of text, the LLM
+  pipeline classifies each sentence along two axes: its linguistic character
+  (descriptive versus interpretive) and the nature of any forward commitment
+  (conditional versus unconditional). In addition, the LLM flags each meeting
+  the presence of elevated uncertainty or asymmetric risk language. This allows the
+  forecasting gains documented above to be traced back to specific features of
+  central-bank communication.
 
-\paragraph{Uncertainty and tail-risk regimes.} 
-\paragraph{Rationale}
-\paragraph{Results}Re-estimate the best sentiment model using uncertainty-related and tail-risk-related subsets of communication, including elevated uncertainty sentences, extreme sentiment sentences, and references to upside or downside risks. This tests whether the indicator is most useful when the Fed is communicating risks rather than central-case expectations.
+  The two classification axes form a $2\times 2$ matrix of sentence types, each of
+  which can be used in isolation to construct the sentiment input to the best model
+  (LLM 4i). Appendix Table~\ref{tab:sent_matrix} reports the out-of-sample RMSE improvement
+  relative to the macro baseline for each cell, alongside the full-document reference.
 
-\paragraph{Forward-looking communication.} \paragraph{Rationale}
-\paragraph{Results}Compare sentiment extracted from forward-looking sentences with sentiment extracted from present-oriented or full-document language. This identifies whether forecasts are driven mainly by explicit forward guidance or by broader descriptions of current economic conditions.
+  \paragraph{Descriptive versus interpretive sentences.} As discussed previously,
+  descriptive sentences record current economic conditions as facts while
+  interpretive sentences convey the committee's assessment, tone, or forward view.
+  Using only interpretive sentences to construct the sentiment indicator yields an
+  $11.0\%$ RMSE improvement over the macro baseline (DM-$t = 1.23$, $p = 0.110$),
+  compared with $14.1\%$ for the full document ($p = 0.008$). The interpretive
+  component therefore carries the bulk of the forecasting signal. Descriptive
+  sentences entered without interpretive context are actively harmful: the
+  descriptive-plus-conditional cell produces a $14.1\%$ degradation in RMSE
+  (DM-$t = -3.57$), indicating that stripped-of-tone factual language introduces
+  noise rather than signal.
 
-\paragraph{Delphic versus Odyssean guidance.} Use the commitment labels to separate conditional or outlook-based communication from unconditional forward commitments. This subsection should connect directly to the earlier literature review: if the Fed mostly uses Delphic guidance, the model should be evaluated on whether it can extract information from implicit forecasts rather than only from explicit policy promises.
+  \paragraph{Delphic versus Odyssean guidance.} Following
+  \citet{campbelletal2012}, monetary policy sentences are classified as Delphic
+  (conditional on incoming data) or Odyssean (unconditional commitments). This can
+  be explored by restricting to sentences labelled as expressing
+  \textit{unconditional commitment} (Odyssean) or \textit{none} (Delphic).
+  Interpretive sentences with Delphic character preserve an $8.8\%$ improvement
+  (DM-$t = 0.96$, $p = 0.168$), while Odyssean-only language reverses the gain to
+  $-9.0\%$. This supports the idea that odyssean communication is quickly priced in by the market, leaving no predictive signal for future policy stance. The forecasting signal therefore lives in
+  conditional, outlook-based language. It must be noted that only 0.4\% of sentences were labelled as odyssean + interpretive, which may put the statistical validity of these results into question.
 
-\paragraph{Document and speaker regimes.} \paragraph{Rationale}
-\paragraph{Results}Compare statements, minutes, press conferences, and speeches, and within speeches compare chair-only, chair-plus-vice-chair, and all-speaker samples. This helps determine whether adding more communication sources increases signal or simply introduces noise.
+  \paragraph{Risk and uncertainty regimes.} Each OOS meeting is classified by
+  whether the meeting-window documents exhibit elevated uncertainty (high
+  within-document sentiment width) or asymmetric risk language (upward or downward sentiment skew). As explained in Section~\ref{sec:Architecture}, uncertainty is an important measure as it may add predictive value through two core mechanisms. Firstly, the FOMC has an assymetric reaction function, meaning for an equal uncertainty about two opposite scenarios, they will act such to reduce the likelihood of the scenario which they are most concerned about; that is, acting hawkishly to prevent high inflation. Secondly, in periods of high uncertainty, the FOMC may be inclined to retain a neutral stance given that it may risk acting inappropriately and making the situation worse.
 
-\paragraph{Policy-direction regimes.} As a diagnostic exercise, compare model performance when the future effective rate rises, falls, or remains flat. Because this uses the realised future policy path, it should be clearly labelled as a look-ahead analysis rather than a genuine ex ante forecasting exercise.
+  The sentence-level filtering approach works for tense and commitment because nearly
+  every sentence receives one of those labels: restricting to interpretive or Delphic
+  sentences still leaves a substantial body of text from which to compute sentiment at
+  each meeting. Uncertainty and risk language is different: only a small fraction of
+  sentences are flagged as expressing elevated uncertainty or asymmetric risk, so
+  sentence-level filtering would leave most meetings with too few observations to
+  produce a reliable sentiment score.
 
-\paragraph{Scaling and normalisation checks.} Test whether the results depend on how extreme sentiment values are scaled, how sentence sentiment is aggregated, and how dictionary sentiment benchmarks are normalised. These checks show whether the main conclusions are robust to reasonable choices in constructing the indicator.
+  The mask procedure therefore operates at the meeting level rather than the sentence
+  level. For each meeting, the pipeline counts the total number of sentences flagged for
+   elevated uncertainty width, upside skew, and downside skew across all documents in
+  the window. These counts are continuous and well-spread across meetings, so each
+  meeting receives a binary classification based on a median split: meetings where the
+  flag count exceeds the full-sample median (computed across all 151 FOMC meetings) are
+  labelled high-uncertainty or high-risk, and the remainder are labelled low. 
 
-\subsection{Out-of-sample validation and placebo tests} 
+  Once sentences have been classified as reflecting elevated uncertainty or skewed risk, the corresponding distribution of policy actions can be examined. Relative to meetings with no uncertainty signal, meetings marked by elevated uncertainty exhibit a higher share of holds (25.5\% compared to 17.2\%), providing evidence consistent with the second mechanism discussed earlier. Meetings characterized by upside risk show an even sharper shift toward tightening, with hikes accounting for 53.2\% of outcomes compared to 31\% among meetings without upside risk. For downside risk, however, the distribution of policy actions changes only marginally.
+  
+  
+  The
+  sentiment model itself is then evaluated separately on
+  each group of OOS meetings, asking whether its forecasting advantage over the macro
+  baseline is larger when the Fed's communication is characterized by more frequent
+  uncertainty or risk language. During the 47 high-uncertainty meetings the sentiment model
+  improves on the baseline by $17.4\%$, against $11.9\%$ in the remaining 29
+  calmer periods. Upward-skew meetings show a $16.6\%$ gain; downward-skew meetings
+  show the largest improvement at $20.3\%$. Across all three masks the pattern is
+  the same: the model is most useful precisely when macroeconomic signals are most
+  ambiguous and the committee is most actively communicating about the distribution
+  of risks rather than a central-case forecast.
 
-Close the section by evaluating rolling-window stability, leave-one-document-type-out results, alternative dependent variables, and placebo tests based on shuffled sentiment. These exercises should demonstrate whether the relationship between sentiment and policy stance is stable and unlikely to be a mechanical artefact of the modelling procedure.
+\section{Discussion \& Conclusion}
+This paper asks whether sentiment extracted from FOMC communication improves forecasts of the next-period policy stance once standard macro-financial information is taken into account. The answer is cautiously affirmative. The strongest LLM-based specification delivers a substantial reduction in out-of-sample RMSE relative to the macro-only benchmark, and this improvement remains visible across the robustness checks considered in the analysis. By contrast, the dictionary-based approaches provide only marginal gains, which are often statistically insignificant. This contrast suggests that the predictive content of central bank communication is not well captured by simple word counts alone. Instead, it appears to depend on contextual features of language that distinguish, for example, a mechanical description of current conditions from an interpretation of risks, uncertainty, or the reaction function.
 
-\section{Discussion}
-Accept methodology constraints --- general overview
-\section{Conclusion}
+Several more specific findings follow from the empirical exercise. First, the results show how easily communication-based forecasting models can overfit. Specifications with many interactions generally perform worse out of sample, even when they appear intuitively appealing. This implies that the information in FOMC language is useful but relatively sparse, and that flexible model designs can quickly transform signal into noise. Second, smoothing sentiment indicators does not improve performance. In this setting, smoothing appears to contaminate the timing of the signal by blending information across meetings, which is costly when the objective is to forecast the next policy decision using only information available at the forecast date. Third, minutes appear especially informative in some specifications, although this result should be interpreted with care: it may reflect the genuine richness of the minutes, but it may also partly reflect the LLM's greater ability to extract structured sentiment from longer and more explanatory documents. In practice, the best results still come from using the full communication set rather than relying on a single document type.
 
+The label-based results provide further insight into why the LLM approach is useful. The most informative sentences are not simply those that mention policy directly, but those that are Delphic and interpretive: sentences in which policymakers explain how they view the state of the economy, the balance of risks, or the conditions under which policy may change. This supports the interpretation that FOMC communication has predictive value because it reveals aspects of the Committee's assessment and reaction function rather than because it mechanically announces future decisions. The regime results point in the same direction. Forecast improvements are strongest in high-risk and high-uncertainty environments, precisely when macroeconomic indicators are harder to interpret and communication may provide additional guidance about how policymakers weigh competing risks.
+
+These conclusions are nevertheless subject to important limitations. The first concerns the quality and scale of the training data used to construct the LLM labels. Although the annotation process was designed to be as consistent as possible, labelling central bank communication is inherently difficult: many sentences are ambiguous, context-dependent, or simultaneously contain hawkish and dovish elements. This challenge limited the size of the hand-labelled dataset to slightly below 1,000 sentences, which is smaller than would be ideal for such a nuanced classification task. As a result, the labelling scheme also had to be less ambitious than originally intended. For instance, the sentiment label was initially designed to contain five categories, which would have allowed a more granular measurement of tail risk and intensity, but the available training data did not support that level of complexity reliably.
+
+A second limitation is the scarcity of regression observations in some of the conditional exercises. The full sample contains a limited number of FOMC meetings, and this constraint becomes more severe when the data are split into regimes such as high uncertainty, skewed risk, or Odyssean communication. The resulting estimates are therefore informative but should not be interpreted as definitive evidence about each regime in isolation. Rather, they should be read as suggestive patterns that are consistent with the broader finding of the paper: communication is most valuable when it helps interpret uncertainty, risks, and the likely policy reaction to evolving macroeconomic conditions.
+
+
+
+
+\clearpage
 \bibliographystyle{plainnat}  % or apalike, chicago, etc.
 \begingroup
 \raggedright
@@ -1064,15 +1087,158 @@ Accept methodology constraints --- general overview
 \endgroup
 
 \appendix
+\counterwithin{table}{section}
 \section{Additional Tables}
 \label{app:tables}
 \input{uploads/appendix_tables}
 \clearpage
-
-\subsection{All Model Results}
-\label{app:all-regressions}
-The complete all-model results are maintained in the companion source file \texttt{table\_unified\_delta}. They are not typeset here because the full diagnostic grid is too large for the main appendix layout.
+\section{Figures}
+\label{app:figures}
+\input{uploads/appendix_figures}
 \clearpage
+\section{Shadow Rate: Theoretical Background}
+  \label{app:shadow-rate}
+
+  When the nominal policy rate approaches its effective lower bound (ELB),
+  conventional interest rate measures lose their ability to capture the full stance
+  of monetary policy. The \textit{shadow rate} is a latent variable that extends the
+  policyeratedconcept(below+the ELB,ymeasuringftheahypothetical rate that would
+  prevail in the absence of the non-negativity constraint.
+
+  \paragraph{Black's option interpretation.}
+  \citet{black1995interest} observed that a nominal bond is analogous to a call
+  option: the holder can always choose to hold physical currency yielding zero, so
+  the observed short rate $r_t$ satisfies
+  \begin{equation}
+      r_t = \max\!\bigl(s_t,\; r^{\min}\bigr),
+      \label{eq:shadow}
+  \end{equation}
+  where $s_t$ is the unobserved shadow rate and $r^{\min}$ is the effective lower
+  bound. The shadow rate is unconstrained and can take any real value; $r_t$ is its
+  censored, observable counterpart.
+
+  \paragraph{Term-structure identification.}
+  Because $s_t$ is latent, it must be recovered from the yield curve. Under an
+  affine shadow-rate term-structure model (SRTSM), long-maturity yields embed
+  market expectations of future short rates, which depend on $s_t$ even when $r_t$
+  is pinned at the ELB. \citet{wuxia2016} fit a three-factor Gaussian SRTSM
+  to U.S.\ Treasury yields. The shadow rate is parameterised as
+  \begin{equation}
+      s_t = \mathbf{a}' X_t + b,
+      \label{eq:srtsm}
+  \end{equation}
+  where $X_t$ is a vector of latent pricing factors and $\mathbf{a}, b$ are
+  estimated by maximum likelihood, so that equation~\eqref{eq:shadow} holds at
+  every point in the sample. The implied $s_t$ is then extracted by inverting the
+  fitted model.
+
+  \paragraph{Relevance for policy measurement.}
+  During the 2009--2015 and 2020--2022 ZLB episodes the effective federal funds
+  rate was compressed to 0--25 basis points, masking substantial variation in the
+  underlying policy stance driven by forward guidance and asset purchases. The
+  Wu--Xia shadow rate declines to approximately $-3\%$ in 2014 and $-2\%$ in 2021,
+  capturing this accommodation in a single continuous series. Using $\Delta s_t$
+  rather than $\Delta r_t^{\text{eff}}$ as the dependent variable in this thesis
+  ensures that the model is evaluated on a measure of policy stance that is
+  informative throughout the sample, rather than a censored outcome during ZLB
+  periods.
+\section{Robustness: Tealbook--SPF Informational Wedge}
+\label{sec:Wedge}
+To test the information content of public--private wedge, the baseline FAVAR is auagmented with the Tealbook--SPF wedge: the difference between the Fed's internal Tealbook forecast and the public SPF consensus for unemployment ($\Delta\hat{u}$), real GDP growth ($\Delta\hat{g}$), and inflation ($\Delta\hat{\pi}$). These wedges are publicly available with a five-year release lag (coverage 2011--2020, $N = 78$). Appendix Table~\ref{tab:wedge} shows CW statistics for three wedge specifications relative to the macro FAVAR baseline on this restricted sample.
+
+The unemployment and GDP wedges consistently hurt forecast accuracy, suggesting that the Fed's private information advantage on real-activity variables is already embedded in the publicly available macro variables used in the baseline. The inflation wedge carries a weak positive signal (* at 10\%), consistent with the view that the Fed has some incremental inflation information not yet in public data. However, the overall evidence does not support the interpretation that the LLM predictive advantage is driven by private information leakage: the LLM improves by 14.1\% over the macro baseline (***) on a sample where the wedge adds at most 2.6\% (*). The two effects are additive, not substitutes.
+Building on the conceptual framework above, this section uses the sentiment indicator to test whether FOMC communication contains predictive information about the future policy stance. The analysis progressively adds sentiment-based variables and sentence-level communication labels to the macro-financial benchmark.
+\clearpage
+
+\section{Final Prompt}
+\label{app:prompt}
+\begin{lstlisting}
+You are an expert Federal Reserve analyst annotating FOMC communications for a monetary policy research dataset. For each sentence, return a JSON object with exactly these 6 fields in this order: topic, tense, sentiment, commitment, risk, width.
+
+FIELD DEFINITIONS:
+
+"topic" (array): Topic(s) present. Values: "inflation", "labor_market", "economic_activity", "macro", "financial_conditions", "monetary_policy", "no_topic".
+- "inflation": prices, CPI, PCE, inflation expectations, wage pressures on costs
+- "labor_market": employment, unemployment, participation rate, job openings, wages
+- "economic_activity": GDP, output, consumption, investment, housing, retail, industrial production -- SPECIFIC domestic output/demand variables only
+- "macro": aggregate or global outlook where NO SINGLE domestic variable dominates -- "economic conditions", "the outlook", "the recovery", international/global developments. Do NOT use "economic_activity" for multi-variable or global sentences.
+- "financial_conditions": yields, spreads, credit availability, lending standards, asset prices, exchange rates, market volatility
+- "monetary_policy": Fed rate decisions, balance sheet, forward guidance, policy stance, Committee actions
+- "no_topic": zero evaluative economic content -- procedural sentences, section headers, vote announcements, generic dual-mandate reaffirmations, institutional statements, conversational filler, historical narrative not tied to current state, any sentence mentioning Fed or rates but making no assessable economic claim. Sentiment always "neutral", commitment always false.
+
+Multiple topics allowed. For cause-and-effect, label EFFECT topic. Include economic topics alongside "monetary_policy" when cited as justification. Dual-mandate collisions -> include both topics.
+
+"tense": "descriptive" = backward-looking or present-state, no forward implication. "interpretive" = forward-signalling: projections, outlooks, conditionals ("if/should/were to"), or present observations implying future trajectory.
+
+"sentiment": Values: "hawkish", "neutral", "dovish".
+
+Polarity by topic:
+- inflation: rising/high = hawkish, falling/low = dovish
+- labor_market: tight/low unemployment = hawkish, slack/high unemployment = dovish
+- economic_activity: stronger growth = hawkish, weaker growth = dovish
+- financial_conditions: COUNTERINTUITIVE -- easier/accommodative = hawkish (Fed must do more), tighter/stressed = dovish
+- monetary_policy: tightening, raising rates, stopping/slowing Fed purchases = hawkish, easing, lowering rates, starting/increasing Fed purchases = dovish
+
+DEFAULT-TO-NEUTRAL:
+- Pure data report with no comparative/directional reference -> neutral. Need "above/below target", "stronger/weaker than expected", or directional language to go directional.
+- Mention of FOMC, policy, rates, balance sheet -> neutral unless explicit action signal present (raise, cut, tighten, ease, taper).
+- Deliberation without action -> neutral.
+- Tie-break toward NEUTRAL. Signal must be IN the sentence.
+
+Key rules:
+- LEVEL OVERRIDES DIRECTION: "fell but remained high" -> hawkish. "Fell but remained well above target" -> hawkish.
+- Negations: label STATE described. "Not seeing deanchoring" = dovish. "Has not returned to target" = hawkish. "Inflation subdued/moderate/at or below target" = dovish, not hawkish.
+- Holds: "neutral" unless framed as restrictive (hawkish) or accommodative (dovish).
+
+"commitment": Non-monetary_policy -> always false. For monetary_policy:
+- true: specific action confirmed taken/authorized (past tense counts), or "will/intends to/is prepared to" + reference to policy action. Referenced conditions used to set specific objectives of policy or as justification for policy in which case, must be confirmed not possible/likely/hypothetical when used justification. Implicit negations count ("not the time to pause" = hiking commitment).
+- false: modal softeners ("could", "would", "anticipates", "aim", "likely", "warranted"), unmet outcome conditions, participant preferences, generic mandate reaffirmations.
+
+
+"risk": Populate from explicit risk mentions OR conditional/hypothetical structures ("if/should/were to") -- resolve to the direction of the stated scenario.
+- "skewed_downside": risks toward growth weakening, labor loosening/lower employment, financial stress, recession, or lower inflation.
+- "skewed_upside": risks toward overheating, high growth or inflation overshoot. For inflation: skewed_upside = MORE inflation is the tail risk. Label captures direction, not whether outcome is good or bad.
+- "symmetric": explicitly balanced ("roughly balanced", "risks on both sides", "two-sided risks") -- requires affirmative balancing language; mere absence of skew != symmetric.
+- "na": no explicit risk framing and no conditional scenario present.
+
+
+"width":
+- "elevated": ANY explicit uncertainty acknowledgement. Triggers: "uncertain", "uncertainty", "unclear", "hard to gauge", "hard to say", "hard to know", "difficult to assess", "difficult to determine", "we don't know", "cannot know", "imperfectly understood", "unprecedented", "remains to be seen", "hard to predict". Bare "uncertain"/"uncertainty" qualifies. FIRES INDEPENDENTLY OF SENTIMENT.
+- "none": baseline. Modal verbs, standard hedges, single-direction signals, opposing economic forces.
+- risk and width can co-exist.
+
+EXAMPLES:
+
+Sentence: "The Federal Reserve is not politically compromised."
+{"topic": ["no_topic"], "tense": "descriptive", "sentiment": "neutral", "commitment": false, "risk": "na", "width": "none"}
+Reasoning: Mentions Fed but zero evaluative economic content. Institutional statement -> no_topic. Sentiment always neutral for no_topic.
+
+Sentence: "Although household spending had been increasing at a moderate rate, business fixed investment and net exports had been soft."
+{"topic": ["economic_activity"], "tense": "descriptive", "sentiment": "neutral", "commitment": false, "risk": "na", "width": "none"}
+Reasoning: Two opposing forces: spending rising (hawkish in isolation) and investment/exports soft (dovish in isolation). Signals cancel -> neutral. No explicit uncertainty acknowledgement -> width none.
+
+Sentence: "In particular, the January employment report came in substantially stronger than I and most forecasters and market participants expected."
+{"topic": ["labor_market"], "tense": "descriptive", "sentiment": "hawkish", "commitment": false, "risk": "na", "width": "none"}
+Reasoning: "Substantially stronger than expected" -- strong labor market with intensity marker = hawkish. Past data report = descriptive.
+
+Sentence: "The unemployment rate, which was at a 50-year low of 3.5 percent as recently as February, surged in April by more than 10 percentage points to 14.7 percent, an 80-year high, and it is likely to rise further in May."
+{"topic": ["labor_market"], "tense": "interpretive", "sentiment": "dovish", "commitment": false, "risk": "skewed_downside", "width": "none"}
+Reasoning: High and rising unemployment = slack = dovish. Forward projection ("likely to rise further") = interpretive. Further deterioration explicitly projected -> skewed_downside. Note: skewed_downside means worse labor outcomes are the tail risk -- do not confuse direction with value judgment.
+
+Sentence: "But a few participants noted that the risk remained that inflationary pressures could rise as the expansion continued, especially if monetary policy remained highly accommodative for too long."
+{"topic": ["inflation"], "tense": "interpretive", "sentiment": "hawkish", "commitment": false, "risk": "skewed_upside", "width": "none"}
+Reasoning: More inflation is the tail risk -> skewed_upside. Rising inflation = hawkish. "If" structure -> interpretive.
+
+Sentence: "The forward guidance also reiterated the Committee's expectation that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run."
+{"topic": ["monetary_policy", "labor_market", "inflation"], "tense": "interpretive", "sentiment": "dovish", "commitment": false, "risk": "na", "width": "none"}
+Reasoning: Rates below normal even after mandate met = accommodative = dovish. "May" softens the commitment; condition (mandate levels) is future and unconfirmed -> false. Labor market and inflation referenced as monitoring variables alongside monetary_policy.
+
+Now classify this sentence. Return only the JSON object, no other text.
+
+Sentence: "{sentence}"
+
+JSON:
+\end{lstlisting}
 
 \section{Baseline Model Comparison}
 \label{app:baseline-comparison}
@@ -1159,9 +1325,5 @@ As a robustness check, the baseline selection was repeated using simpler forecas
   indicator for a sample spanning two ZLB episodes (2008--2015 and
   2020--2022), the macro FAVAR is retained as the baseline for all
   sentiment-augmented comparisons in the main analysis.
-\clearpage
-\section{Figures}
-\label{app:figures}
-\input{uploads/appendix_figures}
 
-\end{document} 
+\end{document}

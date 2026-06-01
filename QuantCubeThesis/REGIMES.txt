@@ -1,0 +1,38 @@
+
+\subsection{Communication Regimes and Model Diagnostics}
+
+  Rather than treating FOMC communication as a uniform stream of text, the LLM pipeline
+  classifies each sentence along two axes: its linguistic character (descriptive versus
+   interpretive) and the nature of any forward commitment (conditional versus
+  unconditional). As well, the LLM flags each meeting for the presence of elevated uncertainty or
+  asymmetric risk language. This allows the forecasting gains documented above to be
+  traced back to specific features of central-bank communication. To do this, different masks can be applied as described below. All results shown apply for the best performing model LLM 4h.
+
+  \paragraph{Descriptive versus interpretive sentences.} As discussed previously, descriptive sentences record
+  current economic conditions as facts while interpretive sentences convey the committee's
+  assessment, tone, or forward view. By only using interpretive sentences to construct the sentiment indicators, the model yields an 11.0\% RMSE improvement over the macro baseline (DM-$t = 1.23$, $p = 0.110$), compared with 14.1\% for the full document ($p = 0.008$). The
+  interpretive component therefore carries the bulk of the forecasting signal.
+  Descriptive sentences entered without interpretive context are actively harmful: the
+  descriptive-plus-conditional specification produces a 14.1\% degradation in RMSE (DM-$t
+   = -3.57$), indicating that stripped-of-tone factual language introduces noise rather
+  than signal.
+
+  \paragraph{Delphic versus Odyssean guidance.} Following
+  \citet{campbelletal2012}, monetary policy sentences are classified as Delphic
+   (conditional on incoming data) or Odyssean (unconditional commitments). As before, this can be explored by only including sentences that were labelled as expressing "unconditional commitment" (odyssean) or "none" (delphic). Interpretive
+  sentences with Delphic character (Variant C) preserve an 8.8\% improvement (DM-$t =
+  0.96$, $p = 0.168$), while Odyssean-only language (Variant D) reverses the gain to
+  $-9.0\%$. Removing meetings that contain any unconditional commitment language entirely
+   likewise worsens performance. The forecasting signal therefore lives in conditional,
+  outlook-based language — the Fed communicating how it reads the data — not in firm
+  pledges that, once made, are already priced.
+
+  \paragraph{Risk and uncertainty regimes.} Each OOS meeting is classified by whether
+  the meeting-window documents exhibit elevated uncertainty (high within-document
+  sentiment width) or asymmetric risk language (upward or downward sentiment skew).
+  During the 47 high-uncertainty meetings the sentiment model improves on the baseline
+  by 17.4%, against 11.9% in the remaining 29 calmer periods. Upward-skew meetings show
+  a 16.6% gain; downward-skew meetings show the largest improvement at 20.3%. Across all
+   three masks the pattern is the same: the model is most useful precisely when
+  macroeconomic signals are most ambiguous and the committee is most actively
+  communicating about the distribution of risks rath

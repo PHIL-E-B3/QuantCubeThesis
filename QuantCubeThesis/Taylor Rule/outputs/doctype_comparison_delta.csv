@@ -1,0 +1,33 @@
+model,arch,test,n_obs,n_oos,rmse,base_rmse,imp_pct,dm_t,dm_p,sig,method,doc_type
+LLM_all_docs,joint_pca,DM,151,76,0.2428,0.2826,14.1,2.4189,0.0078,***,LLM,All documents (combined)
+LLM_minutes,joint_pca,DM,151,76,0.2616,0.2826,7.4,1.9587,0.0251,**,LLM,Minutes
+LLM_statement,joint_pca,DM,151,76,0.2785,0.2826,1.5,0.2629,0.3963,,LLM,Statements
+LLM_speech,joint_pca,DM,151,76,0.2893,0.2826,-2.4,-0.6121,,,LLM,Speeches
+LLM_press_conf_prep,joint_pca,DM,118,59,0.304,0.3226,5.8,0.8994,0.1842,,LLM,Press conf. (prepared)
+LLM_press_conf_qa,joint_pca,DM,118,59,0.3275,0.3226,-1.5,-0.1725,,,LLM,Press conf. (Q&A)
+Gardner_all_docs,joint_pca,DM,151,76,0.3075,0.2826,-8.8,-1.9228,,,Gardner,All documents
+Gardner_minutes,joint_pca,DM,151,76,0.3078,0.2826,-8.9,-2.1316,,,Gardner,Minutes
+Gardner_statements,joint_pca,DM,151,76,0.3105,0.2826,-9.9,-1.9662,,,Gardner,Statements
+Gardner_speeches,joint_pca,DM,151,76,0.3303,0.2826,-16.9,-1.9545,,,Gardner,Speeches
+Gardner_press_conf,joint_pca,DM,118,59,0.3454,0.3226,-7.1,-0.7951,,,Gardner,Press conferences
+Sharpe_all_docs,joint_pca,DM,151,76,0.2739,0.2826,3.1,1.5039,0.0663,*,Sharpe,All documents
+Sharpe_minutes,joint_pca,DM,151,76,0.2766,0.2826,2.1,0.8509,0.1974,,Sharpe,Minutes
+Sharpe_statements,joint_pca,DM,151,76,0.2711,0.2826,4.1,0.8088,0.2093,,Sharpe,Statements
+Sharpe_speeches,joint_pca,DM,151,76,0.2867,0.2826,-1.5,-0.7302,,,Sharpe,Speeches
+Sharpe_press_conf,joint_pca,DM,118,59,0.3547,0.3226,-9.9,-0.8997,,,Sharpe,Press conferences
+LLM_all_docs,nested,CW,151,76,0.255,0.2826,9.7,3.2829,0.0005,***,LLM,All documents (combined)
+LLM_minutes,nested,CW,151,76,0.2633,0.2826,6.8,2.4953,0.0063,***,LLM,Minutes
+LLM_statement,nested,CW,151,76,0.2631,0.2826,6.9,2.99,0.0014,***,LLM,Statements
+LLM_speech,nested,CW,151,76,0.2855,0.2826,-1.0,1.6532,,,LLM,Speeches
+LLM_press_conf_prep,nested,CW,118,59,0.291,0.3226,9.8,1.6097,0.0537,*,LLM,Press conf. (prepared)
+LLM_press_conf_qa,nested,CW,118,59,0.3414,0.3226,-5.8,-0.8228,,,LLM,Press conf. (Q&A)
+Gardner_all_docs,nested,CW,151,76,0.2919,0.2826,-3.3,0.9963,,,Gardner,All documents
+Gardner_minutes,nested,CW,151,76,0.2849,0.2826,-0.8,1.937,,,Gardner,Minutes
+Gardner_statements,nested,CW,151,76,0.2789,0.2826,1.3,1.3276,0.0922,*,Gardner,Statements
+Gardner_speeches,nested,CW,151,76,0.2849,0.2826,-0.8,1.2934,,,Gardner,Speeches
+Gardner_press_conf,nested,CW,118,59,0.3298,0.3226,-2.2,0.2005,,,Gardner,Press conferences
+Sharpe_all_docs,nested,CW,151,76,0.2878,0.2826,-1.9,1.1447,,,Sharpe,All documents
+Sharpe_minutes,nested,CW,151,76,0.2882,0.2826,-2.0,-0.1968,,,Sharpe,Minutes
+Sharpe_statements,nested,CW,151,76,0.3005,0.2826,-6.4,0.1043,,,Sharpe,Statements
+Sharpe_speeches,nested,CW,151,76,0.2879,0.2826,-1.9,0.2609,,,Sharpe,Speeches
+Sharpe_press_conf,nested,CW,118,59,0.3405,0.3226,-5.6,0.3227,,,Sharpe,Press conferences

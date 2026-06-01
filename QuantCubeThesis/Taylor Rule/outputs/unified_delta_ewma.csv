@@ -1,0 +1,7 @@
+model,arch,test,n_obs,n_oos,rmse,base_rmse,imp_pct,dm_t,dm_p,sig,rmse_60,rmse_80,signal
+LLM_all_sent_raw (joint_pca),joint_pca,DM,151,76,0.2428,0.2826,14.1,2.4189,0.0078,***,0.2668,0.2096,raw
+LLM_all_sent_ewma5 (joint_pca),joint_pca,DM,151,76,0.2552,0.2826,9.7,1.1244,0.1304,,0.2807,0.2387,ewma5
+LLM_all_sent_ewma10 (joint_pca),joint_pca,DM,151,76,0.2522,0.2826,10.7,1.5506,0.0605,*,0.2795,0.2295,ewma10
+LLM_all_sent_raw (nested),nested,CW,151,76,0.255,0.2826,9.7,3.2829,0.0005,***,0.2827,0.224,raw
+LLM_all_sent_ewma5 (nested),nested,CW,151,76,0.2718,0.2826,3.8,3.5243,0.0002,***,0.2971,0.235,ewma5
+LLM_all_sent_ewma10 (nested),nested,CW,151,76,0.2822,0.2826,0.1,3.4473,0.0003,***,0.3104,0.2447,ewma10

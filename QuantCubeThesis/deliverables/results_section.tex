@@ -1,0 +1,254 @@
+% ============================================================
+%  §4  Empirical Results
+% ============================================================
+
+\section{Empirical Results}
+
+This section presents the out-of-sample (OOS) forecasting results for the three sentiment methods --- LLM, Gardner, and Sharpe --- against a macro-only FAVAR baseline. The dependent variable throughout is $\Delta\text{EffRate}_{t+1} = \text{EffRate}_{t+1} - \text{EffRate}_t$, the one-meeting-ahead change in the shadow federal funds rate. All OOS estimates use an expanding window initialised at 50\% of the sample ($N=151$ FOMC meetings, 2007--2025), yielding 76 OOS predictions. The baseline is a macro-only FAVAR with principal components from seven macro-financial regressors (inflation deviation, unemployment gap, GDP growth, VIX, CFNAI, implied FFR, effective rate).
+
+% ============================================================
+%  4.1  Predictive correlations
+% ============================================================
+
+\subsection{Predictive Correlations}
+
+Table~\ref{tab:correlations} reports unconditional correlations of the sentiment indicators and macro regressors with the dependent variable. The LLM aggregate sentiment score achieves a Pearson correlation of $r = 0.297$ ($p < 0.001$), just below inflation deviation ($r = 0.303$), and surpasses it on Spearman rank correlation ($\rho = 0.327$ vs $0.140$). Gardner's aggregate carries a modest but significant signal ($r = 0.141$, $\rho = 0.248$). Sharpe's net word count is indistinguishable from zero on both metrics. These raw correlations motivate the subsequent model comparison but do not control for the macro baseline.
+
+\begin{table}[ht]
+\centering
+\caption{Bivariate correlations with $\Delta\text{EffRate}_{t+1}$ (N=208--216, 1999--2025).}
+\label{tab:correlations}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Variable & Pearson $r$ & $p$ & Spearman $\rho$ & $p$ \\
+\midrule
+LLM sentiment (total)     & $+0.297$ & $<0.001$*** & $+0.327$ & $<0.001$*** \\
+Gardner total             & $+0.141$ & $0.038$**   & $+0.248$ & $<0.001$*** \\
+Sharpe net                & $+0.045$ & $0.511$     & $-0.056$ & $0.415$     \\
+\midrule
+Inflation dev.\ from target & $+0.303$ & $<0.001$*** & $+0.140$ & $0.040$** \\
+Unemployment gap          & $-0.179$ & $0.008$***  & $-0.258$ & $<0.001$*** \\
+GDP growth                & $+0.120$ & $0.079$*    & $+0.069$ & $0.314$     \\
+VIX                       & $-0.234$ & $0.001$***  & $-0.313$ & $<0.001$*** \\
+CFNAI                     & $+0.100$ & $0.145$     & $+0.322$ & $<0.001$*** \\
+Implied FFR               & $-0.044$ & $0.519$     & $+0.028$ & $0.681$     \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figures~\ref{fig:llm_ts}--\ref{fig:sharpe_ts} plot each sentiment indicator alongside $\Delta\text{EffRate}_{t+1}$ over the full sample. The LLM series tracks the sign and magnitude of rate changes closely, with sharp negative readings preceding the 2008--2009 easing cycle, near-zero readings during the ZLB, and a pronounced hawkish spike in 2022. Gardner's signal is directionally consistent but noisier and misses several turning points. Sharpe's series shows no coherent relationship with policy changes.
+
+% ============================================================
+%  4.2  Testing framework
+% ============================================================
+
+\subsection{Model Specifications: Steps 4a--4h}
+
+Rather than testing a single model, we evaluate eight progressively richer integration strategies, summarised in Table~\ref{tab:specs}. Each specification adds sentiment to the macro FAVAR factors and is evaluated against the same baseline using the same expanding-window protocol. The goal is to identify the architecture that best balances expressivity against overfitting at $n_{\text{OOS}} = 76$.
+
+\begin{table}[ht]
+\centering
+\caption{Sentiment integration specifications (4a--4h). All include macro FAVAR factors.}
+\label{tab:specs}
+\small
+\begin{tabular}{>{\bfseries}lp{4.2cm}p{6.8cm}}
+\toprule
+Step & Name & Description \\
+\midrule
+4a & Total sentiment       & Adds aggregate hawkishness score (\texttt{sent\_total}) as a single additional regressor. \\
+4b & Dispersion \& consensus & Two related but distinct channels. \textit{Dispersion}: adds the within-meeting standard deviation (or variance) of sentence-level sentiment scores; high values signal internal disagreement. \textit{Consensus}: for dictionary methods, adds $|\bar{s}| = |\sum s_i|/n$, the average absolute magnitude of keyword matches; high values indicate that all matches point uniformly in one direction. Also tested as matched topic$\times$macro interactions. \\
+4c & All topics            & Adds all five topic-level scores (\textit{inflation, labour market, economic activity, financial conditions, monetary policy}) separately. \\
+4d & Topic PCA             & Compresses the five topic scores into latent factors via PCA before inclusion, reducing collinearity. \\
+4e & Total interactions    & Adds \texttt{sent\_total} $\times$ each macro variable; tests whether the marginal impact of sentiment is regime-dependent. \\
+4f & Matched interactions  & Adds theoretically motivated topic$\times$macro pairs (e.g.\ \texttt{sent\_inflation} $\times$ inflation deviation; \texttt{sent\_labour} $\times$ unemployment gap). \\
+4g & Novelty               & Replaces sentiment with the first difference of each sentiment score ($\Delta\texttt{sent\_x} = \texttt{sent\_x}_t - \texttt{sent\_x}_{t-1}$); tests whether \textit{changes} in the Fed's tone, rather than its level, predict policy. \\
+4h & \textbf{Joint PCA}    & Runs PCA jointly on macro variables and sentiment inputs, allowing factors to span both information sets simultaneously. Variants: \texttt{total} (one sentiment channel), \texttt{topics} (five topic channels), \texttt{all\_sent} (all channels including SD). \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================
+%  4.3  Main OOS results
+% ============================================================
+
+\subsection{Out-of-Sample Forecasting Performance}
+
+Table~\ref{tab:oos_main} reports the best-performing model for each method and architecture. Two statistical tests are used depending on model structure: the Diebold-Mariano (DM) test for joint-PCA models, which are non-nested with the baseline, and the Clark-West (CW) test for nested FAVAR models, where the baseline is a restricted version of the full model. Using DM for nested models would introduce a finite-sample downward bias in the test statistic; using CW for non-nested models would over-reject the null. The two tests are therefore not directly comparable in terms of significance levels.
+
+\begin{table}[ht]
+\centering
+\caption{Best model per method and architecture. DV: $\Delta\text{EffRate}_{t+1}$. Baseline RMSE = 0.2826. Expanding window, $N = 151$, 76 OOS predictions.}
+\label{tab:oos_main}
+\small
+\begin{tabular}{llllcccc}
+\toprule
+Method & Architecture & Test & Best model & RMSE & Improv. & Stat & Sig \\
+\midrule
+Naive-zero      & —           & —  & —                      & 0.2753 & ref.   & —      &     \\
+Market (Kuttner)& —           & —  & —                      & 0.2606 & +5.3\% & —      &     \\
+Macro FAVAR     & —           & —  & baseline               & 0.2826 & baseline & —    &     \\
+\midrule
+LLM             & Joint PCA   & DM & \texttt{all\_sent}     & \textbf{0.2428} & \textbf{+14.1\%} & 2.419 & *** \\
+LLM             & Nested FAVAR& CW & \texttt{topics}        & \textbf{0.2545} & \textbf{+9.9\%}  & 3.245 & *** \\
+Gardner         & Nested FAVAR& CW & \texttt{matched}       & 0.2759          & +2.4\%           & 2.616 & *** \\
+Gardner         & Joint PCA   & DM & \texttt{total}         & 0.2904          & $-$2.8\%         & $-$0.732 &  \\
+Sharpe          & Nested FAVAR& CW & \texttt{cons (all docs, ewma10)} & 0.2733 & +3.3\%  & 1.428 & *   \\
+Sharpe          & Joint PCA   & DM & \texttt{all\_sent}     & 0.2739          & +3.1\%           & 1.504 & *  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:oos_subwindow} shows how LLM performance evolves across sub-windows of the OOS period, which correspond to the latter fraction of predictions (e.g.\ OOS80 = predictions in the final 20\% of meetings).
+
+\begin{table}[ht]
+\centering
+\caption{Sub-window RMSE for LLM models vs baseline. OOS$x$ = predictions where $t \geq x\% \times N$.}
+\label{tab:oos_subwindow}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Model & RMSE$_{\exp}$ & OOS60 & OOS70 & OOS80 & OOS90 \\
+\midrule
+Macro FAVAR baseline       & 0.2826 & 0.3136 & 0.3130 & 0.2645 & 0.1681 \\
+LLM joint PCA (\texttt{all\_sent})  & 0.2428*** & 0.2668*** & 0.2574*** & 0.2096* & 0.1296 \\
+LLM nested FAVAR (\texttt{topics})  & 0.2545*** & 0.2821*** & 0.2802*** & 0.2267** & 0.1449 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\smallskip
+
+LLM joint PCA (\texttt{all\_sent}) achieves the lowest overall RMSE (0.243, $+14.1\%$, DM $p = 0.008$) and retains significance through OOS70. LLM nested FAVAR (\texttt{topics}) achieves $+9.9\%$ under CW ($p = 0.001$) and retains significance through OOS80. These two results, using different architectures and different test statistics appropriate to their structure, point to the same conclusion: LLM sentiment carries statistically reliable predictive information about future rate changes beyond the macro baseline. No other method achieves significance under its correct test in the joint-PCA architecture. Gardner \texttt{nest\_matched} passes CW (***) but requires a specific nested architecture with theoretically motivated interaction terms; its joint-PCA variants all show negative DM statistics. Sharpe is at best marginal (*) and only in joint PCA.
+
+The interaction and novelty variants (steps 4e--4g) uniformly underperform the simpler specifications for all three methods, consistent with overfitting at $n_{\text{OOS}} = 76$. The one exception is \texttt{Gardner\_nest\_matched}, which benefits from the matched-interaction structure but fails to generalise to joint PCA.
+
+% ============================================================
+%  4.4  Robustness: regime analysis
+% ============================================================
+
+\subsection{Robustness: Regime Analysis}
+
+A natural concern is that the LLM result is driven by a specific economic episode. The OOS period spans five distinct regimes: Pre-COVID (Jan 2019--Feb 2020, $n = 9$), COVID shock (Mar--Jun 2020, $n = 4$), zero lower bound (Jul 2020--Feb 2022, $n = 13$), hiking cycle (Mar 2022--Jul 2023, $n = 12$), and Peak+Cuts (Aug 2023 onward, $n = 18$).
+
+Table~\ref{tab:regimes} reports leave-one-regime-out DM tests. Excluding any single regime leaves the result significant at ** or ***, with improvements ranging from 11.3\% to 15.5\%. The improvement is actually larger when ZLB is dropped (13.8\%) and when the hiking cycle is excluded (11.3\%), indicating the result does not depend on the high-volatility periods that might mechanically favour sentiment models.
+
+\begin{table}[ht]
+\centering
+\caption{Leave-one-regime-out DM test, \texttt{LLM\_all\_sent} vs macro FAVAR baseline.}
+\label{tab:regimes}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Excluded regime & $N$ & RMSE & Base RMSE & Improv. & DM-$t$ & Sig \\
+\midrule
+None (full sample)              & 76 & 0.2428 & 0.2826 & +14.1\% & 2.419 & *** \\
+Pre-COVID (2019--02/2020)       & 67 & 0.2229 & 0.2638 & +15.5\% & 2.018 & **  \\
+COVID shock (03--06/2020)       & 72 & 0.2455 & 0.2862 & +14.2\% & 2.386 & *** \\
+ZLB (07/2020--02/2022)          & 63 & 0.2126 & 0.2467 & +13.8\% & 1.689 & **  \\
+Hiking (03/2022--07/2023)       & 64 & 0.2318 & 0.2614 & +11.3\% & 2.244 & **  \\
+Peak+Cuts (08/2023--)           & 58 & 0.2678 & 0.3111 & +13.9\% & 2.386 & *** \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+As a further check, a moving block bootstrap with 5,000 replications imposes the null of equal forecast accuracy by centring the loss differential series. The bootstrapped $p$-value is below 0.01 at every block length tested ($L \in \{3, 4, 5, 8, 9\}$), and the Harvey-Leybourne-Newbold small-sample corrected statistic confirms $p = 0.004$ (***). The DM result is therefore not an artefact of parametric distributional assumptions.
+
+% ============================================================
+%  4.5  Document type analysis
+% ============================================================
+
+\subsection{Document Type Analysis}
+
+Table~\ref{tab:doctype} disaggregates the LLM result by document source. Minutes and the combined corpus are the only document types that achieve statistical significance in the joint-PCA architecture. Statements are significant only in the nested FAVAR under CW. Speeches and press-conference Q\&A add noise rather than signal, with negative improvement figures.
+
+\begin{table}[ht]
+\centering
+\caption{LLM performance by document type. DM test (joint PCA) and CW test (nested FAVAR). DV: $\Delta\text{EffRate}_{t+1}$, $N = 151$ except press conferences ($N = 118$, post-2011).}
+\label{tab:doctype}
+\small
+\begin{tabular}{lcccc|cccc}
+\toprule
+& \multicolumn{4}{c|}{Joint PCA (DM test)} & \multicolumn{4}{c}{Nested FAVAR (CW test)} \\
+Document type & RMSE & Improv. & $t$ & Sig & RMSE & Improv. & $t$ & Sig \\
+\midrule
+All documents (combined) & \textbf{0.2428} & \textbf{+14.1\%} & 2.419 & *** & \textbf{0.2550} & \textbf{+9.7\%}  & 3.283 & *** \\
+Minutes                  & 0.2616          & +7.4\%           & 1.959 & **  & 0.2633          & +6.8\%           & 2.495 & *** \\
+Statements               & 0.2785          & +1.5\%           & 0.263 &     & 0.2631          & +6.9\%           & 2.990 & *** \\
+Speeches                 & 0.2893          & $-$2.4\%         & $-$0.612 &  & 0.2855          & $-$1.0\%         & 1.653 &     \\
+Press conf.\ (prepared)  & 0.3040          & +5.8\%           & 0.899 &     & 0.2910          & +9.8\%           & 1.610 & *   \\
+Press conf.\ (Q\&A)      & 0.3275          & $-$1.5\%         & $-$0.173 &  & 0.3414          & $-$5.8\%         & $-$0.823 &  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The ranking reflects the deliberative depth of each document type. Minutes record the full discussion at each meeting, capturing the committee's collective assessment of the macro outlook and the balance of risks; their richness translates directly into predictive power. Statements are the official policy announcement, terse by design and well-anticipated by markets, yet their structured language about the stance of policy carries incremental signal in the nested FAVAR where it is not compressed with macro variables into joint factors. Speeches represent individual Fed governor views and lack the consensus character of the Minutes; they add idiosyncratic noise. Press-conference Q\&A is noisy by construction: the Chair responds to unpredictable questions in real time, and the resulting text has lower information density per sentence. The superiority of the combined corpus over any single document type reflects the PCA's role as an information aggregator: the joint factor structure extracts latent dimensions that span all source types simultaneously.
+
+% ============================================================
+%  4.6  Normalisation
+% ============================================================
+
+\subsection{Normalisation}\label{sec:normalisation}
+
+For the LLM, individual sentence scores are aggregated to the meeting level by averaging across sentences, with an optional winsorisation of extreme values (threshold $\sigma \in \{1.0, 1.5, 2.0, 2.5, 3.0\}$). OOS results are stable across all thresholds; the best RMSE is achieved at $\sigma = 1.0$ but the DM significance is retained at every level. Once inputs enter the joint PCA, meeting-level normalisation is absorbed into the factor loadings and becomes irrelevant to OOS performance.
+
+For Gardner, the original word-count normalisation (dividing each category score by $\sqrt{\text{word count}}$ of the filtered sentence) is used, consistent with \citet{gardner2022words}. For Sharpe, z-score standardisation at the meeting level slightly outperforms word-count normalisation. Neither choice materially changes the ordering of results across methods.
+
+% ============================================================
+%  4.7  Topic decomposition
+% ============================================================
+
+\subsection{Topic Decomposition}
+
+To identify which LLM sentiment channels drive the predictive signal, the 4h joint-PCA architecture is re-estimated restricting inputs to subsets of topic scores. Table~\ref{tab:topics} reports OOS RMSE and CW statistics for the level of the shadow rate (for which OOS80 is the informative metric given the high persistence of the level).
+
+\begin{table}[ht]
+\centering
+\caption{LLM joint PCA by topic subset. DV: shadow rate level, OOS80. Baseline OOS80 RMSE = 0.530.}
+\label{tab:topics}
+\small
+\begin{tabular}{lllcc}
+\toprule
+Variant & Sentiment inputs & OOS80 RMSE & CW-$t$ & Sig \\
+\midrule
+Baseline (macro only)    & —                                                  & 0.530 & —     &     \\
+\texttt{total}           & \texttt{sent\_total}                               & \textbf{0.255} & 5.083 & *** \\
+\texttt{inf\_mp}         & \texttt{sent\_inflation} + \texttt{sent\_monetary\_policy} & 0.303 & 4.353 & *** \\
+\texttt{labor}           & \texttt{sent\_labor\_market}                       & 0.348 & 5.965 & *** \\
+\texttt{all\_topics}     & All five topic scores                              & 0.266 & 3.002 &     \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The aggregate score (\texttt{total}) achieves the best OOS RMSE (0.255, CW ***). Among individual topic subsets, inflation and monetary policy sentiment together reach 0.303 (CW ***), while labour market sentiment alone reaches 0.348 (CW ***). Supplying all five topic scores jointly (0.266) loses significance because the added dimensionality invites overfitting at $n_{\text{OOS}} = 76$. The result points to inflation and forward-guidance language as the primary sources of predictive information --- channels through which markets read the Fed's reaction function most directly.
+
+% ============================================================
+%  4.8  Informational wedge: Tealbook vs. SPF
+% ============================================================
+
+\subsection{Robustness: Tealbook--SPF Informational Wedge}
+
+One concern is that the LLM signal merely proxies for the Fed's private information advantage: if the Fed knows something about the economy that neither the public nor the macro variables capture, its communication may inadvertently signal that information, and the predictive power of LLM sentiment would reflect the Fed's superior data rather than any added value of the annotation approach.
+
+To test this, we augment the macro FAVAR with the Tealbook--SPF wedge: the difference between the Fed's internal Tealbook forecast and the public SPF consensus for unemployment ($\Delta\hat{u}$), real GDP growth ($\Delta\hat{g}$), and inflation ($\Delta\hat{\pi}$). These wedges are publicly available with a five-year release lag (coverage 2011--2020, $N = 78$). Table~\ref{tab:wedge} shows CW statistics for three wedge specifications relative to the macro FAVAR baseline on this restricted sample.
+
+\begin{table}[ht]
+\centering
+\caption{Tealbook--SPF wedge regressions. DV: $\Delta\text{EffRate}_{t+1}$. $N = 78$, init = 50\% (39 obs). CW test vs macro FAVAR baseline (RMSE = 0.246).}
+\label{tab:wedge}
+\small
+\begin{tabular}{llcccc}
+\toprule
+Wedge & Specification & RMSE & Improv. & CW-$t$ & Sig \\
+\midrule
+UNEMP & Add wedge            & 0.287 & $-$16.6\% & $-$0.096 & \\
+UNEMP & + matched interaction & 0.269 & $-$9.1\%  & $-$1.215 & \\
+RGDP  & Add wedge            & 0.270 & $-$9.4\%  & $-$1.467 & \\
+RGDP  & + matched interaction & 0.279 & $-$13.1\% & $-$1.374 & \\
+PCPI  & Add wedge            & 0.244 & +1.1\%    & 1.306    & * \\
+PCPI  & + matched interaction & \textbf{0.240} & \textbf{+2.6\%} & 1.388 & * \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The unemployment and GDP wedges consistently hurt forecast accuracy, suggesting that the Fed's private information advantage on real-activity variables is already embedded in the publicly available macro variables used in the baseline. The inflation wedge carries a weak positive signal (* at 10\%), consistent with the view that the Fed has some incremental inflation information not yet in public data. However, the overall evidence does not support the interpretation that the LLM predictive advantage is driven by private information leakage: the LLM improves by 14.1\% over the macro baseline (***) on a sample where the wedge adds at most 2.6\% (*). The two effects are additive, not substitutes.
